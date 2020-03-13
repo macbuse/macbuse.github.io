@@ -1,0 +1,93 @@
+\begin{thebibliography}{10}
+
+\bibitem{b-c-17}
+Mark~C. Bell.
+\newblock curver (computer software).
+\newblock \url{pypi.python.org/pypi/curver}, 2017-2019.
+\newblock Version 0.3.5.
+
+\bibitem{b-esmt-19}
+Mark~C Bell.
+\newblock Experimental statistics for mirzakhani's theorem.
+\newblock arXiv preprint 1910.08155, 2019.
+
+\bibitem{bw-ptacg-16}
+Mark~C Bell and Richard~CH Webb.
+\newblock Polynomial-time algorithms for the curve graph.
+\newblock arXiv preprint 1609.09392, 2016.
+
+\bibitem{bmm-egead-16}
+Joan Birman, Dan Margalit, and William Menasco.
+\newblock Efficient geodesics and an effective algorithm for distance in the
+  complex of curves.
+\newblock {\em Mathematische Annalen}, 366(3-4):1253--1279, 2016.
+
+\bibitem{BS}
+J.~Bonsante, F.~Schlenker.
+\newblock Maximal surfaces and the universal teichmüller spac.
+\newblock {\em Invent. math.}, 182:279–333, 2010.
+
+\bibitem{FLP}
+Collectif.
+\newblock {\em Travaux de Thurston sur les surfaces - S\'eminaire Orsay}.
+\newblock Number 66-67 in Ast\'erisque. Soci\'et\'e math\'ematique de France,
+  1979.
+
+\bibitem{snap}
+D.~Coulson, Oliver Goodman, and C.~Hodgson.
+\newblock Computing arithmetic invariants of 3-manifolds.
+\newblock {\em Experimental Mathematics}, 9, 09 1998.
+
+\bibitem{dl-cginc-19}
+Vincent Despr{\'e} and Francis Lazarus.
+\newblock Computing the geometric intersection number of curves.
+\newblock {\em Journal of the ACM (JACM)}, 66(6):1--49, 2019.
+
+\bibitem{es-wqpp-18}
+Louis Esperet and Mat{\v{e}}j Stehl{\'\i}k.
+\newblock The width of quadrangulations of the projective plane.
+\newblock {\em Journal of Graph Theory}, 89(1):76--88, 2018.
+
+\bibitem{glm-cdehm-18}
+Jonah Gaster, Brice Loustau, and L{\'e}onard Monsaingeon.
+\newblock Computing discrete equivariant harmonic maps.
+\newblock arXiv preprint 1810.11932, 2018.
+
+\bibitem{km-nevvp-18}
+Sadayoshi Kojima and Greg McShane.
+\newblock Normalized entropy versus volume for pseudo-anosovs.
+\newblock {\em Geometry \& Topology}, 22(4):2403--2426, 2018.
+
+\bibitem{snappy}
+Nathan~Dunfield Marc~Culler and Matthias Goerner.
+\newblock Snappy (computer software).
+\newblock \url{https://snappy.math.uic.edu/}, July 2019.
+\newblock Version 2.7.
+
+\bibitem{mm-sosr-19}
+Hidetoshi Masai and Greg McShane.
+\newblock On systoles and ortho spectrum rigidity.
+\newblock arXiv preprint 1909.09829, 2019.
+
+\bibitem{MM}
+Y.~Masur, H.~Minsky.
+\newblock Geometry of the complex of curves i: Hyperbolicity.
+\newblock {\em Invent. math.}, 138:103–149, 1999.
+
+\bibitem{mostow}
+G.~D. MOSTOW.
+\newblock {\em Strong Rigidity of Locally Symmetric Spaces. (AM-78)}.
+\newblock Princeton University Press, 1973.
+
+\bibitem{Thu1}
+William~P. Thurston.
+\newblock Hyperbolic structures on 3-manifolds i: Deformation of acylindrical
+  manifolds.
+\newblock {\em Annals of Mathematics}, 124(2):203--246, 1986.
+
+\bibitem{wolf}
+Michael Wolf.
+\newblock The teichmüller theory of harmonic maps.
+\newblock {\em J. Differential Geom.}, 29(2):449--479, 1989.
+
+\end{thebibliography}

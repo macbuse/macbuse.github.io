@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: TOFU.aux
+The style file: plain.bst
+Database file #1: bibTofu.bib
+Name 1 in "Marc Culler, Nathan Dunfield, and Matthias Goerner" has a comma at the end for entry snappy
+while executing---line 1049 of file plain.bst
+Name 1 in "Marc Culler, Nathan Dunfield, and Matthias Goerner" has a comma at the end for entry snappy
+while executing---line 1090 of file plain.bst
+You've used 17 entries,
+            2118 wiz_defined-function locations,
+            609 strings with 6171 characters,
+and the built_in function-call counts, 4601 in all, are:
+= -- 468
+> -- 188
+< -- 1
++ -- 77
+- -- 58
+* -- 292
+:= -- 817
+add.period$ -- 54
+call.type$ -- 17
+change.case$ -- 78
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 160
+empty$ -- 367
+format.name$ -- 58
+if$ -- 935
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 13
+newline$ -- 90
+num.names$ -- 34
+pop$ -- 64
+preamble$ -- 1
+purify$ -- 63
+quote$ -- 0
+skip$ -- 112
+stack$ -- 0
+substring$ -- 288
+swap$ -- 14
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 64
+warning$ -- 0
+while$ -- 48
+width$ -- 19
+write$ -- 186
+(There were 2 error messages)

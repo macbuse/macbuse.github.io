@@ -1,0 +1,13 @@
+@article{10.2307/1971277,
+ ISSN = {0003486X},
+ URL = {http://www.jstor.org/stable/1971277},
+ author = {William P. Thurston},
+ journal = {Annals of Mathematics},
+ number = {2},
+ pages = {203--246},
+ publisher = {Annals of Mathematics},
+ title = {Hyperbolic Structures on 3-Manifolds I: Deformation of Acylindrical Manifolds},
+ volume = {124},
+ year = {1986}
+}
+

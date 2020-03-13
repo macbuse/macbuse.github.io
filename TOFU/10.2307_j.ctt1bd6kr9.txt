@@ -1,0 +1,10 @@
+@book{10.2307/j.ctt1bd6kr9,
+ ISBN = {9780691081366},
+ URL = {http://www.jstor.org/stable/j.ctt1bd6kr9},
+ abstract = {Locally symmetric spaces are generalizations of spaces of constant curvature. In this book the author presents the proof of a remarkable phenomenon, which he calls "strong rigidity": this is a stronger form of the deformation rigidity that has been investigated by Selberg, Calabi-Vesentini, Weil, Borel, and Raghunathan.The proof combines the theory of semi-simple Lie groups, discrete subgroups, the geometry of E. Cartan's symmetric Riemannian spaces, elements of ergodic theory, and the fundamental theorem of projective geometry as applied to Tit's geometries. In his proof the author introduces two new notions having independent interest: one is "pseudo-isometries"; the other is a notion of a quasi-conformal mapping over the division algebra K (K equals real, complex, quaternion, or Cayley numbers). The author attempts to make the account accessible to readers with diverse backgrounds, and the book contains capsule descriptions of the various theories that enter the proof.},
+ author = {G. D. MOSTOW},
+ publisher = {Princeton University Press},
+ title = {Strong Rigidity of Locally Symmetric Spaces. (AM-78)},
+ year = {1973}
+}
+

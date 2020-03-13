@@ -1,0 +1,208 @@
+% This file was created with JabRef 2.10.
+% Encoding: ISO-8859-1
+
+@article{wolf,
+author = "Wolf, Michael",
+doi = "10.4310/jdg/1214442885",
+fjournal = "Journal of Differential Geometry",
+journal = "J. Differential Geom.",
+number = "2",
+pages = "449--479",
+publisher = "Lehigh University",
+title = "The Teichmüller theory of harmonic maps",
+url = "https://doi.org/10.4310/jdg/1214442885",
+volume = "29",
+year = "1989"
+}
+
+@article{BS,
+author = {Bonsante, F. Schlenker,J.},
+journal = "Invent. math.",
+pages = "279–333",
+title = "Maximal surfaces and the universal Teichmüller spac.",
+volume = "182",
+year = "2010"
+}
+
+ J. Maximal surfaces and the universal Teichmüller space.  ,  (2010).
+
+@book{mostow,
+ ISBN = {9780691081366},
+ URL = {http://www.jstor.org/stable/j.ctt1bd6kr9},
+ author = {G. D. MOSTOW},
+ publisher = {Princeton University Press},
+ title = {Strong Rigidity of Locally Symmetric Spaces. (AM-78)},
+ year = {1973}
+}
+
+
+@article{snap,
+author = {Coulson, D. and Goodman, Oliver and Hodgson, C.},
+year = {1998},
+month = {09},
+pages = {},
+title = {Computing Arithmetic Invariants Of 3-Manifolds},
+volume = {9},
+journal = {Experimental Mathematics}
+}
+
+@article{MM,
+author = {Masur, H. Minsky, Y.},
+year = {1999},
+
+pages = {103–149},
+title = {Geometry of the complex of curves I: Hyperbolicity.},
+volume = {138},
+journal = {Invent. math.}
+}
+
+
+@article{Thu1,
+ ISSN = {0003486X},
+ URL = {http://www.jstor.org/stable/1971277},
+ author = {William P. Thurston},
+ journal = {Annals of Mathematics},
+ number = {2},
+ pages = {203--246},
+ publisher = {Annals of Mathematics},
+ title = {Hyperbolic Structures on 3-Manifolds I: Deformation of Acylindrical Manifolds},
+ volume = {124},
+ year = {1986}
+}
+
+@book{FLP,
+     author = {Collectif},
+     title = {Travaux de Thurston sur les surfaces - S\'eminaire Orsay},
+     series = {Ast\'erisque},
+     publisher = {Soci\'et\'e math\'ematique de France},
+     number = {66-67},
+     year = {1979},
+     zbl = {0406.00016},
+     language = {mul},
+     url = {http://www.numdam.org/item/AST_1979__66-67_}
+}
+
+
+@Misc{b-c-17,
+  Title                    = {curver (computer software)},
+
+  Author                   = {Mark C. Bell},
+  HowPublished             = {\url{pypi.python.org/pypi/curver}},
+  Note                     = {Version 0.3.5.},
+  Year                     = {2017-2019},
+
+  Owner                    = {lazarusf},
+  Timestamp                = {2020.02.28}
+}
+
+
+@Misc{snappy,
+  Title                    = {SnapPy (computer software)},
+
+  Author                   = { Marc Culler, Nathan Dunfield, and Matthias Goerner},
+  HowPublished             = {\url{https://snappy.math.uic.edu/}},
+  Note                     = {Version 2.7},
+  Year                     = {July 2019}
+
+}
+
+@Unpublished{b-esmt-19,
+  Title                    = {Experimental statistics for Mirzakhani's Theorem},
+  Author                   = {Bell, Mark C},
+  Note                     = {arXiv preprint 1910.08155},
+  Year                     = {2019},
+
+  Owner                    = {lazarusf},
+  Timestamp                = {2020.02.28},
+  Url                      = {https://arxiv.org/abs/1910.08155}
+}
+
+@Unpublished{bw-ptacg-16,
+  Title                    = {Polynomial-time algorithms for the curve graph},
+  Author                   = {Bell, Mark C and Webb, Richard CH},
+  Note                     = {arXiv preprint 1609.09392},
+  Year                     = {2016},
+
+  Owner                    = {lazarusf},
+  Timestamp                = {2020.02.28},
+  Url                      = {https://arxiv.org/pdf/1609.09392}
+}
+
+@Article{bmm-egead-16,
+  Title                    = {Efficient geodesics and an effective algorithm for distance in the complex of curves},
+  Author                   = {Birman, Joan and Margalit, Dan and Menasco, William},
+  Journal                  = {Mathematische Annalen},
+  Year                     = {2016},
+  Number                   = {3-4},
+  Pages                    = {1253--1279},
+  Volume                   = {366},
+
+  Owner                    = {lazarusf},
+  Publisher                = {Springer},
+  Timestamp                = {2020.02.28}
+}
+
+@Article{dl-cginc-19,
+  Title                    = {Computing the geometric intersection number of curves},
+  Author                   = {Despr{\'e}, Vincent and Lazarus, Francis},
+  Journal                  = {Journal of the ACM (JACM)},
+  Year                     = {2019},
+  Number                   = {6},
+  Pages                    = {1--49},
+  Volume                   = {66},
+
+  Owner                    = {lazarus},
+  Publisher                = {ACM New York, NY, USA},
+  Timestamp                = {2020.02.04}
+}
+
+@Article{es-wqpp-18,
+  Title                    = {The width of quadrangulations of the projective plane},
+  Author                   = {Esperet, Louis and Stehl{\'\i}k, Mat{\v{e}}j},
+  Journal                  = {Journal of Graph Theory},
+  Year                     = {2018},
+  Number                   = {1},
+  Pages                    = {76--88},
+  Volume                   = {89},
+
+  Owner                    = {lazarusf},
+  Publisher                = {Wiley Online Library},
+  Timestamp                = {2020.02.28}
+}
+
+@Unpublished{glm-cdehm-18,
+  Title                    = {Computing discrete equivariant harmonic maps},
+  Author                   = {Gaster, Jonah and Loustau, Brice and Monsaingeon, L{\'e}onard},
+  Note                     = {arXiv preprint 1810.11932},
+  Year                     = {2018},
+
+  Owner                    = {lazarusf},
+  Timestamp                = {2020.02.28},
+  Url                      = {https://arxiv.org/abs/1810.11932}
+}
+
+@Article{km-nevvp-18,
+  Title                    = {Normalized entropy versus volume for pseudo-Anosovs},
+  Author                   = {Kojima, Sadayoshi and McShane, Greg},
+  Journal                  = {Geometry \& Topology},
+  Year                     = {2018},
+  Number                   = {4},
+  Pages                    = {2403--2426},
+  Volume                   = {22},
+
+  Owner                    = {lazarusf},
+  Publisher                = {Mathematical Sciences Publishers},
+  Timestamp                = {2020.02.28}
+}
+
+@Unpublished{mm-sosr-19,
+  Title                    = {On systoles and ortho spectrum rigidity},
+  Author                   = {Masai, Hidetoshi and McShane, Greg},
+  Note                     = {arXiv preprint 1909.09829},
+  Year                     = {2019},
+
+  Owner                    = {lazarusf},
+  Timestamp                = {2020.02.28},
+  Url                      = {https://arxiv.org/abs/1909.09829}
+}
+
