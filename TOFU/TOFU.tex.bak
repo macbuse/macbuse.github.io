@@ -29,7 +29,12 @@
 
 \begin{document}
 
+
+
+
 \begin{center}
+\line(1,0){450}
+\vskip{.2in}
 {\huge \bf ToFu: Topologie eFfective et calcUl}
 \bigskip
 
@@ -39,10 +44,9 @@ Mathematics: from Fundamentals to Applications
 porteurs du projet:  {\bf Greg McShane} (IF) et {\bf Francis Lazarus} (G-SCOP)
 \end{center}
 
-\section{Constitution de l'équipe}
-Les {\bf huit membres} (7 permanents et 1 doctorant : Joanny Perret) du projet sont
-répartis sur les laboratoire Grenoblois : \\
-Institut Fourier (IF) et G-SCOP.
+\section{Presentation of the team}
+The team consists of eight members in total (7 tenured faculty and one PhD student : Joanny Perret) du projet belonging to two  laboraties on the Grenoble campus : \\
+Institut Fourier (IF) and G-SCOP.
 
 \smallskip
 \vspace{.5cm}
@@ -245,7 +249,7 @@ algorithm~\cite{bw-ptacg-16}, Leasure and Shackleton algorithms.
 
 
 
-So studing the mapping class group of a surface 
+So studying the mapping class group of a surface 
 requires 
 an understanding 
 of the lengths of closed simple geodesics
@@ -256,7 +260,8 @@ but has also a fundamentally
 algorithmic approach.
 This fits well with the  goal of our project -- combining the knowledge of theoretical
 mathematicians and computer scientists in order to study questions in
-geometry which have a combinatorial and algorithmic nature.  
+geometry
+which have both a combinatorial and algorithmic nature.  
 
 
 
@@ -272,8 +277,9 @@ can associate to a surface.
 \section{Objectives}
 We now describe the main research challenges that we intend to tackle. 
 
-\begin{enumerate}
-\item Calculate the length
+
+\subsection{Combinatorial length and rigidity}
+ Calculate the length
 spectrum of a combinatorial surface, that is a graph which is
 cellularly embedded in a surface.  For such a graph one associates a
 length to each homotopy class of loops which is just the minimal
@@ -282,7 +288,10 @@ it. The combinatorial length spectrum is the collection of all these
 lengths. One can study the inverse spectral problem: to what extent
 does this spectrum determine the surface? Exploring the connection of the length spectrum with graph Laplacian spectrum could be a promising angle of attack. Another intriguing question relates to the action of the mapping class group on this combinatorial length spectrum. Indeed, an automorphism of the
  surface permutes the homotopy class of curves, hence the length spectrum. Does the discrete nature of the graph metric induce specific properties of this action? In other words, can we learn the graph structure from this action?
-\item Lazarus and Damiand have
+
+\subsection{Algorithmic study of lengths}
+
+Lazarus and Damiand have
 added a package to the C++ library  CGAL which tests if two curves are
 in the same free homotopy class. The algorithm test has linear
 complexity: in about 30 seconds one can test two paths of
@@ -294,7 +303,10 @@ this one can count the number of simple curves of length less than a given thres
 and hopefully check the numerical values of certain important constants which
 appear in the work of Mirzakhani.
 
-\item Curver is a program for
+
+\subsection{Curve complex}
+
+Curver is a program for
 performing calculations in the curve complex which implements the
 Bell–Webb algorithm to determine the Nielsen–Thurston type of a
 mapping class~\cite{b-c-17,b-esmt-19}. The algorithm runs in polynomial time but the constants
@@ -305,7 +317,9 @@ implement this situation. Namely, finding a way of making the
 algorithm practical by solving the problem of large constants and
 extending the work to cover closed surfaces without boundary~\cite{mm-sosr-19}.
 
-\item A very important tool in the study of Teichm\" {u}ller space, namely the
+\subsection{Harmonic maps}
+
+A very important tool in the study of Teichm\" {u}ller space, namely the
 space of deformation of Riemann surface structures, is represented by
 harmonic maps \cite{wolf}. Harmony is  software developed in C++ by
 Loustau and Gaster~\cite{glm-cdehm-18}, which computes harmonic maps between two
@@ -321,7 +335,7 @@ Very interesting developments would be
 constituted by developing programs to compute harmonic maps with
 target a metric tree, or a quasi-Fuchsian three-manifold, or to
 compute minimal Lagrangian maps between closed hyperbolic surfaces \cite{BS}.
-\end{enumerate}
+
 
 \section{Méthodologie envisagée}
 %\textbf{mettant en avant la complémentarité des membres de l'équipe
@@ -416,7 +430,7 @@ It is our intention to develop and distribute open source softwares and packages
 \section{Principales étapes envisagées}
 
 
-\section{Demande de moyens}
+\section{ Request budget and scientific justification}
 
 We plan to hire one PhD students and one post-doctoral student. 
 Both the PhD student
