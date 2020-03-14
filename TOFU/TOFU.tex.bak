@@ -417,10 +417,22 @@ moduli spaces.
 
 There are  natural cellulations of 
 the moduli space hyperbolic (complex)  structures.
-There are various constructions
-due to Penner, Epstein-Penner,  Kontsevich
-from lengths of curves on surfaces
-and embedded fat graphs.
+There are various constructions for these
+due to amongst others Penner, Epstein-Penner,  Kontsevich.
+Underlying these constructions 
+are the lengths of certain curves on the surfaces
+and embedded trivalent graphs.
+The tri valent graph is dual to 
+"the best possible" triangulation of the surface
+in the Epstein-Penner construction
+and this triangulation is obtained 
+via the calculation of a convex hull
+(which is computationally very cheap).
+One hopes that interaction between team members
+could lead to an extension of these constructions
+to the space of flat moduli space 
+and developping a computationally efficient
+implementation.
  
 
 
