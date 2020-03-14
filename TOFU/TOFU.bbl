@@ -38,6 +38,22 @@ D.~Coulson, Oliver Goodman, and C.~Hodgson.
 \newblock Computing arithmetic invariants of 3-manifolds.
 \newblock {\em Experimental Mathematics}, 9, 09 1998.
 
+\bibitem{delignemostow}
+P.~Deligne and G.~D. Mostow.
+\newblock Monodromy of hypergeometric functions and non-lattice integral
+  monodromy.
+\newblock {\em Inst. Hautes {\'E}tudes Sci. Publ. Math.}, 63:5--89, 1986.
+
+\bibitem{derauxexpmath}
+M.~Deraux.
+\newblock {On spherical CR uniformization of 3-manifolds}.
+\newblock {\em {Exp. Math.}}, 24(3):355--370, 2015.
+
+\bibitem{derauxfalbel}
+M.~Deraux and E.~Falbel.
+\newblock {Complex hyperbolic geometry of the figure-eight knot}.
+\newblock {\em {Geom. Topol.}}, 19(1):237--293, 2015.
+
 \bibitem{dl-cginc-19}
 Vincent Despr{\'e} and Francis Lazarus.
 \newblock Computing the geometric intersection number of curves.
@@ -52,6 +68,11 @@ Louis Esperet and Mat{\v{e}}j Stehl{\'\i}k.
 Jonah Gaster, Brice Loustau, and L{\'e}onard Monsaingeon.
 \newblock Computing discrete equivariant harmonic maps.
 \newblock arXiv preprint 1810.11932, 2018.
+
+\bibitem{ghazouanipirio}
+S.~{Ghazouani} and L.~{Pirio}.
+\newblock {Moduli spaces of flat tori with prescribed holonomy}.
+\newblock {\em {Geom. Funct. Anal.}}, 27(6):1289--1366, 2017.
 
 \bibitem{km-nevvp-18}
 Sadayoshi Kojima and Greg McShane.
@@ -75,15 +96,35 @@ Y.~Masur, H.~Minsky.
 \newblock {\em Invent. math.}, 138:103–149, 1999.
 
 \bibitem{mostow}
-G.~D. MOSTOW.
+G.~D. Mostow.
 \newblock {\em Strong Rigidity of Locally Symmetric Spaces. (AM-78)}.
 \newblock Princeton University Press, 1973.
+
+\bibitem{parkerwill}
+J.~R. Parker and P.~Will.
+\newblock {A complex hyperbolic Riley slice}.
+\newblock {\em {Geom. Topol.}}, 21(6):3391--3451, 2017.
+
+\bibitem{schwartz}
+R.~E. Schwartz.
+\newblock Real hyperbolic on the outside, complex hyperbolic on the inside.
+\newblock {\em Inv. Math.}, 151(2):221--295, 2003.
+
+\bibitem{thurstonshapes}
+W.~P. Thurston.
+\newblock Shapes of polyhedra and triangulations of the sphere.
+\newblock {\em Geometry and Topology Monographs}, 1:511--549, 1998.
 
 \bibitem{Thu1}
 William~P. Thurston.
 \newblock Hyperbolic structures on 3-manifolds i: Deformation of acylindrical
   manifolds.
 \newblock {\em Annals of Mathematics}, 124(2):203--246, 1986.
+
+\bibitem{veech}
+W.~A. {Veech}.
+\newblock {Flat surfaces}.
+\newblock {\em {Am. J. Math.}}, 115(3):589--689, 1993.
 
 \bibitem{wolf}
 Michael Wolf.

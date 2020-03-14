@@ -30,8 +30,6 @@
 \begin{document}
 
 
-
-
 \begin{center}
 \line(1,0){450}
 
@@ -46,6 +44,11 @@ Mathematics: from Fundamentals to Applications
 \\
 Porteurs du projet:  {\bf Greg McShane} (IF),  {\bf Francis Lazarus} (G-SCOP)
 \end{center}
+
+
+\tableofcontents
+
+\newpage
 
 \section{Presentation of the team}
 The team consists of eight members in total (7 tenured faculty and one PhD student : Joanny Perret) du projet belonging to two  laboraties on the Grenoble campus : \\
@@ -296,7 +299,7 @@ is that there is a simple combinatorial/algebraic
 condition which allows one to decide whether 
 a 3-manifold admits a hyperbolic structure.
 In contrast, a characterization of
-3-manifolds (compact or not) that admit such a spherical CR structure remains an important open problem.
+3-manifolds (compact or not) that admit such a spherical CR structure remains an important open problem see for example \cite{derauxexpmath}.
 Many non-hyperbolic manifolds are known to admit such
 structures; 
 one basic but important class of examples is given by
@@ -308,7 +311,7 @@ embedding of $\mathrm{SL}(2,\mathbb{C})$
  in $\mathrm{SU}(2,1)$! 
 So another important open question is the characterization of (closed) 3-manifolds that admit a spherical CR structure.
 Partial progress on these questions
- has been recently by Schwartz, Deraux, Falbel, Parker, Will.
+ has been recently by Schwartz \cite{schwartz}, Deraux and Falbel \cite{derauxfalbel}, Parker and  Will \cite{parkerwill}.
 One hopes that their work can be applied more generally by, for example, applying similar techniques in a more systematic fashion. 
 This will involve using an interesting mix of
 combinatorial, topological and geometrical methods.
@@ -320,7 +323,7 @@ or even more general Lie groups) is given by
 holonomy groups of suitable geometric structures on moduli spaces 
 In particular,
 there is an important family of groups,
-studied by Deligne-Mostow-Thurston,
+studied by Deligne-Mostow \cite{delignemostow}   and Thurston \cite{thurstonshapes},
 which arise from
 the moduli spaces of flat metrics on the sphere with fixed cone angle singularities.
 This family is of special interest 
@@ -328,8 +331,8 @@ since it contains many of the
 known non-arithmetic lattices of $\mathrm{SU}(n,1)$.
 Some parts of the  Deligne-Mostow-Thurston construction 
 were extended by 
-Veech to cover flat metrics on surfaces of positive genus.
-Recently Ghazouani and Pirio
+Veech \cite{veech}  to cover flat metrics on surfaces of positive genus.
+Recently Ghazouani and Pirio \cite{ghazouanipirio}
 have  pushed Veech's work a little further by 
 but
 the situation is still far from being completely understood -- for example it is not known which

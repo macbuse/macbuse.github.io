@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {3.2}Surface theory}{3}
 \contentsline {subsection}{\numberline {3.3}Geometric structures in general}{4}
 \contentsline {section}{\numberline {4}Objectives}{4}
-\contentsline {subsection}{\numberline {4.1}Combinatorial length and rigidity}{4}
+\contentsline {subsection}{\numberline {4.1}Combinatorial length and rigidity}{5}
 \contentsline {subsection}{\numberline {4.2}Algorithmic study of lengths}{5}
 \contentsline {subsection}{\numberline {4.3}Curve complex}{5}
 \contentsline {subsection}{\numberline {4.4}General geometric structures}{5}
