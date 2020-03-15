@@ -7,45 +7,45 @@ Name 1 in "Marc Culler, Nathan Dunfield, and Matthias Goerner" has a comma at th
 while executing---line 1049 of file plain.bst
 Name 1 in "Marc Culler, Nathan Dunfield, and Matthias Goerner" has a comma at the end for entry snappy
 while executing---line 1090 of file plain.bst
-You've used 25 entries,
+You've used 26 entries,
             2118 wiz_defined-function locations,
-            659 strings with 7055 characters,
-and the built_in function-call counts, 7120 in all, are:
-= -- 737
-> -- 268
+            663 strings with 7213 characters,
+and the built_in function-call counts, 7330 in all, are:
+= -- 759
+> -- 281
 < -- 1
-+ -- 109
-- -- 82
-* -- 479
-:= -- 1234
-add.period$ -- 78
-call.type$ -- 25
-change.case$ -- 114
++ -- 114
+- -- 86
+* -- 489
+:= -- 1277
+add.period$ -- 81
+call.type$ -- 26
+change.case$ -- 119
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 248
-empty$ -- 582
-format.name$ -- 82
-if$ -- 1451
+cite$ -- 26
+duplicate$ -- 254
+empty$ -- 593
+format.name$ -- 86
+if$ -- 1491
 int.to.chr$ -- 0
-int.to.str$ -- 25
+int.to.str$ -- 26
 missing$ -- 21
-newline$ -- 130
-num.names$ -- 50
-pop$ -- 84
+newline$ -- 135
+num.names$ -- 52
+pop$ -- 86
 preamble$ -- 1
-purify$ -- 91
+purify$ -- 95
 quote$ -- 0
-skip$ -- 172
+skip$ -- 178
 stack$ -- 0
-substring$ -- 531
+substring$ -- 536
 swap$ -- 22
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
+type$ -- 100
 warning$ -- 0
-while$ -- 80
-width$ -- 27
-write$ -- 274
+while$ -- 82
+width$ -- 28
+write$ -- 284
 (There were 2 error messages)

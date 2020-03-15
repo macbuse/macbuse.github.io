@@ -16,6 +16,9 @@
 %\usepackage{vmargin}
 \usepackage{url}
 \usepackage{marvosym} % Pour les euros
+
+\usepackage{float}
+\usepackage{subfig}
 %\usepackage[textwidth=16cm,textheight=23cm,includefoot]{geometry}
 
 
@@ -28,6 +31,18 @@
 
 
 \begin{document}
+
+ \begin{figure}[H]
+  \centering
+  \subfloat  
+{\includegraphics[scale=1]{iflogo-azur-sable-150x60_0.png}  
+}
+ \hfill
+  \subfloat
+  {\includegraphics[scale=.4]{gscop.png}  
+}
+
+\end{figure}
 
 
 \begin{center}
@@ -244,8 +259,6 @@ The latter is an infinite
 graph associated to a surface: a vertex is a homotopy class of simple
 curves and vertices are joined by an edge if the corresponding curves
 can be chosen to be disjoint. 
-
-
 The curve graph is known to be a negatively curved 
 space in the sense of Gromov \cite{MM}.
 There are many interesting questions
@@ -253,8 +266,21 @@ concerning the metric geometry/combinatorics of this graph~\cite{bmm-egead-16} a
 algorithms related to them: the Bestvina–Handel algorithm, Bell–Webb
 algorithm~\cite{bw-ptacg-16}, Leasure and Shackleton algorithms.
 
+In fact there is another graph which models the geometry of Teichmueller space much better -- the pants graph. This is a graph whose vertices are homotopy classes of
+$3g-3$ disjoint simple closed curves    and two verrtices are adjacent if they differ by a single curve.
+The complement of the curves is a union of(triply connected domains which are called by the more familiar term \textit{pants}. A Jeff Brock in his thesis proved that the pants graph with the obvious distance function and Teichmueller space with the Weil-Petersson metric are quasi isometric.
+There are many deep relation between the 
+Weil-Petersson geometry of Teichmueller space, lengths of simple closed curves on surfaces and even hyperbolic volumes of 3 manifolds obtained from  suspensions of surface diffeomorphisms \cite{km-nevvp-18}. 
+
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[scale=1.2]{Pair-pants-2-300x82.jpg} 
+\end{center}
+\end{figure}
 
 
+
+%\subsection{Resumé}
 So studying the mapping class group of a surface 
 requires 
 an understanding 
@@ -271,12 +297,7 @@ which have both a combinatorial and algorithmic nature.
 
 
 
-On the analytic side we hope to extend the
-inequalities between entropy of diffeomorphisms and hyperbolic
-invariants~\cite{km-nevvp-18} to other problems and relate this to combinatorial problems
-of curve graphs etc. On the effective side we will develop and use
-programs to explore the combinatorics of the various graphs that one
-can associate to a surface.
+
 
 \subsection{Geometric structures in general}
 
@@ -286,7 +307,9 @@ There are many variations
  These are often formulated in terms 
  of finding a good (discrete, faithful) 
  representations of the fundamental group
- into the automorphism group of some space.
+ into the automorphism group of some space
+ and one then tries to study their properties by analogy with what is known 
+ for Teichmueller space \cite{anne-19}.
  One such variation  is the construction of
 spherical CR structures, 
 i.e. geometric structures modeled on the
@@ -315,6 +338,10 @@ Partial progress on these questions
 One hopes that their work can be applied more generally by, for example, applying similar techniques in a more systematic fashion. 
 This will involve using an interesting mix of
 combinatorial, topological and geometrical methods.
+
+\begin{center}
+\includegraphics[scale=.15]{cplx_hyp.png} 
+\end{center}
 
 
 Another important class of discrete subgroups of $\mathrm{SU}(2,1)$ (or more
@@ -383,6 +410,13 @@ with boundary. There seems to be room to improve this situation and
 implement this situation. Namely, finding a way of making the
 algorithm practical by solving the problem of large constants and
 extending the work to cover closed surfaces without boundary~\cite{mm-sosr-19}.
+
+On the analytic side we hope to extend the
+inequalities between entropy of diffeomorphisms and hyperbolic
+invariants~\cite{km-nevvp-18} to other problems and relate this to combinatorial problems
+of curve graphs etc. On the effective side we will develop and use
+programs to explore the combinatorics of the various graphs that one
+can associate to a surface.
 
 \subsection{General geometric structures}
 
