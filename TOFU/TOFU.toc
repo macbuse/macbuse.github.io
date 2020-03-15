@@ -8,12 +8,12 @@
 \contentsline {section}{\numberline {4}Objectives}{5}
 \contentsline {subsection}{\numberline {4.1}Combinatorial length and rigidity}{5}
 \contentsline {subsection}{\numberline {4.2}Algorithmic study of lengths}{5}
-\contentsline {subsection}{\numberline {4.3}Curve complex}{5}
+\contentsline {subsection}{\numberline {4.3}Curve complex}{6}
 \contentsline {subsection}{\numberline {4.4}General geometric structures}{6}
 \contentsline {subsubsection}{\numberline {4.4.1}CR SnapPy}{6}
 \contentsline {subsubsection}{\numberline {4.4.2}Cellulations of moduli space}{6}
 \contentsline {subsection}{\numberline {4.5}Harmonic maps}{6}
-\contentsline {section}{\numberline {5}M\IeC {\'e}thodologie envisag\IeC {\'e}e}{6}
+\contentsline {section}{\numberline {5}M\IeC {\'e}thodologie envisag\IeC {\'e}e}{7}
 \contentsline {section}{\numberline {6}R\IeC {\'e}sultats attendus}{7}
-\contentsline {section}{\numberline {7}Principales \IeC {\'e}tapes envisag\IeC {\'e}es}{7}
-\contentsline {section}{\numberline {8} Request budget and scientific justification}{7}
+\contentsline {section}{\numberline {7}Principales \IeC {\'e}tapes envisag\IeC {\'e}es}{8}
+\contentsline {section}{\numberline {8} Request budget and scientific justification}{8}
