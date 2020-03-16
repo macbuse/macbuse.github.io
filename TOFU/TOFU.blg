@@ -8,45 +8,45 @@ while executing---line 1049 of file plain.bst
 Name 1 in "Marc Culler, Nathan Dunfield, and Matthias Goerner" has a comma at the end for entry snappy
 while executing---line 1090 of file plain.bst
 Warning--empty journal in w-gt-70
-You've used 35 entries,
+You've used 37 entries,
             2118 wiz_defined-function locations,
-            713 strings with 8302 characters,
-and the built_in function-call counts, 9949 in all, are:
-= -- 1023
-> -- 374
-< -- 2
-+ -- 152
-- -- 114
-* -- 653
-:= -- 1703
-add.period$ -- 106
-call.type$ -- 35
-change.case$ -- 160
+            722 strings with 8502 characters,
+and the built_in function-call counts, 10505 in all, are:
+= -- 1080
+> -- 388
+< -- 3
++ -- 158
+- -- 118
+* -- 677
+:= -- 1788
+add.period$ -- 111
+call.type$ -- 37
+change.case$ -- 168
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 356
-empty$ -- 824
-format.name$ -- 114
-if$ -- 2045
+cite$ -- 38
+duplicate$ -- 381
+empty$ -- 876
+format.name$ -- 118
+if$ -- 2170
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 28
-newline$ -- 178
-num.names$ -- 70
-pop$ -- 130
+int.to.str$ -- 37
+missing$ -- 29
+newline$ -- 187
+num.names$ -- 74
+pop$ -- 143
 preamble$ -- 1
-purify$ -- 127
+purify$ -- 133
 quote$ -- 0
-skip$ -- 262
+skip$ -- 286
 stack$ -- 0
-substring$ -- 717
-swap$ -- 40
-text.length$ -- 2
+substring$ -- 754
+swap$ -- 49
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 136
+type$ -- 144
 warning$ -- 1
-while$ -- 112
-width$ -- 37
-write$ -- 376
+while$ -- 119
+width$ -- 39
+write$ -- 395
 (There were 2 error messages)

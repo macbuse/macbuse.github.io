@@ -458,12 +458,24 @@ holonomy groups are discrete, and if discrete, which are arithmetic.
 Between 1983 and 2004, Robertson and Seymour have written a series of 20 papers adding up to more than 500 pages to prove the Wagner conjecture saying that every minor closed class of graphs is characterized by a finite family of forbidden minors~\cite{w-gt-70}.  An important step in the proof is to describe the structure of the graphs excluding a fixed minor. This structure theorem~\cite{rs-tv-99} states that such graphs can be obtained from cellular embeddings of graphs in surfaces of bounded genus, to which one applies some standard operations such as clique-sums~\cite{l-gmt-06}. A cellular embedding of a graph is called a combinatorial map (or combinatorial surface). Combinatorial maps are thus central objects in graph theory not only as discrete models of surfaces but also as the main components of the graph structures. Understanding the structure of combinatorial maps is thus a fundamental question from both the topological and combinatorial viewpoints. Spectral graph theory, based on graph Laplacians, has been successful to obtain important structural properties such as the Cheeger inequality~\cite{c-lbsel-70}. The Laplacian is also a main tool to analyse the geometry of hyperbolic surfaces. In particular, there is a striking connection to the length spectrum through the Selberg trace formula. Developing an analogous theory on combinatorial surfaces is a challenging objective.
 
 
-
-
 \section{Objectives}
-We now describe the main research challenges that we intend to tackle. 
 
-\subsection{Combinatorial moduli space}
+We now describe the three main research challenges  that we intend to tackle. 
+There are connections between several of them 
+and we hope to exploit these in our work. 
+For example, 
+the cellulations of moduli space
+in paragraph \ref{cells flat}
+can be constructed from looking 
+at lengths of simple closed curves
+as in paragraph \ref{algo lengths}
+or harmonic maps  as in paragraph \ref{curve complex}
+or the geomtry of tri valent graphs
+embedded in the surface.
+
+\subsection{Combinatorial moduli space {\normalfont : Esperet, Lazarus, Perret, McShane, Seppi}
+}
+
 
 In many problems
 it is has proven useful 
@@ -491,7 +503,7 @@ does this spectrum determine the surface? Exploring the connection of the length
  surface permutes the homotopy class of curves, hence the length spectrum. Does the discrete nature of the graph metric induce specific properties of this action? In other words, can we learn the graph structure from this action?
 
 \subsubsection{Algorithmic study of lengths}
-
+\label{algo lengths}
 Lazarus and Damiand have
 added a package to the C++ library  CGAL which tests if two curves are
 in the same free homotopy class. The algorithm test has linear
@@ -507,12 +519,16 @@ is homotopic to a simple loop. There is already an algorithm, of
 With
 this one can count the number of simple curves of length less than a given threshold 
 and hopefully check the numerical values of certain important constants which
-appear in the work of Mirzakhani.
+appear in the work of Mirzakhani see
+\cite{m-gnscg-08} and \cite{m-cmcgo-16}.
 
 
 
-\subsection{Curve complex, 
-pants graph and harmonic maps}
+\subsection{Pants graph and harmonic maps
+{\normalfont : McShane, Seppi,Esperet Lazarus, 
+Stehlìk}
+}
+\label{curve complex}
 
 Curver is a program for
 performing calculations in the curve complex which implements the
@@ -558,7 +574,9 @@ of curve graphs etc. On the effective side we will develop and use
 programs to explore the combinatorics of the various graphs that one
 can associate to a surface.
 
-\subsection{General geometric structures}
+\subsection{Geometric structures
+{\normalfont : Deraux, Parreau}
+}
 
 Here we have two very concrete goals
 
@@ -580,7 +598,7 @@ give discrete subgroup of $\mathrm{SU}(2,1)$, properties of the  manifold at inf
 
 
 \subsubsection{Cellulations of moduli space}
-
+\label{cells flat}
 To better understand the variations 
 on the Deligne-Mostow-Thurston construction
 of  Veech and Ghazouani-Pirio
@@ -623,7 +641,7 @@ and the development of a computationally efficient implementation.
 
 Grenoble  has 
 a very strong tradition both 
-as a center for in low dimensional topology 
+as a center for low dimensional topology 
 as well as for discrete mathematics and computer science
 (including graph theory and some aspects of algorithms). 
 We believe that the group of researchers from the Institut Fourier and G-SCOP 

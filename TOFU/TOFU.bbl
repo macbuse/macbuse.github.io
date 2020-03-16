@@ -24,7 +24,7 @@ Joan Birman, Dan Margalit, and William Menasco.
 
 \bibitem{BS}
 J.~Bonsante, F.~Schlenker.
-\newblock Maximal surfaces and the universal teichmüller spac.
+\newblock Maximal surfaces and the universal teichmüller space.
 \newblock {\em Invent. math.}, 182:279–333, 2010.
 
 \bibitem{BOWDITCH198891}
@@ -136,6 +136,16 @@ Hidetoshi Masai and Greg McShane.
 Y.~Masur, H.~Minsky.
 \newblock Geometry of the complex of curves i: Hyperbolicity.
 \newblock {\em Invent. math.}, 138:103–149, 1999.
+
+\bibitem{m-gnscg-08}
+Maryam Mirzakhani.
+\newblock Growth of the number of simple closed geodesies on hyperbolic
+  surfaces.
+\newblock {\em Annals of Mathematics}, pages 97--125, 2008.
+
+\bibitem{m-cmcgo-16}
+Maryam Mirzakhani.
+\newblock Counting mapping class group orbits on hyperbolic surfaces, 2016.
 
 \bibitem{mostow}
 G.~D. Mostow.
