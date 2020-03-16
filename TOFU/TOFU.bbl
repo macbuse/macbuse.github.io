@@ -31,6 +31,16 @@ J.~Bonsante, F.~Schlenker.
 \newblock Maximal surfaces and the universal teichmüller spac.
 \newblock {\em Invent. math.}, 182:279–333, 2010.
 
+\bibitem{BOWDITCH198891}
+B.H. Bowditch and D.B.A. Epstein.
+\newblock Natural triangulations associated to a surface.
+\newblock {\em Topology}, 27(1):91 -- 117, 1988.
+
+\bibitem{bridgeman2019uniform}
+Martin Bridgeman and Yunhui Wu.
+\newblock Uniform bounds on harmonic beltrami differentials and weil-petersson
+  curvatures, 2019.
+
 \bibitem{c-lbsel-70}
 Jeff Cheeger.
 \newblock A lower bound for the smallest eigenvalue of the laplacian.
@@ -69,6 +79,11 @@ Vincent Despr{\'e} and Francis Lazarus.
 \newblock Computing the geometric intersection number of curves.
 \newblock {\em Journal of the ACM (JACM)}, 66(6):1--49, 2019.
 
+\bibitem{epstein1988}
+D.~B.~A. Epstein and R.~C. Penner.
+\newblock Euclidean decompositions of noncompact hyperbolic manifolds.
+\newblock {\em J. Differential Geom.}, 27(1):67--80, 1988.
+
 \bibitem{es-wqpp-18}
 Louis Esperet and Mat{\v{e}}j Stehl{\'\i}k.
 \newblock The width of quadrangulations of the projective plane.
@@ -84,10 +99,20 @@ S.~{Ghazouani} and L.~{Pirio}.
 \newblock {Moduli spaces of flat tori with prescribed holonomy}.
 \newblock {\em {Geom. Funct. Anal.}}, 27(6):1289--1366, 2017.
 
+\bibitem{kajigaya2019uniformizing}
+Toru Kajigaya and Ryokichi Tanaka.
+\newblock Uniformizing surfaces via discrete harmonic maps, 2019.
+
 \bibitem{km-nevvp-18}
 Sadayoshi Kojima and Greg McShane.
 \newblock Normalized entropy versus volume for pseudo-anosovs.
 \newblock {\em Geometry \& Topology}, 22(4):2403--2426, 2018.
+
+\bibitem{kontsevich1992}
+Maxim Kontsevich.
+\newblock Intersection theory on the moduli space of curves and the matrix airy
+  function.
+\newblock {\em Comm. Math. Phys.}, 147(1):1--23, 1992.
 
 \bibitem{l-gmt-06}
 L{\'a}szl{\'o} Lov{\'a}sz.

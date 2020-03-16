@@ -1,6 +1,65 @@
 % This file was created with JabRef 2.10.
 % Encoding: ISO-8859-1
 
+
+
+@misc{kajigaya2019uniformizing,
+    title={Uniformizing surfaces via discrete harmonic maps},
+    author={Toru Kajigaya and Ryokichi Tanaka},
+    year={2019},
+    eprint={1905.05427},
+    archivePrefix={arXiv},
+    primaryClass={math.DG}
+}
+
+@misc{bridgeman2019uniform,
+    title={Uniform bounds on harmonic Beltrami differentials and Weil-Petersson curvatures},
+    author={Martin Bridgeman and Yunhui Wu},
+    year={2019},
+    eprint={1908.02535},
+    archivePrefix={arXiv},
+    primaryClass={math.DG}
+}
+
+
+@inproceedings{c-lbsel-70,
+  title={A lower bound for the smallest eigenvalue of the Laplacian},
+  author={Cheeger, Jeff},
+  booktitle={Proceedings of the Princeton conference in honor of Professor S. Bochner},
+  pages={195--199},
+  year={1969}
+}
+
+@article{l-gmt-06,
+  title={Graph minor theory},
+  author={Lov{\'a}sz, L{\'a}szl{\'o}},
+  journal={Bulletin of the American Mathematical Society},
+  volume={43},
+  number={1},
+  pages={75--86},
+  year={2006}
+}
+
+@article{rs-tv-99,
+  title={Graph minors: XVII. Taming a vortex},
+  author={Robertson, Neil and Seymour, Paul D},
+  journal={Journal of Combinatorial Theory, Series B},
+  volume={77},
+  number={1},
+  pages={162--210},
+  year={1999},
+  publisher={Elsevier}
+}
+
+@article{w-gt-70,
+  title={Graphentheorie,
+  author={Wagner, Klaus},
+  year={1970},
+  publisher={BI-Hochschultaschenb{\"u}cher},
+  volume={61}
+}
+
+
 @article{wolf,
 author = "Wolf, Michael",
 doi = "10.4310/jdg/1214442885",

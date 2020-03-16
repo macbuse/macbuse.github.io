@@ -292,7 +292,8 @@ $3g-3$ disjoint simple closed curves    and two verrtices are adjacent if they d
 The complement of the curves is a union of(triply connected domains which are called by the more familiar term \textit{pants}. A Jeff Brock in his thesis proved that the pants graph with the obvious distance function and Teichmueller space with the Weil-Petersson metric are quasi isometric.
 There are many deep relation between the 
 Weil-Petersson geometry of Teichmueller space, 
-lengths of simple closed curves on surfaces,
+lengths of simple closed curves on surfaces 
+\cite{bridgeman2019uniform},
 harmonic maps between surfaces \cite{wolf}
 and even hyperbolic volumes of 3 manifolds obtained from  suspensions of surface diffeomorphisms \cite{km-nevvp-18}. 
 
@@ -493,7 +494,9 @@ moduli spaces.
 There are  natural cellulations of 
 the moduli space hyperbolic (complex)  structures.
 There are various constructions for these
-due to amongst others Penner, Epstein-Penner,  Kontsevich.
+due to amongst others Penner, 
+Epstein-Penner \cite{epstein1988}, 
+Bowditch-Epstein \cite{BOWDITCH198891} Kontsevich \cite{kontsevich1992}.
 Underlying these constructions 
 are the lengths of certain curves on the surfaces
 and embedded trivalent graphs.
@@ -515,10 +518,13 @@ implementation.
 
 A very important tool in the study of Teichm\" {u}ller space, namely the
 space of deformation of Riemann surface structures, is represented by
-harmonic maps \cite{wolf}. Harmony is  software developed in C++ by
+harmonic maps 
+\cite{wolf} \cite{kajigaya2019uniformizing}. Harmony is  software developed in C++ by
 Loustau and Gaster~\cite{glm-cdehm-18}, which computes harmonic maps between two
-hyperbolic surfaces, described in terms of their Fenchel-Nielsen
-coordinates, by means of a discrete heat flow method. In other words,
+hyperbolic surfaces, 
+described in terms of their Fenchel-Nielsen
+coordinates, 
+by means of a discrete heat flow method. In other words,
 a hyperbolic surface is 
 approximated by a finite graph 
 which encodes its geometry, 
@@ -527,7 +533,8 @@ map by a  recursive procedure
 stopping when  a prescribed tolerance is reached. 
 Very interesting developments would be
 constituted by developing programs to compute harmonic maps with
-target a metric tree, or a quasi-Fuchsian three-manifold, or to
+target a metric tree, 
+or a quasi-Fuchsian three-manifold, or to
 compute minimal Lagrangian maps between closed hyperbolic surfaces \cite{BS}.
 
 
@@ -547,22 +554,23 @@ involved
 in this project posess a blend of complementary skills 
 perfectly adapted
 to working together on the objectives above.
-On the one hand the G-SCOP team \emph{Optimisation Combinatoire} is certainly one of the leading groups in graph theory with an emphasis on topological aspects of graphs on surfaces~\cite{es-wqpp-18}. On the other the topology team at the Institut Fourier is a leading group in low dimensional topology 
+The G-SCOP team \emph{Optimisation Combinatoire} is certainly one of the leading groups in graph theory with an emphasis on topological aspects of graphs on surfaces~\cite{es-wqpp-18}. 
+Similarly the topology team at the Institut Fourier is a leading group in low dimensional topology 
 especially the theory of surfaces 
 with its many facets 
 - dynamical, variational and spectral,
  interactions with classical and quantuum algebra.
  
-More precisely:
-\begin{itemize}
-\item Martin Deraux is an expert in complex hyperbolic spaces. He has created programs in JAVA to determine 
-\textit{fundamental domains} for groups acting on these spaces. This is a very delicate task and he must certify all his calculations so that they can be used in rigorously proving theorems.
-\item Greg McShane has worked extensively on moduli of surfaces and the action of the mapping class group. He has discovered surprising relations between the moduli which can be used to explore the size and shape of the moduli space that is the space of all complex structures on a surface of fixed type.
-\item Anne Parreau works on representations of the fundamental group of a surface into Lie groups. 
-In her work there are functions which appear which generalise the lengths of curves on a surface.
-\item Francis Lazarus is interested in the combinatorics of surfaces.
-
-\end{itemize}
+%More precisely:
+%\begin{itemize}
+%\item Martin Deraux is an expert in complex hyperbolic spaces. He has created programs in JAVA to determine 
+%\textit{fundamental domains} for groups acting on these spaces. This is a very delicate task and he must certify all his calculations so that they can be used in rigorously proving theorems.
+%\item Greg McShane has worked extensively on moduli of surfaces and the action of the mapping class group. He has discovered surprising relations between the moduli which can be used to explore the size and shape of the moduli space that is the space of all complex structures on a surface of fixed type.
+%\item Anne Parreau works on representations of the fundamental group of a surface into Lie groups. 
+%In her work there are functions which appear which generalise the lengths of curves on a surface.
+%\item Francis Lazarus is interested in the combinatorics of surfaces.
+%
+%\end{itemize}
 
 \vspace{.25in}
 

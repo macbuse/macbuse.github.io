@@ -3,7 +3,7 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: TOFU.aux
 The style file: plain.bst
 Database file #1: bibTofu.bib
-I was expecting a `,' or a `}'---line 43 of file bibTofu.bib
+I was expecting a `,' or a `}'---line 103 of file bibTofu.bib
  : 
  : @article{wolf,
 (Error may have been on previous line)
@@ -16,45 +16,45 @@ Warning--empty journal in w-gt-70
 Warning--empty year in w-gt-70
 Name 1 in "Marc Culler, Nathan Dunfield, and Matthias Goerner" has a comma at the end for entry snappy
 while executing---line 1090 of file plain.bst
-You've used 30 entries,
+You've used 35 entries,
             2118 wiz_defined-function locations,
-            685 strings with 7738 characters,
-and the built_in function-call counts, 8518 in all, are:
-= -- 881
-> -- 309
+            709 strings with 8347 characters,
+and the built_in function-call counts, 9901 in all, are:
+= -- 1016
+> -- 368
 < -- 2
-+ -- 127
-- -- 94
-* -- 569
-:= -- 1453
-add.period$ -- 91
-call.type$ -- 30
-change.case$ -- 135
++ -- 150
+- -- 112
+* -- 658
+:= -- 1683
+add.period$ -- 104
+call.type$ -- 35
+change.case$ -- 159
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 309
-empty$ -- 704
-format.name$ -- 94
-if$ -- 1748
+cite$ -- 39
+duplicate$ -- 356
+empty$ -- 825
+format.name$ -- 112
+if$ -- 2037
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 25
-newline$ -- 153
-num.names$ -- 58
-pop$ -- 106
+int.to.str$ -- 35
+missing$ -- 28
+newline$ -- 176
+num.names$ -- 68
+pop$ -- 134
 preamble$ -- 1
-purify$ -- 107
+purify$ -- 126
 quote$ -- 0
-skip$ -- 219
+skip$ -- 260
 stack$ -- 0
-substring$ -- 633
-swap$ -- 35
+substring$ -- 717
+swap$ -- 40
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
+type$ -- 136
 warning$ -- 4
-while$ -- 95
-width$ -- 32
-write$ -- 322
+while$ -- 110
+width$ -- 37
+write$ -- 371
 (There were 3 error messages)

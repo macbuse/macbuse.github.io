@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2020.3.12)  16 MAR 2020 06:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2020.3.12)  16 MAR 2020 07:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -745,55 +745,55 @@ Package pdftex.def Info: SnapPea-horocusp_view.png used on input line 205.
 File: Pair-pants-2-300x82.jpg Graphic file (type jpg)
 
 <use Pair-pants-2-300x82.jpg>
-Package pdftex.def Info: Pair-pants-2-300x82.jpg used on input line 301.
+Package pdftex.def Info: Pair-pants-2-300x82.jpg used on input line 302.
 (pdftex.def)             Requested size: 271.01112pt x 74.07635pt.
  [4 <./Pair-pants-2-300x82.jpg>]
 <cplx_hyp.png, id=34, 924.45375pt x 927.465pt>
 File: cplx_hyp.png Graphic file (type png)
  <use cplx_hyp.png>
-Package pdftex.def Info: cplx_hyp.png used on input line 366.
+Package pdftex.def Info: cplx_hyp.png used on input line 367.
 (pdftex.def)             Requested size: 120.1832pt x 120.57468pt.
  [5 <./cplx_hyp.png>] <switch.pdf, id=38, 525.00414pt x 121.87819pt>
 File: switch.pdf Graphic file (type pdf)
  <use switch.pdf>
-Package pdftex.def Info: switch.pdf used on input line 429.
+Package pdftex.def Info: switch.pdf used on input line 430.
 (pdftex.def)             Requested size: 288.75316pt x 67.03319pt.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 446.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 447.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [6 <./switch.pdf>]
 [7]
-LaTeX Font Info:    Try loading font information for U+mvs on input line 666.
- (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd) [8] (./TOFU.bbl
-[9]) [10] (./TOFU.aux) ) 
+LaTeX Font Info:    Try loading font information for U+mvs on input line 674.
+ (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd) (./TOFU.bbl
+[8] [9]) [10] (./TOFU.aux) ) 
 Here is how much of TeX's memory you used:
- 5922 strings out of 494875
- 81705 string characters out of 6178748
- 148807 words of memory out of 5000000
- 9086 multiletter control sequences out of 15000+600000
+ 5927 strings out of 494875
+ 81798 string characters out of 6178748
+ 148832 words of memory out of 5000000
+ 9091 multiletter control sequences out of 15000+600000
  19592 words of font info for 55 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  44i,7n,42p,1434b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/gregmcshane/.texlive2016/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ectt1000.600pk> </home/gregmcshane/.texlive2016/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ectt0800.600pk> </home/gregmcshane/.texlive2016/texmf-va
-r/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/gregmcshane/.texlive2016/t
-exmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/gregmcshane/.texliv
-e2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/gregmcshane/
-.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/gregm
-cshane/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </hom
-e/gregmcshane/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk
-> </home/gregmcshane/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx100
-0.600pk> </home/gregmcshane/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecrm1000.600pk> </home/gregmcshane/.texlive2016/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ecbx2074.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on TOFU.pdf (10 pages, 1487460 bytes).
+ </home/gregmcshane/.texlive2016/texmf-var/fonts/pk
+/ljfour/jknappen/ec/ectt1000.600pk> </home/gregmcshane/.texlive2016/texmf-var/f
+onts/pk/ljfour/jknappen/ec/ectt0800.600pk> </home/gregmcshane/.texlive2016/texm
+f-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/gregmcshane/.texlive20
+16/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/gregmcshane/.te
+xlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/gregmcsh
+ane/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/g
+regmcshane/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> <
+/home/gregmcshane/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.6
+00pk> </home/gregmcshane/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ecb
+x1000.600pk> </home/gregmcshane/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecrm1000.600pk> </home/gregmcshane/.texlive2016/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecbx2074.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on TOFU.pdf (10 pages, 1487289 bytes).
 PDF statistics:
  503 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream
