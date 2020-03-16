@@ -323,11 +323,19 @@ lengths of simple closed curves on surfaces
 harmonic maps between surfaces \cite{wolf}
 and even hyperbolic volumes of 3 manifolds obtained from  suspensions of surface diffeomorphisms \cite{km-nevvp-18}. 
 
- \begin{figure}[H]
-\begin{center}
-\includegraphics[scale=1.2]{Pair-pants-2-300x82.jpg} 
-\end{center}
-\end{figure}
+\begin{figure}[H]
+  \centering
+  \subfloat  
+{\includegraphics[scale=.2]{IMG_5383.jpg} 
+}
+ \hfill
+  \subfloat
+  {\includegraphics[scale=.2]{IMG_5385.jpg} 
+}
+
+{\small A pair ofadjacent vertices in the pants graph.}
+
+\end{figure} 
 
 
 %\subsection{Resumé}
@@ -463,7 +471,7 @@ appear in the work of Mirzakhani.
 
 
 
-\subsection{Curve complex}
+\subsection{Curve complex and pants graph}
 
 Curver is a program for
 performing calculations in the curve complex which implements the
@@ -475,6 +483,10 @@ with boundary. There seems to be room to improve this situation and
 implement this situation. Namely, finding a way of making the
 algorithm practical by solving the problem of large constants and
 extending the work to cover closed surfaces without boundary~\cite{mm-sosr-19}.
+This is closely related to the questions 
+concerning the geometry 
+of the pants graph and the Weil-Petersson geometry of Teichmueller space
+as defined above.
 
 On the analytic side we hope to extend the
 inequalities between entropy of diffeomorphisms and hyperbolic
