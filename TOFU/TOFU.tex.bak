@@ -54,11 +54,41 @@
 \line(1,0){450}
 \bigskip
 
-Projet équipe-action  \\
-Mathematics: from Fundamentals to Applications
+{\Large Projet équipe-action  \\
+Mathematics: from Fundamentals to Applications}
 \\
-Porteurs du projet:  {\bf Greg McShane} (IF),  {\bf Francis Lazarus} (G-SCOP)
 \end{center}
+
+
+
+
+ 
+
+
+\begin{center}
+\begin{tabular}[h]{lcl}
+Research topics &:& Geometry and toplogy\\
+&& Combinatorial optimization \\
+&& \\
+Institutions &:& Institut Fourier (IF), Universite Grenoble Alpes \\
+&& G-SCOP, Grenoble INP\\
+Teams involved
+&:& Geométrie et topologie (IF) \\
+&& \\
+Project leaders
+&:& {\bf Greg McShane} (IF) \\
+&& {\bf Francis Lazarus} (G-SCOP) \\
+Email
+&:& mcshane@univ-grenoble-alpes.fr  \\
+&&  francis.lazarus@gipsa-lab.grenoble-inp.fr\\
+Personal web pages
+&:& \\
+&& \\
+
+
+\end{tabular}
+\end{center}
+
 
 
 \tableofcontents
@@ -72,27 +102,25 @@ Institut Fourier (IF) and G-SCOP.
 \smallskip
 \vspace{.5cm}
 \begin{center}
-\begin{tabular}[h]{|c|c|c|l|l|}
+\begin{tabular}[h]{|c|c|c|l|}
   \hline
  Laboratoire & Équipe & Nom \\
 \hline \hline
-IF & Géométrie et Topologie & {\bf Martin Deraux} &\\
+IF & Géométrie et Topologie & {\bf Martin Deraux} \\
 \hline
-G-SCOP & Optimisation Combinatoire & {\bf Louis Esperet}& \\
+G-SCOP & Optimisation Combinatoire & {\bf Louis Esperet} \\
 \hline
-G-SCOP & Optimisation Combinatoire & {\bf Francis Lazarus}& 
-francis.lazarus@gipsa-lab.grenoble-inp.fr\\
+G-SCOP & Optimisation Combinatoire & {\bf Francis Lazarus}\\
 \hline
-IF & Géométrie et Topologie & {\bf Greg McShane}&
-mcshane@univ-grenoble.fr \\
+IF & Géométrie et Topologie & {\bf Greg McShane} \\
 \hline
-IF & Géométrie et Topologie & {\bf Anne Parreau}& \\
+IF & Géométrie et Topologie & {\bf Anne Parreau} \\
 \hline
-G-SCOP & Optimisation Combinatoire & {\bf Joanny Perret}& \\
+G-SCOP & Optimisation Combinatoire & {\bf Joanny Perret} \\
 \hline
-IF & Géométrie et Topologie & {\bf Andrea Seppi}& \\
+IF & Géométrie et Topologie & {\bf Andrea Seppi} \\
 \hline
-G-SCOP & Optimisation Combinatoire & {\bf Mat\v{e}j Stehlìk}& \\
+G-SCOP & Optimisation Combinatoire & {\bf Mat\v{e}j Stehlìk} \\
 \hline
 \end{tabular}
 \end{center}
@@ -494,7 +522,9 @@ moduli spaces.
 There are  natural cellulations of 
 the moduli space hyperbolic (complex)  structures.
 There are various constructions for these
-due to amongst others Penner, Epstein-Penner,  Kontsevich.
+due to amongst others Penner, 
+Epstein-Penner \cite{epstein1988}, 
+Bowditch-Epstein \cite{BOWDITCH198891} Kontsevich \cite{kontsevich1992}.
 Underlying these constructions 
 are the lengths of certain curves on the surfaces
 and embedded trivalent graphs.
@@ -507,8 +537,7 @@ via the calculation of a convex hull
 One hopes that interaction between team members
 could lead to an extension of these constructions
 to the space of flat moduli space 
-and developping a computationally efficient
-implementation.
+and the development of a computationally efficient implementation.
  
 
 
@@ -552,22 +581,23 @@ involved
 in this project posess a blend of complementary skills 
 perfectly adapted
 to working together on the objectives above.
-On the one hand the G-SCOP team \emph{Optimisation Combinatoire} is certainly one of the leading groups in graph theory with an emphasis on topological aspects of graphs on surfaces~\cite{es-wqpp-18}. On the other the topology team at the Institut Fourier is a leading group in low dimensional topology 
+The G-SCOP team \emph{Optimisation Combinatoire} is certainly one of the leading groups in graph theory with an emphasis on topological aspects of graphs on surfaces~\cite{es-wqpp-18}. 
+Similarly the topology team at the Institut Fourier is a leading group in low dimensional topology 
 especially the theory of surfaces 
 with its many facets 
 - dynamical, variational and spectral,
  interactions with classical and quantuum algebra.
  
-More precisely:
-\begin{itemize}
-\item Martin Deraux is an expert in complex hyperbolic spaces. He has created programs in JAVA to determine 
-\textit{fundamental domains} for groups acting on these spaces. This is a very delicate task and he must certify all his calculations so that they can be used in rigorously proving theorems.
-\item Greg McShane has worked extensively on moduli of surfaces and the action of the mapping class group. He has discovered surprising relations between the moduli which can be used to explore the size and shape of the moduli space that is the space of all complex structures on a surface of fixed type.
-\item Anne Parreau works on representations of the fundamental group of a surface into Lie groups. 
-In her work there are functions which appear which generalise the lengths of curves on a surface.
-\item Francis Lazarus is interested in the combinatorics of surfaces.
-
-\end{itemize}
+%More precisely:
+%\begin{itemize}
+%\item Martin Deraux is an expert in complex hyperbolic spaces. He has created programs in JAVA to determine 
+%\textit{fundamental domains} for groups acting on these spaces. This is a very delicate task and he must certify all his calculations so that they can be used in rigorously proving theorems.
+%\item Greg McShane has worked extensively on moduli of surfaces and the action of the mapping class group. He has discovered surprising relations between the moduli which can be used to explore the size and shape of the moduli space that is the space of all complex structures on a surface of fixed type.
+%\item Anne Parreau works on representations of the fundamental group of a surface into Lie groups. 
+%In her work there are functions which appear which generalise the lengths of curves on a surface.
+%\item Francis Lazarus is interested in the combinatorics of surfaces.
+%
+%\end{itemize}
 
 \vspace{.25in}
 
