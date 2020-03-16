@@ -3,49 +3,41 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: TOFU.aux
 The style file: plain.bst
 Database file #1: bibTofu.bib
-I was expecting a `,' or a `}'---line 103 of file bibTofu.bib
- : 
- : @article{wolf,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Name 1 in "Marc Culler, Nathan Dunfield, and Matthias Goerner" has a comma at the end for entry snappy
 while executing---line 1049 of file plain.bst
-Warning--to sort, need author or key in w-gt-70
-Warning--empty author in w-gt-70
-Warning--empty journal in w-gt-70
-Warning--empty year in w-gt-70
 Name 1 in "Marc Culler, Nathan Dunfield, and Matthias Goerner" has a comma at the end for entry snappy
 while executing---line 1090 of file plain.bst
+Warning--empty journal in w-gt-70
 You've used 35 entries,
             2118 wiz_defined-function locations,
-            709 strings with 8347 characters,
-and the built_in function-call counts, 9901 in all, are:
-= -- 1016
-> -- 368
+            713 strings with 8302 characters,
+and the built_in function-call counts, 9949 in all, are:
+= -- 1023
+> -- 374
 < -- 2
-+ -- 150
-- -- 112
-* -- 658
-:= -- 1683
-add.period$ -- 104
++ -- 152
+- -- 114
+* -- 653
+:= -- 1703
+add.period$ -- 106
 call.type$ -- 35
-change.case$ -- 159
+change.case$ -- 160
 chr.to.int$ -- 0
-cite$ -- 39
+cite$ -- 36
 duplicate$ -- 356
-empty$ -- 825
-format.name$ -- 112
-if$ -- 2037
+empty$ -- 824
+format.name$ -- 114
+if$ -- 2045
 int.to.chr$ -- 0
 int.to.str$ -- 35
 missing$ -- 28
-newline$ -- 176
-num.names$ -- 68
-pop$ -- 134
+newline$ -- 178
+num.names$ -- 70
+pop$ -- 130
 preamble$ -- 1
-purify$ -- 126
+purify$ -- 127
 quote$ -- 0
-skip$ -- 260
+skip$ -- 262
 stack$ -- 0
 substring$ -- 717
 swap$ -- 40
@@ -53,8 +45,8 @@ text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 136
-warning$ -- 4
-while$ -- 110
+warning$ -- 1
+while$ -- 112
 width$ -- 37
-write$ -- 371
-(There were 3 error messages)
+write$ -- 376
+(There were 2 error messages)

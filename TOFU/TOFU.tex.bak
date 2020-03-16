@@ -463,9 +463,22 @@ Between 1983 and 2004, Robertson and Seymour have written a series of 20 papers 
 \section{Objectives}
 We now describe the main research challenges that we intend to tackle. 
 
+\subsection{Combinatorial moduli space}
+
+In many problems
+it is has proven useful 
+to replace families of continuous objects
+by combinatorial analogs
+which are easier to study from an algorithmic point of view.
+One famous example of this
+is Kontsevich's approach to the Witten 
+conjecture \citep{kontsevich1992}.
+There are still many difficult 
+many problems which should benefit
+from this kind of approach
 
 
-\subsection{Combinatorial length and rigidity}
+\subsubsection{Combinatorial length and rigidity}
  Calculate the length
 spectrum of a combinatorial surface, that is a graph which is
 cellularly embedded in a surface.  For such a graph one associates a
@@ -476,7 +489,7 @@ lengths. One can study the inverse spectral problem: to what extent
 does this spectrum determine the surface? Exploring the connection of the length spectrum with graph Laplacian spectrum could be a promising angle of attack. Another intriguing question relates to the action of the mapping class group on this combinatorial length spectrum. Indeed, an automorphism of the
  surface permutes the homotopy class of curves, hence the length spectrum. Does the discrete nature of the graph metric induce specific properties of this action? In other words, can we learn the graph structure from this action?
 
-\subsection{Algorithmic study of lengths}
+\subsubsection{Algorithmic study of lengths}
 
 Lazarus and Damiand have
 added a package to the C++ library  CGAL which tests if two curves are
@@ -497,7 +510,8 @@ appear in the work of Mirzakhani.
 
 
 
-\subsection{Curve complex and pants graph}
+\subsection{Curve complex, 
+pants graph and harmonic maps}
 
 Curver is a program for
 performing calculations in the curve complex which implements the
@@ -513,6 +527,28 @@ This is closely related to the questions
 concerning the geometry 
 of the pants graph and the Weil-Petersson geometry of Teichm\"uller space
 as defined above.
+
+A very important tool in the study of Teichm\" {u}ller space, namely the
+space of deformation of Riemann surface structures, is represented by
+harmonic maps 
+\cite{wolf} \cite{kajigaya2019uniformizing}. Harmony is  software developed in C++ by
+Loustau and Gaster~\cite{glm-cdehm-18}, which computes harmonic maps between two
+hyperbolic surfaces, 
+described in terms of their Fenchel-Nielsen
+coordinates, 
+by means of a discrete heat flow method. In other words,
+a hyperbolic surface is 
+approximated by a finite graph 
+which encodes its geometry, 
+then one searches a discrete harmonic 
+map by a  recursive procedure 
+stopping when  a prescribed tolerance is reached. 
+Very interesting developments would be
+constituted by developing programs to compute harmonic maps with
+target a metric tree, 
+or a quasi-Fuchsian three-manifold, or to
+compute minimal Lagrangian maps between closed hyperbolic surfaces \cite{BS}.
+
 
 On the analytic side we hope to extend the
 inequalities between entropy of diffeomorphisms and hyperbolic
@@ -576,29 +612,6 @@ to the space of flat moduli space
 and the development of a computationally efficient implementation.
  
 
-
-\subsection{Harmonic maps}
-
-A very important tool in the study of Teichm\" {u}ller space, namely the
-space of deformation of Riemann surface structures, is represented by
-harmonic maps 
-\cite{wolf} \cite{kajigaya2019uniformizing}. Harmony is  software developed in C++ by
-Loustau and Gaster~\cite{glm-cdehm-18}, which computes harmonic maps between two
-hyperbolic surfaces, 
-described in terms of their Fenchel-Nielsen
-coordinates, 
-by means of a discrete heat flow method. In other words,
-a hyperbolic surface is 
-approximated by a finite graph 
-which encodes its geometry, 
-then one searches a discrete harmonic 
-map by a  recursive procedure 
-stopping when  a prescribed tolerance is reached. 
-Very interesting developments would be
-constituted by developing programs to compute harmonic maps with
-target a metric tree, 
-or a quasi-Fuchsian three-manifold, or to
-compute minimal Lagrangian maps between closed hyperbolic surfaces \cite{BS}.
 
 
 \section{Méthodologie envisagée}

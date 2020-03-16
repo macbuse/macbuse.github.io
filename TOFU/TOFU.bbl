@@ -1,9 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{w-gt-70}
-Graphentheorie, author={Wagner, Klaus}, year={1970},
-  publisher={BI-Hochschultaschenb{\"u}cher}, volume={61}.
-
 \bibitem{b-c-17}
 Mark~C. Bell.
 \newblock curver (computer software).
@@ -177,6 +173,11 @@ William~P. Thurston.
 W.~A. {Veech}.
 \newblock {Flat surfaces}.
 \newblock {\em {Am. J. Math.}}, 115(3):589--689, 1993.
+
+\bibitem{w-gt-70}
+Klaus Wagner.
+\newblock Graphentheorie.
+\newblock 61, 1970.
 
 \bibitem{wolf}
 Michael Wolf.
