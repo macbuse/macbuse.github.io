@@ -105,9 +105,11 @@ G-SCOP & Optimisation Combinatoire & {\bf Mat\v{e}j Stehlìk}& \\
 %}
 
 
-The purpose of the present project is to develop a synergy between colleagues with a backgrounds in fundamental mathematics  and others coming from more an applied/computer science background in order to study important problems related to the complexity of topological spaces 
-(such as surfaces but more generally manifolds with particular geometric structures) 
-and initiate investigations using computer software.
+The purpose of the present project is to develop a synergy between colleagues with a backgrounds in fundamental mathematics  and others coming from more an applied/computer science background.
+Such a synergy is prerequisite 
+for progress on a certain important problems related to properties of topological spaces 
+such as surfaces but more generally manifolds with particular geometric structures
+and the associated moduli spaces.
 The problems we intend to study
 are those which have both 
 combinatorial and analytical aspects. Past experience shows that
@@ -118,31 +120,36 @@ who have a purely theoretical background
 on one side 
 and a more  applied/numerical one
 on the other.
+Fundamental to our approach is
+the investigation
+of topological constructions
+using computer software.
 
-We believe that by combining the knowledge of theoretical
+We believe that by combining 
+the unique knowledge base of theoretical
 mathematicians and computer scientists
 present on the Grenoble campus 
 we can make significant progress 
 on a number of geometric problems 
 which have an analytic, combinatorial and algorithmic nature. 
-This is something we have come to realise collectively
-in the past few years 
+This is not merely a superficial sales pitch 
+but something we have come to realise collectively
+over the past few years 
 through participating together in seminars at IF and G-SCOP, in evaluation committees for our PhD students 
-and in workshops.
+and in a number of workshops, summer schools and conferences.
 
 
 \section{Research Context}
 
-In this project we aim to study ways to describe the geometry of space from two points of view: 
+We aim to study ways to describe the geometry of space from two points of view: 
 \begin{itemize}
-\item combinatorial/analytic
+\item combinatorial/algorithmic
 \item analytical
 \end{itemize} 
 This double headed approach has been central to the field of low dimensional topology since its inception.
 It  has proven spectacularly successful 
 particularly now that computers allow us 
 to make very accurate calculations rapidly as we shall now see. 
-
 
 
 \subsection{Thurston and SnapPea}
@@ -270,7 +277,10 @@ In fact there is another graph which models the geometry of Teichmueller space m
 $3g-3$ disjoint simple closed curves    and two verrtices are adjacent if they differ by a single curve.
 The complement of the curves is a union of(triply connected domains which are called by the more familiar term \textit{pants}. A Jeff Brock in his thesis proved that the pants graph with the obvious distance function and Teichmueller space with the Weil-Petersson metric are quasi isometric.
 There are many deep relation between the 
-Weil-Petersson geometry of Teichmueller space, lengths of simple closed curves on surfaces and even hyperbolic volumes of 3 manifolds obtained from  suspensions of surface diffeomorphisms \cite{km-nevvp-18}. 
+Weil-Petersson geometry of Teichmueller space, 
+lengths of simple closed curves on surfaces,
+harmonic maps between surfaces \cite{wolf}
+and even hyperbolic volumes of 3 manifolds obtained from  suspensions of surface diffeomorphisms \cite{km-nevvp-18}. 
 
  \begin{figure}[H]
 \begin{center}
@@ -339,7 +349,9 @@ This will involve using an interesting mix of
 combinatorial, topological and geometrical methods.
 
 \begin{center}
-\includegraphics[scale=.15]{cplx_hyp.png} 
+\includegraphics[scale=.13]{cplx_hyp.png} 
+
+{\small View from the inside of a complex hyperbolic manifold}
 \end{center}
 
 
@@ -366,9 +378,16 @@ holonomy groups are discrete, and if discrete, which are arithmetic.
 
 
 
+\subsection{Structural graph theory and combinatorial maps}
+
+Between 1983 and 2004, Robertson and Seymour have written a series of 20 papers adding up to more than 500 pages to prove the Wagner conjecture saying that every minor closed class of graphs is characterized by a finite family of forbidden minors~\cite{w-gt-70}.  An important step in the proof is to describe the structure of the graphs excluding a fixed minor. This structure theorem~\cite{rs-tv-99} states that such graphs can be obtained from cellular embeddings of graphs in surfaces of bounded genus, to which one applies some standard operations such as clique-sums~\cite{l-gmt-06}. A cellular embedding of a graph is called a combinatorial map (or combinatorial surface). Combinatorial maps are thus central objects in graph theory not only as discrete models of surfaces but also as the main components of the graph structures. Understanding the structure of combinatorial maps is thus a fundamental question from both the topological and combinatorial viewpoints. Spectral graph theory, based on graph Laplacians, has been successful to obtain important structural properties such as the Cheeger inequality~\cite{c-lbsel-70}. The Laplacian is also a main tool to analyse the geometry of hyperbolic surfaces. In particular, there is a striking connection to the length spectrum through the Selberg trace formula. Developing an analogous theory on combinatorial surfaces is a challenging objective.
+
+
+
 
 \section{Objectives}
 We now describe the main research challenges that we intend to tackle. 
+
 
 
 \subsection{Combinatorial length and rigidity}
@@ -391,10 +410,16 @@ complexity: in about 30 seconds one can test two paths of
 combinatorial length of 30 million on a surface of genus
 100. The next step is to implement a test to see if a path
 is homotopic to a simple loop. There is already an algorithm, of
-“quasi”-linear complexity~\cite{dl-cginc-19}, which just needs to be implemented. With
+“quasi”-linear complexity~\cite{dl-cginc-19}, which just needs to be implemented.
+\begin{center}
+  \includegraphics[scale=.55]{switch.pdf} \\
+  {\small A switch operation in the algorithm~\cite{dl-cginc-19} that tests if a curve is homotopic to a simple curve.}
+\end{center}
+With
 this one can count the number of simple curves of length less than a given threshold 
 and hopefully check the numerical values of certain important constants which
 appear in the work of Mirzakhani.
+
 
 
 \subsection{Curve complex}

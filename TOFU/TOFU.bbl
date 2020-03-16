@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{w-gt-70}
+Graphentheorie, author={Wagner, Klaus}, year={1970},
+  publisher={BI-Hochschultaschenb{\"u}cher}, volume={61}.
+
 \bibitem{b-c-17}
 Mark~C. Bell.
 \newblock curver (computer software).
@@ -26,6 +30,12 @@ Joan Birman, Dan Margalit, and William Menasco.
 J.~Bonsante, F.~Schlenker.
 \newblock Maximal surfaces and the universal teichmüller spac.
 \newblock {\em Invent. math.}, 182:279–333, 2010.
+
+\bibitem{c-lbsel-70}
+Jeff Cheeger.
+\newblock A lower bound for the smallest eigenvalue of the laplacian.
+\newblock In {\em Proceedings of the Princeton conference in honor of Professor
+  S. Bochner}, pages 195--199, 1969.
 
 \bibitem{FLP}
 Collectif.
@@ -79,6 +89,12 @@ Sadayoshi Kojima and Greg McShane.
 \newblock Normalized entropy versus volume for pseudo-anosovs.
 \newblock {\em Geometry \& Topology}, 22(4):2403--2426, 2018.
 
+\bibitem{l-gmt-06}
+L{\'a}szl{\'o} Lov{\'a}sz.
+\newblock Graph minor theory.
+\newblock {\em Bulletin of the American Mathematical Society}, 43(1):75--86,
+  2006.
+
 \bibitem{anne-19}
 Anne~Parreau Marc~Burger, Alessandra~Iozzi and Maria~Beatrice Pozzetti.
 \newblock Currents, systoles, and compactifications of character varieties.
@@ -109,6 +125,12 @@ G.~D. Mostow.
 J.~R. Parker and P.~Will.
 \newblock {A complex hyperbolic Riley slice}.
 \newblock {\em {Geom. Topol.}}, 21(6):3391--3451, 2017.
+
+\bibitem{rs-tv-99}
+Neil Robertson and Paul~D Seymour.
+\newblock Graph minors: Xvii. taming a vortex.
+\newblock {\em Journal of Combinatorial Theory, Series B}, 77(1):162--210,
+  1999.
 
 \bibitem{schwartz}
 R.~E. Schwartz.
