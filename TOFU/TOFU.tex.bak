@@ -80,7 +80,7 @@ Project leaders
 && {\bf Francis Lazarus} (G-SCOP) \\
 Email
 &:& \url{mcshane@univ-grenoble-alpes.fr}  \\
-&&  \url{francis.lazarus@gipsa-lab.grenoble-inp.fr}\\
+&&  \url{francis.lazarus@grenoble-inp.fr}\\
 Personal web pages
 &:& \url{https://www-fourier.ujf-grenoble.fr/~mcshane}\\
 && \url{https://pagesperso.g-scop.grenoble-inp.fr/~lazarusf/}\\
@@ -163,6 +163,32 @@ but something we have come to realise collectively
 over the past few years 
 through participating together in seminars at IF and G-SCOP, in evaluation committees for our PhD students 
 and in a number of workshops, summer schools and conferences.
+
+
+One of the things that makes
+our proposal particularly relevant
+at this time is that
+the theme of the  Master of
+Mathematics (M2R) for 2020-21
+will be  geometric group theory, 
+including its combinatorial aspects with applications to topology. 
+In particular, 
+Martin Deraux, Anne Parreau and Francis Lazarus will all be giving courses as part of  this Master. 
+So accepting our proposal 
+would be  an excellent opportunity 
+to reinforce
+what is at the moment 
+a nascent synergy 
+between team members in
+quite distinct laboratories and
+academic programs. 
+The possibility to recrute 
+students from these Masters courses
+by offering fundings 
+would be undoubtedly 
+be good for the attractivity
+of Grenoble as a place to study
+both in the short and long term. 
 
 
 \section{Research Context}
@@ -269,8 +295,8 @@ In fact the key to proving Thurston's existence
 theorem is a profound study of these 
 structures, the
 space of all Riemann surfaces of a fixed genus
-the so-called \textit{Teichmueller space}.
-The Teichmueller space is naturally an analytic object.
+the so-called \textit{Teichm\"uller space}.
+The Teichm\"uller space is naturally an analytic object.
 But the theory of
 how sufaces vary is extremely rich 
 requiring many tools coming
@@ -281,7 +307,7 @@ differential geometry but also combinatorial and algorithmic analysis.
 
 An important topic is understanding
 the group of automorphisms of 
-Teichmueller space 
+Teichm\"uller space 
 which turns out to be isomorphic to 
 the diffeomorphisms of a surface
 up to isotopy. 
@@ -313,11 +339,11 @@ concerning the metric geometry/combinatorics of this graph~\cite{bmm-egead-16} a
 algorithms related to them: the Bestvina–Handel algorithm, Bell–Webb
 algorithm~\cite{bw-ptacg-16}, Leasure and Shackleton algorithms.
 
-In fact there is another graph which models the geometry of Teichmueller space much better -- the pants graph. This is a graph whose vertices are homotopy classes of
+In fact there is another graph which models the geometry of Teichm\"uller space much better -- the pants graph. This is a graph whose vertices are homotopy classes of
 $3g-3$ disjoint simple closed curves    and two verrtices are adjacent if they differ by a single curve.
-The complement of the curves is a union of(triply connected domains which are called by the more familiar term \textit{pants}. A Jeff Brock in his thesis proved that the pants graph with the obvious distance function and Teichmueller space with the Weil-Petersson metric are quasi isometric.
+The complement of the curves is a union of(triply connected domains which are called by the more familiar term \textit{pants}. Jeff Brock in his thesis proved that the pants graph with the obvious distance function and Teichm\"uller space with the Weil-Petersson metric are quasi isometric.
 There are many deep relation between the 
-Weil-Petersson geometry of Teichmueller space, 
+Weil-Petersson geometry of Teichm\"uller space, 
 lengths of simple closed curves on surfaces 
 \cite{bridgeman2019uniform},
 harmonic maps between surfaces \cite{wolf}
@@ -367,7 +393,7 @@ There are many variations
  representations of the fundamental group
  into the automorphism group of some space
  and one then tries to study their properties by analogy with what is known 
- for Teichmueller space \cite{anne-19}.
+ for Teichm\"uller space \cite{anne-19}.
  One such variation  is the construction of
 spherical CR structures, 
 i.e. geometric structures modeled on the
@@ -485,7 +511,7 @@ algorithm practical by solving the problem of large constants and
 extending the work to cover closed surfaces without boundary~\cite{mm-sosr-19}.
 This is closely related to the questions 
 concerning the geometry 
-of the pants graph and the Weil-Petersson geometry of Teichmueller space
+of the pants graph and the Weil-Petersson geometry of Teichm\"uller space
 as defined above.
 
 On the analytic side we hope to extend the
@@ -612,29 +638,6 @@ with its many facets
 \vspace{.25in}
 
 
-
-One of the things that makes
-our proposal particularly relevant
-at this time is that
-the theme of the  Master of
-Mathematics (M2R) for 2020-21
-will be  geometric group theory, 
-including its combinatorial aspects with applications to topology. 
-In particular, Martin Deraud, Anne Parreau and Francis Lazarus will both be giving courses as part of  this Master. 
-So accepting our proposal 
-would be  an excellent opportunity 
-to reinforce
-what is at the moment a tentative synergy 
-between team members in
-quite distinct laboratories and
-academic programs. 
-The possibility to recrute 
-students from these Masters courses
-by offering fundings 
-would be undoubtedly 
-be good for the attractivity
-of Grenoble as a place to study
-both in the short and long term. 
 
 Each of the challenges  in the above scientific description of the project
 could certainly yield 

@@ -13,7 +13,6 @@
 \contentsline {subsection}{\numberline {4.4}General geometric structures}{7}
 \contentsline {subsubsection}{\numberline {4.4.1}CR SnapPy}{7}
 \contentsline {subsubsection}{\numberline {4.4.2}Cellulations of moduli space}{7}
-\contentsline {subsection}{\numberline {4.5}Harmonic maps}{7}
 \contentsline {section}{\numberline {5}M\IeC {\'e}thodologie envisag\IeC {\'e}e}{8}
 \contentsline {section}{\numberline {6}R\IeC {\'e}sultats attendus}{8}
 \contentsline {section}{\numberline {7}Principales \IeC {\'e}tapes envisag\IeC {\'e}es}{8}

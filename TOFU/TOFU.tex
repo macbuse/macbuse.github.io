@@ -191,7 +191,6 @@ of Grenoble as a place to study
 both in the short and long term. 
 
 
-
 \section{Research Context}
 
 We aim to study ways to describe the geometry of space from two points of view: 
@@ -296,8 +295,8 @@ In fact the key to proving Thurston's existence
 theorem is a profound study of these 
 structures, the
 space of all Riemann surfaces of a fixed genus
-the so-called \textit{Teichmueller space}.
-The Teichmueller space is naturally an analytic object.
+the so-called \textit{Teichm\"uller space}.
+The Teichm\"uller space is naturally an analytic object.
 But the theory of
 how sufaces vary is extremely rich 
 requiring many tools coming
@@ -308,7 +307,7 @@ differential geometry but also combinatorial and algorithmic analysis.
 
 An important topic is understanding
 the group of automorphisms of 
-Teichmueller space 
+Teichm\"uller space 
 which turns out to be isomorphic to 
 the diffeomorphisms of a surface
 up to isotopy. 
@@ -340,11 +339,11 @@ concerning the metric geometry/combinatorics of this graph~\cite{bmm-egead-16} a
 algorithms related to them: the Bestvina–Handel algorithm, Bell–Webb
 algorithm~\cite{bw-ptacg-16}, Leasure and Shackleton algorithms.
 
-In fact there is another graph which models the geometry of Teichmueller space much better -- the pants graph. This is a graph whose vertices are homotopy classes of
+In fact there is another graph which models the geometry of Teichm\"uller space much better -- the pants graph. This is a graph whose vertices are homotopy classes of
 $3g-3$ disjoint simple closed curves    and two verrtices are adjacent if they differ by a single curve.
-The complement of the curves is a union of(triply connected domains which are called by the more familiar term \textit{pants}. A Jeff Brock in his thesis proved that the pants graph with the obvious distance function and Teichmueller space with the Weil-Petersson metric are quasi isometric.
+The complement of the curves is a union of(triply connected domains which are called by the more familiar term \textit{pants}. Jeff Brock in his thesis proved that the pants graph with the obvious distance function and Teichm\"uller space with the Weil-Petersson metric are quasi isometric.
 There are many deep relation between the 
-Weil-Petersson geometry of Teichmueller space, 
+Weil-Petersson geometry of Teichm\"uller space, 
 lengths of simple closed curves on surfaces 
 \cite{bridgeman2019uniform},
 harmonic maps between surfaces \cite{wolf}
@@ -394,7 +393,7 @@ There are many variations
  representations of the fundamental group
  into the automorphism group of some space
  and one then tries to study their properties by analogy with what is known 
- for Teichmueller space \cite{anne-19}.
+ for Teichm\"uller space \cite{anne-19}.
  One such variation  is the construction of
 spherical CR structures, 
 i.e. geometric structures modeled on the
@@ -512,8 +511,30 @@ algorithm practical by solving the problem of large constants and
 extending the work to cover closed surfaces without boundary~\cite{mm-sosr-19}.
 This is closely related to the questions 
 concerning the geometry 
-of the pants graph and the Weil-Petersson geometry of Teichmueller space
+of the pants graph and the Weil-Petersson geometry of Teichm\"uller space
 as defined above.
+
+A very important tool in the study of Teichm\" {u}ller space, namely the
+space of deformation of Riemann surface structures, is represented by
+harmonic maps 
+\cite{wolf} \cite{kajigaya2019uniformizing}. Harmony is  software developed in C++ by
+Loustau and Gaster~\cite{glm-cdehm-18}, which computes harmonic maps between two
+hyperbolic surfaces, 
+described in terms of their Fenchel-Nielsen
+coordinates, 
+by means of a discrete heat flow method. In other words,
+a hyperbolic surface is 
+approximated by a finite graph 
+which encodes its geometry, 
+then one searches a discrete harmonic 
+map by a  recursive procedure 
+stopping when  a prescribed tolerance is reached. 
+Very interesting developments would be
+constituted by developing programs to compute harmonic maps with
+target a metric tree, 
+or a quasi-Fuchsian three-manifold, or to
+compute minimal Lagrangian maps between closed hyperbolic surfaces \cite{BS}.
+
 
 On the analytic side we hope to extend the
 inequalities between entropy of diffeomorphisms and hyperbolic
@@ -577,29 +598,6 @@ to the space of flat moduli space
 and the development of a computationally efficient implementation.
  
 
-
-\subsection{Harmonic maps}
-
-A very important tool in the study of Teichm\" {u}ller space, namely the
-space of deformation of Riemann surface structures, is represented by
-harmonic maps 
-\cite{wolf} \cite{kajigaya2019uniformizing}. Harmony is  software developed in C++ by
-Loustau and Gaster~\cite{glm-cdehm-18}, which computes harmonic maps between two
-hyperbolic surfaces, 
-described in terms of their Fenchel-Nielsen
-coordinates, 
-by means of a discrete heat flow method. In other words,
-a hyperbolic surface is 
-approximated by a finite graph 
-which encodes its geometry, 
-then one searches a discrete harmonic 
-map by a  recursive procedure 
-stopping when  a prescribed tolerance is reached. 
-Very interesting developments would be
-constituted by developing programs to compute harmonic maps with
-target a metric tree, 
-or a quasi-Fuchsian three-manifold, or to
-compute minimal Lagrangian maps between closed hyperbolic surfaces \cite{BS}.
 
 
 \section{Méthodologie envisagée}
