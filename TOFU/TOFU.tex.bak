@@ -519,7 +519,8 @@ is homotopic to a simple loop. There is already an algorithm, of
 With
 this one can count the number of simple curves of length less than a given threshold 
 and hopefully check the numerical values of certain important constants which
-appear in the work of Mirzakhani.
+appear in the work of Mirzakhani see
+\cite{m-gnscg-08} and \cite{m-cmcgo-16}.
 
 
 
@@ -574,8 +575,9 @@ programs to explore the combinatorics of the various graphs that one
 can associate to a surface.
 
 \subsection{Geometric structures
-\normalfont : Deraux, Parreau,}
-}}
+{\normalfont : Deraux,Parreau}
+}
+\label{•}
 
 Here we have two very concrete goals
 
@@ -700,8 +702,6 @@ which are again strengths of the
 mathematical/computer science community Grenoble. 
 It is our intention to develop and distribute open source softwares and packages.
 
-\section{Principales étapes envisagées}
-
 
 \section{ Request budget and scientific justification}
 
@@ -714,7 +714,7 @@ Ideally the PhD student would
 come from the M2R at the IF 
 in the academic year 2020-21.
 Depending on the background of the student, the PhD thesis will focus on the
-questions raised in sections ??.
+questions raised in section .
 The post-doctoral student is expected to have skills in both
 theoretical mathematics 
 and algorithms
