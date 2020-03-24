@@ -476,6 +476,7 @@ embedded in the surface.
 \subsection{Combinatorial moduli space {\normalfont : Esperet, Lazarus, Perret, McShane, Seppi}
 }
 
+\label{combinatorial moduli}
 
 In many problems
 it is has proven useful 
@@ -577,7 +578,7 @@ can associate to a surface.
 \subsection{Geometric structures
 {\normalfont : Deraux,Parreau}
 }
-\label{•}
+\label{geom structures}
 
 Here we have two very concrete goals
 
@@ -713,21 +714,27 @@ by members of the IF and the G-SCOP.
 Ideally the PhD student would
 come from the M2R at the IF 
 in the academic year 2020-21.
-Depending on the background of the student, the PhD thesis will focus on the
-questions raised in section .
+Depending on the background of the student, the PhD thesis will focus 
+on one or other of the
+directions raised in section 
+\ref{geom structures} .
 The post-doctoral student is expected to have skills in both
 theoretical mathematics 
 and algorithms
-to be involved in the research direction raised in section (??).
+with a view to working
+on the spefic problems 
+raised in section \ref{combinatorial moduli}.
 
 In addition to this, we plan to organize a workshop gathering all members of the
-team and which could be entitled ”???” and several meetings
-or one-day workshops with related ANR projects (???).
+team,  several meetings
+or one-day workshops
+co organized 
+with related ANR projects such as MIN-MAX.
 We also intend to organize 
 a bimonthly all day meeting 
 at which all members would participate
-to reinforce the cohesion of the TOFU team
-and facilitate the exchange of ideas.
+with the aim of reinforcing the cohesion of the TOFU team
+and facilitating the exchange of ideas.
 
 A joint meeting of the SMF and AMS
 will take place in June 2021
