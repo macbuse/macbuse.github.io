@@ -3,7 +3,7 @@ layout: page
 title: Contact Page
 ---
 
-#Mat 402
+# Mat 402
 
 This page is a repo for exchanges 
 in the TD group MIN-1. Last years
