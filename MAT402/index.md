@@ -15,3 +15,4 @@ materials and some corrections are
 
 
 [F 4 seance 1](corr_4.1.pdf)
+[F 4 seance 2](corr_4.2.pdf)
