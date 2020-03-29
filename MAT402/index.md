@@ -5,8 +5,9 @@ title: Contact Page
 
 # Mat 402
 
-This page is a repo for exchanges 
-in the TD group MIN-1. Last years
+- This page is a repo for exchanges 
+in the TD group MIN-1. 
+- Last years
 materials and some corrections are
 [here](https://webusers.imj-prg.fr/~helene.eynard-bontemps/enseignement.html)
 
