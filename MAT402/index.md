@@ -16,7 +16,8 @@ To check DL (Maclaurin Series) I use online calculators
 - [symbolab](https://www.symbolab.com/solver/taylor-series-calculator)
 - [wolfram](https://www.wolframalpha.com/input/?i=taylor+series+1%2F%281-x%29++%2B++ln%281-x%29+at+x%3D0)
 
-![taylor series](taylor.png)
+<img  width="50%" alt="taylor s" src="taylor.png">
+
 ---
 
 ## Exercises with hints and comments
