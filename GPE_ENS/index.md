@@ -5,9 +5,13 @@ title: Contact Page
 # Conway: Sensual quadratic forms
 
 This page is a repo for exchanges 
-in the gpe de lecture E this group 
-will no longer meet physically because of ***confinement***..
+in the gpe de lecture E. 
 
+***IMPORTANT: this group 
+will no longer meet physically 
+because of confinement***
+
+We are meeting on [Discord](https://discordapp.com/).
 - [seance 25/3](Support_Grp_de_Lecture_1.pdf)
 
 ---
