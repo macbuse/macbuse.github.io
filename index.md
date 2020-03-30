@@ -228,4 +228,3 @@ to explain the techniques and possibilities.</p>
 <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/woodcuts/swirler.JPG" alt="photo" width="300">
 <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/woodcuts/lego.png" alt="photo" width="300">
 </center>
-</body>
