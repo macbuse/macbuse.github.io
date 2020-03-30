@@ -7,7 +7,7 @@
 
 ---
 
-### What do I do
+### What do I do?
 
 - Directeur de <a href="http://tresses.math.cnrs.fr">GDR TRESSES</a>
 - Editor <a href="http://aif.cedram.org/?lang=fr">Annales de l'Institut Fourier</a>
@@ -17,7 +17,7 @@
 -  <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf">research statement</a>
 - <a href="https://github.com/macbuse">my github account</a>
 
----
+#### and a little more...
 
 <p>I am a (low dimensional) topologist a subject which has it's origins in the
 <a href="http://analysis-situs.math.cnrs.fr/"> work of the French mathematician Henri Poincaré</a>.
@@ -106,7 +106,7 @@ For the last few years years I was teaching M1 Algebra
 
 ***IMPORTANT : classes are suspended because of the pandemic.***
 
-I'll probably finish the graduate course online using [Zoom](https://zoom.us/)<br>
+I'll probably finish the graduate course online using Zoom<br>
 Notes and reading material:
 <a href="https://macbuse.github.io/M2R_2019/"> Course Page </a>
 
@@ -168,7 +168,7 @@ provided the SNCF gets me there. <a href="https://github.com/macbuse/MATH/blob/m
  <li> <a href = "http://scientific-events.weebly.com/1713.html">Teichmüller Space, Polygonal Billiard, Interval Exchanges CIRM</a></li>
  <li> <a href = "https://minkowski-2017.sciencesconf.org/">Minkowski ? function, Grenoble</a> </li>
  <li><a href="https://old.i2m.univ-amu.fr/~audoux/ToCQ.htm">Interactions Topologie/Codes quantiques, Marseille</a></li>
-
+</ul>
 ---
  
 <h2 id="themes">Themes</h2>
