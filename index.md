@@ -113,9 +113,7 @@ Notes and reading material:
 - Mondays 10:00 I'm teaching a graduate course on Geometry of Surfaces.
 - Thursday and Friday at 8:00 <a href="./MAT402">MAT402 local repo</a>
 - Wednesdays I will be teaching Topography of Numbers at ENS-Lyon
-provided the SNCF gets me there. <a href="https://github.com/macbuse/MATH/blob/master/gpe%20de%20lecture%202020.md">
-    Course Page
-</a>
+provided the SNCF gets me there.  [Course Page](https://macbuse.github.io/GPE_ENS/)
 
 ---
 
