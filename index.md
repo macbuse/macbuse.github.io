@@ -60,10 +60,10 @@ IHP 2012 : La Maison des Maths
 <li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/otherstuff.html">Other stuff</a></li>
 </ol>
 
+---
 
 <h2 id="teaching">Teaching 2019-20</h2>
 
----
 
 ### First semester
 
@@ -131,7 +131,7 @@ provided the SNCF gets me there. <a href="https://github.com/macbuse/MATH/blob/m
 
 ## Rencontres du GDR
 
-## Upcoming in 2020:
+### Upcoming in 2020:
 
 <ul>
     <li>	<a href="http://winterbraids.math.cnrs.fr/">WINTERBRAIDS</a> </li>
