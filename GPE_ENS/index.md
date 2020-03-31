@@ -15,7 +15,7 @@ We are meeting on [Discord](https://discordapp.com/).
 - this [test.tex](test.tex) is a TeX template for using figures. The output
   should look like [this](test.pdf).
 
-<img src='tree2.png' width="100">
+<img src='tree2.png' width="200">
 ---
 
 ## Background
