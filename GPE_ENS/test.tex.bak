@@ -60,11 +60,25 @@ Mathematics: from Fundamentals to Applications}
 \end{center}
 
 
-
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=.25]{IMG_5383.jpg}
 \end{center} 
+\end{figure}
+
+\newpage
+
+
+ \begin{figure}[H]
+  \centering
+  \subfloat  
+{\includegraphics[scale=1]{tree3.png}  
+}
+ \hfill
+  \subfloat
+  {\includegraphics[scale=.4]{tree2.png}  
+}
+
 \end{figure}
 
 

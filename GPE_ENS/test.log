@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2020.3.12)  31 MAR 2020 07:47
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2020.3.12)  31 MAR 2020 07:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**TOFU.tex
-(./TOFU.tex
+**test.tex
+(./test.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 7 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -288,33 +288,33 @@ Package caption Info: float package is loaded.
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./TOFU.aux)
-\openout1 = `TOFU.aux'.
+(./test.aux)
+\openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Info: Redefining \dots on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Info: Redefining \dots on input line 32.
 Package frenchb.ldf Info: Setting StandardEnumerateEnv=true for
 (frenchb.ldf)             compatibility with enumerate package,
-(frenchb.ldf)              on input line 33.
-LaTeX Info: Redefining \up on input line 33.
+(frenchb.ldf)              on input line 32.
+LaTeX Info: Redefining \up on input line 32.
 
 
 Package frenchb.ldf Warning: Add \usepackage{fontspec} to the
 (frenchb.ldf)                preamble of your document, reported on input line 
-33.
+32.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -323,235 +323,33 @@ File: iflogo-azur-sable-150x60_0.png Graphic file (type QTm)
 <use  "iflogo-azur-sable-150x60_0.png" >
 File: gscop.png Graphic file (type QTm)
  <use  "gscop.png" >
-Overfull \hbox (25.41376pt too wide) in paragraph at lines 49--50
+Overfull \hbox (25.41376pt too wide) in paragraph at lines 48--49
  | 
  []
 
 
-Overfull \hbox (25.41376pt too wide) in paragraph at lines 52--56
+Overfull \hbox (25.41376pt too wide) in paragraph at lines 51--55
  | 
  []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 69.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 69.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+lasy on input line 69.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 82.
-
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (./TOFU.toc [1
-
-])
-\tf@toc=\write3
-\openout3 = `TOFU.toc'.
-
- [2]
-
-LaTeX Warning: Citation `Thu1' on page 3 undefined on input line 220.
-
-File: snappy1.png Graphic file (type QTm)
-<use  "snappy1.png" >
-File: SnapPea-horocusp_view.png Graphic file (type QTm)
- <use  "SnapPea-horocusp_view.png" >
-
-LaTeX Warning: Citation `snappy' on page 3 undefined on input line 266.
-
-
-LaTeX Warning: Citation `snap' on page 3 undefined on input line 268.
-
-
-LaTeX Warning: Citation `mostow' on page 3 undefined on input line 288.
-
-[3]
-Missing character: There is no ’ in font ec-lmr10!
-
-
-LaTeX Warning: Citation `FLP' on page 4 undefined on input line 324.
-
-Missing character: There is no ’ in font ec-lmr10!
-
-LaTeX Warning: Citation `MM' on page 4 undefined on input line 336.
-
-
-LaTeX Warning: Citation `bmm-egead-16' on page 4 undefined on input line 338.
-
-Missing character: There is no – in font ec-lmr10!
-Missing character: There is no – in font ec-lmr10!
-
-LaTeX Warning: Citation `bw-ptacg-16' on page 4 undefined on input line 340.
-
-
-LaTeX Warning: Citation `bridgeman2019uniform' on page 4 undefined on input lin
-e 348.
-
-
-LaTeX Warning: Citation `wolf' on page 4 undefined on input line 349.
-
-
-LaTeX Warning: Citation `km-nevvp-18' on page 4 undefined on input line 350.
 
 File: IMG_5383.jpg Graphic file (type QTm)
-<use  "IMG_5383.jpg" >
-File: IMG_5385.jpg Graphic file (type QTm)
- <use  "IMG_5385.jpg" > [4]
-
-LaTeX Warning: Citation `anne-19' on page 5 undefined on input line 396.
-
-
-LaTeX Warning: Citation `derauxexpmath' on page 5 undefined on input line 409.
-
-
-LaTeX Warning: Citation `schwartz' on page 5 undefined on input line 421.
-
-
-LaTeX Warning: Citation `derauxfalbel' on page 5 undefined on input line 421.
-
-
-LaTeX Warning: Citation `parkerwill' on page 5 undefined on input line 421.
-
-File: cplx_hyp.png Graphic file (type QTm)
-<use  "cplx_hyp.png" >
-
-LaTeX Warning: Citation `delignemostow' on page 5 undefined on input line 439.
-
-
-LaTeX Warning: Citation `thurstonshapes' on page 5 undefined on input line 439.
-
-
-
-LaTeX Warning: Citation `veech' on page 5 undefined on input line 447.
-
-
-LaTeX Warning: Citation `ghazouanipirio' on page 5 undefined on input line 448.
-
-
-
-LaTeX Warning: Citation `w-gt-70' on page 5 undefined on input line 458.
-
-
-LaTeX Warning: Citation `rs-tv-99' on page 5 undefined on input line 458.
-
-
-LaTeX Warning: Citation `l-gmt-06' on page 5 undefined on input line 458.
-
-
-LaTeX Warning: Citation `c-lbsel-70' on page 5 undefined on input line 458.
-
-[5]
-
-LaTeX Warning: Reference `cells flat' on page 6 undefined on input line 468.
-
-
-LaTeX Warning: Reference `algo lengths' on page 6 undefined on input line 471.
-
-
-LaTeX Warning: Reference `curve complex' on page 6 undefined on input line 472.
-
-
-
-LaTeX Warning: Citation `kontsevich1992' on page 6 undefined on input line 488.
-
-
-Missing character: There is no “ in font ec-lmr10!
-Missing character: There is no ” in font ec-lmr10!
-
-LaTeX Warning: Citation `dl-cginc-19' on page 6 undefined on input line 515.
-
-File: switch.pdf Graphic file (type QTm)
-<use  "switch.pdf" >
-
-LaTeX Warning: Citation `dl-cginc-19' on page 6 undefined on input line 518.
-
-[6]
-
-LaTeX Warning: Citation `m-gnscg-08' on page 7 undefined on input line 524.
-
-
-LaTeX Warning: Citation `m-cmcgo-16' on page 7 undefined on input line 524.
-
-Missing character: There is no – in font ec-lmr10!
-Missing character: There is no – in font ec-lmr10!
-
-LaTeX Warning: Citation `b-c-17' on page 7 undefined on input line 537.
-
-
-LaTeX Warning: Citation `b-esmt-19' on page 7 undefined on input line 537.
-
-
-LaTeX Warning: Citation `mm-sosr-19' on page 7 undefined on input line 543.
-
-
-LaTeX Warning: Citation `wolf' on page 7 undefined on input line 552.
-
-
-LaTeX Warning: Citation `kajigaya2019uniformizing' on page 7 undefined on input
- line 552.
-
-
-LaTeX Warning: Citation `glm-cdehm-18' on page 7 undefined on input line 553.
-
-
-LaTeX Warning: Citation `BS' on page 7 undefined on input line 568.
-
-
-LaTeX Warning: Citation `km-nevvp-18' on page 7 undefined on input line 573.
-
-[7]
-
-LaTeX Warning: Citation `epstein1988' on page 8 undefined on input line 619.
-
-
-LaTeX Warning: Citation `BOWDITCH198891' on page 8 undefined on input line 620.
-
-
-
-LaTeX Warning: Citation `kontsevich1992' on page 8 undefined on input line 620.
-
-
-
-LaTeX Warning: Citation `es-wqpp-18' on page 8 undefined on input line 654.
-
-
-LaTeX Warning: Reference `geom structures' on page 8 undefined on input line 72
-0.
-
-
-LaTeX Warning: Reference `combinatorial moduli' on page 8 undefined on input li
-ne 726.
-
-[8]
-LaTeX Font Info:    Try loading font information for U+mvs on input line 752.
- (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd) (./TOFU.bbl
-Missing character: There is no – in font ec-lmr10!
-
-[9]
-Missing character: There is no – in font ec-lmr10!
-) [10] (./TOFU.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+<use  "IMG_5383.jpg" > [1
+
+]
+File: eqn1.png Graphic file (type QTm)
+ <use  "eqn1.png" >
+File: tree3.png Graphic file (type QTm)
+ <use  "tree3.png" >
+File: tree2.png Graphic file (type QTm)
+
+<use  "tree2.png" > [2] (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 4730 strings out of 494970
- 65324 string characters out of 6176981
- 132409 words of memory out of 5000000
- 8438 multiletter control sequences out of 15000+600000
- 50691 words of font info for 57 fonts, out of 8000000 for 9000
+ 4555 strings out of 494970
+ 62815 string characters out of 6176981
+ 128409 words of memory out of 5000000
+ 8312 multiletter control sequences out of 15000+600000
+ 24645 words of font info for 22 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 44i,8n,42p,1434b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,7n,42p,220b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on TOFU.pdf (10 pages).
+Output written on test.pdf (2 pages).

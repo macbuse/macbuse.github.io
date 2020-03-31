@@ -10,10 +10,10 @@
 \contentsline {subsection}{\numberline {4.1}Combinatorial moduli space {\normalfont : Esperet, Lazarus, Perret, McShane, Seppi} }{6}
 \contentsline {subsubsection}{\numberline {4.1.1}Combinatorial length and rigidity}{6}
 \contentsline {subsubsection}{\numberline {4.1.2}Algorithmic study of lengths}{6}
-\contentsline {subsection}{\numberline {4.2}Pants graph and harmonic maps {\normalfont : McShane, Seppi,Esperet Lazarus, Stehl\IeC {\`\i }k} }{7}
+\contentsline {subsection}{\numberline {4.2}Pants graph and harmonic maps {\normalfont : McShane, Seppi,Esperet Lazarus, Stehlìk} }{7}
 \contentsline {subsection}{\numberline {4.3}Geometric structures {\normalfont : Deraux,Parreau} }{7}
 \contentsline {subsubsection}{\numberline {4.3.1}CR SnapPy}{7}
 \contentsline {subsubsection}{\numberline {4.3.2}Cellulations of moduli space}{7}
-\contentsline {section}{\numberline {5}M\IeC {\'e}thodologie envisag\IeC {\'e}e}{8}
-\contentsline {section}{\numberline {6}R\IeC {\'e}sultats attendus}{8}
+\contentsline {section}{\numberline {5}Méthodologie envisagée}{8}
+\contentsline {section}{\numberline {6}Résultats attendus}{8}
 \contentsline {section}{\numberline {7} Request budget and scientific justification}{8}
