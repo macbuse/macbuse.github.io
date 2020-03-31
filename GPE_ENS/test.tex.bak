@@ -69,14 +69,23 @@ Mathematics: from Fundamentals to Applications}
 \newpage
 
 
+\section{Capture d'écrans}
+
+\subsection{Why retype this eqn?}
+
+\includegraphics[scale=.5]{eqn1.png} 
+
+
+\subsection{Why redo these drawings?}
+
  \begin{figure}[H]
   \centering
   \subfloat  
-{\includegraphics[scale=1]{tree3.png}  
+{\includegraphics[scale=.25]{tree3.png}  
 }
  \hfill
   \subfloat
-  {\includegraphics[scale=.4]{tree2.png}  
+  {\includegraphics[scale=.25]{tree2.png}  
 }
 
 \end{figure}
