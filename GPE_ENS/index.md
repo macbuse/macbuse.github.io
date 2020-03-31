@@ -12,8 +12,8 @@ will no longer meet physically
 because of confinement***
 
 We are meeting on [Discord](https://discordapp.com/).
-- [seance 25/3](Support_Grp_de_Lecture_1.pdf)
 
+<img src='tree2.png' width="100">
 ---
 
 ## Background
