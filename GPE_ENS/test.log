@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2020.3.12)  31 MAR 2020 07:45
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2020.3.12)  1 APR 2020 08:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,8 +332,23 @@ Overfull \hbox (25.41376pt too wide) in paragraph at lines 51--55
  | 
  []
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 63.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
 File: IMG_5383.jpg Graphic file (type QTm)
-<use  "IMG_5383.jpg" > [1
+ <use  "IMG_5383.jpg" >
+[1
 
 ]
 File: eqn1.png Graphic file (type QTm)
@@ -341,14 +356,13 @@ File: eqn1.png Graphic file (type QTm)
 File: tree3.png Graphic file (type QTm)
  <use  "tree3.png" >
 File: tree2.png Graphic file (type QTm)
-
-<use  "tree2.png" > [2] (./test.aux) ) 
+ <use  "tree2.png" > [2] (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 4555 strings out of 494970
- 62815 string characters out of 6176981
+ 4595 strings out of 494970
+ 63590 string characters out of 6176981
  128409 words of memory out of 5000000
- 8312 multiletter control sequences out of 15000+600000
- 24645 words of font info for 22 fonts, out of 8000000 for 9000
+ 8333 multiletter control sequences out of 15000+600000
+ 26662 words of font info for 33 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  44i,7n,42p,220b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 
