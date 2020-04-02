@@ -1,6 +1,6 @@
 ---
 layout: page
-title: viruses
+title: Contact Page
 ---
 
 # Viral Proteins
