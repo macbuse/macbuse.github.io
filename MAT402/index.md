@@ -14,8 +14,9 @@ materials and some corrections are
 
 To check DL (Maclaurin Series) I use online calculators
 
-- [symbolab](https://www.symbolab.com/solver/taylor-series-calculator)
 - [wolfram](https://www.wolframalpha.com/input/?i=taylor+series+1%2F%281-x%29++%2B++ln%281-x%29+at+x%3D0)
+- [wolfram](https://www.wolframalpha.com/input/?i=taylor+series+%28x%5E2+%2B+2x+-1%29+exp%28x%29+at+x+%3D+0)
+
 
 <img  width="50%" alt="taylor s" src="taylor.png">
 
@@ -25,3 +26,4 @@ To check DL (Maclaurin Series) I use online calculators
 
 - [F 4 seance 1](corr_4.1.pdf)
 - [F 4 seance 2](corr_4.2.pdf)
+- [F 4 seance 3](corr_4.3.pdf)
