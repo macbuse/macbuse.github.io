@@ -91,7 +91,7 @@ date | nom | sujet
 19/2 | Thomas | topographie
 11/3    | Corentin | descente
 25/3  | Vincent  | Markoff
-1/4   |  Milan | formes modulaires et reseau
+1/4   |  Milan |Victor | formes modulaires et reseau
 8/4 |Vincent et ISSA | progressions arithmetiques
 
 
