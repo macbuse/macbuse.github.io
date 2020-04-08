@@ -87,11 +87,12 @@ for a reference.
 date | nom | sujet
 --- | --- | ---
 5/2 | Victor | triplets
-12/2| William | sl2
+12/2| William | sl2 et ses actions
 19/2 | Thomas | topographie
 11/3    | Corentin | descente
 25/3  | Vincent  | Markoff
-1/4   |  Milan | ??
+1/4   |  Milan | formes modulaires et reseau
+8/4 |Vincent et ISSA | progressions arithmetiques
 
 
 ---
