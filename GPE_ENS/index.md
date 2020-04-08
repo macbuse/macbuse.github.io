@@ -90,9 +90,9 @@ date | nom | sujet
 12/2| William | sl2 et ses actions
 19/2 | Thomas | topographie
 11/3    | Corentin | descente
-25/3  | Vincent  | Markoff
-1/4   |  Milan |Victor | formes modulaires et reseau
-8/4 |Vincent et ISSA | progressions arithmetiques
+25/3  | Vincent | Markoff numbers
+1/4   |  Milan | formes modulaires et reseau
+8/4 |Vincent et Victor | progressions arithmetiques
 
 
 ---
