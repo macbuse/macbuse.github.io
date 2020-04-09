@@ -27,3 +27,7 @@ To check DL (Maclaurin Series) I use online calculators
 - [F 4 seance 1](corr_4.1.pdf)
 - [F 4 seance 2](corr_4.2.pdf)
 - [F 4 seance 3+4](corr_4.3.pdf)
+- [correction 9c](9c.pdf)
+
+
+- [F_5 debut](corr_4.4.pdf)
