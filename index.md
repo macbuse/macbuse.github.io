@@ -5,7 +5,7 @@
 ### mcshane@univ-grenoble-alpes.fr
 
 If you are looking for what I teach 
-it is [here](./teaching.md)
+it is [here](teaching.md)
 ---
 
 ### What do I do?
