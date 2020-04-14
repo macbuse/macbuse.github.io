@@ -14,9 +14,6 @@ in the Masters 2019 - **Geometry of surfaces**
 ---
 ## Notes from classes
 
-These are the notes from the first 6 classes
-
-1. [Funar's notes](funar_surfaces.pdf)
 
 These are my rough notes from the classes
 and the texts we will read in the last part:
