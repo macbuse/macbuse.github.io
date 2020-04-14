@@ -47,7 +47,7 @@ For the last few years years I was teaching M1 Algebra
 
 ***IMPORTANT : classes are suspended because of the pandemic.***
 
-I'll probably finish the graduate course online using 
+I'll finish the graduate course online using 
 [Discord](https://discord.gg/gQjp36) <br>
 Notes and reading material:
 <a href="https://macbuse.github.io/M2R_2019/"> Course Page </a>
