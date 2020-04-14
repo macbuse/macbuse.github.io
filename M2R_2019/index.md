@@ -14,11 +14,15 @@ in the Masters 2019 - **Geometry of surfaces**
 ---
 ## Notes from classes
 
+These are the notes from the first 6 classes
+
+1. [Funar's notes](funar_surfaces.pdf)
+
 These are my rough notes from the classes
 
 1. [week 1](cour1.pdf)
 1. [week 2](cour2.pdf)
-1. [week 3](cours2.pdf)
+1. [week 3+4](cours3+4.pdf)
 
 ---
 
