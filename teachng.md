@@ -1,7 +1,6 @@
-
 ---
 layout: page
-title: Teaching
+title: none
 ---
 
 # Teaching 2019-20
