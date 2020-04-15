@@ -12,7 +12,7 @@ I’ll finish the graduate course online using
 
 - This page is a repo for exchanges 
 in the Masters 2019 - **Geometry of surfaces**
-- The details of the final exam/evaluation 
+ The details of the final exam/evaluation 
 will appear here in due course
 
 [//]: # (<img  width="50%" alt="taylor s" src="taylor.png">)

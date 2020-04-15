@@ -17,6 +17,7 @@ We are meeting on [Discord](https://discordapp.com/).
 - [seance 25/3](Support_Grp_de_Lecture_1.pdf)
 - [seance 1/4](Support_Grp_de_Lecture_2.pdf)
 - [seance 8/4](Support_Grp_de_Lecture_3.pdf)
+- [seance 15/4](Support_Grp_de_Lecture_4.pdf)
 - this [test.tex](test.tex) is a TeX template for using figures. The output should look like [this](test.pdf).
 - I also wrote a **buggy** [python script](wiki_math.py) for pulling math out of wikipedia pages to a LaTex file 
 
