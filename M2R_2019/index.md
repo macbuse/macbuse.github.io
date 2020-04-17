@@ -7,13 +7,12 @@ title: Contact Page
 
 **IMPORTANT** : classes are suspended because of the pandemic.
 
-I’ll finish the graduate course online using 
-[Discord](https://discord.gg/gQjp36)
+I’ll finish the graduate course online using **Discord**.
 
 - This page is a repo for exchanges 
 in the Masters 2019 - **Geometry of surfaces**
  The details of the final exam/evaluation 
-will appear here in due course
+will appear here in due course.
 
 [//]: # (<img  width="50%" alt="taylor s" src="taylor.png">)
 
