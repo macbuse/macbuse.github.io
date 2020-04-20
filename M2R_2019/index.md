@@ -26,7 +26,14 @@ and the texts we will read in the last part:
 1. [week 1](cour1.pdf)
 1. [week 2](cour2.pdf)
 1. [week 3+4](cours3+4.pdf)
+
+---
+
+### Reading for class
+
 1. [week 5](shearsAgain.pdf)
+1. [week 5+6](wolpert.pdf)
+1. [week 5+6](morse_lemma.pdf)
 
 ---
 
