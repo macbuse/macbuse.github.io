@@ -27,14 +27,14 @@ and the texts we will read in the last part:
 1. [week 2](cour2.pdf)
 1. [week 3+4](cours3+4.pdf)
 1. [week 5](cours5.pdf)
-1. [more notes](wolpert.pdf)
+1. [more notes *on Wolpert*](wolpert.pdf)
 
 ---
 
 ### Reading for class
 
 1. [week 5](shearsAgain.pdf)
-1. [week 5+6](wolpert.pdf)
+1. [week 5+6: Wolpert's paper](wolpert.pdf)
 1. [week 5+6](morse_lemma.pdf)
 
 ---
