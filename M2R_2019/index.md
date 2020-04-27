@@ -28,6 +28,7 @@ and the texts we will read in the last part:
 1. [week 3+4](cours3+4.pdf)
 1. [week 5](cours5.pdf)
 1. [more notes *on Wolpert*](notes_wolpert.pdf)
+1. [final notes](cours6.pdf)
 
 ---
 
