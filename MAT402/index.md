@@ -31,3 +31,4 @@ To check DL (Maclaurin Series) I use online calculators
 
 
 - [F_5 debut](corr_5.1.pdf)
+- [Correction](MAT402_COR-FR-5_2020.pdf)

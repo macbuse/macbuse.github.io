@@ -1,0 +1,536 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{t1enc}
+\usepackage{amsmath,amssymb,amsthm,epsfig}
+\pagestyle{empty}
+\usepackage[frenchb]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+
+\def\ds{\displaystyle}
+\def\dd{\mathrm{d}}
+\def\ee{\mathrm{e}}
+\def\Arctan{\mbox{Arctan}\,}
+\def\odc{[\![}
+\def\fdc{]\!]}
+\def\d{\mathrm{d}}
+\newcounter{exercice}
+\newcommand{\exercice }
+{\vspace{.2cm}\textbf{Exercice\addtocounter{exercice}{1}
+\arabic{exercice}.} }
+\setcounter {exercice}{0}
+
+
+\topmargin-2.8cm
+\oddsidemargin-2.4mm
+\textwidth17.3cm
+\textheight26.2cm
+\parskip=3pt
+\parindent=0pt
+
+\begin{document}
+
+\begin{center}
+\bfseries MAT402\hfill Année  2019-2020\\
+Correction de la feuille d'exercices 5 : séries de Fourier
+\end{center}
+
+\exercice 
+Par lin\'earisation, on calcule
+\[
+  \cos^n(x) = \Big(\frac{e^{i x}+e^{-ix}}{2} \Big)^n
+  = \frac{1}{2^n}\sum_{p=0}^n 
+\begin{pmatrix}
+ n\\p
+\end{pmatrix}
+ e^{i (2p-n) x} 
+\]
+ce qui correspond \`a une s\'erie de Fourier (certes simple).
+Par unicit\'e de la d\'ecomposition en s\'erie de Fourier,
+et comme les entiers $2p-n$ pour $p \in \odc 0,n \fdc$
+sont tous différents, on en déduit que pour tout
+$k \in \Z$, $c_{k}(f)$ vaut ${n \choose p}$ si $k$ est de
+la forme $2p-n$ avec $p \in \odc 0,n \fdc$, et $c_{k}(f)$ vaut $0$ sinon.
+
+\exercice La fonction $f$ est $C^1_{pm}$ et continue sur $\R$
+grâce au fait que
+$$\lim_{x\to \pi^+}f(x) = \lim_{x\to -\pi^+}f(x) =  |-\pi| = |\pi|
+= \lim_{x\to \pi^-}f(x)$$
+Donc sa s\'erie de Fourier converge normalement vers $f$.
+
+On calcule
+\[
+c_{0}(f)=\frac1{2\pi} \int_{-\pi}^\pi |x|\, \d x = \frac1{\pi} \int_{0}^\pi x\, \d x = \frac{\pi}2
+\]
+tandis que pour tout $n\in \Z^*$
+\begin{align*}
+ c_{n}(f)&=\frac1{2\pi} \int_{-\pi}^\pi |x|e^{-inx}\, \d x = \frac1{2\pi} \int_{-\pi}^0 (-x) e^{-inx}\, \d x + \frac1{2\pi} \int_{0}^\pi x e^{-inx}\, \d x \\
+ &= - \frac1{2\pi} \Big[ x\frac{e^{-inx}}{-in} \Big]_{-\pi}^0 - \frac1{2\pi i n} \int_{-\pi}^0 e^{-inx}\, \d x 
+  + \frac1{2\pi} \Big[ x\frac{e^{-inx}}{-in} \Big]_{0}^\pi  + \frac1{2\pi i n} \int_{0}^\pi  e^{-inx}\, \d x \\
+ & =  \frac1{2\pi in } \Big[ x e^{-inx} \Big]_{-\pi}^0 - \frac1{2\pi n^2} \Big[ e^{-inx} \Big]_{-\pi}^0 
+  - \frac1{2\pi in} \Big[ x e^{-inx} \Big]_{0}^\pi  + \frac1{2\pi n^2} \Big[ e^{-inx} \Big]_{0}^\pi\\
+  &=  \frac1{2 in } (-1)^n  - \frac1{2\pi n^2}   + \frac1{2\pi n^2} (-1)^n - \frac1{2 in} (-1)^n + \frac1{2\pi n^2}  (-1)^n -  \frac1{2\pi n^2}\\
+  &=    \frac{(-1)^n -1}{\pi n^2}. 
+\end{align*}
+Donc $c_n(f)$ est nul si $n$ est pair et \'egal \`a
+$\dfrac{-2}{\pi n^2}$ si $n$ est impair.
+
+En \'ecrivant que la fonction $f$ est \'egale \`a la somme de sa s\'erie
+de Fourier au point $0$, on obtient (car on ne tient en compte que les impairs)
+\[
+0 =  \frac{\pi}2 + 2  \sum_{k=0}^{+\infty}  \dfrac{-2}{\pi (2k+1 )^2}
+\]
+et donc
+\[
+ \sum_{k=0}^{+\infty}  \dfrac{1}{ (2k+1 )^2} = \frac{\pi^2}8 .
+\]
+Or en s\'eparant les entiers en pairs et impairs, on a 
+\[
+\sum_{n=1}^{+\infty} \frac1{n^2} = \sum_{k=1}^{+\infty} \frac1{(2k)^2} + \sum_{k=0}^{+\infty}  \dfrac{1}{ (2k+1 )^2} = \frac14\sum_{n=1}^{+\infty} \frac1{n^2} + \sum_{k=0}^{+\infty}  \dfrac{1}{ (2k+1 )^2} 
+\]
+d'o\`u
+\[
+\sum_{n=1}^{+\infty} \frac1{n^2} = \frac43\sum_{k=0}^{+\infty}  \dfrac{1}{ (2k+1 )^2}  = \frac{\pi^2}6.
+\]
+
+D'apr\`es le th\'eor\`eme de Parseval, on obtient
+\[
+\frac1{2\pi} \int_{-\pi}^\pi x^2 \, \d x =  \frac{\pi^2}4+ 2  \sum_{k=0}^{+\infty}  \dfrac{4}{\pi^2 (2k+1 )^4}\\
+\]
+ce qui donne
+\[
+\sum_{k=0}^{+\infty}  \dfrac{1}{ (2k+1 )^4}=\frac{\pi^2}8\Big( \frac{\pi^2}{3}  - \frac{\pi^2}4\Big) =\frac{\pi^4}{96}.
+\]
+La s\'eparation des entiers en pairs et impairs donne ici
+\[
+\sum_{n=1}^{+\infty} \frac1{n^4} = \sum_{p=1}^{+\infty} \frac1{(2p)^4} + \sum_{k=0}^{+\infty}  \dfrac{1}{ (2k+1 )^4} = \frac1{16}\sum_{n=1}^{+\infty} \frac1{n^4} + \sum_{k=0}^{+\infty}  \dfrac{1}{ (2k+1 )^4} 
+\]
+et on conclut
+\[
+\sum_{n=1}^{+\infty} \frac1{n^4} = \frac{16}{15}\sum_{k=0}^{+\infty}  \dfrac{1}{ (2k+1 )^4}  =  \frac{\pi^4}{90}.
+\]
+
+
+\exercice
+Pour tout $x \in [-\pi,\pi[$, $f(x) = \cos(ax)$. Par $2\pi$-périodicité,
+$f(\pi) = f(-\pi) = \cos(-a\pi) = \cos(a\pi)$ et
+$f(\pi+) = f(-\pi+) = \cos(-a\pi) = \cos(a\pi) = f(\pi-)$.
+Ainsi, $f$ est continue sur $\R$ et $C^1$ par morceaux.
+Sa série de Fourier converge normalement.
+
+Calculons les coefficients $(c_n(f))_{n \in \Z}$.
+\begin{eqnarray*}
+2\pi c_n(f) = \int_{-\pi}^\pi \cos(ax)e^{-inx} \d x
+&=& \frac{1}{2} \int_{-\pi}^\pi (e^{iax}e^{-inx}+e^{-iax}e^{-inx}) \d x \\
+&=& \frac{1}{2}
+    \Big[\frac{e^{i(a-n)x}}{i(a-n)}+\frac{e^{i(-a-n)x}}{i(-a-n)}\Big]_{-\pi}^\pi \\
+&=& \frac{1}{2i}
+    \Big[\frac{e^{i(a-n)x}}{a-n}-\frac{e^{i(-a-n)x}}{a+n}\Big]_{-\pi}^\pi.
+\end{eqnarray*}
+On a pu diviser par les réels non nuls $a-n$ et $a+n$ grâce au fait que
+$a \in \R \setminus \Z$. 
+En utilisant le fait que $e^{-in\pi} = e^{-in\pi} = (-1)^n$, on obtient 
+$$2\pi c_n(f) = \frac{(-1)^n}{2i}\Big[\frac{e^{ia\pi}-e^{-ia\pi}}{a-n}
++\frac{e^{ia\pi}-e^{-ia\pi}}{a+n}\Big] = (-1)^n\sin(a\pi) \frac{2a}{a^2-n^2}.$$
+Donc
+$$c_n(f) = \frac{(-1)^n\sin(a\pi)}{\pi}\frac{a}{a^2-n^2}.$$
+Autre méthode : 
+Par parité de $f$, les coefficients $b_n(f)$ pour $n \ge 1$ sont nuls. 
+Il suffit de calculer $c_0(f) = a_0(f)/2$ et $a_n(f)$ pour $n \ge 1$.
+Pour tout $n \in \N$,
+\begin{eqnarray*}
+\pi a_n(f) = \int_0^\pi \cos(ax)\cos(nx) \d x
+&=& \frac{1}{2} \int_0^\pi \cos((a-n)x)+\cos((a+n)x)  \d x\\
+&=& \frac{1}{2} \Big[\frac{\sin((a-n)\pi)}{a-n}
+  +\frac{\sin((a-n)\pi)}{a+n}\Big] \\
+&=& \frac{(-1)^n}{2} \sin(a\pi) \Big[\frac{1}{a-n}+\frac{1}{a+n}\Big] \\
+&=& \frac{(-1)^n}{2} \sin(a\pi) \frac{2a}{a^2-n^2}.
+\end{eqnarray*}
+Donc pour tout $x \in \R$
+$$f(x)
+= \frac{\sin(a\pi)}{\pi} \sum_{n \in \Z} (-1)^n\frac{a}{a^2-n^2} e^{inx}
+= \frac{\sin(a\pi)}{\pi} \Big(\frac{1}{a}
++ \sum_{n=1}^{+\infty}  (-1)^n\frac{2a}{a^2-n^2} \cos(nx)\Big).$$
+Attention : le terme constant est $c_0(f) = a_0(f)/2$ et non $a_0(f)$. 
+Par ailleurs, l'égalité $f(x) = \cos(ax)$ n'est valable que pour
+$x \in [-\pi,\pi]$.
+
+En divisant $\sin(\pi)/\pi$ et en évaluant l'égalité en $0$ et en $\pi$,
+on obtient
+$$\frac{\pi}{\sin(a\pi)}
+= \frac{1}{a} + \sum_{n=1}^{+\infty}  (-1)^n\frac{2a}{a^2-n^2} \text{ et }
+\frac{\pi}{\tan(a\pi)}
+= \frac{1}{a} + \sum_{n=1}^{+\infty} \frac{2a}{a^2-n^2}.$$
+
+\exercice 
+Pour tout $n\in \Z$, on \'ecrit 
+\begin{align*}
+ c_{n}(f)&=-\frac1{2\pi} \int_{-\pi}^0 \sin x e^{-inx}\, \d x + \frac1{2\pi} \int_{0}^\pi \sin x e^{-inx}\, \d x \\
+ &=-\frac1{4\pi i} \int_{-\pi}^0 (e^{ix}-e^{-ix}) e^{-inx}\, \d x + \frac1{4\pi i} \int_{0}^\pi  (e^{ix}-e^{-ix}) e^{-inx}\, \d x\\
+ &= -\frac1{4\pi i} \int_{-\pi}^0 (e^{-(n-1)ix}-e^{-(n+1)ix})\, \d x + \frac1{4\pi i} \int_{0}^\pi  (e^{-(n-1)ix}-e^{-(n+1)ix})\, \d x
+\end{align*}
+ce qui donne pour $n \neq \pm 1$
+\begin{align*}
+ c_{n}(f)
+ &= -\frac1{4\pi i} \Big[\frac{e^{-(n-1)ix}}{-(n-1)i}-\frac{e^{-(n+1)ix}}{-(n+1)i}   \Big]_{-\pi}^0  + \frac1{4\pi i} \Big[\frac{e^{-(n-1)ix}}{-(n-1)i}-\frac{e^{-(n+1)ix}}{-(n+1)i}   \Big]_{0}^\pi \\
+ &= \frac1{4\pi (n-1)} \Big( -1+(-1)^{n-1}+(-1)^{n-1} -1  \Big) + \frac1{4\pi (n+1)} \Big( 1-(-1)^{n+1}-(-1)^{n+1} +1   \Big) \\
+  &=\Big(\frac1{ n+1} - \frac1{n-1} \Big) \frac{1-(-1)^{n+1}}{2\pi}= -\frac{1+(-1)^{n}}{\pi(n^2-1)}
+\end{align*}
+ce qui est \'egal $0$ si $n$ est impair et $-\dfrac{2}{\pi(n^2-1)}$ si $n$ est pair.
+
+Pour les deux derniers coefficients, on calcule
+\begin{align*}
+c_{1}(f)
+&= -\frac1{4\pi i} \Big[x -\frac{e^{-2ix}}{-2i}   \Big]_{-\pi}^0  + \frac1{4\pi i} \Big[x-\frac{e^{-2ix}}{-2i}   \Big]_{0}^\pi \\
+&= -\frac1{4\pi i} \Big( \pi  -\frac{1-1}{-2i}   \Big)  + \frac1{4\pi i}  \Big( \pi  -\frac{1-1}{-2i}   \Big) =0
+\end{align*}
+et on trouve de m\^eme $c_{-1}(f)=0$.
+
+Comme la fonction est continue et $C^1_{pm}$, on sait que la s\'erie de Fourier converge normalement vers $f$. En particulier en $x=0$, ceci s'\'ecrit
+\[
+ 0 = f(0)= c_{0}(f) + 2\sum_{p=1}^{+\infty} \dfrac{-2}{\pi((2p)^2-1)}
+\]
+ce qui implique que
+\[
+\sum_{p=1}^{+\infty} \dfrac{1}{4p^2-1}=\frac{\pi}4 \dfrac{-2}{\pi(0-1)}=\frac12.
+\]
+
+En \'ecrivant la formule de Parseval, on obtient
+\begin{align*}
+ \frac1{2\pi } \int_{-\pi}^\pi \sin^2 x\, \d x &= \frac{4}{\pi^2} + 2\sum_{p=1}^{+\infty} \dfrac{4}{\pi^2((2p)^2-1)^2}\\
+ \frac1{2\pi } \int_{-\pi}^\pi \frac{1-\cos(2x)}2\, \d x&= \frac{4}{\pi^2} +  \frac{8}{\pi^2}  \sum_{p=1}^{+\infty} \dfrac{1}{(4p^2-1)^2}
+\end{align*}
+ce qui donne
+\[
+\sum_{p=1}^{+\infty} \dfrac{1}{(4p^2-1)^2}= \frac{\pi^2}8 \Big(\frac12-\frac{4}{\pi^2}  \Big)= \frac{\pi^2-8}{16}.
+\]
+
+
+\exercice On pose $f(t)=-t+2\pi$ sur $]0,\pi[$. Le seul moyen pour que $f$ soit \'egal \`a une somme de sinus est que $f$ soit impair, on pose donc $f$ $2\pi$-p\'eriodique telle que $f(t)=-t+2\pi$ sur $]0,\pi[$ et $f(t)=-t-2\pi$ sur $]-\pi,0[$ (avec par exemple $f(0)=f(\pi)=0$).
+
+Par imparit\'e, $a_{n}=0$ pour tout $n\in \N$, alors que l'on a
+\begin{align*}
+ b_{n}(f)&=\frac1{\pi}\int_{-\pi}^{\pi}f(x)\sin(nx)\, \d x= \frac2{\pi}\int_{0}^{\pi} (-x+2\pi) \sin(nx)\, \d x\\
+ &=-\frac2{\pi} \Big[ (-x+2\pi) \frac{\cos(nx)}n\Big]_{0}^{\pi} -\frac2{\pi n}\int_{0}^{\pi}  \cos(nx)\, \d x\\
+ &=-\frac2{\pi} \frac{\pi(-1)^n-2\pi}n=\frac{2 ((-1)^{n+1}+2)}n
+\end{align*}
+pour $n\in \N^*$. La fonction \'etant $C^1_{pm}$, le th\'eor\`eme de Dirichlet pour tout $x\in ]0,\pi[$ donne le bon r\'esultat.
+
+\exercice  L'idée est de considérer deux applications $f$ et $g$
+continues par morceaux, $2\pi$-périodiques, l'une paire et l'autre impaire  
+telles que $f(x)=g(x)=x(\pi-x)$ sur $]0,\pi[$, pour pouvoir décomposer
+la première en somme de cosinus et la deuxième en somme de sinus.
+Comme $x(\pi-x)$ s'annule en $0$ et en $\pi$, on peut même prendre 
+$f(x)=g(x)=x(\pi-x)$ sur $[0,\pi]$, et alors $f$ et $g$
+sont continues et $C^1$ par morceaux. La série de Fourier converge 
+donc normalement sur $\R$.
+
+Par parité de $f$ et imparité de $g$, on a 
+$$a_n(f) = \frac{2}{\pi}\int_{0}^{\pi} x(\pi-x)\cos(nx)  \d x, \quad 
+b_n(g) = \frac{2}{\pi}\int_{0}^{\pi} x(\pi-x)\sin(nx) \d x.$$
+et les autres coefficients sont nuls.
+Comme $a_n(f)$ et $b_n(g)$ sont réels, ils se déduisent du calcul de 
+$$a_n(f) + ib_n(g) = \frac{2}{\pi}\int_{0}^{\pi} x(\pi-x)e^{inx} \d x.$$
+Si $n \ne 0$, alors deux intégrations par parties fournissent
+\begin{eqnarray*}
+\frac{\pi}{2}(a_n(f) + ib_n(g))
+&=& \Big[(\pi x - x^2)\frac{e^{inx}}{in}\Big]_{0}^{\pi}
+- \int_{0}^{\pi} (\pi-2x)\frac{e^{inx}}{in} \d x \\
+&=& 0 - \Big[(\pi-2x)\frac{e^{inx}}{-n^2}\Big]_{0}^{\pi}
++ \int_{0}^{\pi} (-2)\frac{e^{inx}}{-n^2} \d x \\
+&=& - \Big[\frac{-\pi(-1)^n-\pi}{-n^2}\Big]
++ \Big[(-2)\frac{e^{inx}}{-in^3}\Big]_{0}^{\pi} \\
+&=& - \frac{\pi((-1)^n+1)}{n^2}
++ (-2i)\frac{(-1)^n-1}{n^3}
+\end{eqnarray*}
+Comme $a_n(f)$ et $b_n(g)$ sont réels, on a donc 
+$$a_n(f) = - \frac{2((-1)^n+1)}{n^2} = 
+\begin{cases}
+-4/n^2 \textrm{ si } n \text{ est pair,}\\
+0 \textrm{ si } n \text{ est impair,}
+\end{cases}$$
+$$b_n(f) = - \frac{4(1-(-1)^n)}{\pi n^3} = 
+\begin{cases}
+0 \textrm{ si } n \text{ est pair,}\\
+8/(\pi n^3) \textrm{ si } n \text{ est impair.}
+\end{cases}$$
+De même, $a_0(f) = \pi^2/3$ et $b_0(f) = 0$ 
+car $a_0(f)$ et $b_0(g)$ sont réels et 
+$$a_0(f) + ib_0(g) 
+= \frac{2}{\pi}\Big[\frac{\pi x^2}{2}-\frac{x^3}{3}\Big]_{0}^{\pi} 
+= \frac{\pi^2}{3}$$
+On en déduit les formules de l'énoncé. 
+
+% Pour pouvoir \'ecrire $f_{1}$ comme une somme de cosinus, on doit construire $f_{1}$ paire, c'est \`a dire que l'on pose $f_{1}(x)=-x(\pi+x)$ sur $]-\pi,0[$, ce qui donne $b_{n}(f_{1})=0$ et on calcule $a_{n}(f)$ et $a_{0}(f)$ en disant que c'est deux fois l'int\'egrale entre 0 et $\pi$ (cf exercice 5).
+
+% Pour \'ecrire $f_{2}$ comme une somme de sinus, on doit construire $f_{2}$ impaire, c'est \`a dire que l'on pose $f_{2}(x)=x(\pi+x)$ sur $]-\pi,0[$, ce qui donne $a_{n}(f_{2})=0$ et on calcule $b_{n}(f)$ en disant encore que c'est deux fois l'int\'egrale entre 0 et $\pi$.
+
+% Le th\'eor\`eme de Dirichlet pour tout $x\in ]0,\pi[$ donne le r\'esultat.
+
+\exercice En posant $x = \pi t$, montrer l'\'egalit\'e demand\'ee revient
+{\`a} montrer que , 
+$$\forall x\in\,]0,2\pi[, \quad \frac{ x^2}{\pi^2}=\frac{4}{3}+\sum_{n=-\infty\atop{n\neq 0}}^{+\infty}
+\frac{2+2i\pi n}{\pi^2 n^2}e^{i nx}.$$
+Il suffit donc de consid\'erer la fonction $2\pi$-p\'eriodique $f$ telle que $f(x)=x^2$ sur $[0,2\pi[$, de calculer $c_{n}(f)$ pour tout $n\in \Z$, et d'appliquer le th\'eor\`eme de Dirichlet appliqu{\'e} {\`a} tout $x\in ]0,2\pi[$.
+
+
+\exercice 
+a) Si $\forall x \in \R, \, f(x+\pi)=f(x)$, alors en changeant de variable $y=x-\pi$ dans la seconde int\'egrale, on a
+\begin{align*}
+c_{n}(f)&=\frac1{2\pi}\int_{0}^\pi f(x) e^{-inx}\, \d x+\frac1{2\pi}\int_{\pi}^{2\pi} f(x) e^{-inx}\, \d x\\
+&=\frac1{2\pi}\int_{0}^\pi f(x) e^{-inx}\, \d x+\frac1{2\pi}\int_{0}^{\pi} f(y+\pi) e^{-in(y+\pi)}\, dy\\
+&=(1+(-1)^n) \frac1{2\pi}\int_{0}^\pi f(x) e^{-inx}\, \d x
+\end{align*}
+ce qui est nul pour tout $n$ impair.
+
+b) Si $\forall x \in \R, \, f(x+\pi)=-f(x)$, alors le m\^eme calcul qu'au a) donne
+\[
+c_{n}(f)=(1-(-1)^n) \frac1{2\pi}\int_{0}^\pi f(x) e^{-inx}\, \d x
+\]
+ce qui est nul pour tout $n$ pair.
+
+c) Si $\forall x \in \R, \, f(\pi-x)=f(x)$, on change de variable $\pi-y=x$, ce qui donne
+\begin{align*}
+c_{n}(f)&=\frac1{2\pi}\int_{0}^{2\pi} f(x) e^{-inx}\, \d x=-\frac1{2\pi}\int_{\pi}^{-\pi} f(\pi-y) e^{-in(\pi-y)}\, dy\\
+&=\frac{(-1)^n}{2\pi}\int_{-\pi}^\pi f(y) e^{iny}\, dy = (-1)^n c_{-n}(f)
+\end{align*}
+ce qui implique que $a_{n}(f)=0$ si $n$ est impair et que $b_{n}(f)=0$ si $n$ est pair.
+
+
+d) Si $\forall x \in \R, \, f(\pi-x)=-f(x)$ alors le m\^eme calcul qu'au c) donne
+\[c_{n}(f)= -(-1)^n c_{-n}(f)\]
+ce qui implique que $a_{n}(f)=0$ si $n$ est pair et que $b_{n}(f)=0$ si $n$ est impair.
+
+
+\exercice 
+Pour tout $x\in\R$ et $\alpha \in [0,1[$, on a $|\alpha e^{ix}|<1$ et donc la s\'erie g\'eom\'etrique donne
+\[
+\sum_{n=0}^{+\infty} \Big(\alpha e^{ix}\Big)^n  = 
+ \frac{1}{ 1-\alpha e^{ix}} .
+\]
+En prenant la partie r\'eelle, on a donc bien
+\[
+  \sum_{n=0}^{+\infty} \alpha^n \cos (nx)
+= \mbox{Re} \Big( \frac{1}{ 1-\alpha e^{ix}} \Big)
+= \mbox{Re} \Big( \frac{1-\alpha e^{-ix}}{ |1-\alpha e^{ix}|^2} \Big)
+=  \frac{1-\alpha \cos(x)}{1+\alpha^2- 2\alpha \cos(x)}.
+\]
+
+Si on pose $f(x)=\frac{1-\alpha \cos(x)}{1+\alpha^2- 2\alpha \cos(x)}$, nous avons donc \'ecrit la d\'ecomposition en s\'erie de Fourier, et 
+\[
+a_{0}(f) = \frac1{2\pi} \int_{0}^{2\pi} f(x)\, \d x= \alpha^0=1
+\]
+et pour $n\in \N^*$
+\[
+a_{n}(f)= \frac1{\pi} \int_{0}^{2\pi} f(x)\cos(nx)\, \d x=\alpha^n
+\]
+ce qui donne les quantit\'es demand\'es.
+
+
+\exercice 
+
+Si $f$ est de classe $C^1$, une int\'egration par parties donne pour tout $n\in \Z_{*}$
+\[
+c_{n}(f) = \frac1{2\pi}\int_{0}^{2\pi} f(x)e^{-inx}\, \d x=\frac1{2\pi}\Big[f(x)\frac{e^{-inx}}{-in} \Big]_{0}^{2\pi} + \frac1{2\pi  in}\int_{0}^{2\pi} f'(x)e^{-inx}\, \d x = \frac1{in} c_{n}(f')
+\]
+car $f(0)=f(2\pi)$. En effectuant $p$ int\'egrations par parties, on obtient la relation $c_{n}(f)=\dfrac{c_{n}(f^{(p)})}{(in)^p}$.
+
+Or pour tout $n \in \Z$, 
+\[
+  |c_{n}(f)| \leq \frac{1}{2\pi} \int_{0}^{2\pi} |f(x)|\, \d x
+  \leq \frac{1}{2\pi} \int_{0}^{2\pi} ||f^{(p)}||_\infty\, \d x =
+  ||f^{(p)}||_\infty.
+\]
+Donc $c_{n}(f) = O(|n|^{-p})$ quand $|n| \to +\infty$.
+
+Remarque : le théorème de Riemann - Lebesgue assure que
+$c_{n}(f^{(p)}) \to 0$ quand $|n| \to +\infty$, ce qui
+permet d'améliorer ce résultat en $c_{n}(f) = o(|n|^{-p})$
+quand $|n| \to +\infty$.
+
+
+\exercice 
+
+
+
+1) La fonction $f$ :
+
+~~~a) est continue sur $\R$, car $f$ est $2\pi$-p\'eriodique, continue en tout point de $\R\setminus 2\pi\Z$ et 
+$$\displaystyle\lim_{x\to 2\pi^-} f(x) = \sin \pi = 0 = \sin 0 =\lim_{x\to 0^+} f(x)=\lim_{x\to 2\pi^+} f(x).$$
+
+
+\smallskip
+
+~~~b) n'est pas d{\'e}rivable sur $\R$, \`a cause des points $2\pi\Z$, car 
+\begin{gather*}
+\lim_{h\to 0^-} \frac{f(2\pi+h) -f(2\pi)}{h} =\lim_{h\to 0^-} \frac{\sin(\frac{2\pi+h}2) -\sin(\frac{2\pi}2)}{h}= \frac12\cos\frac{2\pi }2=-\frac12\\
+\lim_{h\to 0^+} \frac{f(2\pi+h) -f(2\pi)}{h} =\lim_{h\to 0^+} \frac{\sin(\frac{h}2) -\sin(\frac{0}2)}{h}= \frac12\cos\frac{0}2=\frac12.
+\end{gather*}
+
+
+
+\smallskip
+
+~~~c) est de classe $C^1$ par morceaux sur $\R$, car $f$ est d\'erivable et de d\'eriv\'ee continue sur $]0,2\pi[$, et la d\'eriv\'ee admet une limite quand $x\to 0^+$ ($=1/2$) et quand $x\to 2\pi^-$ ($=-1/2$).
+
+
+2) Contrairement aux apparences, la fonction $2\pi$-p\'eriodique $f$ est
+paire. En effet, l'égalité $f(x) = \sin(x/2)$ est vraie sur $[0,2\pi]$,
+même pour $x=2\pi$ puisque $f(2\pi) = f(0) = \sin(0) = 0 = \sin(\pi)$.
+Et pour tout $x \in [0,2\pi]$, on a $2\pi-x \in [0,2\pi]$, donc
+\[
+f(-x)=f(2\pi-x) = \sin\Big(\frac{x}{2}\Big) = \sin\Big(\frac{x}{2}\Big) = f(x).
+\]
+
+Par cons\'equent, $b_{n}(f)=0$ pour tout $n\in \N^*$. On calcule
+\[
+a_{0}(f)=\frac1{2\pi}\int_{0}^{2\pi} \sin\Big(\frac{x}{2}\Big)\, \d x = \frac1{\pi} \Big[ -\cos\Big(\frac{x}{2}\Big) \Big]_{0}^{2\pi} = \frac2\pi
+\]
+et pour tout $n\in \N^*$, on fait deux int\'egrations par parties
+\begin{align*}
+  \pi a_{n}(f)&=\int_{0}^{2\pi}\sin\Big(\frac{x}{2}\Big)\cos(nx)\, \d x
+                = -\Big[2\cos\Big(\frac{x}{2}\Big)\cos(nx) \Big]_{0}^{2\pi} -2n \int_{0}^{2\pi}\cos\Big(\frac{x}{2}\Big)\sin(nx)\, \d x\\
+&= 4+4n^2 \int_{0}^{2\pi}\Big(\frac{x}{2}\Big)\cos(nx)\, \d x =  4+4n^2 \pi a_{n}(f)
+ \end{align*}
+ce qui implique que $a_{n}(f)=-\dfrac{4}{\pi (4n^2-1)} =-\dfrac{4}{\pi (2n-1)(2n+1)}$. (Une autre fa\c{c}on de calculer  consiste \`a remplacer le sinus et cosinus par les exponentielles complexes, puis on d\'eveloppe le produit et on int\`egre alors des exponentielles).
+La s\'erie de Fourier est donc bien celle demand\'ee.
+ 
+
+3)\,a) $f$ \'etant $C^1_{pm}$, la s\'erie de Fourier converge simplement pour tout $x\in \R$.
+
+~~~b) $f$ \'etant de plus continue, la convergence est normale sur $\R$.
+
+~~~c) La s\'erie de Fourier converge vers $f$.
+
+4) En \'ecrivant que la s\'erie de Fourier pour $x=0$ converge vers $f(0)=0$ on a 
+\[
+  \sum_{n=1}^{+\infty} {1\over (2n-1)(2n+1)}
+  = \frac{\pi}4 \times \frac2\pi = \frac12.
+\]
+
+Une méthode plus simple est de passer à la limite 
+quand $N \to +\infty$ dans les sommes téléscopiques 
+\[
+  \sum_{n=1}^{N} {1\over (2n-1)(2n+1)}
+  = \frac12\sum_{n=1}^{N} \Big( {1\over 2n-1}-{1\over 2n+1} \Big)
+  = \frac12 \Big( 1- \frac{1}{2N+1} \Big).
+\]
+
+\exercice On pose $I=\int_a^bu(t)v(t)\,{\rm d}t $.
+
+1) On \'ecrit
+\begin{align*}
+ | I_n-I |& = \Bigg| \sum_{k=0}^{n-1}\int_{t_k}^{t_{k+1}} (u(t_{k+1})-u(t)) v(t)\,{\rm d}t  \Bigg| \leq  \sum_{k=0}^{n-1}(u(t_{k})-u(t_{k+1})) \int_{t_k}^{t_{k+1}} |v(t)|\,{\rm d}t  \\
+ &\leq  \frac{b-a}n \sum_{k=0}^{n-1}(u(t_{k})-u(t_{k+1})) = \frac{b-a}n
+\end{align*}
+car on a reconnu une s\'erie t\'elescopique.
+
+2) En posant $b_{k}=\int_{a}^{t_{k}}v(t)\,{\rm d}t$, on \'ecrit une transformation d'Abel
+\begin{align*}
+I_{n} = \sum_{k=0}^{n-1}u(t_{k+1}) (b_{k+1}-b_{k})= \sum_{k=1}^{n}u(t_{k}) b_{k}-\sum_{k=0}^{n-1}u(t_{k+1}) b_{k} = \sum_{k=0}^{n-1}(u(t_k)-u(t_{k+1}))b_{k}
+\end{align*}
+car $u(t_{n})=u(b)=0$ et $b_{0}=0$.
+
+3) Quel que soit $n\in \N^*$, on a gr\^ace \`a 2) :
+\begin{align*}
+|I_{n} | \leq  \sum_{k=0}^{n-1}(u(t_k)-u(t_{k+1}))  | b_{k} |\leq\max_{x\in[a,b]}\Big|\int_a^xv(t)\,{\rm d}t\Big|  \sum_{k=0}^{n-1}(u(t_k)-u(t_{k+1})) = \max_{x\in[a,b]}\Big|\int_a^xv(t)\,{\rm d}t\Big|
+\end{align*}
+ce qui donne par in\'egalit\'e triangulaire et gr\^ace \`a 1) :
+\begin{align*}
+|I|=|I-I_{n}+I_{n}|\leq | I- I_{n} | + |I_{n}|\leq \frac{b-a}n +\max_{x\in[a,b]}\Big|\int_a^xv(t)\,{\rm d}t\Big|.
+\end{align*}
+Comme cette in\'egalit\'e est vraie pour tout $n\geq 1$, la limite $n$ tends vers l'infini nous donne le r\'esultat.
+
+4) Il existe une subdivision de $[0,2\pi]$ $0=a_{0}<a_{1}<....<a_{N}=2\pi$ telle que $f\big|_{]a_{i},a_{i+1}[}$ est monotone.
+
+ Fixons $i\in\{0,...,N-1\}$, et on pose $u(t)=(f(t)-f(a_{i+1}))/(f(a_{i})-f(a_{i+1}))$ si $f\big|_{]a_{i},a_{i+1}[}$ est d\'ecroissante et $u(t)=(f(a_{i+1})-f(t))/(f(a_{i+1})-f(a_{i}))$ si $f\big|_{]a_{i},a_{i+1}[}$ est croissante. Dans les deux cas, et en posant $a=a_{i}$, $b=a_{i+1}$ et $v(t)=e^{-int}$, nous observons que toutes les hypoth\`eses sur $u$ et $v$ sont v\'erifi\'ees.
+ 
+ Ainsi, le r\'esultat du 3) nous assure que
+ \[
+\Big| \int_{a_{i}}^{a_{i+1}} \frac{f(t)-f(a_{i+1})}{f(a_{i})-f(a_{i+1})} e^{-int} {\rm d}t\Big| \leq \max_{x\in[a_{i},a_{i+1}]}\Big|\int_{a_{i}}^x e^{-int}\,{\rm d}t\Big|
+ \]
+ ce qui implique
+\begin{align*}
+\frac1{|f(a_{i})-f(a_{i+1})|} \Big| \int_{a_{i}}^{a_{i+1}} f(t) e^{-int} {\rm d}t\Big| \leq \frac{|f(a_{i+1})|}{|f(a_{i})-f(a_{i+1})|} \Big| \int_{a_{i}}^{a_{i+1}}  e^{-int} {\rm d}t\Big|+  \max_{x\in[a_{i},a_{i+1}]}\Big|\int_{a_{i}}^x e^{-int}\,{\rm d}t\Big| 
+\end{align*}
+Or si $n\neq 0$, on a pour tout $x \in \R$
+$$\Big|\int_{a_{i}}^x e^{-int}\,{\rm d}t\Big| = \frac1{|n|} |e^{-inx}- e^{-ina_{i}}|\leq \frac2{|n|}$$
+On a donc d\'emontr\'e que
+\[
+\Big| \int_{a_{i}}^{a_{i+1}} f(t) e^{-int} {\rm d}t\Big|  \leq |f(a_{i+1})| \frac2{|n|} + |f(a_{i})-f(a_{i+1})|\frac2{|n|} \leq \frac{6}{|n|} \sup |f|.
+\]
+C'est in\'egalit\'e \'etant vraie quel que soit $i\in\{0,...,N-1\}$ on conclut que pour tout $n\in  \Z^*$ on a
+\[
+|c_{n}(f)| \leq \frac1{2\pi} \sum_{i=0}^{N-1}\Big| \int_{a_{i}}^{a_{i+1}} f(t) e^{-int} {\rm d}t\Big| \leq \frac{6N}{2\pi |n|} \sup |f|
+\]
+ce qui montre que les coefficients de Fourier sont en $O(1/n)$.
+
+5) Cette question ressemble \`a l'exercice 10, \`a un d\'etail pr\`es : $f$
+est seulement suppos\'ee $C^1_{pm}$ et $C^0$, et non $C^1$.
+Il existe une subdivision de $[0,2\pi]$ $0=a_{0}<a_{1}<....<a_{N}=2\pi$ telle que $f\big|_{]a_{i},a_{i+1}[}$ est prolongeable en une fonction $C^1([a_{i},a_{i+1}])$, on obtient alors par int\'egration par parties pour tout $n\in \Z^*$
+\begin{align*}
+ c_{n}(f)&=\frac1{2\pi}\sum_{i=0}^{N-1} \int_{a_{i}}^{a_{i+1}}f(t)e^{-int} {\rm d}t=\frac1{2\pi}\sum_{i=0}^{N-1} \Bigg(\Big[ f(t)\frac{e^{-int}}{-in}  \Big]_{a_{i}}^{a_{i+1}}+\frac1{in}\int_{a_{i}}^{a_{i+1}}f'(t)e^{-int} {\rm d}t \Bigg)\\
+ &=\frac1{2\pi i n}\sum_{i=0}^{N-1} \Big(  -f(a_{i+1})e^{-ina_{i+1}}+f(a_{i})e^{-ina_{i}}  \Big) + \frac{c_{n}(f')}{in}=\frac{c_{n}(f')}{in}
+\end{align*}
+car nous reconnaissons une somme t\'el\'escopique et $f(0)=f(2\pi)$.
+Ainsi, $|c_{n}(f) \le ||f'||_\infty/n$.
+% Nous obtenons alors
+% \[
+% |c_{n}(f)|\leq \frac{\sup |f'|}{|n|}.
+% \]
+
+
+
+\end{document}
+
+La fonction $f$ est $C^1$ par morceaux (dérivable partout sur
+$\mathbb{R} \setminus \pi\mathbb{Z}$, de dérivée $1$,
+les fonctions $f$ et $f'$ ont des limites finies à gauche
+et à droite en tout point).
+
+La fonction $f$ est $\pi$-périodique et donc $2\pi$-périodique.
+
+Elle est impaire donc les $a_n(f)$ sont nuls. 
+
+Si on voit $f$ comme une fonction $2\pi$-périodique, on a pour
+tout entier $n \ge 1$ 
+$b_n(f) = \frac{1}{\pi} \int_{-\pi}^{\pi} f(t) \sin(nt) dt$.
+Par imparité de $f$,
+$b_n(f) = \frac{2}{\pi} \int_0^{\pi} f(t) \sin(nt) dt$.
+$b_n(f) = \int_0^{\pi}\big(\frac{2}{\pi}t-1 \big) \sin(nt) dt$.
+$b_n(f) = \big[\big(\frac{2}{\pi}t-1 \big) \frac{-\cos(nt)}{n}\big]_0^{\pi}
+- \int_0^{\pi}\frac{2}{\pi}\frac{-\cos(nt)}{n} dt$.
+$b_n(f) = \frac{-\cos(n\pi)-1}{n}
++ \big[\frac{2}{\pi}\frac{\sin(nt)}{n^2}\big]_0^{\pi}$.
+$b_n(f) = \frac{-(-1)^n-1}{n} + 0$
+$b_n(f) = -2/n$ si $n$ est pair,  $b_n(f) = 0$ si $n$ est impair.
+
+D'où vient la nullité des $b_n(f)$ pour $n$ impair ?
+
+Comme pour tout $t \in \mathbb{R}$, $f(t) = ((f(t+)+f(t-))/2$
+(c'est vrai en $0$, donc sur $\pi\zzf$ par $\pi$-périodicité),
+on en déduit que
+$\forall t \in \mathbb{R}, \quad
+f(t) = \sum_{k=1}^{+\infty} b_{2k(f)} \sin(2kt)$.
+$\forall t \in \mathbb{R}, \quad
+f(t) = -\sum_{k=1}^{+\infty} \frac{\sin(2kt)}{k}$.
+
+D'après la formule de Parseval,
+$\sum_{k=1}^{+\infty} \frac{1}{k^2} = 2||f||_2^2
+= \frac{2}{2\pi} \int_{-\pi}^{\pi} |f(t)|^2 dt$.
+
+Remarque : pour une fonction impaire $T$-périodique,
+la série de Fourier s'écrit
+$\sum_{n=1}^{+\infty} b'_n(f) \sin(2 \pi nt/T) dt$ avec 
+$b'_n(f) = \frac{2}{T} \int_{0}^{T} f(t) \sin(2 \pi nt/T) dt$.
+Si l'on prend $T = \pi$, cela donne
+$\sum_{n=1}^{+\infty} b'_n(f) \sin(2nt) dt$ avec
+$b'_n(f) = \frac{2}{\pi} \int_{0}^{\pi} f(t) \sin(2nt) dt
+= b_{2n}(f)$.
+Donc les résultats sont cohérents avec ceux obtenus en utilisant
+seulement la $2\pi$-périodicité.
