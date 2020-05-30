@@ -1,0 +1,105 @@
+\def\scal#1{\hbox{\rm#1}}
+\def\vect#1{\hbox{\bf#1}}
+\def\Real{{\rm I\hskip-2pt R}}
+\def\Integer{{\rm Z\hskip-4pt Z}}
+\def\sus#1{{\hbox{\scriptsize #1}}}
+
+\def\derivOne#1#2{{\scal d#1 \over \scal d#2}}
+\def\derivTwo#1#2{{\scal d^2#1 \over \scal d#2^2}}
+\def\partialOne#1#2{{\partial#1 \over \partial#2}}
+\def\partialTwoSame#1#2{{\partial^2#1 \over \partial#2^2}}
+\def\partialTwo#1#2#3{{\partial^2#1 \over \partial#2\,\partial#3}}
+\def\partialThree#1#2#3#4{{\partial^3#1
+ \over \partial#2\, \partial#3\, \partial#4}}
+\def\partialThree_TwoOne#1#2#3{{\partial^3#1 \over \partial#2^2\, \partial#3}}
+\def\partialThree_OneTwo#1#2#3{{\partial^3#1 \over \partial #2\, \partial#3^2}}
+\def\partialThreeSame#1#2{{\partial^3#1 \over \partial#2^3}}
+
+\def\inprod#1#2{\langle#1, #2\rangle}
+% ---- DELIMITER PAIRS ---- from Jeff Erickson
+\def\floor#1{\lfloor #1 \rfloor}
+\def\ceil#1{\lceil #1 \rceil}
+\def\seq#1{\langle #1 \rangle}
+\def\set#1{\{ #1 \}}
+\def\abs#1{\mathopen| #1 \mathclose|}	% use instead of $|x|$ 
+\def\norm#1{\mathopen\| #1 \mathclose\|}	% use instead of $\|x\|$ 
+\def\indic#1{\big[#1\big]}                              % indicator variable; Iverson notation
+					                                % e.g., Kronecker delta = [x=0]
+\def\dual#1{{#1}^{\Delta}}
+\def\bidual#1{{#1}^{\Delta\Delta}}
+
+\newcommand{\ematrix}{\end{array}\right)}
+\newcommand{\Alpha}{\mbox{\bf \LARGE $\alpha$}}
+\newcommand{\Kappa}{\mbox{\bf \LARGE $\kappa$}}
+\newcommand{\degr}{$\!\!^\circ$}
+% \newcommand{\Z}{\mbox{\rm Z\hskip-4pt Z}}
+\newcommand{\Z}{\mathbb{Z}}
+%\newcommand{\N}{\mbox{\rm I\hspace{-.2em}N}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Reel}{\mbox{\rm I\hspace{-.2em}R}}
+                %%  ATTENTION ne pas retirer les espaces dans \Complex !!!
+\newcommand{\R}{\mathbb{R}}
+% \newcommand{\R}{\mbox{\rm I\hspace{-.2em}R}}
+                %%  ATTENTION ne pas retirer les espaces dans \Complex !!!
+\newcommand{\C}{\mathbb{C}}
+%\newcommand{\C}{\mbox{ \rm \rule[.05ex]{.15ex}{1.4ex}\hspace{-1.4ex} C}}
+\newcommand{\Complex}{\mbox{ \rm \rule[.05ex]{.15ex}{1.4ex}\hspace{-1.4ex} C}}
+\newcommand{\Q}{\mathbb{Q}}
+\providecommand{\1}{\mbox{\rm 1\hspace{-.27em}I}}
+\newcommand{\0}{\mbox{\rm I\hspace{-.45em}}\mathbf{0}}
+\newcommand{\zbf}{\mathbf{0}}
+
+%% \newcommand{\binom}[2]{\left(\!\!\!\begin{array}{c} #1 \\
+%% #2\end{array}\!\!\!\right)}
+        %% binom défini dans amsmath
+\newcommand{\matundeux}[2]{\left[\!\!\!\begin{array}{c} #1 \\
+     #2\end{array}\!\!\!\right]}
+
+\newcommand{\matuntrois}[3]{\left[\!\!\!\begin{array}{c} #1 \\
+     #2 \\ #3\end{array}\!\!\!\right]}
+%% \newcommand{\implies}{\Rightarrow} 
+        %% implies défini dans amsmath
+\newcommand{\isequ}{\Leftrightarrow}
+\newcommand{\inter}[1]{\stackrel{\circ}{#1}}
+\newcommand{\clos}[1]{\bar{#1}}
+\newcommand{\complt}[1]{\complement{#1}}
+\newcommand{\contract}{\mbox{/\hspace{-.2em}/}}
+\newcommand{\inv}{\ensuremath{^{-1}}}
+\newcommand{\onto}{\twoheadrightarrow}
+\newcommand{\into}{\hookrightarrow}
+
+\makeatletter\def\proof{\@ifnextchar[{\@xproof}{\@proof}}
+\def\endproof{\unskip\kern 10\p@ \begingroup \unitlength\p@
+  \linethickness{.4\p@} \framebox(6,6){} \endgroup \endtrivlist }
+\def\@proof{\trivlist \item[ \hskip 10\p@ \hskip \labelsep {\sc
+    Proof.}  ] \ignorespaces }
+\def\@xproof[#1]{\trivlist \item[\hskip 10\p@\hskip \labelsep{\sc
+    Proof #1.}] \ignorespaces } \makeatother
+
+\makeatletter\def\skproof{\@ifnextchar[{\@xskproof}{\@skproof}}
+\def\endskproof{\unskip\kern 10\p@ \begingroup \unitlength\p@
+  \linethickness{.4\p@} \framebox(6,6){} \endgroup \endtrivlist }
+\def\@skproof{\trivlist \item[ \hskip 10\p@ \hskip \labelsep {\sc
+    Sketch of Proof.}  ] \ignorespaces }
+\def\@skxproof[#1]{\trivlist \item[\hskip 10\p@\hskip \labelsep{\sc
+    Sketch of Proof #1.}] \ignorespaces } \makeatother
+
+\makeatletter\def\preuve{\@ifnextchar[{\@xpreuve}{\@preuve}}
+\def\endpreuve{\unskip\kern 10\p@ \begingroup \unitlength\p@
+  \linethickness{.4\p@} \hfill $\Box${} \endgroup \endtrivlist }
+\def\@preuve{\trivlist \item[  {\bf
+    Preuve :}  ] \ignorespaces }
+\def\@xpreuve[#1]{\trivlist \item[\hskip \labelsep{\bf
+    Preuve #1 :}] \ignorespaces } \makeatother
+
+\makeatletter\def\skpreuve{\@ifnextchar[{\@xskpreuve}{\@skpreuve}}
+\def\endskpreuve{\unskip\kern 10\p@ \begingroup \unitlength\p@
+  \linethickness{.4\p@} \framebox(6,6){} \endgroup \endtrivlist }
+\def\@skpreuve{\trivlist \item[ \hskip 10\p@ \hskip \labelsep {\sc
+    Sketch of Preuve.}  ] \ignorespaces }
+\def\@skxpreuve[#1]{\trivlist \item[\hskip 10\p@\hskip \labelsep{\sc
+    Sketch of Preuve #1.}] \ignorespaces } \makeatother
+%%% Local Variables: 
+%%% mode: plain-tex
+%%% TeX-master: "math_macros"
+%%% End: 

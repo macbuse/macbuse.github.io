@@ -1,0 +1,400 @@
+% Classe, package, etc. 
+% L'option ``compress'' dans le documentclass permet d'avoir une table
+% des matières compressée en haut des transparents
+\documentclass[a4paper,compress]{beamer}  %  [handout]{beamer}
+
+%\mode<presentation>{\usetheme{Hannover}}
+\usepackage[francais]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% \usepackage{lmodern}
+%\usepackage[english]{babel}
+% \usepackage[babel]{microtype}
+\usepackage{xcolor,colortbl}
+\usepackage{graphicx,url}
+\usepackage{enumerate}
+\usepackage{amssymb,amsthm}
+\usepackage{times}
+%\usepackage{amsmath,amscd}
+\usepackage[all]{xy}
+%\usepackage{soul} % pour barrer du texte
+\usepackage{url}\urlstyle{same}
+\usepackage{marvosym} % Pour les euros
+
+% Automatic import of SVG, replacing text with LaTeX
+% Compile with: (pdf)latex -shell-escape ...
+\newcommand{\executeiffilenewer}[3]{%
+\ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+{\pdffilemoddate{#2}}>0%
+{\immediate\write18{#3}}\fi%
+}
+\def\svgmode{ps}\ifx\pdfoutput\undefined
+\def\executeiffilenewer#1#2#3{\immediate\write18{#3}}\else%\bibliography{bibli}
+
+\ifnum\pdfoutput<1\else\def\svgmode{pdf}\fi\fi
+\newcommand{\includesvgX}[1]{%
+\executeiffilenewer{#1.svg}{#1.\svgmode}%
+{inkscape -z -D --file=#1.svg --export-latex %
+--export-\svgmode=#1.\svgmode}%
+\input{#1.\svgmode_tex}%
+}
+\newcommand{\includesvg}[2][]{%
+\def\tempa{#1}\def\tempb{}%
+\ifx\tempa\tempb\else\let\svgwidth\tempa\fi
+\includesvgX{\svgpath#2}%
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% A few shortcuts..
+%\input{/home/lazarus/myTeXrc/math_macros}
+\input{math_macros}
+
+\def\deriv#1#2{{#1 \!\!\cdot\!\! #2}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% graphics
+\graphicspath{{figures/}{../../PRESENTATION/GRATOS/figures/}}
+\def\svgpath{figures/}
+
+%\DeclareGraphicsExtensions{.eps,.eps.gz}
+%\DeclareGraphicsRule{.eps.gz}{eps}{.eps.bb}{`gunzip -c #1}
+
+%-------------------------------------------------------------------------
+% Thème des transparents
+\usetheme{Warsaw} %{default}
+%\usetheme{classic}
+\setbeamercovered{invisible}
+
+% pour le problème d'affichage du texte après les blocks
+% \let\origframetitle\frametitle
+% \renewcommand{\frametitle}[1]{%
+%   \origframetitle{#1}\usebeamercolor*{normal text}%
+% }
+%---------------------------------------------------------------------------
+% Il existe aussi des thèmes de couleurs
+%\usecolortheme{crane}
+
+%--------------------------------------------------------------------------
+% Pour que seule la section courante apparaisse dans le bandeau de
+% table des matières
+%\setbeamertemplate{section in head/foot shaded}{}
+%\setbeamertemplate{subsection in head/foot shaded}{}
+\setbeamertemplate{footline}{}
+
+%--------------------------------------------------------------------------
+% Niveau de transparence des éléments grisés avant d'être affichés 
+\beamertemplatetransparentcoveredmedium
+
+%-------------------------------------------------------------------------
+% Définitions de couleurs
+\definecolor{vert}{rgb}{0,255,0}
+\definecolor{darkgreen}{rgb}{0,0.3,0}
+\definecolor{rouge}{rgb}{0.75,0,0}
+\definecolor{lightblue}{rgb}{0,255,255}
+\definecolor{myorange}{RGB}{255,165,0}
+\definecolor{mauve}{rgb}{201,0,224}
+\definecolor{kaki}{rgb}{0.13,0.47,0.4}  % {33,120,103}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\definecolor{LightGreen1}{rgb}{0.7,1,0.5} %{179,255,128}
+\definecolor{LightGreen2}{rgb}{.5,1,.16} %{127,255,42}
+\definecolor{LightGreen3}{rgb}{.33,.83,0} %{85,212,0}
+\definecolor{LightGreen4}{rgb}{.26,.66,0} %{68,170,0}
+\definecolor{LightBlue1}{RGB}{170,255,238}
+\definecolor{LightBlue2}{HTML}{77FFDD}
+\definecolor{LightBlue3}{RGB}{0,255,204}
+\definecolor{LightOrange2}{HTML}{FFB380}
+\definecolor{LightOrange1}{HTML}{FFCCAA}
+
+\newcommand{\col}{\textcolor}
+\newcommand{\red}{\textcolor{red}}
+\newcommand{\green}{\textcolor{green}}
+\newcommand{\kaki}{\textcolor{kaki}}
+\newcommand{\darkgreen}{\textcolor{darkgreen}}
+\newcommand{\purple}{\textcolor{mauve}}
+\newcommand{\lightblue}{\textcolor{lightblue}}
+\newcommand{\blue}{\textcolor{blue}}
+
+%--------------------------------------------------------------------------
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Sph}{\mathbb{S}}
+\newcommand{\torus}{{\mathbb{T}^2}}
+\newcommand{\scalprod}[3]{{\langle #1, #2 \rangle}_{\E^{#3}}}
+\newcommand{\matdeuxdeux}[4]{\left(\!\!\!\begin{array}{cc} #1 & #2\\
+     #3 & #4\end{array}\!\!\!\right)}
+
+%--------------------------------------------------------------------------
+\theoremstyle{definition}
+\newtheorem{theo}{Théorème}
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{defi}[theo]{Définition}
+\newtheorem{lemme}[theo]{Lemme}
+\newtheorem{cor}[theo]{Corollaire}
+\newtheorem{exmpl}[theo]{Example}
+
+\newenvironment{mydefi}[1][Définition]{\begin{block}{#1}}{\end{block}} 
+\newenvironment{mytheo}[1][Théorème]{\begin{alertblock}{#1}}{\end{alertblock}} 
+\newenvironment{myprop}[1][Proposition]{\begin{alertblock}{#1}}{\end{alertblock}} 
+\newenvironment{mycor}[1][Corollaire]{\begin{alertblock}{#1}}{\end{alertblock}} 
+\newenvironment{mylem}[1][Lemme]{\begin{exampleblock}{#1}}{\end{exampleblock}} 
+\newenvironment{myexmpl}[1][Exemple]{\begin{exampleblock}{#1}}{\end{exampleblock}} 
+
+%--------------------------------------------------------------------------
+% Pour mettre les numéros des transparents en bas de page
+%\setbeamertemplate{footline}
+% {\begin{center}
+% \insertframenumber
+% \end{center}}
+ 
+%-------------------------------------------------------------------------
+% Gestion des symboles de navigation : cette ligne permet de les
+% supprimer (ils y sont par défaut)
+\setbeamertemplate{navigation symbols}{}
+
+
+%\setbeamercolor{normal text}{bg=RGB={0,0,150}}
+%\usecolortheme{albatross}
+%--------------------------------------------------------------------------
+%Page de titre
+\title[PERSYVAL-Lab]{Projet équipe-action\\
+{\bf Méthodes géométriques en combinatoire,\\
+algorithmes combinatoires en géométrie
+}}
+
+
+%\institute{GIPSA-Lab, CNRS, Grenoble}
+
+\date{}
+
+\setbeamertemplate{headline}[default]
+\begin{document}
+
+% ----------------  TITRE ----------------------------------------
+%\setbeamertemplate{background canvas}[vertical shading]{top=darkblue,bottom=darkblue}
+
+\begin{frame}
+\titlepage{}
+\end{frame}
+% ----------------------------------------------------------------
+\begin{frame}
+\frametitle{Composition de l'équipe}
+%\small
+\begin{center}
+\textbf{8 membres, 6 équipes, 3 laboratoires}
+\vspace{1cm}
+
+\begin{tabular}{|l  | l @{} |l|}
+  \hline
+ Laboratoire & Équipe & Nom \\
+\hline \hline
+\rowcolor{LightBlue2}
+\cellcolor{LightBlue1}G-SCOP & {\small Optimisation Combinatoire} & {\bf Louis Esperet} \\
+\hline
+\rowcolor{LightBlue2}
+\cellcolor{LightBlue1}G-SCOP & {\small Optimisation Combinatoire} & {\bf Andr\'as Seb\H{o}} \\
+\hline
+\rowcolor{LightBlue2}
+\cellcolor{LightBlue1}G-SCOP & {\small Optimisation Combinatoire}& {\bf Gautier Stauffer} \\
+\hline
+\rowcolor{LightBlue3}
+\cellcolor{LightBlue1}G-SCOP & {\small Recherche Opérationelle}& {\bf Nicolas Catusse} \\
+\hline
+\rowcolor{LightGreen2}
+\cellcolor{LightGreen1}IF & {\small Théorie des Nombres} & {\bf Roland Bacher} \\
+\hline
+\rowcolor{LightGreen3}
+\cellcolor{LightGreen1}IF & {\small Physique Mathématique}& {\bf Yves Colin De Verdière} \\
+\hline
+\rowcolor{LightGreen4}
+\cellcolor{LightGreen1}IF & {\small Topologie} & {\bf François Dahmani} \\
+\hline
+\rowcolor{blue!25}
+\cellcolor{blue!10}GIPSA & {\small AGPIG} & {\bf Francis Lazarus} \\
+\hline
+\end{tabular}
+\end{center}
+
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Les objectifs}
+
+Rassembler des forces vives \alert{éparpillées} sur le site grenoblois
+concernant les \alert{aspects discrets de la géométrie/topologie} pour
+\vspace{.5cm}
+\begin{itemize}
+\item Mieux \alert{maîtriser les modèles} inhérents aux 
+  simulations informatiques du monde réel. 
+\item S'attaquer à quelques \alert{conjectures célèbres} du domaine.
+\item Apporter de \alert{nouveaux outils} pour l'analyse de problèmes
+  combinatoires de nature topologique.
+\end{itemize}
+\vspace{.5cm}
+Un credo : le site grenoblois possède un fort potentiel inexploité
+\emph{qui le restera sans une
+  politique volontariste des tutelles}.
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Trois thématiques}
+\Large
+  \begin{itemize}
+  \item Graphes Plongés 
+\item Topologie de dimension supérieure
+\item Graphes et géométrie
+  \end{itemize}
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Graphes Plongés}
+\centerline{
+\includegraphics<1>[width=.8\linewidth]{combiSurf1.pdf}
+\includegraphics<2>[width=.8\linewidth]{eight.pdf}
+}
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Cycle de partage}
+\begin{center}
+  \begin{exampleblock}{Conjecture (Barnette, 1982)}
+    Toute triangulation de $S_{g>1}$ admet un cycle de partage.
+  \end{exampleblock}
+\vspace{.5cm}
+   \includegraphics[width=\linewidth]{splitting-fr}
+\end{center}
+\visible<2>{
+Il suffit de vérifier la conjecture pour les triangulations irréductibles. Pour $g=2$ il y en a $396\,784$. }
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Design Topologique}
+Un 0-système possède au plus $3g-3$ courbes.
+\vspace{1cm}
+
+\centerline{
+\includegraphics<1>[width=.8\linewidth]{pantsDecomposition-0.pdf}
+\includegraphics<2>[width=.8\linewidth]{pantsDecomposition-1.pdf}
+\includegraphics<3>[width=.8\linewidth]{pantsDecomposition-2.pdf}
+}
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Design Topologique}
+Un 1-système possède au plus $N(1,g)$ courbes avec
+\[ g^2 + \frac{5}{2}g \leq N(1,g) \leq (g-1)(2^{2g} - 1)
+\]
+\centerline{
+\includegraphics[width=.8\linewidth]{homol-curves.pdf}
+}
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Genre des colorations de Tait}
+\centerline{
+\includegraphics<1>[width=1.2\linewidth]{tait-coloring-1.pdf}
+\includegraphics<2>[width=1.2\linewidth]{tait-coloring-2.pdf}
+}
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Bibliothèque dédiée aux courbes sur les surfaces}
+\centerline{
+\includegraphics[width=.4\linewidth]{graphics-1.png}
+\includegraphics[width=.4\linewidth]{graphics-2.png}
+\includegraphics[width=.4\linewidth]{graphics-3.png}
+}
+\vspace*{1cm}
+
+Applications en CAO, modélisation pour la synthèse d'images...
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Topologie en dimension supérieure}
+\only<1>
+{\bf Algorithmique de la théorie des n\oe uds}
+\centerline{
+\includegraphics<1>[width=.6\linewidth]{knot_g9-wb.jpg}%
+\includegraphics<2>[width=\linewidth]{normal-surf.pdf}%
+\includegraphics<3>[width=\linewidth]{matching-conds-0.pdf}%
+\includegraphics<4->[width=\linewidth]{matching-conds-1.pdf}%
+}
+\only<2-4>{
+\only<2>{\vspace*{1.4cm}}
+\begin{block}{}
+  Une surface \alert{normale} dans une triangulation à $t$ tétraèdres se code par 
+un $v\in \N^{7t}$. \visible<4>{$v$ doit vérifier des \alert{conditions d'appariements} (linéaires) et \alert{conditions quadrilatèrales} de non-croisements (non-linéaires).}
+\end{block}
+}
+\only<5>{
+\begin{alertblock}{}
+$v$ appartient au \alert{cône normal de Haken}. On peut se restreindre aux éléments d'une \alert{base hilbertienne} de ce cône.
+\end{alertblock}
+}
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Graphes et géométrie}
+\textbf{Spanners géométriques}\\
+Optimiser le facteur d'étirement, le degré maximum, le nombre d'arêtes, la planarité...
+\begin{center}
+\centerline{
+\includegraphics<1>[width=.75\linewidth]{300pt_2.jpg}%
+\includegraphics<2>[width=.75\linewidth]{proteinspanner.pdf}%
+\includegraphics<3>[width=.75\linewidth]{voronoi.pdf}%
+}
+\only<1>{Problème de routage avec centres émetteurs et clients.}
+\only<2>{Squelette de protéine avec ``court-circuits'' additionnels.}
+\only<3>{Problème : trouver le facteur d'étirement de Delaunay.}
+\end{center}
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Conjecture du coureur solitaire}
+\centerline{
+\includegraphics[width=.75\linewidth]{runner.jpg}%
+}
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Activités}
+  \begin{itemize}
+  \item Groupe(s) de lecture (Matveev, Koszlov, Farb et Margalit,...)
+\item Invitations pour séminaires et cours doctoraux
+\item colloques
+\item ...
+  \end{itemize}
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Diffusion}
+\centerline{\framebox{\includegraphics[height=.85\textheight]{GT-GeoAlg.png}}
+}
+\end{frame}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{Demande de moyens}
+\begin{itemize}
+\item[] {\bf Financement de thèse} : \hfill 100.000 \EUR\\
+\item[] {\bf Post-doc} (1,5 an) \hfill 75.000 \EUR\\
+\item[] {\bf Gratifications de stage} : \hfill 12.000 \EUR\\
+{\footnotesize 6 stages M2 de 5 mois + stages ENS et Polytechnique non-rémunérés (niveau L3,M1,M2)}
+\item[] {\bf Invitations de chercheurs extérieurs} : \hfill 40.000 \EUR\\
+{\footnotesize Benjamin Burton, Jens Vygen, Gianpaolo Oriolo, Shalom Eliahou, Bill Cook,...
+}
+\item[] {\bf Missions} : \hfill 30.000 \EUR\\
+{\footnotesize (1200\EUR par personne et par an)}
+\item[] {\bf Matériel} : \hfill 10.000 \EUR
+\item[] {\bf Fonctionnement} : \hfill 4.000 \EUR
+\item[] {\bf Congrès-colloques} : \hfill 9.000 \EUR
+\item[] \rule[-0.1cm]{\linewidth}{0.01cm} 
+\item[] {\bf TOTAL demandé : \hfill 280.000 \EUR}
+\end{itemize}
+\end{frame}
+%---------------------------------------------------
+\end{document}
+%---------------------------------------------------
+\begin{frame}
+  \frametitle{}
+\end{frame}

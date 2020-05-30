@@ -3,6 +3,20 @@ layout: page
 title: Contact Page
 ---
 
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX:
+{ equationNumbers: { autoNumber: "all" } } }); </script>
+       <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+           tex2jax: {
+             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+             processEscapes: true
+           }
+         });
+       </script>
+       <script
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+type="text/javascript"></script>
+
 # M2R 2019
 
 **IMPORTANT** : classes are suspended because of the pandemic.
