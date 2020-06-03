@@ -8,7 +8,9 @@ CLICK to continue
 
 ## Idea: differentiable is nearly affine. 
 
-$f(x) : x \mapsto f(x)$
+$f: t \mapsto f(t)$
+
+$f$ is *roughly* $f(0) + t f'(0)$ for *small* $t$
 <audio  data-autoplay >
 <source src="today_in_class.mp3" >
 </audio>
@@ -18,14 +20,14 @@ $f(x) : x \mapsto f(x)$
 ##  Graph of the function
 
 
-$y = f(x)$ 
+$y = f(t)$ 
 <audio  data-autoplay >
 <source src="lets_draw_a.mp3" >
 </audio>
 
 #
 
-##  Graph of the function
+###  Graph of the function
 
 ![graph of f](graph1.svg)
 
@@ -35,12 +37,36 @@ $y = f(x)$
 
 #
 
-##  Graph of the function
-
-![graph of f](graph2.svg)
-
+###  Graph and tangent
+<div style="font-size: 250%;">  
+$t : \mapsto  f(x)  + (t-x) f'(x)$ 
+</div>
+<img src="graph2.svg" alt="" width="400"> 
 <audio  data-autoplay >
 <source src="lets_choose_a.mp3" >
+</audio>
+
+#
+
+###  Zoom in
+<div style="font-size: 250%;">  
+$t : \mapsto  f(x)  + (t-x) f'(x)$ 
+</div>
+<img src="graph3.svg" alt="" width="400"> 
+<audio  data-autoplay >
+<source src="now_if_we.mp3" >
+</audio>
+
+#
+
+###  Zoom in even more....
+<div style="font-size: 250%;">  
+$t : \mapsto  f(x)  + (t-x) f'(x)$ 
+</div>
+<img src="graph4.svg" alt="" width="400"> 
+<
+<audio  data-autoplay >
+<source src="can_you_see.mp3" >
 </audio>
 
 # Notation

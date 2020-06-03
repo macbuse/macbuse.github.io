@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="graph2.svg">
+   sodipodi:docname="graph4.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="260.06046"
-     inkscape:cy="228.82256"
+     inkscape:zoom="1.4"
+     inkscape:cx="79.668793"
+     inkscape:cy="90.877354"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1476"
      inkscape:window-height="790"
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,7 +53,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 2"
-     transform="translate(0,-90)">
+     transform="translate(0,-90)"
+     sodipodi:insensitive="true">
     <image
        width="114.90164"
        height="113.179"
@@ -88,39 +89,22 @@
      id="layer1"
      transform="translate(0,-177)">
     <path
-       style="opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.40268674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 58.705141,179.69038 0.406777,119.99863"
-       id="path815"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0"
-       id="path817"
-       d="m 58.705141,179.69038 0.406777,119.99863"
-       style="opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.40268674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       style="opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.40268674;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 118.90786,239.48631 -1.0907867,239.89309"
-       id="path819"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.20134334px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 9.6887545,235.41755 c 0,0 -0.1997444,45.70517 17.8981005,46.37235 18.097844,0.66718 8.856607,-47.76619 25.220052,-53.28753 16.363444,-5.52134 25.323117,25.38062 39.660566,20.54214 14.337467,-4.83846 19.728587,-41.69444 19.728587,-41.69444"
+       style="fill:none;stroke:#0000ff;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -515.86171,311.19401 c 0,0 -2.75939,631.39967 247.25551,640.6165 250.014893,9.21687 122.3507,-659.87186 348.405493,-736.14711 226.054827,-76.27521 349.829317,350.6237 547.895727,283.7819 198.0667,-66.84146 272.543,-575.992933 272.543,-575.992933"
        id="path867"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="czzzc" />
     <path
-       style="fill:none;stroke:#d40000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 0.53453905,263.84247 116.26379,184.12431"
+       style="fill:none;stroke:#d40000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -640.81183,705.19646 957.94412,-396.07982"
        id="path2891"
        inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="text">
+     inkscape:label="text"
+     sodipodi:insensitive="true">
     <ellipse
        style="opacity:0.98999999;fill:none;fill-opacity:1;stroke:#d40000;stroke-width:0.52916664;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path3525"
