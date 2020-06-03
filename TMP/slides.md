@@ -100,3 +100,32 @@ $\lim_{t\rightarrow x}\frac{o(t-x)}{t-x} = 0$
 <audio  data-autoplay >
 <source src="little_o_of.mp3" >
 </audio>
+
+#
+
+### Notation : what does it mean?
+
+These are $o(t-x)$
+
+- $(t-x)^2$
+- $(t-x)^3$
+
+
+<audio  data-autoplay >
+<source src="so_what_kind.mp3" >
+</audio>
+
+#
+
+### Notation : what does it mean?
+
+These are **NOT** $o(t-x)$
+
+- $|t-x|$
+- $\surd |t-x|$
+
+<audio  data-autoplay >
+<source src="but_not_the.mp3" >
+</audio>
+
+# To be continued
