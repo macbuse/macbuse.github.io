@@ -39,3 +39,9 @@ Qu'est-ce qu'il est moche !
 
 Greg est beaucoup plus beau.)
 
+# Epilogue
+
+![](mandy.png)
+!![FR](En mathématiques, l'ensemble de Mandelbrot est une fractale définie comme l'ensemble des points du plan complexe pour lesquels la suite de nombres complexes définie par une certaine récurrence est bornée.
+)
+
