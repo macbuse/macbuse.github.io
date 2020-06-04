@@ -35,11 +35,11 @@ T'as la chance !!)
 !![FR](Mais moi, je le vaut bien !)
 
 #
+## square the circle
 
-## worse
-
-400$a^2 + b^2 = 1$
+300$a^2 + b^2 = 1$
 250![adam](adam.jpeg)
+
 !![R](De toute façon je sors au restaurant ce soir avec Adam.
 
 Il est tellement gallant !)

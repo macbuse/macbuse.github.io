@@ -32,11 +32,11 @@
 <audio  data-autoplay ><source src="mais_moi_je.mp3" ></audio>
 
 #
+## square the circle
 
-## worse
-
-<div style="font-size: 400%">$a^2 + b^2 = 1$</div>
+<div style="font-size: 300%">$a^2 + b^2 = 1$</div>
 <img src="adam.jpeg" alt="adam" width="250" >
+
 <audio  data-autoplay ><source src="de_toute_façon.mp3" ></audio>
 
 # The end?
