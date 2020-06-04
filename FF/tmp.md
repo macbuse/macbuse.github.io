@@ -34,7 +34,7 @@
 # worse
 
 <div style="font-size: 500%">$a^2 + b^2 = 1$</div>
-![adam](adam.jpeg)
+<img src="adam.jpeg" alt="adam" width="250" >
 <audio  data-autoplay ><source src="de_toute_façon.mp3" ></audio>
 
 # The end?

@@ -37,7 +37,7 @@ T'as la chance !!)
 # worse
 
 500$a^2 + b^2 = 1$
-![adam](adam.jpeg)
+250![adam](adam.jpeg)
 !![R](De toute façon je sors au restaurant ce soir avec Adam.
 
 Il est tellement gallant !)
