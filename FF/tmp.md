@@ -57,8 +57,8 @@ ou presque...
 
 #
 
-- Julia
-- Fatou
+- Julia = chaotique
+- Fatou = stable
 <audio  data-autoplay ><source src="lensemble_de_julia.mp3" ></audio>
 
 # Stabilité et chaos

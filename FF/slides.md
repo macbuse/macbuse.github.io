@@ -66,8 +66,8 @@ Greg est beaucoup plus beau.)
 
 #
 
-- Julia
-- Fatou
+- Julia = chaotique
+- Fatou = stable
 !![R](L'ensemble de Julia et l'ensemble de Fatou sont deux ensembles complémentaires l'un de l'autre, définis à partir du comportement d'une fonction  holomorphe par composition itérée avec elle-même.)
 
 # Stabilité et chaos
