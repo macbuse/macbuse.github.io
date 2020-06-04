@@ -53,6 +53,8 @@ class Voices():
             tts = gTTS(txt, lang=actor.lower())
             tts.save(fn)
 
+
+
     def add(self, txts):
 
         for tt in txts:

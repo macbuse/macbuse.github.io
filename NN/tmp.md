@@ -4,7 +4,6 @@
 
 # Aucher
 
-
 <div style="font-size: 400%">$x \mapsto x^2$</div>
 ![](cnrs.jpeg)
 
