@@ -1,5 +1,6 @@
 #! /home/gregmcshane/anaconda3/bin/python3.6 
 
+from gtts import gTTS
 import requests
 import subprocess
 
