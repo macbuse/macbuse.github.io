@@ -4,9 +4,12 @@
 
 # Aucher
 
-!![K](Greg got a mail today Louis from the CNRS.
+![](cnrs.jpeg)
 
-He says he needs to talk to you about it)
+!![K](Greg got a mail today from the CN RS.
+
+He says he needs to talk to you about it.
+It's about how they are going to handle money that is left over at the end of this year.)
 
 # Call
 
@@ -20,4 +23,4 @@ Is that OK?)
 
 It's not so urgent but...
 
-!![O](Hey are you finished? We have other stuff to do)
+!![O](Hey are you finished? We have other stuff to do!)
