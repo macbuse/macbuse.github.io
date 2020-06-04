@@ -61,8 +61,7 @@ Greg est beaucoup plus beau.)
 
 350$z \mapsto z^2 + c$
 
-!![FR](L'ensemble de Mandelbrot est une fractale définie comme l'ensemble des points du plan complexe pour lesquels la suite de nombres complexes définie par une certaine récurrence est bornée.
-)
+!![FR](L'ensemble de Mandelbrot est une fractale définie comme l'ensemble des points du plan complexe, pour lesquels la suite de nombres complexes définie par une certaine récurrence est bornée.)
 
 #
 
