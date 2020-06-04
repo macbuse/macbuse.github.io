@@ -59,6 +59,20 @@ Greg est beaucoup plus beau.)
 
 350$z \mapsto z^2 + c$
 
-!![FR](En mathématiques, l'ensemble de Mandelbrot est une fractale définie comme l'ensemble des points du plan complexe pour lesquels la suite de nombres complexes définie par une certaine récurrence est bornée.
+!![FR](L'ensemble de Mandelbrot est une fractale définie comme l'ensemble des points du plan complexe pour lesquels la suite de nombres complexes définie par une certaine récurrence est bornée.
 )
 
+#
+
+- Julia
+- Fatou
+!![R](L'ensemble de Julia et l'ensemble de Fatou sont deux ensembles complémentaires l'un de l'autre, définis à partir du comportement d'une fonction  holomorphe par composition itérée avec elle-même.)
+
+# Stabilité et chaos
+
+400![Je suis Julia](julia.jpg)
+
+
+!![R](L'ensemble de Fatou est l'ensemble où un faible changement du point de départ entraîne un faible changement sur la suite de l'itération.
+
+En revanche l'ensemble de Julia est essentiellement caractérisé par le fait qu'une petite perturbation au départ se répercute en un changement radical. )

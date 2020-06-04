@@ -51,5 +51,17 @@ ou presque...
 
 <div style="font-size: 350%">$z \mapsto z^2 + c$</div>
 
-<audio  data-autoplay ><source src="en_mathématiques_lensemble.mp3" ></audio>
+<audio  data-autoplay ><source src="lensemble_de_mandelbrot.mp3" ></audio>
 
+#
+
+- Julia
+- Fatou
+<audio  data-autoplay ><source src="lensemble_de_julia.mp3" ></audio>
+
+# Stabilité et chaos
+
+<img src="julia.jpg" alt="Je suis Julia" width="400" >
+
+
+<audio  data-autoplay ><source src="lensemble_de_fatou.mp3" ></audio>

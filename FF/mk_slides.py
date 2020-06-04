@@ -95,6 +95,7 @@ if __name__ == '__main__':
     #percentage$...$ for resizing TeX fonts
     pp_audio = re.compile(r'!!\[(.*?)\]\((.*?)\)',re.DOTALL)
     pp_math =  re.compile(r'(\d+)(\$.*?\$)',re.DOTALL)
+    pp_img =  re.compile(r'(\d+)!\[(.*?)\]\((.*?)\)',re.DOTALL)
     
     def audio_cb(match):
         wrapper = '<audio  data-autoplay ><source src="{}" ></audio>'
@@ -104,8 +105,14 @@ if __name__ == '__main__':
         wrapper = '<div style="font-size: {}%">{}</div>'
         return wrapper.format(match.group(1), match.group(2))
     
+    def img_cb(match):
+        wrapper = '<img src="{}" alt="{}" width="{}" >'
+        return wrapper.format(match.group(3), match.group(2), match.group(1))
+   
+    print('>>', pp_img.findall(md))
     #make the html first as it is local
     xx = re.sub(pp_audio, audio_cb, md)
+    xx = re.sub(pp_img, img_cb, xx)
     md_with_tags = re.sub(pp_math, math_cb, xx)
 
     #print(pp_math.findall(xx))
