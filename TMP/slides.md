@@ -90,6 +90,12 @@ $f(t) = f(x)  + (t-x) f'(x) + o(t-x)$
 
 #
 
+<audio  data-autoplay >
+<source src="olivia_will_explain.mp3" >
+</audio>
+
+#
+
 ### Notation : what does it mean?
 
 
@@ -107,9 +113,10 @@ $\lim_{t\rightarrow x}\frac{o(t-x)}{t-x} = 0$
 
 These are $o(t-x)$
 
+<div style="font-size: 150%;">  
 - $(t-x)^2$
 - $(t-x)^3$
-
+</div>
 
 <audio  data-autoplay >
 <source src="so_what_kind.mp3" >
@@ -121,11 +128,17 @@ These are $o(t-x)$
 
 These are **NOT** $o(t-x)$
 
+<div style="font-size: 150%;">  
 - $|t-x|$
 - $\surd |t-x|$
+</div>
 
 <audio  data-autoplay >
 <source src="but_not_the.mp3" >
 </audio>
 
 # To be continued
+
+<audio  data-autoplay >
+<source src="thank_you_olivia.mp3" >
+</audio>
