@@ -4,6 +4,8 @@
 
 # Aucher
 
+
+<div style="font-size: 400%">$x \mapsto x^2$</div>
 ![](cnrs.jpeg)
 
 <audio  data-autoplay ><source src="greg_got_a.mp3" ></audio>
@@ -17,6 +19,11 @@
 
 It's not so urgent but...
 
-$\int_0^\infty f(t) e^{-t} {dt}$
+<div style="font-size: 200%">$\int_0^\infty f(t) e^{-t} {dt}$</div>
+
+and
+
 
 <audio  data-autoplay ><source src="hey_are_you.mp3" ></audio>
+
+<div style="font-size: 200%">$x \mapsto x^2$</div>

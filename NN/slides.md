@@ -4,6 +4,7 @@
 
 # Aucher
 
+400$x \mapsto x^2$
 ![](cnrs.jpeg)
 
 !![K](Greg got a mail today from the CN RS.
@@ -23,6 +24,11 @@ Is that OK?)
 
 It's not so urgent but...
 
-$\int_0^\infty f(t) e^{-t} {dt}$
+200$\int_0^\infty f(t) e^{-t} {dt}$
+
+and
+
 
 !![O](Hey are you finished? We have other stuff to do!)
+
+200$x \mapsto x^2$
