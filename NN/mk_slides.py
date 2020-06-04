@@ -33,7 +33,6 @@ class Voices():
 
         actor, txt = to_say
         fn = self.string2fn(txt)
-
         print('Doing', fn)
 
         url = 'https://text-to-speech-demo.ng.bluemix.net/api/v3/synthesize'
@@ -75,13 +74,13 @@ if __name__ == '__main__':
         print('usage: mk_slides.py file.md')
         sys.exit(1)
     fn = sys.argv[1]
+
     with open(fn,'r') as fp:
         md = fp.read()
         
     voices = Voices()
     print(voices)
-    #delegate this
-    string2fn = voices.string2fn
+    string2fn = voices.string2fn #delegate this
     
     #I have special tags for speach and changing font size in math
     #!![voice key](text) for speech 
@@ -102,7 +101,7 @@ if __name__ == '__main__':
     xx = re.sub(pp_audio, audio_cb, md)
     md_with_tags = re.sub(pp_math, math_cb, xx)
 
-    print(pp_math.findall(xx))
+    #print(pp_math.findall(xx))
     
     with open('tmp.md','w') as fp:
         fp.write(md_with_tags)
