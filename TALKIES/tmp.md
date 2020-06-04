@@ -10,7 +10,7 @@ $E = mc^2$
 
 # 
 
-## The voice of reason
+![The voice of reason](orwell.png)
 
 <audio  data-autoplay >
 <source src="you_are_right.mp3" >
@@ -24,7 +24,9 @@ $E = mc^2$
 
 #
 
-## Lazy beggers
+![Lazy beggers](graph1.svg)
+
+
 
 <audio  data-autoplay >
 <source src="its_hard_to.mp3" >
