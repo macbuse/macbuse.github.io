@@ -96,11 +96,20 @@ if __name__ == '__main__':
     pp_media  = re.compile(r'!!\[(.*?)\]\((.*?)\)',re.DOTALL)
     pp_math =  re.compile(r'(\d+)(\$.*?\$)',re.DOTALL)
     pp_img =  re.compile(r'(\d+)!\[(.*?)\]\((.*?)\)',re.DOTALL)
+
+    #global
+    spoken_text = []
     
     def media_cb(match):
         src = match.group(2)
+        print("<< ", src)
         if 'http' in src :
             wrapper = '''<div class="wrap"><iframe src="{}" allowfullscreen="true"> </iframe></wrap>\n\n'''
+            return wrapper.format( src)
+
+        #local html file
+        if 'html' in src :
+            wrapper = '''<div class="wrap"><iframe src="{}" > </iframe></wrap>\n\n'''
             return wrapper.format( src)
 
         if 'mp4' in src:
@@ -108,6 +117,7 @@ if __name__ == '__main__':
             return wrapper.format( src)
 
         # default is audio
+        spoken_text.append(match.groups())
         wrapper = '<audio  data-autoplay ><source src="{}" ></audio>'
         return wrapper.format(string2fn(src) )
     
@@ -126,8 +136,6 @@ if __name__ == '__main__':
     xx = re.sub(pp_img, img_cb, xx)
     md_with_tags = re.sub(pp_math, math_cb, xx)
 
-    #print(pp_math.findall(xx))
-    
     with open('tmp.md','w') as fp:
         fp.write(md_with_tags)
         
@@ -138,8 +146,6 @@ if __name__ == '__main__':
     subprocess.call(pandoc_it)
     
     #this has a lot of latency
-    spoken_text = [x for x in pp_media.findall(md) 
-                   if 'http' not in x[1] and 'mp4' not in x[1]]
     print(spoken_text)
 
     if spoken_text != []:
