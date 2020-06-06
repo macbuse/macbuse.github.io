@@ -3,6 +3,8 @@
 
 #
 
+<div style="font-size: 300%">$\int_2^3 x{dx} = 5/2$</div>
+
 <audio  data-autoplay ><source src="how_are_you.mp3" ></audio>
 
 # SVG animation

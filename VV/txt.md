@@ -3,6 +3,8 @@
 
 #
 
+300$\int_2^3 x{dx} = 5/2$
+
 !![M](How are you feeling today?)
 
 # SVG animation

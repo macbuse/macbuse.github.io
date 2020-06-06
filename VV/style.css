@@ -25,8 +25,8 @@ svg {
 
 .logo {
   stroke: #6fbc6d;
-  stroke-width: 2;
-  stroke-dasharray: 810;
-  stroke-dashoffset: 810;
-  animation: offset 5s linear forwards, fill-it .8s 5s forwards;
+  stroke-width: 3;
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: offset 10s linear forwards
 }
