@@ -99,17 +99,12 @@ if __name__ == '__main__':
     
     def media_cb(match):
         src = match.group(2)
-        if 'http' in src :
+        if 'http' in src or 'mp4' in src:
             wrapper = '''<div class="wrap"><iframe src="{}" allowfullscreen="true"> </iframe></wrap>\n\n'''
             return wrapper.format( src)
-
-        if 'mp4' in src:
-            wrapper = '''<div class="wrap"><video src="{}" data-autoplay> </video></wrap>\n\n'''
-            return wrapper.format( src)
-
-        # default is audio
-        wrapper = '<audio  data-autoplay ><source src="{}" ></audio>'
-        return wrapper.format(string2fn(src) )
+        else:
+            wrapper = '<audio  data-autoplay ><source src="{}" ></audio>'
+            return wrapper.format(string2fn(src) )
     
     def math_cb(match):
         wrapper = '<div style="font-size: {}%">{}</div>'
