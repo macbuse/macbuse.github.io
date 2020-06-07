@@ -1,4 +1,4 @@
-%Sunday
+%Sunday Blues
 %greg mc
 %June 2020
 
