@@ -1,6 +1,6 @@
 # Hi from
 
-!![](sig.html)
+![](sig.svg)
 
 #
 
