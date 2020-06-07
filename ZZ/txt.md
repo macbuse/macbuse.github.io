@@ -7,7 +7,7 @@
 >you have no idea how hard this was.....
 I think I am mad to have done it.
 
-!![KK](Good afternoon Miss Lee.)
+!![KK](Good afternoon, I hope you are having a good time Miss Lee.)
 
 # In Greece still
 
