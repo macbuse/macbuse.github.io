@@ -8,7 +8,7 @@
 
 # Making multimedia
 
-<div class="wrap"><iframe src="pp.html" > </iframe></div>
+<div class="wrap"><iframe data-src="ttt.html" > </iframe></div>
 
 
 

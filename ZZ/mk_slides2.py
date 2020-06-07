@@ -101,20 +101,20 @@ if __name__ == '__main__':
     spoken_text = []
     
     def media_cb(match):
+        wrap = '<div class="wrap">%s</div>\n\n'
         src = match.group(2)
         print("<< ", src)
         if 'http' in src:
-            wrapper = '''<div class="wrap"><iframe src="{}"
-            allowfullscreen="true"> </iframe></div>\n\n'''
+            wrapper = wrap%'''<iframe src="{}" allowfullscreen="true"> </iframe>'''
             return wrapper.format( src)
 
         #local html file
         if 'html' in src:
-            wrapper = '''<div class="wrap"><iframe src="{}" > </iframe></div>\n\n'''
+            wrapper = wrap%'''<iframe data-src="{}" > </iframe>'''
             return wrapper.format( src)
 
         if 'mp4' in src:
-            wrapper = '''<div class="wrap"><video src="{}" data-autoplay> </video></div>\n\n'''
+            wrapper = wrap%'''<video src="{}" data-autoplay> </video>'''
             return wrapper.format( src)
 
         # default is audio
