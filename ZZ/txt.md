@@ -2,14 +2,14 @@
 %greg mc
 %June 2020
 
-# What I am doing
+# What I been doing
 
 >you have no idea how hard this was.....
 I think I am mad to have done it.
 
-!![K](Good afternoon Miss Lee.)
+!![KK](Good afternoon Miss Lee.)
 
-# Making multimedia
+# In Greece still
 
 !![ll](ttt.html)
 !![zh-cn](嗨，我被困在希腊，我不知道该怎么办。
@@ -18,7 +18,7 @@ I think I am mad to have done it.
 
 这里没有航班。)
 
-# ..and u?
+# ..guess what?
 
 !![ll](ppp.html)
 !![zh-cn](
@@ -29,3 +29,8 @@ I think I am mad to have done it.
 #
 
 ## what u think honey ?
+
+# well...
+
+!![KK](what's in it for me?
+I already have all the robot girlfriends I need, don't  I ?)

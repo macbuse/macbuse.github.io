@@ -1,6 +1,6 @@
 #! /home/gregmcshane/anaconda3/bin/python3.6 
 
-import os, re, time
+import os, re, time,sys
 import subprocess
 
 import json #serialise
@@ -59,19 +59,19 @@ class Voices():
 
     def add(self, txts):
 
+
         for tt in txts:
             actor, lines = tt
             FN = self.string2fn(lines)
-
-            if FN in self.inventory and self.inventory[FN] == lines:
+            key = actor + FN
+            if key in self.inventory and self.inventory[key] == lines:
                 print('skipping', FN)
                 continue
             self.get_audio(tt)
             time.sleep(20)
 
         with open('script.json', 'w') as FP:
-            actor, lines = list(zip(*txts))
-            json.dump({self.string2fn(x) : x for x in lines}, FP)
+            json.dump({actor + self.string2fn(lines) : lines for  actor,lines  in txts}, FP)
         print('DONE')
         
     def __repr__(self):

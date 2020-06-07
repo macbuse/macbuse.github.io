@@ -2,21 +2,21 @@
 %greg mc
 %June 2020
 
-# What I am doing
+# What I been doing
 
 >you have no idea how hard this was.....
 I think I am mad to have done it.
 
 <audio  data-autoplay ><source src="good_afternoon_miss.mp3" ></audio>
 
-# Making multimedia
+# In Greece still
 
 <div class="wrap"><iframe data-src="ttt.html" > </iframe></div>
 
 
 <audio  data-autoplay ><source src="嗨我被困在希腊我不知道该怎么办_食物还可以但真的很无聊_这里没有航班.mp3" ></audio>
 
-# ..and u?
+# ..guess what?
 
 <div class="wrap"><iframe data-src="ppp.html" > </iframe></div>
 
@@ -26,3 +26,7 @@ I think I am mad to have done it.
 #
 
 ## what u think honey ?
+
+# well...
+
+<audio  data-autoplay ><source src="whats_in_it.mp3" ></audio>
