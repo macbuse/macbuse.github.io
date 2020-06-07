@@ -11,9 +11,11 @@ class Voices():
     '''vv'''
     voices = {'K' : 'en-GB_KateV3Voice',
               'M' : 'en-US_MichaelV3Voice',
-             'O' : 'en-US_OliviaV3Voice',
-             'R' : 'fr-FR_ReneeV3Voice'
-            }
+              'KK' : 'en-US_KevinV3Voice',
+              'LI' : 'zh-CNLiNaVoice',
+              'O' : 'en-US_OliviaV3Voice',
+              'R' : 'fr-FR_ReneeV3Voice'
+             }
     
     def __init__(self):
         if not os.path.isfile('script.json'):
@@ -41,15 +43,15 @@ class Voices():
         if actor in self.voices:
             url = 'https://text-to-speech-demo.ng.bluemix.net/api/v3/synthesize'
             params = {'text' : txt,
-            'voice' : self.voices[actor],
-            'download' : 'true',
-            'accept' : 'audio/mp3'
+                      'voice' : self.voices[actor],
+                      'download' : 'true',
+                      'accept' : 'audio/mp3'
             }
-
+         
             r = requests.get(url, params=params)
 
-            with open('%s'%fn, 'wb') as fp:
-                fp.write(r.content)
+            with open('%s'%fn, 'wb') as FP:
+                FP.write(r.content)
 
         else: #assume it's a language tag and ask google
             tts = gTTS(txt, lang=actor.lower())
@@ -67,9 +69,9 @@ class Voices():
             self.get_audio(tt)
             time.sleep(20)
 
-        with open('script.json', 'w') as fp:
+        with open('script.json', 'w') as FP:
             actor, lines = list(zip(*txts))
-            json.dump({self.string2fn(x) : x for x in lines}, fp)
+            json.dump({self.string2fn(x) : x for x in lines}, FP)
         print('DONE')
         
     def __repr__(self):
@@ -82,8 +84,8 @@ if __name__ == '__main__':
         sys.exit(1)
     FN = sys.argv[1]
 
-    with open(FN, 'r') as fp:
-        md = fp.read()
+    with open(FN, 'r') as FP:
+        md = FP.read()
         
     voices = Voices()
     print(voices)
@@ -93,9 +95,9 @@ if __name__ == '__main__':
     #!![voice key](text) for speech 
     # voices key is one of M, K, O
     #percentage$...$ for resizing TeX fonts
-    PP_MEDIA  = re.compile(r'!!\[(.*?)\]\((.*?)\)', re.DOTALL)
-    PP_MATH =  re.compile(r'(\d+)(\$.*?\$)', re.DOTALL)
-    PP_IMG =  re.compile(r'(\d+)!\[(.*?)\]\((.*?)\)', re.DOTALL)
+    PP_MEDIA = re.compile(r'!!\[(.*?)\]\((.*?)\)', re.DOTALL)
+    PP_MATH = re.compile(r'(\d+)(\$.*?\$)', re.DOTALL)
+    PP_IMG = re.compile(r'(\d+)!\[(.*?)\]\((.*?)\)', re.DOTALL)
 
     #global
     spoken_text = []
@@ -108,14 +110,14 @@ if __name__ == '__main__':
             wrapper = wrap%'''<iframe src="{}" allowfullscreen="true"> </iframe>'''
             return wrapper.format( src)
 
-        #local html file
+        #local html file - this is loaded lazily, so animations start on view
         if 'html' in src:
             wrapper = wrap%'''<iframe data-src="{}" > </iframe>'''
-            return wrapper.format( src)
+            return wrapper.format(src)
 
         if 'mp4' in src:
             wrapper = wrap%'''<video src="{}" data-autoplay> </video>'''
-            return wrapper.format( src)
+            return wrapper.format(src)
 
         # default is audio
         spoken_text.append(match.groups())
