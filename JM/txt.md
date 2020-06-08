@@ -1,4 +1,4 @@
-%Sunday Blues
+%Teaching Blues
 %greg mc
 %June 2020
 
@@ -23,7 +23,8 @@ que ça intéresse, si tu es ok.
 !![M](I'll see what the students at the acole normal think.
 
 I had a few of them in a reading group last term
-and they worked very hard to make presentations.)
+and they worked very hard to make presentations.
+Maybe they can give me some feedback.)
 
 # it's a shame
 
