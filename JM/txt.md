@@ -57,6 +57,6 @@ it's not a problem.)
 > too tired to make a picure here 
 
 !![FR](mais qu'est-ce que j'en sais moi ?
-je ne suis qu'une pauvre petite écossaise :)
+je ne suis qu'une pauvre petite écossaise ! )
 
 
