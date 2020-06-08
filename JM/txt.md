@@ -57,7 +57,7 @@ it's not a problem.)
 
 #
 
-> too tired to make a picure here 
+> too tired to make a picture here 
 
 !![FR](mais qu'est-ce que j'en sais moi ?
 je ne suis qu'une pauvre petite écossaise ! )
