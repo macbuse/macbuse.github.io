@@ -32,7 +32,7 @@ Maybe they can give me some feedback.)
 
 !![](graph.html)
 
-!![M](It just seems a shame to do things like drawing a graph  badly over and over when it is
+!![M](It just seems a shame to do things like drawing a graph like this  badly over and over, when it is
 better to do it correctly  once.)
 
 #
@@ -42,7 +42,7 @@ le "tableau", un peu comme des cours habituels mais l'avantage c'est que
 je peux poster ensuite le tableau et la vidéo du cours.
 
 !![M](Sure I understand! It's a lot better when you see the students
-but things are going to be very strange here in September)
+but things are going to be very strange here in September and I  have to start preparing now.)
 
 #
 

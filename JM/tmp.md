@@ -47,7 +47,7 @@ je peux poster ensuite le tableau et la vidéo du cours.
 
 #
 
-> too tired to make a picure here 
+> too tired to make a picture here 
 
 <audio  data-autoplay ><source src="mais_questce_que.mp3" ></audio>
 
