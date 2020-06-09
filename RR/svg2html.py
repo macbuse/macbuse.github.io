@@ -3,7 +3,7 @@
 import re, sys, os, argparse
 from svgpathtools import svg2paths, wsvg
 
-html = '''<!DOCTYPE html>
+HTML = '''<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -20,7 +20,7 @@ html = '''<!DOCTYPE html>
 </body>
   '''
 
-anim_params = '''    
+ANIM_PARAMS = '''    
 #{} {{ stroke-dasharray:  {};
       stroke-dashoffset: {};
       opacity : 0;
@@ -29,16 +29,16 @@ anim_params = '''
       animation-iteration-count: 1;
     }} '''
 
-anim_loop = '''
+ANIM_LOOP = '''
 @keyframes offset {
     to {
     stroke-dashoffset: 0;  opacity: 1;
     }
 '''
 
-pp_path = re.compile('<path(.*?)\sd=', re.DOTALL)
-pp_metadata = re.compile('<metadata>.*?</metadata>',re.DOTALL)
-pp_units = re.compile('(\d+)pt')
+PP_PATH = re.compile('<path(.*?)\sd=', re.DOTALL)
+PP_METADATA = re.compile('<metadata>.*?</metadata>',re.DOTALL)
+PP_UNITS = re.compile('(\d+)pt')
 
 def units_cb(mm):
     return '%spx'%mm.group(1)
@@ -52,41 +52,40 @@ def mk_anim(src_fn, speed=1.):
         data = fp.read()
     
     #ditch the metadata - there's a thumbnail :(
-    data = re.sub(pp_metadata, '', data)
+    data = re.sub(PP_METADATA, '', data)
 
     paths, attributes = svg2paths(src_fn)
-    path_ids = ['p%d'%k for k,x in enumerate(paths) ]
+    path_ids = ['p%d'%k for k,x in enumerate(paths)]
     path_ids_cp = path_ids[:]
 
-    data = re.sub(pp_units, units_cb, data)
-    svg = re.sub(pp_path, path_cb, data)
+    data = re.sub(PP_UNITS, units_cb, data)
+    svg = re.sub(PP_PATH, path_cb, data)
 
     paths, attributes = svg2paths(src_fn)
 
-    lengths = [int(x.length()/speed) for x in paths]
+    lengths = [int(x.length()) for x in paths]
 
     rolling = [0]
-    for l in lengths:
-        rolling.append(rolling[-1] + l)
+    for cv_len in lengths:
+        rolling.append(rolling[-1] + cv_len)
 
-    animations = [ anim_params.format('p%d'%k,l,l,l/500, d/500) 
+    animations = [ ANIM_PARAMS.format('p%d'%k,l,l,l/500/speed, d/500/speed) 
                                   for k,l,d in zip(range(len(lengths)), lengths, rolling)  ]
 
-    animations.append(anim_loop)
+    animations.append(ANIM_LOOP)
     style = ' '.join(animations) 
 
-    with open('%s.html'%src_fn.split('.')[0],'w') as fp:
-        fp.write(html.format(style, svg))
+    with open('%s.html'%src_fn.split('.')[0],'w') as FP:
+        FP.write(HTML.format(style, svg))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('fn')
+    parser.add_argument("FN")
     parser.add_argument("-s", default=1.0)
-    res = parser.parse_args()
-    print(res.fn)
+    ARGS = parser.parse_args()
 
     if len(sys.argv) < 2:
         print('usage: %s file.svg'%sys.argv[0])
         sys.exit(1)
-    mk_anim(res.fn, speed=res.s)
+    mk_anim(ARGS.FN, speed=float(ARGS.s))
 

@@ -1,6 +1,7 @@
 #! /home/gregmcshane/anaconda3/bin/python3.6 
+'''whatever'''
 
-import os, re, time,sys
+import os, re, time, sys
 import subprocess
 
 import json #serialise
@@ -24,21 +25,22 @@ class Voices():
             self.inventory = json.load(open('script.json', 'r'))
 
     def string2fn(self, xx):
+        '''ff'''
         '''hash function
         strip punctuation
-         return first 3 words with sep=_'''
-        #strip punctuation - > lowercase
-        u = re.sub(r'[^\w\s]','', xx).lower().split()
-        #check and pad
-        if len(u) < 3:
-            u.extend(['blah']*3)
-        return '_'.join(u[:3]) + '.mp3'
+        return first 3 words with sep=_'''
 
-    def get_audio(self,to_say):
+        words = re.sub(r'[^\w\s]', '', xx).lower().split() #strip punctuation - > lowercase
+        #check and pad
+        if len(words) < 3:
+            words.extend(['blah']*3)
+        return '_'.join(words[:3]) + '.mp3'
+
+    def get_audio(self, to_say):
 
         actor, txt = to_say
-        fn = self.string2fn(txt)
-        print('Doing', fn)
+        FN = self.string2fn(txt)
+        print('Doing', FN)
         
         if actor in self.voices:
             url = 'https://text-to-speech-demo.ng.bluemix.net/api/v3/synthesize'
@@ -50,15 +52,14 @@ class Voices():
          
             r = requests.get(url, params=params)
 
-            with open('%s'%fn, 'wb') as FP:
+            with open('%s'%FN, 'wb') as FP:
                 FP.write(r.content)
 
         else: #assume it's a language tag and ask google
             tts = gTTS(txt, lang=actor.lower())
-            tts.save(fn)
+            tts.save(FN)
 
     def add(self, txts):
-
 
         for tt in txts:
             actor, lines = tt
@@ -78,7 +79,6 @@ class Voices():
         return str('\n'.join(self.inventory.keys()))
         
 if __name__ == '__main__':
-    import sys
     if len(sys.argv) < 2:
         print('usage: mk_slides.py file.md')
         sys.exit(1)
@@ -86,7 +86,6 @@ if __name__ == '__main__':
 
     with open(FN, 'r') as FP:
         md = FP.read()
-        
     voices = Voices()
     print(voices)
     string2fn = voices.string2fn #delegate this
@@ -109,7 +108,7 @@ if __name__ == '__main__':
         #this is typically a youtube video
         if 'http' in src:
             wrapper = wrap%'''<iframe src="{}" allowfullscreen="true"> </iframe>'''
-            return wrapper.format( src)
+            return wrapper.format(src)
 
         #local html file - this is loaded lazily, so animations start on view
         if 'html' in src:
@@ -127,7 +126,7 @@ if __name__ == '__main__':
         # default is audio
         spoken_text.append(match.groups())
         wrapper = '<audio  data-autoplay ><source src="{}" ></audio>'
-        return wrapper.format(string2fn(src) )
+        return wrapper.format(string2fn(src))
     
     def math_cb(match):
         wrapper = '<div style="font-size: {}%">{}</div>'
@@ -136,7 +135,6 @@ if __name__ == '__main__':
     def img_cb(match):
         wrapper = '<img src="{}" alt="{}" width="{}" >'
         return wrapper.format(match.group(3), match.group(2), match.group(1))
-   
    
     print('>>', PP_IMG.findall(md))
     #make the html first as it is local
@@ -152,7 +150,7 @@ if __name__ == '__main__':
     pandoc_it.extend('-V revealjs-url=https://unpkg.com/reveal.js@3.9.2/ --mathjax -i'.split())
 
     subprocess.call(pandoc_it)
-    
+
     #this has a lot of latency
     print(spoken_text)
 
