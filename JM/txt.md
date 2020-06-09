@@ -1,6 +1,9 @@
-%Teaching Blues
+%Teaching Blues 
 %greg mc
 %June 2020
+
+- u need the sound on 
+- click to continue
 
 # Well
 
