@@ -1,6 +1,7 @@
 .wrap {
-width: 640px;
-height: 480px;
+width: 660px;
+height: 500px;
+border: none;
 position: absolute;
 left:50%;
 top: 50%;
@@ -11,6 +12,7 @@ overflow: hidden;
 .reveal iframe {
 min-width: 110% !important;
 min-height: 110% !important;
+border: none;
 transform: scale(1.0);
 transform-origin: 0 0;
 }
