@@ -19,18 +19,18 @@ Unlike the lockdown was.
 !![M](I remember all of you,  and how hard you worked to do the online
 presentations.
 
-It was a lot of fun. But I think we could do better next time.)
+It was a lot of fun. But I think we could do much, much better next time.)
 
 # New technology
 
 !![M](You see I've been learning a lot of new stuff.
 Stuff like, well go on and click to see!)
 - pandoc and markdown
-!![M](these are for making slides quickly from a text.)
+!![M](These are for making slides quickly from a text.)
 - css animations
 !![M](This is very cool, and you'll see in a moment exactly what you can do with it.)
 - TTS with Google and IBM Watson 
-!![M](As for me, in fact I'm not real I'm just a synthesised voice.)
+!![M](As for me, in fact I'm not real, I'm just a synthesised voice.)
 
 #
 
@@ -40,7 +40,7 @@ Stuff like, well go on and click to see!)
 
 !![M](We could do some math again.
 
-Do you remember this?)
+Do you remember this equation?)
 
 #
 
@@ -68,7 +68,7 @@ Do you remember this?)
 # The End?
 
 !![M](Good luck for the summer
-and if you are interested in how I did this get in touch!)
+and if you are interested in how I did this, get in touch!)
 
 (maybe not)
 
