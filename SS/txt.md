@@ -2,7 +2,8 @@
 %greg mc
 %June 2020
 
-click to continue
+- click to continue
+- you need **sound on** too
 
 # Bilan
 
