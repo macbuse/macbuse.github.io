@@ -43,7 +43,9 @@ PP_UNITS = re.compile('(\d+)pt')
 def units_cb(mm):
     return '%spx'%mm.group(1)
 
-def mk_anim(src_fn, speed=1.):
+def mk_anim(src_fn, 
+            speed=1.,
+            top_first=False):
     
     def path_cb(mm):
         return '<path id="%s" %s d='%(path_ids.pop(0), mm.group(1))
@@ -68,9 +70,16 @@ def mk_anim(src_fn, speed=1.):
     rolling = [0]
     for cv_len in lengths:
         rolling.append(rolling[-1] + cv_len)
+    if top_first:
+        rolling = [rolling[-1] - x for x in rolling]
 
-    animations = [ ANIM_PARAMS.format('p%d'%k,l,l,l/500/speed, d/500/speed) 
-                                  for k,l,d in zip(range(len(lengths)), lengths, rolling)  ]
+    animations = [ ANIM_PARAMS.format('p%d'%k,
+        l,
+        l,
+        l/500/speed, #speed
+        d/500/speed  #delay
+        ) 
+         for k,l,d in zip(range(len(lengths)), lengths, rolling)  ]
 
     animations.append(ANIM_LOOP)
     style = ' '.join(animations) 
@@ -81,11 +90,13 @@ def mk_anim(src_fn, speed=1.):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("FN")
-    parser.add_argument("-s", default=1.0)
+    parser.add_argument("-s", dest='speed',default=1.0)
+    parser.add_argument("-r", dest='r', action='store_true', default=False)
     ARGS = parser.parse_args()
 
     if len(sys.argv) < 2:
         print('usage: %s file.svg'%sys.argv[0])
         sys.exit(1)
-    mk_anim(ARGS.FN, speed=float(ARGS.s))
+
+    mk_anim(ARGS.FN, speed=float(ARGS.speed), top_first=ARGS.r)
 
