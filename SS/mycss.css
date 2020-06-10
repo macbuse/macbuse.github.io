@@ -1,0 +1,16 @@
+.wrap {
+width: 640px;
+height: 480px;
+position: absolute;
+left:50%;
+top: 50%;
+transform: translate(-50%, 12%);
+overflow: hidden;
+}
+
+iframe {
+width: 100% !important;
+height: 100% !important;
+transform: scale(1.0);
+transform-origin: 0 0;
+}
