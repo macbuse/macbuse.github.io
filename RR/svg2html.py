@@ -1,7 +1,11 @@
 #! /home/gregmcshane/anaconda3/bin/python3.6 
+'''
+embed an svg file in html
+with css animation
+'''
 
-import re, sys, os, argparse
-from svgpathtools import svg2paths, wsvg
+import re, sys,  argparse
+from svgpathtools import svg2paths
 
 HTML = '''<!DOCTYPE html>
 <html lang="en">
@@ -20,7 +24,7 @@ HTML = '''<!DOCTYPE html>
 </body>
   '''
 
-ANIM_PARAMS = '''    
+ANIM_PARAMS = ''' 
 #{} {{ stroke-dasharray:  {};
       stroke-dashoffset: {};
       opacity : 0;
@@ -50,15 +54,15 @@ def mk_anim(src_fn,
     def path_cb(mm):
         return '<path id="%s" %s d='%(path_ids.pop(0), mm.group(1))
 
-    with open(src_fn, 'r') as fp:
-        data = fp.read()
+    with open(src_fn, 'r') as FP:
+        data = FP.read()
     
     #ditch the metadata - there's a thumbnail :(
     data = re.sub(PP_METADATA, '', data)
 
     paths, attributes = svg2paths(src_fn)
-    path_ids = ['p%d'%k for k,x in enumerate(paths)]
-    path_ids_cp = path_ids[:]
+    path_ids = ['p%d'%k for k, x in enumerate(paths)]
+    path_ids_cp = path_ids[:] #make a copy for debugging
 
     data = re.sub(PP_UNITS, units_cb, data)
     svg = re.sub(PP_PATH, path_cb, data)
@@ -74,29 +78,28 @@ def mk_anim(src_fn,
         rolling = [rolling[-1] - x for x in rolling]
 
     animations = [ ANIM_PARAMS.format('p%d'%k,
-        l,
-        l,
-        l/500/speed, #speed
-        d/500/speed  #delay
-        ) 
-         for k,l,d in zip(range(len(lengths)), lengths, rolling)  ]
+                                     length,
+                                     length,
+                                     length/500/speed, #duration in secs
+                                     delay/500/speed  #delay in secs
+                                     ) 
+         for k,length,delay in zip(range(len(lengths)), lengths, rolling)  ]
 
     animations.append(ANIM_LOOP)
-    style = ' '.join(animations) 
+    style = ' '.join(animations)
 
-    with open('%s.html'%src_fn.split('.')[0],'w') as FP:
+    with open('%s.html'%src_fn.split('.')[0], 'w') as FP:
         FP.write(HTML.format(style, svg))
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument("FN")
-    parser.add_argument("-s", dest='speed',default=1.0)
-    parser.add_argument("-r", dest='r', action='store_true', default=False)
-    ARGS = parser.parse_args()
+    PARSER = argparse.ArgumentParser()
+    PARSER.add_argument("FN")
+    PARSER.add_argument("-s", dest='speed', default=1.0)
+    PARSER.add_argument("-r", dest='r', action='store_true', default=False)
+    ARGS = PARSER.parse_args()
 
     if len(sys.argv) < 2:
         print('usage: %s file.svg'%sys.argv[0])
         sys.exit(1)
 
     mk_anim(ARGS.FN, speed=float(ARGS.speed), top_first=ARGS.r)
-
