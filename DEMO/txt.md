@@ -71,7 +71,9 @@ and I still get a solution to the equation!)
 
 #
 
-### Initial condition to the rescue
+> Initial condition  
+> to the rescue
+
 400$y(0)=1  \Rightarrow  A = 1$
 400$\Rightarrow  y = e^x$
 !![K](
@@ -83,7 +85,7 @@ So the only solution we have is going to be Y equals E to the X!
 
 #
 
-## Guess and check = Cheesy?
+## Guess +  Check = Cheesy?
 !![M](
 Now you might think that it's kind of cheesy to guess
 and check a solution, but a lot of really

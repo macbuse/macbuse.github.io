@@ -43,14 +43,16 @@ gives another solution
 
 #
 
-### Initial condition to the rescue
+> Initial condition  
+> to the rescue
+
 <div style="font-size: 400%">$y(0)=1  \Rightarrow  A = 1$</div>
 <div style="font-size: 400%">$\Rightarrow  y = e^x$</div>
 <audio  data-autoplay ><source src="but_weve_got.mp3" ></audio>
 
 #
 
-## Guess and check = Cheesy?
+## Guess +  Check = Cheesy?
 <audio  data-autoplay ><source src="now_you_might.mp3" ></audio>
 
 # Done
