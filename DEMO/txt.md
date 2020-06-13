@@ -45,7 +45,7 @@ catalog of functions that you know and
 ask yourself the question:
 
 what function has the
-property that when you take their
+property that when you take its
 derivative you get back to it again?)
 
 #
@@ -54,7 +54,7 @@ derivative you get back to it again?)
 400$y(x)=e^x \Rightarrow  y' = y$
 !![M](It doesn't take  too long to see
 that there's a well known  function like that.
-It is Y equals E to the X of course. )
+It is Y equals E to the X of course! )
 
 #
 
