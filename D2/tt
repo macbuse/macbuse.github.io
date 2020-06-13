@@ -1,0 +1,62 @@
+!![K](
+Let's move on to our second
+method.
+)
+
+$x^2$
+
+# Separation of variables
+
+400$ y' = \frac{dy}{dx}$
+
+- !![M](
+We are going to viewg this thing as a separable
+differential equation.
+So generally,  when you do this,  
+you use liebnitz 
+notation so you write dee y over dee x equals Y.
+)
+
+- !![M](
+This tells us that we can write dee y over y equals Dee X.
+Integrating both sides, we see that natural log of y equals x plus some
+constant C. 
+)
+
+400$ \frac{dy}{dx}= y \Rightarrow \frac{dy}{y}= {dx} $
+
+# Separation of variables
+
+- !![K](
+Now we can exponentiate both sides to give us y equals e to the
+X plus C )
+
+- !![K](
+And, using the rules for the exponential function, 
+we know this can be written
+ e to the C times e to the X 
+which we can rewrite as constant
+times e to the X where I just renamed
+that constant e to the c.
+)
+
+# Separation of variables
+!![M](
+Again we'll evaluate this at x equals 0
+and we should get 1 which tells us that
+the constant  is 1 as before.
+)
+
+# Separation of variables
+!![K](
+Finally we see that y
+equals e to the X,
+just like it did
+before!  Okays?
+)
+
+#Done 
+!![K](
+So now we've solved this as
+a separable differential equation.
+)
