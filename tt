@@ -1,0 +1,90 @@
+# Differential equations
+
+#
+
+$ y' = y, y(0)=1 $
+
+!![M](Okay, we're gonna look at a very simple differential equation. 
+
+It's one that you would see on the very first day
+of a differential equations class but
+we're gonna solve it five different ways.)
+
+#
+
+$ y' = y, y(0)=1$
+
+!![K](This is one of my favorite problems to put on
+the final exam for a differential equations class.
+
+We'll see that it's really  pretty easy!  
+So it helps to build confidence.
+But it does give the student an opportunity to
+use  all the techniques that they've learned about during the semester.)
+
+#
+
+## Guess and check
+
+$ y' = y, y(0)=1$
+
+!![M](Our first method is going to be guess
+and check.
+So we have 
+Y prime equals Y  and Y
+of zero equals 1.
+
+Now what I mean by
+guess and  check is just think through the
+catalog of functions that you know and
+ask yourself the question:
+
+what function has the
+property that when you take their
+derivative you get back to it again?)
+
+#
+## Guess and check
+
+$ y(x) = e^x \Rightarrow y' = y$
+!![M](It doesn't take  too long to see
+that there's only one function like that.
+It is Y equals E to the X of course. )
+
+#
+## Guess and check
+$ y(x) = Ae^x \Rightarrow y' = y$
+!![K](
+Then you say to yourself:
+Well I can multiply it  by a constant,
+and I still get a solution to the equation!)
+
+#
+## Guess and check
+$ y(0) = Ae^0 \Rightarrow 1  = A$
+
+$ y(x) = e^x$
+!![K](
+But we've got an initial condition.
+If I plug in X equals zero I should get
+one, but that tells me that the constant is  one.
+So then,  our solution is Y equals E to the X!
+)
+
+#
+## Guess and check
+
+$ y(x) = e^x$
+
+!![M](
+Now you might think that it's kind of cheesy to guess
+and check a solution, but a lot of really
+important mathematics on the cutting
+edge happens by guessing and checking!
+)
+
+# Done
+
+!![K](
+Good!  We've finished our first method. That was easy, wasn't it?
+)

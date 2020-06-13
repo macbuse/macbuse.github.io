@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="greg mc">
+  <title>Differential equations</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="mycss.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://unpkg.com/reveal.js@3.9.2//css/print/pdf.css' : 'https://unpkg.com/reveal.js@3.9.2//css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Differential equations</h1>
+  <p class="author">greg mc</p>
+  <p class="date">June 2020</p>
+</section>
+
+<section id="section" class="slide level1">
+<h1></h1>
+<div style="font-size: 300%">
+<span class="math inline">\(y&#39; = y,\, y(0) = 1\)</span>
+</div>
+<audio  data-autoplay >
+<source src="okay_were_gonna.mp3" >
+</audio>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<div style="font-size: 300%">
+<span class="math inline">\(y&#39; = y,\, y(0) = 1\)</span>
+</div>
+<audio  data-autoplay >
+<source src="this_is_one.mp3" >
+</audio>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<h2 id="guess-and-check">Guess and check</h2>
+<blockquote>
+<p>What function is<br />
+it's own derivative?</p>
+</blockquote>
+<div style="font-size: 600%">
+<span class="math inline">\(y&#39; = y\)</span>
+</div>
+<audio  data-autoplay >
+<source src="our_first_method.mp3" >
+</audio>
+</section>
+<section id="section-3" class="slide level1">
+<h1></h1>
+<h3 id="a-solution-is....">A solution is....</h3>
+<div style="font-size: 400%">
+<span class="math inline">\(y(x)=e^x \Rightarrow y&#39; = y\)</span>
+</div>
+<audio  data-autoplay >
+<source src="it_doesnt_take.mp3" >
+</audio>
+</section>
+<section id="section-4" class="slide level1">
+<h1></h1>
+<h2 id="guess-and-check-1">Guess and check</h2>
+<blockquote>
+<p>Multiplying by a constant<br />
+gives another solution</p>
+</blockquote>
+<div style="font-size: 400%">
+<span class="math inline">\(y(x)=A e^x \Rightarrow y&#39; = y\)</span>
+</div>
+<audio  data-autoplay >
+<source src="then_you_say.mp3" >
+</audio>
+</section>
+<section id="section-5" class="slide level1">
+<h1></h1>
+<h3 id="initial-condition-to-the-rescue">Initial condition to the rescue</h3>
+<div style="font-size: 400%">
+<span class="math inline">\(y(0)=1 \Rightarrow A = 1\)</span>
+</div>
+<div style="font-size: 400%">
+<span class="math inline">\(\Rightarrow y = e^x\)</span>
+</div>
+<audio  data-autoplay >
+<source src="but_weve_got.mp3" >
+</audio>
+</section>
+<section id="section-6" class="slide level1">
+<h1></h1>
+<h2 id="guess-and-check-cheesy">Guess and check = Cheesy?</h2>
+<audio  data-autoplay >
+<source src="now_you_might.mp3" >
+</audio>
+</section>
+<section id="done" class="slide level1">
+<h1>Done</h1>
+<audio  data-autoplay >
+<source src="good_weve_finished.mp3" >
+</audio>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/head.min.js"></script>
+  <script src="https://unpkg.com/reveal.js@3.9.2//js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://unpkg.com/reveal.js@3.9.2//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/zoom-js/zoom.js', async: true },
+              { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
