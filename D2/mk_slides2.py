@@ -74,10 +74,10 @@ class Voices():
         with open('script.json', 'w') as FP:
             json.dump({actor + self.string2fn(lines) : lines for  actor,lines  in txts}, FP)
         print('DONE')
-        
+       
     def __repr__(self):
         return str('\n'.join(self.inventory.keys()))
-        
+       
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         print('usage: mk_slides.py file.md')
@@ -151,8 +151,7 @@ if __name__ == '__main__':
     print(' '.join(pandoc_it))
     subprocess.call(pandoc_it)
 
-    #this has a lot of latency
     print(spoken_text)
-
+    #this has a lot of latency
     if spoken_text != []:
         voices.add(spoken_text)

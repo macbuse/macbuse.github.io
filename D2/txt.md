@@ -52,6 +52,7 @@ just like we found before!  Isn't that great?
 )
 
 #Done 
+!![](sep_var.html)
 !![K](
 So now we've solved this as
 a separable differential equation.
