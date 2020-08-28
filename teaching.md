@@ -9,37 +9,11 @@ title: none
 ### First semester
 
 
-Didn't teach as  I was on sabbatical at Brown University.
-<a href="https://icerm.brown.edu/programs/sp-f19/">Illustrating Math</a>.
+- introduction à LaTeX [materiel](./latexm1.md)
+- introduction à la programmation [materiel](./syllabus.md)
+- MAT103
 
 
-
-Last year I taught **L3B algebra**.
-
-- <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/algL3B2017_corr.pdf">Correction exam 2017</a>
-- <a href='https://www.dropbox.com/sh/qqtdevri7jye1km/AAC6wCMYUYQU-8FzFjbsIRIEa?dl=0'> Corrections for other exams </a>
-
-#### Program
- 
-- Groups
-- Rings
-- Actions of groups
-- The symmetric groups
-- Linear algebra
-
-
-For the last few years years I was teaching M1 Algebra
-<ul>
- <li><a href = "https://www-fourier.ujf-grenoble.fr/~mcshane/ANNALS/corr_2017.pdf" > CORRECTION EXAM</a></li>
-<li><a href = "https://www-fourier.ujf-grenoble.fr/~mcshane/ANNALS/" > Annals of the exam</a></li>
-<li><a href = "https://www-fourier.ujf-grenoble.fr/~mcshane/TD ALGEBRE GRENOBLE/" > Exercise sheets</a></li>
-</ul>
-
-<ul>
-<li>Rings <a href = "./TEXTS/rings.pdf">notes</a></li>
-<li>Fields <a href = "./TEXTS/fields.pdf">notes</a> </li>
-<li>Modules <a href = "./TEXTS/modules.pdf">notes</a></li>
-</ul>
 
 ---
  
