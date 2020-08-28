@@ -10,17 +10,17 @@ Merci à mon ancien collègue Arnaud Bodin.
 
 ## Introduction
 
-LATEX est le format standard utilisé dans le monde de l’édition mathématique. Il existe des distributions libres de LATEX pour toutes les plateformes (voir les références).
+LaTeX est le format standard utilisé dans le monde de l’édition mathématique. Il existe des distributions libres de LaTeX pour toutes les plateformes (voir les références).
 
-Un document au format LATEX est un texte (au format ASCII) contenant des commandes de formatage. Ces commandes servent à structurer le texte (chapitres, sections, etc.) en laissant au compilateur le soin de rendre cette structure au mieux en fonction du format de sortie (texte imprimé, fichier PDF, sortie HTML pour mettre sur un site Web). Elles gèrent aussi l’affichage des symboles mathématiques, la numérotation des chapitres (chapter), sections, sous-sections (section, subsection), les réfèrences (on place un repère nom avec label puis on se réfère à nom avec ```ref``` ou ```pageref```)
+Un document au format LaTeX est un texte (au format ASCII) contenant des commandes de formatage. Ces commandes servent à structurer le texte (chapitres, sections, etc.) en laissant au compilateur le soin de rendre cette structure au mieux en fonction du format de sortie (texte imprimé, fichier PDF, sortie HTML pour mettre sur un site Web). Elles gèrent aussi l’affichage des symboles mathématiques, la numérotation des chapitres (chapter), sections, sous-sections (section, subsection), les réfèrences (on place un repère nom avec label puis on se réfère à nom avec ```ref``` ou ```pageref```)
 
 ``` {."verbatim"}
 \label{toto} puis \ref{toto} ou \pageref{toto}
 ```
 
-ou permettent de créer automatiquement la table des matières (\tableofcontents). Une fois saisi, le texte source LATEX doit être compilé (parfois deux fois de suite pour mettre à jour les références et la table des matières). Le compilateur ne tient pas compte de la mise en page du texte source, le nombre d’espace entre deux mots est ignoré de même que le passage à la ligne. Seuls les sauts de lignes sont interprétés comme signalant un début de paragraphe.
+ou permettent de créer automatiquement la table des matières (\tableofcontents). Une fois saisi, le texte source LaTeX doit être compilé (parfois deux fois de suite pour mettre à jour les références et la table des matières). Le compilateur ne tient pas compte de la mise en page du texte source, le nombre d’espace entre deux mots est ignoré de même que le passage à la ligne. Seuls les sauts de lignes sont interprétés comme signalant un début de paragraphe.
 
-La syntaxe d’une commande de formatage LATEX est :
+La syntaxe d’une commande de formatage LaTeX est :
 
 ``` {."verbatim"}
 \command[option]{argument}
@@ -44,7 +44,7 @@ Le passage à la ligne (changement de paragraphe) se fait en insérant une ligne
 
 ###  Choix de l'éditeur, saisie d'un premier document.
 
-Pour éditer votre texte en LATEX, vous devez utiliser un éditeur comme pour taper le code source d’un programme. 
+Pour éditer votre texte en LaTeX, vous devez utiliser un éditeur comme pour taper le code source d’un programme. 
 Vous pouvez utiliser n’importe quel éditeur si vous en connaissez déjà un, comme par exemple emacs (un éditeur de fichiers sources C/C++, Java, Python, LaTeX, ... très puissant mais qui nécessite un apprentissage...). 
 Sinon, vous pouvez apprendre **TexMaker** (ou Overleaf) qui est un environnement facilitant beaucoup l’apprentissage de LaTeX avec des raccourcis clavier compatibles Windows et des assistants et barres d’icones pour saisir les symboles mathématiques,
 
@@ -149,7 +149,7 @@ Pour imprimer (attention ne le faites pas maintenant!), vous cliquerez dans TexM
 dvips essai
 
 
-### Créer des fichiers PDF et HTML à partir d’un source LATEX
+### Créer des fichiers PDF et HTML à partir d’un source LaTeX
 Si vous utilisez la commande pdflatex à la place de la commande latex, le compilateur génére un fichier .pdf au format PDF (que l’on peut lire avec Acrobrat Reader ou sous Unix avec gv ou evince). On peut aussi convertir un fichier DVI en fichier PDF par la commande dvipdf.
 
 Pour obtenir une sortie HTML, utilisez latex2html (disponible sur certains systèmes seulement) ou pandoc.
@@ -160,7 +160,7 @@ pandoc fichier.tex -f latex -t html -o fichier.html
 
 
 
-## Les environnements LATEX
+## Les environnements LaTeX
 Dans TexMaker, les commandes correspondantes se trouvent dans le menu LaTeX.
 
 C’est une partie du document délimitée par:
@@ -179,7 +179,12 @@ La différence est que enumerate numérote les items
 Dans TexMaker, les commandes correspondantes se trouvent dans le menu
 
 ### Le mode mathématique
-Dans le corps d’un texte, les formules mathématiques sont délimitées par un dollar, alors que les formules devant apparaître sur une ligne séparée sont délimitées par deux dollars. On tape par exemple :
+Dans le corps d’un texte, les formules mathématiques sont délimitées par un dollar, alors que les formules devant apparaître sur une ligne séparée sont délimitées par deux dollars. 
+Pour tester les expressions sans compiler, le site
+[codecogs](https://www.codecogs.com/latex/eqneditor.php) est très utile.
+
+
+On tape par exemple :
 
 ``` {."verbatim"}
 $x^2+y^2=0  et  x+y=0$
@@ -189,7 +194,8 @@ on obtient :
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=x^2&plus;y^2=0&space;et&space;x&plus;y=0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x^2&plus;y^2=0&space;et&space;x&plus;y=0" title="x^2+y^2=0 et x+y=0" /></a>
 
-alors que si on tape :
+
+Alors que si on tape :
 
 ``` {."verbatim"}
 $x^2+y^2=0 \text{ et } x+y=0$
@@ -215,8 +221,6 @@ ce qui donne :\
 
 ![tt](./numbered.png)
 
-Pour tester les expressions sans compiler, le site
-[codecogs](https://www.codecogs.com/latex/eqneditor.php) est très utile.
 
 
 
@@ -436,7 +440,7 @@ Depuis texmaker, revenir au fichier tex, puis avant-dernier menu de la barre d�
 `latex essai`
 
 Espaces, ponctuation, césure.
-La philosophie de LATEX est de laisser le compilateur gérer les espaces, cependant il peut se produire qu’il soit nécessaire d’en ajouter. Les commandes \, \ \quad \qquad permettent d’ajouter un espacement horizontal de taille de plus en plus grande. On peut aussi utiliser \hspace{0.3cm} où l’argument est une longueur (avec une unité) pour un espacement horizontal, \vspace{0.2cm} pour un espacement vertical.
+La philosophie de LaTeX est de laisser le compilateur gérer les espaces, cependant il peut se produire qu’il soit nécessaire d’en ajouter. Les commandes \, \ \quad \qquad permettent d’ajouter un espacement horizontal de taille de plus en plus grande. On peut aussi utiliser \hspace{0.3cm} où l’argument est une longueur (avec une unité) pour un espacement horizontal, \vspace{0.2cm} pour un espacement vertical.
 
 L’espacement en début de paragraphe peut être omis par la commande \noindent.
 
@@ -444,11 +448,11 @@ La commande \\ force un saut de ligne, la commande \pagebreak force un saut de p
 
 Les règles de ponctuation en français imposent de mettre toujours un espace après le signe de ponctuation, et d’en mettre un avant si le signe de ponctuation possède deux composantes connexes. Dans ce cas on utilise un espace insécable ~ pour éviter que le signe de ponctuation se trouve tout seul sur une ligne.
 
-En principe, LATEX sait où couper dans un mot pour passer à la ligne, mais il peut être nécessaire de l’aider, en particulier si le mot contient des accents, on ajoute alors des \- pour séparer les syllabes du mot.
+En principe, LaTeX sait où couper dans un mot pour passer à la ligne, mais il peut être nécessaire de l’aider, en particulier si le mot contient des accents, on ajoute alors des \- pour séparer les syllabes du mot.
 
 
 ##  Insérer un graphique
-On peut insérer une image au format EPS/png/jpg/pdf (encapsulated postscript) dans un source LATEX de la manière suivante :
+On peut insérer une image au format EPS/png/jpg/pdf (encapsulated postscript) dans un source LaTeX de la manière suivante :
 
 
 ``` {."verbatim"}
@@ -481,12 +485,12 @@ Pour créer des transparents, on utilise fréquemment la classe de document beam
 [ce site.](http://www.tuteurs.ens.fr/logiciels/latex/beamer.html)
 
 ## Interaction avec des logiciels de calcul.
-De nombreux logiciels de calcul scientifique permettent d’interagir avec LATEX, on donne deux exemples dans cette section.
+De nombreux logiciels de calcul scientifique permettent d’interagir avec LaTeX, on donne deux exemples dans cette section.
 
 ### giac/xcas
-Depuis Xcas, vous pouvez copier dans le presse-papier la traduction LATEX d’une expression ou sous-expression en la sélectionnant et en utilisant le raccourci Ctrl-T. On peut aussi générer facilement un graphique insérable dans un fichier LATEX(menu M à droite du graphique, puis Exporter).
+Depuis Xcas, vous pouvez copier dans le presse-papier la traduction LaTeX d’une expression ou sous-expression en la sélectionnant et en utilisant le raccourci Ctrl-T. On peut aussi générer facilement un graphique insérable dans un fichier LaTeX(menu M à droite du graphique, puis Exporter).
 
-Vous pouvez compiler avec hevea un fichier source LATEX contenant des commandes de calcul en un document HTML5 interactif permettant au lecteur de modifier et/ou exécuter les commandes de calcul depuis le navigateur avec lequel il consulte le document, pour plus de détails, cf.
+Vous pouvez compiler avec hevea un fichier source LaTeX contenant des commandes de calcul en un document HTML5 interactif permettant au lecteur de modifier et/ou exécuter les commandes de calcul depuis le navigateur avec lequel il consulte le document, pour plus de détails, cf.
 
 `http://www-fourier.ujf-grenoble.fr/~parisse/giac/test_fr.tex`
 `http://www-fourier.ujf-grenoble.fr/~parisse/giac/castex.html`
@@ -499,25 +503,24 @@ La compilation s=E2=80=99effectue alors depuis un terminal en tapant la
 commande\
 `giac nomfichier`
 
-Enfin pgiac est un programme qui permet de faire calculer automatiquement par Giac (le moteur de calcul formel de Xcas) certaines expressions d’un fichier source au format LATEX. Voir le site de 
+Enfin pgiac est un programme qui permet de faire calculer automatiquement par Giac (le moteur de calcul formel de Xcas) certaines expressions d’un fichier source au format LaTeX. Voir le site de 
 [J.Michel Sarlat](http://melusine.eu.org/syracuse/giac/)
 pour des exemples
 
 ### texmacs
 
-texmacs est un programme permettant de saisir des documents mathématiques avec une interface similaire à celle des logiciels de traitement de texte usuels tout en conservant une qualité typographique comparable à LATEX. Il permet d’importer et d’exporter au format LATEX. Il possède également une interface pour lancer certains logiciel de calcul (Menu Inserer, sous-menu session). Pour lancer texmacs sous Unix, tapez la commande :
+texmacs est un programme permettant de saisir des documents mathématiques avec une interface similaire à celle des logiciels de traitement de texte usuels tout en conservant une qualité typographique comparable à LaTeX. Il permet d’importer et d’exporter au format LaTeX. Il possède également une interface pour lancer certains logiciel de calcul (Menu Inserer, sous-menu session). Pour lancer texmacs sous Unix, tapez la commande :
 'texmacs &'
 
 ##  Pour aller plus loin
 
 -   Exemples de distribution LaTeX
-    - Windows: miktex `http://miktex.org/`
-    - Mac: `http://www.tug.org/mactex/`
+    - Windows: [miktex](http://miktex.org/)
+    - Mac: [mactex](http://www.tug.org/mactex/)
     - Linux: rechercher latex sur votre gestionnaire de paquets et sélectionner par exemple [texlive](https://www.tug.org/texlive/).
 -   Le site de Texmaker: `www.xm1math.net/texmaker/index_fr.html`
--   `http://fr.wikibooks.org/wiki/Programmation_LaTeX`
+-   [Programmation LaTeX](http://fr.wikibooks.org/wiki/Programmation_LaTeX)
 -   `http://www.tuteurs.ens.fr/logiciels/latex/`
--   Le LATEX navigator : `http://tex.loria.fr/index.html`
 -   le groupe AmiTeX `http://fr.groups.yahoo.com/group/AmiTeX/`
 -   [pandoc](https://pandoc.org/demos.html) convertisseur TeX/html/md/pdf
 -   [Le site de texmacs](https://www.texmacs.org)
@@ -525,12 +528,22 @@ texmacs est un programme permettant de saisir des documents mathématiques avec 
 
 ## Mathjax
 
-MathJax est une bibliothèque logicielle JavaScript cross-browser qui affiche les formules mathématiques dans des navigateurs web, en utilisant les balises de AsciiMath (en), LaTeX ou de MathML1. 
-Le projet MathJax a débuté en 2009 comme successeur de jsMath qui est une bibliothèque de formatage des mathématiques2. 
+MathJax est une bibliothèque logicielle JavaScript cross-browser qui affiche les formules mathématiques dans des navigateurs web, en utilisant les balises de AsciiMath (en), LaTeX ou de MathML. 
+Le projet MathJax a débuté en 2009 comme successeur de jsMath qui est une bibliothèque de formatage des mathématiques. 
 Il est subventionné par l'American Mathematical Society, Design Science (en) et la Society for Industrial and Applied Mathematics ; le projet est soutenu par des « partenaires » : Stack Exchange Network et American Institute of Physics et des « soutiens », parmi lesquels la American Physical Society, Elsevier, IEEE, la London Mathematical Society, la Optical Society et le Projet Euclide.
 
 MathJax est utilisé par des sites web MathSciNet, MathOverflow, les journaux du projet Euclide, Scholarpedia, et le portail mathématique russe Общероссийский математический портал5. En revanche, Wikipédia a abandonné son usage.
 
+## Markdown
+
+Markdown est un langage de balisage léger créé en 2004.
+Son but est d'offrir une syntaxe facile à lire et à écrire. Un document balisé par Markdown peut être lu en l'état sans donner l’impression d'avoir été balisé ou formaté par des instructions particulières.
+
+Un document balisé par Markdown peut être converti 
+avec **pandoc** en HTML, 
+LaTex, en PDF ou en d'autres formats. Bien que la syntaxe Markdown ait été influencée par plusieurs filtres de conversion de texte existants vers HTML — dont Setext3, atx4, Textile, reStructuredText, Grutatext5 et EtText6 —, la source d’inspiration principale est le format du courrier électronique en mode texte.
+
+Ce document est écrit en **Markdown**.
 
 ## Pandoc
 
