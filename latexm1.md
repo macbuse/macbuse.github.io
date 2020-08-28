@@ -45,12 +45,23 @@ Le passage à la ligne (changement de paragraphe) se fait en insérant une ligne
 ###  Choix de l'éditeur, saisie d'un premier document.
 
 Pour éditer votre texte en LATEX, vous devez utiliser un éditeur comme pour taper le code source d’un programme. Vous pouvez utiliser n’importe quel éditeur si vous en connaissez déjà un, comme par exemple emacs (un éditeur de fichiers sources C/C++, Java, Python, LaTeX, ... très puissant mais qui nécessite un apprentissage...). Sinon, vous pouvez apprendre TexMaker qui est un environnement facilitant beaucoup l’apprentissage de LaTeX avec des raccourcis clavier compatibles Windows et des assistants et barres d’icones pour saisir les symboles mathématiques,
+#### Overleaf
+
+[overleaf](https://www.overleaf.com/) est un éditeur LaTeX en ligne,
+collaboratif en temps réel. Il est payant mais gratuit si l'on travaille seul (sans collaborateur).
+
+L'interface est intuitive : on tape dans la fenêtre de gauche et la version
+compilée s'affiche à droite :
+
+![img](./Overleaf_v2_editing_page.jpg)
 
 #### TexMaker
 
 Recherchez Texmaker dans les programmes (menu Bureau, pour l’installer sur votre ordinateur, voir les liens en fin de document) ou ouvrez un terminal (menu Accessoires) et tapez la commande texmaker &
 (Si vous avez oublié le &, tapez Ctrl-Z puis bg). Cliquez sur Nouveau puis sur Assistant dans la barre d’icones, sélectionnez utf8 au lieu de latin1 comme encodage. Ajouter ensuite la partie du texte ci-dessous entre
 `\begin{document}` et `\end{document}`.
+
+![img](./texmaker_top_bg.png)
 
 #### Editeur classique.
 
@@ -103,6 +114,10 @@ On a vu (section \ref{sec:tradu}) ...  % une r=C3=A9f=C3=A9rence au label
 
 Pour traduire les différentes commandes de votre texte, il faut le compiler.
 
+#### Overleaf
+
+A priori il y a rien à faire 
+mais pour le forcer cliquer sur le bouton marqué **recompile**.
 
 #### Texmaker 
 
@@ -132,10 +147,15 @@ dvips essai
 ### Créer des fichiers PDF et HTML à partir d’un source LATEX
 Si vous utilisez la commande pdflatex à la place de la commande latex, le compilateur génére un fichier .pdf au format PDF (que l’on peut lire avec Acrobrat Reader ou sous Unix avec gv ou evince). On peut aussi convertir un fichier DVI en fichier PDF par la commande dvipdf.
 
-Pour obtenir une sortie HTML, utilisez la commande hevea ou latex2html (disponible sur certains systèmes seulement).
+Pour obtenir une sortie HTML, utilisez latex2html (disponible sur certains systèmes seulement) ou pandoc.
+
+```
+pandoc fichier.tex -f latex -t html -o fichier.html
+```
 
 
-Les environnements LATEX
+
+## Les environnements LATEX
 Dans TexMaker, les commandes correspondantes se trouvent dans le menu LaTeX.
 
 C’est une partie du document délimitée par:
@@ -150,7 +170,7 @@ La différence est que enumerate numérote les items
 -   `\begin{tabular}{|l|c|r|r|}` ... &lt;= code&gt;\\end{tabular} :crée un tableau. Le nombre d’arguments (ici 4) indique le nombre de colonnes. Ces arguments définissent l’alignement l (left),c (center), r (right). On tape les lignes du tableau en séparant les colonnes par &. Chaque ligne est terminée par la commande \\ . Si on écrit la commande \hline après une fin de ligne, cela affichera un trait de séparation horizontal, Pour les traits de séparation verticaux, utiliser | dans l’argument.
 -  “Exception”: pour mettre une partie de texte en italique, on écrit `{\textit ... }`, en gras `{\bf ...}`.
 
-## L’environnement mathématique
+### L’environnement mathématique
 Dans TexMaker, les commandes correspondantes se trouvent dans le menu
 
 ### Le mode mathématique
@@ -514,4 +534,5 @@ Il permet de convertir des documents en Markdown, reStructuredText, Textile, HTM
 
 Pandoc est considéré comme le « couteau-suisse de l'édition » tant il permet de passer facilement d'un format à un autre3. Il est utilisé dans beaucoup d'applications, allant de Zettlr [archive] à Stylo [archive] en passant par des éditeurs de texte ou des chaînes de publication.
 
+Il existe une version en ligne 
 [essai](https://pandoc.org/try/?text=%23+hello+world%0A%0A%24x%5E2++%2B+y%5E2%24%0A%0A&from=markdown&to=latex&standalone=1)
