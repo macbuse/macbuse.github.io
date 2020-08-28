@@ -505,3 +505,13 @@ Le projet MathJax a débuté en 2009 comme successeur de jsMath qui est une bibl
 Il est subventionné par l'American Mathematical Society, Design Science (en) et la Society for Industrial and Applied Mathematics ; le projet est soutenu par des « partenaires » : Stack Exchange Network et American Institute of Physics et des « soutiens », parmi lesquels la American Physical Society, Elsevier, IEEE, la London Mathematical Society, la Optical Society et le Projet Euclide.
 
 MathJax est utilisé par des sites web MathSciNet, MathOverflow, les journaux du projet Euclide, Scholarpedia, et le portail mathématique russe Общероссийский математический портал5. En revanche, Wikipédia a abandonné son usage.
+
+
+## Pandoc
+
+Pandoc est un logiciel libre de conversion de documents numériques en ligne de commande.
+Il permet de convertir des documents en Markdown, reStructuredText, Textile, HTML, DocBook, LaTeX, syntaxe MediaWiki, syntaxe TWiki, OPML, Org-mode, Txt2tags, Microsoft Word docx, LibreOffice ODT, EPUB ou Haddock markup vers des formats HTML, Microsoft Word, PDF.
+
+Pandoc est considéré comme le « couteau-suisse de l'édition » tant il permet de passer facilement d'un format à un autre3. Il est utilisé dans beaucoup d'applications, allant de Zettlr [archive] à Stylo [archive] en passant par des éditeurs de texte ou des chaînes de publication.
+
+[essai](https://pandoc.org/try/?text=%23+hello+world%0A%0A%24x%5E2++%2B+y%5E2%24%0A%0A&from=markdown&to=latex&standalone=1)
