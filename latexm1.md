@@ -44,7 +44,10 @@ Le passage à la ligne (changement de paragraphe) se fait en insérant une ligne
 
 ###  Choix de l'éditeur, saisie d'un premier document.
 
-Pour éditer votre texte en LATEX, vous devez utiliser un éditeur comme pour taper le code source d’un programme. Vous pouvez utiliser n’importe quel éditeur si vous en connaissez déjà un, comme par exemple emacs (un éditeur de fichiers sources C/C++, Java, Python, LaTeX, ... très puissant mais qui nécessite un apprentissage...). Sinon, vous pouvez apprendre TexMaker qui est un environnement facilitant beaucoup l’apprentissage de LaTeX avec des raccourcis clavier compatibles Windows et des assistants et barres d’icones pour saisir les symboles mathématiques,
+Pour éditer votre texte en LATEX, vous devez utiliser un éditeur comme pour taper le code source d’un programme. 
+Vous pouvez utiliser n’importe quel éditeur si vous en connaissez déjà un, comme par exemple emacs (un éditeur de fichiers sources C/C++, Java, Python, LaTeX, ... très puissant mais qui nécessite un apprentissage...). 
+Sinon, vous pouvez apprendre **TexMaker** (ou Overleaf) qui est un environnement facilitant beaucoup l’apprentissage de LaTeX avec des raccourcis clavier compatibles Windows et des assistants et barres d’icones pour saisir les symboles mathématiques,
+
 #### Overleaf
 
 [overleaf](https://www.overleaf.com/) est un éditeur LaTeX en ligne,
@@ -55,9 +58,11 @@ compilée s'affiche à droite :
 
 ![img](./Overleaf_v2_editing_page.jpg)
 
+Overleaf resemble beaucoup à....
+
 #### TexMaker
 
-Recherchez Texmaker dans les programmes (menu Bureau, pour l’installer sur votre ordinateur, voir les liens en fin de document) ou ouvrez un terminal (menu Accessoires) et tapez la commande texmaker &
+Recherchez Texmaker sur un poste dans la salle Carism dans les programmes (menu Bureau, pour l’installer sur votre ordinateur, voir les liens en fin de document) ou ouvrez un terminal (menu Accessoires) et tapez la commande texmaker &
 (Si vous avez oublié le &, tapez Ctrl-Z puis bg). Cliquez sur Nouveau puis sur Assistant dans la barre d’icones, sélectionnez utf8 au lieu de latin1 comme encodage. Ajouter ensuite la partie du texte ci-dessous entre
 `\begin{document}` et `\end{document}`.
 
