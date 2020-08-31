@@ -469,7 +469,18 @@ Il faut avoir déclaré en tête
 ``` {."verbatim"}
 \usepackage{graphicx}
 ```
+### Figures
 
+Normalement les graphiques sont imbriquées dans 
+l'environement `figure` : 
+```
+\begin{figure}[!t]
+\centering
+\includegraphics{Tux.png}
+\caption{Tux, le pingouin}
+\label{Tux}
+\end{figure}
+```
 ## Hyperref
 
 Le package hyperref offre à LaTeX la possibilité de créer des hyperliens dans le document. Il fonctionne avec pdflatex et aussi avec le "latex" standard utilisé avec dvips et ghostscript ou dvipdfm pour construire un fichier PDF. Si vous le chargez, vous aurez la possibilité d'inclure des liens externes interactifs et toutes vos références internes seront transformées en hyperliens. Le compilateur pdflatex permet de créer des fichiers PDF directement à partir de la source LaTeX, et PDF prend en charge plus de fonctionnalités que DVI. En particulier, PDF prend en charge les hyperliens. De plus, le PDF peut contenir d'autres informations sur un document telles que le titre, l'auteur, etc., qui peuvent être éditées à l'aide de ce même package.
@@ -506,7 +517,7 @@ Sous linux, vous pouvez générer les deux formats de sortie PDF et HTML5 intera
 (juste après `\begin{document}`) `\begin{giacjsonline}` et (juste avant
 `\end{document}) \end{giacjsonline}`, puis taper des commandes telles
 que `\giacinputbigmath{factor(x^10-1)}` ou `\giacinput{plot(sin(x))}`.
-La compilation s=E2=80=99effectue alors depuis un terminal en tapant la
+La compilation s'effectue alors depuis un terminal en tapant la
 commande\
 `giac nomfichier`
 
