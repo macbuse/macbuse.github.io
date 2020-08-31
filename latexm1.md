@@ -70,8 +70,7 @@ Recherchez Texmaker sur un poste dans la salle Carism dans les programmes (menu 
 
 #### Editeur classique.
 
-Téléchargez le document
-www-fourier.ujf-grenoble.fr/~parisse/info/essai.tex
+Téléchargez le [document](www-fourier.ujf-grenoble.fr/~parisse/info/essai.tex)
 Ouvrez un terminal, puis éditez le document dans le terminal, par exemple avec Emacs  :
 emacs essai.tex &
 (Si vous avez oublié le &, tapez Ctrl-Z puis bg). Vous pouvez aussi créer un nouveau document à partir d’un fichier vide et taper les lignes suivantes (sans les commentaires qui commencent par %).
@@ -487,13 +486,21 @@ Pour créer des transparents, on utilise fréquemment la classe de document beam
 ## Interaction avec des logiciels de calcul.
 De nombreux logiciels de calcul scientifique permettent d’interagir avec LaTeX, on donne deux exemples dans cette section.
 
+### WolframAlpha 
+
+WolframAlpha est un outil de calcul en langage naturel développé par la société internationale Wolfram Research. Il s'agit d'un service internet qui répond directement à la saisie de questions factuelles en anglais par le calcul de la réponse à partir d'une base de données, au lieu de procurer une liste de documents ou de pages web pouvant contenir la réponse. 
+
+En 2010 Wolfram a ajouté la possibilité de comprendre la notation TeX et de la convertir sous la forme Mathematica utilisée par le moteur Wolfram | Alpha.
+Pour savoir plus lire
+[l'article](https://blog.wolframalpha.com/2010/09/30/talk-to-wolframalpha-in-tex/)
+
 ### giac/xcas
 Depuis Xcas, vous pouvez copier dans le presse-papier la traduction LaTeX d’une expression ou sous-expression en la sélectionnant et en utilisant le raccourci Ctrl-T. On peut aussi générer facilement un graphique insérable dans un fichier LaTeX(menu M à droite du graphique, puis Exporter).
 
 Vous pouvez compiler avec hevea un fichier source LaTeX contenant des commandes de calcul en un document HTML5 interactif permettant au lecteur de modifier et/ou exécuter les commandes de calcul depuis le navigateur avec lequel il consulte le document, pour plus de détails, cf.
 
-`http://www-fourier.ujf-grenoble.fr/~parisse/giac/test_fr.tex`
-`http://www-fourier.ujf-grenoble.fr/~parisse/giac/castex.html`
+- [giac](http://www-fourier.ujf-grenoble.fr/~parisse/giac/test.tex)
+- [giac castex](http://www-fourier.ujf-grenoble.fr/~parisse/giac/castex.html)
 
 Sous linux, vous pouvez générer les deux formats de sortie PDF et HTML5 interactif en utilisant la commande icas ou giac au lieu de pdflatex. Il suffit de créer un document latex normal, y ajouter 
 (juste après `\begin{document}`) `\begin{giacjsonline}` et (juste avant
@@ -514,16 +521,18 @@ texmacs est un programme permettant de saisir des documents mathématiques avec 
 
 ##  Pour aller plus loin
 
--   Exemples de distribution LaTeX
+- Les [forums](https://tex.stackexchange.com/)
+- Le groupe [AmiTeX](http://fr.groups.yahoo.com/group/AmiTeX/)
+- LaTex à [l'ENS](http://www.tuteurs.ens.fr/logiciels/latex/)
+- Distributions LaTeX
+-   Wikibook [Programmation LaTeX](http://fr.wikibooks.org/wiki/Programmation_LaTeX)
     - Windows: [miktex](http://miktex.org/)
     - Mac: [mactex](http://www.tug.org/mactex/)
     - Linux: rechercher latex sur votre gestionnaire de paquets et sélectionner par exemple [texlive](https://www.tug.org/texlive/).
+- Le site de [overleaf](https://www.overleaf.com/learn/latex/Main_Page)
 -   Le site de Texmaker: `www.xm1math.net/texmaker/index_fr.html`
--   [Programmation LaTeX](http://fr.wikibooks.org/wiki/Programmation_LaTeX)
--   `http://www.tuteurs.ens.fr/logiciels/latex/`
--   le groupe AmiTeX `http://fr.groups.yahoo.com/group/AmiTeX/`
--   [pandoc](https://pandoc.org/demos.html) convertisseur TeX/html/md/pdf
 -   [Le site de texmacs](https://www.texmacs.org)
+-   [pandoc](https://pandoc.org/demos.html) convertisseur TeX/html/md/pdf
 
 
 ## Mathjax
@@ -541,7 +550,7 @@ Son but est d'offrir une syntaxe facile à lire et à écrire. Un document balis
 
 Un document balisé par Markdown peut être converti 
 avec **pandoc** en HTML, 
-LaTex, en PDF ou en d'autres formats. Bien que la syntaxe Markdown ait été influencée par plusieurs filtres de conversion de texte existants vers HTML — dont Setext3, atx4, Textile, reStructuredText, Grutatext5 et EtText6 —, la source d’inspiration principale est le format du courrier électronique en mode texte.
+`LaTex`, en PDF ou en d'autres formats. Bien que la syntaxe Markdown ait été influencée par plusieurs filtres de conversion de texte existants vers HTML — dont Setext3, atx4, Textile, reStructuredText, Grutatext5 et EtText6 —, la source d’inspiration principale est le format du courrier électronique en mode texte.
 
 Ce document est écrit en **Markdown**.
 
