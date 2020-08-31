@@ -540,6 +540,7 @@ texmacs est un programme permettant de saisir des documents mathématiques avec 
 - LaTex à [l'ENS](http://www.tuteurs.ens.fr/logiciels/latex/)
 - Distributions LaTeX
 -   Wikibook [Programmation LaTeX](http://fr.wikibooks.org/wiki/Programmation_LaTeX)
+- Plateformes
     - Windows: [miktex](http://miktex.org/)
     - Mac: [mactex](http://www.tug.org/mactex/)
     - Linux: rechercher latex sur votre gestionnaire de paquets et sélectionner par exemple [texlive](https://www.tug.org/texlive/).
