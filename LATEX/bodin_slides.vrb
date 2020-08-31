@@ -1,0 +1,47 @@
+
+\begin{center}
+\hspace*{-1cm}
+\begin{tabular}{cc@{\vrule depth 1.2ex height 2ex width 0mm \ }}
+\mylatex{$f : E \to F$} & \myverb|f : E \to F|  \\
+\mylatex{$+\infty$} & \myverb|+\infty| \\
+\mylatex{$a \le 0$} & \myverb|a \le 0| \\
+\mylatex{$a > 0$} & \myverb|a > 0|  \\
+\mylatex{$a \ge 1$} & \myverb|a \ge 1| \\
+\mylatex{$\delta$} & \myverb|\delta| \\
+\mylatex{$\Delta$} & \myverb|\Delta| \\
+\end{tabular}
+\pause\hspace*{1cm}
+\begin{tabular}{cc@{\vrule depth 1.2ex height 2ex width 0mm \ }}
+\mylatex{$a \in E$} & \myverb|a \in E| \\
+\mylatex{$A \subset E$} & \myverb|A \subset E| \\
+\mylatex{$P \implies Q$} & \myverb|P \implies Q| \\
+\mylatex{$P \iff Q$} & \myverb|P \iff Q| \\
+\mylatex{$\forall$} & \myverb|\forall| \\
+\mylatex{$\exists$} & \myverb|\exists| \\
+\mylatex{$\cup$} & \myverb|\cup| \\
+\mylatex{$\cap$} & \myverb|\cap|  \\
+\end{tabular}\hspace*{-1cm}
+\end{center}
+
+
+\pause
+
+
+
+\begin{itemize}
+  \item \mytext{définir} \myverb|\Rr| \mytext{qui exécutera}
+\myverb|\mathbb{R}| \mytext{et affichera donc} \mylatex{$\Rr$}
+
+\hfil \myverb|\newcommand{\Rr}{\mathbb{R}}|
+
+
+
+\pause
+
+   \item \mytext{pour une commande} \myverb|\monintegrale| \mytext{qui affiche} \mylatex{$\int_0^{+\infty} \frac{\sin t}{t} dt$}
+
+\hspace*{-2cm} \myverb|\newcommand{\monintegrale}{\int_0^{+\infty} \frac{\sin t}{t} dt}|
+
+
+\end{itemize}
+

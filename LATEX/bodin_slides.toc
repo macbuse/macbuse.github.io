@@ -1,0 +1,4 @@
+\babel@toc {french}{}
+\beamer@sectionintoc {1}{Les bases}{2}{0}{1}
+\beamer@sectionintoc {2}{Premi\IeC {\`e}res commandes}{11}{0}{2}
+\beamer@sectionintoc {3}{D'autres commandes}{16}{0}{3}

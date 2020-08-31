@@ -8,6 +8,9 @@ Si vous avez le temps regardez la vidéo avant de lire le texte
 
 Merci à mon ancien collègue Arnaud Bodin.
 
+- [slides en pdf](./bodin_slides.pdf)
+- [slides en .tex](./bodin_slides.tex)
+
 ## Introduction
 
 LaTeX est le format standard utilisé dans le monde de l’édition mathématique. Il existe des distributions libres de LaTeX pour toutes les plateformes (voir les références).
