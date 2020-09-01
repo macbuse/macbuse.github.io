@@ -555,7 +555,11 @@ texmacs est un programme permettant de saisir des documents mathématiques avec 
 - [Le site de Overleaf](https://www.overleaf.com/learn/latex/Main_Page)
 -   [Le site de Texmaker ](www.xm1math.net/texmaker/index_fr.html)
 -   [Le site de texmacs](https://www.texmacs.org)
+
+### Other stuff
+
 -   [pandoc](https://pandoc.org/demos.html) convertisseur TeX/html/md/pdf
+-   [Inkscape](https://inkscape.org/) logiciel libre de dessins.
 
 ---
 ---
