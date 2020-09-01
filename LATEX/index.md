@@ -535,20 +535,30 @@ texmacs est un programme permettant de saisir des documents mathématiques avec 
 
 ##  Pour aller plus loin
 
+
+### Forums, docs
+
 - Les [forums](https://tex.stackexchange.com/)
 - Le groupe [AmiTeX](http://fr.groups.yahoo.com/group/AmiTeX/)
 - LaTex à [l'ENS](http://www.tuteurs.ens.fr/logiciels/latex/)
-- Distributions LaTeX
 -   Wikibook [Programmation LaTeX](http://fr.wikibooks.org/wiki/Programmation_LaTeX)
-- Plateformes
-    - Windows: [miktex](http://miktex.org/)
-    - Mac: [mactex](http://www.tug.org/mactex/)
-    - Linux: rechercher latex sur votre gestionnaire de paquets et sélectionner par exemple [texlive](https://www.tug.org/texlive/).
+
+
+### Distributions LaTeX pour  
+
+- Windows: [miktex](http://miktex.org/)
+- Mac: [mactex](http://www.tug.org/mactex/)
+- Linux: rechercher latex sur votre gestionnaire de paquets et sélectionner par exemple [texlive](https://www.tug.org/texlive/).
+
+### Environements
+
 - [Le site de Overleaf](https://www.overleaf.com/learn/latex/Main_Page)
 -   [Le site de Texmaker ](www.xm1math.net/texmaker/index_fr.html)
 -   [Le site de texmacs](https://www.texmacs.org)
 -   [pandoc](https://pandoc.org/demos.html) convertisseur TeX/html/md/pdf
 
+---
+---
 
 ## Mathjax
 
