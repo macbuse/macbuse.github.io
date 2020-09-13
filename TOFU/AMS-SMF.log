@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.5.1)  13 SEP 2020 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.5.1)  13 SEP 2020 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -354,7 +354,7 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 Here is how much of TeX's memory you used:
  4417 strings out of 494491
  58296 string characters out of 6175171
- 129478 words of memory out of 5000000
+ 130478 words of memory out of 5000000
  7990 multiletter control sequences out of 15000+600000
  15090 words of font info for 44 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -369,7 +369,7 @@ ne/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/gr
 egmcshane/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AMS-SMF.pdf (3 pages, 87233 bytes).
+Output written on AMS-SMF.pdf (3 pages, 87258 bytes).
 PDF statistics:
  269 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
