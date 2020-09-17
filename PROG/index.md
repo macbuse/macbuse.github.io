@@ -91,7 +91,8 @@ physics](https://cds.cern.ch/record/2687389/files/CERN_SUM_PJ_report_Yixin.pdf)
 
 ## Further reading
 
-Read about [Markdown](https://daringfireball.net/projects/markdown/syntax)
+Read about [Markdown](https://daringfireball.net/projects/markdown/syntax) and
+[in french](https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6hikjzymd0c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
