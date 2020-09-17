@@ -45,14 +45,17 @@ c'est bien.
 
 ## Getting started
 
+[JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) 
+- is a web-based interactive development environment for Jupyter notebooks, code, and data. 
+- is flexible: configure and arrange the user interface to support a wide range of workflows in data science, scientific computing, and machine learning. 
+- is a javascript **front end** running in my browser that interfaces with different **kernels**.
+
 I use Linux/OS X and usually start JuPyteR from a terminal
 
 ``` jupyter lab```
 
 Lab is a version of JuPyteR scheduled to replace ```jupyter notebooks```
 but there are still some bugs (in particular when using interactive widgets).
-
-JupyterLab is a web-based interactive development environment for Jupyter notebooks, code, and data. JupyterLab is flexible: configure and arrange the user interface to support a wide range of workflows in data science, scientific computing, and machine learning. JupyterLab is a javascript **front end** running in my browser that interfaces with different **kernels**.
 
 When I run ``` jupyter lab``` this appears in the navigator:
 
