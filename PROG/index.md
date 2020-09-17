@@ -2,11 +2,12 @@
 
 I have COVID till 25/9 so the first class will be just preparation for what we
 will do then.
-I won't be using the Moodle page much 
+I won't be using the Moodle page so much 
 as it is not easy to update unlike GitHub.
 
-Please watch the videos there will not be so much reading but there will be a lot of watching. 
+Please watch the videos. 
 You can learn a lot from them.
+There will not be so much reading but there will be a lot of watching. 
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
 I suppose you know how to ask Google to translate this page in french.
