@@ -79,9 +79,11 @@ You can change the cell type from the menu:
 
 ## Notebooks 
 
-Lots of people use notebooks.
+You should read this 
+ [tutorial for biomaths](https://python.sdv.univ-paris-diderot.fr/18_jupyter/)
+ to get an idea of how it works.
 
-- [tutorial for biomaths](https://python.sdv.univ-paris-diderot.fr/18_jupyter/)
+Lots of people use notebooks for swapping and explaining results : 
 - [data
 science](https://www.ionos.fr/digitalguide/sites-internet/developpement-web/jupyter-notebook/)
 - [gravitational
@@ -90,14 +92,31 @@ waves](https://blog.jupyter.org/congratulations-to-the-ligo-and-virgo-collaborat
 physics](https://cds.cern.ch/record/2687389/files/CERN_SUM_PJ_report_Yixin.pdf)
 
 
+
 ## Further reading
 
-Read about [Markdown](https://daringfireball.net/projects/markdown/syntax) and
+### Python Idioms
+
+Watch the first part about collections and functions.
+
+[slides](https://files.speakerdeck.com/presentations/c56b00e084950130ac8e22000a1c4bc5/BeautifulCode.pdf)
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/anrOzOapJ2E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Markdown
+
+Read about Markdown [in english](https://daringfireball.net/projects/markdown/syntax) and
 [in french](https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6hikjzymd0c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
+### Matplotlib 
 Watch some videos about [Matplotlib](https://matplotlib.org/)
+we'll be using this a lot for visualisation.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O_OeWxpnUc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
