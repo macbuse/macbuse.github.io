@@ -1,9 +1,14 @@
 # Introduction
 
+I suppose you know how to ask Google to translate this page in french - I have
+an qwerty keyboard and accents are impossible.
+
 I have COVID till 25/9 so the first class will be just preparation for what we
 will do then.
 I won't be using the Moodle page so much 
 as it is not easy to update unlike GitHub.
+You will be learning how to use GitHub later -
+it's quite easy.
 
 Here is the [first notebook](./lists.ipynb) I've prepared - you should go
 through it once you have installed JuPyTer (see below).
@@ -15,7 +20,6 @@ You can learn a lot from them.
 There will not be so much reading but there will be a lot of watching. 
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
-I suppose you know how to ask Google to translate this page in french.
 
 
 ## Installing Anaconda
