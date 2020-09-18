@@ -50,7 +50,7 @@ picture-in-picture" allowfullscreen></iframe>
 
 ## Kaggle
 
-I have a Kaggle account too but I rarely use it. In theory you can follow the
+I have a [Kaggle](https://www.kaggle.com/) account too but I rarely use it. In theory you can follow the
 course using a Kaggle account if you have one.
 
 ## Getting started
@@ -94,7 +94,7 @@ You can change the cell type from the menu:
 
 You should read this 
  [tutorial for biomaths](https://python.sdv.univ-paris-diderot.fr/18_jupyter/)
- to get an idea of how it works.
+ to get an idea of how notebooks work.
 
 Lots of people use notebooks for swapping and explaining results : 
 - [data
@@ -112,7 +112,8 @@ physics](https://cds.cern.ch/record/2687389/files/CERN_SUM_PJ_report_Yixin.pdf)
 
 Watch the first part about collections and functions.
 
-[slides](https://files.speakerdeck.com/presentations/c56b00e084950130ac8e22000a1c4bc5/BeautifulCode.pdf)
+Here are the 
+[slides](https://files.speakerdeck.com/presentations/c56b00e084950130ac8e22000a1c4bc5/BeautifulCode.pdf) in english. The code is Python 2 - so if you want it to work remember that in Python 3 ```print``` is a function!
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/anrOzOapJ2E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
