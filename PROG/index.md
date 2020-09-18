@@ -5,12 +5,18 @@ will do then.
 I won't be using the Moodle page so much 
 as it is not easy to update unlike GitHub.
 
+Here is the [first notebook](./lists.ipynb) I've prepared - you should go
+through it once you have installed JuPyTer (see below).
+
+---
+
 Please watch the videos. 
 You can learn a lot from them.
 There will not be so much reading but there will be a lot of watching. 
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
 I suppose you know how to ask Google to translate this page in french.
+
 
 ## Installing Anaconda
 
@@ -40,8 +46,8 @@ picture-in-picture" allowfullscreen></iframe>
 
 ## Kaggle
 
-J'ai un compte Kaggle aussi mais j'utilise rarement. Si vous en avaz un déjà
-c'est bien.
+I have a Kaggle account too but I rarely use it. In theory you can follow the
+course using a Kaggle account if you have one.
 
 ## Getting started
 
