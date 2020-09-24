@@ -10,7 +10,10 @@ title: none
 
 
 - introduction à LaTeX [materiel](./latexm1.md)
-- introduction à la programmation [materiel](./syllabus.md)
+- introduction à la programmation 
+  - [syllabus](./syllabus.md)
+  - [cours](./PROG/index.md)
+
 - MAT103
 
 
