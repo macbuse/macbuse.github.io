@@ -10,13 +10,19 @@ as it is not easy to update unlike GitHub.
 You will be learning how to use GitHub later -
 it's quite easy.
 
+### Friday 18/9
+
 Here is the [first notebook](./lists.ipynb) I've prepared - you should go
 through it once you have installed JuPyTer (see below).
 
 ---
+### Friday 25/9
 
 Here is the [second notebook](./numpy_intro.ipynb).
-There are some difficult things in it
+There are some difficult things in it.
+Watch this video before starting
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
