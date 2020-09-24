@@ -15,6 +15,11 @@ through it once you have installed JuPyTer (see below).
 
 ---
 
+Here is the [second notebook](./numpy_intro.ipynb).
+There are some difficult things in it
+
+---
+
 Please watch the videos. 
 You can learn a lot from them.
 There will not be so much reading but there will be a lot of watching. 
