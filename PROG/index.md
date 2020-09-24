@@ -27,7 +27,9 @@ Here is the [second notebook](./numpy_intro.ipynb).
 There are some difficult things in it 
 mainly about matrices.
 
-Watch this video before starting
+Watch these videos before starting:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
