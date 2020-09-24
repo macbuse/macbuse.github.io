@@ -6,6 +6,10 @@
 
 If you are looking for what I teach 
 it is [here](teaching.md)
+
+and if you are looking 
+for the programmin class it 
+is [here](./PROG/index.md)
 ---
 
 ### What do I do?
