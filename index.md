@@ -18,7 +18,7 @@ is [here](./PROG/index.md)
 
 - Directeur de <a href="http://tresses.math.cnrs.fr">GDR TRESSES</a>
 - Editor <a href="http://aif.cedram.org/?lang=fr">Annales de l'Institut Fourier</a>
-- Principal investigator for l'equipe action ```ToFu```
+- Principal investigator l'equipe action ```ToFu```
 
 - <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf">CV</a>
 
