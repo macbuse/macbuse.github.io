@@ -41,6 +41,10 @@ I'm still off sick.
 Here is the [preliminary version of the notebook](./matplotlib.ipynb) to study
 for Friday 16/9.
 
+Watch this video about [Matplotlib](https://matplotlib.org/)
+first.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O_OeWxpnUc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -153,9 +157,3 @@ Read about Markdown [in english](https://daringfireball.net/projects/markdown/sy
 
 
 
-### Matplotlib 
-Watch some videos about [Matplotlib](https://matplotlib.org/)
-we'll be using this a lot for visualisation.
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O_OeWxpnUc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
