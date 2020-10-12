@@ -34,6 +34,15 @@ Watch these videos before starting:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
+### Friday 9/10
+
+I'm still off sick.
+
+Here is the [preliminary version of the notebook](./matplotlib.ipynb) to study
+for Friday 16/9.
+
+
+---
 
 
 
