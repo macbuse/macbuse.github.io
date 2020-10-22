@@ -49,16 +49,12 @@ first.
 ---
 ### Friday 16/10
 
-
 Here is the [notebook](./matplotlib.ipynb) to study
 ---
 
 ### Friday 23/10
 
-
 Here is the [notebook](./matplotlib_episode_two.ipynb) to study.
-
-
 ---
 
 
