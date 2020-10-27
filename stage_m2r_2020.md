@@ -15,7 +15,7 @@ and the moduli space itself. One important development has been the discovery of
 Mirzakhani's volume polynomials, the recursion they satisfy and the 
 resulting formulation of so-called [geometric recursion](https://arxiv.org/abs/1711.04729).
 
-![Orientable and non orientable surfaces](https://github.com/macbuse/MATH/blob/master/4surfaces.png)
+![Orientable and non orientable surfaces](./4surfaces.png)
 
 The Figure show the one holed torus, one holed Klein bottle, two holed projective plane and the three holed sphere.
 
