@@ -11,6 +11,8 @@ it is [here](teaching.md)
 for the online programming class it 
 is [here](./PROG/index.md)
 
+but if you are looking for a stage M2R it's 
+[here](./stage m2r 2019.md)
 
 ---
 
