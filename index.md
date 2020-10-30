@@ -11,8 +11,10 @@ it is [here](teaching.md)
 for the online programming class it 
 is [here](./PROG/index.md)
 
-but if you are looking for a stage M2R it's 
-[here](./stage_m2r_2020.md)
+but if you are looking for a stage M2R they are here:
+
+- [non orientable surfaces](./stage_m2r_2020.md)
+- [statistics closed geodesics](./stage_m2r_2020_bis.md)
 
 ---
 
