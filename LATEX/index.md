@@ -45,6 +45,21 @@ Le passage à la ligne (changement de paragraphe) se fait en insérant une ligne
 
 --------------------------------------------------------------------
 
+### Discord
+
+On peut afficher des formules dans un chat sur
+[Discord](https://top.gg/bot/510789298321096704) 
+si le [TeXiT bot](https://top.gg/bot/510789298321096704)
+est invité au serveur le code est compilé automatiquement
+il suffit d'appuyer sur ```Entrer```.
+
+![img](./discord.png)
+
+mais pour préparer un document il faut choisir un logiciel adapté
+
+
+
+
 ###  Choix de l'éditeur, saisie d'un premier document.
 
 Pour éditer votre texte en LaTeX, vous devez utiliser un éditeur comme pour taper le code source d’un programme. 
@@ -169,16 +184,18 @@ C’est une partie du document délimitée par:
 `\begin{type d'environnement}...\end{type d'environnement}`
 
 
--   `\begin{verbatim}` ... `\end{verbatim}` : pas d’interprétation des commandes, le texte est mis en style \texttt  (contrairement à {\tt...} qui met en style \texttt mais interpréte...)
--    `\begin{itemize}` ... `\end{i= temize}` ou=20 `\begin{enumerate}`
+-   `\begin{verbatim}` ... `\end{verbatim}` : on utilise pour afficher du code ou commandes, pas d’interprétation des commandes, le texte est mis en style ```\texttt``` 
+-    `\begin{itemize}` ... `\end{itemize}` ou `\begin{enumerate}`
     ... `\end{enumerate}` :permet d’énumerer une liste ; chaque élement de la liste doit commencer par \item
 La différence est que enumerate numérote les items
--   `\begin{center}` ... `\end{ce= nter}` permet de centrer un texte
--   `\begin{tabular}{|l|c|r|r|}` ... &lt;= code&gt;\\end{tabular} :crée un tableau. Le nombre d’arguments (ici 4) indique le nombre de colonnes. Ces arguments définissent l’alignement l (left),c (center), r (right). On tape les lignes du tableau en séparant les colonnes par &. Chaque ligne est terminée par la commande \\ . Si on écrit la commande \hline après une fin de ligne, cela affichera un trait de séparation horizontal, Pour les traits de séparation verticaux, utiliser | dans l’argument.
+-   `\begin{center}` ... `\end{center}` permet de centrer un texte
+-   ```\begin{tabular}{|l|c|r|r|} ... end{tabular} ```:crée un tableau. Le nombre d’arguments (ici 4) indique le nombre de colonnes. Ces arguments définissent l’alignement l (left),c (center), r (right). On tape les lignes du tableau en séparant les colonnes par &. Chaque ligne est terminée par la commande \\ . Si on écrit la commande \hline après une fin de ligne, cela affichera un trait de séparation horizontal, Pour les traits de séparation verticaux, utiliser | dans l’argument.
 -  “Exception”: pour mettre une partie de texte en italique, on écrit `{\textit ... }`, en gras `{\bf ...}`.
 
 ### L’environnement mathématique
 Dans TexMaker, les commandes correspondantes se trouvent dans le menu
+```LaTeX```.
+![img](./texmaker.png)
 
 ### Le mode mathématique
 Dans le corps d’un texte, les formules mathématiques sont délimitées par un dollar, alors que les formules devant apparaître sur une ligne séparée sont délimitées par deux dollars. 
