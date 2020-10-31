@@ -9,7 +9,7 @@ title: none
 ### First semester
 
 
-- introduction à LaTeX [materiel](./latexm1.md)
+- introduction à LaTeX [materiel](./LATEX/)
 - introduction à la programmation 
   - [syllabus](./syllabus.md)
   - [cours](./PROG/index.md)
