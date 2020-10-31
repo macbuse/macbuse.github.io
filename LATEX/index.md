@@ -15,7 +15,7 @@ Merci à mon ancien collègue Arnaud Bodin.
 
 LaTeX est le format standard utilisé dans le monde de l’édition mathématique. Il existe des distributions libres de LaTeX pour toutes les plateformes (voir les références).
 
-Un document au format LaTeX est un texte (au format ASCII) contenant des commandes de formatage. Ces commandes servent à structurer le texte (chapitres, sections, etc.) en laissant au compilateur le soin de rendre cette structure au mieux en fonction du format de sortie (texte imprimé, fichier PDF, sortie HTML pour mettre sur un site Web). Elles gèrent aussi l’affichage des symboles mathématiques, la numérotation des chapitres (chapter), sections, sous-sections (section, subsection), les réfèrences (on place un repère nom avec label puis on se réfère à nom avec ```ref``` ou ```pageref```)
+Un document au format LaTeX est un texte (au format ASCII ou UTF8) contenant des commandes de formatage. Ces commandes servent à structurer le texte (chapitres, sections, etc.) en laissant au compilateur le soin de rendre cette structure au mieux en fonction du format de sortie (texte imprimé, fichier PDF, sortie HTML pour mettre sur un site Web). Elles gèrent aussi l’affichage des symboles mathématiques, la numérotation des chapitres (chapter), sections, sous-sections (section, subsection), les réfèrences (on place un repère nom avec label puis on se réfère à nom avec ```ref``` ou ```pageref```)
 
 ``` {."verbatim"}
 \label{toto} puis \ref{toto} ou \pageref{toto}
