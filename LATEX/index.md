@@ -50,7 +50,7 @@ Le passage à la ligne (changement de paragraphe) se fait en insérant une ligne
 On peut afficher des formules dans un chat sur
 [Discord](https://top.gg/bot/510789298321096704) 
 si le [TeXiT bot](https://top.gg/bot/510789298321096704)
-est invité au serveur le code est compilé automatiquement
+est invité au serveur. Le code est compilé automatiquement
 il suffit d'appuyer sur ```Entrer```.
 
 ![img](./discord.png)
