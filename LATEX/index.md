@@ -195,6 +195,7 @@ La différence est que enumerate numérote les items
 ### L’environnement mathématique
 Dans TexMaker, les commandes correspondantes se trouvent dans le menu
 ```LaTeX```.
+
 ![img](./texmaker.png)
 
 ### Le mode mathématique
@@ -526,7 +527,7 @@ Le package hyperref offre à LaTeX la possibilité de créer des hyperliens dans
 Pour créer des transparents, on utilise fréquemment la classe de document beamer. Cf. par exemple le tutoriel sur
 [ce site.](http://www.tuteurs.ens.fr/logiciels/latex/beamer.html)
 
-[Exemple source](./bodin_slides.tex)
+[Exemple beamer source .tex](./bodin_slides.tex)
 
 
 ## Interaction avec des logiciels de calcul.
