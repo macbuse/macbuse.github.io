@@ -296,10 +296,18 @@ pour obtenir :
 
 ### Les matrices
 
-``` {."verbatim"}
+``` 
 \[\left(\begin{array}{ccc}
  2 & 3 & 4\\ x & x^2 & x^3\\ 5 & 6 & 7
 \end{array}\right)\]
+```
+
+``` 
+$[\begin{pmatrix}
+ 2 & 3 & 4\\
+ x & x^2 & x^3\\ 
+ 5 & 6 & 7
+\end{pmatrix}$
 ```
 
 donne:
@@ -385,6 +393,10 @@ Pour la dérivée seconde, utiliser `f'{'}`. Pour les derivées partielles on ut
 donne
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;f(x,y)}{\partial&space;x}=2\exp(2x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;f(x,y)}{\partial&space;x}=2\exp(2x)" title="\frac{\partial f(x,y)}{\partial x}=2\exp(2x)" /></a>
+
+## Exos
+
+![img](./exos_latex.png)
 
 ## Énoncés
 Pour mettre en valeur théorèmes, propositions, lemmes et autres corollaires, on crée des environnements avec la commande newtheorem. Ces environnements peuvent partager le même compteur ou avoir des compteurs séparés. On saisit au début du document :
@@ -496,6 +508,9 @@ Le package hyperref offre à LaTeX la possibilité de créer des hyperliens dans
 ## Créer des transparents.
 Pour créer des transparents, on utilise fréquemment la classe de document beamer. Cf. par exemple le tutoriel sur
 [ce site.](http://www.tuteurs.ens.fr/logiciels/latex/beamer.html)
+
+[Exemple source](./bodin_slides.tex)
+
 
 ## Interaction avec des logiciels de calcul.
 De nombreux logiciels de calcul scientifique permettent d’interagir avec LaTeX, on donne deux exemples dans cette section.
