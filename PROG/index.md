@@ -58,6 +58,14 @@ Here is the [notebook](./matplotlib_episode_two.ipynb) to study.
 ---
 
 
+### Friday 06/10
+
+Here is a [notebook](./matplotlib_episode_two_corr.ipynb) 
+with solutions to last week's exercises
+
+And this is the [notebook](./affine_maps.ipynb) to study for this week.
+---
+
 
 ## Installing Anaconda
 
