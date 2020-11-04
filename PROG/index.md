@@ -39,7 +39,7 @@ Watch these videos before starting:
 I'm still off sick.
 
 Here is the [preliminary version of the notebook](./matplotlib.ipynb) to study
-for Friday 16/10.
+for Friday 16/11.
 
 Watch this video about [Matplotlib](https://matplotlib.org/)
 first.
