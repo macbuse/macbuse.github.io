@@ -39,7 +39,7 @@ Watch these videos before starting:
 I'm still off sick.
 
 Here is the [preliminary version of the notebook](./matplotlib.ipynb) to study
-for Friday 16/11.
+for Friday 16/10.
 
 Watch this video about [Matplotlib](https://matplotlib.org/)
 first.
@@ -58,12 +58,15 @@ Here is the [notebook](./matplotlib_episode_two.ipynb) to study.
 ---
 
 
-### Friday 06/10
+### Friday 06/11
 
 Here is a [notebook](./matplotlib_episode_two_corr.ipynb) 
 with solutions to last week's exercises
 
 And this is the [notebook](./affine_maps.ipynb) to study for this week.
+
+If you are having problems with the basics then try [this
+notebook](./basic_python.ipynb).
 ---
 
 
