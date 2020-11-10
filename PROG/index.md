@@ -67,6 +67,9 @@ And this is the [notebook](./affine_maps.ipynb) to study for this week.
 If you are having problems with the basics then try [this
 notebook](./basic_python.ipynb).
 
+
+### Solutions etc.
+
 - [here](./barnsley_fern.ipynb) is a solution to drawing the fern
 - I'll post the other solutions Thursday.
 - I like the video that you sent me
