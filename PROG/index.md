@@ -69,6 +69,9 @@ notebook](./basic_python.ipynb).
 
 - [here](./barnsley_fern.ipynb) is a solution to drawing the fern
 - I'll post the other solutions Thursday.
+- I like the video that you sent me
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bJwJ5FFwk0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
