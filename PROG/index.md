@@ -57,7 +57,6 @@ Here is the [notebook](./matplotlib.ipynb) to study
 Here is the [notebook](./matplotlib_episode_two.ipynb) to study.
 ---
 
-
 ### Friday 06/11
 
 Here is a [notebook](./matplotlib_episode_two_corr.ipynb) 
@@ -67,6 +66,21 @@ And this is the [notebook](./affine_maps.ipynb) to study for this week.
 
 If you are having problems with the basics then try [this
 notebook](./basic_python.ipynb).
+
+- [here](./barnsley_fern.ipynb) is a solution to drawing the fern
+- I'll post the other solutions Thursday.
+
+---
+
+### Friday 13/11
+
+I will probably do some linear regression so watch this:
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/cpltYCNLIt0" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
 ---
 
 
