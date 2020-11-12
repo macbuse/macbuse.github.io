@@ -87,6 +87,9 @@ src="https://www.youtube.com/embed/cpltYCNLIt0" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
 
+and look at the [preliminary version](./convolutions_etc.ipynb)
+of the notebook.
+
 ---
 
 
