@@ -80,7 +80,8 @@ notebook](./basic_python.ipynb).
 
 ### Friday 13/11
 
-I will probably do some linear regression so watch this:
+I wanted to do linear regression but had too much to do on convolutions.
+I'll do regression and gradient descent next week.
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/cpltYCNLIt0" frameborder="0"
