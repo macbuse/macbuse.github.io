@@ -92,6 +92,19 @@ and look at the [preliminary version](./convolutions_etc.ipynb)
 of the notebook.
 
 ---
+### Friday 20/11
+
+I wanted to do linear regression but 
+- we didn't finish the convolutions.
+- I had some problems with my new computer.
+
+#### Solutions to COVID
+
+I sent a lot of time doing experiments on this
+
+- [for France](./france.ipynb)
+- [for the UK](./uk.ipynb)
+- [for Scotland](./scot_covid.ipynb)
 
 
 ## Installing Anaconda
