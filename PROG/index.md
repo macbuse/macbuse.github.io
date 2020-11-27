@@ -117,6 +117,8 @@ a simple example of **scraping** and **crawling**
 
 [notebook](./reg_exp.ipynb)
 
+[my ideas](./gph2sites.ipynb)
+
 ## Installing Anaconda
 
 We will be using [Anaconda](https://www.anaconda.com/)
