@@ -107,6 +107,16 @@ I sent a lot of time doing experiments on this
 - [for Scotland](./scot_covid.ipynb)
 
 
+---
+### Friday 27/11
+
+I managed to delete Anaconda on my new PC 
+and with it the notebook for regression.
+Instead this week we'll be looking at 
+a simple example of **scraping** and **crawling**
+
+[notebook](./reg_exp.ipynb)
+
 ## Installing Anaconda
 
 We will be using [Anaconda](https://www.anaconda.com/)
