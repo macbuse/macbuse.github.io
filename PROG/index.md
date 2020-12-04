@@ -119,6 +119,26 @@ a simple example of **scraping** and **crawling**
 
 [my ideas](./gph2sites.ipynb)
 
+---
+### Friday 27/11
+
+So I managed to fix the wikipedia crawler
+
+[my ideas](./gph2sites.ipynb)
+
+It was difficult to find a good working example for this week
+but here is the 
+[notebook](./regression_copy.ipynb)
+
+There are two kinds of regression to study:
+- multi variable linear regression
+- logistic regression
+
+The example of an application of logistic regression is recognising digits.
+There are better ways of doing this now using CNN - maybe we can do that the
+final week of term.
+
+
 ## Installing Anaconda
 
 We will be using [Anaconda](https://www.anaconda.com/)
