@@ -138,6 +138,10 @@ The example of an application of logistic regression is recognising digits.
 There are better ways of doing this now using CNN - maybe we can do that the
 final week of term.
 
+When the video first:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BHs_2ttLRXk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Installing Anaconda
 
