@@ -14,7 +14,6 @@ Elle permet de résoudre les deux problèmes de base de la théorie des résidus
 - si p et q sont congrus à 3 modulo 4, alors p est un carré modulo q si et seulement si q n'est pas un carré modulo.
 
 
-
 Les premières démonstrations aujourd'hui considérées comme complètes sont publiées par Gauss dans ses *Disquisitiones arithmeticae* en 1801. On compte plus de 200 démonstrations et parmi elles la preuve de  D. Zagier est remarquable car elle  ne tient qu’une ligne.
 
 On va étudier trois preuves de ce résultat :
@@ -40,7 +39,8 @@ Algèbre II
 
 1. Christian Elsholtz, A combinatorial approach to sums of two squares and related problems
 [télécharger](https://www.math.tugraz.at/~elsholtz/WWW/papers/papers30nathanson-new-address3.pdf)
-1.  Wagon, S.: The Euclidean algorithm strikes again. Amer. Math. Monthly 97 (1990), 125–129.
 
-1. Zagier, D.: A one-sentence proof that every prime p = 1 (mod 4) is a sum of two squares, Amer. Math. Monthly 97(2) (1990), 144.
+2.  Wagon, S.: The Euclidean algorithm strikes again. Amer. Math. Monthly 97 (1990), 125–129.
+
+3. Zagier, D.: A one-sentence proof that every prime p = 1 (mod 4) is a sum of two squares, Amer. Math. Monthly 97(2) (1990), 144.
 p

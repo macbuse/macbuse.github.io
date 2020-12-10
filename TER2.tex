@@ -1,0 +1,101 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\date{}
+
+\begin{document}
+
+\subsection{Titre : l'Algorithme Zipper}\label{titre-lalgorithme-zipper}
+
+\subsection{Résumé :}\label{ruxe9sumuxe9}
+
+En analyse complexe, le théorème de l'application conforme, dû à
+Bernhard Riemann, assure que toutes les parties ouvertes simplement
+connexes du plan complexe qui ne sont ni vides ni égales au plan tout
+entier sont conformes entre elles. Autrement dit, étant donné un domaine
+homéomorphe au disque unité il existe une bijection holomorphe entre ce
+disque et le disque unité.
+
+Le théorème fut énoncé (sous l'hypothèse plus forte d'une frontière
+formés d'arcs différentiables) par Bernhard Riemann dans sa thèse, en
+1851. La démonstration de Riemann dépendait de l'existence d'une
+solution du problème de Dirichlet sur le domaine, qui était considéré
+comme àdmis à cette époque. Pourtant la méthode de Riemann ne s'applique
+pas aux domaines simplement connexes de frontière non suffisamment lisse
+; de tels domaines furent étudiés en 1900 par W. F. Osgood.
+
+Au début des années 80, un algorithme élémentaire pour trouver une
+bijection holomorphe a été découvert par R. Kühnau et D.E. Marshall.
+L'algorithme est rapide et précis et relativement facile à programmer.
+Soit \(z_0, ..., z_n\) des points distincts dans le plan complexe.
+L'algorithme donne une suite de bijections holomorphes toute explicite
+qui converge vers une bijection holomorphe entre le disque unité et une
+région délimitée par une courbe de Jordan \(\gamma\) avec
+\(z_0, ..., z_n \in \gamma\).
+
+On va étudier la méthode utilisée pour établir la convergence dans
+l'article de Rohde et Marshall. En particulier on va voir comment le
+taux de convergence varie selon la regularité de la courbe \(\gamma\).
+
+\subsection{Prérequis :}\label{pruxe9requis}
+
+Fonctions holomorphes
+
+\subsection{Références :}\label{ruxe9fuxe9rences}
+
+Convergence of the Zipper algorithm for conformal mapping Donald E.
+Marshall, Steffen Rohde https://arxiv.org/abs/math/0605532
+
+\end{document}
