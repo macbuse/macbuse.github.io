@@ -1,6 +1,6 @@
-## Titre : l'Algorithme Zipper
+ Titre : l'Algorithme Zipper
 
-## Résumé :
+ Résumé :
 
 En analyse complexe, le théorème de l'application conforme, dû à Bernhard Riemann, assure que toutes les parties ouvertes simplement connexes du plan complexe qui ne sont ni vides ni égales au plan tout entier sont conformes entre elles.
 Autrement dit, étant donné un domaine homéomorphe au disque unité il existe une
@@ -29,14 +29,16 @@ La complexité de l'algorithme depende de $n$ mais pas de la courbe $\gamma$ et
 On va étudier la méthode utilisée pour établir la convergence dans l'article de Rohde et Marshall. En particulier on va voir comment le taux de convergence varie selon la regularité de la courbe $\gamma$. Si le temps nous le permet on développera les applications en informatiques et fera une comparaison avec d'autre méthodes numériques : transformations de Schwarz-Christoffel et empilements de cercles.
 
 
-## Prérequis : 
+ Prérequis : 
 
 Fonctions holomorphes
 
-## Références :
+ Références :
 
 1.  Donald E. Marshall, Steffen Rohde,
 Convergence of the Zipper algorithm for conformal mapping
-[arxiv](https://arxiv.org/abs/math/0605532)
+https://arxiv.org/abs/math/0605532
+
+
 2. Sharon, E., and David Bryant Mumford, 2D-shape analysis
 using conformal mapping. International Journal of Computer Vision, 2006

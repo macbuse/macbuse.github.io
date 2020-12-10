@@ -23,6 +23,7 @@ but if you are looking for a stage M2R they are here:
 or a TER
 
 - [quadratic reciprocity](./TER.md)
+- [Riemann mapping](./TER2.md)
 ---
 
 ### What do I do?

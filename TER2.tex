@@ -83,11 +83,16 @@ Soit \(z_0, ..., z_n\) des points distincts dans le plan complexe.
 L'algorithme donne une suite de bijections holomorphes toute explicite
 qui converge vers une bijection holomorphe entre le disque unité et une
 région délimitée par une courbe de Jordan \(\gamma\) avec
-\(z_0, ..., z_n \in \gamma\).
+\(z_0, ..., z_n \in \gamma\). La complexité de l'algorithme depende de
+\(n\) mais pas de la courbe \(\gamma\) et ça converge rapidement même
+pour la courbe de Koch.
 
 On va étudier la méthode utilisée pour établir la convergence dans
 l'article de Rohde et Marshall. En particulier on va voir comment le
 taux de convergence varie selon la regularité de la courbe \(\gamma\).
+Si le temps nous le permet on développera les applications en
+informatiques et fera une comparaison avec d'autre méthodes numeriques :
+transformations de Schwarz-Christoffel et empilements de cercles.
 
 \subsection{Prérequis :}\label{pruxe9requis}
 
@@ -95,7 +100,14 @@ Fonctions holomorphes
 
 \subsection{Références :}\label{ruxe9fuxe9rences}
 
-Convergence of the Zipper algorithm for conformal mapping Donald E.
-Marshall, Steffen Rohde https://arxiv.org/abs/math/0605532
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Donald E. Marshall, Steffen Rohde, Convergence of the Zipper algorithm
+  for conformal mapping https://arxiv.org/abs/math/0605532
+\item
+  Sharon, E., and David Bryant Mumford, 2D-shape analysis using
+  conformal mapping. International Journal of Computer Vision, 2006
+\end{enumerate}
 
 \end{document}
