@@ -1,0 +1,117 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{ifthen}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{latexsym}
+%\usepackage{bbm}
+\usepackage{graphicx}
+\usepackage{pdfsync}
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+\usepackage{url}               
+\usepackage[french]{babel}
+\usepackage[applemac]{inputenc}
+\usepackage{showkeys}
+ \usepackage{color}
+ \def\boxit#1#2{\vbox{\hrule\hbox{\vrule
+\vbox spread#1{\vfil\hbox spread#1{\hfil#2\hfil}\vfil}%
+\vrule}\hrule}}
+
+\long\def\emboite#1#2{\setbox4=\vbox{\hsize #1\noindent \strut #2}
+  \boxit{8pt}{\box4}}    
+
+\newcommand{\todo}[1]{\vspace{5 mm}\par \noindent
+\marginpar{\textsc{}} \framebox{\begin{minipage}[c]{0.95
+\textwidth} \tt #1
+\end{minipage}}\vspace{5 mm}\par}
+
+
+%% taille du papier
+\textwidth 17 true cm
+\textheight 24 true cm
+\addtolength{\hoffset}{-1.5cm}
+\addtolength{\voffset}{-1.5cm}
+
+
+%% D\'efinition des nouvelles commandes
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\ba}{\begin{array}}
+\newcommand{\ea}{\end{array}}
+\newcommand{\bp}{\begin{proof}}
+\newcommand{\ep}{\end{proof}}
+
+
+\newcommand{\Bk}{\color{black}}
+\newcommand{\Rd}{\color{red}}
+\newcommand{\Bl}{\color{blue}}
+
+\newtheorem{lem}{Lemme}[section]
+\newtheorem{thm}[lem]{Th\'eor\`eme}
+\newtheorem{prop}[lem]{Proposition}
+\newtheorem{cor}[lem]{Corollaire}
+\newtheorem{defin}[lem]{D\'efinition}
+\newtheorem{exa}[lem]{Exemple}
+\newtheorem{xca}[lem]{Exercice}
+\newtheorem{remk}[lem]{Remarque}
+
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+
+
+
+\pagestyle{fancy}
+\addtolength{\headheight}{\baselineskip}
+
+\fancyhf{} 
+\fancyhead[C]{\large{\bf\emph{}}
+}
+
+\fancyfoot[R]{\emph{UJF - IF - 2012--13}}
+\fancyfoot[L]{\emph{GGMAT35b}}
+\renewcommand{\headrulewidth}{0.2pt} %0.4
+\renewcommand{\footrulewidth}{0.2pt} %0
+
+\begin{document}
+
+\emboite{\hsize}{Universit\'e Joseph Fourier
+  \hfill \oldstylenums{2012}-\oldstylenums{2013}\\
+  Master 1 \hfill Majeure Math\'ematiques
+  \vskip7pt
+  \centerline {\textsf{\textbf{Proposition de sujet de TER}}}
+  \vskip7pt
+ }
+
+\bigskip
+
+
+%---- Ensembles : entiers, reels, complexes... ----
+\newcommand{\Nn}{\mathbb{N}}
+\newcommand{\Zz}{\mathbb{Z}}
+\newcommand{\Qq}{\mathbb{Q}}
+\newcommand{\Rr}{\mathbb{R}}
+\newcommand{\Cc}{\mathbb{C}}
+\newcommand{\Kk}{\mathbb{K}}
+\newcommand{\Hh}{\mathbb{H}}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\K}{\mathbb{K}}
+
+
+\section{Titre}
+
+\section{R\'esum\'e}
+
+\section{Pr\'erequis}
+
+\section{R\'ef\'erences}
+
+%--------------------------
+\end{document}
