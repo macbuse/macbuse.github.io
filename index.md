@@ -4,6 +4,8 @@
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
+### Teaching stuff
+
 If you are looking for what I teach 
 it is [here](teaching.md)
 
@@ -11,11 +13,16 @@ it is [here](teaching.md)
 for the online programming class it 
 is [here](./PROG/index.md)
 
+### Stages/TER
+
 but if you are looking for a stage M2R they are here:
 
 - [non orientable surfaces](./stage_m2r_2020.md)
 - [statistics closed geodesics](./stage_m2r_2020_bis.md)
 
+or a TER
+
+- [quadratic reciprocity](./TER.md)
 ---
 
 ### What do I do?
