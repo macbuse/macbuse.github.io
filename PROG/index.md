@@ -120,7 +120,7 @@ a simple example of **scraping** and **crawling**
 [my ideas](./gph2sites.ipynb)
 
 ---
-### Friday 27/11
+### Friday 4/12
 
 So I managed to fix the wikipedia crawler
 
@@ -142,6 +142,18 @@ When the video first:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BHs_2ttLRXk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+---
+### Friday 11/12
+
+Here is todays [notebook](./more_requests.ipynb) it's about more advanced we
+programming.
+
+This is [what](./digits.ipynb) I did to find the digits in 
+![image](./digits.jpg]
+
+
+---
 
 ## Installing Anaconda
 
