@@ -152,6 +152,8 @@ programming.
 This is [what](./digits.ipynb) I did to find the digits in 
 ![image](./digits.jpg]
 
+Can you look at [this](./projects.ipynb) and tell me what you would like to do?
+
 
 ---
 
