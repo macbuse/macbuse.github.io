@@ -24,6 +24,7 @@ or a TER
 
 - [quadratic reciprocity](./TER.md)
 - [Riemann mapping](./TER2.md)
+
 ---
 
 ### What do I do?
