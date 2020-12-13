@@ -15,7 +15,7 @@ I found this recipe
 - 1 tsp ground turmeric
 - 1 tbsp curry powder
 - 1 tsp garam masala
-- ¼ tsp cayenne add more if you like your indian food spicy!
+- ¼ tsp cayenne
 - ¼ tsp mustard seeds
 - 1½ cups of dried brown or red lentils
 - 3 cups water
@@ -25,6 +25,9 @@ I found this recipe
 
 
 This wasn't creamy enough so I replaced some of the water with coconut milk.
+I actually managet to burn the lentils - they stuck to the bottom of tthe bowl:
+( maybe use moooore water or scrape the bowl with a wooden spatula to get it
+clean before pressure cooking......................
 
 Usual curry prep then:
 * pressure cooking time 10 minutes.
@@ -49,10 +52,12 @@ Ingredients
 - Black Pepper powder
 - Celery leaves and chopped green onions for garnishing
 
+To make it creamier I added coconut milk as usual.
+
 Usual curry prep then 
 
 - Add celery and cook, stirring, until just starting to soften, about 3 minutes.
-- Stir in 1 cup of water, close the pressure cooker and cook on high for 1 to 2 whistles. Once the pressure has dropped, strain the mixture into a saucepan.
+- Stir in 1 cup of water, close the pressure cooker and cook on high for 4 or 5 minutes. Once the pressure has dropped, strain the mixture into a saucepan.
 
 I pureed it and didn't do this :
 
