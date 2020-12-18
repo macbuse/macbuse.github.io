@@ -36,7 +36,7 @@ and my first time on Zoom :(
 - sphere
 - torus (which is a branched cover of the sphere)
 
-Study them by embedding <br> them in 100$\mathbb{R}^3$.
+Study them by embedding <br> them in 200$\mathbb{R}^3$.
 
 #
 
@@ -331,7 +331,7 @@ Surface cut along accumulation set
 
 # Corollary
 
-The gaps in $K_{ess}$ are 1-1 with closed geodesics
+The gaps in 200$K_{ess}$ are 1-1 with closed geodesics
 
 <img src="./gap.png" width="400">
 
