@@ -384,7 +384,7 @@ partition of unity for integration
 <img src="./ptorus (1).svg" width="400">
 <img src="./pants.svg" width="400">
 
-#
+
 # Teichmueller space
 
 3 glueing parameters + 1 relation
@@ -392,7 +392,7 @@ partition of unity for integration
 [Shear
 coords](https://en.wikipedia.org/wiki/Teichm%C3%BCller_space#Shear_coordinates) 
 
-#
+
 # Teichmueller space
 
 2 parameters - length and twist
@@ -401,7 +401,7 @@ coords](https://en.wikipedia.org/wiki/Teichm%C3%BCller_space#Shear_coordinates)
 [Fenchel Nielsen
 coords](https://en.wikipedia.org/wiki/Fenchel%E2%80%93Nielsen_coordinates)
 
-#
+
 # References
 
 [Mirzakhani](https://arxiv.org/pdf/1509.06880)<br>
