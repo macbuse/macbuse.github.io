@@ -18,6 +18,7 @@ Illustrator 88 circa 1990
 # Apologies
 
 This was hacked together 
+
 - in ```nvim```
 - using Markdown
 - and
@@ -47,8 +48,11 @@ Study them by embedding <br> them in <span style="font-size: 100%">$\mathbb{R}^3
 - torus (spherical polar <span style="font-size: 100%">$0 \leq \theta \leq 2\pi, 0\leq \phi\leq 2\pi$</span>)
 
 #
+## Grew out of this..
 
 <img src="./durer.png" width="400">
+
+
 
 # Geometry
 
@@ -119,7 +123,7 @@ straight lines map to geodesics <br>
 ## Geodesics on the flat torus
 
 - closed geodesic <span style="font-size: 200%">$\gamma$</span>,  rational slope = p/q, 
-- where <span style="font-size: 200%">$p,q$</span> are   coprime integers 
+- where <span style="font-size: 200%">$p,q$</span> are  coprime integers 
 - length of the geodesic is <span style="font-size: 200%">$\ell_\gamma = | p \tau + q |$</span>
 - this is a closed formula for the length of a closed geodesic
 
@@ -130,6 +134,8 @@ to see how they fill outspace
 
 #
 ## Farey enumeration
+
+Recursive enumeration coprime  pairs <span style="font-size: 200%">$p,q$</span>
 
 <img src="./farey_enum.png" width="600">
 
@@ -190,6 +196,14 @@ area = <span style="font-size: 200%">$\pi$</span>, all angles = 0
 - parabolic : single fixed point on
     <span style="font-size: 200%">$\mathbb{R}$</span>
 - loxodromic : pair of fixed points on <span style="font-size: 200%">$\mathbb{R}$</span>
+
+#
+
+## Punctured torus
+
+Glue opposite sides ideal quadrilateral.
+
+<img src="./ptorus (1).svg" width="600">
 
 
 #
@@ -285,7 +299,7 @@ Intersection of Birman Series set with pseudo sphere.
 #
 
 
-<span style="font-size: 200%">$\frac{2}{1 + e^{\ell_\gamma}}$</span>
+<span style="font-size: 400%">$\frac{2}{1 + e^{\ell_\gamma}}$</span>
 
 is the length of an interval in <span style="font-size: 200%">$K_{ess}$</span>
 
@@ -317,20 +331,35 @@ Surface cut along accumulation set
 
 # Corollary
 
+The gaps in $K_\ess$ are 1-1 with closed geodesics
+
+<img src="./gap.png" width="400">
+
+
 #
 ## Short story
 
 - Look what I proved I think you're going to like it.
+- Either false or Bob Penner has done it already
+
+
+<img src="./dave.svg" width="400">
+
+#
+## Short story
+
+
+<img src="./bob.svg" width="600">
 
 #
 ## Markoff numbers
 
-- (Cohn) the Markoff numbers are $2/3 \cosh(\ell_\gamma/2)$
-for $\gamma$ a closed simple geodesic on the punctured torus.
+ (Cohn) the Markoff numbers are <span style="font-size: 200%">$2/3 \cosh(\ell_\gamma/2)$</span>
+for <span style="font-size: 200%">$\gamma$</span> a closed simple geodesic on the punctured torus.
+
 - recursive enumeration, no closed formula
 
-
-<img src="./MarkoffNumberTree.png" width="300">
+<img src="./MarkoffNumberTree.png" width="400">
 
 #
 ## I wrote a program
@@ -340,15 +369,40 @@ for $\gamma$ a closed simple geodesic on the punctured torus.
 #
 ## Diophantine approximation
 
-- otherwise x "deep" point
+-  x "deep" point not isolated or shallow
+- Even-numbered convergents are smaller than the original number,
+- while odd-numbered ones are larger.
 
 
 <img src="./approx1.png" width="300">
 <img src="./approx2.png" width="300">
 
 #
-## Applications
+## Applications : 
+partition of unity for integration 
 
-Partition of unity 
+<img src="./ptorus (1).svg" width="400">
+<img src="./pants.svg" width="400">
 
+#
+# Teichmueller space
 
+3 glueing parameters + 1 relation
+<img src="./ptorus (1).svg" width="600">
+[Shear
+coords](https://en.wikipedia.org/wiki/Teichm%C3%BCller_space#Shear_coordinates) 
+
+#
+# Teichmueller space
+
+2 parameters - length and twist
+
+<img src="./pants.svg" width="600">
+[Fenchel Nielsen
+coords](https://en.wikipedia.org/wiki/Fenchel%E2%80%93Nielsen_coordinates)
+
+#
+# References
+
+[Mirzakhani](https://arxiv.org/pdf/1509.06880)<br>
+[Wright](https://arxiv.org/pdf/1905.01753)
