@@ -47,8 +47,11 @@ Study them by embedding <br> them in 100$\mathbb{R}^3$.
 - torus (spherical polar 100$0 \leq \theta \leq 2\pi, 0\leq \phi\leq 2\pi$)
 
 #
+## Grew out of this..
 
 <img src="./durer.png" width="400">
+
+
 
 # Geometry
 
@@ -347,8 +350,9 @@ for $\gamma$ a closed simple geodesic on the punctured torus.
 <img src="./approx2.png" width="300">
 
 #
-## Applications
+## Applications : partition of unity 
 
-Partition of unity 
 
+<img src="./ptorus.svg" width="300">
+<img src="./pants.svg" width="300">
 
