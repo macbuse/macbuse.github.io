@@ -331,7 +331,7 @@ Surface cut along accumulation set
 
 # Corollary
 
-The gaps in $K_\ess$ are 1-1 with closed geodesics
+The gaps in $K_{ess}$ are 1-1 with closed geodesics
 
 <img src="./gap.png" width="400">
 
