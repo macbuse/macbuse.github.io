@@ -2,7 +2,7 @@
 layout: page
 title: Contact Page
 ---
-# P de la Harpe : Topics in Geometric Group Theory 
+#  Topics in Geometric Group Theory 
 
 This page is a repo for exchanges 
 in the gpe de lecture . 
