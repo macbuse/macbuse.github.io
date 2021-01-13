@@ -19,7 +19,14 @@ We are meeting on
 - Zoom 
 - BBB
 
-we'll decide which is most convenient by email
+we'll decide which is most convenient by email.
+
+You will work in teams of 2 (binomes)
+as preparing the support for the presentations takes
+a lot of time.
+
+[Here is what we did](https://macbuse.github.io/GPE_ENS/) last year during the confinement.
+
 
 ---
 
