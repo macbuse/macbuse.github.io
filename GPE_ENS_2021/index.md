@@ -47,9 +47,11 @@ This **groupe de lecture** is an attempt to present the material in an introduct
 the reader familiar with only basic algebraic concepts
 following de la  Harpe's book  and a paper that improves on chapter VIII
 
+---
 
 The first three chapters of the book
 are not directly relevant and we will skip.
+This leaves chapters IV - VII.
 
 
 IV. Finitely-generated groups viewed as metric spaces
@@ -69,7 +71,7 @@ VII. Groups of exponential or polynomial growth
 
 VIII The first Grigorchuk group
 
-we will do this chapter from a paper
+we will do this chapter from a paper which appeared later and simplifies things
 [Groups of Intermediate Growth: an Introduction for Beginners](https://arxiv.org/abs/math/0607384)
 
 ---
