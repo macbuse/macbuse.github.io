@@ -7,8 +7,7 @@ title: Contact Page
 This page is a repo for exchanges 
 in the gpe de lecture . 
 
-
-[This is the text in djvu](./de la harpe_topics in geometric group theory.djvu)
+[This is the text ](./book.djvu)
 
 ***IMPORTANT: this group 
 will not meet physically 
