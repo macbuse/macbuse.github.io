@@ -46,7 +46,7 @@ and since then there has been an explosion in the number of
 works on the subject. 
 This **groupe de lecture** is an attempt to present the material in an introductory manner, to
 the reader familiar with only basic algebraic concepts
-following de la  Harpe and a paper that improves on chapter VIII
+following de la  Harpe's book  and a paper that improves on chapter VIII
 
 IV. Finitely-generated groups viewed as metric spaces
 - IV.A. Word lengths and Cayley graphs
@@ -95,11 +95,8 @@ with history and references
 
 ---
 
-## Plan for the seminars
+## Calendar for the exposes
 
----
-
-# Exposes
 
 date | nom | sujet
 --- | --- | ---
