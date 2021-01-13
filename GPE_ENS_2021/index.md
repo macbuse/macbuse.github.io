@@ -36,6 +36,8 @@ But the fact which we want to stress here is that groups are also interesting
 geometric objects by themselves -- a point of view illustrated in the past by
 Cayley and Dehn, and more recently by Gromov. More precisely, a finitely-generated group can be seen as a metric space (the distance between two points being defined "up to quasi-isometry"), and this gives rise to a very fruitful approach to group theory.
 
+![img](./atlas.png)
+
 In 1968 it became apparent that all known classes of groups have either polynomial or
 exponential growth, and John Milnor formally asked whether groups of intermediate
 growth exist. The first such examples were introduced by 
@@ -68,15 +70,28 @@ we will do this chapter from a paper
 
 ---
 
-## Seances
+## Calendrier
 
+Will appear here
+
+![img](./grig.png)
 
 ---
 
 ## Background
 
+Video of Grigorchuk (
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7AeD5FBOixo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## References for background reading
+
+The Wikipedia page in english is very complete 
+with history and references
+
+
+1. [Wikipedia page](https://en.wikipedia.org/wiki/Grigorchuk_group)
+1. [Some slides](https://mat.polsl.pl/groups/talks/Macedonska.pdf)
 
 ---
 
@@ -88,11 +103,15 @@ we will do this chapter from a paper
 
 date | nom | sujet
 --- | --- | ---
+??? | ??? | ???
 
 
 ---
      
 ## Further reading
+
+
+Will be added here to complement the exposes
 
 
 
