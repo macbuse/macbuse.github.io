@@ -7,7 +7,7 @@ title: Contact Page
 This page is a repo for exchanges 
 in the gpe de lecture . 
 
-[This is the text ](./book.djvu)
+[This is the text ](./book.djvu) in djvu.
 
 ***IMPORTANT: this group 
 will not meet physically 
@@ -47,6 +47,11 @@ This **groupe de lecture** is an attempt to present the material in an introduct
 the reader familiar with only basic algebraic concepts
 following de la  Harpe's book  and a paper that improves on chapter VIII
 
+
+The first three chapters of the book
+are not directly relevant and we will skip.
+
+
 IV. Finitely-generated groups viewed as metric spaces
 - IV.A. Word lengths and Cayley graphs
 - IV.B. Quasi-isometries
@@ -79,6 +84,10 @@ Will appear here
 
 ## Background
 
+The first three chapters of the book
+are not directly relevant and we will skip
+them in class but you should read them.
+
 Video of Grigorchuk (
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7AeD5FBOixo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -91,7 +100,7 @@ with history and references
 
 1. [Wikipedia page](https://en.wikipedia.org/wiki/Grigorchuk_group)
 1. [Some slides](https://mat.polsl.pl/groups/talks/Macedonska.pdf)
-
+1. [Geometric group thy](https://bookstore.ams.org/coll-63/)
 ---
 
 ## Calendar for the exposes
