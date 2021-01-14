@@ -7,7 +7,7 @@ title: Contact Page
 
 This page is a repo for exchanges 
 in the TD group TD-1. I'm sorry 
-this is in english but 
+this is in english but I don'h have my french keyboard.
 
 - [Course
     book](https://perso.telecom-paristech.fr/decreuse/_downloads/44d14d51b5d8b66b4a3aa0f6e9d2f9e0/analyse-fonctionnelle.pdf)
@@ -18,16 +18,27 @@ this is in english but
 
 ## Practical points
 
-1. We have a Discord server where we sill meet.
+1. We have a Discord server where we will meet.
+1. We might try to have a video chat on Zoom sometime so I can see you.
 1. I might use a [virtual whiteboard](https://awwapp.com/#)
 for teaching (so I can see your work)
 so you should try it out and tell me if you can use it.
 1. I will usually post the exercises with hints a day or two before class
-   meets on this page.
+   meets on this page. 
+1. Because classes are online we will only use class time to
+  - discuss corrections you have prepared
+  - discuss things that have been difficult to understand in the Friday lecture (cours magistral).
+1. Classes will be in french.
+
 
 ---
 
-Hints for the excercises 
+## Hints for excercises 
+
+You should try to solve the exercises first
+but if you really get stuck then....
+
+### Friday 15/1
 
 - [exo 1](https://math.stackexchange.com/questions/242779/limit-of-lp-norm)
 - [exo
@@ -40,6 +51,8 @@ Hints for the excercises
 
 ---
 ## Names
+
+These are the names I have for this group:
 
 - Filippo Casagrande 
 - Axel Chatelard 
