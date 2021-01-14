@@ -86,7 +86,12 @@ These are the names I have for this group:
 
 
 When I teach I read a lot of things related to the material
-you can see what I'm reading here...
+you can see what I'm reading here... 
+
+Sometimes 
+
+- it's because I have forgotten the definitions/theorems
+- it's because I am looking for the most elegant approach
 
 [thm de James](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_James)
 
