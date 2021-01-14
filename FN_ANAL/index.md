@@ -31,7 +31,7 @@ I have to check this.
 ## Practical points
 
 1. We have a Discord server where we will meet.
-1. We will try to have a video chat on Zoom sometimes so I can see you.
+1. We will try to have short video chats on Zoom sometimes so I can see you.
 1. I might use a [virtual whiteboard](https://awwapp.com/#)
 for teaching (so I can see your work)
 so you should try it out and tell me if you can use it.
