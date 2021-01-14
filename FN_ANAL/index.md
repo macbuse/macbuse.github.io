@@ -32,11 +32,10 @@ so you should try it out and tell me if you can use it.
    as much as possible by submitting scans of work and chatting.
 1. I will usually post on this page the exercises with hints a day or two before class meets. 
 1. Because classes are online we will only use class time to
-  - discuss corrections you have prepared
-  - discuss things that have been difficult to understand in the Friday lecture (cours magistral).
-1. There may be a possibility to meet *en presentiel* in small groups but this
-and we will organize this if possible **so check you are on the list of
-names**.
+  - discuss corrections (Mondays and Fridays) you have prepared
+  - discuss things (on Mondays) that have been difficult to understand in the Friday lecture (cours magistral).
+1. There may be a possibility to meet *en presentiel* in small groups and we will organize this if possible **so check you are on the list of
+names ci-dessous**.
 1. Classes will be in french.
 
 
