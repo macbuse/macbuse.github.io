@@ -19,6 +19,13 @@ this is in english but I'm not having  my french keyboard.
 - [Feuille 1](./td1-lp.pdf)
 
 
+--- 
+
+## Evaluation
+
+I have to check this.
+
+
 ---
 
 ## Practical points
