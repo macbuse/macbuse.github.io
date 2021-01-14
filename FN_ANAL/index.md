@@ -44,7 +44,8 @@ so you should try it out and tell me if you can use it.
   - discuss corrections (Mondays and Fridays) you have prepared
   - discuss things (on Mondays) that have been difficult to understand in the Friday lecture (cours magistral).
   - if there is something difficult in the lecture you should discuss this
-      entre vous and then make a request in Discord after the TD Friday.
+      **entre vous** and then make a request in Discord after the TD Friday so
+      I can prepare for Monday.
 1. There may be a possibility to meet *en presentiel* in small groups and we will organize this if possible **so check you are on the list of
 names ci-dessous**.
 1. Classes will be in french.
