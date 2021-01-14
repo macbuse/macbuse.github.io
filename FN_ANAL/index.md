@@ -49,6 +49,9 @@ but if you really get stuck then....
 
 [Holder inequality](https://en.wikipedia.org/wiki/H%C3%B6lder%27s_inequality)
 
+
+---
+
 ### Week 18/1
 
 I'll put hints later
