@@ -12,7 +12,7 @@ me because it looks good on my phone so I can  check things.
 
 
 I'm sorry 
-this is in english but I don'h have my french keyboard.
+this is in english but I'm not having  my french keyboard.
 
 - [Course
     book](https://perso.telecom-paristech.fr/decreuse/_downloads/44d14d51b5d8b66b4a3aa0f6e9d2f9e0/analyse-fonctionnelle.pdf)
@@ -24,15 +24,19 @@ this is in english but I don'h have my french keyboard.
 ## Practical points
 
 1. We have a Discord server where we will meet.
-1. We might try to have a video chat on Zoom sometime so I can see you.
+1. We will try to have a video chat on Zoom sometimes so I can see you.
 1. I might use a [virtual whiteboard](https://awwapp.com/#)
 for teaching (so I can see your work)
 so you should try it out and tell me if you can use it.
-1. I will usually post the exercises with hints a day or two before class
-   meets on this page. 
+1. There will be corrections on YouTube but you **must** participate in class
+   as much as possible by submitting scans of work and chatting.
+1. I will usually post on this page the exercises with hints a day or two before class meets. 
 1. Because classes are online we will only use class time to
   - discuss corrections you have prepared
   - discuss things that have been difficult to understand in the Friday lecture (cours magistral).
+1. There may be a possibility to meet *en presentiel* in small groups but this
+and we will organize this if possible **so check you are on the list of
+names**.
 1. Classes will be in french.
 
 
