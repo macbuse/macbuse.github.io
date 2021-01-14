@@ -54,7 +54,8 @@ but if you really get stuck then....
 
 ### Week 18/1
 
-I'll put hints later
+These are hints for me ;)
+
 
 - [exo 7](https://en.wikipedia.org/wiki/Tychonoff%27s_theorem)
 - [exo 8](https://math.stackexchange.com/questions/660418/why-is-l-infty-not-separable/660422#:~:text=is%20an%20uncontably%20infinite%20collection,%E2%84%93%E2%88%9E%20is%20not%20separable.)
@@ -82,6 +83,10 @@ These are the names I have for this group:
 - Helin YAYGIR
 
 ## Diverse references
+
+
+When I teach I read a lot of things related to the material
+you can see what I'm reading here...
 
 [thm de James](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_James)
 
