@@ -49,6 +49,14 @@ but if you really get stuck then....
 
 [Holder inequality](https://en.wikipedia.org/wiki/H%C3%B6lder%27s_inequality)
 
+### Week 18/1
+
+I'll put hints later
+
+- [exo 7](https://en.wikipedia.org/wiki/Tychonoff%27s_theorem)
+- [exo 8](https://math.stackexchange.com/questions/660418/why-is-l-infty-not-separable/660422#:~:text=is%20an%20uncontably%20infinite%20collection,%E2%84%93%E2%88%9E%20is%20not%20separable.)
+- [exo 9](https://math.stackexchange.com/questions/868787/dual-of-l-infty-is-not-l1)
+
 ---
 ## Names
 
