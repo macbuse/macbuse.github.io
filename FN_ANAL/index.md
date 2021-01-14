@@ -36,7 +36,9 @@ I have to check this.
 for teaching (so I can see your work) but scans from phones are good too.
 so you should try it out and tell me if you can use it.
 1. There will be corrections on YouTube but you **must** participate in class
-   as much as possible by submitting scans of work and chatting.
+   as much as possible 
+   - by submitting scans of work 
+   - by chatting.
 1. I will post on this page the exercises with hints usually a day or two before class meets. 
 1. Because classes are online we will use class time optimally to
   - discuss corrections (Mondays and Fridays) you have prepared
