@@ -33,7 +33,7 @@ so you should try it out and tell me if you can use it.
 
 ---
 
-## Hints for excercises 
+## Hints for exercises 
 
 You should try to solve the exercises first
 but if you really get stuck then....
@@ -70,3 +70,12 @@ These are the names I have for this group:
 - Liticia RENAULT
 - Helin YAYGIR
 
+## Diverse references
+
+[thm de James](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_James)
+
+[english version](https://en.wikipedia.org/wiki/James%27s_theorem)
+
+[Tychnoff](https://en.wikipedia.org/wiki/Tychonoff%27s_theorem)
+=> [Banach
+Alaoglu](https://en.wikipedia.org/wiki/Banach%E2%80%93Alaoglu_theorem)
