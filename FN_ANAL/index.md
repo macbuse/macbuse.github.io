@@ -68,5 +68,5 @@ These are the names I have for this group:
 - Emma Michel 
 - Ambroise MINOT
 - Liticia RENAULT
--Helin YAYGIR
+- Helin YAYGIR
 
