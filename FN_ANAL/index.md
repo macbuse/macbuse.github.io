@@ -6,7 +6,12 @@ title: Contact Page
 # M1 Analyse fonctionelle
 
 This page is a repo for exchanges 
-in the TD group TD-1. I'm sorry 
+in the TD group TD-1. It will be updated regularly
+often more than once a day. It is convenient for
+me because it looks good on my phone so I can  check things.
+
+
+I'm sorry 
 this is in english but I don'h have my french keyboard.
 
 - [Course
