@@ -100,6 +100,8 @@ These are the names I have for this group:
 - Liticia RENAULT
 - Helin YAYGIR
 
+---
+
 ## Diverse references
 
 
@@ -110,6 +112,8 @@ Sometimes
 
 - it's because I have forgotten the definitions/theorems
 - it's because I am looking for the most elegant approach
+
+[Separable banach characterisation](https://www.jstor.org/stable/2161889?seq=1)
 
 [thm de James](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_James)
 
