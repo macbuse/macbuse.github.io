@@ -104,6 +104,7 @@ These are the names I have for this group:
 - Emma Michel 
 - Ambroise MINOT
 - Liticia RENAULT
+- Léo RUBEAUX
 - Helin YAYGIR
 
 ---
