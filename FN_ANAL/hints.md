@@ -36,7 +36,7 @@ Zorn's Lemma ?
 - $\ell^1$ separable
 - $\ell^\infty$ non separable
 - $L^2[0,1]$ separable (Fourier?)
-- $L^2(\mathbb{R})$ separable (base ortho n ?)
+- $L^2(\mathbb{R})$ separable (base ortho norm... ?)
 
 $E \subset F$ with $F$ separable 
 $\Rightarrow E$ separable.
