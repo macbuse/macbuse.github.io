@@ -18,6 +18,11 @@ this is in english but I'm not having  my french keyboard.
     book](https://perso.telecom-paristech.fr/decreuse/_downloads/44d14d51b5d8b66b4a3aa0f6e9d2f9e0/analyse-fonctionnelle.pdf)
 - [Feuille 1](./td1-lp.pdf)
 
+The [hints](./hints.md) will contain hints in TeX
+to view it properly you should install the MathJax plugin
+for Chrome/Chromium by following 
+[these instructions](https://github.com/orsharir/github-mathjax/issues/37).
+
 
 --- 
 
