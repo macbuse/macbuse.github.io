@@ -129,7 +129,7 @@ we will do this chapter from a paper which appeared later and simplifies things
 The first three chapters of the book
 are not directly relevant and we will skip
 them in class but you should read them.
-It is important to understand the  [https://en.wikipedia.org/wiki/Ping-pong_lemma].
+It is important to understand the  [ping pong lemma](https://en.wikipedia.org/wiki/Ping-pong_lemma).
 
 Video of Grigorchuk (
 
