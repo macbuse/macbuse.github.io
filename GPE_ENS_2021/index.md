@@ -60,13 +60,21 @@ Groups are of course sets given with appropriate "multiplications", and
 they are often given together with actions on interesting geometric objects.
 But the fact which we want to stress here is that groups are also interesting
 geometric objects by themselves -- a point of view illustrated in the past by
-Cayley and Dehn, and more recently by Gromov. More precisely, a finitely-generated group can be seen as a metric space (the distance between two points being defined "up to quasi-isometry"), and this gives rise to a very fruitful approach to group theory.
+Cayley and Dehn, and more recently by Gromov. 
+
+![img](./gromov.png)
+
+More precisely, a finitely-generated group can be seen as a metric space (the distance between two points being defined "up to quasi-isometry"), and this gives rise to a very fruitful approach to group theory.
 
 ![img](./atlas.png)
 
 In 1968 it became apparent that all known classes of groups have either polynomial or
 exponential growth, and John Milnor formally asked whether groups of intermediate
-growth exist. The first such examples were introduced by 
+growth exist. 
+
+![img](./milnor.png)
+
+The first such examples were introduced by 
 Grigorchuk in the 80s
 and since then there has been an explosion in the number of
 works on the subject. 
@@ -139,7 +147,7 @@ Will be added here to complement the exposes.
 
 ---
 
-** Theorem (Tits)**
+**Theorem** (Tits)
 
 Let **G** be a finitely generated linear group over a field. Then two following possibilities occur: 
 - **G** is virtually solvable (i.e. has a solvable subgroup of finite index)
