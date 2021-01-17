@@ -68,8 +68,11 @@ More precisely, a finitely-generated group can be seen as a metric space (the di
 
 ![img](./atlas.png)
 
-In 1968 it became apparent that all known classes of groups have either polynomial or
-exponential growth, and John Milnor formally asked whether groups of intermediate
+In 1968 it became apparent that all known classes of groups have 
+- either polynomial growth (Gromov [characterised these](#groups-of-polynomial-growth) )
+- or exponential growth,
+
+John Milnor formally asked whether groups of intermediate
 growth exist. 
 
 ![img](./milnor.png)
@@ -80,7 +83,8 @@ and since then there has been an explosion in the number of
 works on the subject. 
 This **groupe de lecture** is an attempt to present the material in an introductory manner, to
 the reader familiar with only basic algebraic concepts
-following de la  Harpe's book  and a paper that improves on chapter VIII
+following de la  Harpe's book  and a paper 
+by Grigorchuk and Pak that improves on chapter VIII
 
 ---
 
@@ -149,6 +153,7 @@ with history and references
 
 
 Will be added here to complement the exposes.
+
 
 ### Alternative de Tits
 
