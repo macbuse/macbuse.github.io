@@ -96,6 +96,7 @@ Will appear here
 The first three chapters of the book
 are not directly relevant and we will skip
 them in class but you should read them.
+It is important to understand the  [https://en.wikipedia.org/wiki/Ping-pong_lemma].
 
 Video of Grigorchuk (
 
@@ -124,10 +125,31 @@ date | nom | sujet
 
 ---
      
-## Further reading
+# Further reading
 
 
-Will be added here to complement the exposes
+Will be added here to complement the exposes.
 
 
+### Groups of polynomial growth
 
+---
+
+**Theorem** (Gromov) Every finitely generated group of polynomial growth is virtually nilpotent.
+
+---
+
+- [Gromov's Theorem poly
+    growth](https://en.wikipedia.org/wiki/Gromov%27s_theorem_on_groups_of_polynomial_growth)
+- [paper](./gromov_ihes.djvu)
+- [Tao's blog
+    post](https://terrytao.wordpress.com/2010/02/18/a-proof-of-gromovs-theorem/)
+- [another proof](https://arxiv.org/pdf/1510.04223.pdf) if you like functional
+    analysis.
+
+### Uniform exponential growth
+
+- [Osin by Breuillard](https://arxiv.org/pdf/math/0602076.pdf)
+- [Uniform Exponential Growth for Linear Groups](https://arxiv.org/pdf/math/0108157.pdf)
+- [Connexion](https://www.imo.universite-paris-saclay.fr/~breuilla/BreuillardICMtalk.pdf)
+with [Lehmer's conjecture](https://en.wikipedia.org/wiki/Lehmer%27s_conjecture)

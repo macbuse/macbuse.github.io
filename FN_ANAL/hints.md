@@ -11,7 +11,7 @@ title: Hints page
 #### 1/
 
 #### 2/
- $E=\{x \in X:|f| \leq 1\}$
+ $E= \{x \in X:|f| \leq 1 \}$
 
 $x\in E, \,|f(x)|^p \leq |f(x)|^r$
 
