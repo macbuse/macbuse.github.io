@@ -58,12 +58,12 @@ century by mathematicians including Gauss (Disquisitiones avithmeticae in
 gram in 1872), Lie, Poincare ... 
 Groups are of course sets given with appropriate "multiplications", and
 they are often given together with actions on interesting geometric objects.
-But the fact which we want to stress here is that groups are also interesting
-geometric objects by themselves -- a point of view illustrated in the past by
-Cayley and Dehn, and more recently by Gromov. 
 
 ![img](./gromov.png)
 
+But the fact which we want to stress here is that groups are also interesting
+geometric objects by themselves -- a point of view illustrated in the past by
+Cayley and Dehn, and more recently by Gromov. 
 More precisely, a finitely-generated group can be seen as a metric space (the distance between two points being defined "up to quasi-isometry"), and this gives rise to a very fruitful approach to group theory.
 
 ![img](./atlas.png)
