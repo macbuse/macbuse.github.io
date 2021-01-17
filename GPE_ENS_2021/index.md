@@ -81,10 +81,10 @@ The first such examples were introduced by
 Grigorchuk in the 80s
 and since then there has been an explosion in the number of
 works on the subject. 
-This **groupe de lecture** is an attempt to present the material in an introductory manner, to
-the reader familiar with only basic algebraic concepts
-following de la  Harpe's book  and a paper 
-by Grigorchuk and Pak that improves on chapter VIII
+This **groupe de lecture** is an attempt to present the material in an introductory manner, 
+- to the reader familiar with only basic algebraic concepts
+- following de la  Harpe's book  
+- and a paper by Grigorchuk and Pak that improves on chapter VIII
 
 ---
 
