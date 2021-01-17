@@ -14,23 +14,43 @@ will not meet physically
 because of confinement***
 
 
-We are meeting on 
+## Format
+
+Each seance will consist of
+
+- online video chat for 5-10 minutes
+- presentation in audio for 50 minutes with support in *pdf*
+- discussion  for 20-30 minutes either by text chat or video chat (depending on quality of connexion)
+- You will work in teams of 2 (binomes) as preparing the support for the presentations takes a **lot** of time.
+- The **pdf** should be submitted Wednesday 12h latest.
+
+We will be meeting on 
+
 - [Discord](https://discordapp.com/).
 - Zoom 
 - BBB
 
 we'll decide which is most convenient by email.
 
-You will work in teams of 2 (binomes)
-as preparing the support for the presentations takes
-a lot of time.
 
 [Here is what we did](https://macbuse.github.io/GPE_ENS/) last year during the confinement.
+
+---
+
+## Calendar for the exposes
+
+We will decide this by email
+
+
+date | nom | sujet
+--- | --- | ---
+20/1 | Greg Mc | Presentation
+27/1 | ??? | ???
 
 
 ---
 
-# Presentation
+# Presentation of text
 
 Groups as abstract structures were recognized progressively during the 19th
 century by mathematicians including Gauss (Disquisitiones avithmeticae in
@@ -81,12 +101,6 @@ VIII The first Grigorchuk group
 we will do this chapter from a paper which appeared later and simplifies things
 [Groups of Intermediate Growth: an Introduction for Beginners](https://arxiv.org/abs/math/0607384)
 
----
-
-## Calendrier
-
-Will appear here
-
 ![img](./grig.png)
 
 ---
@@ -112,15 +126,6 @@ with history and references
 1. [Some slides](https://mat.polsl.pl/groups/talks/Macedonska.pdf)
 1. [Geometric group thy](https://bookstore.ams.org/coll-63/)
 
-
----
-
-## Calendar for the exposes
-
-
-date | nom | sujet
---- | --- | ---
-??? | ??? | ???
 
 
 ---
