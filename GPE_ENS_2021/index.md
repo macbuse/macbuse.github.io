@@ -140,6 +140,7 @@ with history and references
 
 1. [Wikipedia page](https://en.wikipedia.org/wiki/Grigorchuk_group)
 1. [Some slides](https://mat.polsl.pl/groups/talks/Macedonska.pdf)
+1. [Topics in geometric gp thy](http://www.macs.hw.ac.uk/~lc45/Teaching/kggt/Baumslag-book.pdf)
 1. [Geometric group thy](https://bookstore.ams.org/coll-63/)
 
 
