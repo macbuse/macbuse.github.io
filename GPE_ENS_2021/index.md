@@ -84,9 +84,16 @@ following de la  Harpe's book  and a paper that improves on chapter VIII
 
 ---
 
-The first three chapters of the book
-are not directly relevant and we will skip.
-This leaves chapters IV - VII.
+## Contents
+
+Chapters I and III are not directly relevant.
+This leaves chapters II and IV - VII.
+
+
+II. Free products and free groups
+- II.A. Free products of groups
+- II/.B. The Table-Tennis Lemma (Klein's criterion) and examples
+of free products
 
 
 IV. Finitely-generated groups viewed as metric spaces
