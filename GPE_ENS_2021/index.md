@@ -126,16 +126,13 @@ we will do this chapter from a paper which appeared later and simplifies things
 
 ## Background
 
-The first three chapters of the book
-are not directly relevant and we will skip
-them in class but you should read them.
 It is important to understand the  [ping pong lemma](https://en.wikipedia.org/wiki/Ping-pong_lemma).
 
 Video of Grigorchuk (
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7AeD5FBOixo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## References for background reading
+### References for background reading
 
 The Wikipedia page in english is very complete 
 with history and references
