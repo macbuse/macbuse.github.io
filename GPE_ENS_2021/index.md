@@ -132,13 +132,18 @@ Will be added here to complement the exposes.
 
 ### Alternative de Tits
 
+---
+
 ** Theorem (Tits)**
 
 Let **G** be a finitely generated linear group over a field. Then two following possibilities occur: 
 - **G** is virtually solvable (i.e. has a solvable subgroup of finite index)
 - **G**  contains a nonabelian free group (i.e. it has a subgroup isomorphic to the free group on two generators).
 
+---
+
 - [wikipedia](https://en.wikipedia.org/wiki/Tits_alternative)
+- [Tao's blog](https://terrytao.wordpress.com/tag/tits-alternative/)
 
 
 ### Groups of polynomial growth
