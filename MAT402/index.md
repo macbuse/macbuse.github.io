@@ -5,12 +5,29 @@ title: Contact Page
 
 # Mat 402
 
-- This page is a repo for exchanges 
-in the TD group MIN-1. 
-- Last years
-materials and some corrections are
-[here](https://webusers.imj-prg.fr/~helene.eynard-bontemps/enseignement.html)
+This page is a repo for exchanges in the TD group  MAT2 (lun 15h15-16h45, mar 13h30-15h).
 
+- we will be meeting in Discord
+- [poly](https://www-fourier.ujf-grenoble.fr/~courtes/cours-mat402.pdf)
+- [page de responsable](https://www-fourier.ujf-grenoble.fr/~courtes)
+- [devoir
+    maison](https://www-fourier.ujf-grenoble.fr/~courtes/MAT402_rappels-series_2020.pdf)
+- materials and some corrections  from 2018 are
+[here](https://www-fourier.ujf-grenoble.fr/~eynardbh/enseignement.html)
+
+
+After each seance I'll post exos avec indications on this page.
+Normally there will be corrections for all the execises like last year:
+
+- [Last years page](../2019_MAT402)
+
+--
+
+- lundi 18/1 F1 exos 1 - 3 ![img](./m402_1.png)
+
+
+
+---
 
 To check DL (Maclaurin Series) I use online calculators
 
@@ -20,15 +37,3 @@ To check DL (Maclaurin Series) I use online calculators
 
 <img  width="50%" alt="taylor s" src="taylor.png">
 
----
-
-## Exercises with hints and comments
-
-- [F 4 seance 1](corr_4.1.pdf)
-- [F 4 seance 2](corr_4.2.pdf)
-- [F 4 seance 3+4](corr_4.3.pdf)
-- [correction 9c](9c.pdf)
-
-
-- [F_5 debut](corr_5.1.pdf)
-- [Correction](MAT402_COR-FR-5_2020.pdf)

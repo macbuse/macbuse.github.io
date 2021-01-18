@@ -25,6 +25,6 @@ title: none
 
 
 - Mondays and Fridays [Functional analysis](./FN_ANAL) 
-- Tuesdays and Thursdays [MAT 402](./MAT402)
+- Mondays  and Tuesdays [MAT 402](./MAT402)
 - Wednesdays I will be teaching at ENS-Lyon [Geometric Group Theory](./GPE_ENS_2021)
 
