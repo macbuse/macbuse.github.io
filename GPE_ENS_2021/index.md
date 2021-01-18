@@ -140,7 +140,7 @@ with history and references
 
 1. [Wikipedia page](https://en.wikipedia.org/wiki/Grigorchuk_group)
 1. [Some slides](https://mat.polsl.pl/groups/talks/Macedonska.pdf)
-1. [Topics in geometric gp thy](http://www.macs.hw.ac.uk/~lc45/Teaching/kggt/Baumslag-book.pdf)
+1. [Topics in combinatorial gp thy](http://www.macs.hw.ac.uk/~lc45/Teaching/kggt/Baumslag-book.pdf)
 1. [Geometric group thy](https://bookstore.ams.org/coll-63/)
 
 
@@ -152,6 +152,14 @@ with history and references
 
 Will be added here to complement the exposes.
 
+### Banach Tarski
+
+- [wikipedia](https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox)
+- free vs [amenable](https://en.wikipedia.org/wiki/Amenable_group) groups
+- [Von Neumann
+    conjecture](https://en.wikipedia.org/wiki/Von_Neumann_conjecture)
+
+![img](https://upload.wikimedia.org/wikipedia/commons/a/ab/Paradoxical_decomposition_F_2.svg)
 
 ### Alternative de Tits
 
