@@ -17,15 +17,10 @@ $x\in E, \,|f(x)|^p \leq |f(x)|^r$
 
 ### exo 3
 
-Hints again
+
 
 - $\mathbb{R}$ separable
 - $\mathbb{R}^2$ separable
-
----
-
-E, F separable $\Rightarrow E + F$ separable
-
 
 
 ---
