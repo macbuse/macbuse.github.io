@@ -27,9 +27,6 @@ Hints again
 E, F separable $\Rightarrow E + F$ separable
 
 
-$E_i \subset E_{i+1}$
-
-Zorn's Lemma ?
 
 ---
 
@@ -38,9 +35,23 @@ Zorn's Lemma ?
 - $L^2[0,1]$ separable (Fourier?)
 - $L^2(\mathbb{R})$ separable (base ortho norm... ?)
 
-$E \subset F$ with $F$ separable 
-$\Rightarrow E$ separable.
-
-- $\ell^\infty(\mathbb{N}) \subset L^\infty(\mathbb{R})$
+- $2^\mathbb{N} \hookrightarrow L^\infty(\mathbb{R})$
 
 ---
+
+### exo 7
+
+1/ Trouver une suite qui n'a aucune ss suite de CAUCHY genre:
+
+$\|f_n - f_m \| = 1,\, n\neq m$
+
+2/ $\forall \epsilon > 0,\, \exists M,\, \sum_{n>m} |b_n| < \epsilon$
+
+### exo 8
+
+1/ RAS
+
+2/ $u \in E, v \in \ell^\infty$  
+$\Rightarrow \| u - v \| > \lim \sup | u_n - v_n |$
+
+3/ $\|y \|_{B/F} := \inf \{ \| y \|, y \in x + F\},\, F \subset B$ ferme
