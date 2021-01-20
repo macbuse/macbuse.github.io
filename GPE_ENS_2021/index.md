@@ -22,7 +22,7 @@ Each seance will consist of
 - presentation in audio for 50 minutes with support in *pdf*
 - discussion  for 20-30 minutes either by text chat or video chat (depending on quality of connexion)
 - You will work in teams of 2 (binomes) as preparing the support for the presentations takes a **lot** of time.
-- The **pdf** should be submitted Wednesday 12h latest.
+- The **pdf** should be submitted Wednesday 9h latest.
 
 We will be meeting on 
 
@@ -39,13 +39,16 @@ we'll decide which is most convenient by email.
 
 ## Calendar for the exposes
 
-We will decide this by email
 
 
 date | nom | sujet
 --- | --- | ---
 20/1 | Greg Mc | Presentation
-27/1 | ??? | ???
+27/1 | Antoine D | ping-pong/Tits
+3/2| Simon A | graphe de Cayley etc
+??/2 | Pierre + Clement | quasi-isometries
+
+
 
 
 ---
