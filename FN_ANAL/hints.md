@@ -37,7 +37,7 @@ $x\in E, \,|f(x)|^p \leq |f(x)|^r$
 ### exo 4
 
 - $p < \infty,\, u_n \in \ell^p \Rightarrow \lim u_n = 0$
-- sur $\mathbb{R}$ chercher des contre exemples
+- sur $\mathbb{R}$ chercher des contre exemples $1/x, 1/\sqrt(x)$
 - sur $[0,1]$ appliquer Holder au produit $f^p \times 1$ 
 
 ### exo 7
