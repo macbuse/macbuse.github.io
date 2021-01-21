@@ -34,6 +34,12 @@ $x\in E, \,|f(x)|^p \leq |f(x)|^r$
 
 ---
 
+### exo 4
+
+- $p < \infty,\, u_n \in \ell^p \Rightarrow \lim u_n = 0$
+- sur $\mathbb{R}$ chercher des contre exemples
+- sur $[0,1]$ appliquer Holder au produit $f^p \times 1$ 
+
 ### exo 7
 
 1/ Trouver une suite qui n'a aucune ss suite de CAUCHY genre:
@@ -42,7 +48,7 @@ $\|f_n - f_m \| = 1,\, n\neq m$
 
 2/ $\forall \epsilon > 0,\, \exists M,\, \sum_{n>M} |b_n| < \epsilon$
 
-Tychonoff ?
+pensez a la preuve de Heine-Borel.
 
 ### exo 8
 
@@ -50,5 +56,18 @@ Tychonoff ?
 
 2/ $u \in E, v \in \ell^\infty$  
 $\Rightarrow \| u - v \| > \lim \sup | u_n - v_n |$
+:w
 
 3/ $\|y \|_{B/F} := \inf \{ \| y \|, y \in x + F\},\, F \subset B$ ferme
+
+
+
+### exo 9 
+
+1/ operateur continue => operateur borne
+
+2/ $E \subset \ell^\infty$ de l'exo 8 , Hahn-Banach  pour
+un operateur bien choisi genre $\lim_{n}?
+
+**ATTENTION** : on ne peut pas donner un exemple explicite !
+
