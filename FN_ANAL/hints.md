@@ -40,7 +40,9 @@ $x\in E, \,|f(x)|^p \leq |f(x)|^r$
 
 $\|f_n - f_m \| = 1,\, n\neq m$
 
-2/ $\forall \epsilon > 0,\, \exists M,\, \sum_{n>m} |b_n| < \epsilon$
+2/ $\forall \epsilon > 0,\, \exists M,\, \sum_{n>M} |b_n| < \epsilon$
+
+Tychonoff ?
 
 ### exo 8
 
