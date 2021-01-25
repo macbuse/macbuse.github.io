@@ -1,20 +1,18 @@
 
 ## UGA : TER 2020-21 : Majeur Mathématiques
 
-## Titre : Loi de réciprocité quadratique
+## Titre : Théorème des deux carrés de Fermat
 
-Résumé : en théorie des nombres, la loi de réciprocité quadratique, établit des liens entre les nombres premiers ; plus précisément, elle décrit la possibilité d'exprimer un nombre premier comme un carré modulo un autre nombre premier. Conjecturée par Euler et reformulée par Legendre, elle a été correctement démontrée pour la première fois par Gauss en 1801.
-Elle permet de résoudre les deux problèmes de base de la théorie des résidus quadratiques et est considérée comme un des théorèmes les plus importants de la théorie des nombres, ayant de nombreuses généralisations.
+
+Résumé : 
 
 **Théorème fondamental**
 
-Étant donnés deux nombres premiers impairs distincts p et q :
-
--  si p ou q est congru à 1 modulo 4, alors p est un carré modulo q si et seulement si q est un carré modulo p.
-- si p et q sont congrus à 3 modulo 4, alors p est un carré modulo q si et seulement si q n'est pas un carré modulo.
+Un nombre premier $p>2$ est somme de dex carres si et seulement si
+$p$ est congrue a 1 modulo 4
 
 
-Les premières démonstrations aujourd'hui considérées comme complètes sont publiées par Gauss dans ses *Disquisitiones arithmeticae* en 1801. On compte plus de 200 démonstrations et parmi elles la preuve de  D. Zagier est remarquable car elle  ne tient qu’une ligne.
+On compte des dixaines de démonstrations et parmi elles la preuve de  D. Zagier est remarquable car elle  ne tient qu’une ligne.
 
 On va étudier trois preuves de ce résultat :
 

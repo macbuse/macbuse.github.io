@@ -17,6 +17,8 @@ this is in english but I'm not having  my french keyboard.
 - [Course
     book](https://perso.telecom-paristech.fr/decreuse/_downloads/44d14d51b5d8b66b4a3aa0f6e9d2f9e0/analyse-fonctionnelle.pdf)
 - [Feuille 1](./td1-lp.pdf)
+- [Feuille duals](./td_duals.pdf)
+- [Feuille Hahn-Banach](./td3-Hahn-Banach-bis.pdf)
 
 The [hints page](https://github.com/macbuse/macbuse.github.io/blob/master/FN_ANAL/hints.md) will contain hints in TeX
 to view it properly you should install the MathJax plugin
@@ -83,6 +85,13 @@ These are hints for me ;)
 
 - [exo 7](https://en.wikipedia.org/wiki/Tychonoff%27s_theorem)
 - [exo 8](https://math.stackexchange.com/questions/660418/why-is-l-infty-not-separable/660422#:~:text=is%20an%20uncontably%20infinite%20collection,%E2%84%93%E2%88%9E%20is%20not%20separable.)
+
+### Weekend 23/1
+
+- devoir (non note)  exo 4 + exo 5 
+
+### Week 25/1
+
 - [exo 9](https://math.stackexchange.com/questions/868787/dual-of-l-infty-is-not-l1)
 
 ---
