@@ -7,7 +7,8 @@ title: Contact Page
 
 This page is a repo for exchanges in the TD group  MAT2 (lun 15h15-16h45, mar 13h30-15h).
 
-- we will be meeting in Discord
+- we will be meeting in Discord et on va parler (un peu) en
+    [TeX](https://macbuse.github.io/LATEX/).
 - [poly](https://www-fourier.ujf-grenoble.fr/~courtes/cours-mat402.pdf)
 - [page de responsable](https://www-fourier.ujf-grenoble.fr/~courtes)
 - [devoir
