@@ -44,15 +44,15 @@ we'll decide which is most convenient by email.
 date | nom | sujet
 --- | --- | ---
 20/1 | Greg Mc | Presentation
-27/1 | Antoine D | ping-pong/Tits
+27/1 | Antoines Petitjean et Derimay  | ping-pong/Tits
 3/2| Simon A | graphe de Cayley etc
 ??/2 | Pierre + Clement | quasi-isometries
 
 
-## 
+##  Seances etc.
 
--[27/1 texte](./Groupe_De_Lecture_1.pdf)
--[Tits alternative](./tits_alternative.pdf)
+- [27/1 texte](./Groupe_De_Lecture_1.pdf)
+- [Tits alternative](./tits_alternative.pdf)
 
 
 
