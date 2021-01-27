@@ -49,6 +49,11 @@ date | nom | sujet
 ??/2 | Pierre + Clement | quasi-isometries
 
 
+## 
+
+-[27/1 texte](./Groupe_De_Lecture_1.pdf)
+-[Tits alternative](./tits_alternative.pdf)
+
 
 
 ---
