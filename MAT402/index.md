@@ -26,6 +26,7 @@ Normally there will be corrections for all the execises like last year:
 
 - lundi 18/1 F1 exos 1 - 3 ![img](./m402_1.png)
 - [elts de correction](./f1_1-4.pdf)
+- [exo 6](./corr_mat402_1_6.pdf)
 
 
 
