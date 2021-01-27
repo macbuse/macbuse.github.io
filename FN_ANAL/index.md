@@ -89,6 +89,8 @@ These are hints for me ;)
 ### Weekend 23/1
 
 - devoir (non note)  exo 4 + exo 5 
+- [correction exo 3](./corr_exo3.pdf)
+- [correction exo 4](./corr_exo4.pdf)
 
 ### Week 25/1
 
