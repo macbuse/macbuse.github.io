@@ -17,7 +17,7 @@ this is in english but I'm not having  my french keyboard.
 - [Course
     book](https://perso.telecom-paristech.fr/decreuse/_downloads/44d14d51b5d8b66b4a3aa0f6e9d2f9e0/analyse-fonctionnelle.pdf)
 - [Feuille 1](./td1-lp.pdf)
-- [Feuille duals](./td_duals.pdf)
+- [Feuille 2](./td_duals.pdf)
 - [Feuille Hahn-Banach](./td3-Hahn-Banach-bis.pdf)
 
 The [hints page](https://github.com/macbuse/macbuse.github.io/blob/master/FN_ANAL/hints.md) will contain hints in TeX
@@ -97,6 +97,11 @@ These are hints for me ;)
 
 - [correction exo 8](./corr_1_8.pdf)
 - [exo 9](https://math.stackexchange.com/questions/868787/dual-of-l-infty-is-not-l1)
+
+
+### Week  1/2
+
+- feuille 2 exos 1,2
 
 ---
 ## Names
