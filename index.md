@@ -29,12 +29,10 @@ or a TER
 
 ### What do I do?
 
-- Directeur de <a href="http://tresses.math.cnrs.fr">GDR TRESSES</a>
+- Ex directeur de <a href="http://tresses.math.cnrs.fr">GDR TRESSES</a>
 - Editor <a href="http://aif.cedram.org/?lang=fr">Annales de l'Institut Fourier</a>
 - Principal investigator l'equipe action ```ToFu```
-
 - <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf">CV</a>
-
 -  <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf">research statement</a>
 - <a href="https://github.com/macbuse">my github account</a>
 
@@ -48,11 +46,14 @@ and
 <a href="https://github.com/macbuse/Mandelbrottle"> 3D printing of fractals</a>.
 </p>
 
-I'm back from a sabbatical in the US at Brown University
+I was a member of ICERM at Brown University in 2018 participating in
 <a href="https://icerm.brown.edu/programs/sp-f19/">Illustrating Math</a>
 and visits to
 -    Boston College
 -    CUNY Graduate Center
+
+Here is the [book](https://bookstore.ams.org/mbk-135)
+that we wrote during the semester.
 
 And where I got time to do write stuff for Inkscape like this
 <a href="https://inkscape.org/~macbuse/%E2%98%85apollonian-master">Apollonian Packings</a>
