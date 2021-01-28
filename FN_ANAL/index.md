@@ -94,6 +94,8 @@ These are hints for me ;)
 
 ### Week 25/1
 
+
+- [correction exo 8](./corr_1_8.pdf)
 - [exo 9](https://math.stackexchange.com/questions/868787/dual-of-l-infty-is-not-l1)
 
 ---
