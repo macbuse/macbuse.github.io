@@ -51,10 +51,17 @@ date | nom | sujet
 
 ##  Seances etc.
 
+### 27/1 
+
 - [27/1 texte](./Groupe_De_Lecture_1.pdf)
-- [Tits alternative](./tits_alternative.pdf)
+- [Tits alternative](./tits_alternative.pdf) in SL(2,**R**)
+- Do the exercise!!
 
+![img](./exo_32.png)
 
+### 3/2
+
+### 10/2
 
 ---
 
