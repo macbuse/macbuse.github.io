@@ -30,9 +30,12 @@ for Chrome/Chromium by following
 
 ## Evaluation
 
-I have to check this but there will be three short 
-**devoir maisons**.
+I have to check this but there will be three short DM
+(typiquement 1 exo dans une feuille de TD).
 
+- 5/2 
+-
+-
 
 ---
 
@@ -101,7 +104,15 @@ These are hints for me ;)
 
 ### Week  1/2
 
+En distanciel lundi + vendredi
+
 - feuille 2 exos 1,2
+- Devoir maison (a venir)
+
+### Week  8/2
+
+En presentiel lundi + distanciel vendredi
+
 
 ---
 ## Names
