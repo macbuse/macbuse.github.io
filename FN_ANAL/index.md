@@ -31,7 +31,10 @@ for Chrome/Chromium by following
 ## Evaluation
 
 I have to check this but there will be three short DM
-(typiquement 1 exo dans une feuille de TD).
+[master 285469c] web
+ 1 file changed, 13 insertions(+), 2 deletions(-)
+To https://github.com/macbuse/macbuse.github.io.git
+   6c1a154..285469c  master -> master
 
 - 5/2 
 -
@@ -100,6 +103,7 @@ These are hints for me ;)
 
 - [correction exo 8](./corr_1_8.pdf)
 - [exo 9](https://math.stackexchange.com/questions/868787/dual-of-l-infty-is-not-l1)
+- [correction exo 9](./corr_1_9.pdf)
 
 
 ### Week  1/2
@@ -107,6 +111,7 @@ These are hints for me ;)
 En distanciel lundi + vendredi
 
 - feuille 2 exos 1,2
+- [correction exo 1](./corr_1_8.pdf)
 - Devoir maison (a venir)
 
 ### Week  8/2
