@@ -111,7 +111,7 @@ These are hints for me ;)
 En distanciel lundi + vendredi
 
 - feuille 2 exos 1,2
-- [correction exo 1](./corr_1_8.pdf)
+- [correction exo 1](./corr_f2_1.pdf)
 - Devoir maison (a venir)
 
 ### Week  8/2
