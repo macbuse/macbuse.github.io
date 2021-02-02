@@ -61,7 +61,7 @@ J'ai telecharge depuis le Moodle
 
 ---
 
-- lundi 8/1 (regarder la feuille 2 sure les suites de fonctions)
+- lundi 8/1 (regarder la feuille 2 sur les suites de fonctions)
 -
 
 ---
@@ -70,7 +70,8 @@ To draw graphs and check DL (Maclaurin Series) I use online calculators
 
 - [graphe](https://www.wolframalpha.com/input/?i=plot+x+-+x%5E3+from+0+to+1+)
 - [DL](https://www.wolframalpha.com/input/?i=taylor+series+%28x%5E2+%2B+2x+-1%29+exp%28x%29+at+x+%3D+0)
-
+- [somme d'une
+    serie](https://www.wolframalpha.com/input/?i=sum+1%2F%28n%2B2%29*2%5En%2F3%5E%28n%2B1%29%2C+n%3D1+to+infinity)
 
 <img  width="50%" alt="taylor s" src="./graphe.png">
 <img  width="50%" alt="taylor s" src="taylor.png">
