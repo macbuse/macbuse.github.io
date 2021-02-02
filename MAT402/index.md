@@ -50,8 +50,7 @@ Normally there will be corrections for all the execises like last year:
 ---
 
 - lundi 1/1 Finir exo 7, preparer F1 exo 10 
-- [correction exo 7](./corr_1_7.pdf)
-- [correction exo 8&9](./corr_1_8-10.pdf)
+- [correction exo 7&8](./corr_1_8-10.pdf)
 - [correction exo 10](./corr_1_10.pdf)
 - [correction exo 11](./corr_1_11.pdf)
 
