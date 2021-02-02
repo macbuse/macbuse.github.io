@@ -5,8 +5,12 @@ title: Contact Page
 
 # Mat 402
 
-This page is a repo for exchanges in the TD group  MAT2 (lun 15h15-16h45, mar 13h30-15h).  We will be meeting in **Discord** et on va parler (un peu) en
+- This page is a repo for exchanges in the TD group  MAT2 (lun 15h15-16h45, mar 13h30-15h).  
+-  We will be meeting in **Discord** et on va parler (un peu) en
     [TeX](https://macbuse.github.io/LATEX/).
+- After each seance I'll post exos avec indications on this page.
+Normally there will be corrections for all the execises like [last
+year](../2019_MAT402).
 
 
 
@@ -29,16 +33,15 @@ J'ai telecharge depuis le Moodle
 - [feuille 1](./MAT402_EXOS-1_2021.pdf)
 - [feuille 2](./MAT402_EXOS-2_2021.pdf)
 
+---
+
 - [devoir
     maison](https://www-fourier.ujf-grenoble.fr/~courtes/MAT402_rappels-series_2020.pdf)
 - materials and some corrections  from 2018 are
 [here](https://www-fourier.ujf-grenoble.fr/~eynardbh/enseignement.html)
-
-
-After each seance I'll post exos avec indications on this page.
-Normally there will be corrections for all the execises like last year:
-
 - [Last years page](../2019_MAT402)
+
+
 
 ---
 
@@ -56,7 +59,7 @@ Normally there will be corrections for all the execises like last year:
 
 ---
 
-- lundi 8/1 (regarder la feuille 2 suites de fonctions)
+- lundi 8/1 (regarder la feuille 2 sure les suites de fonctions)
 -
 
 ---
