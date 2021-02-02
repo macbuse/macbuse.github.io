@@ -5,7 +5,10 @@ title: Contact Page
 
 # Mat 402
 
-This page is a repo for exchanges in the TD group  MAT2 (lun 15h15-16h45, mar 13h30-15h).
+This page is a repo for exchanges in the TD group  MAT2 (lun 15h15-16h45, mar 13h30-15h).  We will be meeting in **Discord** et on va parler (un peu) en
+    [TeX](https://macbuse.github.io/LATEX/).
+
+
 
 **27/1** Attention suite a vos mails j'ai change le lien vers Discord sur Moodle.C'est tjrs le meme serveur que pour les seances de 25/1 et 26/1.
 
@@ -13,12 +16,19 @@ Cherchez l'icone :
 
 ![img](./logo.png)
 
+ Voici [la page de responsable](https://www-fourier.ujf-grenoble.fr/~courtes)
+
 ---
 
-- we will be meeting in Discord et on va parler (un peu) en
-    [TeX](https://macbuse.github.io/LATEX/).
+
+### Documents 
+
+J'ai telecharge depuis le Moodle
+
 - [poly](https://www-fourier.ujf-grenoble.fr/~courtes/cours-mat402.pdf)
-- [page de responsable](https://www-fourier.ujf-grenoble.fr/~courtes)
+- [feuille 1](./MAT402_EXOS-1_2021.pdf)
+- [feuille 2](./MAT402_EXOS-2_2021.pdf)
+
 - [devoir
     maison](https://www-fourier.ujf-grenoble.fr/~courtes/MAT402_rappels-series_2020.pdf)
 - materials and some corrections  from 2018 are
@@ -32,7 +42,6 @@ Normally there will be corrections for all the execises like last year:
 
 ---
 
-- [feuille 1](./MAT402_EXOS-1_2021.pdf)
 
 - lundi 25/1 F1 exos 1 - 3 ![img](./m402_1.png)
 - [elts de correction](./f1_1-4.pdf)
@@ -42,6 +51,14 @@ Normally there will be corrections for all the execises like last year:
 
 - lundi 1/1 Finir exo 7, preparer F1 exo 10 
 - [correction exo 7](./corr_1_7.pdf)
+- [correction exo 8&9](./corr_1_8-10.pdf)
+- [correction exo 10](./corr_1_10.pdf)
+- [correction exo 11](./corr_1_11.pdf)
+
+---
+
+- lundi 8/1 (regarder la feuille 2 suites de fonctions)
+-
 
 ---
 
