@@ -45,6 +45,8 @@ J'ai telecharge depuis le Moodle
 
 ---
 
+## Seances
+
 
 - lundi 25/1 F1 exos 1 - 3 ![img](./m402_1.png)
 - [elts de correction](./f1_1-4.pdf)
