@@ -28,8 +28,7 @@ We will be meeting on
 
 - Zoom 
 
-we'll decide which is most convenient by email.
-
+I'll send the **Zoom** link when I get the **pdf**.
 
 [Here is what we did](https://macbuse.github.io/GPE_ENS/) last year during the confinement.
 
