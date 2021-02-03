@@ -26,9 +26,7 @@ Each seance will consist of
 
 We will be meeting on 
 
-- [Discord](https://discordapp.com/).
 - Zoom 
-- BBB
 
 we'll decide which is most convenient by email.
 
@@ -46,8 +44,10 @@ date | nom | sujet
 20/1 | Greg Mc | Presentation
 27/1 | Antoines Petitjean et Derimay  | ping-pong/Tits
 3/2| Simon A | graphe de Cayley etc
-??/2 | Pierre + Clement | quasi-isometries
-
+10/2 | Pierre + Clement | quasi-isometries
+24/2 | Theotime | Growth functions and growth series of groups
+?? | Arthur |Generalities on growth types
+?? | ??| Exponential growih rate and entropy
 
 ##  Seances etc.
 
