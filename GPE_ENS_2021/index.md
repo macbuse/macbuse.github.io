@@ -60,7 +60,17 @@ date | nom | sujet
 
 ### 3/2
 
+[thin
+triangles](https://math.stackexchange.com/questions/1028431/thin-triangles-vs-slim-triangles-in-hyperbolic-spaces)
+[thin triangles and
+hyperbolicity](http://pageperso.lif.univ-mrs.fr/~victor.chepoi/hyperbolic_center.pdf)
+
 ### 10/2
+
+[Morse
+Lemma](https://perso.univ-rennes1.fr/sebastien.gouezel/articles/morse_lemma.pdf)
+[Shchur's thesis](https://www.theses.fr/171959159)
+
 
 ---
 
