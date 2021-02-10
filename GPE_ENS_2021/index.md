@@ -60,10 +60,13 @@ date | nom | sujet
 
 ### 3/2
 
+
 [thin
 triangles](https://math.stackexchange.com/questions/1028431/thin-triangles-vs-slim-triangles-in-hyperbolic-spaces)
 [thin triangles and
 hyperbolicity](http://pageperso.lif.univ-mrs.fr/~victor.chepoi/hyperbolic_center.pdf)
+
+![img](https://upload.wikimedia.org/wikipedia/commons/4/46/Delta_thin_triangle_condition.svg)
 
 ### 10/2
 
