@@ -121,6 +121,7 @@ En distanciel lundi + vendredi
 - [correction exo 1](./corr_f2_1.pdf)
 - [correction exo 2](./corr_f2_2.pdf)
 - [correction exo 5](./corr_f2_5.pdf)
+- [correction exo 1](./corr_f3_1.pdf)
 
 ---
 ## Names
