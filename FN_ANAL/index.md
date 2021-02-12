@@ -112,16 +112,20 @@ En distanciel lundi + vendredi
 
 - feuille 2 exos 1,2
 - [correction exo 1](./corr_f2_1.pdf)
+- [correction exo 2](./corr_f2_2.pdf)
 - Devoir maison (a venir)
 
 ### Week  8/2
 
 - En presentiel lundi + distanciel vendredi
 - Devoir f2 exo 6 a rendre 15/2 (par message sur Discord)
-- [correction exo 1](./corr_f2_1.pdf)
-- [correction exo 2](./corr_f2_2.pdf)
+- [correction exo 3]()
 - [correction exo 5](./corr_f2_5.pdf)
 - [correction exo 1](./corr_f3_1.pdf)
+
+### Week 15/2
+
+Vacances ?
 
 ### Week  22/2
 
