@@ -118,6 +118,7 @@ En distanciel lundi + vendredi
 
 - En presentiel lundi + distanciel vendredi
 - Devoir f2 exo 6 a rendre 15/2
+- [correction exo 1](./corr_f2_1.pdf)
 - [correction exo 2](./corr_f2_2.pdf)
 - [correction exo 5](./corr_f2_5.pdf)
 
