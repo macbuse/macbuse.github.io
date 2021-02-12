@@ -160,6 +160,8 @@ These are the names I have for this group:
 ## Diverse references
 
 
+
+
 When I teach I read a lot of things related to the material
 you can see what I'm reading here... 
 
@@ -167,6 +169,8 @@ Sometimes
 
 - it's because I have forgotten the definitions/theorems
 - it's because I am looking for the most elegant approach
+
+[Distances in ML](https://towardsdatascience.com/9-distance-measures-in-data-science-918109d069fa)
 
 [Separable banach characterisation](https://www.jstor.org/stable/2161889?seq=1)
 
