@@ -66,7 +66,7 @@ J'ai telecharge depuis le Moodle
 
 ---
 
-- lundi 22/2 (regarder la feuille 2 sur les suites de fonctions)
+- lundi 22/2 (feuille 2 exo 5 et 6 )
 -
 ---
 
