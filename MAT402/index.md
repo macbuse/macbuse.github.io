@@ -54,16 +54,20 @@ J'ai telecharge depuis le Moodle
 
 ---
 
-- lundi 1/1 Finir exo 7, preparer F1 exo 10 
+- lundi 1/2 Finir exo 7, preparer F1 exo 10 
 - [correction exo 7&8](./corr_1_8-10.pdf)
 - [correction exo 10](./corr_1_10.pdf)
 - [correction exo 11](./corr_1_11.pdf)
 
 ---
 
-- lundi 8/1 (regarder la feuille 2 sur les suites de fonctions)
+- lundi 8/2 (regarder la feuille 2 sur les suites de fonctions)
 -
 
+---
+
+- lundi 22/2 (regarder la feuille 2 sur les suites de fonctions)
+-
 ---
 
 To draw graphs and check DL (Maclaurin Series) I use online calculators
