@@ -61,13 +61,17 @@ J'ai telecharge depuis le Moodle
 
 ---
 
+
 - lundi 8/2 (regarder la feuille 2 sur les suites de fonctions)
--
+- [corrections](./corr_f2_1-4.pdf)
 
 ---
 
+
 - lundi 22/2 (feuille 2 exo 5 et 6 )
--
+- [correction](./corr_f2_6-8.pdf)
+- mardi 23/2 (finir feuille 2)
+
 ---
 
 To draw graphs and check DL (Maclaurin Series) I use online calculators
