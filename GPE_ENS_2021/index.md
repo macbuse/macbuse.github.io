@@ -45,8 +45,10 @@ date | nom | sujet
 3/2| Simon A | graphe de Cayley etc
 10/2 | Pierre + Clement | quasi-isometries
 24/2 | Theotime | Growth functions and growth series of groups
-?? | Arthur |Generalities on growth types
-?? | ??| Exponential growih rate and entropy
+?? | Arthur | Generalities on growth types
+?? | ??| Exponential growth rate and entropy
+?? | ?? | On groups of (uniformly) exponential growth
+?? | ?? | On groups of polynomial/other growth
 
 ##  Seances etc.
 
@@ -146,7 +148,7 @@ IV. Finitely-generated groups viewed as metric spaces
 VI. Growth of finitely-generated groups
 - VI.A. Growth functions and growth series of groups
 - VI.B. Generalities on growth types
-- VI.C. Exponential growih rate and entropy
+- VI.C. Exponential growth rate and entropy
 
 VII. Groups of exponential or polynomial growth
 - VII.A. On groups of exponential growth
