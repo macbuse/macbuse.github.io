@@ -77,7 +77,7 @@ Lemma](https://perso.univ-rennes1.fr/sebastien.gouezel/articles/morse_lemma.pdf)
 - [Shchur's thesis](https://www.theses.fr/171959159)
 
 
-### 10/2
+### 24/2
 
 Growth functions 
 
