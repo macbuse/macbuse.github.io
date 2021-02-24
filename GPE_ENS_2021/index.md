@@ -45,10 +45,10 @@ date | nom | sujet
 3/2| Simon A | graphe de Cayley etc
 10/2 | Pierre + Clement | quasi-isometries
 24/2 | Theotime | Growth functions and growth series of groups
-?? | Arthur | Generalities on growth types
-?? | ??| Exponential growth rate and entropy
-?? | ?? | On groups of (uniformly) exponential growth
-?? | ?? | On groups of polynomial/other growth
+3/3 | Arthur | Generalities on growth types
+17/3 | ??| Exponential growth rate and entropy
+24/3 | ?? | On groups of (uniformly) exponential growth
+31/3 | ?? | On groups of polynomial/other growth
 
 ##  Seances etc.
 
