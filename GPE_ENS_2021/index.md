@@ -75,6 +75,18 @@ Lemma](https://perso.univ-rennes1.fr/sebastien.gouezel/articles/morse_lemma.pdf)
 - [Shchur's thesis](https://www.theses.fr/171959159)
 
 
+### 10/2
+
+Growth functions 
+
+[text](./Fonctions de croissance.pdf)
+
+- [Chomsky's
+theorem](https://en.wikipedia.org/wiki/Chomsky%E2%80%93Sch%C3%BCtzenberger_enumeration_theorem#:~:text=In%20formal%20language%20theory%2C%20the,an%20unambiguous%20context%2Dfree%20grammar.)
+- [regular language](https://en.wikipedia.org/wiki/Regular_language)
+- [automatic groups](https://en.wikipedia.org/wiki/Automatic_group)
+
+
 ---
 
 # Presentation of text
