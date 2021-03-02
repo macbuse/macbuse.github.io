@@ -68,10 +68,16 @@ J'ai telecharge depuis le Moodle
 
 ---
 
-
 - lundi 22/2 (feuille 2 exo 5 et 6 )
 - [correction](./corr_f2_6-8.pdf)
 - mardi 23/2 (finir feuille 2)
+- [correction feulle 2](./corr_f2.pdf)
+
+---
+
+- lundi 1/3 (feuille 3 exo 1 et 2 )
+- [correction](./corr_f3_1_2.pdf).pdf)
+-
 
 ---
 
