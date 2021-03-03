@@ -78,7 +78,7 @@ J'ai telecharge depuis le Moodle
 - lundi 1/3 (feuille 3 exo 1 et 2 )
 - [correction](./corr_f3_1_2.pdf)
 - mardi 2/3 
-- [correction]()
+- [correction](./)
 
 ---
 

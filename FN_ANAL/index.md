@@ -31,12 +31,8 @@ for Chrome/Chromium by following
 ## Evaluation
 
 I have to check this but there will be three short DM
-[master 285469c] web
- 1 file changed, 13 insertions(+), 2 deletions(-)
-To https://github.com/macbuse/macbuse.github.io.git
-   6c1a154..285469c  master -> master
 
-- 5/2 
+- 5/2  f2 exo 6 
 -
 -
 
@@ -131,10 +127,11 @@ Vacances ?
 
 - En distanciel
 - f3 exo 2, f3 exo 3
-- [correction]( )
+- [correction exos 2,3,4](./corr_f3_2_4.pdf)
 
 ### Week 1/3
 
+- [correction exos 6,7,8](./corr_f3_6_8.pdf)
 - lundi rapporte (date provisoire 10/3 13h45)
 - vendredi f3 exos 1, 2
 -
