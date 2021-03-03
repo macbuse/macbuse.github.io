@@ -89,6 +89,12 @@ theorem](https://en.wikipedia.org/wiki/Chomsky%E2%80%93Sch%C3%BCtzenberger_enume
 - [automatic groups](https://en.wikipedia.org/wiki/Automatic_group)
 
 
+### 3/3
+
+Generalities on growth 
+
+- [text](./arthur.pdf)
+
 ---
 
 # Presentation of text
