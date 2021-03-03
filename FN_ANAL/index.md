@@ -132,6 +132,7 @@ Vacances ?
 ### Week 1/3
 
 - [correction exos 6,7,8](./corr_f3_6_8.pdf)
+- [correction exo 9](./corr_f3_9.pdf)
 - lundi rapporte (date provisoire 10/3 13h45)
 - vendredi f3 exos 1, 2
 -
