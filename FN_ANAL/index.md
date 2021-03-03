@@ -130,7 +130,19 @@ Vacances ?
 ### Week  22/2
 
 - En distanciel
-- f3 exo 2, f2 exo 3
+- f3 exo 2, f3 exo 3
+- [correction]( )
+
+### Week 1/3
+
+- lundi rapporte (date provisoire 10/3 13h45)
+- vendredi f3 exos 1, 2
+-
+
+### Week 8/3
+
+- lundi 
+- mercredi rattrapage du 1/3 a 13h45
 
 
 ---
