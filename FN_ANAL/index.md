@@ -19,6 +19,7 @@ this is in english but I'm not having  my french keyboard.
 - [Feuille 1](./td1-lp.pdf)
 - [Feuille 2](./td_duals.pdf)
 - [Feuille Hahn-Banach](./td3-Hahn-Banach-bis.pdf)
+- [Feuille 4](./td4-Graphe-ferme.pdf)
 
 The [hints page](https://github.com/macbuse/macbuse.github.io/blob/master/FN_ANAL/hints.md) will contain hints in TeX
 to view it properly you should install the MathJax plugin
