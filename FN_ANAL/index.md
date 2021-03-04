@@ -140,7 +140,11 @@ Vacances ?
 
 ### Week 8/3
 
-- lundi 
+- lundi exam (a reviser)
+  - feuilles de TD : f1 - f3
+  - Hahn Banach
+  - espace dual
+  
 - mercredi rattrapage du 1/3 a 13h45
 
 
