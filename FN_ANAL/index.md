@@ -21,10 +21,6 @@ this is in english but I'm not having  my french keyboard.
 - [Feuille Hahn-Banach](./td3-Hahn-Banach-bis.pdf)
 - [Feuille 4](./td5-Graphe-ferme-2019.pdf)
 
-The [hints page](https://github.com/macbuse/macbuse.github.io/blob/master/FN_ANAL/hints.md) will contain hints in TeX
-to view it properly you should install the MathJax plugin
-for Chrome/Chromium by following 
-[these instructions](https://github.com/orsharir/github-mathjax/issues/37).
 
 
 --- 
@@ -135,8 +131,8 @@ Vacances ?
 - [correction exos 6,7,8](./corr_f3_6_8.pdf)
 - [correction exo 9](./corr_f3_9.pdf)
 - lundi rapporte (date provisoire 10/3 13h45)
-- vendredi f4 exos 1, 2
--
+- vendredi f3 exo 5
+- [correction](./corr_f3_1.pdf_5.pdf)
 
 ### Week 8/3
 
