@@ -149,18 +149,14 @@ Vacances ?
 
 These are the names I have for this group:
 
-- Filippo Casagrande 
 - Axel Chatelard 
 - Aurelien Devaux 
 - Maxance Ducamps 
 - Maxime Dufreney 
-- Nolwenn Faivre D'Arcier 
 - Remi Haessig 
-- Paola Letquimounin 
 - Nais Leveque 
 - Hugo Maitre 
 - Mathis Martin 
-- Emma Michel 
 - Ambroise MINOT
 - Liticia RENAULT
 - Léo RUBEAUX
