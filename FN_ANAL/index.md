@@ -142,8 +142,12 @@ Vacances ?
   - espace dual
   
 - mercredi rattrapage du 1/3 a 13h45
+- vendredi finir exo 3
 
 
+### Week 15/3
+
+- presentiel f4 exo 5, f4 exo 2
 ---
 ## Names
 
