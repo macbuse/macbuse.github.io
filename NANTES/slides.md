@@ -102,7 +102,7 @@ Natural  = 200$PSL(2,\mathbb{Z})$-equivariant map
 200$\mathbb{Q}\cup \infty \rightarrow$ Markoff numbers 200$p/q \mapsto m_{p/q}$
 
 - 200$(1:1) \mapsto  1/1 \mapsto 2$ 
-- 200$(0:1) \mapsto  1/1 \mapsto 1$ 
+- 200$(0:1) \mapsto  0/1 \mapsto 1$ 
 - 200$(1:0) \mapsto  \infty \mapsto 1$ 
 - actions = projective on left and by autos on right
 
@@ -168,9 +168,9 @@ fundamental group of the torus.
 
 200$N(t) =$ number of Markoff numbers 200$\leq t$
 
-200$N(t) = C (\log(3t)^2 + O(\log t)$
+200$N(t) = C (\log(3t))^2 + O(\log t)$
 
-- Zagier (1982) On the Number of Markov Numbers Below a Given Bound. Mathematics of Computation.
+- Zagier (1982) [On the Number of Markov Numbers Below a Given Bound.](https://www.ams.org/journals/mcom/1982-39-160/S0025-5718-1982-0669663-7/S0025-5718-1982-0669663-7.pdf) Mathematics of Computation.
 - Greg McShane, Igor Rivin [A norm on homology of surfaces and counting simple geodesics](https://arxiv.org/abs/math/0005222){target="_blank"} 
 
 #
