@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="greg mc">
+  <title>Markoff numbers</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="mycss.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://unpkg.com/reveal.js@3.9.2//css/print/pdf.css' : 'https://unpkg.com/reveal.js@3.9.2//css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Markoff numbers</h1>
+  <p class="author">greg mc</p>
+  <p class="date">mars 2021</p>
+</section>
+
+<section id="section" class="slide level1">
+<h1></h1>
+<p><img src="./Martin_Aigner.jpg" width="400"></p>
+<ul>
+<li class="fragment"><a href="https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem" target="_blank">Proofs from THE BOOK</a></li>
+<li class="fragment"><a href="https://arxiv.org/abs/2101.03316" target="_blank">Convexity and Aigner's Conjectures</a></li>
+<li class="fragment">Can I prove these with one figure ?</li>
+</ul>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<p>Markov numbers are integers that appear in triples which are solutions of a Diophantine equation the so-called Markov cubic</p>
+<p><span style="font-size: 200%"><span class="math inline">\(x^2 + y^2 + z^2 - 3x y z = 0.\)</span></span></p>
+<p><span class="math inline">\((1,1,1),(1,1,2),(1,2,5),(1,5,13)\)</span></p>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<h2 id="infinity-of-markoff-numbers">infinity of Markoff numbers</h2>
+<p><span class="math inline">\(\begin{pmatrix} 3 &amp; -1 \\ 1 &amp; 0 \end{pmatrix}\)</span> is an automorph of <span style="font-size: 150%"><span class="math inline">\(x^2 + y^2 - 3x y.\)</span></span></p>
+<p>so <span style="font-size: 150%"><span class="math inline">\(( v_n,v_{n+1},1)\)</span></span> is a solution where</p>
+<p><span style="font-size: 200%"><span class="math inline">\(\begin{pmatrix}v_{n+1} \\ v_n \end{pmatrix} = \begin{pmatrix} 3 &amp; -1 \\ 1 &amp; 0 \end{pmatrix}^n \begin{pmatrix}1 \\ 1 \end{pmatrix}\)</span></span></p>
+</section>
+<section id="section-3" class="slide level1">
+<h1></h1>
+<h3 id="odd-index-fibonacci-numbers-are-markoff-numbers">Odd index Fibonacci numbers are Markoff numbers</h3>
+<p><span class="math inline">\(1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...\)</span></p>
+<p><span style="font-size: 200%"><span class="math inline">\((1,1,1),(1,1,2),(1,2,5),(1,5,13)\)</span></span></p>
+</section>
+<section id="section-4" class="slide level1">
+<h1></h1>
+<h3 id="frobenius-uniqueness-conjecture">Frobenius uniqueness conjecture</h3>
+<p>The largest integer in a triple determines the two other numbers.</p>
+</section>
+<section id="section-5" class="slide level1">
+<h1></h1>
+<h3 id="aigners-monotonicity-conjectures">Aigner's monotonicity conjectures</h3>
+<ul>
+<li class="fragment">Markov’s theorem and 100 years of the uniqueness conjecture. A mathematical journey from irrational numbers to perfect matchings. 2013.<br />
+</li>
+<li class="fragment">M. Rabideaua, R. Schiffler, Continued fractions and orderings on the Markov numbers, Advances in Mathematics Vol 370, 2020.</li>
+<li class="fragment">C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markov numbers: fixed numerator, denominator, and sum conjectures.</li>
+</ul>
+</section>
+<section id="section-6" class="slide level1">
+<h1></h1>
+<p>there is a natural map</p>
+<p><span style="font-size: 200%"><span class="math inline">\(\mathbb{Q}\cup \infty \rightarrow\)</span></span> Markoff numbers</p>
+<p><span style="font-size: 200%"><span class="math inline">\(p/q \mapsto m_{p,q}\)</span></span></p>
+<p><img src="./aigner_mono.png" width="700"></p>
+</section>
+<section id="section-7" class="slide level1">
+<h1></h1>
+<h3 id="geometric-structure">Geometric structure</h3>
+<ul>
+<li class="fragment">group action</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\mathbb{Z}/2 * \mathbb{Z}/2 * \mathbb{Z}/2\)</span></span> action</li>
+<li class="fragment"><a href="https://en.wikipedia.org/wiki/Vieta_jumping" target="_blank">Vieta flipping</a></li>
+</ul>
+</section>
+<section id="section-8" class="slide level1">
+<h1></h1>
+<h3 id="vieta-flipsinvolutions">Vieta flips/involutions</h3>
+<p><span style="font-size: 250%"><span class="math inline">\(x^2 + y^2 + z^2 - 3x y z = 0.\)</span></span></p>
+<ul>
+<li class="fragment">quadratic in <span style="font-size: 200%"><span class="math inline">\(x\)</span></span>, two roots <span style="font-size: 200%"><span class="math inline">\(x^\pm\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(x^+ + x^- = 3yz\)</span></span></li>
+<li class="fragment">involution <span style="font-size: 200%"><span class="math inline">\((x,y,z) \mapsto (3yz -x, y,z)\)</span></span></li>
+</ul>
+</section>
+<section id="section-9" class="slide level1">
+<h1></h1>
+<p>Peter Sarnak (Princeton and IAS)</p>
+<p>Title: Strong approximation for Markoff surfaces</p>
+<p>We discuss the transitivity properties of the group of morphisms generated by Vieta involutions on the solutions in congruences to the Markoff equation as well as to other Markoff type affine cubic surfaces. These are dictated in part by the finite orbits of these actions on the algebraic points</p>
+<p>Joint work with J.Bourgain and A.Gamburd.</p>
+</section>
+<section id="automorphisms" class="slide level1">
+<h1>Automorphisms</h1>
+<ul>
+<li class="fragment">Vieta flips</li>
+<li class="fragment">(cyclic) permutations of <span style="font-size: 200%"><span class="math inline">\(x,y,z\)</span></span></li>
+<li class="fragment">get <span style="font-size: 200%"><span class="math inline">\(\mathbb{Z}/2 * \mathbb{Z}/3\)</span></span> action</li>
+<li class="fragment">= <span style="font-size: 200%"><span class="math inline">\(PSL(2,\mathbb{Z})\)</span></span> action</li>
+</ul>
+</section>
+<section id="section-10" class="slide level1">
+<h1></h1>
+<p>Natural = <span style="font-size: 200%"><span class="math inline">\(PSL(2,\mathbb{Z})\)</span></span>-equivariant map</p>
+<p><span style="font-size: 200%"><span class="math inline">\(\mathbb{Q}\cup \infty \rightarrow\)</span></span> Markoff numbers <span style="font-size: 200%"><span class="math inline">\(p/q \mapsto m_{p/q}\)</span></span></p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((1:1) \mapsto 1/1 \mapsto 2\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((0:1) \mapsto 1/1 \mapsto 1\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((1:0) \mapsto \infty \mapsto 1\)</span></span></li>
+<li class="fragment">actions = projective on left and by autos on right</li>
+</ul>
+</section>
+<section id="section-11" class="slide level1">
+<h1></h1>
+<h3 id="tree-structure">Tree structure</h3>
+<p>comes from Cayley graph of <span style="font-size: 200%"><span class="math inline">\(PSL(2,\mathbb{Z})\)</span></span></p>
+<p><img src="./Markoff_tree_full.svg" width="500"></p>
+</section>
+<section id="section-12" class="slide level1">
+<h1></h1>
+<h2 id="modern-theory">Modern theory</h2>
+<p>H. Cohn, Approach to Markov’s Minimal Forms Through Modular Functions (1955)</p>
+<ul>
+<li class="fragment">modular torus = quotient of upper half plane <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}\)</span></span> by <span style="font-size: 200%"><span class="math inline">\(\Gamma\)</span></span> = commutator subgroup of <span style="font-size: 200%"><span class="math inline">\(\text{PSL}(2, \mathbb{Z})\)</span></span>, acting by Mobius transformations</li>
+<li class="fragment">relates Markoff numbers to lengths of simple closed geodesics</li>
+</ul>
+</section>
+<section id="section-13" class="slide level1">
+<h1></h1>
+<ul>
+<li class="fragment">modular torus = quotient of upper half plane <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}\)</span></span> by <span style="font-size: 200%"><span class="math inline">\(\Gamma\)</span></span> = commutator subgroup of <span style="font-size: 200%"><span class="math inline">\(\text{PSL}(2, \mathbb{Z})\)</span></span>, acting by Mobius transformations</li>
+<li class="fragment">hyperbolic torus = quotient of upper half plane <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}\)</span></span> by <span style="font-size: 200%"><span class="math inline">\(\Gamma = \rho(\mathbb{Z}*\mathbb{Z})\)</span></span>,</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\rho:\mathbb{Z}*\mathbb{Z}\rightarrow\text{PSL}(2, \mathbb{R})\)</span></span> discrete faithful</li>
+</ul>
+</section>
+<section id="section-14" class="slide level1">
+<h1></h1>
+<p><span style="font-size: 200%"><span class="math inline">\(\rho:\mathbb{Z}*\mathbb{Z}\rightarrow\text{PSL}(2, \mathbb{R})\)</span></span></p>
+<ul>
+<li class="fragment">lifts to <span style="font-size: 200%"><span class="math inline">\(\hat{\rho}:\mathbb{Z}*\mathbb{Z}\rightarrow\text{SL}(2, \mathbb{R})\)</span></span></li>
+<li class="fragment">character map <span style="font-size: 200%"><span class="math inline">\(\chi : \rho \mapsto ( tr \hat{\rho}(a), tr \hat{\rho}(b), tr \hat{\rho}(ab) )\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(a,b\)</span></span> generators of the free group = fundamental group of the torus.</li>
+</ul>
+</section>
+<section id="section-15" class="slide level1">
+<h1></h1>
+<h2 id="puncture-condition">puncture condition</h2>
+<p><span style="font-size: 200%"><span class="math inline">\(tr \hat{\rho} (aba^{-1}b^{-1}) = -2\)</span></span></p>
+<ul>
+<li class="fragment"><span class="math inline">\((x,y,z) = ( tr \hat{\rho}(a), tr \hat{\rho}(b), tr \hat{\rho}(ab) )\)</span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(x^2 + y^2 + z^2 - x y z = 0.\)</span></span></li>
+<li class="fragment">= Markoff cubic up to a change of variable</li>
+</ul>
+</section>
+<section id="section-16" class="slide level1">
+<h1></h1>
+<p>Cohn shows that the permutations and the Vieta flips used to construct Markov's binary tree are induced by automorphisms of the fundamental group of the torus.</p>
+<h4 id="exo">Exo</h4>
+<ul>
+<li class="fragment">Nielsen moves</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(tr ab + tr ab^{-1} = (tr a) (tr b)\)</span></span></li>
+</ul>
+</section>
+<section id="section-17" class="slide level1">
+<h1></h1>
+<h2 id="counting-problem">Counting problem</h2>
+<p><span style="font-size: 200%"><span class="math inline">\(N(t) =\)</span></span> number of Markoff numbers <span style="font-size: 200%"><span class="math inline">\(\leq t\)</span></span></p>
+<p><span style="font-size: 200%"><span class="math inline">\(N(t) = C (\log(3t)^2 + O(\log t)\)</span></span></p>
+<ul>
+<li class="fragment">Zagier (1982) On the Number of Markov Numbers Below a Given Bound. Mathematics of Computation.</li>
+<li class="fragment">Greg McShane, Igor Rivin <a href="https://arxiv.org/abs/math/0005222" target="_blank">A norm on homology of surfaces and counting simple geodesics</a></li>
+</ul>
+</section>
+<section id="section-18" class="slide level1">
+<h1></h1>
+<h3 id="counting-closed-simple-geodesics">Counting closed simple geodesics</h3>
+<ul>
+<li class="fragment">character map <span style="font-size: 200%"><span class="math inline">\(\chi : \rho \mapsto ( tr \hat{\rho}(a), tr \hat{\rho}(b), tr \hat{\rho}(ab) )\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(a,b\)</span></span> generators fundamental group of the torus.</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(a\)</span></span> generator iff <span style="font-size: 200%"><span class="math inline">\(\exists\)</span></span> essential simple closed curves representing its conjugacy class</li>
+</ul>
+</section>
+<section id="section-19" class="slide level1">
+<h1></h1>
+<h3 id="simple-representatives">Simple representatives</h3>
+<p><img src="./representative.svg" with="650"></p>
+</section>
+<section id="section-20" class="slide level1">
+<h1></h1>
+<h3 id="simple-representatives-in-homology">Simple representatives in homology</h3>
+<p><span style="font-size: 200%"><span class="math inline">\(\phi : \mathbb{Z}*\mathbb{Z} \rightarrow \mathbb{Z}^2 \simeq H^1(T,\mathbb{Z})\)</span></span>. abelianizing homomorphism.</p>
+<ul>
+<li class="fragment">takes generators of <span style="font-size: 200%"><span class="math inline">\(\mathbb{Z}*\mathbb{Z}\)</span></span> to generators of <span style="font-size: 200%"><span class="math inline">\(\mathbb{Z}^2\)</span></span>.</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((m,n) \in \mathbb{Z}^2\)</span></span> generator <span style="font-size: 200%"><span class="math inline">\(\Leftrightarrow m,n\)</span></span> coprime.</li>
+</ul>
+</section>
+<section id="section-21" class="slide level1">
+<h1></h1>
+<h3 id="la-norme">La norme</h3>
+<p>Let <span style="font-size: 200%"><span class="math inline">\(c\)</span></span> be an essential closed curve <span style="font-size: 200%"><span class="math inline">\(\ell_c\)</span></span> its length.</p>
+<p><span style="font-size: 200%"><span class="math inline">\(\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2\)</span></span></p>
+<ul>
+<li class="fragment">convexity/triangle inequality</li>
+<li class="fragment">any pair of curves in linearly independent homology classes intersect</li>
+<li class="fragment">a curve with self intersections is never a minimizer</li>
+</ul>
+</section>
+<section id="section-22" class="slide level1">
+<h1></h1>
+<p><img src="./surgery.jpg" width="800"></p>
+</section>
+<section id="section-23" class="slide level1">
+<h1></h1>
+<p><img src="./minimizers.png" width="800"> <img src="./minimizer2.png" width="800"></p>
+</section>
+<section id="section-24" class="slide level1">
+<h1></h1>
+<h2 id="unit-ball">Unit ball</h2>
+<p><img src="./holed_torus.png" width="500"></p>
+</section>
+<section id="section-25" class="slide level1">
+<h1></h1>
+<h3 id="unit-ball-and-counting">Unit ball and counting</h3>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\sharp \{ \gamma,\, \| \gamma \| \leq t \} \sim \text{area unit ball}\times t^2\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\sharp \{ \gamma \text{ primitive},\, \| \gamma \| \leq t \} \sim \frac{6}{\pi^2}\text{area unit ball}\times t^2\)</span></span></li>
+<li class="fragment">the area of the unit ball depends on the hyperbolic structure</li>
+<li class="fragment">with Rivin we studied it, but now it's called the Mirzakhani function :(</li>
+</ul>
+</section>
+<section id="section-26" class="slide level1">
+<h1></h1>
+<h2 id="why-log">Why log ?</h2>
+<p><span style="font-size: 200%"><span class="math inline">\(N(t) = C (\log(3t)^2 + O(\log t)\)</span></span></p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(m_{p/q} = tr \hat{\rho}( \gamma_{p/q})\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(= \frac23 \cosh\left(\frac{\ell_{\gamma_p}}{2} \right)\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(= \frac23 \cosh(\| (q,p) \|_s)\)</span></span></li>
+</ul>
+</section>
+<section id="section-27" class="slide level1">
+<h1></h1>
+<h2 id="aigners-conjectures">Aigner's conjectures</h2>
+<p><img src="./aigner_mono.png" width="700"></p>
+</section>
+<section id="section-28" class="slide level1">
+<h1></h1>
+<p><a href="https://arxiv.org/abs/2010.13010" target="_blank">On the ordering of the Markov numbers</a> Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler</p>
+<p>The proof uses a connection to cluster algebras. It was observed in [P, BBH] that the Markov numbers can be obtained from the cluster variables in the cluster algebra of the once-punctured torus by specializing the initial cluster variables to 1. Moreover, the clusters in the cluster algebra then specialize to the Markov triples. On the other hand, the cluster variables can be computed by a combinatorial formula given as a summation over the perfect matchings of a so-called snake graph.</p>
+</section>
+<section id="section-29" class="slide level1">
+<h1></h1>
+<h2 id="aigners-conjectures-1">Aigner's conjectures</h2>
+<p>Let <span style="font-size: 200%"><span class="math inline">\(p, q\)</span></span> be real non negative numbers and <span style="font-size: 200%"><span class="math inline">\(i &gt; 0\)</span></span> then</p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\|(q,p) \|_s &lt; \|(q + i,p) \|_s\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\|(q,p) \|_s &lt; \|(q ,p +i ) \|_s\)</span></span></li>
+<li class="fragment">If in addition <span style="font-size: 200%"><span class="math inline">\(p &lt; q\)</span></span> then <span style="font-size: 200%"><span class="math inline">\(\|(q ,p ) \|_s &lt; \|(q + i ,p -i ) \|_s\)</span></span></li>
+</ul>
+</section>
+<section id="section-30" class="slide level1">
+<h1></h1>
+<h2 id="aigners-conjectures-proof">Aigner's conjectures proof</h2>
+<p><img src="./lines.png" width="700"></p>
+</section>
+<section id="section-31" class="slide level1">
+<h1></h1>
+<h2 id="section-32"></h2>
+<p><img src="./schiffler.png" width="700"></p>
+<p><a href="https://arxiv.org/pdf/2010.13010.pdf" target="_blank">source</a></p>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/head.min.js"></script>
+  <script src="https://unpkg.com/reveal.js@3.9.2//js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://unpkg.com/reveal.js@3.9.2//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/zoom-js/zoom.js', async: true },
+              { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

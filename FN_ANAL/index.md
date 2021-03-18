@@ -149,7 +149,7 @@ Vacances ?
 
 ### Week 15/3
 
-- presentiel f4 exo 5, f4 exo 2
+- lundi presentiel f4 exo 5, f4 exo 2
 - vendredi distanciel finir f4, exo 2
 -
 

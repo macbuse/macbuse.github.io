@@ -4,6 +4,10 @@
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
+### Talks
+
+[Nantes 18/3](./NANTES/slides.html)
+
 ### Teaching stuff
 
 If you are looking for what I teach 
