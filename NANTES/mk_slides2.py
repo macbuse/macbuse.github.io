@@ -1,4 +1,4 @@
-#! /home/gregmcshane/anaconda3/bin/python3.6 
+#! /usr/bin/python3.6 
 '''whatever'''
 
 import os, re, time, sys

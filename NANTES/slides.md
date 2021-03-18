@@ -146,7 +146,7 @@ by  200$\Gamma = \rho(\mathbb{Z}*\mathbb{Z})$,
 
 200$tr \hat{\rho} (aba^{-1}b^{-1}) = -2$
 
-- $(x,y,z) =  ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
+- 200$(x,y,z) =  ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
 - 200$x^2 + y^2 + z^2 - x y z = 0.$
 - = Markoff cubic up to a change of variable
 
