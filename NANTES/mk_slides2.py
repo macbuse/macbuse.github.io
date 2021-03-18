@@ -1,4 +1,4 @@
-#! /usr/bin/python3.6 
+#! /home/macbuse/anaconda3/bin/python3.8 
 '''whatever'''
 
 import os, re, time, sys
