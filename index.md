@@ -6,9 +6,9 @@
 
 ### Talks
 
-[Warwick 28/5]()
-[Nantes 18/3](./NANTES/slides.html)
-[HARVARD 18/12/20](./HARVARD/slides.html)
+- [Warwick 28/5]()
+- [Nantes 18/3](./NANTES/slides.html)
+- [HARVARD 18/12/20](./HARVARD/slides.html)
 
 ### Teaching stuff
 
