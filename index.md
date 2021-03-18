@@ -6,16 +6,15 @@
 
 ### Talks
 
+[Warwick 28/5]()
 [Nantes 18/3](./NANTES/slides.html)
+[HARVARD 18/12/20](./HARVARD/slides.html)
 
 ### Teaching stuff
 
 If you are looking for what I teach 
 it is [here](teaching.md)
 
-...and if you are *frantically* looking 
-for the online programming class it 
-is [here](./PROG/index.md)
 
 ### Stages/TER
 

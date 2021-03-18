@@ -23,8 +23,8 @@ title: none
 ### Second semester
 
 
-
 - Mondays and Fridays [Functional analysis](./FN_ANAL) 
-- Mondays  and Tuesdays [MAT 402](./MAT402)
+- Mondays  and Tuesdays [MAT 402 gpe MAT2](./MAT402)
+- Tuesdays and Fridays [MAT 402 gpe MIN4](./MIN4)
 - Wednesdays I will be teaching at ENS-Lyon [Geometric Group Theory](./GPE_ENS_2021)
 
