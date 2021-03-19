@@ -236,7 +236,7 @@ Let 200$c$ be an essential closed curve 200$\ell_c$ its length.
 ## Why log ?
 200$N(t) = C (\log(3t)^2 + O(\log t)$
 
-- 200$m_{p/q} = tr \hat{\rho}( \gamma_{p/q})$
+- 200$m_{p/q} = \frac13 tr \hat{\rho}( \gamma_{p/q})$
 - 200$= \frac23 \cosh\left(\frac{\ell_{\gamma_p}}{2} \right)$
 - 200$= \frac23 \cosh(\| (q,p) \|_s)$
 

@@ -236,7 +236,7 @@ Let <span style="font-size: 200%">$c$</span> be an essential closed curve <span 
 ## Why log ?
 <span style="font-size: 200%">$N(t) = C (\log(3t)^2 + O(\log t)$</span>
 
-- <span style="font-size: 200%">$m_{p/q} = tr \hat{\rho}( \gamma_{p/q})$</span>
+- <span style="font-size: 200%">$m_{p/q} = \frac13 tr \hat{\rho}( \gamma_{p/q})$</span>
 - <span style="font-size: 200%">$= \frac23 \cosh\left(\frac{\ell_{\gamma_p}}{2} \right)$</span>
 - <span style="font-size: 200%">$= \frac23 \cosh(\| (q,p) \|_s)$</span>
 
