@@ -27,34 +27,17 @@ this is in english but I'm not having  my french keyboard.
 
 ## Evaluation
 
-I have to check this but there will be three short DM
+###  DM
+
+Three short DM to be collected in seances de TD sur Discord
 
 - 5/2  f2 exo 6 
+- 26/2 f4 exo 7
 -
--
 
----
+### CC
 
-## Practical points
-
-1. We have a Discord server where we will meet.
-1. We will try to have short video chats on Zoom sometimes so I can see you.
-1. I might use a [virtual whiteboard](https://awwapp.com/#)
-for teaching (so I can see your work) but scans from phones are good too.
-so you should try it out and tell me if you can use it.
-1. There will be corrections on YouTube but you **must** participate in class
-   as much as possible 
-   - by submitting scans of work 
-   - by chatting.
-1. I will post on this page the exercises with hints usually a day or two before class meets. 
-1. Because classes are online we will use class time optimally to
-   - discuss corrections (Mondays and Fridays) you have prepared
-   - discuss things (on Mondays) that have been difficult to understand in the Friday lecture (cours magistral).
-   - if there is something difficult in the lecture you should discuss this **entre vous** and then make a request in Discord during the TD Friday so I can prepare for Monday.  
-1. There may be a possibility to meet *en presentiel* in small groups and we will organize this if possible **so check you are on the list of
-names ci-dessous**.
-1. Classes will be in french.
-
+- 8/3 
 
 ---
 
@@ -173,9 +156,29 @@ These are the names I have for this group:
 
 ---
 
+## Practical points
+
+1. We have a Discord server where we will meet.
+1. We will try to have short video chats on Zoom sometimes so I can see you.
+1. I might use a [virtual whiteboard](https://awwapp.com/#)
+for teaching (so I can see your work) but scans from phones are good too.
+so you should try it out and tell me if you can use it.
+1. There will be corrections on YouTube but you **must** participate in class
+   as much as possible 
+   - by submitting scans of work 
+   - by chatting.
+1. I will post on this page the exercises with hints usually a day or two before class meets. 
+1. Because classes are online we will use class time optimally to
+   - discuss corrections (Mondays and Fridays) you have prepared
+   - discuss things (on Mondays) that have been difficult to understand in the Friday lecture (cours magistral).
+   - if there is something difficult in the lecture you should discuss this **entre vous** and then make a request in Discord during the TD Friday so I can prepare for Monday.  
+1. There may be a possibility to meet *en presentiel* in small groups and we will organize this if possible **so check you are on the list of
+names ci-dessous**.
+1. Classes will be in french.
+
+---
+
 ## Diverse references
-
-
 
 
 When I teach I read a lot of things related to the material
