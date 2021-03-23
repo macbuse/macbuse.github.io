@@ -84,8 +84,6 @@ J'ai telecharge depuis le Moodle
 - lundi 15/3 (exo 3)
 - [correction](./corr_f3_3.pdf)
 - mardi 16/3 (exo 4, exo 7)
--
-
 
 ---
 
