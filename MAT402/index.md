@@ -77,10 +77,19 @@ J'ai telecharge depuis le Moodle
 
 - lundi 1/3 (feuille 3 exo 1 et 2 )
 - [correction](./corr_f3_1_2.pdf)
-- mardi 2/3 
-- [correction](./)
+- [correction](./corr_f3_1.pdf)
 
 ---
+
+- lundi 15/3 (exo 3)
+- [correction](./corr_f3_3.pdf)
+- mardi 16/3 (exo 4, exo 7)
+-
+
+
+---
+
+- lundi 22/3 (feuille 3 exo 10 et 9)
 
 To draw graphs and check DL (Maclaurin Series) I use online calculators
 
