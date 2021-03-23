@@ -90,6 +90,8 @@ J'ai telecharge depuis le Moodle
 - lundi 22/3 (feuille 3 exo 10 et 9)
 - [correction exo 10](./corr_f3_10.pdf)
 
+---
+
 To draw graphs and check DL (Maclaurin Series) I use online calculators
 
 - [graphe](https://www.wolframalpha.com/input/?i=plot+x+-+x%5E3+from+0+to+1+)
