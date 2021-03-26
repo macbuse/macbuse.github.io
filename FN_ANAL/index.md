@@ -20,6 +20,7 @@ this is in english but I'm not having  my french keyboard.
 - [Feuille 2](./td_duals.pdf)
 - [Feuille Hahn-Banach](./td3-Hahn-Banach-bis.pdf)
 - [Feuille 4](./td5-Graphe-ferme-2019.pdf)
+- [Feuille 5](./td5_topologies_faibles.pdf)
 
 
 
@@ -134,6 +135,17 @@ Vacances ?
 
 - lundi presentiel f4 exo 5, f4 exo 2
 - vendredi distanciel finir f4, exo 2
+-
+
+### Week 22/3
+
+- lundi f5 exo 1 + 2
+- vendredi f4 exo 6 + f5 exo 3
+-
+
+### Week 29/3
+
+- presentiel
 -
 
 ---
