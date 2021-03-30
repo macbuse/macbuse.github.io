@@ -32,7 +32,7 @@ J'ai telecharge depuis le Moodle
 - [poly](https://www-fourier.ujf-grenoble.fr/~courtes/cours-mat402.pdf)
 - [feuille 1](./MAT402_EXOS-1_2021.pdf)
 - [feuille 2](./MAT402_EXOS-2_2021.pdf)
-- [feuille 3](./MAT402_EXOS-3_2019.pdf)
+- [feuille 3](./MAT402_EXOS-3_2021.pdf)
 
 ---
 
