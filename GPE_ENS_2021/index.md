@@ -50,6 +50,58 @@ date | nom | sujet
 24/3 | Simon A | On groups of (uniformly) exponential growth
 31/3 | Theotime | On groups of polynomial/other growth
 
+We are finished with the book and will read the [paper](https://arxiv.org/pdf/math/0607384.pdf) for next 3 sessions.
+
+
+date | nom | sujet
+--- | --- | ---
+7/4 | ?? |  sections 1-3 + 12
+14/4 | ?? | sections 4-7
+28/4 | ?? | sections 8-10 
+
+
+
+
+
+##  Seances etc.
+
+### 27/1 
+
+- [27/1 texte](./Groupe_De_Lecture_1.pdf)
+- [Tits alternative](./tits_alternative.pdf) in SL(2,**R**)
+- Do the exercise!!
+
+![img](./exo_32.png)
+
+### 3/2
+
+
+- [thin
+triangles](https://math.stackexchange.com/questions/1028431/thin-triangles-vs-slim-triangles-in-hyperbolic-spaces)
+- [thin triangles and
+hyperbolicity](http://pageperso.lif.univ-mrs.fr/~victor.chepoi/hyperbolic_center.pdf)
+
+![img](https://upload.wikimedia.org/wikipedia/commons/4/46/Delta_thin_triangle_condition.svg)
+
+### 10/2
+
+- [Morse
+Lemma](https://perso.univ-rennes1.fr/sebastien.gouezel/articles/morse_lemma.pdf)
+- [Shchur's thesis](https://www.theses.fr/171959159)
+
+
+### 24/2
+
+Growth functions 
+
+- [text](./croissance.pdf)
+
+- [Chomsky's
+theorem](https://en.wikipedia.org/wiki/Chomsky%E2%80%93Sch%C3%BCtzenberger_enumeration_theorem#:~:text=In%20formal%20language%20theory%2C%20the,an%20unambiguous%20context%2Dfree%20grammar.)
+- [regular language](https://en.wikipedia.org/wiki/Regular_language)
+- [automatic groups](https://en.wikipedia.org/wiki/Automatic_group)
+
+
 ##  Seances etc.
 
 ### 27/1 
