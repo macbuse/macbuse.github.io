@@ -46,7 +46,7 @@ date | nom | sujet
 10/2 | Pierre + Clement | quasi-isometries
 24/2 | Theotime | Growth functions and growth series of groups
 3/3 | Arthur | Generalities on growth types
-17/3 | Antoine D | Exponential growth rate and entropy
+17/3 | Antoine  P Antoine D | Exponential growth rate and entropy
 24/3 | Simon A | On groups of (uniformly) exponential growth
 31/3 | Theotime | On groups of polynomial/other growth
 
