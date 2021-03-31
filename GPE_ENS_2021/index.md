@@ -55,9 +55,9 @@ We are finished with the book and will read the [paper](https://arxiv.org/pdf/ma
 
 date | nom | sujet
 --- | --- | ---
-7/4 | ?? |  sections 1-3 + 12
-14/4 | ?? | sections 4-7
-28/4 | ?? | sections 8-10 
+7/4 | Clement |  sections 1-3 + 12
+14/4 | Arthur| sections 4-7
+28/4 | Pierre | sections 8-10 
 
 
 
