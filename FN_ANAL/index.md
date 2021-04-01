@@ -146,8 +146,8 @@ Vacances ?
 ### Week 29/3
 
 - presentiel f5 exo 9
--
--
+- f5 exo 4 + 5 debut
+- finir 5 et 9
 
 ---
 ## Names
