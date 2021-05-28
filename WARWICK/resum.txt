@@ -1,0 +1,7 @@
+[On the ordering of the Markov numbers](https://arxiv.org/abs/2010.13010){target="_blank"}
+Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler
+
+The proof uses a connection to cluster algebras. It was observed
+in [P, BBH] that the Markov numbers can be obtained from the cluster variables in the cluster
+algebra of the once-punctured torus by specializing the initial cluster variables to 1. Moreover, the clusters in the cluster algebra then specialize to the Markov triples. On the other hand, the cluster variables can be computed by a combinatorial formula given as a summation over the perfect matchings of a so-called snake graph.
+

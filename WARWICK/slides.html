@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="greg mc">
+  <title>Markoff numbers</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="mycss.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://unpkg.com/reveal.js@3.9.2//css/print/pdf.css' : 'https://unpkg.com/reveal.js@3.9.2//css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Markoff numbers</h1>
+  <p class="author">greg mc</p>
+  <p class="date">May 2021</p>
+</section>
+
+<section id="section" class="slide level1">
+<h1></h1>
+<p>whatever</p>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<h2 id="modern-theory">Modern theory</h2>
+<p>H. Cohn, Approach to Markov’s Minimal Forms Through Modular Functions (1955)</p>
+<ul>
+<li class="fragment">modular torus = quotient of upper half plane <span class="math inline">\(\mathbb{H}\)</span> by <span class="math inline">\(\Gamma\)</span> = commutator subgroup of <span class="math inline">\(PSL(2,\mathbb{Z})\)</span>, acting by Mobius transformations</li>
+<li class="fragment">relates Markoff numbers to lengths of simple closed geodesics</li>
+</ul>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<p><span style="font-size: 200%"><span class="math inline">\(E=mc^2\)</span></span></p>
+</section>
+<section id="section-3" class="slide level1">
+<h1></h1>
+<h2 id="torus">Torus</h2>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\mathbb{Z}^2\)</span></span> acting on <span style="font-size: 200%"><span class="math inline">\(\mathbb{R}^2\)</span></span> by translation</li>
+<li class="fragment">quotient space (orbit space) is a euclidean torus</li>
+<li class="fragment">primitive elements <span style="font-size: 200%"><span class="math inline">\((p,q)\in \mathbb{Z}^2\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\rightarrow\)</span></span> closed curve on torus = <span style="font-size: 200%"><span class="math inline">\((p,q)\)</span></span> curve</li>
+<li class="fragment">(usual) length <span style="font-size: 200%"><span class="math inline">\(=\|(p,q)\| = \sqrt(p^2 + q^2)\)</span></span></li>
+</ul>
+</section>
+<section id="section-4" class="slide level1">
+<h1></h1>
+<h2 id="sauls-usual-torus">Saul's Usual Torus</h2>
+<p><img src="./torus_cover.png" width="900"></p>
+</section>
+<section id="section-5" class="slide level1">
+<h1></h1>
+<h2 id="torus-1">Torus</h2>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\mathbb{Z}^2\)</span></span> acts by translation in lots of different ways</li>
+<li class="fragment">translation lengths of <span style="font-size: 200%"><span class="math inline">\((1,0),(0,1),(1,-1)\)</span></span> determine (up to conjugation)</li>
+<li class="fragment">the representation <span style="font-size: 200%"><span class="math inline">\(\mathbb{Z}^2 \rightarrow \text{isom}(\mathbb{R}^2)\)</span></span></li>
+<li class="fragment">length of <span style="font-size: 200%"><span class="math inline">\((p,q)\)</span></span> curve given by quadratic form</li>
+</ul>
+</section>
+<section id="section-6" class="slide level1">
+<h1></h1>
+<p>representation <span style="font-size: 200%"><span class="math inline">\(\mathbb{Z}^2 \rightarrow \text{isom}(\mathbb{R}^2)\)</span></span></p>
+<p><img src="./skew_torus.png" height="500"></p>
+</section>
+<section id="section-7" class="slide level1">
+<h1></h1>
+<p>representation <span style="font-size: 200%"><span class="math inline">\(\mathbb{Z}^2 \rightarrow \text{isom}(\mathbb{R}^2)\)</span></span></p>
+<p><img src="./skew_torus (1).png" height="500"></p>
+</section>
+<section id="section-8" class="slide level1">
+<h1></h1>
+<ul>
+<li class="fragment">3 side lengths determine a triangle</li>
+<li class="fragment">need 3 numbers to build a euclidean torus</li>
+<li class="fragment">what about the 3 Markoff numbers ?</li>
+<li class="fragment">can build a hyperbolic punctured torus</li>
+<li class="fragment">no simple formula for length of <span style="font-size: 200%"><span class="math inline">\((p,q)\)</span></span> curve</li>
+</ul>
+</section>
+<section id="section-9" class="slide level1">
+<h1></h1>
+<ul>
+<li class="fragment">modular torus = quotient of upper half plane <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}\)</span></span> by <span style="font-size: 200%"><span class="math inline">\(\Gamma\)</span></span> = commutator subgroup of <span style="font-size: 200%"><span class="math inline">\(\text{PSL}(2, \mathbb{Z})\)</span></span>, acting by Mobius transformations</li>
+<li class="fragment">hyperbolic torus = quotient of upper half plane <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}\)</span></span> by <span style="font-size: 200%"><span class="math inline">\(\Gamma = \rho(\mathbb{Z}*\mathbb{Z})\)</span></span>,</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\rho:\mathbb{Z}*\mathbb{Z}\rightarrow\text{PSL}(2, \mathbb{R})\)</span></span> discrete faithful</li>
+</ul>
+</section>
+<section id="section-10" class="slide level1">
+<h1></h1>
+<h2 id="analogue-of-sauls-figure">Analogue of Saul's figure</h2>
+<p><img src="./torus_cover.png" width="900"></p>
+</section>
+<section id="section-11" class="slide level1">
+<h1></h1>
+<h2 id="analogue-of-sauls-figure-1">Analogue of Saul's figure</h2>
+<p><img src="./fund_dom.png" width="900"></p>
+</section>
+<section id="section-12" class="slide level1">
+<h1></h1>
+<p><a href="https://www.researchgate.net/publication/226685228_The_geometry_of_markoff_numbers" target="_blank">Geometry of the Markoff numbers</a></p>
+<p><img src="./fund_dom_cut.png" height="300"> <img src="./punctured_torus_series.png" height="300"></p>
+</section>
+<section id="section-13" class="slide level1">
+<h1></h1>
+<p><span style="font-size: 200%"><span class="math inline">\(\rho:\mathbb{Z}*\mathbb{Z}\rightarrow\text{PSL}(2, \mathbb{R})\)</span></span></p>
+<ul>
+<li class="fragment">lifts to <span style="font-size: 200%"><span class="math inline">\(\hat{\rho}:\mathbb{Z}*\mathbb{Z}\rightarrow\text{SL}(2, \mathbb{R})\)</span></span></li>
+<li class="fragment">character map <span style="font-size: 200%"><span class="math inline">\(\chi : \rho \mapsto ( tr \hat{\rho}(a), tr \hat{\rho}(b), tr \hat{\rho}(ab) )\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(a,b\)</span></span> generators of the free group = fundamental group of the torus.</li>
+</ul>
+</section>
+<section id="section-14" class="slide level1">
+<h1></h1>
+<h2 id="markoff-cubic-from-the-puncture">Markoff cubic from the puncture</h2>
+<p>Loop round the puncture <span style="font-size: 200%"><span class="math inline">\(aba^{-1}b^{-1}\)</span></span></p>
+<ul>
+<li class="fragment">isn't trivial but it's special (parabolic)</li>
+<li class="fragment">corresponding matrix something like</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\begin{pmatrix} \pm 1 &amp; 6 \\ 0 &amp; \pm 1 \end{pmatrix}\)</span></span></li>
+</ul>
+</section>
+<section id="section-15" class="slide level1">
+<h1></h1>
+<h2 id="puncture-condition">puncture condition</h2>
+<p><span style="font-size: 200%"><span class="math inline">\(tr \hat{\rho} (aba^{-1}b^{-1}) = -2\)</span></span></p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((x,y,z) = ( tr \hat{\rho}(a), tr \hat{\rho}(b), tr \hat{\rho}(ab) )\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(x^2 + y^2 + z^2 - x y z = 2 + tr \hat{\rho} (aba^{-1}b^{-1})=0.\)</span></span></li>
+<li class="fragment">= Markoff cubic up to a change of variable</li>
+</ul>
+</section>
+<section id="section-16" class="slide level1">
+<h1></h1>
+<h2 id="inverse-character-map">&quot;inverse&quot; character map</h2>
+<p>Section: character variety to representation variety</p>
+<p><span style="font-size: 200%"><span class="math inline">\(\begin{pmatrix} x &amp; -1 \\ 1 &amp; 0 \end{pmatrix}\)</span></span> <span style="font-size: 200%"><span class="math inline">\(\begin{pmatrix} 0 &amp; \eta \\ -\eta^{-1} &amp; y \end{pmatrix}\)</span></span></p>
+<p><span style="font-size: 200%"><span class="math inline">\(z = \text{trace of  product} = \eta + \eta^{-1}\)</span></span></p>
+</section>
+<section id="section-17" class="slide level1">
+<h1></h1>
+<p>Cohn shows that the permutations and the Vieta flips used to construct Markov's binary tree are induced by automorphisms of the fundamental group of the torus.</p>
+<h4 id="exo">Exo</h4>
+<ul>
+<li class="fragment">Nielsen move <span style="font-size: 200%"><span class="math inline">\((a,b,ab) \mapsto (a, b^{-1}, ab^{-1})\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(tr ab + tr ab^{-1} = (tr a) (tr b)\)</span></span></li>
+</ul>
+</section>
+<section id="section-18" class="slide level1">
+<h1></h1>
+<h2 id="counting-problem">Counting problem</h2>
+<p><span style="font-size: 200%"><span class="math inline">\(N(t) =\)</span></span> number of Markoff numbers <span style="font-size: 200%"><span class="math inline">\(\leq t\)</span></span></p>
+<p><span style="font-size: 200%"><span class="math inline">\(N(t) = C (\log(3t))^2 + O(\log t)\)</span></span></p>
+<ul>
+<li class="fragment">Zagier (1982) <a href="https://www.ams.org/journals/mcom/1982-39-160/S0025-5718-1982-0669663-7/S0025-5718-1982-0669663-7.pdf">On the Number of Markov Numbers Below a Given Bound.</a></li>
+<li class="fragment">Greg McShane, Igor Rivin <a href="https://arxiv.org/abs/math/0005222" target="_blank">A norm on homology of surfaces and counting simple geodesics</a></li>
+</ul>
+</section>
+<section id="section-19" class="slide level1">
+<h1></h1>
+<h3 id="counting-closed-simple-geodesics">Counting closed simple geodesics</h3>
+<ul>
+<li class="fragment">character map <span style="font-size: 200%"><span class="math inline">\(\chi : \rho \mapsto ( tr \hat{\rho}(a), tr \hat{\rho}(b), tr \hat{\rho}(ab) )\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(a,b\)</span></span> generators fundamental group of the torus.</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(a\)</span></span> generator iff <span style="font-size: 200%"><span class="math inline">\(\exists\)</span></span> essential simple closed curves representing its conjugacy class</li>
+</ul>
+</section>
+<section id="section-20" class="slide level1">
+<h1></h1>
+<h3 id="simple-representatives">Simple representatives</h3>
+<p><img src="./representative.svg" with="650"></p>
+</section>
+<section id="section-21" class="slide level1">
+<h1></h1>
+<h3 id="simple-representatives-in-homology">Simple representatives in homology</h3>
+<p><span style="font-size: 200%"><span class="math inline">\(\phi : \mathbb{Z}*\mathbb{Z} \rightarrow \mathbb{Z}^2 \simeq H^1(T,\mathbb{Z})\)</span></span> abelianizing homomorphism.</p>
+<ul>
+<li class="fragment">generators <span style="font-size: 200%"><span class="math inline">\(\in \mathbb{Z}*\mathbb{Z}\)</span></span> <span style="font-size: 200%"><span class="math inline">\(\mapsto\)</span></span> primitive <span style="font-size: 200%"><span class="math inline">\(\in \mathbb{Z}^2\)</span></span>.</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((p,q) \in \mathbb{Z}^2\)</span></span> primitive <span style="font-size: 200%"><span class="math inline">\(\Leftrightarrow p,q\)</span></span> coprime.</li>
+</ul>
+</section>
+<section id="section-22" class="slide level1">
+<h1></h1>
+<h3 id="la-norme">La norme</h3>
+<p>Let <span style="font-size: 200%"><span class="math inline">\(c\)</span></span> be an essential closed curve <span style="font-size: 200%"><span class="math inline">\(\ell_c\)</span></span> its length.</p>
+<p><span style="font-size: 200%"><span class="math inline">\(\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2\)</span></span></p>
+<ul>
+<li class="fragment">convexity/triangle inequality</li>
+<li class="fragment">any pair of curves in linearly independent homology classes intersect</li>
+<li class="fragment">a curve with self intersections is never a minimizer</li>
+</ul>
+</section>
+<section id="section-23" class="slide level1">
+<h1></h1>
+<p><img src="./surgery.jpg" width="800"></p>
+</section>
+<section id="section-24" class="slide level1">
+<h1></h1>
+<p><img src="./minimizers.png" width="800"> <img src="./minimizer2.png" width="800"></p>
+</section>
+<section id="section-25" class="slide level1">
+<h1></h1>
+<h2 id="unit-ball">Unit ball</h2>
+<p><img src="./holed_torus.png" width="500"></p>
+</section>
+<section id="section-26" class="slide level1">
+<h1></h1>
+<h3 id="unit-ball-and-counting">Unit ball and counting</h3>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\sharp \{ \gamma,\, \| \gamma \| \leq t \} \sim \text{area unit ball}\times t^2\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\sharp \{ \gamma \text{ primitive},\, \| \gamma \| \leq t \} \sim \frac{6}{\pi^2}\text{area unit ball}\times t^2\)</span></span></li>
+<li class="fragment">the area of the unit ball depends on the hyperbolic structure</li>
+<li class="fragment">with Rivin we studied it, but now it's called the Mirzakhani function :(</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\frac{6}{\pi^2}\)</span></span> = <a href="https://hal.archives-ouvertes.fr/hal-01413829/document" target="_blank">proba 2 random integers coprime</a></li>
+</ul>
+</section>
+<section id="section-27" class="slide level1">
+<h1></h1>
+<h2 id="why-log">Why log ?</h2>
+<p><span style="font-size: 200%"><span class="math inline">\(N(t) = C (\log 3 ))^2 + O(\log t)\)</span></span></p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(m_{p/q} = \frac13 tr \hat{\rho}( \gamma_{p/q})\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(= \frac23 \cosh\left(\frac{\ell_{\gamma_p}}{2} \right)\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(= \frac23 \cosh(\| (q,p) \|_s)\)</span></span></li>
+</ul>
+</section>
+<section id="section-28" class="slide level1">
+<h1></h1>
+<h2 id="aigners-conjectures">Aigner's conjectures</h2>
+<p><img src="./aigner_mono.png" width="700"></p>
+</section>
+<section id="section-29" class="slide level1">
+<h1></h1>
+<h2 id="aigners-conjectures-1">Aigner's conjectures</h2>
+<p>Let <span style="font-size: 200%"><span class="math inline">\(p, q\)</span></span> be real non negative numbers and <span style="font-size: 200%"><span class="math inline">\(i &gt; 0\)</span></span> then</p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\|(q,p) \|_s &lt; \|(q + i,p) \|_s\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\|(q,p) \|_s &lt; \|(q ,p +i ) \|_s\)</span></span></li>
+<li class="fragment">If in addition <span style="font-size: 200%"><span class="math inline">\(p &lt; q\)</span></span> then <span style="font-size: 200%"><span class="math inline">\(\|(q ,p ) \|_s &lt; \|(q + i ,p -i ) \|_s\)</span></span></li>
+</ul>
+</section>
+<section id="section-30" class="slide level1">
+<h1></h1>
+<h2 id="aigners-conjectures-proof">Aigner's conjectures proof</h2>
+<p><img src="./lines.png" width="700"></p>
+</section>
+<section id="section-31" class="slide level1">
+<h1></h1>
+<h2 id="section-32"></h2>
+<p><img src="./schiffler.png" width="700"></p>
+<p><a href="https://arxiv.org/pdf/2010.13010.pdf" target="_blank">source</a></p>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/head.min.js"></script>
+  <script src="https://unpkg.com/reveal.js@3.9.2//js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://unpkg.com/reveal.js@3.9.2//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/zoom-js/zoom.js', async: true },
+              { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
