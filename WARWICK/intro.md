@@ -194,7 +194,7 @@ Joint work with J.Bourgain and A.Gamburd.
 - Vieta flips
 - (cyclic) permutations of 200$x,y,z$
 - get 200$\mathbb{Z}/2 * \mathbb{Z}/3$ action
-- = 200$PSL(2,\mathbb{Z})$ action
+- = [200$PSL(2,\mathbb{Z})$ action](https://en.wikipedia.org/wiki/Modular_group){target="_blank}
 
 #
 Natural  = 200$PSL(2,\mathbb{Z})$-equivariant map
