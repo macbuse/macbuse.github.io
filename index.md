@@ -4,7 +4,14 @@
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
+---
+
 ### Talks
+
+Reveal.js slides 
+- blue arrows = next/previous
+- esc-key for overview
+- blue text is a link to a resource on the web
 
 - Warwick 28/5
   - [intro](./WARWICK/intro.html)
