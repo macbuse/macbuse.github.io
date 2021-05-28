@@ -16,11 +16,11 @@ H. Cohn, Approach to Markov’s Minimal Forms Through Modular Functions (1955)
 
 ## Back to the Torus
 
-- 200$\mathbb{Z}^2$ acting on 200$\mathbb{R}^2$ by translation
+- 100$\mathbb{Z}^2$ acting on 100$\mathbb{R}^2$ by translation
 - quotient space (orbit space) is a euclidean torus
-- primitive elements 200$(p,q)\in \mathbb{Z}^2$ 
-- 200$\rightarrow$ closed curve on torus = 200$(p,q)$ curve
-- (usual) length 200$=\|(p,q)\| = \sqrt(p^2 + q^2)$
+- primitive elements 100$(p,q)\in \mathbb{Z}^2$ 
+- $\rightarrow$ closed curve on torus = $(p,q)$ curve
+- (usual) length $=\|(p,q)\| = \sqrt{p^2 + q^2}$
 
 #
 
@@ -92,6 +92,15 @@ numbers](https://www.researchgate.net/publication/226685228_The_geometry_of_mark
  200$\hat{\rho}:\mathbb{Z}*\mathbb{Z}\rightarrow\text{SL}(2, \mathbb{R})$ 
 - character map 200$\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
 - 200$a,b$ generators of the free group = fundamental group of the torus.
+
+#
+Traces behave "like squares of translation lenghts"
+
+- [parallogram
+    law](https://en.wikipedia.org/wiki/Parallelogram_law){target="_blank}
+- 200$a^2 - (tr a)a + I_2 = 0$ Cayley-Hamilton
+- 200$\Rightarrow$
+- 200$tr ab  + tr ab^{-1} = (tr a) (tr b)$
 
 #
 
