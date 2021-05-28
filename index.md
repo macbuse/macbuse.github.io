@@ -6,7 +6,10 @@
 
 ### Talks
 
-- [Warwick 28/5](./WARWICK/slides.html)
+- Warwick 28/5
+  - [intro](./WARWICK/intro.html)
+  - [snakes](./WARWICK/matchings.html)
+  - [snakes](./WARWICK/hyper.html)
 - [Nantes 18/3](./NANTES/slides.html)
 - [HARVARD 18/12/20](./HARVARD/slides.html)
 

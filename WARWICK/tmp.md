@@ -2,249 +2,84 @@
 %greg mc
 %May 2021
 
-#
-whatever
+# Matchings and snakes
 
-#
-## Modern theory 
-
-H. Cohn, Approach to Markov’s Minimal Forms Through Modular Functions (1955)
-
-
-- modular torus = quotient of upper half plane $\mathbb{H}$ by  $\Gamma$ = commutator subgroup of $PSL(2,\mathbb{Z})$, acting by Mobius transformations
--  relates Markoff numbers to lengths of simple closed geodesics
-
-#
-<span style="font-size: 200%">$E=mc^2$</span>
-
-#
-
-## Torus
-
-- <span style="font-size: 200%">$\mathbb{Z}^2$</span> acting on <span style="font-size: 200%">$\mathbb{R}^2$</span> by translation
-- quotient space (orbit space) is a euclidean torus
-- primitive elements <span style="font-size: 200%">$(p,q)\in \mathbb{Z}^2$</span> 
-- <span style="font-size: 200%">$\rightarrow$</span> closed curve on torus = <span style="font-size: 200%">$(p,q)$</span> curve
-- (usual) length <span style="font-size: 200%">$=\|(p,q)\| = \sqrt(p^2 + q^2)$</span>
-
-#
-
-## Saul's Usual Torus
-
-<img src="./torus_cover.png" width="900">
-
-#
-
-## Torus
-
-- <span style="font-size: 200%">$\mathbb{Z}^2$</span> acts by translation in lots of different ways
-- translation lengths of <span style="font-size: 200%">$(1,0),(0,1),(1,-1)$</span> determine (up to conjugation)
-- the representation <span style="font-size: 200%">$\mathbb{Z}^2 \rightarrow \text{isom}(\mathbb{R}^2)$</span>
-- length of <span style="font-size: 200%">$(p,q)$</span> curve given by quadratic form 
-
-#
-
-representation <span style="font-size: 200%">$\mathbb{Z}^2 \rightarrow \text{isom}(\mathbb{R}^2)$</span>
-
-<img src="./skew_torus.png" height="500">
-
-
-#
-
-representation <span style="font-size: 200%">$\mathbb{Z}^2 \rightarrow \text{isom}(\mathbb{R}^2)$</span>
-
-<img src="./skew_torus (1).png" height="500">
-
-#
-
-- 3 side lengths determine a triangle
-- need 3 numbers to build a euclidean torus
-- what about the 3 Markoff numbers ?
-- can build a hyperbolic punctured torus
-- no simple formula for length of <span style="font-size: 200%">$(p,q)$</span> curve
-
-#
-
-- modular torus = quotient of upper half plane <span style="font-size: 200%">$\mathbb{H}$</span> by  <span style="font-size: 200%">$\Gamma$</span> = commutator subgroup of <span style="font-size: 200%">$\text{PSL}(2, \mathbb{Z})$</span>, acting by Mobius transformations
-- hyperbolic torus = quotient of upper half plane <span style="font-size: 200%">$\mathbb{H}$</span>
-by  <span style="font-size: 200%">$\Gamma = \rho(\mathbb{Z}*\mathbb{Z})$</span>, 
-- <span style="font-size: 200%">$\rho:\mathbb{Z}*\mathbb{Z}\rightarrow\text{PSL}(2, \mathbb{R})$</span> discrete
-    faithful
-
-#
-## Analogue of Saul's figure
-<img src="./torus_cover.png" width="900">
-
-#
-## Analogue of Saul's figure
-
-<img src="./fund_dom.png" width="900">
-
+- [Jim Propp](http://faculty.uml.edu/jpropp/){target="_blank"}
+- [Ralph Schiffler](https://schiffler.math.uconn.edu/){target="_blank"}
+- + many coauthors of both
 
 # 
 
-[Geometry of the Markoff
-numbers](https://www.researchgate.net/publication/226685228_The_geometry_of_markoff_numbers){target="_blank"}
+A matching of a graph G is a set of pairwise non-adjacent edges, none of which are loops.
 
-<img src="./fund_dom_cut.png" height="300">
-<img src="./punctured_torus_series.png" height="300">
+A perfect matching matches all vertices of the graph.
+
+<img src="./snake_graph1.png" width="300">
+
+#
+## Matching polynomial
+
+5 perfect matchings
+
+<img src="./snake_graph1.png" width="300">
+
+- <span style="font-size: 250%">$x^4 + y^4 + x^2z^2 + 2x^2y^2$</span>
+- match <span style="font-size: 150%">$\rightarrow$</span> monomial=product of labels 
 
 #
 
-<span style="font-size: 200%">$\rho:\mathbb{Z}*\mathbb{Z}\rightarrow\text{PSL}(2, \mathbb{R})$</span> 
+13 perfect matchings
 
-- lifts to 
- <span style="font-size: 200%">$\hat{\rho}:\mathbb{Z}*\mathbb{Z}\rightarrow\text{SL}(2, \mathbb{R})$</span> 
-- character map <span style="font-size: 200%">$\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$</span>
-- <span style="font-size: 200%">$a,b$</span> generators of the free group = fundamental group of the torus.
+<img src="./snake_6.png" width="600">
 
-#
-
-## Markoff cubic from the puncture 
-
-Loop round the puncture <span style="font-size: 200%">$aba^{-1}b^{-1}$</span>
-
-- isn't trivial but it's special (parabolic)
-- corresponding matrix something like 
-- <span style="font-size: 200%">$\begin{pmatrix} \pm 1 & 6 \\ 0 & \pm 1 \end{pmatrix}$</span> 
+[src](https://arxiv.org/pdf/math/0511633.pdf){target="_blank"}
 
 #
+## Snake graph from primitive 
 
-## puncture condition 
+<span style="font-size: 200%">$A=(1,1)$</span>,
+<span style="font-size: 200%">$B=(2,1)$</span>,
+<span style="font-size: 200%">$C=(3,2)$</span>
 
-<span style="font-size: 200%">$tr \hat{\rho} (aba^{-1}b^{-1}) = -2$</span>
-
-- <span style="font-size: 200%">$(x,y,z) =  ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$</span>
-- <span style="font-size: 200%">$x^2 + y^2 + z^2 - x y z = 2 + tr \hat{\rho} (aba^{-1}b^{-1})=0.$</span>
-- = Markoff cubic up to a change of variable
-
-#
-## "inverse" character map 
-
-Section: character variety to representation variety
-
- <span style="font-size: 200%">$\begin{pmatrix}  x & -1 \\ 1 & 0 \end{pmatrix}$</span> 
- <span style="font-size: 200%">$\begin{pmatrix}  0 &  \eta \\ -\eta^{-1} & y \end{pmatrix}$</span> 
-
-<span style="font-size: 200%">$z = \text{trace of  product} = \eta + \eta^{-1}$</span>
+<img src="./trig_snake.png" width="600">
 
 #
+## Positivity conjecture
 
-Cohn shows that 
-the permutations and the Vieta flips
-used to construct Markov's binary tree
-are induced by automorphisms of the
-fundamental group of the torus.
+- [cluster algebras](https://en.wikipedia.org/wiki/Cluster_algebra){target="_blank"}
+- seed is like a Markoff triple <span style="font-size: 200%">$(x,y,z)$</span>
+- mutation is like a Vieta flip
+- Markoff number <span style="font-size: 200%">$\rightarrow$</span> Laurent polynomial 
+- proof (idea) : coeffs are coeffs of the snake polynomial
 
-#### Exo
-
-- Nielsen move <span style="font-size: 200%">$(a,b,ab) \mapsto (a, b^{-1}, ab^{-1})$</span>
-- <span style="font-size: 200%">$tr ab  + tr ab^{-1} = (tr a) (tr b)$</span>
 
 #
-## Counting problem
+## Positivity conjecture
 
-<span style="font-size: 200%">$N(t) =$</span> number of Markoff numbers <span style="font-size: 200%">$\leq t$</span>
-
-<span style="font-size: 200%">$N(t) = C (\log(3t))^2 + O(\log t)$</span>
-
-- Zagier (1982) [On the Number of Markov Numbers Below a Given Bound.](https://www.ams.org/journals/mcom/1982-39-160/S0025-5718-1982-0669663-7/S0025-5718-1982-0669663-7.pdf) 
-- Greg McShane, Igor Rivin [A norm on homology of surfaces and counting simple geodesics](https://arxiv.org/abs/math/0005222){target="_blank"} 
-
-#
-### Counting closed simple geodesics
-
-
-- character map <span style="font-size: 200%">$\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$</span>
-- <span style="font-size: 200%">$a,b$</span> generators  fundamental group of the torus.
-- <span style="font-size: 200%">$a$</span> generator iff <span style="font-size: 200%">$\exists$</span> essential simple  closed curves representing its conjugacy class
+- [cluster alg. from surfaces](https://www.sciencedirect.com/science/article/pii/S0001870811001423){target="_blank"}
+- [general case](https://annals.math.princeton.edu/wp-content/uploads/Lee_Schiffler.pdf){target="_blank"}
 
 
 
 #
-### Simple representatives
+## Markoff numbers
 
-<img src="./representative.svg" with="650">
+<span style="font-size: 200%">$A,B \in \mathbb{Z}^2$</span><br>
+<span style="font-size: 200%">$|AB|=$</span> number perfect matchings for associated snake graph
 
-#
-### Simple representatives in homology
+<img src="./matchings_markoff.png" width="900">
 
-<span style="font-size: 200%">$\phi :  \mathbb{Z}*\mathbb{Z} \rightarrow \mathbb{Z}^2 \simeq
-H^1(T,\mathbb{Z})$</span>
-abelianizing homomorphism.
+[src](https://arxiv.org/pdf/2010.13010.pdf)
 
-- generators <span style="font-size: 200%">$\in \mathbb{Z}*\mathbb{Z}$</span>  <span style="font-size: 200%">$\mapsto$</span> primitive  <span style="font-size: 200%">$\in \mathbb{Z}^2$</span>.
-- <span style="font-size: 200%">$(p,q) \in \mathbb{Z}^2$</span>  primitive <span style="font-size: 200%">$\Leftrightarrow p,q$</span> coprime.
 
 
 #
-### La norme
+## Ptolemy inequality
 
-Let <span style="font-size: 200%">$c$</span> be an essential closed curve <span style="font-size: 200%">$\ell_c$</span> its length.
 
-<span style="font-size: 200%">$\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$</span>
-
-- convexity/triangle inequality
-- any pair of curves in linearly independent homology classes intersect
-- a curve with self intersections is never a minimizer
+<img src="./ptolemy_inequality.png" width="900">
 
 #
 
-<img src="./surgery.jpg" width="800">
 
-#
-
-<img src="./minimizers.png" width="800">
-<img src="./minimizer2.png" width="800">
-
-#
-## Unit ball
-
-<img src="./holed_torus.png" width="500">
-
-#
-### Unit ball and counting
-
-- <span style="font-size: 200%">$\sharp \{ \gamma,\, \| \gamma \| \leq t \} \sim \text{area unit ball}\times t^2$</span> 
-- <span style="font-size: 200%">$\sharp \{ \gamma \text{ primitive},\, \| \gamma \| \leq t \} \sim \frac{6}{\pi^2}\text{area unit ball}\times t^2$</span> 
-- the area of the unit ball depends on the hyperbolic structure
-- with Rivin we studied it, but now it's called the Mirzakhani function :(
-- <span style="font-size: 200%">$\frac{6}{\pi^2}$</span> = [proba 2 random integers
-    coprime](https://hal.archives-ouvertes.fr/hal-01413829/document){target="_blank"}
-
-#
-## Why log ?
-<span style="font-size: 200%">$N(t) = C (\log 3 ))^2 + O(\log t)$</span>
-
-- <span style="font-size: 200%">$m_{p/q} = \frac13 tr \hat{\rho}( \gamma_{p/q})$</span>
-- <span style="font-size: 200%">$= \frac23 \cosh\left(\frac{\ell_{\gamma_p}}{2} \right)$</span>
-- <span style="font-size: 200%">$= \frac23 \cosh(\| (q,p) \|_s)$</span>
-
-
-#
-## Aigner's conjectures 
-<img src="./aigner_mono.png" width="700">
-
-#
-## Aigner's conjectures 
-
-Let <span style="font-size: 200%">$p, q$</span> be real non negative numbers and <span style="font-size: 200%">$i > 0$</span> then
-
-- <span style="font-size: 200%">$\|(q,p) \|_s < \|(q + i,p) \|_s$</span>
-- <span style="font-size: 200%">$\|(q,p) \|_s < \|(q ,p +i ) \|_s$</span>
-- If in addition <span style="font-size: 200%">$p < q$</span> then
-<span style="font-size: 200%">$\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$</span>
-
-#
-## Aigner's conjectures proof
-
-
-<img src="./lines.png" width="700">
-
-
-#
-##
-
-<img src="./schiffler.png" width="700">
-
-[source](https://arxiv.org/pdf/2010.13010.pdf){target="_blank"}
+<img src="./schif_proof.png" width="900">

@@ -1,9 +1,7 @@
-%Markoff numbers 
+%Cohn's perspective 
 %greg mc
 %May 2021
 
-#
-whatever
 
 #
 ## Modern theory 
@@ -15,11 +13,8 @@ H. Cohn, Approach to Markov’s Minimal Forms Through Modular Functions (1955)
 -  relates Markoff numbers to lengths of simple closed geodesics
 
 #
-200$E=mc^2$
 
-#
-
-## Torus
+## Back to the Torus
 
 - 200$\mathbb{Z}^2$ acting on 200$\mathbb{R}^2$ by translation
 - quotient space (orbit space) is a euclidean torus
