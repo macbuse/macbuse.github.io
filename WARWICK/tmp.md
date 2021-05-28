@@ -94,12 +94,12 @@ numbers](https://www.researchgate.net/publication/226685228_The_geometry_of_mark
 - <span style="font-size: 200%">$a,b$</span> generators of the free group = fundamental group of the torus.
 
 #
-Traces behave "like squares of translation lenghts"
+Traces behave "like squares of translation lengths"
 
 - [parallogram
     law](https://en.wikipedia.org/wiki/Parallelogram_law){target="_blank}
-- <span style="font-size: 200%">$a^2 - (tr a)a + I_2 = 0$</span> Cayley-Hamilton
-- <span style="font-size: 200%">$\Rightarrow$</span>
+- <span style="font-size: 200%">$b\in SL(2,\mathbb{C}),\,b^2 - (tr b)b + I_2 = 0$</span> 
+- (Cayley-Hamilton) <span style="font-size: 200%">$\Rightarrow$</span>
 - <span style="font-size: 200%">$tr ab  + tr ab^{-1} = (tr a) (tr b)$</span>
 
 #
