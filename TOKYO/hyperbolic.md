@@ -210,6 +210,14 @@ Let 200$c$ be an essential closed curve 200$\ell_c$ its length.
 <img src="./holed_torus.png" width="500">
 
 #
+## Corollary
+
+The length function does not coincide with any reasonable function
+
+- not differentiable at rational slopes
+- is well approximated by piecewise linear
+
+#
 ### Unit ball and counting
 
 - 200$\sharp \{ \gamma,\, \| \gamma \| \leq t \} \sim \text{area unit ball}\times t^2$ 
