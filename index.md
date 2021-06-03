@@ -13,6 +13,10 @@ Reveal.js slides
 - esc-key for overview
 - blue text is a link to a resource on the web
 
+- Tokyo
+  - [talk 1](./TOKYO/intro.html)
+  - [talk 2](./TOKYO/hyperbolic.html)
+
 - Warwick 28/5
   - [intro](./WARWICK/intro.html)
   - [snakes matchings](./WARWICK/matchings.html)
