@@ -250,7 +250,7 @@ comes from Bass-Serre tree of
 - coprime <span style="font-size: 200%">$(p,q) \mapsto w \in \langle a, b \rangle$</span>
 - <span style="font-size: 200%">$1/c (|p| + |q|) \leq \ell_w \leq  c(|p| + |q|)$</span>
 
-
+#
 ## Continuity of length
 
 
