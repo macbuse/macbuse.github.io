@@ -85,6 +85,13 @@ A perfect matching matches all vertices of the graph.
 [src](https://arxiv.org/pdf/2010.13010.pdf)
 
 
+#
+## Markoff numbers
+
+Prove the relation for matchings of triples of snake graphs
+
+ 300$tr ab  + tr ab^{-1} = (tr a) (tr b)$
+
 
 #
 ## Ptolemy inequality
