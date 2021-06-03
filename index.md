@@ -16,6 +16,7 @@ Reveal.js slides
 - Tokyo
   - [talk 1](./TOKYO/intro.html)
   - [talk 2](./TOKYO/hyperbolic.html)
+  - [annex: snakes etc](./TOKYO/perf.html)
 
 - Warwick 28/5
   - [intro](./WARWICK/intro.html)
