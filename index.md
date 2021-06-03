@@ -8,20 +8,17 @@
 
 ### Talks
 
-Reveal.js slides 
+Talks are Reveal.js slides 
 - blue arrows = next/previous
 - esc-key for overview
 - blue text is a link to a resource on the web
 
-- Tokyo
+- **Tokyo 3/6** (Geometry of discrete groups and hyperbolic spaces)
   - [talk 1](./TOKYO/intro.html)
   - [talk 2](./TOKYO/hyperbolic.html)
   - [annex: snakes etc](./TOKYO/perf.html)
 
-- Warwick 28/5
-  - [intro](./WARWICK/intro.html)
-  - [snakes matchings](./WARWICK/matchings.html)
-  - [Cohn, norms and the rest](./WARWICK/hyperbolic.html)
+- **Warwick 28/5** (Colloquium)
 - [Nantes 18/3](./NANTES/slides.html)
 - [HARVARD 18/12/20](./HARVARD/slides.html)
 

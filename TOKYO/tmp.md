@@ -3,6 +3,17 @@
 %May 2021
 
 #
+##Geometry of discrete groups and hyperbolic spaces
+
+#
+
+- Markoff numbers and Frobenius conjecture
+- Aigners monotonicity conjectures
+- Group actions and labelling numbers
+- Visualizing Markoff numbers
+
+
+#
 
 <img src="./Martin_Aigner.jpg" width="400">
 
