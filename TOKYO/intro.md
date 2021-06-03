@@ -250,5 +250,19 @@ comes from Bass-Serre tree of
 - coprime 200$(p,q) \mapsto w \in \langle a, b \rangle$
 - 200$1/c (|p| + |q|) \leq \ell_w \leq  c(|p| + |q|)$
 
+
+## Continuity of length
+
+
+200$\rho, \gamma \mapsto \ell_\gamma(\rho)$
+is a continuous map <br>
+200$\mathcal{T}(\Sigma) \times \mathcal{ML} \rightarrow \mathbb{R}$
+
+
+-[Generalisation Brock](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=B57D2A49F7D875E1D8673D71711C7134?doi=10.1.1.493.2878&rep=rep1&type=pdf)
+- Question how regular is it?
+
 #
 ### Is there a norm hidden here?
+
+
