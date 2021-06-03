@@ -259,7 +259,7 @@ is a continuous map <br>
 <span style="font-size: 200%">$\mathcal{T}(\Sigma) \times \mathcal{ML} \rightarrow \mathbb{R}$</span>
 
 
--[Generalisation Brock](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=B57D2A49F7D875E1D8673D71711C7134?doi=10.1.1.493.2878&rep=rep1&type=pdf)
+- [Generalisation Brock](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=B57D2A49F7D875E1D8673D71711C7134?doi=10.1.1.493.2878&rep=rep1&type=pdf)
 - Question how regular is it?
 
 #
