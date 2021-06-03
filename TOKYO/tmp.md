@@ -73,6 +73,16 @@ A perfect matching matches all vertices of the graph.
 - [general case](https://annals.math.princeton.edu/wp-content/uploads/Lee_Schiffler.pdf){target="_blank"}
 
 
+#
+## Calculus of arcs/snake graphs
+
+- sophistocated combinatorial proof
+- relations to continued fractions
+- looking for applications
+
+#
+
+<img src="./matchings.jpg" height="400">
 
 #
 ## Markoff numbers
@@ -86,7 +96,7 @@ A perfect matching matches all vertices of the graph.
 
 
 #
-## Markoff numbers
+## Exercise to prove
 
 Prove the relation for matchings of triples of snake graphs
 
