@@ -1,4 +1,10 @@
+%Part 2
+%greg mc
+%May 2021
+
+
 #
+### Contents
 
 - Character variety
 - Norms and counting
@@ -16,14 +22,13 @@ H. Cohn, Approach to Markov’s Minimal Forms Through Modular Functions (1955)
 -  relates Markoff numbers to lengths of simple closed geodesics
 
 #
-
 ## Back to the Torus
 
-- 100$\mathbb{Z}^2$ acting on 100$\mathbb{R}^2$ by translation
+- 200$\mathbb{Z}^2$ acting on 200$\mathbb{R}^2$ by translation
 - quotient space (orbit space) is a euclidean torus
-- primitive elements 100$(p,q)\in \mathbb{Z}^2$ 
+- primitive elements 200$(p,q)\in \mathbb{Z}^2$ 
 - $\rightarrow$ closed curve on torus = $(p,q)$ curve
-- (usual) length $=\|(p,q)\| = \sqrt{p^2 + q^2}$
+- (usual) length 200$=\|(p,q)\| = \sqrt{p^2 + q^2}$
 
 #
 
@@ -54,6 +59,7 @@ representation 200$\mathbb{Z}^2 \rightarrow \text{isom}(\mathbb{R}^2)$
 <img src="./skew_torus (1).png" height="500">
 
 #
+### Threes, triangles, tori
 
 - 3 side lengths determine a triangle
 - need 3 numbers to build a euclidean torus
