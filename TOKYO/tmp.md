@@ -206,6 +206,7 @@ Let <span style="font-size: 200%">$c$</span> be an essential closed curve <span 
 
 #
 
+more formally from our paper
 <img src="./minimizers.png" width="800">
 <img src="./minimizer2.png" width="800">
 

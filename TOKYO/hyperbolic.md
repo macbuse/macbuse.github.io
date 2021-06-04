@@ -206,6 +206,7 @@ Let 200$c$ be an essential closed curve 200$\ell_c$ its length.
 
 #
 
+more formally from our paper
 <img src="./minimizers.png" width="800">
 <img src="./minimizer2.png" width="800">
 
