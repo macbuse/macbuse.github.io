@@ -4,6 +4,8 @@
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
+I am currently on sick leave with a broken shoulder.
+
 ---
 
 ### Talks
@@ -21,6 +23,8 @@ Talks are Reveal.js slides
 - **Warwick 28/5** (Colloquium)
 - [Nantes 18/3](./NANTES/slides.html)
 - [HARVARD 18/12/20](./HARVARD/slides.html)
+
+---
 
 ### Teaching stuff
 

@@ -1,6 +1,10 @@
-#
+%Matchings and snakes
+%greg mc
+%May 2021
 
-# Matchings and snakes
+
+#
+## 
 
 - [Jim Propp](http://faculty.uml.edu/jpropp/){target="_blank"}
 - [Ralph Schiffler](https://schiffler.math.uconn.edu/){target="_blank"}
