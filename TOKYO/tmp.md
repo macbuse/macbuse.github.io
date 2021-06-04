@@ -4,7 +4,7 @@
 
 
 #
-## 
+## Principal drivers
 
 - [Jim Propp](http://faculty.uml.edu/jpropp/){target="_blank"}
 - [Ralph Schiffler](https://schiffler.math.uconn.edu/){target="_blank"}
@@ -14,11 +14,11 @@
 #
 ## length
 
-<span style="font-size: 150%">$(p,q)$</span> curve
+<span style="font-size: 200%">$(p,q)$</span> curve
 
-- <span style="font-size: 150%">$\sqrt p^2 + q^2$</span>
-- <span style="font-size: 150%">$|p| + |q|$</span>
-- <span style="font-size: 150%">$\ell_w$</span>
+- <span style="font-size: 200%">$\sqrt p^2 + q^2$</span>
+- <span style="font-size: 200%">$|p| + |q|$</span>
+- <span style="font-size: 200%">$\ell_w$</span>
 - complexity of another object ?
 
 # 

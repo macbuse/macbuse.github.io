@@ -4,7 +4,7 @@
 
 
 #
-## 
+## Principal drivers
 
 - [Jim Propp](http://faculty.uml.edu/jpropp/){target="_blank"}
 - [Ralph Schiffler](https://schiffler.math.uconn.edu/){target="_blank"}
@@ -14,11 +14,11 @@
 #
 ## length
 
-150$(p,q)$ curve
+200$(p,q)$ curve
 
-- 150$\sqrt p^2 + q^2$
-- 150$|p| + |q|$
-- 150$\ell_w$
+- 200$\sqrt p^2 + q^2$
+- 200$|p| + |q|$
+- 200$\ell_w$
 - complexity of another object ?
 
 # 
