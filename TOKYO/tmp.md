@@ -159,8 +159,7 @@ fundamental group of the torus.
 
 <span style="font-size: 200%">$N(t) =$</span> number of Markoff numbers <span style="font-size: 200%">$\leq t$</span>
 
-<span style="font-size: 200%">$N(t) = C (\log(3t))^2 + O(\log t)$</span>
-
+- <span style="font-size: 200%">$N(t) = C (\log(3t))^2 + O(\log t)$</span>
 - Zagier (1982) [On the Number of Markov Numbers Below a Given Bound.](https://www.ams.org/journals/mcom/1982-39-160/S0025-5718-1982-0669663-7/S0025-5718-1982-0669663-7.pdf) 
 - Greg McShane, Igor Rivin [A norm on homology of surfaces and counting simple geodesics](https://arxiv.org/abs/math/0005222){target="_blank"} 
 
