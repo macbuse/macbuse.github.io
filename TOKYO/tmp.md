@@ -27,7 +27,7 @@ H. Cohn, Approach to Markov’s Minimal Forms Through Modular Functions (1955)
 - <span style="font-size: 200%">$\mathbb{Z}^2$</span> acting on <span style="font-size: 200%">$\mathbb{R}^2$</span> by translation
 - quotient space (orbit space) is a euclidean torus
 - primitive elements <span style="font-size: 200%">$(p,q)\in \mathbb{Z}^2$</span> 
-- $\rightarrow$ closed curve on torus = $(p,q)$ curve
+- <span style="font-size: 200%">$\rightarrow$</span> closed curve on torus = <span style="font-size: 200%">$(p,q)$</span> curve
 - (usual) length <span style="font-size: 200%">$=\|(p,q)\| = \sqrt{p^2 + q^2}$</span>
 
 #

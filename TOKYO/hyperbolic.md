@@ -27,7 +27,7 @@ H. Cohn, Approach to Markov’s Minimal Forms Through Modular Functions (1955)
 - 200$\mathbb{Z}^2$ acting on 200$\mathbb{R}^2$ by translation
 - quotient space (orbit space) is a euclidean torus
 - primitive elements 200$(p,q)\in \mathbb{Z}^2$ 
-- $\rightarrow$ closed curve on torus = $(p,q)$ curve
+- 200$\rightarrow$ closed curve on torus = 200$(p,q)$ curve
 - (usual) length 200$=\|(p,q)\| = \sqrt{p^2 + q^2}$
 
 #
