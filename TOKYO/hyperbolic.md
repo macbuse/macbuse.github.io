@@ -157,9 +157,9 @@ fundamental group of the torus.
 #
 ## Counting problem
 
-100$N(t) =$ number of Markoff numbers 100$\leq t$
+200$N(t) =$ number of Markoff numbers 200$\leq t$
 
-100$N(t) = C (\log(3t))^2 + O(\log t)$
+200$N(t) = C (\log(3t))^2 + O(\log t)$
 
 - Zagier (1982) [On the Number of Markov Numbers Below a Given Bound.](https://www.ams.org/journals/mcom/1982-39-160/S0025-5718-1982-0669663-7/S0025-5718-1982-0669663-7.pdf) 
 - Greg McShane, Igor Rivin [A norm on homology of surfaces and counting simple geodesics](https://arxiv.org/abs/math/0005222){target="_blank"} 
@@ -168,9 +168,9 @@ fundamental group of the torus.
 ### Counting closed simple geodesics
 
 
-- character map 100$\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
-- 100$a,b$ generators  fundamental group of the torus.
-- 100$a$ generator iff 100$\exists$ essential simple  closed curves representing its conjugacy class
+- character map 200$\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
+- 200$a,b$ generators  fundamental group of the torus.
+- 200$a$ generator iff 200$\exists$ essential simple  closed curves representing its conjugacy class
 
 
 
