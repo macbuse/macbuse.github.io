@@ -119,6 +119,18 @@ Labeling Markoff numbers
 - snake graphs
 - "lengths"
 
+
+# 
+### Lines on grids
+
+!![](./snake2.html)
+
+# 
+### Lines on grids
+
+!![](./snake1.html)
+
+
 # 
 ### Lines on grids
 

@@ -41,7 +41,7 @@ A perfect matching matches all vertices of the graph.
 <img src="./snake_graph1.png" width="300">
 
 - 250$x^4 + y^4 + x^2z^2 + 2x^2y^2$
-- match 150$\rightarrow$ monomial=product of labels 
+- match $\rightarrow$ monomial=product of labels 
 
 #
 
@@ -54,9 +54,9 @@ A perfect matching matches all vertices of the graph.
 #
 ## Snake graph from primitive 
 
-200$A=(1,1)$,
-200$B=(2,1)$,
-200$C=(3,2)$
+150$A=(1,1)$,
+150$B=(2,1)$,
+150$C=(3,2)$
 
 <img src="./trig_snake.png" width="600">
 
@@ -64,9 +64,9 @@ A perfect matching matches all vertices of the graph.
 ## Positivity conjecture
 
 - [cluster algebras](https://en.wikipedia.org/wiki/Cluster_algebra){target="_blank"}
-- seed is like a Markoff triple 200$(x,y,z)$
+- seed is like a Markoff triple 150$(x,y,z)$
 - mutation is like a Vieta flip
-- Markoff number 200$\rightarrow$ Laurent polynomial 
+- Markoff number 150$\rightarrow$ Laurent polynomial 
 - proof (idea) : coeffs are coeffs of the snake polynomial
 
 
@@ -91,8 +91,8 @@ A perfect matching matches all vertices of the graph.
 #
 ## Markoff numbers
 
-200$A,B \in \mathbb{Z}^2$<br>
-200$|AB|=$ number perfect matchings for associated snake graph
+150$A,B \in \mathbb{Z}^2$<br>
+150$|AB|=$ number perfect matchings for associated snake graph
 
 <img src="./matchings_markoff.png" width="900">
 
