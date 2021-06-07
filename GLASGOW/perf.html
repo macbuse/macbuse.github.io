@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="greg mc">
+  <title>Matchings and snakes</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="mycss.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://unpkg.com/reveal.js@3.9.2//css/print/pdf.css' : 'https://unpkg.com/reveal.js@3.9.2//css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Matchings and snakes</h1>
+  <p class="author">greg mc</p>
+  <p class="date">May 2021</p>
+</section>
+
+<section id="section" class="slide level1">
+<h1></h1>
+<h2 id="principal-drivers">Principal drivers</h2>
+<ul>
+<li class="fragment"><a href="http://faculty.uml.edu/jpropp/" target="_blank">Jim Propp</a></li>
+<li class="fragment"><a href="https://schiffler.math.uconn.edu/" target="_blank">Ralph Schiffler</a></li>
+<li class="fragment">plus many coauthors of both</li>
+<li class="fragment">a new notion of length ?</li>
+</ul>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<h2 id="length">length</h2>
+<p><span style="font-size: 200%"><span class="math inline">\((p,q)\)</span></span> curve</p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\sqrt p^2 + q^2\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(|p| + |q|\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\ell_w\)</span></span></li>
+<li class="fragment">complexity of another object ?</li>
+</ul>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<p>A matching of a graph G is a set of pairwise non-adjacent edges, none of which are loops.</p>
+<p>A perfect matching matches all vertices of the graph.</p>
+<p><img src="./snake_graph1.png" width="300"></p>
+</section>
+<section id="section-3" class="slide level1">
+<h1></h1>
+<p><img src="./matchings.jpg" height="400"></p>
+</section>
+<section id="section-4" class="slide level1">
+<h1></h1>
+<h2 id="matching-polynomial">Matching polynomial</h2>
+<p>5 perfect matchings</p>
+<p><img src="./snake_graph1.png" width="300"></p>
+<ul>
+<li class="fragment"><span style="font-size: 250%"><span class="math inline">\(x^4 + y^4 + x^2z^2 + 2x^2y^2\)</span></span></li>
+<li class="fragment">match <span style="font-size: 150%"><span class="math inline">\(\rightarrow\)</span></span> monomial=product of labels</li>
+</ul>
+</section>
+<section id="section-5" class="slide level1">
+<h1></h1>
+<p>13 perfect matchings</p>
+<p><img src="./snake_6.png" width="600"></p>
+<p><a href="https://arxiv.org/pdf/math/0511633.pdf" target="_blank">src</a></p>
+</section>
+<section id="section-6" class="slide level1">
+<h1></h1>
+<h2 id="snake-graph-from-primitive">Snake graph from primitive</h2>
+<p><span style="font-size: 200%"><span class="math inline">\(A=(1,1)\)</span></span>, <span style="font-size: 200%"><span class="math inline">\(B=(2,1)\)</span></span>, <span style="font-size: 200%"><span class="math inline">\(C=(3,2)\)</span></span></p>
+<p><img src="./trig_snake.png" width="600"></p>
+</section>
+<section id="section-7" class="slide level1">
+<h1></h1>
+<h2 id="positivity-conjecture">Positivity conjecture</h2>
+<ul>
+<li class="fragment"><a href="https://en.wikipedia.org/wiki/Cluster_algebra" target="_blank">cluster algebras</a></li>
+<li class="fragment">seed is like a Markoff triple <span style="font-size: 200%"><span class="math inline">\((x,y,z)\)</span></span></li>
+<li class="fragment">mutation is like a Vieta flip</li>
+<li class="fragment">Markoff number <span style="font-size: 200%"><span class="math inline">\(\rightarrow\)</span></span> Laurent polynomial</li>
+<li class="fragment">proof (idea) : coeffs are coeffs of the snake polynomial</li>
+</ul>
+</section>
+<section id="section-8" class="slide level1">
+<h1></h1>
+<h2 id="positivity-conjecture-1">Positivity conjecture</h2>
+<ul>
+<li class="fragment"><a href="https://www.sciencedirect.com/science/article/pii/S0001870811001423" target="_blank">cluster alg. from surfaces</a></li>
+<li class="fragment"><a href="https://annals.math.princeton.edu/wp-content/uploads/Lee_Schiffler.pdf" target="_blank">general case</a></li>
+</ul>
+</section>
+<section id="section-9" class="slide level1">
+<h1></h1>
+<h2 id="calculus-of-arcssnake-graphs">Calculus of arcs/snake graphs</h2>
+<ul>
+<li class="fragment">sophistocated combinatorial proof</li>
+<li class="fragment">relations to continued fractions</li>
+<li class="fragment">looking for applications</li>
+</ul>
+</section>
+<section id="section-10" class="slide level1">
+<h1></h1>
+<p><img src="./matchings.jpg" height="400"></p>
+</section>
+<section id="section-11" class="slide level1">
+<h1></h1>
+<h2 id="markoff-numbers">Markoff numbers</h2>
+<p><span style="font-size: 200%"><span class="math inline">\(A,B \in \mathbb{Z}^2\)</span></span><br> <span style="font-size: 200%"><span class="math inline">\(|AB|=\)</span></span> number perfect matchings for associated snake graph</p>
+<p><img src="./matchings_markoff.png" width="900"></p>
+<p><a href="https://arxiv.org/pdf/2010.13010.pdf">src</a></p>
+</section>
+<section id="section-12" class="slide level1">
+<h1></h1>
+<h2 id="exercise-to-prove">Exercise to prove</h2>
+<p>Prove the relation for matchings of triples of snake graphs</p>
+<p><span style="font-size: 300%"><span class="math inline">\(tr ab + tr ab^{-1} = (tr a) (tr b)\)</span></span></p>
+</section>
+<section id="section-13" class="slide level1">
+<h1></h1>
+<h2 id="ptolemy-inequality">Ptolemy inequality</h2>
+<p><img src="./ptolemy_inequality.png" width="900"></p>
+</section>
+<section id="section-14" class="slide level1">
+<h1></h1>
+<p><img src="./schif_proof.png" width="900"></p>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/head.min.js"></script>
+  <script src="https://unpkg.com/reveal.js@3.9.2//js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://unpkg.com/reveal.js@3.9.2//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/zoom-js/zoom.js', async: true },
+              { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
