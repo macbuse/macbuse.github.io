@@ -8,9 +8,9 @@ I am currently on sick leave with a broken shoulder.
 
 ---
 
-### Talks
+## Talks
 
-Talks are Reveal.js slides 
+Talks are [Reveal.js](https://revealjs.com/) slides 
 - blue arrows = next/previous
 - esc-key for overview
 - blue text is a link to a resource on the web
@@ -18,7 +18,7 @@ Talks are Reveal.js slides
 
 - **Glasgow 7/6**
   - [part 1](./GLASGOW/intro.html)
-  - [part 1](./GLASGOW/hyperbolic.html)
+  - [part 2](./GLASGOW/hyperbolic.html)
   - [annex: snakes etc](./TOKYO/perf.html)
 
 
