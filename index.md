@@ -15,6 +15,13 @@ Talks are Reveal.js slides
 - esc-key for overview
 - blue text is a link to a resource on the web
 
+
+- **Glasgow 7/6**
+  - [part 1](./GLASGOW/intro.html)
+  - [part 1](./GLASGOW/hyperbolic.html)
+  - [annex: snakes etc](./TOKYO/perf.html)
+
+
 - **Tokyo 3/6** (Geometry of discrete groups and hyperbolic spaces)
   - [talk 1](./TOKYO/intro.html)
   - [talk 2](./TOKYO/hyperbolic.html)
