@@ -19,8 +19,8 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 - **Glasgow 7/6**
   - [part 1](./GLASGOW/intro.html)
   - [part 2](./GLASGOW/hyperbolic.html)
-  - [annex: snakes etc](./GLASGOW/non_convex.html)
-  - [annex: non convexity](./GLASGOW/perf.html)
+  - [annex: snakes etc](./GLASGOW/perf.html)
+  - [annex: non convexity](./GLASGOW/non_convex.html)
 
 
 - **Tokyo 3/6** (Geometry of discrete groups and hyperbolic spaces)
