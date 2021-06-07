@@ -253,8 +253,7 @@ Let 200$p, q$ be real non negative numbers and 200$i > 0$ then
 
 - 200$\|(q,p) \|_s < \|(q + i,p) \|_s$
 - 200$\|(q,p) \|_s < \|(q ,p +i ) \|_s$
-- If in addition 200$p < q$ then
-200$\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$
+- If in addition 200$p < q$ then 200$\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$
 
 #
 ## Aigners conjectures proof
@@ -270,3 +269,7 @@ Let 200$p, q$ be real non negative numbers and 200$i > 0$ then
 
 [source](https://arxiv.org/pdf/2010.13010.pdf){target="_blank"}
 
+
+# Thanks
+
+### Questions ?
