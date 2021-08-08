@@ -6,8 +6,8 @@
 #
 ## Principal drivers
 
-- [Jim Propp](http://faculty.uml.edu/jpropp/){target="_blank"}
-- [Ralph Schiffler](https://schiffler.math.uconn.edu/){target="_blank"}
+- [Jim Propp](http://faculty.uml.edu/jpropp/)
+- [Ralph Schiffler](https://schiffler.math.uconn.edu/)
 - plus many coauthors of both
 - a new notion of length ?
 
@@ -49,7 +49,7 @@ A perfect matching matches all vertices of the graph.
 
 <img src="./snake_6.png" width="600">
 
-[src](https://arxiv.org/pdf/math/0511633.pdf){target="_blank"}
+[src](https://arxiv.org/pdf/math/0511633.pdf)
 
 #
 ## Snake graph from primitive 
@@ -63,7 +63,7 @@ A perfect matching matches all vertices of the graph.
 #
 ## Positivity conjecture
 
-- [cluster algebras](https://en.wikipedia.org/wiki/Cluster_algebra){target="_blank"}
+- [cluster algebras](https://en.wikipedia.org/wiki/Cluster_algebra)
 - seed is like a Markoff triple 150$(x,y,z)$
 - mutation is like a Vieta flip
 - Markoff number 150$\rightarrow$ Laurent polynomial 
@@ -73,8 +73,8 @@ A perfect matching matches all vertices of the graph.
 #
 ## Positivity conjecture
 
-- [cluster alg. from surfaces](https://www.sciencedirect.com/science/article/pii/S0001870811001423){target="_blank"}
-- [general case](https://annals.math.princeton.edu/wp-content/uploads/Lee_Schiffler.pdf){target="_blank"}
+- [cluster alg. from surfaces](https://www.sciencedirect.com/science/article/pii/S0001870811001423)
+- [general case](https://annals.math.princeton.edu/wp-content/uploads/Lee_Schiffler.pdf)
 
 
 #
