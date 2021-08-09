@@ -76,3 +76,29 @@ This could be caused by:
    with much less severe disease predominantly in the old or clinically
    vulnerable. 
 - Likelihood: Unlikely in the short term, realistic possibility in the long term
+
+----
+
+# Vaccinated vs unvaccinated
+
+[src](https://www.theguardian.com/commentisfree/2021/aug/06/cdc-covid-coronavirus-data-breakthrough-cases#comment-151140644)
+
+### Health:
+People should get vaccinated because the evidence clearly indicates greater resistance to serious illness after infection.
+
+### Public Policy:
+Because the CDC has determined infected individuals shed the same amount of virus whether vaccinated or not, and because the CDC's study in Massachusetts indicated the vaccinated are potentially as likely to contract the virus as the unvaccinated*, and because there is no real effort to measure how readily the vaccinated contract and transmit the disease (article above - CDC stopped seeking data on contraction rate among the vaccinated in May), there is no basis for passports or employment restrictions on the unvaccinated -- they appear to be no more of a threat to others than the vaccinated, even if a greater threat to themselves.
+
+*Some here point out that the unvaccinated are found to be much more prevelant among those tested after coming in for hospitalization; that is relevant to the 1st bullet above only because we'd expect the vaccinated who catch (and can pass) the virus not to come into the hospital (vaccines prevent serious illness). In other words, those findings have no bearing on determining whether the vaccinated are catching and passing it.
+
+---
+
+[Primary](https://www.cdc.gov/mmwr/volumes/70/wr/mm7031e2.htm)
+Finally, Ct values obtained with SARS-CoV-2 qualitative RT-PCR diagnostic tests might provide a crude correlation to the amount of virus present in a sample and can also be affected by factors other than viral load.††† Although the assay used in this investigation was not validated to provide quantitative results, there was no significant difference between the Ct values of samples collected from breakthrough cases and the other cases. This might mean that the viral load of vaccinated and unvaccinated persons infected with SARS-CoV-2 is also similar. However, microbiological studies are required to confirm these findings.
+
+
+
+[Secondary source](https://edition.cnn.com/2021/07/29/politics/cdc-masks-covid-19-infections/index.html)
+"if vaccinated people get infected anyway, they have as much virus in their bodies as unvaccinated people. That means they’re as likely to infect someone else as unvaccinated people who get infected."
+
+[Secondary source](https://www.cnbc.com/2021/07/30/cdc-study-shows-74percent-of-people-infected-in-massachusetts-covid-outbreak-were-fully-vaccinated.html)
