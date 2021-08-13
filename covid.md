@@ -1,6 +1,15 @@
-# Years of life lost
+# Contents
+
+- yll analysis
+- SAGE scenarios
+- CDC analysis of breakthrough cases in Mass.
+
+---
+
+## Years of life lost
 
 - [article comorbidities vs yll](https://wellcomeopenresearch.org/articles/5-75)
+- [Github repo ](https://github.com/dmcalli2/covid19_yll_final)
 - [blog comorbidbities vs yll](https://avalonecon.com/moving-beyond-lives-saved-from-covid-19/)
 
 ### Background: 
@@ -15,7 +24,7 @@ Deaths from COVID-19 represent a substantial burden in terms of per-person YLL, 
 
 
 
-#  SAGE
+##  SAGE
 
 [source](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1007566/S1335_Long_term_evolution_of_SARS-CoV-2.pdf)
 - A variant that causes severe disease in a greater proportion of the population than has occurred to date. 
@@ -96,7 +105,7 @@ This could be caused by:
 
 ----
 
-# Vaccinated vs unvaccinated
+## Vaccinated vs unvaccinated
 
 [src](https://www.theguardian.com/commentisfree/2021/aug/06/cdc-covid-coronavirus-data-breakthrough-cases#comment-151140644)
 
