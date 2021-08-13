@@ -1,3 +1,20 @@
+# 
+
+- [comorbidities vs yll](https://wellcomeopenresearch.org/articles/5-75)
+- [comorbidities vs yll](https://avalonecon.com/moving-beyond-lives-saved-from-covid-19/)
+
+### Background: 
+COVID-19 is responsible for increasing deaths globally. As most people dying with COVID-19 are older with underlying long-term conditions (LTCs), some speculate that YLL are low. We aim to estimate YLL attributable to COVID-19, before and after adjustment for number/type of LTCs, using the limited data available early in the pandemic.
+Methods: We first estimated YLL from COVID-19 using WHO life tables, based on published age/sex data from COVID-19 deaths in Italy. We then used aggregate data on number/type of LTCs in a Bayesian model to estimate likely combinations of LTCs among people dying with COVID-19. We used routine UK healthcare data from Scotland and Wales to estimate life expectancy based on age/sex/these combinations of LTCs using Gompertz models from which we then estimate YLL.
+
+### Results:
+Using the standard WHO life tables, YLL per COVID-19 death was 14 for men and 12 for women. After adjustment for number and type of LTCs, the mean YLL was slightly lower, but remained high (11.6 and 9.4 years for men and women, respectively). The number and type of LTCs led to wide variability in the estimated YLL at a given age (e.g. at ≥80 years, YLL was >10 years for people with 0 LTCs, and less than 3 years for people with ≥6).
+
+### Conclusions:
+Deaths from COVID-19 represent a substantial burden in terms of per-person YLL, more than a decade, even after adjusting for the typical number and type of LTCs found in people dying of COVID-19. The extent of multimorbidity heavily influences the estimated YLL at a given age. More comprehensive and standardised collection of data (including LTC type, severity, and potential confounders such as socioeconomic-deprivation and care-home status) is needed to optimise YLL estimates for specific populations, and to understand the global burden of COVID-19, and guide policy-making and interventions.
+
+
+
 #  SAGE
 
 [source](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1007566/S1335_Long_term_evolution_of_SARS-CoV-2.pdf)
