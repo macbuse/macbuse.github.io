@@ -1,7 +1,7 @@
-# 
+# Years of life lost
 
-- [comorbidities vs yll](https://wellcomeopenresearch.org/articles/5-75)
-- [comorbidities vs yll](https://avalonecon.com/moving-beyond-lives-saved-from-covid-19/)
+- [article comorbidities vs yll](https://wellcomeopenresearch.org/articles/5-75)
+- [blog comorbidbities vs yll](https://avalonecon.com/moving-beyond-lives-saved-from-covid-19/)
 
 ### Background: 
 COVID-19 is responsible for increasing deaths globally. As most people dying with COVID-19 are older with underlying long-term conditions (LTCs), some speculate that YLL are low. We aim to estimate YLL attributable to COVID-19, before and after adjustment for number/type of LTCs, using the limited data available early in the pandemic.
