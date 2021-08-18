@@ -17,6 +17,13 @@ The CDC recommends this [book](https://www.cdc.gov/csels/dsepd/ss1978/SS1978.pdf
 
 ---
 
+## LWA: 
+
+It is disturbing to hear *liberals* promoting authoritarian policies (lockdowns, compulsory vaccination etc.) but there seems to be some literature on this:
+[This article](https://onlinelibrary.wiley.com/doi/10.1111/pops.12470)
+
+---
+
 ## Years of life lost
 
 - [article comorbidities vs yll](https://wellcomeopenresearch.org/articles/5-75)
