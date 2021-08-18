@@ -6,6 +6,17 @@
 
 ---
 
+## Reference book
+
+The CDC recommends this [book](https://www.cdc.gov/csels/dsepd/ss1978/SS1978.pdf) on epidemiology.
+
+- [definition](https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section1.html)
+- [introuduction](https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section5.html)
+- [endemic, epidemic,
+    pandemic](https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section11.html)
+
+---
+
 ## Years of life lost
 
 - [article comorbidities vs yll](https://wellcomeopenresearch.org/articles/5-75)
@@ -106,6 +117,25 @@ This could be caused by:
 ----
 
 ## Vaccinated vs unvaccinated
+
+### British study: Real-time Assessment of Community Transmission
+
+[webpage](https://www.imperial.ac.uk/medicine/research-and-impact/groups/react-study/)
+
+The published [REACT study](https://spiral.imperial.ac.uk/handle/10044/1/90800) looks at several metrics in un/vaccinated populations.
+
+- prevalence of infections
+- Ct thresholds 
+
+Complicated because vaccination at the time of the study correlated strongly
+with age.
+
+- vaccine effectiveness [formula](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section6.html)
+- viral load, estimated using number of Ct cycles to threshold.
+- doubling times
+
+---
+
 
 [src](https://www.theguardian.com/commentisfree/2021/aug/06/cdc-covid-coronavirus-data-breakthrough-cases#comment-151140644)
 
