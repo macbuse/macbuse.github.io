@@ -4,6 +4,12 @@
 - SAGE scenarios
 - CDC analysis of breakthrough cases in Mass.
 
+
+Conformity = living one's life for others.
+
+Ernest Becker [The denial of death](https://en.wikipedia.org/wiki/The_Denial_of_Death)
+
+
 ---
 
 ## Reference book
@@ -20,8 +26,47 @@ The CDC recommends this [book](https://www.cdc.gov/csels/dsepd/ss1978/SS1978.pdf
 ## LWA: 
 
 It is disturbing to hear *liberals* promoting authoritarian policies (lockdowns, compulsory vaccination etc.) but there seems to be some literature on this:
-[This article](https://onlinelibrary.wiley.com/doi/10.1111/pops.12470)
+[This article paywalled](https://onlinelibrary.wiley.com/doi/10.1111/pops.12470)
 
+[original
+source](https://thehill.com/opinion/campaign/561825-comedians-are-right-authoritarian-democrats-are-also-a-problem)
+
+[free speech](https://www.cato.org/survey-reports/poll-62-americans-say-they-have-political-views-theyre-afraid-share#liberals-are-divided-political-expression)
+
+In fact, in our work, liberals are just as likely as conservatives to agree with statements endorsing that 
+- some groups should “just shut up and accept their group’s proper place in society.” 
+- Similarly, there are as many liberals as conservatives who want to “put some tough leaders in power” to “silence the troublemakers,” 
+
+    and these liberal authoritarians are just as likely as conservative authoritarians to want a mighty leader who will “destroy,” “smash,” “crush,” “strongly punish,” and “silence” opponents. 
+
+Polling suggests that 50 percent of Democrats want Trump donors, and actresses, baseball personalities, and Google employees who have expressed conservative views fired.
+
+See also [Clarifying the Structure and Nature LWA](https://psyarxiv.com/3nprq/)
+
+ Altemeyer’s (1981) reconceptualization of authoritarianism as RWA—the covariation of 
+ - authoritarian submission (i.e., obsequiousness to established authority),
+ - authoritarian aggression (i.e., aggression towards outgroup members),
+ -  conventionalism (i.e., strict adherence to socially conservative norms)
+ 
+ —reinvigorated the literature while circumventing questions of political
+ specificity by explicitly integrating political conservatism, rendering RWA the
+ dominant psychological account of authoritarianism.
+
+### Conformity = living one's life for others.
+
+Ernest Becker [The denial of death](https://en.wikipedia.org/wiki/The_Denial_of_Death)
+
+Striving for the heroic
+
+- non conformist cosmic heroism
+- conformist cultural heroism
+
+Uniqueness to be shunned - incapable of bringing forth significance.
+Alternative route to denial of death.
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ARGczzoPASo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ---
 
 ## Years of life lost
