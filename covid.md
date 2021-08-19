@@ -1,5 +1,6 @@
 # Contents
 
+
 - yll analysis
 - SAGE scenarios
 - CDC analysis of breakthrough cases in Mass.
@@ -67,6 +68,8 @@ Alternative route to denial of death.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ARGczzoPASo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ---
 
 ## Years of life lost
@@ -186,7 +189,18 @@ Complicated because vaccination at the time of the study correlated strongly wit
 - doubling times
 -
 
-#### Ct cycles
+#### Ct threshold values
+
+So the REACT values: For all positives in round 13, at ages 18 to 64 years, median Ct value was higher for vaccinated participants at
+- vaccinated participants at 27.6 (25.5, 29.7) compared with 
+- unvaccinated at 23.1 (20.3, 25.8) 
+- (positive defined as N gene Ct less than 37 or both N gene and E gene positive, 
+
+Based on this and the guidelines below  the viral load is 10**(1.5) ~ 30 times higher.  
+
+
+[Paper](https://elifesciences.org/articles/64683) Ct threshold values, a proxy
+for viral load in community SARS-CoV-2 cases, demonstrate wide variation across populations and over time.
 
 [UK gov PCR guide](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/926410/Understanding_Cycle_Threshold__Ct__in_SARS-CoV-2_RT-PCR_.pdf)
 
