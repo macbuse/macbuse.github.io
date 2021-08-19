@@ -38,11 +38,17 @@ The CDC recommends this [book](https://www.cdc.gov/csels/dsepd/ss1978/SS1978.pdf
 
 ## LWA: 
 
+[guptra](https://www.newframe.com/sunetra-gupta-and-the-covid-19-culture-war/)
+
+```The result is a weirdly counterintuitive political battlefield, in which a large segment of the Left is calling for authoritarian measures that will further impoverish the already destitute, while a large segment of the Right is calling for anti-authoritarian measures that will help the impoverished. It’s the ideological equivalent of one of Maurits Cornelis Escher’s illogical waterfalls: up is down, and down is up. But despite the wild allegations of malevolent conspiracies on both sides, it is clear that the serious researchers are thinking and acting in good faith. Both sides are simply prioritising one dimension of the unfolding tragedy.```
+
 It is disturbing to hear *liberals* promoting authoritarian policies (lockdowns, compulsory vaccination etc.) but there seems to be some literature on this:
 [This article paywalled](https://onlinelibrary.wiley.com/doi/10.1111/pops.12470)
 
 [original
 source](https://thehill.com/opinion/campaign/561825-comedians-are-right-authoritarian-democrats-are-also-a-problem)
+
+
 
 [free speech](https://www.cato.org/survey-reports/poll-62-americans-say-they-have-political-views-theyre-afraid-share#liberals-are-divided-political-expression)
 
