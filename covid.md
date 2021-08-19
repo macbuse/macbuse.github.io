@@ -5,6 +5,7 @@
 - SAGE scenarios
 - REACT/Oxford studies and Ct threshold
 - CDC analysis of breakthrough cases in Mass.
+- Herd immunity vs endemic equilibrium
 
 Conformity = living one's life for others.
 
@@ -255,3 +256,18 @@ Finally, Ct values obtained with SARS-CoV-2 qualitative RT-PCR diagnostic tests 
 "if vaccinated people get infected anyway, they have as much virus in their bodies as unvaccinated people. That means they’re as likely to infect someone else as unvaccinated people who get infected."
 
 [Secondary source](https://www.cnbc.com/2021/07/30/cdc-study-shows-74percent-of-people-infected-in-massachusetts-covid-outbreak-were-fully-vaccinated.html)
+
+
+## Herd immunity vs endemic equilibrium
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o74aMfab1Z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+[Nature: The false promise of herd immunity for COVID-19](https://www.nature.com/articles/d41586-020-02948-4)
+
+[Nature: The coronavirus is here to stay — here’s what that means](https://www.nature.com/articles/d41586-021-00396-2)
+
+[Nature: Five reasons why COVID herd immunity is probably impossible](https://www.nature.com/articles/d41586-021-00728-2)
+
+[Simulation](https://covid19-projections.com/path-to-herd-immunity/)
+Gu is a data scientist, but his thinking aligns with that of many in the epidemiology community. “We’re moving away from the idea that we’ll hit the herd-immunity threshold and then the pandemic will go away for good,”
