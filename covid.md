@@ -179,16 +179,16 @@ The published [REACT study](https://spiral.imperial.ac.uk/handle/10044/1/90800) 
 - prevalence of infections
 - Ct thresholds 
 
-Complicated because vaccination at the time of the study correlated strongly
-with age.
+Complicated because vaccination at the time of the study correlated strongly with age.
 
 - vaccine effectiveness [formula](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section6.html)
 - viral load, estimated using number of Ct cycles to threshold.
 - doubling times
 -
 
-[UK gov PCR
-guide](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/926410/Understanding_Cycle_Threshold__Ct__in_SARS-CoV-2_RT-PCR_.pdf)
+#### Ct cycles
+
+[UK gov PCR guide](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/926410/Understanding_Cycle_Threshold__Ct__in_SARS-CoV-2_RT-PCR_.pdf)
 
 A typical RT-PCR assay will have a maximum of 40 thermal cycles. The lower the Ct value the higher the quantity of viral genetic material in the sample (as an approximate proxy for viral load). Ct values obtained in this way are semi-quantitative and are able to distinguish between high and low viral load. A 3-point increase in Ct value is roughly equivalent to a 10-fold decrease in the quantity of viral genetic material.  
 
