@@ -185,6 +185,15 @@ with age.
 - vaccine effectiveness [formula](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section6.html)
 - viral load, estimated using number of Ct cycles to threshold.
 - doubling times
+-
+
+[UK gov PCR
+guide](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/926410/Understanding_Cycle_Threshold__Ct__in_SARS-CoV-2_RT-PCR_.pdf)
+
+A typical RT-PCR assay will have a maximum of 40 thermal cycles. The lower the Ct value the higher the quantity of viral genetic material in the sample (as an approximate proxy for viral load). Ct values obtained in this way are semi-quantitative and are able to distinguish between high and low viral load. A 3-point increase in Ct value is roughly equivalent to a 10-fold decrease in the quantity of viral genetic material.  
+
+In some circumstances, Ct values can be used as a more quantitative technique to accurately measure the number of viral copies per cell in the original sample – however, this requires that the sample is tested alongside verified standard dilutions and there is fixed sample input alongside quantification of cellular content of a swab sample(1,2).  Most diagnostic laboratories do not routinely perform this quantification for respiratory
+viral swabs – quantitative PCR is more common in measuring blood-borne viral load.
 
 ---
 
