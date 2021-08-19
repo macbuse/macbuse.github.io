@@ -3,12 +3,22 @@
 
 - yll analysis
 - SAGE scenarios
+- REACT/Oxford studies and Ct threshold
 - CDC analysis of breakthrough cases in Mass.
-
 
 Conformity = living one's life for others.
 
 Ernest Becker [The denial of death](https://en.wikipedia.org/wiki/The_Denial_of_Death)
+
+
+### Press
+
+[Guardian Oxford study](https://www.theguardian.com/world/2021/aug/19/jabbed-adults-infected-with-delta-can-match-virus-levels-of-unvaccinated)
+
+[DM Oxford study](https://www.dailymail.co.uk/news/article-9905631/Double-jabbed-catch-Delta-variant-just-likely-spread-Covid-unvaccinated.html)
+
+[Guardian CDC Mass.  study](https://www.theguardian.com/world/2021/jul/30/covid-delta-variant-guidelines-masks-cdc-paper-transmission)
+
 
 
 ---
@@ -196,7 +206,7 @@ So the REACT values: For all positives in round 13, at ages 18 to 64 years, medi
 - unvaccinated at 23.1 (20.3, 25.8) 
 - (positive defined as N gene Ct less than 37 or both N gene and E gene positive, 
 
-Based on this and the guidelines below  the viral load is 10**(1.5) ~ 30 times higher.  
+Based on this and the guidelines below  the viral load is 10**(1.5) ~ 30 times higher.  I find this a little hard to believe given the CDC Massachusetts study.
 
 
 [Paper](https://elifesciences.org/articles/64683) Ct threshold values, a proxy
