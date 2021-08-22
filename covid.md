@@ -15,6 +15,14 @@ Ernest Becker [The denial of death](https://en.wikipedia.org/wiki/The_Denial_of_
 
 ### Press
 
+
+Covid: What’s the best way to top up our immunity?
+[BBC](https://www.bbc.com/news/health-58270098)
+
+```"We could be digging ourselves into a hole, for a very long time, where we
+think we can only keep Covid away by boosting every year," Prof Eleanor Riley,
+an immunologist from the University of Edinburgh```
+
 ```The hope had been that we could vaccinate enough people to protect the unvaccinated, added Walker, who also serves as the chief investigator for the UK analysis. “I suspect that, partly, the higher levels of virus that we’re seeing in these [Delta] infections in vaccinated people are consistent with the fact that unvaccinated people are just going to be at higher risk.”```
 
 [Guardian Oxford study](https://www.theguardian.com/world/2021/aug/19/jabbed-adults-infected-with-delta-can-match-virus-levels-of-unvaccinated)
