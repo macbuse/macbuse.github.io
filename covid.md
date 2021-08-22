@@ -19,9 +19,15 @@ Ernest Becker [The denial of death](https://en.wikipedia.org/wiki/The_Denial_of_
 Covid: What’s the best way to top up our immunity?
 [BBC](https://www.bbc.com/news/health-58270098)
 
-```"We could be digging ourselves into a hole, for a very long time, where we
-think we can only keep Covid away by boosting every year," Prof Eleanor Riley,
-an immunologist from the University of Edinburgh```
+```"We could be digging ourselves into a hole, for a very long time, where we think we can only keep Covid away by boosting every year," Prof Eleanor Riley, an immunologist from the University of Edinburgh```
+
+[Riley Roslin Institut](https://en.wikipedia.org/wiki/Eleanor_Riley)
+
+```"This isn't proven, but it could be a lot cheaper and simpler to let that happen than spend the whole time immunising people," said Prof Finn, who warns we could end up "locked into a cycle of boosting" without seeing if it was necessary. he said the argument in children had "already been won" as "40-50% have already been infected and most weren't ill or particularly ill".```
+
+[Adam Finn, Bristol](https://research-information.bris.ac.uk/en/persons/adam-h-r-finn)
+
+### Printed
 
 ```The hope had been that we could vaccinate enough people to protect the unvaccinated, added Walker, who also serves as the chief investigator for the UK analysis. “I suspect that, partly, the higher levels of virus that we’re seeing in these [Delta] infections in vaccinated people are consistent with the fact that unvaccinated people are just going to be at higher risk.”```
 
@@ -47,7 +53,7 @@ The CDC recommends this [book](https://www.cdc.gov/csels/dsepd/ss1978/SS1978.pdf
 
 ## LWA: 
 
-[guptra](https://www.newframe.com/sunetra-gupta-and-the-covid-19-culture-war/)
+[gupta](https://www.newframe.com/sunetra-gupta-and-the-covid-19-culture-war/)
 
 ```The result is a weirdly counterintuitive political battlefield, in which a large segment of the Left is calling for authoritarian measures that will further impoverish the already destitute, while a large segment of the Right is calling for anti-authoritarian measures that will help the impoverished. It’s the ideological equivalent of one of Maurits Cornelis Escher’s illogical waterfalls: up is down, and down is up. But despite the wild allegations of malevolent conspiracies on both sides, it is clear that the serious researchers are thinking and acting in good faith. Both sides are simply prioritising one dimension of the unfolding tragedy.```
 
