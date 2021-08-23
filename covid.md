@@ -29,6 +29,8 @@ Covid: What’s the best way to top up our immunity?
 
 ### Printed
 
+[NZ move on strategy](https://www.theguardian.com/world/2021/aug/23/big-questions-new-zealand-covid-minister-raises-doubts-about-elimination-strategy)
+
 ```The hope had been that we could vaccinate enough people to protect the unvaccinated, added Walker, who also serves as the chief investigator for the UK analysis. “I suspect that, partly, the higher levels of virus that we’re seeing in these [Delta] infections in vaccinated people are consistent with the fact that unvaccinated people are just going to be at higher risk.”```
 
 [Guardian Oxford study](https://www.theguardian.com/world/2021/aug/19/jabbed-adults-infected-with-delta-can-match-virus-levels-of-unvaccinated)
@@ -53,7 +55,7 @@ The CDC recommends this [book](https://www.cdc.gov/csels/dsepd/ss1978/SS1978.pdf
 
 ## LWA: 
 
-[gupta](https://www.newframe.com/sunetra-gupta-and-the-covid-19-culture-war/)
+[gupta interview: Covid-19 culture war](https://www.newframe.com/sunetra-gupta-and-the-covid-19-culture-war/)
 
 ```The result is a weirdly counterintuitive political battlefield, in which a large segment of the Left is calling for authoritarian measures that will further impoverish the already destitute, while a large segment of the Right is calling for anti-authoritarian measures that will help the impoverished. It’s the ideological equivalent of one of Maurits Cornelis Escher’s illogical waterfalls: up is down, and down is up. But despite the wild allegations of malevolent conspiracies on both sides, it is clear that the serious researchers are thinking and acting in good faith. Both sides are simply prioritising one dimension of the unfolding tragedy.```
 
