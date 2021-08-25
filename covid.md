@@ -339,6 +339,8 @@ Gu is a data scientist, but his thinking aligns with that of many in the epidemi
 
 [comment](https://blogs.bmj.com/bmj/2021/08/23/does-the-fda-think-these-data-justify-the-first-full-approval-of-a-covid-19-vaccine/)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ELq3y1D8-rg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### The elephant named “waning immunity”
 
 Since late last year, we’ve heard that Pfizer and Moderna’s vaccines are “95% effective” with even greater efficacy against severe disease (“100% effective,” Moderna said).
