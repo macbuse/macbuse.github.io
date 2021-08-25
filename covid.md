@@ -109,6 +109,23 @@ Alternative route to denial of death.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ARGczzoPASo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+### Terror management 
+
+[Terror Management Theory and the COVID-19 Pandemic](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7498956/pdf/10.1177_0022167820959488.pdf)
+
+Terror management theory is focused on the role that awareness of death plays in diverse aspects of life. Here, we discuss the theory’s implications for understanding the widely varying ways in which people have responded to the COVID-19 pandemic. 
+
+We argue that regardless of whether one consciously believes that the virus is 
+- a major threat to life or only 
+- a minor inconvenience, 
+
+fear of death plays an important role in driving one’s attitudes and behavior related to the virus. 
+We focus on the terror management theory distinction between 
+- proximal defenses, which are activated when thoughts of death are in current focal attention and are logically related to the threat at hand, 
+- distal defenses, which are activated when thoughts of death are on the fringes of one’s consciousness and entail the pursuit of meaning, personal value, and close relationships. 
+
+We use this framework to discuss the many ways in which COVID-19 undermines psychological equanimity, the diverse ways people have responded to this threat, and the role of ineffective terror management in psychological distress and disorder that may emerge in response to the virus.
+
 ---
 
 ## Years of life lost
