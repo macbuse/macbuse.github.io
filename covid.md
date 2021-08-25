@@ -15,6 +15,8 @@ Ernest Becker [The denial of death](https://en.wikipedia.org/wiki/The_Denial_of_
 
 ### Press
 
+There is an interesting analysis of how media coverage is [partisan](https://mediacloud.org/news/2020/4/3/coverage-of-covid-19-and-political-partisanship-comparing-across-nations)
+
 
 Covid: What’s the best way to top up our immunity?
 [BBC](https://www.bbc.com/news/health-58270098)
@@ -125,6 +127,15 @@ We focus on the terror management theory distinction between
 - distal defenses, which are activated when thoughts of death are on the fringes of one’s consciousness and entail the pursuit of meaning, personal value, and close relationships. 
 
 We use this framework to discuss the many ways in which COVID-19 undermines psychological equanimity, the diverse ways people have responded to this threat, and the role of ineffective terror management in psychological distress and disorder that may emerge in response to the virus.
+
+
+### See also
+
+[Coping with ‘Death Awareness’ in the COVID-19 Era](https://www.scientificamerican.com/article/coping-with-death-awareness-in-the-covid-19-era/) According to terror management theory, people can have surprising reactions.
+
+In a series of studies entitled “The Scrooge Effect,” researcher Eva Jonas, then at Ludwig Maximilian University in Germany, and her colleagues found that people were more favorable toward charities—for instance, they thought a given charity was more beneficial to society—when they were interviewed in front of a funeral home than they were just a few blocks away. And when American participants were given a chance to donate money to an American charity, those assigned to write about their own death gave about 400 percent more than did those who instead had been asked to write about dental pain.
+
+Interestingly, however, participants in the same study did not give higher donations to a foreign charity, because that would benefit people different from them. As this finding suggests, when death salience is high, as it is now with COVID-19, we can go either way: we might become motivated to make a positive difference, but we can also become more susceptible to the trap of racism and other forms of out-group bias.
 
 ---
 
