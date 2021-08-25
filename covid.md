@@ -6,6 +6,7 @@
 - REACT/Oxford studies and Ct threshold
 - CDC analysis of breakthrough cases in Mass.
 - Herd immunity vs endemic equilibrium
+- Worries following FDA approval
 
 Conformity = living one's life for others.
 
@@ -15,7 +16,19 @@ Ernest Becker [The denial of death](https://en.wikipedia.org/wiki/The_Denial_of_
 
 ### Press
 
-There is an interesting analysis of how media coverage is [partisan](https://mediacloud.org/news/2020/4/3/coverage-of-covid-19-and-political-partisanship-comparing-across-nations)
+There is an interesting analysis of how media coverage is [partisan](https://mediacloud.org/news/2021/4/3/coverage-of-covid-19-and-political-partisanship-comparing-across-nations) based on [prior work](https://library.oapen.org/handle/20.500.12657/28351)
+
+Central to the practice of objectivity as truth seeking is not infallibility but
+institutionalized error detection and correction. This is as true for journalism
+as it is for the scientific method, though the speed of publication, sensitivity
+to markets, and levels of evidence necessary in each enterprise differ
+significantly and result in different institutional details. And for all the
+differences between them, the projects of journalism and science are both
+committed to norms of truth seeking anchored in a reality that is prior to and
+external to opinion and perspective. It is fundamentally different from the
+project of denying the possibility of truth beyond partisan perspective. 
+
+#### articles
 
 
 Covid: What’s the best way to top up our immunity?
@@ -318,3 +331,49 @@ Finally, Ct values obtained with SARS-CoV-2 qualitative RT-PCR diagnostic tests 
 
 [Simulation](https://covid19-projections.com/path-to-herd-immunity/)
 Gu is a data scientist, but his thinking aligns with that of many in the epidemiology community. “We’re moving away from the idea that we’ll hit the herd-immunity threshold and then the pandemic will go away for good,”
+
+
+## Worries following FDA approval
+
+[bmj article](https://www.bmj.com/content/bmj/374/bmj.n2096.full.pdf)
+
+[comment](https://blogs.bmj.com/bmj/2021/08/23/does-the-fda-think-these-data-justify-the-first-full-approval-of-a-covid-19-vaccine/)
+
+### The elephant named “waning immunity”
+
+Since late last year, we’ve heard that Pfizer and Moderna’s vaccines are “95% effective” with even greater efficacy against severe disease (“100% effective,” Moderna said).
+
+Whatever one thinks about the “95% effective” claims (my thoughts are here), even the most enthusiastic commentators have acknowledged that measuring vaccine efficacy two months after dosing says little about just how long vaccine-induced immunity will last. “We’re going to be looking very intently at the durability of protection,” Pfizer senior vice president William Gruber, an author on the recent preprint, told the FDA’s advisory committee last December.
+
+
+[CNN : 39% effective](https://www.cnbc.com/2021/07/23/delta-variant-pfizer-covid-vaccine-39percent-effective-in-israel-prevents-severe-illness.html)
+
+Waning efficacy has the potential to be far more than a minor inconvenience; it can dramatically change the risk-benefit calculus. And whatever its cause—intrinsic properties of the vaccine, the circulation of new variants, some combination of the two, or something else—the bottom line is that vaccines need to be effective.
+
+Until new clinical trials demonstrate that boosters increase efficacy above 50%, without increasing serious adverse events, it is unclear whether the 2-dose series would even meet the FDA’s approval standard at six or nine months.
+
+[Phase III trials limited](https://www.bmj.com/content/371/bmj.m4037)
+
+But here we are, with FDA reportedly on the verge of granting a marketing license 13 months into the still ongoing, two year pivotal trial, with no reported data past 13 March 2021, unclear efficacy after six months due to unblinding, evidence of waning protection irrespective of the Delta variant, and limited reporting of safety data. (The preprint reports “decreased appetite, lethargy, asthenia, malaise, night sweats, and hyperhidrosis were new adverse events attributable to BNT162b2 not previously identified in earlier reports,” but provides no data tables showing the frequency of these, or other, adverse events.)
+
+[Petition against approval](https://blogs.bmj.com/bmj/2021/06/08/why-we-petitioned-the-fda-to-refrain-from-fully-approving-any-covid-19-vaccine-this-year/)
+
+Trials by vaccine manufacturers were designed to follow participants for two years, and should be completed before they are evaluated for full approval, even if they are now unblinded and lack placebo groups. These Phase III trials are not simply efficacy studies; they also are necessary and important safety studies (as the study titles say), and all collected data remain invaluable.
+
+We also call on FDA to require a more thorough assessment of spike proteins produced in-situ by the body following vaccination—including studies on their 
+- full biodistribution, 
+- pharmacokinetics, 
+- tissue-specific toxicities. 
+-
+We ask the FDA
+- to demand manufacturers complete proper biodistribution studies that would be expected of any new drug 
+- request additional studies to better understand the implications of mRNA translation in distant tissues. 
+
+We call on data demonstrating a thorough investigation of all serious adverse events reported to pharmacovigilance systems, carried out by independent, impartial individuals, and for safety data from individuals receiving more than two vaccine doses, in consideration of plans for future booster shots. 
+
+We ask the FDA to request necessary studies in specific populations,
+- previously infected with SARS-CoV-2,
+- pediatric subjects,
+- and those with immunological or other underlying medical complexities. 
+
+Given the nature of the novel vaccine platforms, our petition asks for experts in gene therapy to be included among the external committee advising the FDA.
