@@ -2,7 +2,7 @@
 
 
 - yll analysis
-- SAGE scenarios
+- [SAGE scenarios](#sage)
 - REACT/Oxford studies and Ct threshold
 - CDC analysis of breakthrough cases in Mass.
 - Herd immunity vs endemic equilibrium
@@ -169,6 +169,7 @@ Using the standard WHO life tables, YLL per COVID-19 death was 14 for men and 12
 Deaths from COVID-19 represent a substantial burden in terms of per-person YLL, more than a decade, even after adjusting for the typical number and type of LTCs found in people dying of COVID-19. The extent of multimorbidity heavily influences the estimated YLL at a given age. More comprehensive and standardised collection of data (including LTC type, severity, and potential confounders such as socioeconomic-deprivation and care-home status) is needed to optimise YLL estimates for specific populations, and to understand the global burden of COVID-19, and guide policy-making and interventions.
 
 
+---
 
 ##  SAGE
 
