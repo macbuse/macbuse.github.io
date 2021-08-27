@@ -1,9 +1,9 @@
 # Contents
 
 
-- yll analysis
+- [yll analysis](#years-of-life-lost)
 - [SAGE scenarios](#sage)
-- REACT/Oxford studies and Ct threshold
+- [REACT/Oxford](#react) studies and Ct threshold
 - CDC analysis of breakthrough cases in Mass.
 - Herd immunity vs endemic equilibrium
 - [Worries following FDA approval](#worries-following-fda-approval)
@@ -254,7 +254,9 @@ This could be caused by:
 
 ## Vaccinated vs unvaccinated
 
-### British study: Real-time Assessment of Community Transmission
+### REACT
+
+#### British study: Real-time Assessment of Community Transmission
 
 [webpage](https://www.imperial.ac.uk/medicine/research-and-impact/groups/react-study/)
 
