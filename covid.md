@@ -6,7 +6,7 @@
 - REACT/Oxford studies and Ct threshold
 - CDC analysis of breakthrough cases in Mass.
 - Herd immunity vs endemic equilibrium
-- [Worries following FDA approval](#worries following fda approval)
+- [Worries following FDA approval](#worries-following-fda-approval)
 
 Conformity = living one's life for others.
 
