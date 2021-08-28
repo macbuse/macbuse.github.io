@@ -5,7 +5,7 @@
 - [SAGE scenarios](#sage)
 - [REACT/Oxford](#react) studies and Ct threshold
 - CDC analysis of breakthrough cases in Mass.
-- Herd immunity vs endemic equilibrium
+- [Herd immunity vs endemic equilibrium](#herd-immunity-vs-endemic-equilibrium)
 - [Worries following FDA approval](#worries-following-fda-approval)
 
 Conformity = living one's life for others.
@@ -29,6 +29,10 @@ external to opinion and perspective. It is fundamentally different from the
 project of denying the possibility of truth beyond partisan perspective. 
 
 #### articles
+
+[DM Astrazeneca best](https://www.dailymail.co.uk/news/article-9935385/AstraZeneca-vaccine-best-keeping-people-hospital-just-1-52-cent-admitted.html)
+
+[vaccines compared](https://assets.researchsquare.com/files/rs-828021/v1_covered.pdf?c=1629920029)
 
 
 Covid: What’s the best way to top up our immunity?
