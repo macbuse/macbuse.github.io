@@ -14,23 +14,33 @@ Beaucoup de lecture de code **mais** peu d'ecriture.
 - youtube
 - arxive
 
-[cours de Luc](https://membres-ljk.imag.fr/Luc.Biard/L3MI_TP/){target="_blank}
+Donc pas un cours "classique" comme : 
+[cours de Luc](https://membres-ljk.imag.fr/Luc.Biard/L3MI_TP/){:target="_blank}
+
+---
+
+[facemorphing](./face_morph.html)
+
+![video](./xx.avi)
+
+---
 
 ## Syllabus
 
-- matrices et numpy
-- graphs et images avec matplotlib
+- matrices, algèbre linéaire et numpy
+- graphes de fonctions et images avec matplotlib
 - arbres, fractals et recursion
 - applications affines
-- aleatoire et graphes
+- (marches) aléatoire, valeurs propres et graphes
 - convolutions et scipy
 - statistiques avec pandas (COVID)
 - webcrawling/PageRank avec requests
-- regression lineaire
+- regression linéaire et logistique (reconnaissance de caractères)
 
 ## Séances
 
 - une vidéo à regarder ou un texte à lire avant
+- eventuellement un "truc" à installer
 - une [fiche](./regression_copy.html)
 - des exos sur la fiche
 
