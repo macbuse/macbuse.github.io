@@ -4,7 +4,11 @@
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
-I am currently on sick leave with a broken shoulder.
+I am currently back from  sick leave with a broken shoulder.
+
+---
+
+[Presentation programmation](./PROG/pres)
 
 ---
 
