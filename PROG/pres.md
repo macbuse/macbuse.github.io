@@ -7,6 +7,14 @@ Python avec JuPyteR (un peu comme Maple)
 - pandas
 - scipy
 
+## Exemples
+
+
+- [gravitational waves](https://blog.jupyter.org/congratulations-to-the-ligo-and-virgo-collaborations-from-project-jupyter-5923247be019)
+- [LHC particle physics](https://cds.cern.ch/record/2687389/files/CERN_SUM_PJ_report_Yixin.pdf)
+
+## Principe de ce cours
+
 Beaucoup de lecture de code **mais** peu d'ecriture.
 
 - google
@@ -17,7 +25,10 @@ Beaucoup de lecture de code **mais** peu d'ecriture.
 Donc pas un cours "classique" comme : 
 [cours de Luc](https://membres-ljk.imag.fr/Luc.Biard/L3MI_TP/){:target="_blank}
 
+
 ---
+
+## Exemple
 
 [facemorphing](./face_morph.html)
 
@@ -130,10 +141,8 @@ You should read this
 Lots of people use notebooks for swapping and explaining results : 
 - [data
 science](https://www.ionos.fr/digitalguide/sites-internet/developpement-web/jupyter-notebook/)
-- [gravitational
-waves](https://blog.jupyter.org/congratulations-to-the-ligo-and-virgo-collaborations-from-project-jupyter-5923247be019)
-- [LHC particle
-physics](https://cds.cern.ch/record/2687389/files/CERN_SUM_PJ_report_Yixin.pdf)
+- [gravitational waves](https://blog.jupyter.org/congratulations-to-the-ligo-and-virgo-collaborations-from-project-jupyter-5923247be019)
+- [LHC particle physics](https://cds.cern.ch/record/2687389/files/CERN_SUM_PJ_report_Yixin.pdf)
 
 
 
