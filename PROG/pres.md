@@ -21,7 +21,7 @@ Donc pas un cours "classique" comme :
 
 [facemorphing](./face_morph.html)
 
-![video](./xx.avi)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6JuWjTWp9bo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
