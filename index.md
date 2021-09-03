@@ -11,7 +11,6 @@ I am currently back from  sick leave with a broken shoulder.
 [Presentation programmation](./PROG/pres)
 
 ---
----
 
 ### Teaching stuff
 
@@ -85,7 +84,9 @@ IHP 2012 : La Maison des Maths
 
 ### Networks
 
-- I am <strong>director</strong> of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
+
+- I am principal investigator [ToFu](https://persyval-lab.org/en/ToFu)
+- I was <strong>director</strong> of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
 - I am an associate member of <a href="http://gear.math.illinois.edu">GEAR</a>
 
  If you want to advertise conferences/jobs please mail me <br>
