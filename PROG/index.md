@@ -97,6 +97,7 @@ You should read this
  to get an idea of how notebooks work.
 
 Lots of people use notebooks for swapping and explaining results : 
+- [calculating R0](https://github.com/k-sys/covid-19/blob/master/Realtime%20R0.ipynb)
 - [data
 science](https://www.ionos.fr/digitalguide/sites-internet/developpement-web/jupyter-notebook/)
 - [gravitational
