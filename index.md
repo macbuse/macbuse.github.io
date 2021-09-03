@@ -11,31 +11,6 @@ I am currently back from  sick leave with a broken shoulder.
 [Presentation programmation](./PROG/pres)
 
 ---
-
-## Talks
-
-Talks are [Reveal.js](https://revealjs.com/) slides 
-- blue arrows = next/previous
-- esc-key for overview
-- blue text is a link to a resource on the web
-
-
-- **Glasgow 7/6**
-  - [part 1](./GLASGOW/intro.html)
-  - [part 2](./GLASGOW/hyperbolic.html)
-  - [annex: snakes etc](./GLASGOW/perf.html)
-  - [annex: non convexity](./GLASGOW/non_convex.html)
-
-
-- **Tokyo 3/6** (Geometry of discrete groups and hyperbolic spaces)
-  - [talk 1](./TOKYO/intro.html)
-  - [talk 2](./TOKYO/hyperbolic.html)
-  - [annex: snakes etc](./TOKYO/perf.html)
-
-- **Warwick 28/5** (Colloquium)
-- [Nantes 18/3](./NANTES/slides.html)
-- [HARVARD 18/12/20](./HARVARD/slides.html)
-
 ---
 
 ### Teaching stuff
@@ -192,6 +167,32 @@ to get information about closed hyperbolic manifolds.</p>
 <li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/CalegariBridgeman7.pdf">EQUIDECOMPOSABILITY, VOLUME FORMULAE AND ORTHOSPECTRA</a></li>
 <li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/Kokyuroku_mcshane.pdf">GEOMETRIC IDENTITIES</a></li>
 </ul>
+
+---
+
+## Talks
+
+Talks are [Reveal.js](https://revealjs.com/) slides 
+- blue arrows = next/previous
+- esc-key for overview
+- blue text is a link to a resource on the web
+
+
+- **Glasgow 7/6**
+  - [part 1](./GLASGOW/intro.html)
+  - [part 2](./GLASGOW/hyperbolic.html)
+  - [annex: snakes etc](./GLASGOW/perf.html)
+  - [annex: non convexity](./GLASGOW/non_convex.html)
+
+
+- **Tokyo 3/6** (Geometry of discrete groups and hyperbolic spaces)
+  - [talk 1](./TOKYO/intro.html)
+  - [talk 2](./TOKYO/hyperbolic.html)
+  - [annex: snakes etc](./TOKYO/perf.html)
+
+- **Warwick 28/5** (Colloquium)
+- [Nantes 18/3](./NANTES/slides.html)
+- [HARVARD 18/12/20](./HARVARD/slides.html)
 
 ---
 
