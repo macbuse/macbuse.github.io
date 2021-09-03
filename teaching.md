@@ -12,9 +12,9 @@ title: none
 - introduction à LaTeX [materiel](./LATEX/)
 - introduction à la programmation 
   - [syllabus](./syllabus.md)
-  - [cours](./PROG/index.md)
+  - [cours 2021](./PROG/index.md)
+  - [cours 2020](./PROG/cours_2020.md)
 
-- MAT103
 
 
 
@@ -23,8 +23,4 @@ title: none
 ### Second semester
 
 
-- Mondays and Fridays [Functional analysis](./FN_ANAL) 
-- Mondays  and Tuesdays [MAT 402 gpe MAT2](./MAT402)
-- Tuesdays and Fridays [MAT 402 gpe MIN4](./MIN4)
-- Wednesdays I will be teaching at ENS-Lyon [Geometric Group Theory](./GPE_ENS_2021)
 
