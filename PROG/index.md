@@ -1,6 +1,9 @@
 # Introduction
 
 
+[presentation](./pres.md)
+
+
 I suppose you know how to ask Google to translate this page in french - I have
 an qwerty keyboard and accents are impossible.
 
@@ -16,141 +19,6 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 Here is the [first notebook](./lists.ipynb) I've prepared - you should go
 through it once you have installed JuPyTer (see below).
-
----
-### Friday 25/9
-
-Here is the [second notebook](./numpy_intro.ipynb).
-There are some difficult things in it 
-mainly about matrices.
-
-Watch these videos before starting:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-### Friday 9/10
-
-I'm still off sick.
-
-Here is the [preliminary version of the notebook](./matplotlib.ipynb) to study
-for Friday 16/10.
-
-Watch this video about [Matplotlib](https://matplotlib.org/)
-first.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O_OeWxpnUc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-### Friday 16/10
-
-Here is the [notebook](./matplotlib.ipynb) to study
----
-
-### Friday 23/10
-
-Here is the [notebook](./matplotlib_episode_two.ipynb) to study.
----
-
-### Friday 06/11
-
-Here is a [notebook](./matplotlib_episode_two_corr.ipynb) 
-with solutions to last week's exercises
-
-And this is the [notebook](./affine_maps.ipynb) to study for this week.
-
-If you are having problems with the basics then try [this
-notebook](./basic_python.ipynb).
-
-
-### Solutions etc.
-
-- [here](./barnsley_fern.ipynb) is a solution to drawing the fern
-- I'll post the other solutions Thursday.
-- I like the video that you sent me
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bJwJ5FFwk0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-### Friday 13/11
-
-I wanted to do linear regression but had too much to do on convolutions.
-I'll do regression and gradient descent next week.
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/cpltYCNLIt0" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen></iframe>
-
-and look at the [preliminary version](./convolutions_etc.ipynb)
-of the notebook.
-
----
-### Friday 20/11
-
-I wanted to do linear regression but 
-- we didn't finish the convolutions.
-- I had some problems with my new computer.
-
-#### Solutions to COVID
-
-I sent a lot of time doing experiments on this
-
-- [for France](./france.ipynb)
-- [for the UK](./uk.ipynb)
-- [for Scotland](./scot_covid.ipynb)
-
-
----
-### Friday 27/11
-
-I managed to delete Anaconda on my new PC 
-and with it the notebook for regression.
-Instead this week we'll be looking at 
-a simple example of **scraping** and **crawling**
-
-[notebook](./reg_exp.ipynb)
-
-[my ideas](./gph2sites.ipynb)
-
----
-### Friday 4/12
-
-So I managed to fix the wikipedia crawler
-
-[my ideas](./gph2sites.ipynb)
-
-It was difficult to find a good working example for this week
-but here is the 
-[notebook](./regression_copy.ipynb)
-
-There are two kinds of regression to study:
-- multi variable linear regression
-- logistic regression
-
-The example of an application of logistic regression is recognising digits.
-There are better ways of doing this now using CNN - maybe we can do that the
-final week of term.
-
-When the video first:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BHs_2ttLRXk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
----
-### Friday 11/12
-
-Here is todays [notebook](./more_requests.ipynb) it's about more advanced we
-programming.
-
-This is [what](./digits.ipynb) I did to find the digits in 
-![image](./digits.jpg]
-
-Can you look at [this](./projects.ipynb) and tell me what you would like to do?
-
 
 ---
 
