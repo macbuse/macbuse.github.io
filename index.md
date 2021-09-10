@@ -10,12 +10,16 @@ I am currently back from  sick leave with a broken shoulder.
 
 [Presentation programmation](./PROG/pres)
 
+I'll be teaching today at 13:45
+- bring your laptop
+- install Anaconda before you come [(see how)](./PROG/index.md)
+
 ---
 
-### Teaching stuff
+### Teaching stuff/Enseignement
 
-If you are looking for what I teach 
-it is [here](teaching.md)
+If you are looking for what I teach it is [here](teaching.md)
+
 
 
 ### Stages/TER
