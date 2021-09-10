@@ -15,10 +15,12 @@ You can learn a lot from them.
 There will not be so much reading but there will be a lot of watching. 
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
-### Friday 3/9
+### Friday 10/9
 
 Here is the [first notebook](./lists.ipynb) I've prepared - you should go
-through it once you have installed JuPyTer (see below).
+through it once you have **installed JuPyTer** (see below).
+
+If you are not familiar with Python then try [this notebook](./basic_python.ipynb).
 
 ---
 
