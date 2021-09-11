@@ -30,6 +30,10 @@ project of denying the possibility of truth beyond partisan perspective.
 
 #### articles
 
+[Boys and vaccines](https://www.theguardian.com/world/2021/sep/10/boys-more-at-risk-from-pfizer-jab-side-effect-than-covid-suggests-study?fbclid=IwAR0YyzgKX4-8_GjT5_9JdeyogdNyT2_YBi82HmMCSdwbkgb09GruT2Xlu-k)
+
+[study](https://www.medrxiv.org/content/10.1101/2021.08.30.21262866v1)
+
 [DM Astrazeneca best](https://www.dailymail.co.uk/news/article-9935385/AstraZeneca-vaccine-best-keeping-people-hospital-just-1-52-cent-admitted.html)
 
 [vaccines compared](https://assets.researchsquare.com/files/rs-828021/v1_covered.pdf?c=1629920029)
