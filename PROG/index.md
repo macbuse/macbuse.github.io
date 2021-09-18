@@ -22,6 +22,42 @@ through it once you have **installed JuPyTer** (see below).
 
 If you are not familiar with Python then try [this notebook](./basic_python.ipynb).
 
+
+At the end of the **first notebook** there is some code to 
+analyse letter frequency in Hamlet.
+
+
+## Exo
+
+Find another text and analyse it
+
+--- 
+
+## Why do this?
+
+Machine translation has made **big** progress in recent years [read this](https://www.sciencedirect.com/science/article/pii/S2095809921002745#bb0090)
+because of [statistical language models](https://en.wikipedia.org/wiki/Language_model).
+
+- [word2vec](https://jalammar.github.io/illustrated-word2vec/) was the first big advance.
+- [BERT](https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/) is the latest from Google
+- [GPT3](https://en.wikipedia.org/wiki/GPT-3) is a competitor from OpenAI
+
+For BERT you can try and install it but you need a pretty good computer.
+
+We are only going to do very basic statistics on words
+but the Python code is close to what really happens.
+
+- Texts are split up into words
+- frequencies of pairs of words are calculated. 
+
+This is done for:
+
+- wikipedia
+- novels and newspaper articles
+- forums 
+
+
+
 ---
 
 ## Installing Anaconda
