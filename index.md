@@ -10,10 +10,10 @@ I am currently back from  sick leave with a broken shoulder.
 
 [Presentation programmation](./PROG/pres)
 
-I'll be teaching Friday 24/9 at 13:45
+I'll be teaching Friday 1/10 at 13:45
 - bring your laptop
-- finish doing the two notebooks
-- todays class in [here](./PROG)
+- finish doing the ```numpy``` notebook
+- try and find all the 3x3 invertible matrices  over $F_2$
 
 ---
 
@@ -42,6 +42,7 @@ or a TER
 - Ex directeur de <a href="http://tresses.math.cnrs.fr">GDR TRESSES</a>
 - Editor <a href="http://aif.cedram.org/?lang=fr">Annales de l'Institut Fourier</a>
 - Principal investigator l'equipe action ```ToFu```
+- Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
 - <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf">CV</a>
 -  <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf">research statement</a>
 - <a href="https://github.com/macbuse">my github account</a>
@@ -99,14 +100,14 @@ IHP 2012 : La Maison des Maths
 
 ## Rencontres du GDR
 
-### Upcoming in 2020:
+### In 2020:
 
 <ul>
     <li>	<a href="http://winterbraids.math.cnrs.fr/">WINTERBRAIDS</a> </li>
 <li>Artin Groups, CAT(0) Geometry and Related Topics	</li>
 <li>Teichmüller Theory: Classical, Higher, Super and Quantum </li>
 <li>Complex Hyperbolic Geometry and Related Topics	</li>
-<li><a href="https://conf.lmno.cnrs.fr/Braids2020">Conférence internationale à la mémoire de Patrick Dehornoy</a>
+<li><a href="https://c.lmno.cnrs.fr/Braids2020">Conférence internationale à la mémoire de Patrick Dehornoy</a>
 </li>
 </ul>
    
