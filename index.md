@@ -13,6 +13,7 @@ I am currently back from  sick leave with a broken shoulder.
 I'll be teaching Friday 24/9 at 13:45
 - bring your laptop
 - finish doing the two notebooks
+- todays class in [here](./PROG)
 
 ---
 

@@ -19,7 +19,10 @@ To begin with the videos will be mostly in french but some subjects are only rea
 ### Friday 24/9
 
 Here is the [second notebook](./numpy_intro.ipynb).
-There are some difficult things in it mainly about matrices.
+-- There are some difficult things in it mainly about matrices.
+-- There are some excercises at the end of the worksheet.
+
+
 
 Watch these videos before starting:
 
@@ -39,6 +42,10 @@ It was adapted for doing Data Science and there is a special module for this
 A few years ago Google published an API to their neural net framework 
 called TensorFlow. The data is fed to the algorithms in [numpy arrays](https://www.tensorflow.org/guide/tf_numpy).
 
+Finally, as you will see in the notebook, images are stored as matrices
+and elementary image processing can be done using linear algebra and slicing.
+
+---
 
 ### Friday 17/9
 
@@ -46,6 +53,7 @@ Here is the [first notebook](./lists.ipynb) I've prepared - you should go
 through it once you have **installed JuPyTer** (see below).
 
 If you are not familiar with Python then try [this notebook](./basic_python.ipynb).
+
 
 
 At the end of the **first notebook** there is some code to 
