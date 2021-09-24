@@ -15,12 +15,7 @@ title: none
   - [cours 2021](./PROG/index.md)
   - [cours 2020](./PROG/cours_2020.md)
 
-
-
-
 ---
  
 ### Second semester
-
-
 

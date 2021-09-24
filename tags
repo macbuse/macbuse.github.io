@@ -1,0 +1,758 @@
+
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANIM	D2/pp.py	/^ANIM = []$/;"	v
+ANIM_ALPHA	D2/pp.py	/^ANIM_ALPHA = ''$/;"	v
+ARGS	D2/pp.py	/^    ARGS = PARSER.parse_args()$/;"	v
+ARGS	D2/svg2html.py	/^    ARGS = PARSER.parse_args()$/;"	v
+ARGS	DEM0_gpe_lec/svg2html.py	/^    ARGS = PARSER.parse_args()$/;"	v
+ARGS	LINE_ANIM/svg2html.py	/^    ARGS = PARSER.parse_args()$/;"	v
+ARGS	RR/svg2html.py	/^    ARGS = PARSER.parse_args()$/;"	v
+Algorithmic study of lengths	TOFU/laz.tex	/^ surface permutes the homotopy class of curves, hence the length spectrum. Does the discrete nature of the graph metric induce specific properties of this action? In other words, can we learn the graph structure from this action?$/;"	u
+Bilan financier	GDR/rapport_gdr.tex	/^http:\/\/www.cedram.org\/spip.php?article228\\&lang=en$/;"	u
+Bounds and statistics for closed geodesics	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{bounds-and-statistics-for-closed-geodesics}{%$/;"	s
+Bounds and statistics for closed geodesics	stage_m2r_2020_bis.tex	/^\\hypertarget{bounds-and-statistics-for-closed-geodesics}{%$/;"	s
+CR SnapPy	TOFU/laz.tex	/^Here we have two very concrete goals$/;"	b
+Combinatorial length and rigidity	TOFU/laz.tex	/^We now describe the main research challenges that we intend to tackle. $/;"	u
+Context	STAGES/stage_m2r_2020.tex	/^\\hypertarget{context}{%$/;"	u
+Context	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{context}{%$/;"	u
+Context	TOFU/AMS-SMF.tex	/^3 long\/plenary talks 12 short exposés for a total of 9h.$/;"	u
+Context	stage_m2r_2020.tex	/^\\hypertarget{context}{%$/;"	u
+Context	stage_m2r_2020_bis.tex	/^\\hypertarget{context}{%$/;"	u
+Curve complex	TOFU/laz.tex	/^appear in the work of Mirzakhani.$/;"	u
+Details of the stage	STAGES/stage_m2r_2020.tex	/^\\hypertarget{details-of-the-stage}{%$/;"	u
+Details of the stage	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{details-of-the-stage}{%$/;"	b
+Details of the stage	stage_m2r_2020.tex	/^\\hypertarget{details-of-the-stage}{%$/;"	u
+Details of the stage	stage_m2r_2020_bis.tex	/^\\hypertarget{details-of-the-stage}{%$/;"	b
+FN	D2/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+FN	DEM0_gpe_lec/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+FN	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    FN = sys.argv[1]$/;"	v
+FN	DEMO/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+FN	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    FN = sys.argv[1]$/;"	v
+FN	GLASGOW/bb.py	/^    FN = sys.argv[1]$/;"	v
+FN	GLASGOW/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+FN	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    FN = sys.argv[1]$/;"	v
+FN	HARVARD/bb.py	/^    FN = sys.argv[1]$/;"	v
+FN	HARVARD/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+FN	JM/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+FN	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    FN = sys.argv[1]$/;"	v
+FN	NANTES/bb.py	/^    FN = sys.argv[1]$/;"	v
+FN	NANTES/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+FN	RR/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+FN	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    FN = sys.argv[1]$/;"	v
+FN	TOKYO/bb.py	/^    FN = sys.argv[1]$/;"	v
+FN	TOKYO/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+FN	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    FN = sys.argv[1]$/;"	v
+FN	WARWICK/bb.py	/^    FN = sys.argv[1]$/;"	v
+FN	WARWICK/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+FN	ZHU_SLIDES/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+First organizer 	TOFU/AMS-SMF.tex	/^\\section{Organizers}$/;"	P
+General geometric structures	TOFU/laz.tex	/^extending the work to cover closed surfaces without boundary~\\cite{mm-sosr-19}.$/;"	u
+Important progress	TOFU/AMS-SMF.tex	/^Algorithms have been an important and consistent feature of all of these mathematical areas from the beginning. This includes both questions about the existence of algorithms and the development of practical algorithms for computing natural invariants. More recently, computer experiments and rigorous computer-assisted proofs have had a significant impact. It is natural to expect experimental and computational methods to play an expanding role in the theory of low dimensional spaces. Additional goals of the session are to present the development of new computational tools and implementations of new algorithms, and to provide opportunities for researchers to become more familiar with existing tools and how they can be applied in research.$/;"	u
+L activit   principale du GdR est la promotion et le financement des conf   rences organis   es par les membres. Le fonctionnement du GdR a   t   fortement perturb   par les circonstances sanitaires exceptionnelles en 2020. Au mois de janvier on avait pr   vu de participer au financement de sept conf   rences mais finalement le bilan est assez maigre  begin  itemize	GDR/rapport_gdr.tex	/^\\begin{document}$/;"	s
+Liste de conf   rences qui ont eu lieu	GDR/rapport_gdr.tex	/^\\end{itemize}$/;"	b
+Mini-exercices	LATEX/bodin_slides.tex	/^\\end{frame}$/;"	s
+Objectives	TOFU/laz.tex	/^Between 1983 and 2004, Robertson and Seymour have written a series of 20 papers adding up to more than 500 pages to prove the Wagner conjecture saying that every minor closed class of graphs is characterized by a finite family of forbidden minors~\\cite{w-gt-70}.  An important step in the proof is to describe the structure of the graphs excluding a fixed minor. This structure theorem~\\cite{rs-tv-99} states that such graphs can be obtained from cellular embeddings of graphs in surfaces of bounded genus, to which one applies some standard operations such as clique-sums~\\cite{l-gmt-06}. A cellular embedding of a graph is called a combinatorial map (or combinatorial surface). Combinatorial maps are thus central objects in graph theory not only as discrete models of surfaces but also as the main components of the graph structures. Understanding the structure of combinatorial maps is thus a fundamental question from both the topological and combinatorial viewpoints. Spectral graph theory, based on graph Laplacians, has been successful to obtain important structural properties such as the Cheeger inequality~\\cite{c-lbsel-70}. The Laplacian is also a main tool to analyse the geometry of hyperbolic surfaces. In particular, there is a striking connection to the length spectrum through the Selberg trace formula. Developing an analogous theory on combinatorial surfaces is a challenging objective.$/;"	s
+Organizers	TOFU/AMS-SMF.tex	/^\\smallskip$/;"	s
+PARSER	D2/pp.py	/^    PARSER = argparse.ArgumentParser()$/;"	v
+PARSER	D2/svg2html.py	/^    PARSER = argparse.ArgumentParser()$/;"	v
+PARSER	DEM0_gpe_lec/svg2html.py	/^    PARSER = argparse.ArgumentParser()$/;"	v
+PARSER	LINE_ANIM/svg2html.py	/^    PARSER = argparse.ArgumentParser()$/;"	v
+PARSER	RR/svg2html.py	/^    PARSER = argparse.ArgumentParser()$/;"	v
+PP_IMG	D2/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	DEM0_gpe_lec/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	DEMO/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	GLASGOW/bb.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	GLASGOW/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	HARVARD/bb.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	HARVARD/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	JM/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	NANTES/bb.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	NANTES/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	RR/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	TOKYO/bb.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	TOKYO/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	WARWICK/bb.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	WARWICK/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	ZHU_SLIDES/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_LAYER	D2/svg2html.py	/^PP_LAYER = re.compile('(<g.*?)Name="(.*?)">(.*?)<\/g>',re.DOTALL)$/;"	v
+PP_LAYER	LINE_ANIM/svg2html.py	/^PP_LAYER = re.compile('(<g.*?)Name="(.*?)">(.*?)<\/g>',re.DOTALL)$/;"	v
+PP_MATH	D2/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	DEM0_gpe_lec/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	DEMO/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	GLASGOW/bb.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	GLASGOW/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	HARVARD/bb.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	HARVARD/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	JM/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	NANTES/bb.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	NANTES/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	RR/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	TOKYO/bb.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	TOKYO/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	WARWICK/bb.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	WARWICK/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	ZHU_SLIDES/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MEDIA	D2/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	DEM0_gpe_lec/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	DEMO/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	GLASGOW/bb.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	GLASGOW/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	HARVARD/bb.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	HARVARD/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	JM/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	NANTES/bb.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	NANTES/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	RR/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	TOKYO/bb.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	TOKYO/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	WARWICK/bb.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	WARWICK/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	ZHU_SLIDES/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_METADATA	D2/pp.py	/^PP_METADATA = re.compile('<metadata>.*?<\/metadata>',re.DOTALL)$/;"	v
+PP_METADATA	D2/svg2html.py	/^PP_METADATA = re.compile('<metadata>.*?<\/metadata>',re.DOTALL)$/;"	v
+PP_METADATA	DEM0_gpe_lec/svg2html.py	/^PP_METADATA = re.compile('<metadata>.*?<\/metadata>',re.DOTALL)$/;"	v
+PP_METADATA	LINE_ANIM/svg2html.py	/^PP_METADATA = re.compile('<metadata>.*?<\/metadata>',re.DOTALL)$/;"	v
+PP_METADATA	RR/svg2html.py	/^PP_METADATA = re.compile('<metadata>.*?<\/metadata>',re.DOTALL)$/;"	v
+PP_PATH	D2/pp.py	/^PP_PATH = re.compile('<path(.*?)\\sd=', re.DOTALL)$/;"	v
+PP_PATH	D2/svg2html.py	/^PP_PATH = re.compile('<path(.*?)\\sd=', re.DOTALL)$/;"	v
+PP_PATH	DEM0_gpe_lec/svg2html.py	/^PP_PATH = re.compile('<path(.*?)\\sd=', re.DOTALL)$/;"	v
+PP_PATH	LINE_ANIM/svg2html.py	/^PP_PATH = re.compile('<path(.*?)\\sd=', re.DOTALL)$/;"	v
+PP_PATH	RR/svg2html.py	/^PP_PATH = re.compile('<path(.*?)\\sd=', re.DOTALL)$/;"	v
+PP_UNITS	D2/pp.py	/^PP_UNITS = re.compile('(\\d+)pt')$/;"	v
+PP_UNITS	D2/svg2html.py	/^PP_UNITS = re.compile('(\\d+)pt')$/;"	v
+PP_UNITS	DEM0_gpe_lec/svg2html.py	/^PP_UNITS = re.compile('(\\d+)pt')$/;"	v
+PP_UNITS	LINE_ANIM/svg2html.py	/^PP_UNITS = re.compile('(\\d+)pt')$/;"	v
+PP_UNITS	RR/svg2html.py	/^PP_UNITS = re.compile('(\\d+)pt')$/;"	v
+Presentation of the team	TOFU/OLD/TOFU1.tex	/^\\tableofcontents$/;"	s
+Presentation of the team	TOFU/TOFU.tex	/^\\tableofcontents$/;"	s
+Presentation of the team	TOFU/laz.tex	/^\\newpage$/;"	s
+Principales   tapes envisag   es	TOFU/laz.tex	/^It is our intention to develop and distribute open source softwares and packages.$/;"	s
+Production scientifique	GDR/rapport_gdr.tex	/^23\/9\/2020.$/;"	u
+R   sultats attendus	TOFU/laz.tex	/^(ICJ Lyon, IMJ Paris, University of Luxembourg).$/;"	s
+Rapport d activité 2020}label{rapport-dactivituxe9-2020}
+References	STAGES/stage_m2r_2020.tex	/^\\hypertarget{references}{%$/;"	u
+References	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{references}{%$/;"	b
+References	stage_m2r_2020.tex	/^\\hypertarget{references}{%$/;"	u
+References	stage_m2r_2020_bis.tex	/^\\hypertarget{references}{%$/;"	b
+Request budget and scientific justification	TOFU/laz.tex	/^\\section{Principales étapes envisagées}$/;"	s
+Research Context	TOFU/OLD/TOFU1.tex	/^both in the short and long term. $/;"	s
+Research Context	TOFU/TOFU.tex	/^both in the short and long term. $/;"	s
+Research Context	TOFU/laz.tex	/^and in workshops.$/;"	s
+Second organizer 	TOFU/AMS-SMF.tex	/^\\paragraph{First organizer:} ?????$/;"	P
+Session description	TOFU/AMS-SMF.tex	/^\\paragraph{Third organizer\/contact:} Greg McShane, Université Grenoble-Alpes,\\\\  \\hspace*{5.6cm} greg.mcshane@gmail.com$/;"	s
+Stage M2R	STAGES/stage_m2r_2020.tex	/^\\hypertarget{stage-m2r}{%$/;"	s
+Stage M2R	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{stage-m2r}{%$/;"	s
+Stage M2R	stage_m2r_2020.tex	/^\\hypertarget{stage-m2r}{%$/;"	s
+Stage M2R	stage_m2r_2020_bis.tex	/^\\hypertarget{stage-m2r}{%$/;"	s
+Structural graph theory and combinatorial maps	TOFU/laz.tex	/^holonomy groups are discrete, and if discrete, which are arithmetic.$/;"	u
+Surface theory	TOFU/OLD/TOFU1.tex	/^reply to this demand below. $/;"	u
+Surface theory	TOFU/TOFU.tex	/^reply to this demand below. $/;"	u
+Surface theory	TOFU/laz.tex	/^reply to this demand below. $/;"	u
+Synopsis	TOFU/OLD/TOFU1.tex	/^\\end{center}$/;"	s
+Synopsis	TOFU/TOFU.tex	/^\\end{center}$/;"	s
+Synopsis	TOFU/laz.tex	/^\\end{center}$/;"	s
+Third organizer  contact 	TOFU/AMS-SMF.tex	/^\\paragraph{Second organizer:} Saul Schleimer, University of Warwick, s.schleimer@warwick.ac.uk$/;"	P
+Thurston and SnapPea	TOFU/OLD/TOFU1.tex	/^to make very accurate calculations rapidly as we shall now see. $/;"	u
+Thurston and SnapPea	TOFU/TOFU.tex	/^to make very accurate calculations rapidly as we shall now see. $/;"	u
+Thurston and SnapPea	TOFU/laz.tex	/^to make very accurate calculations rapidly as we shall now see. $/;"	u
+Title 	TOFU/AMS-SMF.tex	/^\\section{Session description}$/;"	P
+Voices	D2/mk_slides2.py	/^class Voices():$/;"	c
+Voices	DEM0_gpe_lec/mk_slides2.py	/^class Voices():$/;"	c
+Voices	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^class Voices():$/;"	c
+Voices	DEMO/mk_slides2.py	/^class Voices():$/;"	c
+Voices	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^class Voices():$/;"	c
+Voices	GLASGOW/bb.py	/^class Voices():$/;"	c
+Voices	GLASGOW/mk_slides2.py	/^class Voices():$/;"	c
+Voices	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^class Voices():$/;"	c
+Voices	HARVARD/bb.py	/^class Voices():$/;"	c
+Voices	HARVARD/mk_slides2.py	/^class Voices():$/;"	c
+Voices	JM/mk_slides2.py	/^class Voices():$/;"	c
+Voices	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^class Voices():$/;"	c
+Voices	JULIA/mk_slides.py	/^class Voices():$/;"	c
+Voices	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^class Voices():$/;"	c
+Voices	NANTES/bb.py	/^class Voices():$/;"	c
+Voices	NANTES/mk_slides2.py	/^class Voices():$/;"	c
+Voices	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^class Voices():$/;"	c
+Voices	NN/mk_slides.py	/^class Voices():$/;"	c
+Voices	RR/mk_slides2.py	/^class Voices():$/;"	c
+Voices	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^class Voices():$/;"	c
+Voices	TOKYO/bb.py	/^class Voices():$/;"	c
+Voices	TOKYO/mk_slides2.py	/^class Voices():$/;"	c
+Voices	VV/mk_slides2.py	/^class Voices():$/;"	c
+Voices	VV/mm.py	/^class Voices():$/;"	c
+Voices	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^class Voices():$/;"	c
+Voices	WARWICK/bb.py	/^class Voices():$/;"	c
+Voices	WARWICK/mk_slides2.py	/^class Voices():$/;"	c
+Voices	ZHU_SLIDES/mk_slides2.py	/^class Voices():$/;"	c
+__init__	D2/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	DEM0_gpe_lec/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	DEMO/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	GLASGOW/bb.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	GLASGOW/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	HARVARD/bb.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	HARVARD/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	JM/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	JULIA/mk_slides.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	NANTES/bb.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	NANTES/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	NN/mk_slides.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	RR/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	TOKYO/bb.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	TOKYO/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	VV/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	VV/mm.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	WARWICK/bb.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	WARWICK/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	ZHU_SLIDES/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__repr__	D2/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	DEM0_gpe_lec/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	DEMO/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	GLASGOW/bb.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	GLASGOW/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	HARVARD/bb.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	HARVARD/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	JM/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	JULIA/mk_slides.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	NANTES/bb.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	NANTES/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	NN/mk_slides.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	RR/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	TOKYO/bb.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	TOKYO/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	VV/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	VV/mm.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	WARWICK/bb.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	WARWICK/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	ZHU_SLIDES/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+add	D2/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	DEM0_gpe_lec/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	DEMO/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	GLASGOW/bb.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	GLASGOW/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	HARVARD/bb.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	HARVARD/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	JM/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	JULIA/mk_slides.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	NANTES/bb.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	NANTES/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	NN/mk_slides.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	RR/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	TOKYO/bb.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	TOKYO/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	VV/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	VV/mm.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	WARWICK/bb.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	WARWICK/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	ZHU_SLIDES/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+audio_cb	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def audio_cb(match):$/;"	f
+audio_cb	JULIA/mk_slides.py	/^    def audio_cb(match):$/;"	f
+audio_cb	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def audio_cb(match):$/;"	f
+audio_cb	NN/mk_slides.py	/^    def audio_cb(match):$/;"	f
+cols	VIRUS/6vsb/pair_parser.py	/^    cols = ['Donor', 'Acceptor', '-log Density', 'Stress']$/;"	v
+convolve2D	PROG/.ipynb_checkpoints/convolve-checkpoint.py	/^def convolve2D(image, $/;"	f
+convolve2D	PROG/convolve.py	/^def convolve2D(image, $/;"	f
+csv_fns	VIRUS/6vsb/pair_parser.py	/^    csv_fns =[]$/;"	v
+data	VV/svg2path.py	/^    data  = fp.read()$/;"	v
+df	VIRUS/6vsb/pair_parser.py	/^    df = merge_tables(pd.read_csv(stresses), $/;"	v
+dimension}label{gdr-cnrs2105-tresses-et-topologie-de-basse-dimension}
+float_format	VIRUS/6vsb/pair_parser.py	/^                      float_format="%.2f")$/;"	v
+float_format	VIRUS/6vsb/pair_parser.py	/^                 float_format="%.2f")$/;"	v
+float_format	VIRUS/6vsb/pair_parser.py	/^               float_format="%.2f")$/;"	v
+fn	DEM0_gpe_lec/animate_svg.py	/^    fn = sys.argv[1]$/;"	v
+fn	GLASGOW/svg2html.py	/^    fn = sys.argv[1]$/;"	v
+fn	JM/svg2html.py	/^    fn = sys.argv[1]$/;"	v
+fn	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    fn = sys.argv[1]$/;"	v
+fn	JULIA/mk_slides.py	/^    fn = sys.argv[1]$/;"	v
+fn	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    fn = sys.argv[1]$/;"	v
+fn	NN/mk_slides.py	/^    fn = sys.argv[1]$/;"	v
+fn	RR/animate_svg.py	/^    fn = sys.argv[1]$/;"	v
+fn	VV/mk_slides2.py	/^    fn = sys.argv[1]$/;"	v
+fn	VV/mm.py	/^    fn = sys.argv[1]$/;"	v
+fn	ZHU_SLIDES/animate_svg.py	/^    fn = sys.argv[1]$/;"	v
+fn	ZHU_SLIDES/svg2html.py	/^    fn = sys.argv[1]$/;"	v
+fns	VIRUS/6vsb/pair_parser.py	/^    fns = ['hb-stress.txt', 'full_out.txt']$/;"	v
+get_audio	D2/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	DEM0_gpe_lec/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	DEMO/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	GLASGOW/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	GLASGOW/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	HARVARD/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	HARVARD/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	JM/mk_slides2.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
+get_audio	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
+get_audio	JULIA/mk_slides.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
+get_audio	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	NANTES/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	NANTES/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
+get_audio	NN/mk_slides.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
+get_audio	RR/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	TOKYO/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	TOKYO/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	VV/mk_slides2.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
+get_audio	VV/mm.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
+get_audio	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	WARWICK/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	WARWICK/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	ZHU_SLIDES/mk_slides2.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
+img_cb	D2/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	DEM0_gpe_lec/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def img_cb(match):$/;"	f
+img_cb	DEMO/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def img_cb(match):$/;"	f
+img_cb	GLASGOW/bb.py	/^    def img_cb(match):$/;"	f
+img_cb	GLASGOW/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def img_cb(match):$/;"	f
+img_cb	HARVARD/bb.py	/^    def img_cb(match):$/;"	f
+img_cb	HARVARD/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	JM/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def img_cb(match):$/;"	f
+img_cb	JULIA/mk_slides.py	/^    def img_cb(match):$/;"	f
+img_cb	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def img_cb(match):$/;"	f
+img_cb	NANTES/bb.py	/^    def img_cb(match):$/;"	f
+img_cb	NANTES/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	RR/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def img_cb(match):$/;"	f
+img_cb	TOKYO/bb.py	/^    def img_cb(match):$/;"	f
+img_cb	TOKYO/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	VV/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	VV/mm.py	/^    def img_cb(match):$/;"	f
+img_cb	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def img_cb(match):$/;"	f
+img_cb	WARWICK/bb.py	/^    def img_cb(match):$/;"	f
+img_cb	WARWICK/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	ZHU_SLIDES/mk_slides2.py	/^    def img_cb(match):$/;"	f
+layer_cb	D2/svg2html.py	/^    def layer_cb(mm):$/;"	f	function:mk_anim
+layer_cb	LINE_ANIM/svg2html.py	/^    def layer_cb(mm):$/;"	f	function:mk_anim
+math_cb	D2/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	DEM0_gpe_lec/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def math_cb(match):$/;"	f
+math_cb	DEMO/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def math_cb(match):$/;"	f
+math_cb	GLASGOW/bb.py	/^    def math_cb(match):$/;"	f
+math_cb	GLASGOW/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def math_cb(match):$/;"	f
+math_cb	HARVARD/bb.py	/^    def math_cb(match):$/;"	f
+math_cb	HARVARD/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	JM/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def math_cb(match):$/;"	f
+math_cb	JULIA/mk_slides.py	/^    def math_cb(match):$/;"	f
+math_cb	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def math_cb(match):$/;"	f
+math_cb	NANTES/bb.py	/^    def math_cb(match):$/;"	f
+math_cb	NANTES/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def math_cb(match):$/;"	f
+math_cb	NN/mk_slides.py	/^    def math_cb(match):$/;"	f
+math_cb	RR/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def math_cb(match):$/;"	f
+math_cb	TOKYO/bb.py	/^    def math_cb(match):$/;"	f
+math_cb	TOKYO/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	VV/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	VV/mm.py	/^    def math_cb(match):$/;"	f
+math_cb	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def math_cb(match):$/;"	f
+math_cb	WARWICK/bb.py	/^    def math_cb(match):$/;"	f
+math_cb	WARWICK/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	ZHU_SLIDES/mk_slides2.py	/^    def math_cb(match):$/;"	f
+md_with_tags	D2/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	DEM0_gpe_lec/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	DEMO/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	GLASGOW/bb.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	GLASGOW/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	HARVARD/bb.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	HARVARD/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	JM/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    md_with_tags = re.sub(pp_math, math_cb, xx)$/;"	v
+md_with_tags	JULIA/mk_slides.py	/^    md_with_tags = re.sub(pp_math, math_cb, xx)$/;"	v
+md_with_tags	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	NANTES/bb.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	NANTES/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    md_with_tags = re.sub(pp_math, math_cb, xx)$/;"	v
+md_with_tags	NN/mk_slides.py	/^    md_with_tags = re.sub(pp_math, math_cb, xx)$/;"	v
+md_with_tags	RR/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	TOKYO/bb.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	TOKYO/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	VV/mk_slides2.py	/^    md_with_tags = re.sub(pp_math, math_cb, xx)$/;"	v
+md_with_tags	VV/mm.py	/^    md_with_tags = re.sub(pp_math, math_cb, xx)$/;"	v
+md_with_tags	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	WARWICK/bb.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	WARWICK/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	ZHU_SLIDES/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+media_cb	D2/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	DEM0_gpe_lec/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def media_cb(match):$/;"	f
+media_cb	DEMO/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def media_cb(match):$/;"	f
+media_cb	GLASGOW/bb.py	/^    def media_cb(match):$/;"	f
+media_cb	GLASGOW/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def media_cb(match):$/;"	f
+media_cb	HARVARD/bb.py	/^    def media_cb(match):$/;"	f
+media_cb	HARVARD/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	JM/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def media_cb(match):$/;"	f
+media_cb	NANTES/bb.py	/^    def media_cb(match):$/;"	f
+media_cb	NANTES/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	RR/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def media_cb(match):$/;"	f
+media_cb	TOKYO/bb.py	/^    def media_cb(match):$/;"	f
+media_cb	TOKYO/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	VV/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	VV/mm.py	/^    def media_cb(match):$/;"	f
+media_cb	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def media_cb(match):$/;"	f
+media_cb	WARWICK/bb.py	/^    def media_cb(match):$/;"	f
+media_cb	WARWICK/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	ZHU_SLIDES/mk_slides2.py	/^    def media_cb(match):$/;"	f
+merge_tables	VIRUS/6vsb/pair_parser.py	/^def merge_tables(df1,df2):$/;"	f
+mk_anim	D2/pp.py	/^def mk_anim(src_fn, $/;"	f
+mk_anim	D2/svg2html.py	/^def mk_anim(src_fn, $/;"	f
+mk_anim	DEM0_gpe_lec/animate_svg.py	/^def mk_anim(src_fn, $/;"	f
+mk_anim	DEM0_gpe_lec/svg2html.py	/^def mk_anim(src_fn, $/;"	f
+mk_anim	GLASGOW/svg2html.py	/^def mk_anim(src_fn):$/;"	f
+mk_anim	JM/svg2html.py	/^def mk_anim(src_fn):$/;"	f
+mk_anim	LINE_ANIM/svg2html.py	/^def mk_anim(src_fn, $/;"	f
+mk_anim	RR/animate_svg.py	/^def mk_anim(src_fn, $/;"	f
+mk_anim	RR/svg2html.py	/^def mk_anim(src_fn, $/;"	f
+mk_anim	ZHU_SLIDES/animate_svg.py	/^def mk_anim(src_fn, $/;"	f
+mk_anim	ZHU_SLIDES/svg2html.py	/^def mk_anim(src_fn):$/;"	f
+mk_smoothed_table	VIRUS/6vsb/pair_parser.py	/^def mk_smoothed_table(totals):$/;"	f
+mm	VV/svg2path.py	/^mm = pp.search(data)$/;"	v
+names	VIRUS/6vsb/pair_parser.py	/^        names = [ '%s%04d'%x for x in zip(df[res], df[res+'1']) ]$/;"	v
+ndf	VIRUS/6vsb/pair_parser.py	/^    ndf = pd.DataFrame( {'residue' : RR, 'energy' : EE})$/;"	v
+new_format	VIRUS/6vsb/pair_parser.py	/^def new_format(df):$/;"	f
+pandoc_it	D2/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	DEM0_gpe_lec/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	DEMO/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	GLASGOW/bb.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	GLASGOW/mk_slides2.py	/^    pandoc_it = ('pandoc -t revealjs -c mycss.css -s -o {}.html tmp.md'.format(FN.split('.')[0])).split()$/;"	v
+pandoc_it	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	HARVARD/bb.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	HARVARD/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	JM/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	NANTES/bb.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	NANTES/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	RR/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	TOKYO/bb.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	TOKYO/mk_slides2.py	/^    pandoc_it = ('pandoc -t revealjs -c mycss.css -s -o {}.html tmp.md'.format(FN.split('.')[0])).split()$/;"	v
+pandoc_it	VV/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	VV/mm.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	WARWICK/bb.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	WARWICK/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	ZHU_SLIDES/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+paste_cb	D2/svg2html.py	/^    def paste_cb(mm):$/;"	f	function:mk_anim
+paste_cb	LINE_ANIM/svg2html.py	/^    def paste_cb(mm):$/;"	f	function:mk_anim
+path_cb	D2/pp.py	/^    def path_cb(mm):$/;"	f	function:mk_anim
+path_cb	D2/svg2html.py	/^    def path_cb(mm):$/;"	f	function:mk_anim
+path_cb	DEM0_gpe_lec/animate_svg.py	/^    def path_cb(mm):$/;"	f	function:mk_anim
+path_cb	DEM0_gpe_lec/svg2html.py	/^    def path_cb(mm):$/;"	f	function:mk_anim
+path_cb	GLASGOW/svg2html.py	/^    def path_cb(mm):$/;"	f	function:mk_anim
+path_cb	JM/svg2html.py	/^    def path_cb(mm):$/;"	f	function:mk_anim
+path_cb	LINE_ANIM/svg2html.py	/^    def path_cb(mm):$/;"	f	function:mk_anim
+path_cb	RR/animate_svg.py	/^    def path_cb(mm):$/;"	f	function:mk_anim
+path_cb	RR/svg2html.py	/^    def path_cb(mm):$/;"	f	function:mk_anim
+path_cb	ZHU_SLIDES/animate_svg.py	/^    def path_cb(mm):$/;"	f	function:mk_anim
+path_cb	ZHU_SLIDES/svg2html.py	/^    def path_cb(mm):$/;"	f	function:mk_anim
+pdb_name	VIRUS/6vsb/pair_parser.py	/^                pdb_name = name$/;"	v
+pdb_name	VIRUS/6vsb/pair_parser.py	/^    pdb_name = 'generic'$/;"	v
+pp	GPE_ENS/wiki_math.py	/^pp = re.compile(TeX_pp, re.DOTALL)$/;"	v
+pp	GPE_ENS_2021/wiki_math.py	/^pp = re.compile(TeX_pp, re.DOTALL)$/;"	v
+pp	VV/svg2path.py	/^pp = re.compile('d="(M.*?)"',re.DOTALL)$/;"	v
+pp_audio	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    pp_audio = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)',re.DOTALL)$/;"	v
+pp_audio	JULIA/mk_slides.py	/^    pp_audio = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)',re.DOTALL)$/;"	v
+pp_audio	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    pp_audio = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)',re.DOTALL)$/;"	v
+pp_audio	NN/mk_slides.py	/^    pp_audio = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)',re.DOTALL)$/;"	v
+pp_img	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    pp_img =  re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)',re.DOTALL)$/;"	v
+pp_img	JULIA/mk_slides.py	/^    pp_img =  re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)',re.DOTALL)$/;"	v
+pp_img	VV/mk_slides2.py	/^    pp_img =  re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)',re.DOTALL)$/;"	v
+pp_img	VV/mm.py	/^    pp_img =  re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)',re.DOTALL)$/;"	v
+pp_math	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    pp_math =  re.compile(r'(\\d+)(\\$.*?\\$)',re.DOTALL)$/;"	v
+pp_math	JULIA/mk_slides.py	/^    pp_math =  re.compile(r'(\\d+)(\\$.*?\\$)',re.DOTALL)$/;"	v
+pp_math	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    pp_math =  re.compile(r'(\\d+)(\\$.*?\\$)',re.DOTALL)$/;"	v
+pp_math	NN/mk_slides.py	/^    pp_math =  re.compile(r'(\\d+)(\\$.*?\\$)',re.DOTALL)$/;"	v
+pp_math	VV/mk_slides2.py	/^    pp_math =  re.compile(r'(\\d+)(\\$.*?\\$)',re.DOTALL)$/;"	v
+pp_math	VV/mm.py	/^    pp_math =  re.compile(r'(\\d+)(\\$.*?\\$)',re.DOTALL)$/;"	v
+pp_media	VV/mk_slides2.py	/^    pp_media  = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)',re.DOTALL)$/;"	v
+pp_media	VV/mm.py	/^    pp_media  = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)',re.DOTALL)$/;"	v
+pp_metadata	DEM0_gpe_lec/animate_svg.py	/^pp_metadata = re.compile('<metadata>.*?<metadata\/>', re.DOTALL)$/;"	v
+pp_metadata	GLASGOW/svg2html.py	/^pp_metadata = re.compile('<metadata>.*?<\/metadata>',re.DOTALL)$/;"	v
+pp_metadata	JM/svg2html.py	/^pp_metadata = re.compile('<metadata>.*?<\/metadata>',re.DOTALL)$/;"	v
+pp_metadata	RR/animate_svg.py	/^pp_metadata = re.compile('<metadata>.*?<metadata\/>', re.DOTALL)$/;"	v
+pp_metadata	ZHU_SLIDES/animate_svg.py	/^pp_metadata = re.compile('<metadata>.*?<metadata\/>', re.DOTALL)$/;"	v
+pp_metadata	ZHU_SLIDES/svg2html.py	/^pp_metadata = re.compile('<metadata>.*?<\/metadata>',re.DOTALL)$/;"	v
+pp_path	DEM0_gpe_lec/animate_svg.py	/^pp_path = re.compile('<path(.*?)\\s(d=".*?)\/>', re.DOTALL)$/;"	v
+pp_path	GLASGOW/svg2html.py	/^pp_path = re.compile('<path(.*?)\\sd=', re.DOTALL)$/;"	v
+pp_path	JM/svg2html.py	/^pp_path = re.compile('<path(.*?)\\sd=', re.DOTALL)$/;"	v
+pp_path	RR/animate_svg.py	/^pp_path = re.compile('<path(.*?)\\s(d=".*?)\/>', re.DOTALL)$/;"	v
+pp_path	ZHU_SLIDES/animate_svg.py	/^pp_path = re.compile('<path(.*?)\\s(d=".*?)\/>', re.DOTALL)$/;"	v
+pp_path	ZHU_SLIDES/svg2html.py	/^pp_path = re.compile('<path(.*?)\\sd=', re.DOTALL)$/;"	v
+pp_units	GLASGOW/svg2html.py	/^pp_units = re.compile('(\\d+)pt')$/;"	v
+pp_units	JM/svg2html.py	/^pp_units = re.compile('(\\d+)pt')$/;"	v
+pp_units	ZHU_SLIDES/svg2html.py	/^pp_units = re.compile('(\\d+)pt')$/;"	v
+pull_math	GPE_ENS/wiki_math.py	/^def pull_math(url):$/;"	f
+pull_math	GPE_ENS_2021/wiki_math.py	/^def pull_math(url):$/;"	f
+res2str	VIRUS/6vsb/pair_parser.py	/^def res2str(x):$/;"	f
+result	VIRUS/6vsb/pair_parser.py	/^        result = txt2csv(fn)$/;"	v
+spoken_text	D2/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	DEM0_gpe_lec/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    spoken_text = []$/;"	v
+spoken_text	DEMO/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    spoken_text = []$/;"	v
+spoken_text	GLASGOW/bb.py	/^    spoken_text = []$/;"	v
+spoken_text	GLASGOW/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    spoken_text = []$/;"	v
+spoken_text	HARVARD/bb.py	/^    spoken_text = []$/;"	v
+spoken_text	HARVARD/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	JM/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    spoken_text = []$/;"	v
+spoken_text	NANTES/bb.py	/^    spoken_text = []$/;"	v
+spoken_text	NANTES/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	RR/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    spoken_text = []$/;"	v
+spoken_text	TOKYO/bb.py	/^    spoken_text = []$/;"	v
+spoken_text	TOKYO/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	VV/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	VV/mm.py	/^    spoken_text = [x for x in pp_media.findall(md) $/;"	v
+spoken_text	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    spoken_text = []$/;"	v
+spoken_text	WARWICK/bb.py	/^    spoken_text = []$/;"	v
+spoken_text	WARWICK/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	ZHU_SLIDES/mk_slides2.py	/^    spoken_text = []$/;"	v
+str2res	VIRUS/6vsb/pair_parser.py	/^def str2res(x):$/;"	f
+string2fn	D2/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	D2/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	DEM0_gpe_lec/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	DEM0_gpe_lec/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	DEMO/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	DEMO/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	GLASGOW/bb.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	GLASGOW/bb.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	GLASGOW/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	GLASGOW/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	HARVARD/bb.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	HARVARD/bb.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	HARVARD/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	HARVARD/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	JM/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	JM/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	JULIA/mk_slides.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	JULIA/mk_slides.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	NANTES/bb.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	NANTES/bb.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	NANTES/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	NANTES/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	NN/mk_slides.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	NN/mk_slides.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	RR/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	RR/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	TOKYO/bb.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	TOKYO/bb.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	TOKYO/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	TOKYO/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	VV/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	VV/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	VV/mm.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	VV/mm.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	WARWICK/bb.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	WARWICK/bb.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	WARWICK/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	WARWICK/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	ZHU_SLIDES/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	ZHU_SLIDES/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+subsection{Contexte}label{contexte}
+subsection{GDR-CNRS2105 Tresses et topologie de basse
+totals	VIRUS/6vsb/pair_parser.py	/^    totals = totals4residues(df)$/;"	v
+totals4residues	VIRUS/6vsb/pair_parser.py	/^def totals4residues(df, col='-log Density'):$/;"	f
+txt2csv	VIRUS/6vsb/pair_parser.py	/^def txt2csv(fn, $/;"	f
+units_cb	D2/pp.py	/^def units_cb(mm):$/;"	f
+units_cb	D2/svg2html.py	/^def units_cb(mm):$/;"	f
+units_cb	DEM0_gpe_lec/svg2html.py	/^def units_cb(mm):$/;"	f
+units_cb	GLASGOW/svg2html.py	/^def units_cb(mm):$/;"	f
+units_cb	JM/svg2html.py	/^def units_cb(mm):$/;"	f
+units_cb	LINE_ANIM/svg2html.py	/^def units_cb(mm):$/;"	f
+units_cb	RR/svg2html.py	/^def units_cb(mm):$/;"	f
+units_cb	ZHU_SLIDES/svg2html.py	/^def units_cb(mm):$/;"	f
+url	GPE_ENS/wiki_math.py	/^        url = 'https:\/\/en.wikipedia.org\/wiki\/Markov_number'$/;"	v
+url	GPE_ENS/wiki_math.py	/^        url = sys.argv[1]$/;"	v
+url	GPE_ENS_2021/wiki_math.py	/^        url = 'https:\/\/en.wikipedia.org\/wiki\/Markov_number'$/;"	v
+url	GPE_ENS_2021/wiki_math.py	/^        url = sys.argv[1]$/;"	v
+voices	D2/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	D2/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	DEM0_gpe_lec/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	DEM0_gpe_lec/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = Voices()$/;"	v
+voices	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	DEMO/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	DEMO/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = Voices()$/;"	v
+voices	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	GLASGOW/bb.py	/^    voices = Voices()$/;"	v
+voices	GLASGOW/bb.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	GLASGOW/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	GLASGOW/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = Voices()$/;"	v
+voices	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	HARVARD/bb.py	/^    voices = Voices()$/;"	v
+voices	HARVARD/bb.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	HARVARD/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	HARVARD/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	JM/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	JM/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    voices = Voices()$/;"	v
+voices	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    voices ={'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	JULIA/mk_slides.py	/^    voices = Voices()$/;"	v
+voices	JULIA/mk_slides.py	/^    voices ={'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = Voices()$/;"	v
+voices	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	NANTES/bb.py	/^    voices = Voices()$/;"	v
+voices	NANTES/bb.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	NANTES/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	NANTES/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    voices = Voices()$/;"	v
+voices	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    voices ={'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	NN/mk_slides.py	/^    voices = Voices()$/;"	v
+voices	NN/mk_slides.py	/^    voices ={'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	RR/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	RR/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = Voices()$/;"	v
+voices	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	TOKYO/bb.py	/^    voices = Voices()$/;"	v
+voices	TOKYO/bb.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	TOKYO/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	TOKYO/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	VV/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	VV/mk_slides2.py	/^    voices ={'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	VV/mm.py	/^    voices = Voices()$/;"	v
+voices	VV/mm.py	/^    voices ={'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = Voices()$/;"	v
+voices	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	WARWICK/bb.py	/^    voices = Voices()$/;"	v
+voices	WARWICK/bb.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	WARWICK/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	WARWICK/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	ZHU_SLIDES/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	ZHU_SLIDES/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+xx	D2/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	D2/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	DEM0_gpe_lec/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	DEM0_gpe_lec/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	DEMO/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	DEMO/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	GLASGOW/bb.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	GLASGOW/bb.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	GLASGOW/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	GLASGOW/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	HARVARD/bb.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	HARVARD/bb.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	HARVARD/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	HARVARD/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	JM/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	JM/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    xx = re.sub(pp_audio, audio_cb, md)$/;"	v
+xx	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    xx = re.sub(pp_img, img_cb, xx)$/;"	v
+xx	JULIA/mk_slides.py	/^    xx = re.sub(pp_audio, audio_cb, md)$/;"	v
+xx	JULIA/mk_slides.py	/^    xx = re.sub(pp_img, img_cb, xx)$/;"	v
+xx	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	NANTES/bb.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	NANTES/bb.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	NANTES/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	NANTES/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    xx = re.sub(pp_audio, audio_cb, md)$/;"	v
+xx	NN/mk_slides.py	/^    xx = re.sub(pp_audio, audio_cb, md)$/;"	v
+xx	RR/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	RR/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	TOKYO/bb.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	TOKYO/bb.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	TOKYO/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	TOKYO/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	VV/mk_slides2.py	/^    xx = re.sub(pp_img, img_cb, xx)$/;"	v
+xx	VV/mk_slides2.py	/^    xx = re.sub(pp_media , media_cb, md)$/;"	v
+xx	VV/mm.py	/^    xx = re.sub(pp_img, img_cb, xx)$/;"	v
+xx	VV/mm.py	/^    xx = re.sub(pp_media , media_cb, md)$/;"	v
+xx	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	WARWICK/bb.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	WARWICK/bb.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	WARWICK/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	WARWICK/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	ZHU_SLIDES/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	ZHU_SLIDES/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v

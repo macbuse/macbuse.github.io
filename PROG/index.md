@@ -15,6 +15,31 @@ You can learn a lot from them.
 There will not be so much reading but there will be a lot of watching. 
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
+---
+### Friday 24/9
+
+Here is the [second notebook](./numpy_intro.ipynb).
+There are some difficult things in it mainly about matrices.
+
+Watch these videos before starting:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Why do this?
+
+Numpy was developed by phycists for doing large numerical calculations.
+It is efficient because the loops that we would usually write are
+hidden by the API and done in **C**.
+
+It was adapted for doing Data Science and there is a special module for this 
+[Pandas](https://pandas.pydata.org/).
+
+A few years ago Google published an API to their neural net framework 
+called TensorFlow. The data is fed to the algorithms in [numpy arrays](https://www.tensorflow.org/guide/tf_numpy).
+
+
 ### Friday 17/9
 
 Here is the [first notebook](./lists.ipynb) I've prepared - you should go
@@ -57,6 +82,10 @@ This is done for:
 - forums 
 
 
+
+
+---
+### Friday 9/10
 
 ---
 
