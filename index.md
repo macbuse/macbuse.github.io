@@ -14,13 +14,13 @@ I'll be teaching Friday 1/10 at 13:45
 - bring your laptop
 - finish doing the ```numpy``` notebook
 - try and find all the 3x3 invertible matrices  over $F_2$
+- [some corrections](./PROG/corrections.ipynb)
 
 ---
 
 ### Teaching stuff/Enseignement
 
 If you are looking for what I teach it is [here](teaching.md)
-
 
 
 ### Stages/TER
