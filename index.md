@@ -2,9 +2,10 @@
 # Greg McShane
 
 ### Bureau 328, Institut Fourier.
-### mcshane@univ-grenoble-alpes.fr
+### methane@univ-grenoble-alpes.fr
 
 I am currently back from  sick leave with a broken shoulder.
+
 
 ---
 
@@ -43,8 +44,8 @@ or a TER
 - Editor <a href="http://aif.cedram.org/?lang=fr">Annales de l'Institut Fourier</a>
 - Principal investigator l'equipe action ```ToFu```
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
-- <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf">CV</a>
--  <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf">research statement</a>
+- <a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/cv2016.pdf">CV</a>
+-  <a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/research%20statement.pdf">research statement</a>
 - <a href="https://github.com/macbuse">my github account</a>
 
 #### and a little more...
@@ -52,7 +53,7 @@ or a TER
 <p>I am a (low dimensional) topologist a subject which has it's origins in the
 <a href="http://analysis-situs.math.cnrs.fr/"> work of the French mathematician Henri Poincaré</a>.
 Recently I have been doing a lot of
-<a href="https://www-fourier.ujf-grenoble.fr/~mcshane/3D/alexanderSphere.html">topology and WebGL</a>
+<a href="https://www-fourier.ujf-grenoble.fr/~methane/3D/alexanderSphere.html">topology and WebGL</a>
 and
 <a href="https://github.com/macbuse/Mandelbrottle"> 3D printing of fractals</a>.
 </p>
@@ -73,14 +74,14 @@ And where I got time to do write stuff for Inkscape like this
 <center>
 <p> This is what I look like <br>
 
-<img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/IHP.png" alt="IHP 2012 : La Maison des Maths" />
+<img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/IHP.png" alt="IHP 2012 : La Maison des Maths" />
 <br>
 IHP 2012 : La Maison des Maths
 </p>
 </center>
 
 
-<p><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/bestblackboards2015.html">More real math on blackboards</a></p>
+<p><a href="https://www-fourier.ujf-grenoble.fr/~methane/bestblackboards2015.html">More real math on blackboards</a></p>
 
 
 ---
@@ -126,8 +127,8 @@ IHP 2012 : La Maison des Maths
 <ul>
  <li>Journées Géométrie et Topologie ENS Lyon
  <ul>
-  <li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/jdf2017.pdf"> Novembre 2017</a> </li>
- <li> <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/annonce-journee-20170614.pdf"> Juin 2017</a>
+  <li><a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/jdf2017.pdf"> Novembre 2017</a> </li>
+ <li> <a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/annonce-journee-20170614.pdf"> Juin 2017</a>
  </li>
  <li> <a href="http://math.univ-bpclermont.fr/~heusener/Lyon-dec2016/index.html"> Decembre 2016</a> </li>
   </ul>
@@ -155,7 +156,7 @@ Togther with Prof. S. Kojima of TITEC we are working on applying
 converegence results for quasi-Fuchsian manifolds and Teichmueller theory
 to get information about closed hyperbolic manifolds.</p>
 
-<p><img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/qf_manifold.svg" width="600"></p>
+<p><img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/qf_manifold.svg" width="600"></p>
 
 <p>With Bill Goldman and a couple of  his ex students we have been working on a book that just got published <a href="https://www.amazon.com/Automorphisms-Two-generator-Isometric-Hyperbolic-Mathematical/dp/1470436140">by the AMS</a>. Much of it is dedicated to explaining this picture of an invariant fractal in the character variety.</p>
 
@@ -170,9 +171,9 @@ to get information about closed hyperbolic manifolds.</p>
 
 <ul>
 <li><a href="https://arxiv.org/abs/1909.09829">On systoles and ortho spectrum rigidity</a></li>
-<li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/entropy.pdf">NORMALIZED ENTROPY VERSUS VOLUME FOR PSEUDO-ANOSOVS</a></li>
-<li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/CalegariBridgeman7.pdf">EQUIDECOMPOSABILITY, VOLUME FORMULAE AND ORTHOSPECTRA</a></li>
-<li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/Kokyuroku_mcshane.pdf">GEOMETRIC IDENTITIES</a></li>
+<li><a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/entropy.pdf">NORMALIZED ENTROPY VERSUS VOLUME FOR PSEUDO-ANOSOVS</a></li>
+<li><a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/CalegariBridgeman7.pdf">EQUIDECOMPOSABILITY, VOLUME FORMULAE AND ORTHOSPECTRA</a></li>
+<li><a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/Kokyuroku_methane.pdf">GEOMETRIC IDENTITIES</a></li>
 </ul>
 
 ---
@@ -183,6 +184,9 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 - blue arrows = next/previous
 - esc-key for overview
 - blue text is a link to a resource on the web
+
+
+- [Grenoble 8/10](./GRENOBLE)
 
 
 - **Glasgow 7/6**
@@ -205,15 +209,15 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 
 <h1 id="fablab">FabLab</h1>
 
-<p><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/stagiaresdetroisime.html">stages</a></p>
+<p><a href="https://www-fourier.ujf-grenoble.fr/~methane/stagiaresdetroisime.html">stages</a></p>
 
 <p>From March 2014 I&#8217;ve also been working with the MSTIC <a href="http://fabmstic.liglab.fr/">FabLab</a>
 making mathematical curiosities from wood. I&#8217;m mainly interested in constructing geometric objects in wood using kerf bending patterns. Wood prepared using a laser cutting machine can be bent
 and joined to like a 3 dimensional jigsaw puzzle.</p>
 
 <p><center>
- <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/tetra.JPG" alt="photo" width="300">
- <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/dodec.png" alt="photo" width="300">
+ <img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/tetra.JPG" alt="photo" width="300">
+ <img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/dodec.png" alt="photo" width="300">
 </center></p>
 
 <p>In November 2014 I was invited to take part in
@@ -222,6 +226,6 @@ a workshop for architectural students
 to explain the techniques and possibilities.</p>
 
 <center>
-<img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/woodcuts/swirler.JPG" alt="photo" width="300">
-<img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/woodcuts/lego.png" alt="photo" width="300">
+<img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/woodcuts/swirler.JPG" alt="photo" width="300">
+<img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/woodcuts/lego.png" alt="photo" width="300">
 </center>

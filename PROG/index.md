@@ -15,6 +15,27 @@ You can learn a lot from them.
 There will not be so much reading but there will be a lot of watching. 
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
+
+
+
+### Friday 1/10
+
+This is the [correction](./corrections.ipynb) for last week.
+
+And this is the [preliminary version of the notebook](./matplotlib.ipynb) to study for Friday 16/10.
+
+Watch this video about [Matplotlib](https://matplotlib.org/)
+first.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O_OeWxpnUc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Why are we doing this ?
+
+Everybody needs to make graphs and figures for
+- reports
+- books
+- web pages
+
 ---
 ### Friday 24/9
 
@@ -22,6 +43,75 @@ Here is the [second notebook](./numpy_intro.ipynb).
 -- There are some difficult things in it mainly about matrices.
 -- There are some excercises at the end of the worksheet.
 
+
+Watch these videos before starting:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Why do this?
+
+Numpy was developed by phycists for doing large numerical calculations.
+---
+### Friday 24/9
+
+Here is the [second notebook](./numpy_intro.ipynb).
+-- There are some difficult things in it mainly about matrices.
+-- There are some excercises at the end of the worksheet.
+
+
+Watch these videos before starting:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Why do this?
+
+Numpy was developed by phycists for doing large numerical calculations.
+---
+### Friday 24/9
+
+Here is the [second notebook](./numpy_intro.ipynb).
+-- There are some difficult things in it mainly about matrices.
+-- There are some excercises at the end of the worksheet.
+
+
+Watch these videos before starting:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Why do this?
+
+Numpy was developed by phycists for doing large numerical calculations.
+It is efficient because the loops that we would usually write are
+---
+### Friday 24/9
+
+Here is the [second notebook](./numpy_intro.ipynb).
+-- There are some difficult things in it mainly about matrices.
+-- There are some excercises at the end of the worksheet.
+
+
+Watch these videos before starting:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Why do this?
+
+Numpy was developed by phycists for doing large numerical calculations.
+It is efficient because the loops that we would usually write are
+---
+### Friday 24/9
+
+Here is the [second notebook](./numpy_intro.ipynb).
+-- There are some difficult things in it mainly about matrices.
+-- There are some excercises at the end of the worksheet.
 
 
 Watch these videos before starting:
