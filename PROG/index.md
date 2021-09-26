@@ -17,7 +17,6 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 
 
-
 ### Friday 1/10
 
 This is the [correction](./corrections.ipynb) for last week.
