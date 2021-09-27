@@ -4,24 +4,29 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="greg mc">
-  <title>Geometry of sums of squares</title>
+  <title>Markoff numbers</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//dist/reset.css">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//dist/reveal.css">
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/theme/black.css" id="theme">
   <link rel="stylesheet" href="mycss.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://unpkg.com/reveal.js@3.9.2//css/print/pdf.css' : 'https://unpkg.com/reveal.js@3.9.2//css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
 </head>
+
+
 <body>
   <div class="reveal">
     <div class="slides">
@@ -36,29 +41,29 @@
 <h1></h1>
 <p><img src="./Martin_Aigner.jpg" width="400"></p>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem" target="_blank">Proofs from THE BOOK</a></li>
-<li><a href="https://arxiv.org/abs/2101.03316" target="_blank">Convexity and Aigner’s Conjectures</a></li>
-<li>Can I prove these with one figure ?</li>
+<li class="fragment"><a href="https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem" target="_blank">Proofs from THE BOOK</a></li>
+<li class="fragment"><a href="https://arxiv.org/abs/2101.03316" target="_blank">Convexity and Aigner’s Conjectures</a></li>
+<li class="fragment">Can I prove these with one figure ?</li>
 </ul>
 </section>
 <section id="section-1" class="slide level1">
 <h1></h1>
 <p>Markov numbers are integers that appear in triples which are solutions of a Diophantine equation the so-called Markov cubic</p>
-<p><span style="font-size: 200%"><span class="math inline"><em>x</em><sup>2</sup> + <em>y</em><sup>2</sup> + <em>z</em><sup>2</sup> − 3<em>x</em><em>y</em><em>z</em> = 0.</span></span></p>
-<p><span class="math inline">(1, 1, 1), (1, 1, 2), (1, 2, 5), (1, 5, 13)</span></p>
+<p><span style="font-size: 200%"><span class="math inline">\(x^2 + y^2 + z^2 - 3x y z = 0.\)</span></span></p>
+<p><span class="math inline">\((1,1,1),(1,1,2),(1,2,5),(1,5,13)\)</span></p>
 </section>
 <section id="section-2" class="slide level1">
 <h1></h1>
 <h2 id="infinity-of-markoff-numbers">Infinity of Markoff numbers</h2>
-<p><span class="math inline">$\begin{pmatrix} 3 &amp; -1 \\ 1 &amp; 0 \end{pmatrix}$</span> is an automorph of <span style="font-size: 150%"><span class="math inline"><em>x</em><sup>2</sup> + <em>y</em><sup>2</sup> − 3<em>x</em><em>y</em>.</span></span></p>
-<p>so <span style="font-size: 150%"><span class="math inline">(<em>v</em><sub><em>n</em></sub>, <em>v</em><sub><em>n</em> + 1</sub>, 1)</span></span> is a solution where</p>
-<p><span style="font-size: 150%"><span class="math inline">$\begin{pmatrix}v_{n+1} \\ v_n \end{pmatrix} = \begin{pmatrix} 3 &amp; -1 \\ 1 &amp; 0 \end{pmatrix}^n \begin{pmatrix}1 \\ 1 \end{pmatrix}$</span></span></p>
+<p><span class="math inline">\(\begin{pmatrix} 3 &amp; -1 \\ 1 &amp; 0 \end{pmatrix}\)</span> is an automorph of <span style="font-size: 150%"><span class="math inline">\(x^2 + y^2 - 3x y.\)</span></span></p>
+<p>so <span style="font-size: 150%"><span class="math inline">\(( v_n,v_{n+1},1)\)</span></span> is a solution where</p>
+<p><span style="font-size: 150%"><span class="math inline">\(\begin{pmatrix}v_{n+1} \\ v_n \end{pmatrix} = \begin{pmatrix} 3 &amp; -1 \\ 1 &amp; 0 \end{pmatrix}^n \begin{pmatrix}1 \\ 1 \end{pmatrix}\)</span></span></p>
 </section>
 <section id="section-3" class="slide level1">
 <h1></h1>
 <h3 id="odd-index-fibonacci-numbers-are-markoff-numbers">Odd index Fibonacci numbers are Markoff numbers</h3>
-<p><span class="math inline">1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...</span></p>
-<p><span style="font-size: 200%"><span class="math inline">(1, 1, 1), (1, 1, 2), (1, 2, 5), (1, 5, 13)</span></span></p>
+<p><span class="math inline">\(1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...\)</span></p>
+<p><span style="font-size: 200%"><span class="math inline">\((1,1,1),(1,1,2),(1,2,5),(1,5,13)\)</span></span></p>
 </section>
 <section id="section-4" class="slide level1">
 <h1></h1>
@@ -70,70 +75,70 @@
 <h3 id="partial-results">Partial results</h3>
 <p>m = Markoff number</p>
 <ul>
-<li>Jack Button for <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292" target="_blank">m prime</a></li>
-<li>Zhang <a href="https://arxiv.org/abs/math/0606283" target="&quot;_blank">An elementary proof…</a></li>
-<li>Baragar <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88B0E426FFCBEA8B3A345C1074B8CC59/S0008439500018828a.pdf/on-the-unicity-conjecture-for-markoff-numbers.pdf" target="&quot;_blank">m, 3m - 2, 3m + 2 prime</a></li>
-<li><a href="https://core.ac.uk/download/pdf/82088222.pdf" target="&quot;_blank">Bugeaud, Reutenauer, Siksek</a></li>
-<li>Conclusion too hard!!!</li>
+<li class="fragment">Jack Button for <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292" target="_blank">m prime</a></li>
+<li class="fragment">Zhang <a href="https://arxiv.org/abs/math/0606283" target="&quot;_blank">An elementary proof…</a></li>
+<li class="fragment">Baragar <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88B0E426FFCBEA8B3A345C1074B8CC59/S0008439500018828a.pdf/on-the-unicity-conjecture-for-markoff-numbers.pdf" target="&quot;_blank">m, 3m - 2, 3m + 2 prime</a></li>
+<li class="fragment"><a href="https://core.ac.uk/download/pdf/82088222.pdf" target="&quot;_blank">Bugeaud, Reutenauer, Siksek</a></li>
+<li class="fragment">Conclusion too hard!!!</li>
 </ul>
 </section>
 <section id="section-6" class="slide level1">
 <h1></h1>
 <h3 id="aigners-monotonicity-conjectures">Aigner’s monotonicity conjectures</h3>
 <ul>
-<li>Markov’s theorem and 100 years of the uniqueness conjecture. A mathematical journey from irrational numbers to perfect matchings. 2013.<br />
+<li class="fragment">Markov’s theorem and 100 years of the uniqueness conjecture. A mathematical journey from irrational numbers to perfect matchings. 2013.<br />
 </li>
-<li>M. Rabideaua, R. Schiffler, Continued fractions and orderings on the Markov numbers, Advances in Mathematics Vol 370, 2020.</li>
-<li>C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markov numbers: fixed numerator, denominator, and sum conjectures.</li>
+<li class="fragment">M. Rabideaua, R. Schiffler, Continued fractions and orderings on the Markov numbers, Advances in Mathematics Vol 370, 2020.</li>
+<li class="fragment">C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markov numbers: fixed numerator, denominator, and sum conjectures.</li>
 </ul>
 </section>
 <section id="section-7" class="slide level1">
 <h1></h1>
 <h3 id="natural-map">Natural map ?</h3>
-<p><span style="font-size: 200%"><span class="math inline">ℚ ∪ ∞→</span></span> Markoff numbers</p>
-<p><span style="font-size: 200%"><span class="math inline"><em>p</em>/<em>q</em> ↦ <em>m</em><sub><em>p</em>, <em>q</em></sub></span></span></p>
+<p><span style="font-size: 200%"><span class="math inline">\(\mathbb{Q}\cup \infty \rightarrow\)</span></span> Markoff numbers</p>
+<p><span style="font-size: 200%"><span class="math inline">\(p/q \mapsto m_{p,q}\)</span></span></p>
 <ul>
-<li>projective <span style="font-size: 200%"><span class="math inline"><em>G</em><em>L</em>(2, ℤ)</span></span> action on <span style="font-size: 200%"><span class="math inline">ℚ ∪ ∞</span></span></li>
-<li>action on Markoff numbers ?</li>
-<li>automorphisms of the Markoff cubic?</li>
+<li class="fragment">projective <span style="font-size: 200%"><span class="math inline">\(GL(2, \mathbb{Z})\)</span></span> action on <span style="font-size: 200%"><span class="math inline">\(\mathbb{Q}\cup \infty\)</span></span></li>
+<li class="fragment">action on Markoff numbers ?</li>
+<li class="fragment">automorphisms of the Markoff cubic?</li>
 </ul>
 </section>
 <section id="section-8" class="slide level1">
 <h1></h1>
 <h2 id="automorphisms">Automorphisms</h2>
 <ul>
-<li>(cyclic) permutations of <span style="font-size: 200%"><span class="math inline"><em>x</em>, <em>y</em>, <em>z</em></span></span></li>
-<li>Vieta flips/involutions</li>
-<li>get <span style="font-size: 200%"><span class="math inline">ℤ/2 * ℤ/3</span></span> action</li>
-<li>= <span style="font-size: 200%"><span class="math inline"><em>P</em><em>S</em><em>L</em>(2, ℤ)</span></span> action</li>
+<li class="fragment">(cyclic) permutations of <span style="font-size: 200%"><span class="math inline">\(x,y,z\)</span></span></li>
+<li class="fragment">Vieta flips/involutions</li>
+<li class="fragment">get <span style="font-size: 200%"><span class="math inline">\(\mathbb{Z}/2 * \mathbb{Z}/3\)</span></span> action</li>
+<li class="fragment">= <span style="font-size: 200%"><span class="math inline">\(PSL(2,\mathbb{Z})\)</span></span> action</li>
 </ul>
 </section>
 <section id="section-9" class="slide level1">
 <h1></h1>
 <h3 id="vieta-flipsinvolutions">Vieta flips/involutions</h3>
-<p><span style="font-size: 250%"><span class="math inline"><em>x</em><sup>2</sup> + <em>y</em><sup>2</sup> + <em>z</em><sup>2</sup> − 3<em>x</em><em>y</em><em>z</em> = 0.</span></span></p>
+<p><span style="font-size: 250%"><span class="math inline">\(x^2 + y^2 + z^2 - 3x y z = 0.\)</span></span></p>
 <ul>
-<li>quadratic in <span style="font-size: 200%"><span class="math inline"><em>x</em></span></span>, two roots <span style="font-size: 200%"><span class="math inline"><em>x</em><sup>±</sup></span></span></li>
-<li><span style="font-size: 200%"><span class="math inline"><em>x</em><sup>+</sup> + <em>x</em><sup>−</sup> = 3<em>y</em><em>z</em></span></span></li>
-<li>involution <span style="font-size: 200%"><span class="math inline">(<em>x</em>, <em>y</em>, <em>z</em>) ↦ (3<em>y</em><em>z</em> − <em>x</em>, <em>y</em>, <em>z</em>)</span></span></li>
+<li class="fragment">quadratic in <span style="font-size: 200%"><span class="math inline">\(x\)</span></span>, two roots <span style="font-size: 200%"><span class="math inline">\(x^\pm\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(x^+ + x^- = 3yz\)</span></span></li>
+<li class="fragment">involution <span style="font-size: 200%"><span class="math inline">\((x,y,z) \mapsto (3yz -x, y,z)\)</span></span></li>
 </ul>
 </section>
 <section id="section-10" class="slide level1">
 <h1></h1>
-<p>Natural = <span style="font-size: 200%"><span class="math inline"><em>P</em><em>S</em><em>L</em>(2, ℤ)</span></span>-equivariant map</p>
-<p><span style="font-size: 200%"><span class="math inline">ℚ ∪ ∞→</span></span> Markoff numbers <span style="font-size: 200%"><span class="math inline"><em>p</em>/<em>q</em> ↦ <em>m</em><sub><em>p</em>/<em>q</em></sub></span></span></p>
+<p>Natural = <span style="font-size: 200%"><span class="math inline">\(PSL(2,\mathbb{Z})\)</span></span>-equivariant map</p>
+<p><span style="font-size: 200%"><span class="math inline">\(\mathbb{Q}\cup \infty \rightarrow\)</span></span> Markoff numbers <span style="font-size: 200%"><span class="math inline">\(p/q \mapsto m_{p/q}\)</span></span></p>
 <ul>
-<li><span style="font-size: 200%"><span class="math inline">(1 : 1) ↦ 1/1 ↦ 2</span></span></li>
-<li><span style="font-size: 200%"><span class="math inline">(0 : 1) ↦ 0/1 ↦ 1</span></span></li>
-<li><span style="font-size: 200%"><span class="math inline">(1 : 0) ↦ ∞ ↦ 1</span></span></li>
-<li>actions = projective on left and by autos on right</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((1:1) \mapsto 1/1 \mapsto 2\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((0:1) \mapsto 0/1 \mapsto 1\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((1:0) \mapsto \infty \mapsto 1\)</span></span></li>
+<li class="fragment">actions = projective on left and by autos on right</li>
 </ul>
 <h2 id="topological-representation">Topological representation</h2>
-<p><span style="font-size: 200%"><span class="math inline">ℚ ∪ ∞⊂</span></span> circle/projective line</p>
+<p><span style="font-size: 200%"><span class="math inline">\(\mathbb{Q}\cup \infty \subset\)</span></span> circle/projective line</p>
 <ul>
-<li><span style="font-size: 200%"><span class="math inline">(<em>a</em>, <em>b</em>) primitive  ↦ <em>a</em>/<em>b</em> ∈ ℚ ∪ ∞</span></span></li>
-<li><span style="font-size: 200%"><span class="math inline">$\begin{pmatrix} a &amp; c \\ b &amp; d \end{pmatrix} \mapsto$</span></span> arc joining <span style="font-size: 200%"><span class="math inline">(<em>a</em>/<em>b</em>, <em>c</em>/<em>d</em>)</span></span></li>
-<li><span style="font-size: 200%"><span class="math inline">(<em>a</em>/<em>b</em>, <em>c</em>/<em>d</em>)</span></span> are Farey neighbors</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((a,b)\text{ primitive } \mapsto a/b \in \mathbb{Q}\cup \infty\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\begin{pmatrix} a &amp; c \\ b &amp; d \end{pmatrix} \mapsto\)</span></span> arc joining <span style="font-size: 200%"><span class="math inline">\((a/b, c/d)\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((a/b, c/d)\)</span></span> are Farey neighbors</li>
 </ul>
 </section>
 <section id="section-11" class="slide level1">
@@ -159,26 +164,22 @@
     </div>
   </div>
 
-  <script src="https://unpkg.com/reveal.js@3.9.2//dist/reveal.js"></script>
 
-  // reveal.js plugins
-  <script src="https://unpkg.com/reveal.js@3.9.2//plugin/notes/notes.js"></script>
-  <script src="https://unpkg.com/reveal.js@3.9.2//plugin/search/search.js"></script>
-  <script src="https://unpkg.com/reveal.js@3.9.2//plugin/zoom/zoom.js"></script>
+
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/head.min.js"></script>
+  <script src="https://unpkg.com/reveal.js@3.9.2//js/reveal.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
-      // https://revealjs.com/config/
+      // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-        // Push each slide change to the browser history
-        history: true,
 
-        // reveal.js plugins
-        plugins: [
-          RevealNotes,
-          RevealSearch,
-          RevealZoom
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://unpkg.com/reveal.js@3.9.2//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/zoom-js/zoom.js', async: true },
+              { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/notes/notes.js', async: true }
         ]
       });
     </script>
