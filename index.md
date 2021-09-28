@@ -10,8 +10,6 @@ I am currently back from  sick leave with a broken shoulder.
 ---
 
 
-
-
 # Teaching 2020-21
 
 [More details](teaching.md)
@@ -231,15 +229,15 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 
 <h1 id="fablab">FabLab</h1>
 
-<p><a href="https://www-fourier.ujf-grenoble.fr/~methane/stagiaresdetroisime.html">stages</a></p>
+<p><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/stagiaresdetroisime.html">stages</a></p>
 
 <p>From March 2014 I&#8217;ve also been working with the MSTIC <a href="http://fabmstic.liglab.fr/">FabLab</a>
 making mathematical curiosities from wood. I&#8217;m mainly interested in constructing geometric objects in wood using kerf bending patterns. Wood prepared using a laser cutting machine can be bent
 and joined to like a 3 dimensional jigsaw puzzle.</p>
 
 <p><center>
- <img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/tetra.JPG" alt="photo" width="300">
- <img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/dodec.png" alt="photo" width="300">
+ <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/tetra.JPG" alt="photo" width="300">
+ <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/dodec.png" alt="photo" width="300">
 </center></p>
 
 <p>In November 2014 I was invited to take part in
@@ -248,6 +246,6 @@ a workshop for architectural students
 to explain the techniques and possibilities.</p>
 
 <center>
-<img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/woodcuts/swirler.JPG" alt="photo" width="300">
-<img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/woodcuts/lego.png" alt="photo" width="300">
+<img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/woodcuts/swirler.JPG" alt="photo" width="300">
+<img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/woodcuts/lego.png" alt="photo" width="300">
 </center>
