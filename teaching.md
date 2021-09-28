@@ -1,10 +1,9 @@
 ---
 layout: page
-title: none
+title: Teaching
 ---
 
 # Teaching 2020-21
-
 
 ### First semester
 

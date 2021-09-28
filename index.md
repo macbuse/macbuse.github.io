@@ -9,6 +9,19 @@ I am currently back from  sick leave with a broken shoulder.
 
 ---
 
+
+
+
+# Teaching 2020-21
+
+[More details](teaching.md)
+
+### First semester
+
+
+### introduction à la programmation 
+  - Fridays 13:45
+
 [Presentation programmation](./PROG/pres)
 
 I'll be teaching Friday 1/10 at 13:45
@@ -19,10 +32,19 @@ I'll be teaching Friday 1/10 at 13:45
 
 ---
 
-### Teaching stuff/Enseignement
 
-If you are looking for what I teach it is [here](teaching.md)
+### mat305 
+- [mat305](https://dlst.univ-grenoble-alpes.fr/enseignements/ressources-pedagogiques/l2-chimie-ressources-pedagogiques-255950.kjsp)
+  - Tuesday 8h 
+  - Wednesday 13h30
 
+- [cours](./MAT305/cours.pdf)
+- [F1](./MAT305/TD1.pdf)
+
+ 
+### Second semester
+
+---
 
 ### Stages/TER
 
