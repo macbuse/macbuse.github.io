@@ -38,7 +38,8 @@ I'll be teaching Friday 1/10 at 13:45
 
 - [cours](./MAT305/cours.pdf)
 - [F1](./MAT305/TD1.pdf)
-- [correction exo 6](./MAT305/correction_f1exo6.pdf)
+- [F2](./MAT305/TD2.pdf)
+- [correction exo 6](./MAT305/correction_f2exo6.pdf)
 - [correction exos 7 etc]()
 
  
