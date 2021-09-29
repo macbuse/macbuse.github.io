@@ -45,6 +45,10 @@ I'll be teaching Friday 1/10 at 13:45
  
 ### Second semester
 
+-
+-
+-
+
 ---
 
 ### Stages/TER
