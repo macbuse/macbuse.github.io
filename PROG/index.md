@@ -1,7 +1,6 @@
 # Introduction
 
 
-[presentation](./pres.md)
 
 
 I suppose you know how to ask Google to translate this page in french - I have

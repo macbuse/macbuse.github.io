@@ -20,7 +20,8 @@ I am currently back from  sick leave with a broken shoulder.
 ### introduction à la programmation 
   - Fridays 13:45
 
-[Presentation programmation](./PROG/pres)
+- [Presentation programmation](./PROG/pres)
+- [cours](./PROG/index.md)
 
 I'll be teaching Friday 1/10 at 13:45
 - bring your laptop
