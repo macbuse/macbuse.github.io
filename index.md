@@ -41,7 +41,7 @@ I'll be teaching Friday 1/10 at 13:45
 - [F1](./MAT305/TD1.pdf)
 - [F2](./MAT305/TD2.pdf)
 - [correction exo 6](./MAT305/correction_f2exo6.pdf)
-- [correction exos 7 etc]()
+- [correction exos 7 etc](./MAT305/correction_rest.pdf)
 
  
 ### Second semester
