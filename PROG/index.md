@@ -18,7 +18,7 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 ### Friday 1/10
 
-This is the [correction](./matplotlib_one_corr.ipynb) for last week.
+This is the [correction](./corrections.ipynb) for last week.
 
 And this is the [notebook](./matplotlib_one.ipynb) to study for Friday 1/10.
 
