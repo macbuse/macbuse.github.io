@@ -20,7 +20,7 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 This is the [correction](./corrections.ipynb) for last week.
 
-And this is the [preliminary version of the notebook](./matplotlib_one.ipynb) to study for Friday 16/10.
+And this is the [notebook](./matplotlib_one.ipynb) to study for Friday 1/10.
 
 Watch this video about [Matplotlib](https://matplotlib.org/)
 first.
