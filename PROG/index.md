@@ -15,7 +15,7 @@ There will not be so much reading but there will be a lot of watching.
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
 
-### Friday 1/10
+### Friday 8/10
 
 This week we'll do some more graphics and draw some fracctals
 
