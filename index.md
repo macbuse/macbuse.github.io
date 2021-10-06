@@ -23,11 +23,9 @@ I am currently back from  sick leave with a broken shoulder.
 - [Presentation programmation](./PROG/pres)
 - [cours](./PROG/index.md)
 
-I'll be teaching Friday 1/10 at 13:45
-- bring your laptop
-- finish doing the ```numpy``` notebook
-- try and find all the 3x3 invertible matrices  over $F_2$
-- [some corrections](./PROG/corrections.ipynb)
+I'll be teaching Friday 8/10 at 13:45
+- finish doing the ```mathplotlib``` notebook
+- [some corrections](./PROG/matplotlib_one_corr.ipynb)
 
 ---
 
@@ -44,6 +42,7 @@ I'll be teaching Friday 1/10 at 13:45
 - [correction exos 7 etc](./MAT305/correction_rest.pdf)
 - [corrections F3](./MAT305/f3_corr.pdf)
 
+---
  
 ### Second semester
 
@@ -51,6 +50,7 @@ I'll be teaching Friday 1/10 at 13:45
 -
 -
 
+---
 ---
 
 ### Stages/TER
