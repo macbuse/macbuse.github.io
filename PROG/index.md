@@ -1,7 +1,6 @@
 # Introduction
 
 
-[presentation](./pres.md)
 
 
 I suppose you know how to ask Google to translate this page in french - I have
@@ -16,12 +15,23 @@ There will not be so much reading but there will be a lot of watching.
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
 
+### Friday 8/10
+
+This week we'll do some more graphics and draw some fracctals
+
+- Cantor's staircase
+- Barnsley's Fern
+- Koch snowflake
+
+We'll be using a lot of **recursion** to build tree structures
+
+Here is the [a previsional version of the notebook](./matplotlib_episode_two.ipynb) to study.
 
 ### Friday 1/10
 
 This is the [correction](./corrections.ipynb) for last week.
 
-And this is the [preliminary version of the notebook](./matplotlib.ipynb) to study for Friday 16/10.
+And this is the [notebook](./matplotlib_one.ipynb) to study for Friday 1/10.
 
 Watch this video about [Matplotlib](https://matplotlib.org/)
 first.

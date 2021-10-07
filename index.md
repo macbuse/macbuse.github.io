@@ -9,20 +9,49 @@ I am currently back from  sick leave with a broken shoulder.
 
 ---
 
-[Presentation programmation](./PROG/pres)
 
-I'll be teaching Friday 1/10 at 13:45
-- bring your laptop
-- finish doing the ```numpy``` notebook
-- try and find all the 3x3 invertible matrices  over $F_2$
-- [some corrections](./PROG/corrections.ipynb)
+# Teaching 2020-21
+
+[More details](teaching.md)
+
+### First semester
+
+
+### introduction à la programmation 
+  - Fridays 13:45
+
+- [Presentation programmation](./PROG/pres)
+- [cours](./PROG/index.md)
+
+I'll be teaching Friday 8/10 at 13:45
+- finish doing the ```mathplotlib``` notebook
+- [some corrections](./PROG/matplotlib_one_corr.ipynb)
 
 ---
 
-### Teaching stuff/Enseignement
 
-If you are looking for what I teach it is [here](teaching.md)
+### mat305 
+- [mat305](https://dlst.univ-grenoble-alpes.fr/enseignements/ressources-pedagogiques/l2-chimie-ressources-pedagogiques-255950.kjsp)
+  - Tuesday 8h 
+  - Wednesday 13h30
 
+- [cours](./MAT305/cours.pdf)
+- [F1](./MAT305/TD1.pdf)
+- [F2](./MAT305/TD2.pdf)
+- [correction exo 6](./MAT305/correction_f2exo6.pdf)
+- [correction exos 7 etc](./MAT305/correction_rest.pdf)
+- [corrections F3](./MAT305/f3_corr.pdf)
+
+---
+ 
+### Second semester
+
+-
+-
+-
+
+---
+---
 
 ### Stages/TER
 
@@ -209,15 +238,15 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 
 <h1 id="fablab">FabLab</h1>
 
-<p><a href="https://www-fourier.ujf-grenoble.fr/~methane/stagiaresdetroisime.html">stages</a></p>
+<p><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/stagiaresdetroisime.html">stages</a></p>
 
 <p>From March 2014 I&#8217;ve also been working with the MSTIC <a href="http://fabmstic.liglab.fr/">FabLab</a>
 making mathematical curiosities from wood. I&#8217;m mainly interested in constructing geometric objects in wood using kerf bending patterns. Wood prepared using a laser cutting machine can be bent
 and joined to like a 3 dimensional jigsaw puzzle.</p>
 
 <p><center>
- <img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/tetra.JPG" alt="photo" width="300">
- <img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/dodec.png" alt="photo" width="300">
+ <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/tetra.JPG" alt="photo" width="300">
+ <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/dodec.png" alt="photo" width="300">
 </center></p>
 
 <p>In November 2014 I was invited to take part in
@@ -226,6 +255,6 @@ a workshop for architectural students
 to explain the techniques and possibilities.</p>
 
 <center>
-<img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/woodcuts/swirler.JPG" alt="photo" width="300">
-<img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/woodcuts/lego.png" alt="photo" width="300">
+<img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/woodcuts/swirler.JPG" alt="photo" width="300">
+<img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/woodcuts/lego.png" alt="photo" width="300">
 </center>
