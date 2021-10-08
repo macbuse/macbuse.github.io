@@ -352,22 +352,22 @@ fixes two and exactly two arcs in <span style="font-size: 200%">$X$</span>.
 
 - If <span style="font-size: 200%">$\infty$</span> and <span style="font-size: 200%">$k/p$</span> are exchanged by an inversion swapping Ford circles
 - Then the endpoints of the fixed circle are <span style="font-size: 200%">$(k-1)/p$</span> and <span style="font-size: 200%">$(k+1)/p$</span>  
-- if <span style="font-size: 200%">$1 < k < p-1$</span> the arc joining these points has <span style="font-size: 200%">$\lambda$</span>-length = 4p^2 > <span style="font-size: 4%">$
+- if <span style="font-size: 200%">$1 < k < p-1$</span> the arc joining these points has <span style="font-size: 200%">$\lambda$</span>-length = <span style="font-size: 200%">$4p^2 >4$</span> 
 
 #
 ## Button's Theorem
 
-If 200$</span>z$ is a Markoff number which is prime<br>
+If <span style="font-size: 200%">$z$</span> is a Markoff number which is prime<br>
 then there is a unique triple <span style="font-size: 200%">$z > y > x$</span>
 
 - <span style="font-size: 200%">$x^2 + y^2 + z^2 - 3x y z = 0.$</span>
-- <span style="font-size: 200%">$\bar{x}^2 + \bar{y}^2 = 0.$</span> in <span style="font-size: 200%">$\mathbb{F}_z$</span>
+- <span style="font-size: 200%">$\bar{x}^2 + \bar{y}^2 = 0$</span> in <span style="font-size: 200%">$\mathbb{F}_z$</span>
 - <span style="font-size: 200%">$(\bar{x}/\bar{y})^2 = -1$</span> in <span style="font-size: 200%">$\mathbb{F}_z$</span>
 
 #
 
 - Button's theorem follows from unicity and
 - For every Markoff number <span style="font-size: 200%">$m$</span> there are exactly 3 simple closed geodesics of length  <span style="font-size: 200%">$2\cosh^{-1}(3m/2)$</span> on the modular torus <span style="font-size: 200%">$\mathbb{H}/\Gamma'$</span> 
-- there are exactly 3 simple arcs of <span style="font-size: 200%">$\lambda$</span> length <span style="font-size: 200%">$9m^2$</span> on <span style="font-size: 200%">$\mathbb{H}/\Gamma'$</span> 
+- exactly 3 simple arcs of <span style="font-size: 200%">$\lambda$</span> length <span style="font-size: 200%">$9m^2$</span> on <span style="font-size: 200%">$\mathbb{H}/\Gamma'$</span> 
 
 # That's all folks!!!!!

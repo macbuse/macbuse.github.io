@@ -352,7 +352,7 @@ fixes two and exactly two arcs in 200$X$.
 
 - If 200$\infty$ and 200$k/p$ are exchanged by an inversion swapping Ford circles
 - Then the endpoints of the fixed circle are 200$(k-1)/p$ and 200$(k+1)/p$  
-- if 200$1 < k < p-1$ the arc joining these points has 200$\lambda$-length = 4p^2 > 4$
+- if 200$1 < k < p-1$ the arc joining these points has 200$\lambda$-length = 200$4p^2 >4$ 
 
 #
 ## Button's Theorem
@@ -361,13 +361,13 @@ If 200$z$ is a Markoff number which is prime<br>
 then there is a unique triple 200$z > y > x$
 
 - 200$x^2 + y^2 + z^2 - 3x y z = 0.$
-- 200$\bar{x}^2 + \bar{y}^2 = 0.$ in 200$\mathbb{F}_z$
+- 200$\bar{x}^2 + \bar{y}^2 = 0$ in 200$\mathbb{F}_z$
 - 200$(\bar{x}/\bar{y})^2 = -1$ in 200$\mathbb{F}_z$
 
 #
 
 - Button's theorem follows from unicity and
 - For every Markoff number 200$m$ there are exactly 3 simple closed geodesics of length  200$2\cosh^{-1}(3m/2)$ on the modular torus 200$\mathbb{H}/\Gamma'$ 
-- there are exactly 3 simple arcs of 200$\lambda$ length 200$9m^2$ on 200$\mathbb{H}/\Gamma'$ 
+- exactly 3 simple arcs of 200$\lambda$ length 200$9m^2$ on 200$\mathbb{H}/\Gamma'$ 
 
 # That's all folks!!!!!
