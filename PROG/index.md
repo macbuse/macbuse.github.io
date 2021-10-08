@@ -17,13 +17,13 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 ### Friday 8/10
 
-This week we'll do some more graphics and draw some fracctals
+This week we'll do some more graphics and draw some fractals.
 
 - Cantor's staircase
 - Barnsley's Fern
 - Koch snowflake
 
-We'll be using a lot of **recursion** to build tree structures
+We'll be using a lot of **recursion** to build tree structures.
 
 Here is the [a previsional version of the notebook](./matplotlib_episode_two.ipynb) to study.
 
