@@ -105,6 +105,7 @@ Natural  = 200$PSL(2,\mathbb{Z})$-equivariant map
 - actions = projective on left and by autos on right
 
 
+#
 ## Topological representation
 
 200$\mathbb{Q}\cup \infty \subset$ circle/projective line
