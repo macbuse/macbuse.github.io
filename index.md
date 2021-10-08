@@ -9,6 +9,10 @@ I am currently back from  sick leave with a broken shoulder.
 
 ---
 
+# Today 8/10 
+
+I'm giving a talk with [slides](./GRENOBLE/new.html)
+
 
 # Teaching 2020-21
 
