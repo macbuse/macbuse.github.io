@@ -16,6 +16,63 @@
 
 
 #
+
+Markov numbers are integers that appear in triples which are solutions of
+a Diophantine equation the so-called Markov cubic
+
+<span style="font-size: 200%">$x^2 + y^2 + z^2 - 3x y z = 0.$</span>
+
+$(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
+
+#
+### Odd index Fibonacci numbers are Markoff numbers
+
+$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$
+
+<span style="font-size: 200%">$(1,1,1),(1,1,2),(1,2,5),(1,5,13)$</span>
+
+# 
+### Markoff numbers
+
+
+<img src="./Markoff_tree_full.svg" width="500">
+
+#
+### Frobenius uniqueness conjecture
+
+- The largest integer in a triple determines the two other numbers.
+- For every Markoff number <span style="font-size: 200%">$m$</span> there are exactly 3 simple closed geodesics of length  <span style="font-size: 200%">$2\cosh^{-1}(3m/2)$</span> on the modular torus <span style="font-size: 200%">$\mathbb{H}/\Gamma'$</span> 
+
+
+#
+### Partial results
+
+m = Markoff number
+
+- Jack Button for [m prime](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292){target="_blank"}
+- Zhang [An elementary proof...](https://arxiv.org/abs/math/0606283){target="_blank}
+- Baragar [m, 3m - 2, 3m + 2 prime](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88B0E426FFCBEA8B3A345C1074B8CC59/S0008439500018828a.pdf/on-the-unicity-conjecture-for-markoff-numbers.pdf){target="_blank}
+- [ Bugeaud, Reutenauer, Siksek](https://core.ac.uk/download/pdf/82088222.pdf){target="_blank}
+- Conclusion too hard!!!
+
+#
+## Button's Theorem
+
+If <span style="font-size: 200%">$z$</span> is a Markoff number which is prime<br>
+then there is a unique triple <span style="font-size: 200%">$z > y > x$</span>
+
+- <span style="font-size: 200%">$x^2 + y^2 + z^2 - 3x y z = 0.$</span>
+- <span style="font-size: 200%">$\bar{x}^2 + \bar{y}^2 = 0.$</span> in <span style="font-size: 200%">$\mathbb{F}_z$</span>
+- <span style="font-size: 200%">$(\bar{x}/\bar{y})^2 = -1$</span> in <span style="font-size: 200%">$\mathbb{F}_z$</span>
+
+#
+
+<img src="./theoremsab.png" width="600">
+
+- Button's theorem follows from unicity here
+
+
+#
 ## two groups of order 4
 
 Acting on <span style="font-size: 150%">$\mathbb{F}_p^*$</span>
@@ -43,7 +100,27 @@ z &\mapsto& 1/\bar{z}
 <img src="./ford_circles.gif" width="400">
 
 #
-### Burnside Lemma says
+
+<iframe width="560" height="615" src="https://www.youtube.com/embed/0hlvhQZIOQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#
+## References etc
+
+
+- Heath-Brown, Fermat’s two squares theorem. Invariant (1984) 
+- Zagier, A one-sentence proof that every prime p = 1 (mod 4) is a sum of two squares, 1990
+- Elsholtz, Combinatorial Approach to Sums of Two Squares and Related Problems.  (2010) 
+- Penner, The decorated Teichmueller space of punctured surfaces, Comm  Math Phys  (1987)
+- [Zagier text](https://people.mpim-bonn.mpg.de/zagier/files/doi/10.2307/2323918/fulltext.pdf){target="_blank"}
+
+#
+## Zagier
+
+
+<img src="./zagier.png" width="800">
+
+
+#
+### Burnside Lemma 
 
 - <span style="font-size: 200%">$G$</span> acting on <span style="font-size: 200%">$X$</span> then 
 
@@ -168,7 +245,8 @@ z &\mapsto& 1/\bar{z}
 - <span style="font-size: 200%">$\mathrm{SL}(2,\mathbb{Z})$</span>  transitive, 
 - can suppose <span style="font-size: 200%">$a/b = \infty$</span> and <span style="font-size: 200%">$c/d = k/(ad - bc)$</span>
 - Ford circles  <span style="font-size: 200%">$F$</span>  tangent at <span style="font-size: 200%">$\infty$</span>
-- and another of diameter <span style="font-size: 200%">$(ad - bc)^2$</span>
+- and another of diameter <span style="font-size: 200%">$1/(ad - bc)^2$</span>
+- the **midpoint** of this vertical arc is at height <span style="font-size: 200%">$1/|ad - bc|$</span>
 
 #
 #
@@ -220,17 +298,16 @@ What is the group of automorphisms?
 What is the subgroup of automorphisms <br>
 fixing the cusp labeled <span style="font-size: 200%">$\infty$</span>?
 
-
 #
 
-- fixes the cusp fixes and midpoint <span style="font-size: 200%">$\frac12(1+i)$</span><br>
+- fixes the cusp and midpoint <span style="font-size: 200%">$\frac12(1+i)$</span><br>
 - dashed geodesics are invariant under the group<br>
 <img src="./three_punctured.png" width="400">
 
 #
 ### the set <span style="font-size: 200%">$X$</span>
 
-- arcs joining cusps <span style="font-size: 200%">$\infty, 1$</span> with <span style="font-size: 200%">$\lambda$</span>-length <span style="font-size: 200%">$p$</span>
+- arcs joining cusps <span style="font-size: 200%">$\infty, 1$</span> with <span style="font-size: 200%">$\lambda$</span>-length <span style="font-size: 200%">$p^2$</span>
 - lift to vertical lines with endpoints <span style="font-size: 200%">$k/p$</span> with <span style="font-size: 200%">$k$</span> odd
 - <span style="font-size: 200%">$|X| = p - 1$</span> as before
 
@@ -239,8 +316,8 @@ fixing the cusp labeled <span style="font-size: 200%">$\infty$</span>?
 Let <span style="font-size: 200%">$n$</span> be a positive integer.
 The number of  ways of writing <span style="font-size: 200%">$n$</span>  as a  sum of squares
 <span style="font-size: 200%">$n = c^2 + d^2$</span>
-with <span style="font-size: 200%">$c,d$</span> coprime integers
-is equal to the number the  integers <span style="font-size: 200%">$0 \leq k < n-1$</span> coprime to <span style="font-size: 200%">$n$</span>
+with <span style="font-size: 200%">$c,d$</span> coprime integers is equal to the number of  integers 
+<span style="font-size: 200%">$0 \leq k < n-1$</span> coprime to <span style="font-size: 200%">$n$</span>
 such that the line
 <span style="font-size: 200%">$\{  k/n + i t,\, t>0  \}$</span>
 contains  a point in the <span style="font-size: 200%">$\Gamma$</span>  orbit of <span style="font-size: 200%">$i$</span>.
@@ -251,8 +328,43 @@ contains  a point in the <span style="font-size: 200%">$\Gamma$</span>  orbit of
 - <span style="font-size: 200%">$U': z \mapsto 2-\bar{z},\, V' : z \mapsto \bar{z}/(\bar{z} - 1)$</span>
 - composition is <span style="font-size: 200%">$U'\circ V' : z \mapsto z \mapsto (-z + 2) /( z + 1)$</span>
 - whose fixed point is <span style="font-size: 200%">$i+1$</span>.
+
 #
 
 - <span style="font-size: 200%">$U': z \mapsto 2-\bar{z}$</span> induces an automorphism no fixed points in
     <span style="font-size: 200%">$X,\, p \geq 3$</span>
-- <span style="font-size: 200%">$V' : z \mapsto \bar{z}/(\bar{z} - 1)$</span> is an inversion in a circle center <span style="font-size: 200%">$1$</span>
+- <span style="font-size: 200%">$V' : z \mapsto \bar{z}/(\bar{z} - 1)$</span> is an inversion in a circle center
+    with endpoints -1 and 1
+- projection to surface is simple arc of <span style="font-size: 200%">$\lambda$</span> length <span style="font-size: 200%">$=4$</span>
+
+#
+## Lemma
+
+The automorphism <span style="font-size: 200%">$V$</span> induced by <span style="font-size: 200%">$V'$</span> <br>
+fixes two and exactly two arcs in <span style="font-size: 200%">$X$</span>.
+
+- apply Burnside Lemma to prove Theorem 1.2
+- <span style="font-size: 200%">$4 |X/G| = (p-1) + 2 + |X^{U\circ V}|$</span>
+
+#
+## Proof
+
+- If <span style="font-size: 200%">$\infty$</span> and <span style="font-size: 200%">$k/p$</span> are exchanged by an inversion swapping Ford circles
+- Then the endpoints of the fixed circle are <span style="font-size: 200%">$(k-1)/p$</span> and <span style="font-size: 200%">$(k+1)/p$</span>  
+- if <span style="font-size: 200%">$1 < k < p-1$</span> the arc joining these points has <span style="font-size: 200%">$\lambda$</span>-length = 4p^2 > <span style="font-size: 4%">$
+
+#
+## Button's Theorem
+
+If 200$</span>z$ is a Markoff number which is prime<br>
+then there is a unique triple <span style="font-size: 200%">$z > y > x$</span>
+
+- <span style="font-size: 200%">$x^2 + y^2 + z^2 - 3x y z = 0.$</span>
+- <span style="font-size: 200%">$\bar{x}^2 + \bar{y}^2 = 0.$</span> in <span style="font-size: 200%">$\mathbb{F}_z$</span>
+- <span style="font-size: 200%">$(\bar{x}/\bar{y})^2 = -1$</span> in <span style="font-size: 200%">$\mathbb{F}_z$</span>
+
+#
+
+- Button's theorem follows from unicity and
+- For every Markoff number <span style="font-size: 200%">$m$</span> there are exactly 3 simple closed geodesics of length  <span style="font-size: 200%">$2\cosh^{-1}(3m/2)$</span> on the modular torus <span style="font-size: 200%">$\mathbb{H}/\Gamma'$</span> 
+- there are exactly 3 simple arcs of <span style="font-size: 200%">$\lambda$</span> length <span style="font-size: 200%">$9m^2$</span> on <span style="font-size: 200%">$\mathbb{H}/\Gamma'$</span> 
