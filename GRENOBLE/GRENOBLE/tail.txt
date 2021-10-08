@@ -1,0 +1,20 @@
+
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/head.min.js"></script>
+  <script src="https://unpkg.com/reveal.js@3.9.2//js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://unpkg.com/reveal.js@3.9.2//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/zoom-js/zoom.js', async: true },
+              { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
