@@ -47,7 +47,9 @@ I'll be teaching Friday 8/10 at 13:45
 - [correction exo 6](./MAT305/correction_f2exo6.pdf)
 - [correction exos 7 etc](./MAT305/correction_rest.pdf)
 - [corrections F3]( ./MAT305/f3_corr.pdf)
-- [corrections F3bis ]( ./MAT305/f3_corr_2.pdf)
+- [corrections F3 bis ]( ./MAT305/f3_corr_2.pdf)
+
+ 
 
 ---
  
