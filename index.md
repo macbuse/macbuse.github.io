@@ -2,18 +2,12 @@
 # Greg McShane
 
 ### Bureau 328, Institut Fourier.
-### methane@univ-grenoble-alpes.fr
+### mcshane@univ-grenoble-alpes.fr
 
 I am currently back from  sick leave with a broken shoulder.
 
 
----
 
-# Today 8/10 
-
-I'm giving a talk with [slides](./GRENOBLE/new.html)
-
----
 
 
 # Teaching 2020-21
@@ -215,8 +209,7 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 - esc-key for overview
 - blue text is a link to a resource on the web
 
-
-- [Grenoble 8/10](./GRENOBLE)
+- [Grenoble 8/10](./GRENOBLE/new.html)
 
 
 - **Glasgow 7/6**
