@@ -7,9 +7,6 @@
 I am currently back from  sick leave with a broken shoulder.
 
 
-
-
-
 # Teaching 2020-21
 
 [More details](teaching.md)
@@ -23,9 +20,8 @@ I am currently back from  sick leave with a broken shoulder.
 - [Presentation programmation](./PROG/pres)
 - [cours](./PROG/index.md)
 
-I'll be teaching Friday 8/10 at 13:45
-- finish doing the ```mathplotlib``` notebook
-- [some corrections](./PROG/matplotlib_one_corr.ipynb)
+I'll be teaching Friday 15/10 at 13:45
+- finish doing the second ```mathplotlib``` notebook
 
 ---
 
