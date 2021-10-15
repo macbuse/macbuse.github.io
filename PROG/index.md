@@ -1,8 +1,6 @@
 # Introduction
 
 
-
-
 I suppose you know how to ask Google to translate this page in french - I have
 an qwerty keyboard and accents are impossible.
 
@@ -22,8 +20,10 @@ with solutions to last week's exercises
 
 And this is the [notebook](./affine_maps.ipynb) to study for this week.
 
-If you are having problems with the basics then try [this
-notebook](./basic_python.ipynb).
+If you really want to do a project on games then look at this 
+- [Nash](https://www.theoj.org/joss-papers/joss.00904/10.21105.joss.00904.pdf).
+- [documentation](https://nashpy.readthedocs.io/en/stable/tutorial/index.html)
+
 
 ### Friday 8/10
 
