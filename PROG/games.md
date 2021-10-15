@@ -8,7 +8,7 @@ La théorie des jeux est un domaine des mathématiques qui s'intéresse aux inte
 Dans sa thèse, Nash présente une situation d’équilibre qui deviendra bientôt l’« équilibre de Nash ». Par équilibre, il entend une situation dans laquelle aucun des joueurs ne peut trouver de meilleure stratégie de jeu, compte tenu des stratégies choisies par les autres joueurs.
 
 
-# dilemme du prisonnier
+## dilemme du prisonnier
 
 - [dilemme du prisonnier](https://fr.wikipedia.org/wiki/Dilemme_du_prisonnier)
 
@@ -26,13 +26,13 @@ Ce jeu ne conduit pas spontanément à un état où on ne pourrait améliorer le
 Si le jeu était répété, chaque joueur pourrait user de représailles envers l'autre joueur pour son absence de coopération, ou même simplement minimiser sa perte maximale en trahissant les fois suivantes. L'incitation à tricher devient alors inférieure à la menace de punition, ce qui introduit la possibilité de coopérer : la fin ne justifie plus les moyens.
 
 
-# Paradoxe de Braess
+## Paradoxe de Braess
 
 En mathématiques, et plus précisément en théorie des jeux, le paradoxe de Braess énonce que l'ajout d'une nouvelle route dans un réseau routier peut réduire la performance globale, lorsque les entités se déplaçant choisissent leur route individuellement. Cela provient du fait que l'équilibre de Nash d'un tel système n'est pas nécessairement optimal. Ce paradoxe a été mis en évidence en 1968 par le mathématicien Dietrich Braess1.
 
 [math en jean](http://www.mathenjeans.fr/sites/default/files/comptes-rendus/2015-braess-cluj_briancon.pdf)
 
-# GANs
+## GANs
 
 GANs are a competing game between two neural networks trained in an adversarial manner to reach a Nash equilibrium. ... This paper reviews literature that leverages the game theory in GANs and addresses how game models can relieve specific generative models' challenges and improve the GAN's performance.
 
@@ -40,7 +40,7 @@ GANs are a competing game between two neural networks trained in an adversarial 
 [Style Transfer](https://towardsdatascience.com/style-transfer-with-gans-on-hd-images-88e8efcf3716)
 
 
-# Price of anarchy
+## Price of anarchy
 
 The Price of Anarchy (PoA) [1] is a concept in economics and game theory that measures how the efficiency of a system degrades due to selfish behavior of its agents in the worst case. It is a general notion that can be extended to diverse systems and notions of efficiency. For example, consider the system of transportation of a city and many agents trying to go from some initial location to a destination. Let efficiency in this case mean the average time for an agent to reach the destination. In the 'centralized' solution, a central authority can tell each agent which path to take in order to minimize the average travel time. In the 'decentralized' version, each agent chooses its own path. The Price of Anarchy measures the ratio between average travel time in the two cases.
 
@@ -50,6 +50,12 @@ The term Price of Anarchy was first used by Elias Koutsoupias and Christos Papad
 
 
 ## Deepmind
+
+[wiki](https://en.wikipedia.org/wiki/DeepMind)
+
+- [alphago](https://en.wikipedia.org/wiki/AlphaGo)
+- [alphazero](https://en.wikipedia.org/wiki/AlphaZero]
+- [vs stockfish](https://www.chess.com/news/view/updated-alphazero-crushes-stockfish-in-new-1-000-game-match)
 
 Even in simple multi-agent systems, fixed incentives can lead to outcomes that are poor for the group and each individual agent. We propose a method, D3C, for online adjustment of agent incentives that reduces the loss incurred at a Nash equilibrium. Agents adjust their incentives by learning to mix their incentive with that of other agents, until a compromise is reached in a distributed fashion. We show that D3C improves outcomes for each agent and the group as a whole on several social dilemmas including a traffic network with Braess's paradox, a prisoner's dilemma, and several reinforcement learning domains.
 
