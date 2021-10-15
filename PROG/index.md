@@ -15,6 +15,16 @@ There will not be so much reading but there will be a lot of watching.
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
 
+### Friday 15/11
+
+Here is a [notebook](./matplotlib_episode_two_corr.ipynb) 
+with solutions to last week's exercises
+
+And this is the [notebook](./affine_maps.ipynb) to study for this week.
+
+If you are having problems with the basics then try [this
+notebook](./basic_python.ipynb).
+
 ### Friday 8/10
 
 This week we'll do some more graphics and draw some fractals.
