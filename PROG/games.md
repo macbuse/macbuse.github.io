@@ -8,14 +8,17 @@ La théorie des jeux est un domaine des mathématiques qui s'intéresse aux inte
 Dans sa thèse, Nash présente une situation d’équilibre qui deviendra bientôt l’« équilibre de Nash ». Par équilibre, il entend une situation dans laquelle aucun des joueurs ne peut trouver de meilleure stratégie de jeu, compte tenu des stratégies choisies par les autres joueurs.
 
 
+# dilemme du prisonnier
+
 - [dilemme du prisonnier](https://fr.wikipedia.org/wiki/Dilemme_du_prisonnier)
 
 
 Tucker suppose deux prisonniers (complices d'un crime) retenus dans des cellules séparées et qui ne peuvent pas communiquer ; l'autorité pénitentiaire offre à chacun des prisonniers les choix suivants :
 
-si un seul des deux prisonniers dénonce l'autre, il est remis en liberté alors que le second obtient la peine maximale (10 ans) ;
-si les deux se dénoncent entre eux, ils seront condamnés à une peine plus légère (5 ans) ;
-si les deux refusent de dénoncer, la peine sera minimale (6 mois), faute d'éléments au dossier.
+- si un seul des deux prisonniers dénonce l'autre, il est remis en liberté alors que le second obtient la peine maximale (10 ans) ;
+- si les deux se dénoncent entre eux, ils seront condamnés à une peine plus légère (5 ans) ;
+- si les deux refusent de dénoncer, la peine sera minimale (6 mois), faute d'éléments au dossier.
+
 Ce problème modélise bien les questions de politique tarifaire : le concurrent qui baisse ses prix gagne des parts de marché et peut ainsi augmenter ses ventes et accroître éventuellement son bénéfice, mais si son concurrent principal en fait autant, les deux peuvent y perdre.
 
 Ce jeu ne conduit pas spontanément à un état où on ne pourrait améliorer le bien-être d'un joueur sans détériorer celui d'un autre (c'est-à-dire un optimum de Pareto ; voir aussi équilibre de Nash). À l'équilibre, chacun des prisonniers choisira probablement de faire défaut alors qu'ils gagneraient à coopérer : chacun est fortement incité à tricher, ce qui constitue le cœur du dilemme.
@@ -26,6 +29,8 @@ Si le jeu était répété, chaque joueur pourrait user de représailles envers 
 # Paradoxe de Braess
 
 En mathématiques, et plus précisément en théorie des jeux, le paradoxe de Braess énonce que l'ajout d'une nouvelle route dans un réseau routier peut réduire la performance globale, lorsque les entités se déplaçant choisissent leur route individuellement. Cela provient du fait que l'équilibre de Nash d'un tel système n'est pas nécessairement optimal. Ce paradoxe a été mis en évidence en 1968 par le mathématicien Dietrich Braess1.
+
+[math en jean](http://www.mathenjeans.fr/sites/default/files/comptes-rendus/2015-braess-cluj_briancon.pdf)
 
 # GANs
 
@@ -41,7 +46,7 @@ The Price of Anarchy (PoA) [1] is a concept in economics and game theory that me
 
 Usually the system is modeled as a game and the efficiency is some function of the outcomes (e.g. maximum delay in a network, congestion in a transportation system, social welfare in an auction, ...). Different concepts of equilibrium can be used to model the selfish behavior of the agents, among which the most common is the Nash equilibrium. Different flavors of Nash equilibrium lead to variations of the notion of Price of Anarchy as Pure Price of Anarchy (for deterministic equilibria), Mixed Price of Anarchy (for randomized equilibria), and Bayes–Nash Price of Anarchy (for games with incomplete information). Solution concepts other than Nash equilibrium lead to variations such as the Price of Sinking.[2]
 
-The term Price of Anarchy was first used by Elias Koutsoupias and Christos Papadimitriou,[1][failed verification] but the idea of measuring inefficiency of equilibrium is older.[3] The concept in its current form was designed to be the analogue of the 'approximation ratio' in an approximation algorithm or the 'competitive ratio' in an online algorithm. This is in the context of the current trend of analyzing games using algorithmic lenses (algorithmic game theory).
+The term Price of Anarchy was first used by Elias Koutsoupias and Christos Papadimitriou, but the idea of measuring inefficiency of equilibrium is older.[3] The concept in its current form was designed to be the analogue of the 'approximation ratio' in an approximation algorithm or the 'competitive ratio' in an online algorithm. This is in the context of the current trend of analyzing games using algorithmic lenses (algorithmic game theory).
 
 
 ## Deepmind
