@@ -50,3 +50,5 @@ Even in simple multi-agent systems, fixed incentives can lead to outcomes that a
 
 
 [Source](https://deepmind.com/research/publications/2020/D3C-Reducing-the-Price-of-Anarchy-in-Multi-Agent-Learning)
+
+<script src="https://gist.github.com/bucketh3ad/11362275.js"></script>`
