@@ -54,8 +54,10 @@ The term Price of Anarchy was first used by Elias Koutsoupias and Christos Papad
 [wiki](https://en.wikipedia.org/wiki/DeepMind)
 
 - [alphago](https://en.wikipedia.org/wiki/AlphaGo)
-- [alphazero](https://en.wikipedia.org/wiki/AlphaZero]
+- [alphazero](https://en.wikipedia.org/wiki/AlphaZero)
 - [vs stockfish](https://www.chess.com/news/view/updated-alphazero-crushes-stockfish-in-new-1-000-game-match)
+
+### D3C
 
 Even in simple multi-agent systems, fixed incentives can lead to outcomes that are poor for the group and each individual agent. We propose a method, D3C, for online adjustment of agent incentives that reduces the loss incurred at a Nash equilibrium. Agents adjust their incentives by learning to mix their incentive with that of other agents, until a compromise is reached in a distributed fashion. We show that D3C improves outcomes for each agent and the group as a whole on several social dilemmas including a traffic network with Braess's paradox, a prisoner's dilemma, and several reinforcement learning domains.
 
