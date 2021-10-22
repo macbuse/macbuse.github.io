@@ -20,8 +20,8 @@ I am currently back from  sick leave with a broken shoulder.
 - [Presentation programmation](./PROG/pres)
 - [cours](./PROG/index.md)
 
-I'll be teaching Friday 15/10 at 13:45
-- finish doing the second ```mathplotlib``` notebook
+I'll be teaching Friday 22/10 at 13:45
+- finish doing the ```affine maps``` notebook
 
 ---
 

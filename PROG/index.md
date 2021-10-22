@@ -13,6 +13,12 @@ There will not be so much reading but there will be a lot of watching.
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
 
+
+### Friday 22/11
+
+- Finish the notebook on affine maps
+- Draw the Barnsley fern
+
 ### Friday 15/11
 
 Here is a [notebook](./matplotlib_episode_two_corr.ipynb) 
