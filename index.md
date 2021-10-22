@@ -21,6 +21,7 @@ I am currently back from  sick leave with a broken shoulder.
 - [cours](./PROG/index.md)
 
 I'll be teaching Friday 22/10 at 13:45
+- I'll talk a bit about [mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)
 - finish doing the ```affine maps``` notebook
 
 ---
