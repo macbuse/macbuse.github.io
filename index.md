@@ -207,7 +207,7 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 - esc-key for overview
 - blue text is a link to a resource on the web
 
-- [Grenoble 9/11](./GRENOBLE/new.html)
+- [Toulouse 9/11](./GRENOBLE/new.html)
 - [Grenoble 8/10](./GRENOBLE/new.html)
 
 
