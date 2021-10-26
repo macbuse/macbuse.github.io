@@ -39,6 +39,7 @@ I'll be teaching Friday 22/10 at 13:45
 - [correction exos 7 etc](./MAT305/correction_rest.pdf)
 - [corrections F3]( ./MAT305/f3_corr.pdf)
 - [corrections F3 bis ]( ./MAT305/f3_corr_2.pdf)
+- [corrections F3 ter ]( ./MAT305/f3_corr_3.pdf)
 
  
 
@@ -206,6 +207,7 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 - esc-key for overview
 - blue text is a link to a resource on the web
 
+- [Grenoble 9/11](./GRENOBLE/new.html)
 - [Grenoble 8/10](./GRENOBLE/new.html)
 
 
