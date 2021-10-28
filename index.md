@@ -231,19 +231,17 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 
 <p><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/stagiaresdetroisime.html">stages</a></p>
 
-<p>From March 2014 I&#8217;ve also been working with the MSTIC <a href="http://fabmstic.liglab.fr/">FabLab</a>
+From March 2014 I&#8217;ve also been working with the MSTIC <a href="http://fabmstic.liglab.fr/">FabLab</a>
 making mathematical curiosities from wood. I&#8217;m mainly interested in constructing geometric objects in wood using kerf bending patterns. Wood prepared using a laser cutting machine can be bent
-and joined to like a 3 dimensional jigsaw puzzle.</p>
+and joined to like a 3 dimensional jigsaw puzzle.
 
-<p><center>
  <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/tetra.JPG" alt="photo" width="300">
  <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/dodec.png" alt="photo" width="300">
-</center></p>
 
-<p>In November 2014 I was invited to take part in
+In November 2014 I was invited to take part in
 a workshop for architectural students
- <a href="http://lcv.hypotheses.org/9187">Architect 2.0 Grenoble</a>
-to explain the techniques and possibilities.</p>
+ [ Architect 2.0 Grenoble](http://lcv.hypotheses.org/9187)
+to explain the techniques and possibilities.
 
 <center>
 <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/woodcuts/swirler.JPG" alt="photo" width="300">
