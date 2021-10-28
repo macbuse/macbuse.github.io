@@ -20,9 +20,9 @@ I am currently back from  sick leave with a broken shoulder.
 - [Presentation programmation](./PROG/pres)
 - [cours](./PROG/index.md)
 
-I'll be teaching Friday 22/10 at 13:45
-- I'll talk a bit about [mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)
-- finish doing the ```affine maps``` notebook
+I'll be teaching Friday 29/10 at 13:45
+- I'll talk about my version of [game of life](./PROG/conway_life.ipynb)
+- here is a [notebook](./PROG/conv_kernels.ipynb] to look at
 
 ---
 
@@ -30,7 +30,7 @@ I'll be teaching Friday 22/10 at 13:45
 ### mat305 
 - [mat305](https://dlst.univ-grenoble-alpes.fr/enseignements/ressources-pedagogiques/l2-chimie-ressources-pedagogiques-255950.kjsp)
   - Tuesday 8h 
-  - Wednesday 13h30
+  - Wednesday 9h45
 
 - [cours](./MAT305/cours.pdf)
 - [F1](./MAT305/TD1.pdf)

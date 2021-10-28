@@ -59,7 +59,6 @@ class Voices():
 
     def add(self, txts):
 
-
         for tt in txts:
             actor, lines = tt
             FN = self.string2fn(lines)
