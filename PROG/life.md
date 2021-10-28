@@ -59,7 +59,8 @@ He wants to avoid
 - loops
 - checking cases
 
-``` As I expected, the lines that checked whether a player had achieved a
+``` 
+As I expected, the lines that checked whether a player had achieved a
 five-in-a-row was a verbose series of nested for-loops checking a plethora of
 cases. While they often seem like a natural course of action, in many settings
 they are often unwieldy and slower than desirable. Luckily for my friend, the
@@ -67,9 +68,9 @@ code ran quite quickly, but I thought about whether there was a faster way.
 ```
 
 
-My code from last year
+My code from last year:
 
-```
+``` 
     H = signal.convolve2d( G, K, boundary='wrap')[1:-1,1:-1]
 
     H[H<=2] = 0 #dies
