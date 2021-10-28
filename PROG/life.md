@@ -113,6 +113,8 @@ Avec :
     E = T
 ````
 
+I had to change the kernel too but you will see that in the notebook.
+
 ## conclusion
 
 I can code the game of life in 4 LOC because
