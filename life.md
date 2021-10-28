@@ -4,8 +4,9 @@ The Game of Life, also known simply as Life, is a cellular automaton devised by 
 
 - It is Turing complete and can simulate a universal constructor or any other Turing machine.
 
+---
 
-# Rules
+## Rules
 
 The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, live or dead, (or populated and unpopulated, respectively). Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
 
@@ -14,15 +15,23 @@ The universe of the Game of Life is an infinite, two-dimensional orthogonal grid
 - Any live cell with more than three live neighbours dies, as if by overpopulation.
 - Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
-## These rules, which compare the behavior of the automaton to real life, can be condensed into the following:
+ These rules can be condensed into the following:
 
 - Any live cell with two or three live neighbours survives.
 - Any dead cell with three live neighbours becomes a live cell.
 - All other live cells die in the next generation. 
 - Similarly, all other dead cells stay dead.
 
-The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed, live or dead; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations.
+---
 
+## Summary of principles
+
+- The initial pattern constitutes the seed of the system. 
+- The first generation is created by applying the above rules simultaneously to every cell in the seed, live or dead; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. 
+- Each generation is a pure function of the preceding one. 
+- The rules continue to be applied repeatedly to create further generations.
+
+---
 
 ## Origins of life LOL
 
@@ -58,7 +67,7 @@ code ran quite quickly, but I thought about whether there was a faster way.
 ```
 
 
-my code
+My code from last year
 
 ```
     H = signal.convolve2d( G, K, boundary='wrap')[1:-1,1:-1]
@@ -73,6 +82,17 @@ my code
 
 ## Why these rules ?
 
+Because I was thinking about death:
+
+- All other live cells die in the next generation. 
+    ```
+    H[H<=2] = 0 #dies
+    H[(H==4)&(G==0)] = 0 # dies
+    H[H>4] = 0 #dies 
+    ```
+
+
+## Better to copy
 
 [from here](https://fr.wikipedia.org/wiki/Jeu_de_la_vie#Questions_math%C3%A9matiques)
 
@@ -85,4 +105,20 @@ Avec :
 - S : nombre actuel de cellules vivantes dans son voisinage (entier naturel compris entre 0 et 8 inclus) ;
 - E : état actuel de la cellule (entier naturel égal à 0 pour une cellule morte et égal à 1 pour une cellule vivante).
 
+```
+    S = signal.convolve2d( E, K, boundary='wrap')[1:-1,1:-1]
+    T = np.zeros_like(E)
+    T[ (S==3) | ( ( S == 2) & (E == 1) )] = 1
+    E = T
+````
 
+## conclusion
+
+I can code the game of life in 4 LOC because
+- I know about **convolutions** and **kernels^^
+
+## can u do  better
+
+He suggests changing the kernel
+
+[this guy](https://nicholasrui.com/2017/12/18/convolutions-and-the-game-of-life/#:~:text=The%20Game%20of%20Life%20is,its%20neighbors%20must%20be%20alive) had the same idea.
