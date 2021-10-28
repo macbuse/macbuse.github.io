@@ -24,7 +24,7 @@ The universe of the Game of Life is an infinite, two-dimensional orthogonal grid
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed, live or dead; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations.
 
 
-## Origin
+## Origins of life LOL
 
 In late 1940, John von Neumann defined life as a creation (as a being or organism) 
 - which can reproduce itself 
@@ -46,9 +46,15 @@ Conway chose his rules carefully, after considerable experimentation, to meet th
 ## Using convolutions
 
 I did this by myself but [this guy](https://nicholasrui.com/2017/12/18/convolutions-and-the-game-of-life/#:~:text=The%20Game%20of%20Life%20is,its%20neighbors%20must%20be%20alive) had the same idea.
+He wants to avoid 
+- loops
+- checking cases
 
-```
-As I expected, the lines that checked whether a player had achieved a five-in-a-row was a verbose series of nested for-loops checking a plethora of cases. While they often seem like a natural course of action, in many settings they are often unwieldy and slower than desirable. Luckily for my friend, the code ran quite quickly, but I thought about whether there was a faster way.
+``` As I expected, the lines that checked whether a player had achieved a
+five-in-a-row was a verbose series of nested for-loops checking a plethora of
+cases. While they often seem like a natural course of action, in many settings
+they are often unwieldy and slower than desirable. Luckily for my friend, the
+code ran quite quickly, but I thought about whether there was a faster way.
 ```
 
 
@@ -63,6 +69,12 @@ my code
     H[H>0] = 1 #lives
     G = H
 ```
+
+
+## Why these rules ?
+
+
+[from here](https://fr.wikipedia.org/wiki/Jeu_de_la_vie#Questions_math%C3%A9matiques)
 
 L'état suivant d'une cellule :est : 
 
