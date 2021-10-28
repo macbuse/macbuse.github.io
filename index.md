@@ -21,8 +21,8 @@ I am currently back from  sick leave with a broken shoulder.
 - [cours](./PROG/index.md)
 
 I'll be teaching Friday 29/10 at 13:45
-- I'll talk about my version of [game of life](./PROG/conway_life.ipynb)
-- here is a [notebook](./PROG/conv_kernels.ipynb] to look at
+- I'll talk about my version of [game of life](./PROG/life.md)
+- here is a [notebook](./PROG/conv_kernels.ipynb) to look at
 
 ---
 
