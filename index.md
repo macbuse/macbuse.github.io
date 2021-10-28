@@ -72,13 +72,12 @@ or a TER
 
 #### and a little more...
 
-<p>I am a (low dimensional) topologist a subject which has it's origins in the
+I am a (low dimensional) topologist a subject which has it's origins in the
 <a href="http://analysis-situs.math.cnrs.fr/"> work of the French mathematician Henri Poincaré</a>.
 Recently I have been doing a lot of
-<a href="https://www-fourier.ujf-grenoble.fr/~methane/3D/alexanderSphere.html">topology and WebGL</a>
-and
-<a href="https://github.com/macbuse/Mandelbrottle"> 3D printing of fractals</a>.
-</p>
+
+- [topology and WebGL](https://www-fourier.ujf-grenoble.fr/~mcshane/3D/alexanderSphere.html)
+- [3D printing of fractals](https://github.com/macbuse/Mandelbrottle)
 
 I was a member of ICERM at Brown University in 2018 participating in
 <a href="https://icerm.brown.edu/programs/sp-f19/">Illustrating Math</a>
@@ -162,25 +161,23 @@ IHP 2012 : La Maison des Maths
  <li><a href="https://old.i2m.univ-amu.fr/~audoux/ToCQ.htm">Interactions Topologie/Codes quantiques, Marseille</a></li>
 </ul>
 ---
- 
-<h2 id="themes">Themes</h2>
 
-<ol>
-<li>Teichmueller space</li>
-<li>Modular group actions</li>
-<li>Applications to low dimensional topology</li>
-</ol>
+## Themes
 
-<p>This is a quasi-Fuchsian manifold - it&#8217;s a basic kind of 3 manifold
+- Teichmueller space
+- Modular group actions
+- Applications to low dimensional topology
+
+This is a quasi-Fuchsian manifold - its a basic kind of 3 manifold
 homeomorphic to the product of a surface and an interval together with a
 (non unique) choice of hyperbolic metric.
 Togther with Prof. S. Kojima of TITEC we are working on applying
 converegence results for quasi-Fuchsian manifolds and Teichmueller theory
-to get information about closed hyperbolic manifolds.</p>
+to get information about closed hyperbolic manifolds.
 
 <p><img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/qf_manifold.svg" width="600"></p>
 
-<p>With Bill Goldman and a couple of  his ex students we have been working on a book that just got published <a href="https://www.amazon.com/Automorphisms-Two-generator-Isometric-Hyperbolic-Mathematical/dp/1470436140">by the AMS</a>. Much of it is dedicated to explaining this picture of an invariant fractal in the character variety.</p>
+With Bill Goldman and a couple of  his ex students we have been working on a book that just got published <a href="https://www.amazon.com/Automorphisms-Two-generator-Isometric-Hyperbolic-Mathematical/dp/1470436140">by the AMS</a>. Much of it is dedicated to explaining this picture of an invariant fractal in the character variety.
 
 
 <p><center>
@@ -229,7 +226,8 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 
 ---
 
-<h1 id="fablab">FabLab</h1>
+
+## FabLab
 
 <p><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/stagiaresdetroisime.html">stages</a></p>
 
