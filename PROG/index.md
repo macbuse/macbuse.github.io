@@ -21,8 +21,9 @@ This class is online as it is **le pont**
 
 ### Friday 29/10
 
-I'll be teaching Friday 29/10 at 13:45
-- I'll talk about my version of [game of life](./PROG/life.md)
+- I'll talked about 
+	- my version of [game of life](./PROG/life.md)
+	- how to get the code for the game of life from [here](https://www.webgamesonline.com/mastermind/index.php) using developer tools in **chrome**.
 - here is a [first notebook](./PROG/convolutions_etc.ipynb) on convolutions_etc
 - here is a [another notebook](./PROG/conv_kernels.ipynb) to look at
 

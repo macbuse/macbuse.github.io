@@ -8,7 +8,6 @@
 
 ---
 
-
 # Teaching 2020-21
 
 [More details](teaching.md)
@@ -23,9 +22,7 @@
 - [cours](./PROG/index.md)
 -  if you want to look ahead/back [cours 2020](./PROG/cours_2020.md)
 
-
 ---
-
 
 ### mat305 
 - [mat305](https://dlst.univ-grenoble-alpes.fr/enseignements/ressources-pedagogiques/l2-chimie-ressources-pedagogiques-255950.kjsp)
@@ -41,10 +38,7 @@
 - [corrections F3 bis ]( ./MAT305/f3_corr_2.pdf)
 - [corrections F3 ter ]( ./MAT305/f3_corr_3.pdf)
 
- 
-
 ---
- 
 
 ### Stages/TER
 
@@ -104,44 +98,34 @@ IHP 2012 : La Maison des Maths
 
 <p><a href="https://www-fourier.ujf-grenoble.fr/~methane/bestblackboards2015.html">More real math on blackboards</a></p>
 
-
 ---
-
 
 <h1 id="research">Research</h1>
 
 ### Networks
 
-
 - I am principal investigator [ToFu](https://persyval-lab.org/en/ToFu)
 - I was <strong>director</strong> of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
 - I am an associate member of <a href="http://gear.math.illinois.edu">GEAR</a>
 
- If you want to advertise conferences/jobs please mail me <br>
  <a href="https://github.com/macbuse/MATH/blob/master/conferences.md">Meetings in low dimensional topology and dynamics</a>
 
 ## Rencontres du GDR
 
 ### In 2020:
 
-<ul>
-    <li>	<a href="http://winterbraids.math.cnrs.fr/">WINTERBRAIDS</a> </li>
-<li>Artin Groups, CAT(0) Geometry and Related Topics	</li>
-<li>Teichmüller Theory: Classical, Higher, Super and Quantum </li>
-<li>Complex Hyperbolic Geometry and Related Topics	</li>
-<li><a href="https://c.lmno.cnrs.fr/Braids2020">Conférence internationale à la mémoire de Patrick Dehornoy</a>
-</li>
-</ul>
+- <a href="http://winterbraids.math.cnrs.fr/">WINTERBRAIDS</a>
+- Artin Groups, CAT(0) Geometry and Related Topics
+- Teichmüller Theory: Classical, Higher, Super and Quantum 
+- Complex Hyperbolic Geometry and Related Topic
+- <a href="https://c.lmno.cnrs.fr/Braids2020">Conférence internationale à la mémoire de Patrick Dehornoy</a>
    
 ### Previous conferences
 
- <ul>
-  <li><a href="http://winterbraids.math.cnrs.fr/archives/winterbraids8/"> WinterBraids VIII</a> </li>
- <li> <a href="https://tqft.sciencesconf.org/"> TQFT et Catégorification</a>
- </li>
- <li> <a href="https://conf.lmno.cnrs.fr/CRG/CRG_programme.html"> Complex Reflection Groups and their Braid Groups</a> </li>
-  <li> <a href="https://if-summer2018.sciencesconf.org/"> Summer school Teichmüller dynamics, mapping class groups </a> </li>
-</ul>
+ - <a href="http://winterbraids.math.cnrs.fr/archives/winterbraids8/"> WinterBraids VIII</a>
+ - <a href="https://tqft.sciencesconf.org/"> TQFT et Catégorification</a>
+ - <a href="https://conf.lmno.cnrs.fr/CRG/CRG_programme.html"> Complex Reflection Groups and their Braid Groups</a>
+  - <a href="https://if-summer2018.sciencesconf.org/"> Summer school Teichmüller dynamics, mapping class groups </a>
   
 
 
@@ -175,14 +159,16 @@ Togther with Prof. S. Kojima of TITEC we are working on applying
 converegence results for quasi-Fuchsian manifolds and Teichmueller theory
 to get information about closed hyperbolic manifolds.
 
-<p><img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/qf_manifold.svg" width="600"></p>
+<center>
+<img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/qf_manifold.svg" width="600">
+</center>
 
-With Bill Goldman and a couple of  his ex students we have been working on a book that just got published <a href="https://www.amazon.com/Automorphisms-Two-generator-Isometric-Hyperbolic-Mathematical/dp/1470436140">by the AMS</a>. Much of it is dedicated to explaining this picture of an invariant fractal in the character variety.
+With Bill Goldman and a couple of  his ex students we have been working on a book that just got published <a href="https://www.amazon.com/Automorphisms-Two-generator-Isometric-Hyp:we/dp/1470436140">by the AMS</a>. Much of it is dedicated to explaining this picture of an invariant fractal in the character variety.
 
 
-<p><center>
+<center>
  <img src="./union.png" alt="photo" width="600">
-</center></p>
+</center>
 
 
 
