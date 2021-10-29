@@ -4,7 +4,9 @@
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
-I am currently back from  sick leave with a broken shoulder.
+- I am currently back from  sick leave with a broken shoulder.
+
+---
 
 
 # Teaching 2020-21
@@ -19,11 +21,8 @@ I am currently back from  sick leave with a broken shoulder.
 
 - [Presentation programmation](./PROG/pres)
 - [cours](./PROG/index.md)
+-  if you want to look ahead/back [cours 2020](./PROG/cours_2020.md)
 
-I'll be teaching Friday 29/10 at 13:45
-- I'll talk about my version of [game of life](./PROG/life.md)
-- here is a [first notebook](./PROG/convolutions_etc.ipynb) on convolutions_etc
-- here is a [another notebook](./PROG/conv_kernels.ipynb) to look at
 
 ---
 
