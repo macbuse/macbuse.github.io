@@ -62,8 +62,8 @@ or a TER
 
 ### What do I do?
 
-- Ex directeur de <a href="http://tresses.math.cnrs.fr">GDR TRESSES</a>
-- Editor <a href="http://aif.cedram.org/?lang=fr">Annales de l'Institut Fourier</a>
+- Ex directeur de [GDR TRESSES]http://tresses.math.cnrs.fr)
+- Editor [Annales de l'Institut Fourier]{http://aif.cedram.org/?lang=fr)
 - Principal investigator l'equipe action ```ToFu```
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
 - <a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/cv2016.pdf">CV</a>
@@ -79,7 +79,7 @@ Recently I have been doing a lot of
 - [topology and WebGL](https://www-fourier.ujf-grenoble.fr/~mcshane/3D/alexanderSphere.html)
 - [3D printing of fractals](https://github.com/macbuse/Mandelbrottle)
 
-I was a member of ICERM at Brown University in 2018 participating in
+I was a member of ICERM at Brown University in 2019 participating in
 <a href="https://icerm.brown.edu/programs/sp-f19/">Illustrating Math</a>
 and visits to
 -    Boston College
@@ -229,14 +229,16 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 
 ## FabLab
 
-<p><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/stagiaresdetroisime.html">stages</a></p>
+[stages](https://www-fourier.ujf-grenoble.fr/~mcshane/stagiaresdetroisime.html)
 
 From March 2014 I&#8217;ve also been working with the MSTIC <a href="http://fabmstic.liglab.fr/">FabLab</a>
 making mathematical curiosities from wood. I&#8217;m mainly interested in constructing geometric objects in wood using kerf bending patterns. Wood prepared using a laser cutting machine can be bent
 and joined to like a 3 dimensional jigsaw puzzle.
 
+<center>
  <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/tetra.JPG" alt="photo" width="300">
  <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/dodec.png" alt="photo" width="300">
+</center>
 
 In November 2014 I was invited to take part in
 a workshop for architectural students

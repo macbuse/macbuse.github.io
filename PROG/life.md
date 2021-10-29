@@ -97,7 +97,7 @@ Because I was thinking about death:
 
 [from here](https://fr.wikipedia.org/wiki/Jeu_de_la_vie#Questions_math%C3%A9matiques)
 
-L'état suivant d'une cellule :est : 
+L'état suivant d'une cellule est : 
 
 ```(S = 3) OU (E = 1 ET S = 2).```
 
@@ -118,9 +118,9 @@ I had to change the kernel too but you will see that in the notebook.
 ## conclusion
 
 I can code the game of life in 4 LOC because
-- I know about **convolutions** and **kernels^^
+- I know about **convolutions** and **kernels**
 
-## can u do  better
+## can u do  better ?
 
 He suggests changing the kernel
 
