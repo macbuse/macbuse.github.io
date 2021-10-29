@@ -23,6 +23,7 @@ I am currently back from  sick leave with a broken shoulder.
 I'll be teaching Friday 29/10 at 13:45
 - I'll talk about my version of [game of life](./PROG/life.md)
 - here is a [notebook](./PROG/conv_kernels.ipynb) to look at
+- here is a [notebook](./PROG/convolutions_etc.ipynb)
 
 ---
 
