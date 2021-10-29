@@ -127,6 +127,8 @@ I can code the game of life in 4 LOC because
 [this guy](https://nicholasrui.com/2017/12/18/convolutions-and-the-game-of-life/#:~:text=The%20Game%20of%20Life%20is,its%20neighbors%20must%20be%20alive) suggests changing the kernel.
 
 what about 
+- [high life](https://fr.wikipedia.org/wiki/HighLife_(automate_cellulaire))
+- [day and night](https://en.wikipedia.org/wiki/Day_and_Night_(cellular_automaton))
 - [these](https://github.com/bollu/cellularAutomata) ?
 - [these](https://github.com/Hopson97/CellularAutomaton) ?
 
