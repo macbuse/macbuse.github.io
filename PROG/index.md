@@ -12,14 +12,31 @@ You can learn a lot from them.
 There will not be so much reading but there will be a lot of watching. 
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
+---
+
+### Friday 12/11
+
+This class is online as it is **le pont**
 
 
-### Friday 22/11
+### Friday 29/10
+
+I'll be teaching Friday 29/10 at 13:45
+- I'll talk about my version of [game of life](./PROG/life.md)
+- here is a [first notebook](./PROG/convolutions_etc.ipynb) on convolutions_etc
+- here is a [another notebook](./PROG/conv_kernels.ipynb) to look at
+
+### Why do this?
+
+well because convolutions allow us to write complicated stuff in a very simple way sometimes.
+
+
+### Friday 22/10
 
 - Finish the notebook on affine maps
 - Draw the Barnsley fern
 
-### Friday 15/11
+### Friday 15/10
 
 Here is a [notebook](./matplotlib_episode_two_corr.ipynb) 
 with solutions to last week's exercises
