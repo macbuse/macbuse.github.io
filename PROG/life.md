@@ -122,6 +122,12 @@ I can code the game of life in 4 LOC because
 
 ## can u do  better ?
 
-He suggests changing the kernel
 
-[this guy](https://nicholasrui.com/2017/12/18/convolutions-and-the-game-of-life/#:~:text=The%20Game%20of%20Life%20is,its%20neighbors%20must%20be%20alive) had the same idea.
+
+[this guy](https://nicholasrui.com/2017/12/18/convolutions-and-the-game-of-life/#:~:text=The%20Game%20of%20Life%20is,its%20neighbors%20must%20be%20alive) suggests changing the kernel.
+
+what about 
+- [these](https://github.com/bollu/cellularAutomata) ?
+- [these](https://github.com/Hopson97/CellularAutomaton) ?
+
+Or [abelian sandpiles](https://github.com/kivyfreakt/sandpile) ?
