@@ -22,6 +22,33 @@ The universe of the Game of Life is an infinite, two-dimensional orthogonal grid
 - All other live cells die in the next generation. 
 - Similarly, all other dead cells stay dead.
 
+Alternatively
+
+- any cell living or dead with 3 live neighbors is live in the next generation
+- a living cell with 2 live neighbors is live in the next generation
+
+### succinct version of rules
+
+State of the cell :
+
+```
+live = true
+dead = false
+```
+
+
+The state of a cell in the next generation is given by:
+
+```
+(S = 3) OU (E = 1 ET S = 2)
+```
+
+where
+
+- S = number of neighbors of the cell which are alive
+- E = the state of the cell in the current generation 
+
+
 ---
 
 ## Summary of principles
@@ -40,7 +67,7 @@ In late 1940, John von Neumann defined life as a creation (as a being or organis
 - and simulate a Turing machine. 
 
 
-Stanislaw Ulam invented cellular automata
+[Stanislaw Ulam](https://en.wikipedia.org/wiki/Stanislaw_Ulam) invented cellular automata
 - Ulam discussed using computers to simulate his cellular automata in a two-dimensional lattice in several papers. 
 - In parallel, von Neumann attempted to construct Ulam's cellular automaton. 
 
