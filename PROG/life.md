@@ -1,8 +1,37 @@
 # Conway's game of life
 
-The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.[1] It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. 
+The Game of Life is a cellular automaton devised by the mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. 
 
 - It is Turing complete and can simulate a universal constructor or any other Turing machine.
+
+---
+
+## Summary of principles
+
+- The initial pattern constitutes the seed of the system. 
+- The first generation is created by applying the a fixed set of rules simultaneously to every cell in the seed, live or dead; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. 
+- Each generation is a pure function of the preceding one. 
+- The rules continue to be applied repeatedly to create further generations.
+
+---
+
+## Origins of life LOL
+
+In late 1940, John von Neumann defined life as a creation (as a being or organism) 
+- which can reproduce itself 
+- and simulate a Turing machine. 
+
+
+[Stanislaw Ulam](https://en.wikipedia.org/wiki/Stanislaw_Ulam) invented cellular automata
+- Ulam discussed using computers to simulate his cellular automata in a two-dimensional lattice in several papers. 
+- In parallel, von Neumann attempted to construct Ulam's cellular automaton. 
+
+Conway chose his rules carefully, after considerable experimentation, to meet the following criteria:
+
+1. There should be no explosive growth.
+1. There should exist small initial patterns with chaotic, unpredictable outcomes.
+1. There should be potential for von Neumann universal constructors.
+1. The rules should be as simple as possible, whilst adhering to the above constraints.
 
 ---
 
@@ -22,12 +51,12 @@ The universe of the Game of Life is an infinite, two-dimensional orthogonal grid
 - All other live cells die in the next generation. 
 - Similarly, all other dead cells stay dead.
 
-Alternatively
+### Succinct version of rules
 
-- any cell living or dead with 3 live neighbors is live in the next generation
+If one forgets the biological interpretation of the rules then they reduce to: 
+
+- any cell whether  living or dead with 3 live neighbors is live in the next generation
 - a living cell with 2 live neighbors is live in the next generation
-
-### succinct version of rules
 
 State of the cell :
 
@@ -48,41 +77,11 @@ where
 - S = number of neighbors of the cell which are alive
 - E = the state of the cell in the current generation 
 
-
 ---
-
-## Summary of principles
-
-- The initial pattern constitutes the seed of the system. 
-- The first generation is created by applying the above rules simultaneously to every cell in the seed, live or dead; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. 
-- Each generation is a pure function of the preceding one. 
-- The rules continue to be applied repeatedly to create further generations.
-
----
-
-## Origins of life LOL
-
-In late 1940, John von Neumann defined life as a creation (as a being or organism) 
-- which can reproduce itself 
-- and simulate a Turing machine. 
-
-
-[Stanislaw Ulam](https://en.wikipedia.org/wiki/Stanislaw_Ulam) invented cellular automata
-- Ulam discussed using computers to simulate his cellular automata in a two-dimensional lattice in several papers. 
-- In parallel, von Neumann attempted to construct Ulam's cellular automaton. 
-
-Conway chose his rules carefully, after considerable experimentation, to meet these criteria:
-
-1. There should be no explosive growth.
-1. There should exist small initial patterns with chaotic, unpredictable outcomes.
-1. There should be potential for von Neumann universal constructors.
-1. The rules should be as simple as possible, whilst adhering to the above constraints.
-
-
 ## Using convolutions
 
 I did this by myself but [this guy](https://nicholasrui.com/2017/12/18/convolutions-and-the-game-of-life/#:~:text=The%20Game%20of%20Life%20is,its%20neighbors%20must%20be%20alive) had the same idea.
-He wants to avoid 
+He states that he wants to avoid 
 - loops
 - checking cases
 
@@ -93,7 +92,6 @@ cases. While they often seem like a natural course of action, in many settings
 they are often unwieldy and slower than desirable. Luckily for my friend, the
 code ran quite quickly, but I thought about whether there was a faster way.
 ```
-
 
 My code from last year:
 
@@ -110,7 +108,7 @@ My code from last year:
 
 ## Why these rules ?
 
-Because I was thinking about death:
+Because I was thinking about death/life:
 
 - All other live cells die in the next generation. 
     ```
@@ -118,7 +116,8 @@ Because I was thinking about death:
     H[(H==4)&(G==0)] = 0 # dies
     H[H>4] = 0 #dies 
     ```
-
+This stopped me from finding the optimal solution straight away. 
+This is an example of [cognitive bias](https://en.wikipedia.org/wiki/Cognitive_bias).
 
 ## Better to copy
 
