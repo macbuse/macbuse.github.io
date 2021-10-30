@@ -9,7 +9,7 @@ The Game of Life is a cellular automaton devised by the mathematician John Horto
 ## Summary of principles
 
 - The initial pattern constitutes the seed of the system. 
-- The first generation is created by applying the a fixed set of rules simultaneously to every cell in the seed, live or dead; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. 
+- The first generation is created by applying a fixed set of rules simultaneously to every cell in the seed, live or dead; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. 
 - Each generation is a pure function of the preceding one. 
 - The rules continue to be applied repeatedly to create further generations.
 
