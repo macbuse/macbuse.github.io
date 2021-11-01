@@ -16,7 +16,7 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 ### Friday 12/11
 
-This class is online as it is **le pont**
+This class is online as it is **le pont du 11 novembre**
 
 
 ### Friday 29/10
