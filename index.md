@@ -171,7 +171,6 @@ With Bill Goldman and a couple of  his ex students we have been working on a boo
 </center>
 
 
-
 <h2 id="recentpreprints">Recent preprints</h2>
 
 <ul>
