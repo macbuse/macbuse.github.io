@@ -8,6 +8,12 @@
 
 ---
 
+## Conway's life on a torus
+
+![](./PROG/life_vid.gif)
+
+---
+
 # Teaching 2020-21
 
 [More details](teaching.md)
@@ -21,6 +27,7 @@
 - [Presentation programmation](./PROG/pres)
 - [cours](./PROG/index.md)
 -  if you want to look ahead/back [cours 2020](./PROG/cours_2020.md)
+
 
 ---
 
