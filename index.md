@@ -31,7 +31,7 @@
 
 ---
 
-### mat305 
+### MAT305 
 - [mat305](https://dlst.univ-grenoble-alpes.fr/enseignements/ressources-pedagogiques/l2-chimie-ressources-pedagogiques-255950.kjsp)
   - Tuesday 8h 
   - Wednesday 9h45
