@@ -247,19 +247,7 @@ z &\mapsto& 1/\bar{z}
 - can suppose 200$a/b = \infty$ and 200$c/d = k/(ad - bc)$
 - Ford circles  200$F$  tangent at 200$\infty$
 - and another of diameter 200$1/(ad - bc)^2$
-
-#
-### Lemma
-Let 200$n$ be a positive integer.
-The number of  ways of writing 200$n$  as a  sum of squares
-200$n = c^2 + d^2$
-with 200$c,d$ coprime integers is equal to the number of  integers 
-200$0 \leq k < n-1$ coprime to 200$n$
-such that the line
-200$\{  k/n + i t,\, t>0  \}$
-contains  a point in the 200$\Gamma$  orbit of 200$i$.
-
- the **midpoint** of this vertical arc is at height 200$1/|ad - bc|$
+- the **midpoint** of this vertical arc is at height 200$1/|ad - bc|$
 
 #
 #
@@ -323,6 +311,17 @@ fixing the cusp labeled 200$\infty$?
 - arcs joining cusps 200$\infty, 1$ with 200$\lambda$-length 200$p^2$
 - lift to vertical lines with endpoints 200$k/p$ with 200$k$ odd
 - 200$|X| = p - 1$ as before
+
+#
+### Lemma
+Let 200$n$ be a positive integer.
+The number of  ways of writing 200$n$  as a  sum of squares
+200$n = c^2 + d^2$
+with 200$c,d$ coprime integers is equal to the number of  integers 
+200$0 \leq k < n-1$ coprime to 200$n$
+such that the line
+200$\{  k/n + i t,\, t>0  \}$
+contains  a point in the 200$\Gamma$  orbit of 200$i$.
 
 #
 ## subgroup lifts to 
