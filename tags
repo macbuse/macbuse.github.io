@@ -61,6 +61,7 @@ FN	GLASGOW/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 FN	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    FN = sys.argv[1]$/;"	v
 FN	GRENOBLE/bb.py	/^    FN = sys.argv[1]$/;"	v
 FN	GRENOBLE/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
+FN	GRENOBLE/mk_slides3.py	/^    FN = sys.argv[1]$/;"	v
 FN	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    FN = sys.argv[1]$/;"	v
 FN	HARVARD/bb.py	/^    FN = sys.argv[1]$/;"	v
 FN	HARVARD/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
@@ -108,6 +109,7 @@ PP_IMG	GLASGOW/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.
 PP_IMG	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_IMG	GRENOBLE/bb.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_IMG	GRENOBLE/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	GRENOBLE/mk_slides3.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_IMG	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_IMG	HARVARD/bb.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_IMG	HARVARD/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
@@ -135,6 +137,7 @@ PP_MATH	GLASGOW/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', r
 PP_MATH	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
 PP_MATH	GRENOBLE/bb.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
 PP_MATH	GRENOBLE/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	GRENOBLE/mk_slides3.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
 PP_MATH	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
 PP_MATH	HARVARD/bb.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
 PP_MATH	HARVARD/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
@@ -160,6 +163,7 @@ PP_MEDIA	GLASGOW/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*
 PP_MEDIA	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_MEDIA	GRENOBLE/bb.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_MEDIA	GRENOBLE/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	GRENOBLE/mk_slides3.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_MEDIA	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_MEDIA	HARVARD/bb.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_MEDIA	HARVARD/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
@@ -243,6 +247,7 @@ Voices	GLASGOW/mk_slides2.py	/^class Voices():$/;"	c
 Voices	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^class Voices():$/;"	c
 Voices	GRENOBLE/bb.py	/^class Voices():$/;"	c
 Voices	GRENOBLE/mk_slides2.py	/^class Voices():$/;"	c
+Voices	GRENOBLE/mk_slides3.py	/^class Voices():$/;"	c
 Voices	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^class Voices():$/;"	c
 Voices	HARVARD/bb.py	/^class Voices():$/;"	c
 Voices	HARVARD/mk_slides2.py	/^class Voices():$/;"	c
@@ -276,6 +281,7 @@ __init__	GLASGOW/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	GRENOBLE/bb.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	GRENOBLE/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	GRENOBLE/mk_slides3.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	HARVARD/bb.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	HARVARD/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
@@ -307,6 +313,7 @@ __repr__	GLASGOW/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file
 __repr__	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
 __repr__	GRENOBLE/bb.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
 __repr__	GRENOBLE/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	GRENOBLE/mk_slides3.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
 __repr__	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
 __repr__	HARVARD/bb.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
 __repr__	HARVARD/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
@@ -338,6 +345,7 @@ add	GLASGOW/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	GRENOBLE/bb.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	GRENOBLE/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	GRENOBLE/mk_slides3.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	HARVARD/bb.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	HARVARD/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
@@ -406,6 +414,7 @@ get_audio	GLASGOW/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:V
 get_audio	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	GRENOBLE/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	GRENOBLE/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	GRENOBLE/mk_slides3.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	HARVARD/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	HARVARD/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
@@ -437,6 +446,7 @@ img_cb	GLASGOW/mk_slides2.py	/^    def img_cb(match):$/;"	f
 img_cb	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def img_cb(match):$/;"	f
 img_cb	GRENOBLE/bb.py	/^    def img_cb(match):$/;"	f
 img_cb	GRENOBLE/mk_slides2.py	/^    def img_cb(match):$/;"	f
+img_cb	GRENOBLE/mk_slides3.py	/^    def img_cb(match):$/;"	f
 img_cb	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def img_cb(match):$/;"	f
 img_cb	HARVARD/bb.py	/^    def img_cb(match):$/;"	f
 img_cb	HARVARD/mk_slides2.py	/^    def img_cb(match):$/;"	f
@@ -470,6 +480,7 @@ math_cb	GLASGOW/mk_slides2.py	/^    def math_cb(match):$/;"	f
 math_cb	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def math_cb(match):$/;"	f
 math_cb	GRENOBLE/bb.py	/^    def math_cb(match):$/;"	f
 math_cb	GRENOBLE/mk_slides2.py	/^    def math_cb(match):$/;"	f
+math_cb	GRENOBLE/mk_slides3.py	/^    def math_cb(match):$/;"	f
 math_cb	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def math_cb(match):$/;"	f
 math_cb	HARVARD/bb.py	/^    def math_cb(match):$/;"	f
 math_cb	HARVARD/mk_slides2.py	/^    def math_cb(match):$/;"	f
@@ -501,6 +512,7 @@ md_with_tags	GLASGOW/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb,
 md_with_tags	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
 md_with_tags	GRENOBLE/bb.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
 md_with_tags	GRENOBLE/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	GRENOBLE/mk_slides3.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
 md_with_tags	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
 md_with_tags	HARVARD/bb.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
 md_with_tags	HARVARD/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
@@ -532,6 +544,7 @@ media_cb	GLASGOW/mk_slides2.py	/^    def media_cb(match):$/;"	f
 media_cb	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def media_cb(match):$/;"	f
 media_cb	GRENOBLE/bb.py	/^    def media_cb(match):$/;"	f
 media_cb	GRENOBLE/mk_slides2.py	/^    def media_cb(match):$/;"	f
+media_cb	GRENOBLE/mk_slides3.py	/^    def media_cb(match):$/;"	f
 media_cb	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def media_cb(match):$/;"	f
 media_cb	HARVARD/bb.py	/^    def media_cb(match):$/;"	f
 media_cb	HARVARD/mk_slides2.py	/^    def media_cb(match):$/;"	f
@@ -579,6 +592,7 @@ pandoc_it	GLASGOW/mk_slides2.py	/^    pandoc_it = ('pandoc -t revealjs -c mycss.
 pandoc_it	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	GRENOBLE/bb.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	GRENOBLE/mk_slides2.py	/^    pandoc_it = ('pandoc -t revealjs -c mycss.css -s -o {}.html tmp.md'.format(FN.split('.')[0])).split()$/;"	v
+pandoc_it	GRENOBLE/mk_slides3.py	/^    pandoc_it = ('\/home\/macbuse\/bin\/pandoc -t revealjs -c mycss.css -s -o {}.html tmp.md'.format(FN.split('.')[0])).split()$/;"	v
 pandoc_it	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	HARVARD/bb.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	HARVARD/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
@@ -664,6 +678,7 @@ spoken_text	GLASGOW/mk_slides2.py	/^    spoken_text = []$/;"	v
 spoken_text	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    spoken_text = []$/;"	v
 spoken_text	GRENOBLE/bb.py	/^    spoken_text = []$/;"	v
 spoken_text	GRENOBLE/mk_slides2.py	/^    spoken_text = []$/;"	v
+spoken_text	GRENOBLE/mk_slides3.py	/^    spoken_text = []$/;"	v
 spoken_text	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    spoken_text = []$/;"	v
 spoken_text	HARVARD/bb.py	/^    spoken_text = []$/;"	v
 spoken_text	HARVARD/mk_slides2.py	/^    spoken_text = []$/;"	v
@@ -702,6 +717,8 @@ string2fn	GRENOBLE/bb.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
 string2fn	GRENOBLE/bb.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
 string2fn	GRENOBLE/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
 string2fn	GRENOBLE/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	GRENOBLE/mk_slides3.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	GRENOBLE/mk_slides3.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
 string2fn	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
 string2fn	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
 string2fn	HARVARD/bb.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
@@ -787,6 +804,8 @@ voices	GRENOBLE/bb.py	/^    voices = Voices()$/;"	v
 voices	GRENOBLE/bb.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
 voices	GRENOBLE/mk_slides2.py	/^    voices = Voices()$/;"	v
 voices	GRENOBLE/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	GRENOBLE/mk_slides3.py	/^    voices = Voices()$/;"	v
+voices	GRENOBLE/mk_slides3.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
 voices	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = Voices()$/;"	v
 voices	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
 voices	HARVARD/bb.py	/^    voices = Voices()$/;"	v
@@ -849,6 +868,8 @@ xx	GRENOBLE/bb.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	GRENOBLE/bb.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
 xx	GRENOBLE/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	GRENOBLE/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	GRENOBLE/mk_slides3.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	GRENOBLE/mk_slides3.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
 xx	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
 xx	HARVARD/bb.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v

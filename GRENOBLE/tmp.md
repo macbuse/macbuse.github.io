@@ -1,6 +1,6 @@
 %Geometry of sums of squares
 %greg mc
-%October 2021
+%November 2021
 
 #
 
@@ -224,7 +224,7 @@ z &\mapsto& 1/\bar{z}
 <span style="font-size: 200%">$\mathrm{SL}(2,\mathbb{Z})$</span> acts by Mobius transformations on <span style="font-size: 200%">$\mathbb{H}$</span>
 
 - <span style="font-size: 200%">$\begin{pmatrix} a & c \\ b & d \end{pmatrix}.z = \frac{az+b}{cz+d}$</span> 
-- preserves the Poincaré (hyerbolic) metric
+- preserves the Poincaré (hyperbolic) metric
 - the orbit of <span style="font-size: 200%">$F := \{ z, \mathrm{Im}\, z > 1\}$</span> are the Ford circles
 
 #
@@ -287,7 +287,7 @@ can be cut up into 2 ideal triangles.
 
 - <span style="font-size: 200%">$i, 1+i, \frac12 ( 1 + i)$</span> are midpoints of arcs
 - the lifts to <span style="font-size: 200%">$\mathbb{H}$</span> of the midpoints <span style="font-size: 200%">$=\Gamma.i$</span> 
-- <span style="font-size: 250%">$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im} i }{c^2 + d^2}$</span>
+- <span style="font-size: 250%">$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}$</span>
 
 #
 
@@ -322,6 +322,10 @@ with <span style="font-size: 200%">$c,d$</span> coprime integers is equal to the
 such that the line
 <span style="font-size: 200%">$\{  k/n + i t,\, t>0  \}$</span>
 contains  a point in the <span style="font-size: 200%">$\Gamma$</span>  orbit of <span style="font-size: 200%">$i$</span>.
+
+#
+### Proof of lemma
+
 
 #
 ## subgroup lifts to 
