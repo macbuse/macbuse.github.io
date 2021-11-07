@@ -95,7 +95,7 @@ if __name__ == '__main__':
     # voices key is one of M, K, O
     #percentage$...$ for resizing TeX fonts
     PP_MEDIA = re.compile(r'!!\[(.*?)\]\((.*?)\)', re.DOTALL)
-    PP_MATH = re.compile(r'(\d+)(\$[^\s].*?\$)', re.DOTALL)
+    PP_MATH = re.compile(r'(\d+)(\$^\s.*?\$)', re.DOTALL)
     PP_IMG = re.compile(r'(\d+)!\[(.*?)\]\((.*?)\)', re.DOTALL)
 
     #global

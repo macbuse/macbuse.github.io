@@ -27,11 +27,11 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 #
 ### Odd index Fibonacci numbers are Markoff numbers
 
-$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$
+<span style="font-size: 50%">$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$</span>
 
 $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 
-# 
+#
 ### Markoff numbers
 
 
@@ -41,13 +41,15 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 ### Frobenius uniqueness conjecture
 
 - The largest integer in a triple determines the two other numbers.
-- For every Markoff number $m$ there are exactly 3 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus $\mathbb{H}/\Gamma'$ 
+- On the modular torus $\mathbb{H}/\Gamma'$,  if $m$ is a Markoff number then
+	- there are exactly 3 simple closed geodesics 
+	- of length  $2\cosh^{-1}(3m/2)$ 
 
 
 #
 ### Partial results
 
-m = Markoff number
+$m$ = Markoff number
 
 - Jack Button for [m prime](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292){target="_blank"}
 - Zhang [An elementary proof...](https://arxiv.org/abs/math/0606283){target="_blank}
@@ -61,15 +63,17 @@ m = Markoff number
 If $z$ is a Markoff number which is prime<br>
 then there is a unique triple $z > y > x$
 
-- $x^2 + y^2 + z^2 - 3x y z = 0.$
-- $\bar{x}^2 + \bar{y}^2 = 0.$ in  $\mathbb{F}_z$
-- $(\bar{x}/\bar{y})^2 = -1.$ in  $\mathbb{F}_z$
+$x^2 + y^2 + z^2 - 3x y z = 0.$
+
+- so when we take congruences in  $\mathbb{F}_z$ 
+	- $\bar{x}^2 + \bar{y}^2 = 0$ 
+	- $(\bar{x}/\bar{y})^2 = -1$ 
 
 #
 
-<img src="./theoremsab.png" width="600">
+<img src="./theoremsab.png" width="800">
 
-- Button's theorem follows from unicity here
+- Button's theorem follows from unicity of <br> the sum of squares decomposition
 
 
 #
@@ -117,7 +121,7 @@ z &\mapsto& 1/\bar{z}
 ## Zagier
 
 
-<img src="./zagier.png" width="800">
+<img src="./zagier.png" width="1200">
 
 
 #
@@ -125,7 +129,7 @@ z &\mapsto& 1/\bar{z}
 
 - $G$ acting on $X$ then 
 
-    <span style="font-size: 250%">$|G| |X/G| = \sum_{g} |X^g|$</span>
+    $|G| |X/G| = \sum_{g} |X^g|$
 
 - $X^g$ =  fixed points of the element $g$ 
 - $X/G$  the orbit space.
@@ -135,22 +139,23 @@ z &\mapsto& 1/\bar{z}
 
 Acting on $X = \mathbb{F}_p^*$
 
-- identity $|X^g| = p-<span style="font-size: 1%">$ 
-- $</span>x \mapsto -x, |X^g| = <span style="font-size: 0%">$  
-- $</span>x \mapsto 1/x, |X^g| = <span style="font-size: 2%">$  
-- $</span>x \mapsto -1/x, |X^g| = \ldots$  
+- identity $|X^g| = p-1$ 
+- $x \mapsto -x, |X^g| = 0$  
+- $x \mapsto 1/x, |X^g| = 2$  
+- $x \mapsto -1/x, |X^g| = \ldots$  
 
 #
 
 
-- <span style="font-size: 250%">$|G| |X/G| = \sum_{g} |X^g|$</span>
-- <span style="font-size: 250%">$4 |X/G| = (p-1) + 2 + |X^{(x\mapsto -1/x)}|$</span>
-- <span style="font-size: 250%">$\Rightarrow  |X^{(x\mapsto -1/x)}|= 2$</span>,, if <span style="font-size: 250%">$4 \not | (p+1)$</span>
-- <span style="font-size: 250%">$\Rightarrow  \exists x,\, x^2 = -1$</span>, if <span style="font-size: 250%">$4 \not | (p+1)$</span>
+- $|G| |X/G| = \sum_{g} |X^g|$
+- $4 |X/G| = (p-1) + 2 + |X^{(x\mapsto -1/x)}|$
+	- so if $4 \not | (p+1)$
+	- $\Rightarrow  |X^{(x\mapsto -1/x)}|= 2$   
+	- $\Rightarrow  \exists x,\, x^2 = -1$ 
 
 
 #
-## Theorem 1.2: sum of 2 squares
+### Theorem 1.2: sum of 2 squares
 
 Acting on $\mathbb{H}$
 
@@ -164,9 +169,9 @@ z &\mapsto& 1/\bar{z}
 #
 ## Primitives
 
-- <span style="font-size: 250%">$\mathbb{Z}^2$</span> 
+- $\mathbb{Z}^2$ 
 - infinitely many primitive elements 
-- <span style="font-size: 250%">$(a,b)$</span> primitive iff <span style="font-size: 250%">$a,b \in \mathbb{Z}$</span> coprime
+- $(a,b)$ primitive iff $a,b \in \mathbb{Z}$ coprime
 - $SL(2,\mathbb{Z})$ transitive on primitives
 
 
@@ -205,12 +210,12 @@ $\mathbb{Q}\cup \infty \subset$ circle/projective line
 #
 ## Definitions
 - **arc** = Poincaré geodesic joining $a/b, c/d \in \mathbb{Q}\cup \infty$
-- **$\lambda$- length of  arc** $= |ad - bc|^<span style="font-size: 2%">$ 
+- **$\lambda$- length of  arc** $= |ad - bc|^2$ 
 
 #
 ## Lemma
 
-**$</span>\log \lambda$- length ** = length of the portion outside Ford circles tangent to the real line at its endpoints
+**$\log \lambda$- length ** = length of the portion outside Ford circles tangent to the real line at its endpoints
 
 
 #
@@ -231,13 +236,13 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 
 <img src="./ford_circles_again.png" width="600">
 
-- point of tangency with $\mathbb{R} = p/q$, diameter = $1/q^<span style="font-size: 2%">$
+- point of tangency with $\mathbb{R} = p/q$, diameter = $1/q^2$
 
 #
 ### Proof of lemma
 
-- **arc** joining $</span>a/b, c/d$ has **$\lambda$- length ** $= |ad - bc|^<span style="font-size: 2%">$ 
-- **$</span>\log \lambda$- length ** = length of the portion outside Ford circles tangent to the real line at its endpoints
+- **arc** joining $a/b, c/d$ has **$\lambda$- length ** $= |ad - bc|^2$ 
+- **$\log \lambda$- length ** = length of the portion outside Ford circles tangent to the real line at its endpoints
 
 
 #
@@ -246,8 +251,8 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 - $\mathrm{SL}(2,\mathbb{Z})$  transitive, 
 - can suppose $a/b = \infty$ and $c/d = k/(ad - bc)$
 - Ford circles  $F$  tangent at $\infty$
-- and another of diameter $1/(ad - bc)^<span style="font-size: 2%">$
-- the **midpoint** of this vertical arc is at height $</span>1/|ad - bc|$
+- and another of diameter $1/(ad - bc)^2$
+- the **midpoint** of this vertical arc is at height $1/|ad - bc|$
 
 #
 #
@@ -278,21 +283,25 @@ can be cut up into 2 ideal triangles.
 
 #
 
-<img src="./three_punctured.png" width="400">
+<img src="./three_punctured.png" width="600">
 
 - $i, 1+i, \frac12 ( 1 + i)$ are midpoints
 
 #
-## reciprocals of sums of squares
+### reciprocals of sums of squares
 
 - $i, 1+i, \frac12 ( 1 + i)$ are midpoints of arcs
 - the lifts to $\mathbb{H}$ of the midpoints $=\Gamma.i$ 
-- <span style="font-size: 250%">$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}$</span>
+- $\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}=  \frac{1}{c^2 + d^2}$
+
+#
+
+<span style="font-size: 200%">$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}=  \frac{1}{c^2 + d^2}$</span>
 
 #
 
 What is the group of automorphisms?
-<img src="./three_punctured.png" width="400">
+<img src="./three_punctured.png" width="600">
 
 #
 
@@ -306,72 +315,70 @@ fixing the cusp labeled $\infty$?
 <img src="./three_punctured.png" width="400">
 
 #
-### the set $X$
+### the set <span style="font-size: 85%">$X$</span>
 
-- arcs joining cusps $\infty, <span style="font-size: 1%">$ with $</span>\lambda$-length $p^<span style="font-size: 2%">$
-- lift to vertical lines with endpoints $</span>k/p$ with $k$ odd
-- $|X| = p - <span style="font-size: 1%">$ as before
+- arcs joining cusps $\infty, 1$ with $\lambda$-length $p^2$
+- lift to vertical lines with endpoints $k/p$ with $k$ odd
+- $|X| = p - 1$ as before
 
 #
-### Lemma
-Let $</span>n$ be a positive integer.
-The number of  ways of writing $n$  as a  sum of squares
-$n = c^2 + d^<span style="font-size: 2%">$
-with $</span>c,d$ coprime integers is equal to the number of  integers 
-$0 \leq k < n-<span style="font-size: 1%">$ coprime to $</span>n$
-such that the line
-$\{  k/n + i t,\, t>0  \}$
-contains  a point in the $\Gamma$  orbit of $i$.
+## Lemma
+
+- Let $n$ be a positive integer.
+- The number of  ways of writing $n$  as a  sum of squares
+$n = c^2 + d^2$ with $c,d$ coprime integers
+-  is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
 
 #
 ### Proof of lemma
 
 
 #
-## subgroup lifts to 
+### subgroup lifts to 
 
 - $U': z \mapsto 2-\bar{z},\, V' : z \mapsto \bar{z}/(\bar{z} - 1)$
 - composition is $U'\circ V' : z \mapsto z \mapsto (-z + 2) /( z + 1)$
-- whose fixed point is $i+<span style="font-size: 1%">$.
+- whose fixed point is $i+1$
 
 #
 
-- $</span>U': z \mapsto 2-\bar{z}$ induces an automorphism no fixed points in
-    $X,\, p \geq <span style="font-size: 3%">$
-- $</span>V' : z \mapsto \bar{z}/(\bar{z} - 1)$ is an inversion in a circle center
+- $U': z \mapsto 2-\bar{z}$ induces an automorphism no fixed points in
+    $X,\, p \geq 3$
+- $V' : z \mapsto \bar{z}/(\bar{z} - 1)$ is an inversion in a circle 
     with endpoints -1 and 1
-- projection to surface is simple arc of $\lambda$ length $=<span style="font-size: 4%">$
+- projection to surface is simple arc of $\lambda$ length $=4$
 
 #
 ## Lemma
 
-The automorphism $</span>V$ induced by $V'$ <br>
+The automorphism $V$ induced by $V'$ <br>
 fixes two and exactly two arcs in $X$.
+
 
 - apply Burnside Lemma to prove Theorem 1.2
 - $4 |X/G| = (p-1) + 2 + |X^{U\circ V}|$
 
 #
-## Proof
+### Proof
 
 - If $\infty$ and $k/p$ are exchanged by an inversion swapping Ford circles
 - Then the endpoints of the fixed circle are $(k-1)/p$ and $(k+1)/p$  
-- if $1 < k < p-<span style="font-size: 1%">$ the arc joining these points has $</span>\lambda$-length = $4p^2 ><span style="font-size: 4%">$ 
+- if $1 < k < p-1$ the arc joining these points has $\lambda$-length = $4p^2 >4$ 
 
 #
 ## Button's Theorem
 
-If $</span>z$ is a Markoff number which is prime<br>
+If $z$ is a Markoff number which is prime<br>
 then there is a unique triple $z > y > x$
 
 - $x^2 + y^2 + z^2 - 3x y z = 0.$
-- $\bar{x}^2 + \bar{y}^2 = <span style="font-size: 0%">$ in $</span>\mathbb{F}_z$
-- $(\bar{x}/\bar{y})^2 = -<span style="font-size: 1%">$ in $</span>\mathbb{F}_z$
+- $\bar{x}^2 + \bar{y}^2 = 0$ in $\mathbb{F}_z$
+- $(\bar{x}/\bar{y})^2 = -1$ in $\mathbb{F}_z$
 
 #
 
 - Button's theorem follows from unicity and
 - For every Markoff number $m$ there are exactly 3 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus $\mathbb{H}/\Gamma'$ 
-- exactly 3 simple arcs of $\lambda$ length $9m^<span style="font-size: 2%">$ on $</span>\mathbb{H}/\Gamma'$ 
+- exactly 3 simple arcs of $\lambda$ length $9m^2$ on $\mathbb{H}/\Gamma'$ 
 
 # That's all folks!!!!!

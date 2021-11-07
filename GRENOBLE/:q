@@ -27,11 +27,11 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 #
 ### Odd index Fibonacci numbers are Markoff numbers
 
-50$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$
+$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$
 
 $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 
-#
+# 
 ### Markoff numbers
 
 
@@ -41,15 +41,13 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 ### Frobenius uniqueness conjecture
 
 - The largest integer in a triple determines the two other numbers.
-- On the modular torus $\mathbb{H}/\Gamma'$,  if $m$ is a Markoff number then
-	- there are exactly 3 simple closed geodesics 
-	- of length  $2\cosh^{-1}(3m/2)$ 
+- For every Markoff number $m$ there are exactly 3 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus $\mathbb{H}/\Gamma'$ 
 
 
 #
 ### Partial results
 
-$m$ = Markoff number
+m = Markoff number
 
 - Jack Button for [m prime](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292){target="_blank"}
 - Zhang [An elementary proof...](https://arxiv.org/abs/math/0606283){target="_blank}
@@ -63,17 +61,15 @@ $m$ = Markoff number
 If $z$ is a Markoff number which is prime<br>
 then there is a unique triple $z > y > x$
 
-$x^2 + y^2 + z^2 - 3x y z = 0.$
-
-- so when we take congruences in  $\mathbb{F}_z$ 
-	- $\bar{x}^2 + \bar{y}^2 = 0$ 
-	- $(\bar{x}/\bar{y})^2 = -1$ 
+- $x^2 + y^2 + z^2 - 3x y z = 0.$
+- $\bar{x}^2 + \bar{y}^2 = 0.$ in  $\mathbb{F}_z$
+- $(\bar{x}/\bar{y})^2 = -1.$ in  $\mathbb{F}_z$
 
 #
 
-<img src="./theoremsab.png" width="800">
+<img src="./theoremsab.png" width="600">
 
-- Button's theorem follows from unicity of <br> the sum of squares decomposition
+- Button's theorem follows from unicity here
 
 
 #
@@ -120,7 +116,9 @@ z &\mapsto& 1/\bar{z}
 #
 ## Zagier
 
-<img src="./zagier.png" width="1200">
+
+<img src="./zagier.png" width="800">
+
 
 #
 ### Burnside Lemma 
@@ -147,13 +145,12 @@ Acting on $X = \mathbb{F}_p^*$
 
 - $|G| |X/G| = \sum_{g} |X^g|$
 - $4 |X/G| = (p-1) + 2 + |X^{(x\mapsto -1/x)}|$
-	- so if $4 \not | (p+1)$
-	- $\Rightarrow  |X^{(x\mapsto -1/x)}|= 2$   
-	- $\Rightarrow  \exists x,\, x^2 = -1$ 
+- $\Rightarrow  |X^{(x\mapsto -1/x)}|= 2$,, if $4 \not | (p+1)$
+- $\Rightarrow  \exists x,\, x^2 = -1$, if $4 \not | (p+1)$
 
 
 #
-### Theorem 1.2: sum of 2 squares
+## Theorem 1.2: sum of 2 squares
 
 Acting on $\mathbb{H}$
 
@@ -281,25 +278,21 @@ can be cut up into 2 ideal triangles.
 
 #
 
-<img src="./three_punctured.png" width="600">
+<img src="./three_punctured.png" width="400">
 
 - $i, 1+i, \frac12 ( 1 + i)$ are midpoints
 
 #
-### reciprocals of sums of squares
+## reciprocals of sums of squares
 
 - $i, 1+i, \frac12 ( 1 + i)$ are midpoints of arcs
 - the lifts to $\mathbb{H}$ of the midpoints $=\Gamma.i$ 
-- $\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}=  \frac{1}{c^2 + d^2}$
-
-#
-
-200$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}=  \frac{1}{c^2 + d^2}$
+- $\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}$
 
 #
 
 What is the group of automorphisms?
-<img src="./three_punctured.png" width="600">
+<img src="./three_punctured.png" width="400">
 
 #
 
@@ -313,36 +306,39 @@ fixing the cusp labeled $\infty$?
 <img src="./three_punctured.png" width="400">
 
 #
-### the set 85$X$
+### the set $X$
 
 - arcs joining cusps $\infty, 1$ with $\lambda$-length $p^2$
 - lift to vertical lines with endpoints $k/p$ with $k$ odd
 - $|X| = p - 1$ as before
 
 #
-## Lemma
-
-- Let $n$ be a positive integer.
-- The number of  ways of writing $n$  as a  sum of squares
-$n = c^2 + d^2$ with $c,d$ coprime integers
--  is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
+### Lemma
+Let $n$ be a positive integer.
+The number of  ways of writing $n$  as a  sum of squares
+$n = c^2 + d^2$
+with $c,d$ coprime integers is equal to the number of  integers 
+$0 \leq k < n-1$ coprime to $n$
+such that the line
+$\{  k/n + i t,\, t>0  \}$
+contains  a point in the $\Gamma$  orbit of $i$.
 
 #
 ### Proof of lemma
 
 
 #
-### subgroup lifts to 
+## subgroup lifts to 
 
 - $U': z \mapsto 2-\bar{z},\, V' : z \mapsto \bar{z}/(\bar{z} - 1)$
 - composition is $U'\circ V' : z \mapsto z \mapsto (-z + 2) /( z + 1)$
-- whose fixed point is $i+1$
+- whose fixed point is $i+1$.
 
 #
 
 - $U': z \mapsto 2-\bar{z}$ induces an automorphism no fixed points in
     $X,\, p \geq 3$
-- $V' : z \mapsto \bar{z}/(\bar{z} - 1)$ is an inversion in a circle 
+- $V' : z \mapsto \bar{z}/(\bar{z} - 1)$ is an inversion in a circle center
     with endpoints -1 and 1
 - projection to surface is simple arc of $\lambda$ length $=4$
 
@@ -352,12 +348,11 @@ $n = c^2 + d^2$ with $c,d$ coprime integers
 The automorphism $V$ induced by $V'$ <br>
 fixes two and exactly two arcs in $X$.
 
-
 - apply Burnside Lemma to prove Theorem 1.2
 - $4 |X/G| = (p-1) + 2 + |X^{U\circ V}|$
 
 #
-### Proof
+## Proof
 
 - If $\infty$ and $k/p$ are exchanged by an inversion swapping Ford circles
 - Then the endpoints of the fixed circle are $(k-1)/p$ and $(k+1)/p$  
