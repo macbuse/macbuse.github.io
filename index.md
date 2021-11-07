@@ -8,6 +8,13 @@
 
 ---
 
+- [Talk for Toulouse 9/11](./GRENOBLE/new.html)
+  - blue arrows = next/previous
+  - esc-key for overview
+  - blue text is a link to a resource on the web
+
+---
+
 ## Conway's life on a torus
 
 ![](./PROG/life_vid.gif)

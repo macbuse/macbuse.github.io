@@ -224,7 +224,7 @@ z &\mapsto& 1/\bar{z}
 200$\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on 200$\mathbb{H}$
 
 - 200$\begin{pmatrix} a & c \\ b & d \end{pmatrix}.z = \frac{az+b}{cz+d}$ 
-- preserves the Poincaré (hyerbolic) metric
+- preserves the Poincaré (hyperbolic) metric
 - the orbit of 200$F := \{ z, \mathrm{Im}\, z > 1\}$ are the Ford circles
 
 #
@@ -287,7 +287,7 @@ can be cut up into 2 ideal triangles.
 
 - 200$i, 1+i, \frac12 ( 1 + i)$ are midpoints of arcs
 - the lifts to 200$\mathbb{H}$ of the midpoints 200$=\Gamma.i$ 
-- 250$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im} i }{c^2 + d^2}$
+- 250$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}$
 
 #
 
@@ -322,6 +322,10 @@ with 200$c,d$ coprime integers is equal to the number of  integers
 such that the line
 200$\{  k/n + i t,\, t>0  \}$
 contains  a point in the 200$\Gamma$  orbit of 200$i$.
+
+#
+### Proof of lemma
+
 
 #
 ## subgroup lifts to 
