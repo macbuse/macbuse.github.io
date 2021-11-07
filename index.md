@@ -8,7 +8,7 @@
 
 ---
 
-- [Talk for Toulouse 9/11](./GRENOBLE/new.html)
+- [Slides for Toulouse 9/11](./GRENOBLE/new.html)
   - blue arrows = next/previous
   - esc-key for overview
   - blue text is a link to a resource on the web
@@ -74,8 +74,8 @@ or a TER
 - Editor [Annales de l'Institut Fourier]{http://aif.cedram.org/?lang=fr)
 - Principal investigator l'equipe action ```ToFu```
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
-- <a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/cv2016.pdf">CV</a>
--  <a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/research%20statement.pdf">research statement</a>
+- <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf">CV</a>
+-  <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf">research statement</a>
 - <a href="https://github.com/macbuse">my github account</a>
 
 #### and a little more...
@@ -103,14 +103,14 @@ And where I got time to do write stuff for Inkscape like this
 <center>
 <p> This is what I look like <br>
 
-<img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/IHP.png" alt="IHP 2012 : La Maison des Maths" />
+<img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/IHP.png" alt="IHP 2012 : La Maison des Maths" />
 <br>
 IHP 2012 : La Maison des Maths
 </p>
 </center>
 
 
-<p><a href="https://www-fourier.ujf-grenoble.fr/~methane/bestblackboards2015.html">More real math on blackboards</a></p>
+<p><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/bestblackboards2015.html">More real math on blackboards</a></p>
 
 ---
 
@@ -146,8 +146,8 @@ IHP 2012 : La Maison des Maths
 <ul>
  <li>Journées Géométrie et Topologie ENS Lyon
  <ul>
-  <li><a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/jdf2017.pdf"> Novembre 2017</a> </li>
- <li> <a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/annonce-journee-20170614.pdf"> Juin 2017</a>
+  <li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/jdf2017.pdf"> Novembre 2017</a> </li>
+ <li> <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/annonce-journee-20170614.pdf"> Juin 2017</a>
  </li>
  <li> <a href="http://math.univ-bpclermont.fr/~heusener/Lyon-dec2016/index.html"> Decembre 2016</a> </li>
   </ul>
@@ -174,7 +174,7 @@ converegence results for quasi-Fuchsian manifolds and Teichmueller theory
 to get information about closed hyperbolic manifolds.
 
 <center>
-<img src="https://www-fourier.ujf-grenoble.fr/~methane/IMAGES/qf_manifold.svg" width="600">
+<img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/qf_manifold.svg" width="600">
 </center>
 
 With Bill Goldman and a couple of  his ex students we have been working on a book that just got published <a href="https://www.amazon.com/Automorphisms-Two-generator-Isometric-Hyp:we/dp/1470436140">by the AMS</a>. Much of it is dedicated to explaining this picture of an invariant fractal in the character variety.
@@ -189,9 +189,9 @@ With Bill Goldman and a couple of  his ex students we have been working on a boo
 
 <ul>
 <li><a href="https://arxiv.org/abs/1909.09829">On systoles and ortho spectrum rigidity</a></li>
-<li><a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/entropy.pdf">NORMALIZED ENTROPY VERSUS VOLUME FOR PSEUDO-ANOSOVS</a></li>
-<li><a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/CalegariBridgeman7.pdf">EQUIDECOMPOSABILITY, VOLUME FORMULAE AND ORTHOSPECTRA</a></li>
-<li><a href="https://www-fourier.ujf-grenoble.fr/~methane/TEXTS/Kokyuroku_methane.pdf">GEOMETRIC IDENTITIES</a></li>
+<li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/entropy.pdf">NORMALIZED ENTROPY VERSUS VOLUME FOR PSEUDO-ANOSOVS</a></li>
+<li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/CalegariBridgeman7.pdf">EQUIDECOMPOSABILITY, VOLUME FORMULAE AND ORTHOSPECTRA</a></li>
+<li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/Kokyuroku_mcshane.pdf">GEOMETRIC IDENTITIES</a></li>
 </ul>
 
 ---
