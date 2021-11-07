@@ -8,7 +8,7 @@
 
 ---
 
-- [Slides for Toulouse 9/11](./GRENOBLE/frozen.html)
+- [Slides for Toulouse 9/11](./GRENOBLE/web.html)
   - blue arrows = next/previous
   - esc-key for overview
   - blue text is a link to a resource on the web
