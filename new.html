@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="greg mc">
+  <title>Geometry of sums of squares</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@3.9.2//css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="mycss.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://unpkg.com/reveal.js@3.9.2//css/print/pdf.css' : 'https://unpkg.com/reveal.js@3.9.2//css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Geometry of sums of squares</h1>
+  <p class="author">greg mc</p>
+  <p class="date">October 2021</p>
+</section>
+
+<section id="section" class="slide level1">
+<h1></h1>
+<p><img src="./Martin_Aigner.jpg" width="400"></p>
+<ul>
+<li class="fragment"><a href="https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem" target="_blank">Proofs from THE BOOK</a></li>
+<li class="fragment"><a href="https://arxiv.org/abs/2101.03316" target="_blank">Convexity and Aigner's Conjectures</a></li>
+<li class="fragment">Can I prove these with one figure ?</li>
+</ul>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<p><img src="./theoremsab.png" width="600"></p>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<p>Markov numbers are integers that appear in triples which are solutions of a Diophantine equation the so-called Markov cubic</p>
+<p><span style="font-size: 200%"><span class="math inline">\(x^2 + y^2 + z^2 - 3x y z = 0.\)</span></span></p>
+<p><span class="math inline">\((1,1,1),(1,1,2),(1,2,5),(1,5,13)\)</span></p>
+</section>
+<section id="section-3" class="slide level1">
+<h1></h1>
+<h3 id="odd-index-fibonacci-numbers-are-markoff-numbers">Odd index Fibonacci numbers are Markoff numbers</h3>
+<p><span class="math inline">\(1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...\)</span></p>
+<p><span style="font-size: 200%"><span class="math inline">\((1,1,1),(1,1,2),(1,2,5),(1,5,13)\)</span></span></p>
+</section>
+<section id="section-4" class="slide level1">
+<h1></h1>
+<h3 id="markoff-numbers">Markoff numbers</h3>
+<p><img src="./Markoff_tree_full.svg" width="500"></p>
+</section>
+<section id="section-5" class="slide level1">
+<h1></h1>
+<h3 id="frobenius-uniqueness-conjecture">Frobenius uniqueness conjecture</h3>
+<ul>
+<li class="fragment">The largest integer in a triple determines the two other numbers.</li>
+<li class="fragment">For every Markoff number <span style="font-size: 200%"><span class="math inline">\(m\)</span></span> there are exactly 3 simple closed geodesics of length <span style="font-size: 200%"><span class="math inline">\(2\cosh^{-1}(3m/2)\)</span></span> on the modular torus <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}/\Gamma&#39;\)</span></span></li>
+</ul>
+</section>
+<section id="section-6" class="slide level1">
+<h1></h1>
+<h3 id="partial-results">Partial results</h3>
+<p>m = Markoff number</p>
+<ul>
+<li class="fragment">Jack Button for <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292" target="_blank">m prime</a></li>
+<li class="fragment">Zhang <a href="https://arxiv.org/abs/math/0606283" target="&quot;_blank">An elementary proof...</a></li>
+<li class="fragment">Baragar <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88B0E426FFCBEA8B3A345C1074B8CC59/S0008439500018828a.pdf/on-the-unicity-conjecture-for-markoff-numbers.pdf" target="&quot;_blank">m, 3m - 2, 3m + 2 prime</a></li>
+<li class="fragment"><a href="https://core.ac.uk/download/pdf/82088222.pdf" target="&quot;_blank">Bugeaud, Reutenauer, Siksek</a></li>
+<li class="fragment">Conclusion too hard!!!</li>
+</ul>
+</section>
+<section id="section-7" class="slide level1">
+<h1></h1>
+<h2 id="buttons-theorem">Button's Theorem</h2>
+<p>If <span style="font-size: 200%"><span class="math inline">\(z\)</span></span> is a Markoff number which is prime<br> then there is a unique triple <span style="font-size: 200%"><span class="math inline">\(z &gt; y &gt; x\)</span></span></p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(x^2 + y^2 + z^2 - 3x y z = 0.\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\bar{x}^2 + \bar{y}^2 = 0.\)</span></span> in <span style="font-size: 200%"><span class="math inline">\(\mathbb{F}_z\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((\bar{x}/\bar{y})^2 = -1\)</span></span> in <span style="font-size: 200%"><span class="math inline">\(\mathbb{F}_z\)</span></span></li>
+</ul>
+</section>
+<section id="section-8" class="slide level1">
+<h1></h1>
+<p><img src="./theoremsab.png" width="600"></p>
+<ul>
+<li class="fragment">Button's theorem follows from unicity here</li>
+</ul>
+</section>
+<section id="section-9" class="slide level1">
+<h1></h1>
+<h2 id="two-groups-of-order-4">two groups of order 4</h2>
+<p>Acting on <span style="font-size: 150%"><span class="math inline">\(\mathbb{F}_p^*\)</span></span></p>
+<p><span style="font-size: 150%"><span class="math inline">\(\begin{array}{lll} x &amp;\mapsto&amp; -x \\ x &amp;\mapsto&amp; 1/x \end{array}\)</span></span></p>
+<p>Acting on <span style="font-size: 150%"><span class="math inline">\(\mathbb{H}\)</span></span></p>
+<p><span style="font-size: 150%"><span class="math inline">\(\begin{array}{lll} z &amp;\mapsto&amp; -\bar{z} \\ z &amp;\mapsto&amp; 1/\bar{z} \end{array}\)</span></span></p>
+</section>
+<section id="section-10" class="slide level1">
+<h1></h1>
+<h2 id="farey-tessalation">Farey tessalation</h2>
+<p><img src="./farey_bicolor.png" width="400"></p>
+</section>
+<section id="section-11" class="slide level1">
+<h1></h1>
+<h2 id="ford-circles">Ford circles</h2>
+<p><img src="./ford_circles.gif" width="400"></p>
+</section>
+<section id="section-12" class="slide level1">
+<h1></h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0hlvhQZIOQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</section>
+<section id="section-13" class="slide level1">
+<h1></h1>
+<h2 id="references-etc">References etc</h2>
+<ul>
+<li class="fragment">Heath-Brown, Fermat’s two squares theorem. Invariant (1984)</li>
+<li class="fragment">Zagier, A one-sentence proof that every prime p = 1 (mod 4) is a sum of two squares, 1990</li>
+<li class="fragment">Elsholtz, Combinatorial Approach to Sums of Two Squares and Related Problems. (2010)</li>
+<li class="fragment">Penner, The decorated Teichmueller space of punctured surfaces, Comm Math Phys (1987)</li>
+<li class="fragment"><a href="https://people.mpim-bonn.mpg.de/zagier/files/doi/10.2307/2323918/fulltext.pdf" target="_blank">Zagier text</a></li>
+</ul>
+</section>
+<section id="section-14" class="slide level1">
+<h1></h1>
+<h2 id="zagier">Zagier</h2>
+<p><img src="./zagier.png" width="800"></p>
+</section>
+<section id="section-15" class="slide level1">
+<h1></h1>
+<h3 id="burnside-lemma">Burnside Lemma</h3>
+<ul>
+<li class="fragment"><p><span style="font-size: 200%"><span class="math inline">\(G\)</span></span> acting on <span style="font-size: 200%"><span class="math inline">\(X\)</span></span> then</p>
+<p><span style="font-size: 250%"><span class="math inline">\(|G| |X/G| = \sum_{g} |X^g|\)</span></span></p></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(X^g\)</span></span> = fixed points of the element <span style="font-size: 200%"><span class="math inline">\(g\)</span></span></li>
+<li class="fragment"><p><span style="font-size: 200%"><span class="math inline">\(X/G\)</span></span> the orbit space.</p></li>
+</ul>
+</section>
+<section id="section-16" class="slide level1">
+<h1></h1>
+<h2 id="theorem-1.1">Theorem 1.1</h2>
+<p>Acting on <span style="font-size: 200%"><span class="math inline">\(X = \mathbb{F}_p^*\)</span></span></p>
+<ul>
+<li class="fragment">identity <span style="font-size: 200%"><span class="math inline">\(|X^g| = p-1\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(x \mapsto -x, |X^g| = 0\)</span></span><br />
+</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(x \mapsto 1/x, |X^g| = 2\)</span></span><br />
+</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(x \mapsto -1/x, |X^g| = \ldots\)</span></span></li>
+</ul>
+</section>
+<section id="section-17" class="slide level1">
+<h1></h1>
+<ul>
+<li class="fragment"><span style="font-size: 250%"><span class="math inline">\(|G| |X/G| = \sum_{g} |X^g|\)</span></span></li>
+<li class="fragment"><span style="font-size: 250%"><span class="math inline">\(4 |X/G| = (p-1) + 2 + |X^{(x\mapsto -1/x)}|\)</span></span></li>
+<li class="fragment"><span style="font-size: 250%"><span class="math inline">\(\Rightarrow |X^{(x\mapsto -1/x)}|= 2\)</span></span>,, if <span style="font-size: 250%"><span class="math inline">\(4 \not | (p+1)\)</span></span></li>
+<li class="fragment"><span style="font-size: 250%"><span class="math inline">\(\Rightarrow \exists x,\, x^2 = -1\)</span></span>, if <span style="font-size: 250%"><span class="math inline">\(4 \not | (p+1)\)</span></span></li>
+</ul>
+</section>
+<section id="section-18" class="slide level1">
+<h1></h1>
+<h2 id="theorem-1.2-sum-of-2-squares">Theorem 1.2: sum of 2 squares</h2>
+<p>Acting on <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}\)</span></span></p>
+<p><span style="font-size: 200%"><span class="math inline">\(\begin{array}{lll} z &amp;\mapsto&amp; -\bar{z} \\ z &amp;\mapsto&amp; 1/\bar{z} \end{array}\)</span></span></p>
+</section>
+<section id="section-19" class="slide level1">
+<h1></h1>
+<h2 id="primitives">Primitives</h2>
+<ul>
+<li class="fragment"><span style="font-size: 250%"><span class="math inline">\(\mathbb{Z}^2\)</span></span></li>
+<li class="fragment">infinitely many primitive elements</li>
+<li class="fragment"><span style="font-size: 250%"><span class="math inline">\((a,b)\)</span></span> primitive iff <span style="font-size: 250%"><span class="math inline">\(a,b \in \mathbb{Z}\)</span></span> coprime</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(SL(2,\mathbb{Z})\)</span></span> transitive on primitives</li>
+</ul>
+</section>
+<section id="section-20" class="slide level1">
+<h1></h1>
+<h2 id="important">Important</h2>
+<p><span style="font-size: 200%"><span class="math inline">\(\{ \textit{primitives} \} = \mathbb{Q}\cup \infty \subset\)</span></span> circle/projective line <span style="font-size: 200%"><span class="math inline">\(= \partial_\infty \mathbb{H}\)</span></span></p>
+</section>
+<section id="section-21" class="slide level1">
+<h1></h1>
+</section>
+<section id="section-22" class="slide level1">
+<h1></h1>
+<h2 id="farey-tessalation-1">Farey tessalation</h2>
+<p><span style="font-size: 200%"><span class="math inline">\(\mathbb{Q}\cup \infty \subset\)</span></span> circle/projective line</p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((a,b)\text{ primitive } \mapsto a/b \in \mathbb{Q}\cup \infty\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\begin{pmatrix} a &amp; c \\ b &amp; d \end{pmatrix} \in \mathrm{SL}(2,\mathbb{Z})\mapsto\)</span></span> arc joining <span style="font-size: 200%"><span class="math inline">\((a/b, c/d)\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((a/b, c/d)\)</span></span> are Farey neighbors</li>
+</ul>
+</section>
+<section id="section-23" class="slide level1">
+<h1></h1>
+<p><img src="./sami.jpg" width="600"></p>
+<p><a href="https://www.math.mcgill.ca/sdouba/seminar/sami">source</a></p>
+</section>
+<section id="section-24" class="slide level1">
+<h1></h1>
+<p><img src="./farey_tree.png" width="600"></p>
+<p><a href="https://www3.nd.edu/~math/rtg/GTS/www3.nd.edu/_jquigle2/GSTS%20FA18/Week1P.pdf">source</a></p>
+</section>
+<section id="section-25" class="slide level1">
+<h1></h1>
+<h2 id="definitions">Definitions</h2>
+<ul>
+<li class="fragment"><strong>arc</strong> = Poincaré geodesic joining <span style="font-size: 200%"><span class="math inline">\(a/b, c/d \in \mathbb{Q}\cup \infty\)</span></span></li>
+<li class="fragment"><strong><span style="font-size: 200%"><span class="math inline">\(\lambda\)</span></span>- length of arc</strong> <span style="font-size: 200%"><span class="math inline">\(= |ad - bc|^2\)</span></span></li>
+</ul>
+</section>
+<section id="section-26" class="slide level1">
+<h1></h1>
+<h2 id="lemma">Lemma</h2>
+<p><strong><span style="font-size: 200%"><span class="math inline">\(\log \lambda\)</span></span>- length </strong> = length of the portion outside Ford circles tangent to the real line at its endpoints</p>
+</section>
+<section id="section-27" class="slide level1">
+<h1></h1>
+<h2 id="ford-circles-1">Ford circles</h2>
+<p><img src="./ford_circles.gif" width="400"></p>
+</section>
+<section id="section-28" class="slide level1">
+<h1></h1>
+<p><span style="font-size: 200%"><span class="math inline">\(\mathrm{SL}(2,\mathbb{Z})\)</span></span> acts by Mobius transformations on <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}\)</span></span></p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\begin{pmatrix} a &amp; c \\ b &amp; d \end{pmatrix}.z = \frac{az+b}{cz+d}\)</span></span></li>
+<li class="fragment">preserves the Poincaré (hyerbolic) metric</li>
+<li class="fragment">the orbit of <span style="font-size: 200%"><span class="math inline">\(F := \{ z, \mathrm{Im}\, z &gt; 1\}\)</span></span> are the Ford circles</li>
+</ul>
+</section>
+<section id="section-29" class="slide level1">
+<h1></h1>
+<p><img src="./ford_circles_again.png" width="600"></p>
+<ul>
+<li class="fragment">point of tangency with <span style="font-size: 200%"><span class="math inline">\(\mathbb{R} = p/q\)</span></span>, diameter = <span style="font-size: 200%"><span class="math inline">\(1/q^2\)</span></span></li>
+</ul>
+</section>
+<section id="section-30" class="slide level1">
+<h1></h1>
+<h3 id="proof-of-lemma">Proof of lemma</h3>
+<ul>
+<li class="fragment"><strong>arc</strong> joining <span style="font-size: 200%"><span class="math inline">\(a/b, c/d\)</span></span> has <strong><span style="font-size: 200%"><span class="math inline">\(\lambda\)</span></span>- length </strong> <span style="font-size: 200%"><span class="math inline">\(= |ad - bc|^2\)</span></span></li>
+<li class="fragment"><strong><span style="font-size: 200%"><span class="math inline">\(\log \lambda\)</span></span>- length </strong> = length of the portion outside Ford circles tangent to the real line at its endpoints</li>
+</ul>
+</section>
+<section id="section-31" class="slide level1">
+<h1></h1>
+<h3 id="proof-of-lemma-1">Proof of lemma</h3>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\mathrm{SL}(2,\mathbb{Z})\)</span></span> transitive,</li>
+<li class="fragment">can suppose <span style="font-size: 200%"><span class="math inline">\(a/b = \infty\)</span></span> and <span style="font-size: 200%"><span class="math inline">\(c/d = k/(ad - bc)\)</span></span></li>
+<li class="fragment">Ford circles <span style="font-size: 200%"><span class="math inline">\(F\)</span></span> tangent at <span style="font-size: 200%"><span class="math inline">\(\infty\)</span></span></li>
+<li class="fragment">and another of diameter <span style="font-size: 200%"><span class="math inline">\(1/(ad - bc)^2\)</span></span></li>
+<li class="fragment">the <strong>midpoint</strong> of this vertical arc is at height <span style="font-size: 200%"><span class="math inline">\(1/|ad - bc|\)</span></span></li>
+</ul>
+</section>
+<section id="section-32" class="slide level1">
+<h1></h1>
+</section>
+<section id="section-33" class="slide level1">
+<h1></h1>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\Gamma = \mathrm{SL}(2,\mathbb{Z})\)</span></span> has torsion so <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}/\Gamma\)</span></span> orbifold</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\Gamma(2) = \ker (\mathrm{SL}(2,\mathbb{Z})\rightarrow \mathrm{SL}(2,\mathbb{F}_2))\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\Gamma&#39; = [\Gamma,\Gamma]\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\mathbb{H}/\Gamma(2)\)</span></span> three punctured sphere</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\mathbb{H}/\Gamma&#39;\)</span></span> once punctured torus</li>
+</ul>
+</section>
+<section id="section-34" class="slide level1">
+<h1></h1>
+<p>In the solution of Aigner's conjectures the geometry of the simple geodesics on <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}/\Gamma&#39;\)</span></span> once punctured torus was important.</p>
+<ul>
+<li class="fragment">For Fermat's theorem it's the automorphisms of <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}/\Gamma(2)\)</span></span> = three punctured sphere</li>
+</ul>
+</section>
+<section id="section-35" class="slide level1">
+<h1></h1>
+<p>A three punctured sphere <br> can be cut up into 2 ideal triangles.</p>
+<p><img src="./fund_dom_gamma2.png" width="400"></p>
+<ul>
+<li class="fragment">Fundamental domain for <span style="font-size: 200%"><span class="math inline">\(\Gamma(2)\)</span></span></li>
+</ul>
+</section>
+<section id="section-36" class="slide level1">
+<h1></h1>
+<p><img src="./three_punctured.png" width="400"></p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(i, 1+i, \frac12 ( 1 + i)\)</span></span> are midpoints</li>
+</ul>
+</section>
+<section id="section-37" class="slide level1">
+<h1></h1>
+<h2 id="reciprocals-of-sums-of-squares">reciprocals of sums of squares</h2>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(i, 1+i, \frac12 ( 1 + i)\)</span></span> are midpoints of arcs</li>
+<li class="fragment">the lifts to <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}\)</span></span> of the midpoints <span style="font-size: 200%"><span class="math inline">\(=\Gamma.i\)</span></span></li>
+<li class="fragment"><span style="font-size: 250%"><span class="math inline">\(\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im} i }{c^2 + d^2}\)</span></span></li>
+</ul>
+</section>
+<section id="section-38" class="slide level1">
+<h1></h1>
+<p>What is the group of automorphisms? <img src="./three_punctured.png" width="400"></p>
+</section>
+<section id="section-39" class="slide level1">
+<h1></h1>
+<p>What is the subgroup of automorphisms <br> fixing the cusp labeled <span style="font-size: 200%"><span class="math inline">\(\infty\)</span></span>?</p>
+</section>
+<section id="section-40" class="slide level1">
+<h1></h1>
+<ul>
+<li class="fragment">fixes the cusp and midpoint <span style="font-size: 200%"><span class="math inline">\(\frac12(1+i)\)</span></span><br></li>
+<li class="fragment">dashed geodesics are invariant under the group<br> <img src="./three_punctured.png" width="400"></li>
+</ul>
+</section>
+<section id="section-41" class="slide level1">
+<h1></h1>
+<h3 id="the-set-x">the set <span style="font-size: 200%"><span class="math inline">\(X\)</span></span></h3>
+<ul>
+<li class="fragment">arcs joining cusps <span style="font-size: 200%"><span class="math inline">\(\infty, 1\)</span></span> with <span style="font-size: 200%"><span class="math inline">\(\lambda\)</span></span>-length <span style="font-size: 200%"><span class="math inline">\(p^2\)</span></span></li>
+<li class="fragment">lift to vertical lines with endpoints <span style="font-size: 200%"><span class="math inline">\(k/p\)</span></span> with <span style="font-size: 200%"><span class="math inline">\(k\)</span></span> odd</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(|X| = p - 1\)</span></span> as before</li>
+</ul>
+</section>
+<section id="section-42" class="slide level1">
+<h1></h1>
+<h3 id="lemma-1">Lemma</h3>
+<p>Let <span style="font-size: 200%"><span class="math inline">\(n\)</span></span> be a positive integer. The number of ways of writing <span style="font-size: 200%"><span class="math inline">\(n\)</span></span> as a sum of squares <span style="font-size: 200%"><span class="math inline">\(n = c^2 + d^2\)</span></span> with <span style="font-size: 200%"><span class="math inline">\(c,d\)</span></span> coprime integers is equal to the number of integers <span style="font-size: 200%"><span class="math inline">\(0 \leq k &lt; n-1\)</span></span> coprime to <span style="font-size: 200%"><span class="math inline">\(n\)</span></span> such that the line <span style="font-size: 200%"><span class="math inline">\(\{ k/n + i t,\, t&gt;0 \}\)</span></span> contains a point in the <span style="font-size: 200%"><span class="math inline">\(\Gamma\)</span></span> orbit of <span style="font-size: 200%"><span class="math inline">\(i\)</span></span>.</p>
+</section>
+<section id="section-43" class="slide level1">
+<h1></h1>
+<h2 id="subgroup-lifts-to">subgroup lifts to</h2>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(U&#39;: z \mapsto 2-\bar{z},\, V&#39; : z \mapsto \bar{z}/(\bar{z} - 1)\)</span></span></li>
+<li class="fragment">composition is <span style="font-size: 200%"><span class="math inline">\(U&#39;\circ V&#39; : z \mapsto z \mapsto (-z + 2) /( z + 1)\)</span></span></li>
+<li class="fragment">whose fixed point is <span style="font-size: 200%"><span class="math inline">\(i+1\)</span></span>.</li>
+</ul>
+</section>
+<section id="section-44" class="slide level1">
+<h1></h1>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(U&#39;: z \mapsto 2-\bar{z}\)</span></span> induces an automorphism no fixed points in <span style="font-size: 200%"><span class="math inline">\(X,\, p \geq 3\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(V&#39; : z \mapsto \bar{z}/(\bar{z} - 1)\)</span></span> is an inversion in a circle center with endpoints -1 and 1</li>
+<li class="fragment">projection to surface is simple arc of <span style="font-size: 200%"><span class="math inline">\(\lambda\)</span></span> length <span style="font-size: 200%"><span class="math inline">\(=4\)</span></span></li>
+</ul>
+</section>
+<section id="section-45" class="slide level1">
+<h1></h1>
+<h2 id="lemma-2">Lemma</h2>
+<p>The automorphism <span style="font-size: 200%"><span class="math inline">\(V\)</span></span> induced by <span style="font-size: 200%"><span class="math inline">\(V&#39;\)</span></span> <br> fixes two and exactly two arcs in <span style="font-size: 200%"><span class="math inline">\(X\)</span></span>.</p>
+<ul>
+<li class="fragment">apply Burnside Lemma to prove Theorem 1.2</li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(4 |X/G| = (p-1) + 2 + |X^{U\circ V}|\)</span></span></li>
+</ul>
+</section>
+<section id="section-46" class="slide level1">
+<h1></h1>
+<h2 id="proof">Proof</h2>
+<ul>
+<li class="fragment">If <span style="font-size: 200%"><span class="math inline">\(\infty\)</span></span> and <span style="font-size: 200%"><span class="math inline">\(k/p\)</span></span> are exchanged by an inversion swapping Ford circles</li>
+<li class="fragment">Then the endpoints of the fixed circle are <span style="font-size: 200%"><span class="math inline">\((k-1)/p\)</span></span> and <span style="font-size: 200%"><span class="math inline">\((k+1)/p\)</span></span><br />
+</li>
+<li class="fragment">if <span style="font-size: 200%"><span class="math inline">\(1 &lt; k &lt; p-1\)</span></span> the arc joining these points has <span style="font-size: 200%"><span class="math inline">\(\lambda\)</span></span>-length = <span style="font-size: 200%"><span class="math inline">\(4p^2 &gt;4\)</span></span></li>
+</ul>
+</section>
+<section id="section-47" class="slide level1">
+<h1></h1>
+<h2 id="buttons-theorem-1">Button's Theorem</h2>
+<p>If <span style="font-size: 200%"><span class="math inline">\(z\)</span></span> is a Markoff number which is prime<br> then there is a unique triple <span style="font-size: 200%"><span class="math inline">\(z &gt; y &gt; x\)</span></span></p>
+<ul>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(x^2 + y^2 + z^2 - 3x y z = 0.\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\(\bar{x}^2 + \bar{y}^2 = 0\)</span></span> in <span style="font-size: 200%"><span class="math inline">\(\mathbb{F}_z\)</span></span></li>
+<li class="fragment"><span style="font-size: 200%"><span class="math inline">\((\bar{x}/\bar{y})^2 = -1\)</span></span> in <span style="font-size: 200%"><span class="math inline">\(\mathbb{F}_z\)</span></span></li>
+</ul>
+</section>
+<section id="section-48" class="slide level1">
+<h1></h1>
+<ul>
+<li class="fragment">Button's theorem follows from unicity and</li>
+<li class="fragment">For every Markoff number <span style="font-size: 200%"><span class="math inline">\(m\)</span></span> there are exactly 3 simple closed geodesics of length <span style="font-size: 200%"><span class="math inline">\(2\cosh^{-1}(3m/2)\)</span></span> on the modular torus <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}/\Gamma&#39;\)</span></span></li>
+<li class="fragment">exactly 3 simple arcs of <span style="font-size: 200%"><span class="math inline">\(\lambda\)</span></span> length <span style="font-size: 200%"><span class="math inline">\(9m^2\)</span></span> on <span style="font-size: 200%"><span class="math inline">\(\mathbb{H}/\Gamma&#39;\)</span></span></li>
+</ul>
+</section>
+<section id="thats-all-folks" class="slide level1">
+<h1>That's all folks!!!!!</h1>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@3.9.2//lib/js/head.min.js"></script>
+  <script src="https://unpkg.com/reveal.js@3.9.2//js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://unpkg.com/reveal.js@3.9.2//lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/zoom-js/zoom.js', async: true },
+              { src: 'https://unpkg.com/reveal.js@3.9.2//plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
