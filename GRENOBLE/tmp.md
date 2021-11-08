@@ -27,7 +27,7 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 #
 ### Odd index Fibonacci numbers are Markoff numbers
 
-50$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$
+<span style="font-size: 50%">$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$</span>
 
 $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 
@@ -81,17 +81,17 @@ $x^2 + y^2 + z^2 - 3x y z = 0.$
 
 Acting on $\mathbb{F}_p^*$
 
-150$\begin{array}{lll}
+<span style="font-size: 150%">$\begin{array}{lll}
 x &\mapsto& -x \\
 x &\mapsto& 1/x
-\end{array}$
+\end{array}$</span>
 
 Acting on $\mathbb{H}$
 
-150$\begin{array}{lll}
+<span style="font-size: 150%">$\begin{array}{lll}
 z &\mapsto& -\bar{z} \\
 z &\mapsto& 1/\bar{z}
-\end{array}$
+\end{array}$</span>
 
 #
 ## Farey tessalation
@@ -301,7 +301,7 @@ can be cut up into 2 ideal triangles.
 
 #
 
-200$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}=  \frac{1}{c^2 + d^2}$
+<span style="font-size: 200%">$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}=  \frac{1}{c^2 + d^2}$</span>
 
 #
 
@@ -320,7 +320,7 @@ fixing the cusp labeled $\infty$?
 <img src="./three_punctured.png" width="400">
 
 #
-### the set 85$X$
+### the set <span style="font-size: 85%">$X$</span>
 
 - arcs joining cusps $\infty, 1$ with $\lambda$-length $p^2$
 - lift to vertical lines with endpoints $k/p$ with $k$ odd
