@@ -15,7 +15,8 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 ### Friday 12/11
 
-This class is online as it is **le pont du 11 novembre**
+This class online as it is **le pont du 11 novembre**
+and the TAG is on strike
 
 This week we'll be looking at a simple example of 
 - [scraping](https://en.wikipedia.org/wiki/Web_scraping) 
@@ -26,6 +27,12 @@ These are the two basic techniques necessary to build a robot like Google uses t
 - [notebook](./reg_exp.ipynb)
 - [my ideas](./gph2sites.ipynb)
 
+#### Why?
+
+Well my son told me that 
+[everything is about philosophy](https://www.huffpost.com/entry/wikipedia-philosophy_n_1093460#:~:text=Everything%20is%20about%20philosophy%2C%20in,%2C%22%20which%20describes%20the%20phenomenon.).
+
+---
 
 ### Friday 29/10
 
