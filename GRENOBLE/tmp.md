@@ -14,7 +14,6 @@
 
 <img src="./theoremsab.png" width="800">
 
-
 #
 
 Markov numbers are integers that appear in triples which are solutions of
@@ -34,6 +33,15 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 #
 ### Markoff numbers
 
+<img src="./Markoff_tree_full.svg" width="600">
+
+#
+## observation
+
+- Every integer appears to appear at most 6 times
+
+#
+### Multiplicity $\leq 6$
 
 <img src="./Markoff_tree_full.svg" width="600">
 
@@ -320,6 +328,13 @@ fixing the cusp labeled $\infty$?
 <img src="./three_punctured.png" width="400">
 
 #
+### subgroup lifts to 
+
+- $U': z \mapsto 2-\bar{z},\, V' : z \mapsto \bar{z}/(\bar{z} - 1)$
+- composition is $U'\circ V' : z \mapsto z \mapsto (-z + 2) /( z + 1)$
+- whose fixed point is $i+1$
+
+#
 ### the set <span style="font-size: 85%">$X$</span>
 
 - arcs joining cusps $\infty, 1$ with $\lambda$-length $p^2$
@@ -327,11 +342,10 @@ fixing the cusp labeled $\infty$?
 - $|X| = p - 1$ as before
 
 #
-## Lemma
+## Lemma A
 
 - Let $n$ be a positive integer.
-- The number of  ways of writing $n$  as a  sum of squares
-$n = c^2 + d^2$ with $c,d$ coprime integers
+- The number of  ways of writing $n$  as a  sum of squares $n = c^2 + d^2$ with $c,d$ coprime integers
 -  is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
 
 #
@@ -339,7 +353,7 @@ $n = c^2 + d^2$ with $c,d$ coprime integers
 
 
 #
-### subgroup lifts to 
+### action of generators
 
 - $U': z \mapsto 2-\bar{z},\, V' : z \mapsto \bar{z}/(\bar{z} - 1)$
 - composition is $U'\circ V' : z \mapsto z \mapsto (-z + 2) /( z + 1)$
@@ -351,10 +365,10 @@ $n = c^2 + d^2$ with $c,d$ coprime integers
     $X,\, p \geq 3$
 - $V' : z \mapsto \bar{z}/(\bar{z} - 1)$ is an inversion in a circle 
     with endpoints -1 and 1
-- projection to surface is simple arc of $\lambda$ length $=4$
+- projection to surface is simple arc of $\lambda$-length $=4$
 
 #
-## Lemma
+## Lemma B
 
 The automorphism $V$ induced by $V'$ <br>
 fixes two and exactly two arcs in $X$.
@@ -376,14 +390,21 @@ fixes two and exactly two arcs in $X$.
 If $z$ is a Markoff number which is prime<br>
 then there is a unique triple $z > y > x$
 
-- $x^2 + y^2 + z^2 - 3x y z = 0.$
-- $\bar{x}^2 + \bar{y}^2 = 0$ in $\mathbb{F}_z$
-- $(\bar{x}/\bar{y})^2 = -1$ in $\mathbb{F}_z$
+- Button's theorem follows from unicity in $z = c^2 + d^2$
+- $\Leftrightarrow$ unique vertical geodesic in Lemma A.
+- let's look at that
 
 #
 
-- Button's theorem follows from unicity and
+- The number of  ways of writing $n$  as a  sum of squares $n = c^2 + d^2$ with $c,d$ coprime integers
+-  is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
 - For every Markoff number $m$ there are exactly 3 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus $\mathbb{H}/\Gamma'$ 
-- exactly 3 simple arcs of $\lambda$ length $9m^2$ on $\mathbb{H}/\Gamma'$ 
+- $\Leftrightarrow$ exactly 3 simple arcs of $\lambda$ length $9m^2$ on $\mathbb{H}/\Gamma'$ 
+
+#
+
+<div class="wrap"><iframe data-src="./button.html" > </iframe></div>
+
+
 
 # That's all folks!!!!!

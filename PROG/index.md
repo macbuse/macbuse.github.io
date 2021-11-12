@@ -1,6 +1,5 @@
 # Introduction
 
-
 I suppose you know how to ask Google to translate this page in french - I have
 an qwerty keyboard and accents are impossible.
 
@@ -17,6 +16,15 @@ To begin with the videos will be mostly in french but some subjects are only rea
 ### Friday 12/11
 
 This class is online as it is **le pont du 11 novembre**
+
+This week we'll be looking at a simple example of 
+- [scraping](https://en.wikipedia.org/wiki/Web_scraping) 
+- [crawling](https://en.wikipedia.org/wiki/Web_crawler).
+
+These are the two basic techniques necessary to build a robot like Google uses to index the web.
+
+- [notebook](./reg_exp.ipynb)
+- [my ideas](./gph2sites.ipynb)
 
 
 ### Friday 29/10
