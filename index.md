@@ -19,7 +19,7 @@
 
 [More details](teaching.md)
 
-### First semester
+## First semester
 
 
 ### introduction à la programmation 
@@ -50,7 +50,7 @@
 
 ---
 
-### Stages/TER
+## Stages/TER
 
 but if you are looking for a stage M2R they are here:
 
@@ -64,7 +64,7 @@ or a TER
 
 ---
 
-### What do I do?
+# What do I do?
 
 - Ex directeur de [GDR TRESSES]http://tresses.math.cnrs.fr)
 - Editor [Annales de l'Institut Fourier]{http://aif.cedram.org/?lang=fr)
@@ -74,7 +74,7 @@ or a TER
 -  <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf">research statement</a>
 - <a href="https://github.com/macbuse">my github account</a>
 
-#### and a little more...
+## and a little more...
 
 I am a (low dimensional) topologist a subject which has it's origins in the
 <a href="http://analysis-situs.math.cnrs.fr/"> work of the French mathematician Henri Poincaré</a>.
