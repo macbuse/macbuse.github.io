@@ -128,7 +128,7 @@ IHP 2012 : La Maison des Maths
 - Artin Groups, CAT(0) Geometry and Related Topics
 - Teichmüller Theory: Classical, Higher, Super and Quantum 
 - Complex Hyperbolic Geometry and Related Topic
-- <a href="https://c.lmno.cnrs.fr/Braids2020">Conférence internationale à la mémoire de Patrick Dehornoy</a>
+- [ Conférence internationale à la mémoire de Patrick Dehornoy]( https://c.lmno.cnrs.fr/Braids2020)
    
 ### Previous conferences
 
