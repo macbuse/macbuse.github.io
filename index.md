@@ -8,13 +8,6 @@
 
 ---
 
-- [Slides for Toulouse 9/11](./GRENOBLE/web.html)
-  - blue arrows = next/previous
-  - esc-key for overview
-  - blue text is a link to a resource on the web
-
----
-
 ## Conway's life on a torus
 
 ![](./PROG/life_vid.gif)
@@ -51,6 +44,7 @@
 - [corrections F3]( ./MAT305/f3_corr.pdf)
 - [corrections F3 bis ]( ./MAT305/f3_corr_2.pdf)
 - [corrections F3 ter ]( ./MAT305/f3_corr_3.pdf)
+- [corrections F4]( ./MAT305/f4_corr_1.pdf)
 
 ---
 

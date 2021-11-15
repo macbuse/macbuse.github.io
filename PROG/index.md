@@ -16,7 +16,7 @@ To begin with the videos will be mostly in french but some subjects are only rea
 ### Friday 12/11
 
 This class online as it is **le pont du 11 novembre**
-and the TAG is on strike
+
 
 This week we'll be looking at a simple example of 
 - [scraping](https://en.wikipedia.org/wiki/Web_scraping) 
