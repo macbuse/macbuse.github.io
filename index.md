@@ -47,6 +47,7 @@
 - [corrections F3 bis ]( ./MAT305/f3_corr_2.pdf)
 - [corrections F3 ter ]( ./MAT305/f3_corr_3.pdf)
 - [corrections F4]( ./MAT305/f4_corr_1.pdf)
+- [corrections F4 bis]( ./MAT305/f4_corr_2.pdf)
 
 ---
 
@@ -199,7 +200,7 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 - esc-key for overview
 - blue text is a link to a resource on the web
 
-- [Toulouse 9/11](./GRENOBLE/new.html)
+- [Toulouse 9/11]( ./GRENOBLE/web.html)
 - [Grenoble 8/10](./GRENOBLE/new.html)
 
 
