@@ -9,9 +9,12 @@
 
 ---
 
+
 ## Conway's life on a torus
 
+<center>
 <img src="./PROG/life_vid.gif" width="600">
+</center>
 
 ---
 
