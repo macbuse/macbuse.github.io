@@ -15,7 +15,14 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 ### Friday 12/11
 
-This class online as it is **le pont du 11 novembre**
+I will be teaching at 13:45 on 19 novembre
+
+We'll begin by discussing how to see that everything is philosophy.
+
+- [scraping](https://en.wikipedia.org/wiki/Web_scraping) 
+- [crawling](https://en.wikipedia.org/wiki/Web_crawler).
+
+### Friday 12/11
 
 
 This week we'll be looking at a simple example of 

@@ -41,6 +41,7 @@
 - [cours](./MAT305/cours.pdf)
 - [F1](./MAT305/TD1.pdf)
 - [F2](./MAT305/TD2.pdf)
+
 - [correction exo 6](./MAT305/correction_f2exo6.pdf)
 - [correction exos 7 etc](./MAT305/correction_rest.pdf)
 - [corrections F3]( ./MAT305/f3_corr.pdf)
@@ -67,7 +68,7 @@ or a TER
 
 # What do I do?
 
-- Ex directeur de [GDR TRESSES]http://tresses.math.cnrs.fr)
+- Ex directeur de [GDR TRESSES](http://tresses.math.cnrs.fr)
 - Editor [Annales de l'Institut Fourier]{http://aif.cedram.org/?lang=fr)
 - Principal investigator l'equipe action ```ToFu```
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
