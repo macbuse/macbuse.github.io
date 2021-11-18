@@ -11,7 +11,7 @@
 
 ## Conway's life on a torus
 
-![](./PROG/life_vid.gif)
+<img src="./PROG/life_vid.gif" width="600">
 
 ---
 
