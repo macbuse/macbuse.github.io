@@ -25,17 +25,18 @@ We'll begin by discussing how to see that everything is philosophy.
 
 #### Why?
 
-Google started out as a search engine and won the **search engine war**
+Google started out as a search engine and won the [search engine war](https://www.searchenginepeople.com/blog/125-why-google-won.html)
 by serving the most relevant results using the 
-[pagerank](https://dm561.github.io/assets/dm561-pagerank.pdf)
-algorithm.
+[pagerank](https://dm561.github.io/assets/dm561-pagerank.pdf) algorithm.
 Basically this 
 - represents the web as an adjacency matrix for a graph
 - finds the biggest eigenvalue and it's eigenvector
-- interprets the eigenvector as a probabliltity distribution 
+- interprets the eigenvector as a probability distributionr	
 - ranks pages according to the corresponding coefficient in the eigenvector
 
 This is a standard thing to do for random [walks on a graph](https://en.wikipedia.org/wiki/Random_walk).
+
+---
 
 ### Friday 12/11
 
