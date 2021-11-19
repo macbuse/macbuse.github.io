@@ -13,7 +13,7 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 ---
 
-### Friday 12/11
+### Friday 19/11
 
 I will be teaching at 13:45 on 19 novembre
 
@@ -173,8 +173,6 @@ This is done for:
 - wikipedia
 - novels and newspaper articles
 - forums 
-
-
 
 
 ---
