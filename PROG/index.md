@@ -118,76 +118,6 @@ Watch these videos before starting:
 ## Why do this?
 
 Numpy was developed by phycists for doing large numerical calculations.
----
-### Friday 24/9
-
-Here is the [second notebook](./numpy_intro.ipynb).
--- There are some difficult things in it mainly about matrices.
--- There are some excercises at the end of the worksheet.
-
-
-Watch these videos before starting:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Why do this?
-
-Numpy was developed by phycists for doing large numerical calculations.
----
-### Friday 24/9
-
-Here is the [second notebook](./numpy_intro.ipynb).
--- There are some difficult things in it mainly about matrices.
--- There are some excercises at the end of the worksheet.
-
-
-Watch these videos before starting:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Why do this?
-
-Numpy was developed by phycists for doing large numerical calculations.
-It is efficient because the loops that we would usually write are
----
-### Friday 24/9
-
-Here is the [second notebook](./numpy_intro.ipynb).
--- There are some difficult things in it mainly about matrices.
--- There are some excercises at the end of the worksheet.
-
-
-Watch these videos before starting:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Why do this?
-
-Numpy was developed by phycists for doing large numerical calculations.
-It is efficient because the loops that we would usually write are
----
-### Friday 24/9
-
-Here is the [second notebook](./numpy_intro.ipynb).
--- There are some difficult things in it mainly about matrices.
--- There are some excercises at the end of the worksheet.
-
-
-Watch these videos before starting:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Why do this?
-
-Numpy was developed by phycists for doing large numerical calculations.
 It is efficient because the loops that we would usually write are
 hidden by the API and done in **C**.
 
@@ -249,6 +179,8 @@ This is done for:
 
 ---
 ### Friday 9/10
+
+You should do this for next week.
 
 ---
 
