@@ -22,6 +22,7 @@ We'll begin by discussing how to see that everything is philosophy.
 - [scraping](https://en.wikipedia.org/wiki/Web_scraping) 
 - [crawling](https://en.wikipedia.org/wiki/Web_crawler).
 
+So you should compute the eigenvalues of the adjacency matrix and try to draw the graph.
 
 #### Why?
 
@@ -69,11 +70,15 @@ Well my son told me that
 
 well because convolutions allow us to write complicated stuff in a very simple way sometimes.
 
+---
+
 
 ### Friday 22/10
 
 - Finish the notebook on affine maps
 - Draw the Barnsley fern
+
+---
 
 ### Friday 15/10
 
@@ -86,6 +91,7 @@ If you really want to do a project on games then look at this
 - [Nash](https://www.theoj.org/joss-papers/joss.00904/10.21105.joss.00904.pdf).
 - [documentation](https://nashpy.readthedocs.io/en/stable/tutorial/index.html)
 
+---
 
 ### Friday 8/10
 
@@ -238,12 +244,12 @@ course using a Kaggle account if you have one.
 
 I use Linux/OS X and usually start JuPyteR from a terminal
 
-``` jupyter lab```
+```jupyter lab```
 
 Lab is a version of JuPyteR scheduled to replace ```jupyter notebooks```
 but there are still some bugs (in particular when using interactive widgets).
 
-When I run ``` jupyter lab``` this appears in the navigator:
+When I run ```jupyter lab``` this appears in the navigator:
 
 ![img](jlab.png)
 
