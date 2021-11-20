@@ -43,13 +43,13 @@ project of denying the possibility of truth beyond partisan perspective.
 Covid: What’s the best way to top up our immunity?
 [BBC](https://www.bbc.com/news/health-58270098)
 
-```"We could be digging ourselves into a hole, for a very long time, where we think we can only keep Covid away by boosting every year," Prof Eleanor Riley, an immunologist from the University of Edinburgh
-```
+"We could be digging ourselves into a hole, for a very long time, where we think we can only keep Covid away by boosting every year," Prof Eleanor Riley, an immunologist from the University of Edinburgh
+
 
 [Riley Roslin Institut](https://en.wikipedia.org/wiki/Eleanor_Riley)
 
-```"This isn't proven, but it could be a lot cheaper and simpler to let that happen than spend the whole time immunising people," said Prof Finn, who warns we could end up "locked into a cycle of boosting" without seeing if it was necessary. he said the argument in children had "already been won" as "40-50% have already been infected and most weren't ill or particularly ill".
-```
+"This isn't proven, but it could be a lot cheaper and simpler to let that happen than spend the whole time immunising people," said Prof Finn, who warns we could end up "locked into a cycle of boosting" without seeing if it was necessary. he said the argument in children had "already been won" as "40-50% have already been infected and most weren't ill or particularly ill".
+
 
 [Adam Finn, Bristol](https://research-information.bris.ac.uk/en/persons/adam-h-r-finn)
 
@@ -268,13 +268,13 @@ This could be caused by:
 
 [Study](https://www.imperial.ac.uk/news/231557/covid-vaccines-effective-household-transmission-delta/)
 
-``` These are the findings of a study of COVID-19 transmission between household contacts, led by Imperial College London and the UK Health Security Agency (HSA) and published today in The Lancet Infectious Diseases.
-```
+ These are the findings of a study of COVID-19 transmission between household contacts, led by Imperial College London and the UK Health Security Agency (HSA) and published today in The Lancet Infectious Diseases.
+
 
 [Guardian](https://www.theguardian.com/commentisfree/2021/nov/10/mandatory-covid-jabs-nhs-staff-frontline-workers-unvaccinated-pandemic#comment-153028654)
 
-```Frontline workers cannot expect to remain unvaccinated in a pandemic and to keep working with vulnerable people
-```
+Frontline workers cannot expect to remain unvaccinated in a pandemic and to keep working with vulnerable people
+
 
 
 It finds that people who have received two doses of vaccine have a lower, but still appreciable, risk of becoming infected with the delta variant in the home compared with people who are unvaccinated. The authors stress that vaccination also reduces the risk of severe illness, hospitalisation and death from COVID-19.
