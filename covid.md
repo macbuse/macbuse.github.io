@@ -57,8 +57,7 @@ Covid: What’s the best way to top up our immunity?
 
 [NZ move on strategy](https://www.theguardian.com/world/2021/aug/23/big-questions-new-zealand-covid-minister-raises-doubts-about-elimination-strategy)
 
-``` The hope had been that we could vaccinate enough people to protect the unvaccinated, added Walker, who also serves as the chief investigator for the UK analysis. “I suspect that, partly, the higher levels of virus that we’re seeing in these [Delta] infections in vaccinated people are consistent with the fact that unvaccinated people are just going to be at higher risk.
-```
+The hope had been that we could vaccinate enough people to protect the unvaccinated, added Walker, who also serves as the chief investigator for the UK analysis. “I suspect that, partly, the higher levels of virus that we’re seeing in these [Delta] infections in vaccinated people are consistent with the fact that unvaccinated people are just going to be at higher risk.
 
 [Guardian Oxford study](https://www.theguardian.com/world/2021/aug/19/jabbed-adults-infected-with-delta-can-match-virus-levels-of-unvaccinated)
 
