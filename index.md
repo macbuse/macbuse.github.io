@@ -95,7 +95,7 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 
 <!-- --- -->
 
-# What do I do?
+# What (else) do I do?
 
 - Ex directeur de [GDR TRESSES](http://tresses.math.cnrs.fr)
 - Editor [Annales de l'Institut Fourier](http://aif.cedram.org/?lang=fr)
@@ -108,7 +108,7 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 
 ### seminars I go to
 
-Basically if you are looking forme on a Thursday well....forget it
+Basically if you are looking for me on a Thursday well....forget it
 
 - Thursdays 10h30 [Seminaire francophone](https://www-fourier.univ-grenoble-alpes.fr/seminaire-gg/?q=seances)
 - Thursdays 14h TSG Grenoble
@@ -157,8 +157,8 @@ IHP 2012 : La Maison des Maths
 ### Networks
 
 - I am principal investigator [ToFu](https://persyval-lab.org/en/ToFu)
-- I was <strong>director</strong> of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
 - I am an associate member of <a href="http://gear.math.illinois.edu">GEAR</a>
+- I was <strong>director</strong> of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
 
  <!-- <a href="https://github.com/macbuse/MATH/blob/master/conferences.md">Meetings in low dimensional topology and dynamics</a> -->
 
@@ -200,18 +200,17 @@ IHP 2012 : La Maison des Maths
 - Modular group actions
 - Applications to low dimensional topology
 
-This is a quasi-Fuchsian manifold - its a basic kind of 3 manifold
-homeomorphic to the product of a surface and an interval together with a
-(non unique) choice of hyperbolic metric.
+This is a quasi-Fuchsian manifold:
+ it's a basic kind of 3 manifold homeomorphic to the product of a surface and an interval together with a (non unique) choice of hyperbolic metric.
 Togther with Prof. S. Kojima of TITEC we are working on applying
-converegence results forquasi-Fuchsian manifolds and Teichmueller theory
+converegence results for quasi-Fuchsian manifolds and Teichmueller theory
 to get information about closed hyperbolic manifolds.
 
 <center>
 <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/qf_manifold.svg" width="600">
 </center>
 
-With Bill Goldman and a couple of  his ex students we have been working on a book that just got published <a href="https://www.amazon.com/Automorphisms-Two-generator-Isometric-Hyp:we/dp/1470436140">by the AMS</a>. Much of it is dedicated to explaining this picture of an invariant fractal in the character variety.
+With Bill Goldman and a couple of his ex students we have been working on a book that just got published <a href="https://www.amazon.com/Automorphisms-Two-generator-Isometric-Hyp:we/dp/1470436140">by the AMS</a>. Much of it is dedicated to explaining this picture of an invariant fractal in the character variety.
 
 
 <center>
