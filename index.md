@@ -18,9 +18,17 @@ Well I have to maintain a ton of files because of offline teaching and frankly
 - using markdown forreadiblity and cross format conversion via [pandoc]()
 - integrating tool like fuzzy finders [fzf]() to minimize cognitive overload
 
-seemed the logical way to go. And I couldn't bear to use **VScode**.
-I'm a big fan of [tmux](https://www.howtogeek.com/671422/how-to-use-tmux-on-linux-and-why-its-better-than-screen/)
-but it's really really just for geeks.
+
+I really really don't care what you think because I started out writing
+programs with punchcards then
+[ed](https://en.wikipedia.org/wiki/Ed_(text_editor))
+but from my point of view
+
+	- seemed the logical way to go.
+	- I couldn't bear to use **VScode**.
+	- I'm a big fan of
+	  [tmux](https://www.howtogeek.com/671422/how-to-use-tmux-on-linux-and-why-its-better-than-screen/)
+	  but it's really really just for geeks.
 
 ---
 
