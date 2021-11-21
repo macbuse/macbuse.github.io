@@ -257,13 +257,15 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 ---
 
 
-## FabLab
+# FabLab
 
 [stages](https://www-fourier.ujf-grenoble.fr/~mcshane/stagiaresdetroisime.html)
 
-From March 2014 I&#8217;ve also been working with the MSTIC <a href="http://fabmstic.liglab.fr/">FabLab</a>
-making mathematical curiosities from wood. I&#8217;m mainly interested in constructing geometric objects in wood using kerf bending patterns. Wood prepared using a laser cutting machine can be bent
-and joined to like a 3 dimensional jigsaw puzzle.
+From March 2014 I've also been working with the [fablab MSTIC](http://fabmstic.liglab.fr/) 
+making mathematical curiosities from wood.
+I'm mainly interested in constructing geometric objects in wood using kerf
+bending patterns. Wood prepared using a laser cutting machine can be bent and
+joined to like a 3 dimensional jigsaw puzzle.
 
 <center>
  <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/tetra.JPG" alt="photo" width="300">
