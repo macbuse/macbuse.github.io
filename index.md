@@ -9,7 +9,7 @@
 
 ---
 
-After being abused by [ed](https://en.wikipedia.org/wiki/Ed_(text_editor) as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
+After being abused by [ed](https://en.wikipedia.org/wiki/Ed_(text_editor)) as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
 	- [the pope](https://github.com/tpope)
 	- [the primate/bishop](https://github.com/ThePrimeagen)
 	- [the heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
