@@ -20,7 +20,6 @@ Well I have to maintain a ton of files because of offline teaching and frankly
 
 seemed the logical way to go. And I couldn't bear to use **VScode**.
 
-
 ---
 
 ## Conway's life on a torus
