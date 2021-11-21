@@ -6,7 +6,10 @@
 
 - I am currently back from  sick leave with a broken shoulder.
 - I am very busy with refereeing
-- After being abused by **ed** as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
+
+---
+
+After being abused by [ed](https://en.wikipedia.org/wiki/Ed_(text_editor) as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
 	- [the pope](https://github.com/tpope)
 	- [the primate/bishop](https://github.com/ThePrimeagen)
 	- [the heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
@@ -14,13 +17,13 @@
 ##### Why ?
 
 Well I have to maintain a ton of files because of offline teaching 
-- migrating to GitHub pages for (fast/managed) synch
-- using markdown for readiblity and cross format conversion via [pandoc]()
+- migrating to [GitHub pages](https://pages.github.com/) for (fast/managed) synch
+- using markdown for readability and cross format conversion via [pandoc]()
 - integrating tool like fuzzy finders [fzf]() to minimize cognitive overload
 
 
 and frankly I really really don't care what you think because I started out writing
-programs with punchcards then
+programs with punch cards then
 [ed](https://en.wikipedia.org/wiki/Ed_(text_editor))
 so from my point of view this
 
@@ -32,7 +35,7 @@ so from my point of view this
 
 ## Conway's life on a torus
 
-This is an amusing demontration of how using a convolution to do something is
+This is an amusing demonstration of how using a convolution to do something is
 just the right thing to do. There is  a **pytorch** implementation somewhere.
 
 <center>
