@@ -42,8 +42,8 @@
   - Wednesday 9h45
 
 - [cours](./MAT305/cours.pdf)
-- [F1](./MAT305/TD1.pdf)
-- [F2](./MAT305/TD2.pdf)
+<!-- - [F1](./MAT305/TD1.pdf) -->
+<!-- - [F2](./MAT305/TD2.pdf) -->
 
 - [correction exo 6](./MAT305/correction_f2exo6.pdf)
 - [correction exos 7 etc](./MAT305/correction_rest.pdf)
@@ -80,7 +80,7 @@
 -  <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf">research statement</a>
 - <a href="https://github.com/macbuse">my github account</a>
 
-### seminars
+### seminars I go to
 
 - Thursdays 10h30 [Seminaire francophone](https://www-fourier.univ-grenoble-alpes.fr/seminaire-gg/?q=seances)
 - Thursdays 14h TSG Grenoble
