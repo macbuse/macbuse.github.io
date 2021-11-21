@@ -6,6 +6,7 @@
 
 - I am currently back from  sick leave with a broken shoulder.
 - I am very busy with refereeing
+- I've joined the church of [neovim](https://neovim.io/)
 
 ---
 
