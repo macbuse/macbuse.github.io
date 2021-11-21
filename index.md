@@ -80,13 +80,20 @@
 -  <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf">research statement</a>
 - <a href="https://github.com/macbuse">my github account</a>
 
+### seminars
+
+- Thursdays 10h30 [Seminaire francophone](https://www-fourier.univ-grenoble-alpes.fr/seminaire-gg/?q=seances)
+- Thursdays 14h TSG Grenoble
+- Thursdays 15h CMSA Interdisciplinary Science Seminar
+- Thursdays 16h [Geometry and Topology Online](http://homepages.warwick.ac.uk/~masgar/Seminar/current_seminar.html)
+
 ## and a little more...
 
 I am a (low dimensional) topologist a subject which has it's origins in the
 <a href="http://analysis-situs.math.cnrs.fr/"> work of the French mathematician Henri Poincaré</a>.
 Recently I have been doing a lot of
 
-- [topology and WebGL](https://www-fourier.ujf-grenoble.fr/~mcshane/3D/alexanderSphere.html)
+- [topology and WebGL](http
 - [3D printing of fractals](https://github.com/macbuse/Mandelbrottle)
 
 I was a member of ICERM at Brown University in 2019 participating in
@@ -124,11 +131,9 @@ IHP 2012 : La Maison des Maths
 - I was <strong>director</strong> of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
 - I am an associate member of <a href="http://gear.math.illinois.edu">GEAR</a>
 
- <a href="https://github.com/macbuse/MATH/blob/master/conferences.md">Meetings in low dimensional topology and dynamics</a>
+ <!-- <a href="https://github.com/macbuse/MATH/blob/master/conferences.md">Meetings in low dimensional topology and dynamics</a> -->
 
-## Rencontres du GDR
-
-### In 2020:
+## Rencontres du GDR in 2020:
 
 - <a href="http://winterbraids.math.cnrs.fr/">WINTERBRAIDS</a>
 - Artin Groups, CAT(0) Geometry and Related Topics
@@ -136,31 +141,29 @@ IHP 2012 : La Maison des Maths
 - Complex Hyperbolic Geometry and Related Topic
 - [ Conférence internationale à la mémoire de Patrick Dehornoy]( https://c.lmno.cnrs.fr/Braids2020)
    
-### Previous conferences
+<!-- ### Previous conferences -->
 
- - <a href="http://winterbraids.math.cnrs.fr/archives/winterbraids8/"> WinterBraids VIII</a>
- - <a href="https://tqft.sciencesconf.org/"> TQFT et Catégorification</a>
- - <a href="https://conf.lmno.cnrs.fr/CRG/CRG_programme.html"> Complex Reflection Groups and their Braid Groups</a>
-  - <a href="https://if-summer2018.sciencesconf.org/"> Summer school Teichmüller dynamics, mapping class groups </a>
+<!--  - <a href="http://winterbraids.math.cnrs.fr/archives/winterbraids8/"> WinterBraids VIII</a> -->
+<!--  - <a href="https://tqft.sciencesconf.org/"> TQFT et Catégorification</a> -->
+<!--  - <a href="https://conf.lmno.cnrs.fr/CRG/CRG_programme.html"> Complex Reflection Groups and their Braid Groups</a> -->
+<!--   - <a href="https://if-summer2018.sciencesconf.org/"> Summer school Teichmüller dynamics, mapping class groups </a> -->
   
-
-
-<ul>
- <li>Journées Géométrie et Topologie ENS Lyon
- <ul>
-  <li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/jdf2017.pdf"> Novembre 2017</a> </li>
- <li> <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/annonce-journee-20170614.pdf"> Juin 2017</a>
- </li>
- <li> <a href="http://math.univ-bpclermont.fr/~heusener/Lyon-dec2016/index.html"> Decembre 2016</a> </li>
-  </ul>
- </li>
- <li>Journees de doctorants du GdR TRESSES, 16-17/11/17</li>
- <li> <a href="http://winterbraids.math.cnrs.fr/archives/winterbraids7/">WinterBraids VII</a></li>
- <li> <a href = "http://scientific-events.weebly.com/1713.html">Teichmüller Space, Polygonal Billiard, Interval Exchanges CIRM</a></li>
- <li> <a href = "https://minkowski-2017.sciencesconf.org/">Minkowski ? function, Grenoble</a> </li>
- <li><a href="https://old.i2m.univ-amu.fr/~audoux/ToCQ.htm">Interactions Topologie/Codes quantiques, Marseille</a></li>
-</ul>
----
+<!-- <ul> -->
+<!--  <li>Journées Géométrie et Topologie ENS Lyon -->
+<!--  <ul> -->
+<!--   <li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/jdf2017.pdf"> Novembre 2017</a> </li> -->
+<!--  <li> <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/annonce-journee-20170614.pdf"> Juin 2017</a> -->
+<!--  </li> -->
+<!--  <li> <a href="http://math.univ-bpclermont.fr/~heusener/Lyon-dec2016/index.html"> Decembre 2016</a> </li> -->
+<!--   </ul> -->
+<!--  </li> -->
+<!--  <li>Journees de doctorants du GdR TRESSES, 16-17/11/17</li> -->
+<!--  <li> <a href="http://winterbraids.math.cnrs.fr/archives/winterbraids7/">WinterBraids VII</a></li> -->
+<!--  <li> <a href = "http://scientific-events.weebly.com/1713.html">Teichmüller Space, Polygonal Billiard, Interval Exchanges CIRM</a></li> -->
+<!--  <li> <a href = "https://minkowski-2017.sciencesconf.org/">Minkowski ? function, Grenoble</a> </li> -->
+<!--  <li><a href="https://old.i2m.univ-amu.fr/~audoux/ToCQ.htm">Interactions Topologie/Codes quantiques, Marseille</a></li> -->
+<!-- </ul> -->
+<!-- --- -->
 
 ## Themes
 
