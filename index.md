@@ -55,19 +55,19 @@
 
 ---
 
-## Stages/TER
+<!-- ## Stages/TER -->
 
-but if you are looking for a stage M2R they are here:
+<!-- but if you are looking for a stage M2R they are here: -->
 
-- [non orientable surfaces](./stage_m2r_2020.md)
-- [statistics closed geodesics](./stage_m2r_2020_bis.md)
+<!-- - [non orientable surfaces](./stage_m2r_2020.md) -->
+<!-- - [statistics closed geodesics](./stage_m2r_2020_bis.md) -->
 
-or a TER
+<!-- or a TER -->
 
-- [quadratic reciprocity](./TER.md)
-- [Riemann mapping](./TER2.md)
+<!-- - [quadratic reciprocity](./TER.md) -->
+<!-- - [Riemann mapping](./TER2.md) -->
 
----
+<!-- --- -->
 
 # What do I do?
 
@@ -75,6 +75,7 @@ or a TER
 - Editor [Annales de l'Institut Fourier]{http://aif.cedram.org/?lang=fr)
 - Principal investigator l'equipe action ```ToFu```
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
+- Member of the Conseil de l'UFR IMAG2
 - <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf">CV</a>
 -  <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf">research statement</a>
 - <a href="https://github.com/macbuse">my github account</a>
