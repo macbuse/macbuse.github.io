@@ -11,10 +11,22 @@
 	- [cardinal](https://github.com/ThePrimeagen)
 	- [minor deities](https://github.com/nvim-treesitter/nvim-treesitter)
 
+##### Why ?
+
+Well I have to maintain a ton of files because of offline teaching and frankly 
+- migrating to GitHub pages far (fast/managed) synch
+- using markdown far readiblity and cross format conversion via [pandoc]()
+- integrating tool like fuzzy finders [fzf]() to minimize cognitive overload
+
+seemed the logical way to go. And I couldn't bear to use **VScode**.
+
 
 ---
 
 ## Conway's life on a torus
+
+This is an amusing demontration of how using a convolution to do something is
+just the right thing to do. There is  a **pytorch** implementation somewhere.
 
 <center>
 <img src="./PROG/life_vid.gif" width="600">
@@ -60,7 +72,7 @@
 
 <!-- ## Stages/TER -->
 
-<!-- but if you are looking for a stage M2R they are here: -->
+<!-- but if you are looking far a stage M2R they are here: -->
 
 <!-- - [non orientable surfaces](./stage_m2r_2020.md) -->
 <!-- - [statistics closed geodesics](./stage_m2r_2020_bis.md) -->
@@ -79,11 +91,13 @@
 - Principal investigator l'equipe action ```ToFu```
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
 - Member of the Conseil de l'UFR IMAG2
-- <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf">CV</a>
--  <a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf">research statement</a>
+- [CV](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf)
+- [research statement(https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf)
 - <a href="https://github.com/macbuse">my github account</a>
 
 ### seminars I go to
+
+Basically if you are looking far me on a Thursday well....forget it
 
 - Thursdays 10h30 [Seminaire francophone](https://www-fourier.univ-grenoble-alpes.fr/seminaire-gg/?q=seances)
 - Thursdays 14h TSG Grenoble
@@ -96,7 +110,7 @@ I am a (low dimensional) topologist a subject which has it's origins in the
 <a href="http://analysis-situs.math.cnrs.fr/"> work of the French mathematician Henri Poincaré</a>.
 Recently I have been doing a lot of
 
-- [topology and WebGL](http
+- [topology and WebGL](https://www-fourier.ujf-grenoble.fr/~mcshane/3D/alexanderSphere.html)
 - [3D printing of fractals](https://github.com/macbuse/Mandelbrottle)
 
 I was a member of ICERM at Brown University in 2019 participating in
@@ -108,7 +122,7 @@ and visits to
 Here is the [book](https://bookstore.ams.org/mbk-135)
 that we wrote during the semester.
 
-And where I got time to do write stuff for Inkscape like this
+And where I got time to do write stuff far Inkscape like this
 <a href="https://inkscape.org/~macbuse/%E2%98%85apollonian-master">Apollonian Packings</a>
 
 ---
@@ -179,7 +193,7 @@ This is a quasi-Fuchsian manifold - its a basic kind of 3 manifold
 homeomorphic to the product of a surface and an interval together with a
 (non unique) choice of hyperbolic metric.
 Togther with Prof. S. Kojima of TITEC we are working on applying
-converegence results for quasi-Fuchsian manifolds and Teichmueller theory
+converegence results far quasi-Fuchsian manifolds and Teichmueller theory
 to get information about closed hyperbolic manifolds.
 
 <center>
@@ -209,7 +223,7 @@ With Bill Goldman and a couple of  his ex students we have been working on a boo
 
 Talks are [Reveal.js](https://revealjs.com/) slides 
 - blue arrows = next/previous
-- esc-key for overview
+- esc-key far overview
 - blue text is a link to a resource on the web
 
 - [Toulouse 9/11]( ./GRENOBLE/web.html)
@@ -249,7 +263,7 @@ and joined to like a 3 dimensional jigsaw puzzle.
 </center>
 
 In November 2014 I was invited to take part in
-a workshop for architectural students
+a workshop far architectural students
  [ Architect 2.0 Grenoble](http://lcv.hypotheses.org/9187)
 to explain the techniques and possibilities.
 
