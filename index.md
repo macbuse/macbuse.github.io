@@ -9,7 +9,7 @@
 - After being abused by **ed** as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
 	- [the pope](https://github.com/tpope)
 	- [the primate/bishop](https://github.com/ThePrimeagen)
-	- [bishop/rook](https://github.com/nvim-treesitter/nvim-treesitter)
+	- [heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ##### Why ?
 
@@ -208,12 +208,11 @@ With Bill Goldman and a couple of  his ex students we have been working on a boo
 
 
 <h2 id="recentpreprints">Recent preprints</h2>
-<ul>
-<li>[On systoles and ortho spectrum rigidity](https://arxiv.org/abs/1909.09829)
-<li>[NORMALIZED ENTROPY VERSUS VOLUME FOR PSEUDO-ANOSOVS](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/entropy.pdf)
-<li>[]EQUIDECOMPOSABILITY, VOLUME FORMULAE AND ORTHOSPECTRA(https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/CalegariBridgeman7.pdf)
-<li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/Kokyuroku_mcshane.pdf">GEOMETRIC IDENTITIES</a></li>
-</ul>
+
+-  [On systoles and ortho spectrum rigidity](https://arxiv.org/abs/1909.09829)
+-  [NORMALIZED ENTROPY VERSUS VOLUME FOR PSEUDO-ANOSOVS](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/entropy.pdf)
+-  [EQUIDECOMPOSABILITY, VOLUME FORMULAE AND ORTHOSPECTRA](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/CalegariBridgeman7.pdf)
+-  [GEOMETRIC IDENTITIES](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/Kokyuroku_mcshane.pdf)
 
 ---
 
