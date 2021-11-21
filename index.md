@@ -8,7 +8,7 @@
 - I am very busy with refereeing
 - After being abused by **ed** as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
 	- [the pope](https://github.com/tpope)
-	- [high priest](https://github.com/ThePrimeagen)
+	- [cardinal](https://github.com/ThePrimeagen)
 	- [minor deities](https://github.com/nvim-treesitter/nvim-treesitter)
 
 
