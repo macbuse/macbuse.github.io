@@ -26,7 +26,7 @@ but from my point of view
 
 - seemed the logical way to go.
 - I couldn't bear to use **VScode**.
-- I'm a big fan of [tmux](https://www.howtogeek.com/671422/how-to-use-tmux-on-linux-and-why-its-better-than-screen/) but it's really really just for geeks.
+- I'm a big fan of [tmux](https://www.howtogeek.com/671422/how-to-use-tmux-on-linux-and-why-its-better-than-screen/) and [i3](https://i3wm.org/) but it's really really just for geeks 
 
 ---
 
