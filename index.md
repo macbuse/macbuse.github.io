@@ -72,7 +72,7 @@
 # What do I do?
 
 - Ex directeur de [GDR TRESSES](http://tresses.math.cnrs.fr)
-- Editor [Annales de l'Institut Fourier]{http://aif.cedram.org/?lang=fr)
+- Editor [Annales de l'Institut Fourier](http://aif.cedram.org/?lang=fr)
 - Principal investigator l'equipe action ```ToFu```
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
 - Member of the Conseil de l'UFR IMAG2
@@ -186,7 +186,7 @@ With Bill Goldman and a couple of  his ex students we have been working on a boo
 
 
 <center>
- <img src="./union.png" alt="photo" width="600">
+ <img src="./union.png">
 </center>
 
 
@@ -209,7 +209,7 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 - blue text is a link to a resource on the web
 
 - [Toulouse 9/11]( ./GRENOBLE/web.html)
-- [Grenoble 8/10](./GRENOBLE/new.html)
+- [Grenoble 8/10](./GRENOBLE/web.html)
 
 
 - **Glasgow 7/6**
