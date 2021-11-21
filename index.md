@@ -13,16 +13,16 @@
 
 ##### Why ?
 
-Well I have to maintain a ton of files because of offline teaching and frankly 
+Well I have to maintain a ton of files because of offline teaching 
 - migrating to GitHub pages for (fast/managed) synch
 - using markdown for readiblity and cross format conversion via [pandoc]()
 - integrating tool like fuzzy finders [fzf]() to minimize cognitive overload
 
 
-I really really don't care what you think because I started out writing
+and frankly I really really don't care what you think because I started out writing
 programs with punchcards then
 [ed](https://en.wikipedia.org/wiki/Ed_(text_editor))
-but from my point of view
+so from my point of view this
 
 - seemed the logical way to go.
 - I couldn't bear to use **VScode**.
