@@ -15,7 +15,7 @@
 
 Well I have to maintain a ton of files because of offline teaching and frankly 
 - migrating to GitHub pages for (fast/managed) synch
-- using markdown forreadiblity and cross format conversion via [pandoc]()
+- using markdown for readiblity and cross format conversion via [pandoc]()
 - integrating tool like fuzzy finders [fzf]() to minimize cognitive overload
 
 
