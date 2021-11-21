@@ -9,16 +9,18 @@
 - After being abused by **ed** as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
 	- [the pope](https://github.com/tpope)
 	- [the primate/bishop](https://github.com/ThePrimeagen)
-	- [heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
+	- [the heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ##### Why ?
 
 Well I have to maintain a ton of files because of offline teaching and frankly 
-- migrating to GitHub pages far (fast/managed) synch
-- using markdown far readiblity and cross format conversion via [pandoc]()
+- migrating to GitHub pages for (fast/managed) synch
+- using markdown forreadiblity and cross format conversion via [pandoc]()
 - integrating tool like fuzzy finders [fzf]() to minimize cognitive overload
 
 seemed the logical way to go. And I couldn't bear to use **VScode**.
+I'm a big fan of [tmux](https://www.howtogeek.com/671422/how-to-use-tmux-on-linux-and-why-its-better-than-screen/)
+but it's really really just for geeks.
 
 ---
 
@@ -71,7 +73,7 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 
 <!-- ## Stages/TER -->
 
-<!-- but if you are looking far a stage M2R they are here: -->
+<!-- but if you are looking fora stage M2R they are here: -->
 
 <!-- - [non orientable surfaces](./stage_m2r_2020.md) -->
 <!-- - [statistics closed geodesics](./stage_m2r_2020_bis.md) -->
@@ -96,7 +98,7 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 
 ### seminars I go to
 
-Basically if you are looking far me on a Thursday well....forget it
+Basically if you are looking forme on a Thursday well....forget it
 
 - Thursdays 10h30 [Seminaire francophone](https://www-fourier.univ-grenoble-alpes.fr/seminaire-gg/?q=seances)
 - Thursdays 14h TSG Grenoble
@@ -121,7 +123,7 @@ and visits to
 Here is the [book](https://bookstore.ams.org/mbk-135)
 that we wrote during the semester.
 
-And where I got time to do write stuff far Inkscape like this
+And where I got time to do write stuff forInkscape like this
 <a href="https://inkscape.org/~macbuse/%E2%98%85apollonian-master">Apollonian Packings</a>
 
 ---
@@ -192,7 +194,7 @@ This is a quasi-Fuchsian manifold - its a basic kind of 3 manifold
 homeomorphic to the product of a surface and an interval together with a
 (non unique) choice of hyperbolic metric.
 Togther with Prof. S. Kojima of TITEC we are working on applying
-converegence results far quasi-Fuchsian manifolds and Teichmueller theory
+converegence results forquasi-Fuchsian manifolds and Teichmueller theory
 to get information about closed hyperbolic manifolds.
 
 <center>
@@ -220,7 +222,7 @@ With Bill Goldman and a couple of  his ex students we have been working on a boo
 
 Talks are [Reveal.js](https://revealjs.com/) slides 
 - blue arrows = next/previous
-- esc-key far overview
+- esc-key foroverview
 - blue text is a link to a resource on the web
 
 - [Toulouse 9/11]( ./GRENOBLE/web.html)
@@ -260,7 +262,7 @@ and joined to like a 3 dimensional jigsaw puzzle.
 </center>
 
 In November 2014 I was invited to take part in
-a workshop far architectural students
+a workshop forarchitectural students
  [ Architect 2.0 Grenoble](http://lcv.hypotheses.org/9187)
 to explain the techniques and possibilities.
 
