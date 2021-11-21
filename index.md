@@ -6,7 +6,11 @@
 
 - I am currently back from  sick leave with a broken shoulder.
 - I am very busy with refereeing
-- I've joined the church of [neovim](https://neovim.io/)
+- After being abused by **ed** as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
+	- [the pope](https://github.com/tpope)
+	- [high priest](https://github.com/ThePrimeagen)
+	- [minor deities](https://github.com/nvim-treesitter/nvim-treesitter)
+
 
 ---
 
