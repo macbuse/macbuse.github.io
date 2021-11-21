@@ -9,10 +9,11 @@
 
 ---
 
-After being abused by [ed](https://en.wikipedia.org/wiki/Ed_(text_editor)) as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
-	- [the pope](https://github.com/tpope)
-	- [the primate/bishop](https://github.com/ThePrimeagen)
-	- [the heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
+After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
+
+- [the pope](https://github.com/tpope)
+- [the primate/bishop](https://github.com/ThePrimeagen)
+- [the heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ##### Why ?
 
@@ -22,10 +23,10 @@ Well I have to maintain a ton of files because of offline teaching
 - integrating tool like fuzzy finders [fzf]() to minimize cognitive overload
 
 
-and frankly I really really don't care what you think because I started out writing
-programs with punch cards then
-[ed](https://en.wikipedia.org/wiki/Ed_(text_editor))
 so from my point of view this
+( and frankly I really really don't care what you think because I started out writing
+programs with punch cards then
+[ed](https://www.gnu.org/software/ed/) )
 
 - seemed the logical way to go.
 - I couldn't bear to use **VScode**.
