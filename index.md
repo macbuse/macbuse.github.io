@@ -208,11 +208,10 @@ With Bill Goldman and a couple of  his ex students we have been working on a boo
 
 
 <h2 id="recentpreprints">Recent preprints</h2>
-
 <ul>
-<li><a href="https://arxiv.org/abs/1909.09829">On systoles and ortho spectrum rigidity</a></li>
-<li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/entropy.pdf">NORMALIZED ENTROPY VERSUS VOLUME FOR PSEUDO-ANOSOVS</a></li>
-<li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/CalegariBridgeman7.pdf">EQUIDECOMPOSABILITY, VOLUME FORMULAE AND ORTHOSPECTRA</a></li>
+<li>[On systoles and ortho spectrum rigidity](https://arxiv.org/abs/1909.09829)
+<li>[NORMALIZED ENTROPY VERSUS VOLUME FOR PSEUDO-ANOSOVS](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/entropy.pdf)
+<li>[]EQUIDECOMPOSABILITY, VOLUME FORMULAE AND ORTHOSPECTRA(https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/CalegariBridgeman7.pdf)
 <li><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/Kokyuroku_mcshane.pdf">GEOMETRIC IDENTITIES</a></li>
 </ul>
 
