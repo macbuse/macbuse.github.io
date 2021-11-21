@@ -103,8 +103,8 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
 - Member of the Conseil de l'UFR IMAG2
 - [CV](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf)
-- [research statement(https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf)
-- <a href="https://github.com/macbuse">my github account</a>
+- [research statement](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf)
+- [my github account](https://github.com/macbuse)
 
 ### seminars I go to
 
