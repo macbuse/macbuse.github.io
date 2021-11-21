@@ -9,7 +9,6 @@
 
 ---
 
-
 ## Conway's life on a torus
 
 <center>
@@ -31,7 +30,6 @@
 - [Presentation programmation](./PROG/pres)
 - [cours](./PROG/index.md)
 -  if you want to look ahead/back [cours 2020](./PROG/cours_2020.md)
-
 
 ---
 
@@ -109,6 +107,7 @@ And where I got time to do write stuff for Inkscape like this
 <a href="https://inkscape.org/~macbuse/%E2%98%85apollonian-master">Apollonian Packings</a>
 
 ---
+
 <center>
 <p> This is what I look like <br>
 
