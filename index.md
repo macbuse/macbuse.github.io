@@ -4,7 +4,7 @@
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
-- I am currently back from  sick leave with a broken shoulder.
+- I am currently back from sick leave with a broken shoulder.
 - I am very busy with refereeing
 
 ---
@@ -15,35 +15,11 @@ After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've 
 
 - [the pope](https://github.com/tpope)
 - [the primate/bishop](https://github.com/ThePrimeagen)
-- [the heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
+- [heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
 
-##### Why ?
-
-Well I have to maintain a ton of files because of offline teaching 
-- migrating to [GitHub pages](https://pages.github.com/) for (fast/managed) synch
-- using [Markdown](https://daringfireball.net/projects/markdown/)  for readability and cross format conversion via [pandoc]()
-- integrating tool like fuzzy finders [fzf]() to minimize cognitive overload
+[why ?]( ./church.md)
 
 
-so from my point of view this
-( and frankly I really really don't care what you think because I started out writing
-programs with punch cards then
-[ed](https://www.gnu.org/software/ed/) )
-
-- seemed the logical way to go.
-- I couldn't bear to use **VScode**.
-- I'm a big fan of [tmux](https://www.howtogeek.com/671422/how-to-use-tmux-on-linux-and-why-its-better-than-screen/) and [i3](https://i3wm.org/) but it's really really just for geeks 
-
----
-
-## Conway's life on a torus
-
-This is an amusing demonstration of how using a convolution to do something is
-just the right thing to do. There is  a **pytorch** implementation somewhere.
-
-<center>
-<img src="./PROG/life_vid.gif" width="600">
-</center>
 
 ---
 
@@ -60,6 +36,15 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 - [Presentation programmation](./PROG/pres)
 - [cours](./PROG/index.md)
 -  if you want to look ahead/back [cours 2020](./PROG/cours_2020.md)
+
+#### Conway's life on a torus
+
+This is an amusing demonstration of how using a convolution to do something is
+just the right thing to do. There is  a **pytorch** implementation somewhere.
+
+<center>
+<img src="./PROG/life_vid.gif" width="600">
+</center>
 
 ---
 
@@ -259,7 +244,6 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 - [HARVARD 18/12/20](./HARVARD/slides.html)
 
 ---
-
 
 # FabLab
 
