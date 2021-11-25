@@ -215,6 +215,7 @@ With Bill Goldman and a couple of his ex students we have been working on a book
 -  [GEOMETRIC IDENTITIES](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/Kokyuroku_mcshane.pdf)
 
 ---
+---
 
 ## Talks
 
@@ -222,6 +223,8 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 - blue arrows = next/previous
 - esc-key foroverview
 - blue text is a link to a resource on the web
+
+---
 
 - [Toulouse 9/11]( ./GRENOBLE/web.html)
 - [Grenoble 8/10](./GRENOBLE/web.html)
