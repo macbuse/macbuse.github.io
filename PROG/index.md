@@ -15,6 +15,29 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 ### Friday 19/11
 
+So we'll discuss the wikipedia crawler 
+
+[wikipedia crawler](./gph2sites.ipynb)
+
+It was difficult to find a good working example for this week
+but here is the 
+[notebook](./regression_copy.ipynb)
+
+There are two kinds of regression to study:
+- multi variable linear regression
+- logistic regression
+
+The example of an application of logistic regression is recognising digits.
+There are better ways of doing this now using CNN - maybe you can do that as a project ?
+
+Watch at the video first:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BHs_2ttLRXk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+### Friday 19/11
+
 I will be teaching at 13:45 on 19 novembre
 
 We'll begin by discussing how to see that everything is philosophy.

@@ -9,6 +9,8 @@
 
 ---
 
+## Before we start (you can skip)
+
 After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
 
 - [the pope](https://github.com/tpope)
@@ -19,7 +21,7 @@ After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've 
 
 Well I have to maintain a ton of files because of offline teaching 
 - migrating to [GitHub pages](https://pages.github.com/) for (fast/managed) synch
-- using markdown for readability and cross format conversion via [pandoc]()
+- using [Markdown](https://daringfireball.net/projects/markdown/)  for readability and cross format conversion via [pandoc]()
 - integrating tool like fuzzy finders [fzf]() to minimize cognitive overload
 
 
