@@ -17,7 +17,7 @@ After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've 
 - [the primate/bishop](https://github.com/ThePrimeagen)
 - [heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
 
-[why ?](church.md)
+[why ?](church)
 
 
 ---
