@@ -66,6 +66,8 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 - [corrections F4 bis]( ./MAT305/f4_corr_2.pdf)
 - [corrections F4 ter]( ./MAT305/f4_corr_3.pdf)
 - [corrections F5]( ./MAT305/f5_corr_1.pdf)
+- [corrections F6]( ./MAT305/f6_corr_1.pdf)
+- [courbes](./MAT305/graphs_tangents.pdf)
 
 ---
 
