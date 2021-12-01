@@ -13,7 +13,19 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 ---
 
-### Friday 19/11
+### Friday 26/11
+
+So we'll discuss some project work 
+
+- like this project on [COVID](./random_blob.ipynb)
+
+<center>
+<img src="./random_epix.gif" width="600">
+</center>
+
+---
+
+### Friday 26/11
 
 So we'll discuss the wikipedia crawler 
 
