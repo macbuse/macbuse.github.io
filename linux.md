@@ -29,7 +29,7 @@ Si vous n’avez pas d’interpréteur de commande, il faut utiliser l’interfa
 - mkdir rep crée un sous-répertoire appelé rep
 - rmdir: effacer un répertoire vide, par exemple rmdir rep.
 
-####    Exercice:
+#### Exercice:
 
 A l’aide des commandes expliquées ci-dessus:
 
