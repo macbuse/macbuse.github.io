@@ -13,12 +13,13 @@ To begin with the videos will be mostly in french but some subjects are only rea
 
 ---
 
-### Friday 26/11
+### Friday 3/11
 
 So we'll discuss some project work 
 
 - like this project on [COVID](./random_blob.ipynb)
 - here is a [description](./covid_proj.md)
+- and here is a video of the simulation
 
 <center>
 <img src="./random_epix.gif" width="600">
