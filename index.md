@@ -30,6 +30,11 @@ After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've 
 
 
 ### introduction à la programmation 
+
+### Important
+
+  **	I will be teaching from 13h today 3/12/21**
+
   - Fridays 13:45
 
 - [Presentation programmation](./PROG/pres)
