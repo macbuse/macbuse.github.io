@@ -7,7 +7,30 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var scriptElement = document.createElement('script');
+    var widgetRendererSrc = '@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
 
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    scriptElement.src = widgetRendererSrc;
+    document.body.appendChild(scriptElement);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
 
 <style type="text/css">
     /*!
@@ -13096,14 +13119,48 @@ div#notebook {
 <li>Chemins dans un labyrinthe, Algorithme de Dijsktra</li>
 <li>Google Page Rank (exemples simples, puis extraire données réelles)</li>
 <li>Sudoku (résolution d’une grille, constructeur de grilles avec solution unique, estimer la difficulté d’une grille)</li>
-<li>Game of Life</li>
-<li>Statistiques</li>
-<li>Chatbot/TTS</li>
+<li>Game of Life using Knuth's algorithm/GUI like <a href="./gui_experiments.ipynb">this</a></li>
+<li>Simulation of COVID using particles like I did <a href="./random_blob.ipynb">here</a></li>
+<li>Developments on <a href="https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy">"everything is philosophy"</a></li>
+<li>Statistiques </li>
+<li>Fractals and fractal dimension</li>
+<li>Make a Chatbot/TTS</li>
 </ul>
 <hr>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ls</span> <span class="n">random_blob</span><span class="o">.</span><span class="n">ipynb</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>random_blob.ipynb
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13178,16 +13235,18 @@ which uses - domaines de Voronoi.</p>
 <li>make a program to make caricatures</li>
 </ul>
 <p><img src="https://ccrma.stanford.edu/~jacobliu/368Report/warped_ally.jpg" alt="img"></p>
+<p>and I have an experimental <a href="./face_morph.ipynb">notebook</a>
+see also <a href="./face_morph.html">here</a></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span> ../.g
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ls</span> <span class="n">face</span><span class="o">*</span>
 </pre></div>
 
     </div>
@@ -13204,16 +13263,7 @@ which uses - domaines de Voronoi.</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[master c629fd4] web
- 2 files changed, 141 insertions(+), 9 deletions(-)
-Counting objects: 5, done.
-Delta compression using up to 12 threads.
-Compressing objects: 100% (5/5), done.
-Writing objects: 100% (5/5), 1.95 KiB | 1.95 MiB/s, done.
-Total 5 (delta 3), reused 0 (delta 0)
-remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
-To https://github.com/macbuse/macbuse.github.io.git
-   cc8a9db..c629fd4  master -&gt; master
+<pre>face_morph.html  face_morph.ipynb
 </pre>
 </div>
 </div>
@@ -13240,6 +13290,10 @@ To https://github.com/macbuse/macbuse.github.io.git
 </body>
 
  
+
+<script type="application/vnd.jupyter.widget-state+json">
+{"state": {}, "version_major": 2, "version_minor": 0}
+</script>
 
 
 </html>

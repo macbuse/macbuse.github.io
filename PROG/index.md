@@ -11,6 +11,18 @@ You can learn a lot from them.
 There will not be so much reading but there will be a lot of watching. 
 To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
 
+--- 
+
+## Projects
+
+Projects 
+- are due 12/1/21
+- must be submitted as a Jupyter notebook
+	- there should be an introduction in Markdown
+	- there should be working code
+	- code should be explained in text cells using Mrakdown
+	- there should be a list of references 
+
 ---
 
 ### Friday 3/11
@@ -24,6 +36,9 @@ So we'll discuss some project work
 <center>
 <img src="./random_epix.gif" width="600">
 </center>
+
+If you haven't decided what you are doing for a project then look [here]( ./projects.html)
+
 
 ---
 
