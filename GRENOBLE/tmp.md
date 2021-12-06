@@ -11,8 +11,11 @@
 - Can I prove these with one figure ?
 
 #
+## hyperbolic geometry proof of 
 
 <img src="./theoremsab.png" width="800">
+
+[Proofs from the Book chapter](http://link.springer.com.https.jxnydx.proxy.chaoxing.com/chapter/10.1007/978-3-662-57265-8_4){target="_blank"}
 
 #
 
@@ -105,6 +108,14 @@ z &\mapsto& 1/\bar{z}
 ## Farey tessalation
 
 <img src="./farey_bicolor.png" width="400">
+
+#
+
+arcs on the 3 punctured sphere
+
+<img src="./three_punctured.png" width="600">
+
+- $i, 1+i, \frac12 ( 1 + i)$ are midpoints
 
 #
 ## Ford circles
