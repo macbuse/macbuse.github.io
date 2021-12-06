@@ -57,7 +57,7 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 simulation of an epidemic the particles follow a random walk....
 
 <center>
-<img src="./PROG/random_epi.gif" width="600">
+<img src="./PROG/random_epix.gif" width="600">
 </center>
 
 ---
