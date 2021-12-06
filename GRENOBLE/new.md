@@ -107,6 +107,10 @@ z &\mapsto& 1/\bar{z}
 \end{array}$
 
 #
+
+![](./cover_triangles.html)
+
+#
 ## Farey tessalation
 
 <img src="./farey_bicolor.png" width="400">
