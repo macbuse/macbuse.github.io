@@ -250,7 +250,7 @@ $\mathbb{Q}\cup \infty \subset$ circle/projective line
 
 
 #
-## Ford circles
+## What is a Ford circle?
 
 <img src="./ford_circles.gif" width="400">
 
@@ -275,6 +275,12 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 - **arc** joining $a/b, c/d$ has **$\lambda$- length ** $= |ad - bc|^2$ 
 - **$\log \lambda$- length ** = length of the portion outside Ford circles tangent to the real line at its endpoints
 
+#
+## remarks
+
+- the edges of the Farey tessalation have $\lambda$ lengths 1
+- its *diagonals* have $\lambda$ lengths 4
+
 
 #
 ### Proof of lemma
@@ -282,6 +288,10 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 - can suppose $a/b = \infty$ and $c/d = k/(ad - bc)$
 - Ford circles  $F$  tangent at $\infty$
 - and another of diameter $1/(ad - bc)^2$
+
+#
+## Important remark
+
 - the **midpoint** of this vertical arc is at height $1/|ad - bc|$
 
 # quotients of $\mathbb{H}^2$
