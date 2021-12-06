@@ -148,7 +148,8 @@ if __name__ == '__main__':
     #split this (past col 80) so that we can replace for -o later if we want
     # /home/macbuse/anaconda3/bin/python3.8
     pandoc_it = ('/home/macbuse/bin/pandoc -t revealjs -c mycss.css -s -o {}.html tmp.md'.format(FN.split('.')[0])).split()
-    pandoc_it.extend('-V revealjs-url=../reveal.js --mathjax -i'.split())
+    # pandoc_it.extend('-V revealjs-url=../reveal.js --mathjax -i'.split())
+    pandoc_it.extend('-V revealjs-url=https://www-fourier.ujf-grenoble.fr/~mcshane/reveal.js --mathjax -i'.split())
     print(' '.join(pandoc_it))
     subprocess.call(pandoc_it)
 

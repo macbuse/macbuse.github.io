@@ -7,6 +7,10 @@
 - I am currently back from sick leave with a broken shoulder.
 - I am very busy with refereeing
 
+On Tuesday 7/12/21 I am giving a talk in Tokyo 
+
+- [SLIDES]( ./GRENOBLE/new.html)
+
 ---
 
 ## Before we start (you can skip)

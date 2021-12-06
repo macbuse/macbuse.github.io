@@ -41,7 +41,7 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 - Every integer appears to appear at most 6 times
 
 #
-### Multiplicity $\leq 6$
+### Multiplicity $\leq 6
 
 <img src="./Markoff_tree_full.svg" width="600">
 
@@ -112,14 +112,17 @@ z &\mapsto& 1/\bar{z}
 <img src="./ford_circles.gif" width="580">
 
 #
+## Ford circles
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0hlvhQZIOQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Bonahon's video](https://www.youtube.com/embed/0hlvhQZIOQw)
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/0hlvhQZIOQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 #
 ## References etc
 
 
-- Heath-Brown, Fermat’s two squares theorem. Invariant (1984) 
+- [ Heath-Brown, Fermat’s two squares theorem. Invariant (1984) ](https://core.ac.uk/reader/97080){target="_blank"}
 - Zagier, A one-sentence proof that every prime p = 1 (mod 4) is a sum of two squares, 1990
 - Elsholtz, Combinatorial Approach to Sums of Two Squares and Related Problems.  (2010) 
 - Penner, The decorated Teichmueller space of punctured surfaces, Comm  Math Phys  (1987)
