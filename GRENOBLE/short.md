@@ -3,6 +3,7 @@
 %Tokyo December  2021
 
 
+
 #
 
 <img src="./Martin_Aigner.jpg" width="400">
@@ -281,6 +282,9 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 - the edges of the Farey tessalation have $\lambda$ lengths 1
 - its *diagonals* have $\lambda$ lengths 4
 
+#
+
+!![](./lambda_proof.html)
 
 #
 ### Proof of lemma
@@ -292,7 +296,14 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 #
 ## Important remark
 
-- the **midpoint** of this vertical arc is at height $1/|ad - bc|$
+ the **hyperbolic midpoint** of this vertical arc is at height 
+
+ 200$\frac{1}{|ad - bc|}$
+
+
+#
+
+![](./lambda_proof.svg)
 
 # quotients of $\mathbb{H}^2$
 
