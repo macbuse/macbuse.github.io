@@ -82,7 +82,7 @@ simulation of an epidemic the particles follow a random walk....
 - [corrections F4 ter]( ./MAT305/f4_corr_3.pdf)
 - [corrections F5]( ./MAT305/f5_corr_1.pdf)
 
-### attention
+### attention 7/12
 
 Je suis a [Tokyo](./GRENOBLE/short.html) et j'arriverai avant 8h30
 regarder les corrections ci-dessous :
