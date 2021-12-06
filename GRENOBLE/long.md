@@ -31,7 +31,7 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 #
 ### Odd index Fibonacci numbers are Markoff numbers
 
-<span style="font-size: 50%">$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$</span>
+50$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$
 
 $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 
@@ -95,23 +95,21 @@ $x^2 + y^2 + z^2 - 3x y z = 0.$
 
 Acting on $\mathbb{F}_p^*$
 
-<span style="font-size: 150%">$\begin{array}{lll}
+150$\begin{array}{lll}
 x &\mapsto& -x \\
 x &\mapsto& 1/x
-\end{array}$</span>
+\end{array}$
 
 Acting on $\mathbb{H}$
 
-<span style="font-size: 150%">$\begin{array}{lll}
+150$\begin{array}{lll}
 z &\mapsto& -\bar{z} \\
 z &\mapsto& 1/\bar{z}
-\end{array}$</span>
+\end{array}$
 
 #
 
-<div class="wrap"><iframe data-src="./cover_triangles.html" > </iframe></div>
-
-
+!![](./cover_triangles.html)
 
 #
 ## Farey tessalation
@@ -203,7 +201,8 @@ z &\mapsto& 1/\bar{z}
 #
 ## Primitives
 
-- infinitely many primitive elements in $\mathbb{Z}^2$ 
+- $\mathbb{Z}^2$ 
+- infinitely many primitive elements 
 - $(a,b)$ primitive iff $a,b \in \mathbb{Z}$ coprime
 - $SL(2,\mathbb{Z})$ transitive on primitives
 
@@ -281,6 +280,7 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 #
 ### Proof of lemma
 
+- $\mathrm{SL}(2,\mathbb{Z})$  transitive, 
 - can suppose $a/b = \infty$ and $c/d = k/(ad - bc)$
 - Ford circles  $F$  tangent at $\infty$
 - and another of diameter $1/(ad - bc)^2$
@@ -296,14 +296,14 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 - $\mathbb{H}/\Gamma(2)$  three punctured sphere 
 - $\mathbb{H}/\Gamma'$ once punctured torus 
 
-<!-- # -->
+#
 
-<!-- In the solution of Aigner's conjectures the geometry of the --> 
-<!-- simple geodesics on -->
-<!-- $\mathbb{H}/\Gamma'$ once punctured torus was important. --> 
+In the solution of Aigner's conjectures the geometry of the 
+simple geodesics on
+$\mathbb{H}/\Gamma'$ once punctured torus was important. 
 
-<!-- - For Fermat's theorem it's the automorphisms of --> 
-<!-- $\mathbb{H}/\Gamma(2)$ =  three punctured sphere --> 
+- For Fermat's theorem it's the automorphisms of 
+$\mathbb{H}/\Gamma(2)$ =  three punctured sphere 
 
 #
 
@@ -330,14 +330,17 @@ can be cut up into 2 ideal triangles.
 
 #
 
-<span style="font-size: 200%">$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}=  \frac{1}{c^2 + d^2}$</span>
+200$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}=  \frac{1}{c^2 + d^2}$
 
+#
+
+What is the group of automorphisms?
+<img src="./three_punctured.png" width="600">
 
 #
 
 What is the subgroup of automorphisms <br>
 fixing the cusp labeled $\infty$?
-<img src="./three_punctured.png" width="600">
 
 #
 
@@ -353,7 +356,7 @@ fixing the cusp labeled $\infty$?
 - whose fixed point is $i+1$
 
 #
-### the set <span style="font-size: 85%">$X$</span>
+### the set 85$X$
 
 - arcs joining cusps $\infty, 1$ with $\lambda$-length $p^2$
 - lift to vertical lines with endpoints $k/p$ with $k$ odd
@@ -364,7 +367,10 @@ fixing the cusp labeled $\infty$?
 
 - Let $n$ be a positive integer.
 - The number of  ways of writing $n$  as a  sum of squares $n = c^2 + d^2$ with $c,d$ coprime integers
-- is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
+-  is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
+
+#
+### Proof of lemma
 
 
 #
@@ -418,8 +424,6 @@ then there is a unique triple $z > y > x$
 
 #
 
-<div class="wrap"><iframe data-src="./button.html" > </iframe></div>
+!![](./button.html)
 
-
-
-# The End
+# That's all folks!!!!!

@@ -9,7 +9,7 @@
 
 **Tuesday** 7/12/21 I am giving a talk in Tokyo 
 
-- [SLIDES]( ./GRENOBLE/new.html)
+- [SLIDES]( ./GRENOBLE/short.html)
 
 ---
 

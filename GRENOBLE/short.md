@@ -2,6 +2,7 @@
 %greg mc
 %Tokyo December  2021
 
+
 #
 
 <img src="./Martin_Aigner.jpg" width="400">
@@ -108,7 +109,7 @@ z &\mapsto& 1/\bar{z}
 
 #
 
-![](./cover_triangles.html)
+!![](./cover_triangles.html)
 
 #
 ## Farey tessalation
@@ -200,8 +201,7 @@ z &\mapsto& 1/\bar{z}
 #
 ## Primitives
 
-- $\mathbb{Z}^2$ 
-- infinitely many primitive elements 
+- infinitely many primitive elements in $\mathbb{Z}^2$ 
 - $(a,b)$ primitive iff $a,b \in \mathbb{Z}$ coprime
 - $SL(2,\mathbb{Z})$ transitive on primitives
 
@@ -279,7 +279,6 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 #
 ### Proof of lemma
 
-- $\mathrm{SL}(2,\mathbb{Z})$  transitive, 
 - can suppose $a/b = \infty$ and $c/d = k/(ad - bc)$
 - Ford circles  $F$  tangent at $\infty$
 - and another of diameter $1/(ad - bc)^2$
@@ -295,14 +294,14 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 - $\mathbb{H}/\Gamma(2)$  three punctured sphere 
 - $\mathbb{H}/\Gamma'$ once punctured torus 
 
-#
+<!-- # -->
 
-In the solution of Aigner's conjectures the geometry of the 
-simple geodesics on
-$\mathbb{H}/\Gamma'$ once punctured torus was important. 
+<!-- In the solution of Aigner's conjectures the geometry of the --> 
+<!-- simple geodesics on -->
+<!-- $\mathbb{H}/\Gamma'$ once punctured torus was important. --> 
 
-- For Fermat's theorem it's the automorphisms of 
-$\mathbb{H}/\Gamma(2)$ =  three punctured sphere 
+<!-- - For Fermat's theorem it's the automorphisms of --> 
+<!-- $\mathbb{H}/\Gamma(2)$ =  three punctured sphere --> 
 
 #
 
@@ -331,15 +330,12 @@ can be cut up into 2 ideal triangles.
 
 200$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}=  \frac{1}{c^2 + d^2}$
 
-#
-
-What is the group of automorphisms?
-<img src="./three_punctured.png" width="600">
 
 #
 
 What is the subgroup of automorphisms <br>
 fixing the cusp labeled $\infty$?
+<img src="./three_punctured.png" width="600">
 
 #
 
@@ -366,10 +362,7 @@ fixing the cusp labeled $\infty$?
 
 - Let $n$ be a positive integer.
 - The number of  ways of writing $n$  as a  sum of squares $n = c^2 + d^2$ with $c,d$ coprime integers
--  is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
-
-#
-### Proof of lemma
+- is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
 
 
 #
@@ -425,4 +418,4 @@ then there is a unique triple $z > y > x$
 
 !![](./button.html)
 
-# That's all folks!!!!!
+# The End
