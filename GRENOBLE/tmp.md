@@ -1,6 +1,6 @@
 %Geometry of sums of squares
 %greg mc
-%November 2021
+%Tokyo December  2021
 
 #
 
