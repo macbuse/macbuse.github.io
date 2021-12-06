@@ -20,8 +20,8 @@
 #
 ## motivation from Markoff
 
-Markov numbers are integers that appear in triples which are solutions of
-a Diophantine equation the so-called Markov cubic
+Markoff numbers are integers that appear in triples which are solutions of
+a Diophantine equation the so-called Markoff cubic
 
 $x^2 + y^2 + z^2 - 3x y z = 0.$
 
@@ -56,6 +56,7 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 - On the modular torus $\mathbb{H}/\Gamma'$,  if $m$ is a Markoff number then
 	- there are exactly 3 simple closed geodesics 
 	- of length  $2\cosh^{-1}(3m/2)$ 
+- [Multiplicities of simple closed geodesics and hypersurfaces in Teichmüller space](https://arxiv.org/abs/math/0701835){target="_blank"}
 
 
 #

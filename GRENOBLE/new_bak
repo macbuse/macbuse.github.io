@@ -20,8 +20,8 @@
 #
 ## motivation from Markoff
 
-Markoff numbers are integers that appear in triples which are solutions of
-a Diophantine equation the so-called Markoff cubic
+Markov numbers are integers that appear in triples which are solutions of
+a Diophantine equation the so-called Markov cubic
 
 $x^2 + y^2 + z^2 - 3x y z = 0.$
 
@@ -30,7 +30,7 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 #
 ### Odd index Fibonacci numbers are Markoff numbers
 
-<span style="font-size: 50%">$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$</span>
+50$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$
 
 $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 
@@ -56,7 +56,6 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 - On the modular torus $\mathbb{H}/\Gamma'$,  if $m$ is a Markoff number then
 	- there are exactly 3 simple closed geodesics 
 	- of length  $2\cosh^{-1}(3m/2)$ 
-- [Multiplicities of simple closed geodesics and hypersurfaces in Teichmüller space](https://arxiv.org/abs/math/0701835){target="_blank"}
 
 
 #
@@ -94,17 +93,17 @@ $x^2 + y^2 + z^2 - 3x y z = 0.$
 
 Acting on $\mathbb{F}_p^*$
 
-<span style="font-size: 150%">$\begin{array}{lll}
+150$\begin{array}{lll}
 x &\mapsto& -x \\
 x &\mapsto& 1/x
-\end{array}$</span>
+\end{array}$
 
 Acting on $\mathbb{H}$
 
-<span style="font-size: 150%">$\begin{array}{lll}
+150$\begin{array}{lll}
 z &\mapsto& -\bar{z} \\
 z &\mapsto& 1/\bar{z}
-\end{array}$</span>
+\end{array}$
 
 #
 ## Farey tessalation
@@ -325,7 +324,7 @@ can be cut up into 2 ideal triangles.
 
 #
 
-<span style="font-size: 200%">$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}=  \frac{1}{c^2 + d^2}$</span>
+200$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}=  \frac{1}{c^2 + d^2}$
 
 #
 
@@ -351,7 +350,7 @@ fixing the cusp labeled $\infty$?
 - whose fixed point is $i+1$
 
 #
-### the set <span style="font-size: 85%">$X$</span>
+### the set 85$X$
 
 - arcs joining cusps $\infty, 1$ with $\lambda$-length $p^2$
 - lift to vertical lines with endpoints $k/p$ with $k$ odd
@@ -419,8 +418,6 @@ then there is a unique triple $z > y > x$
 
 #
 
-<div class="wrap"><iframe data-src="./button.html" > </iframe></div>
-
-
+!![](./button.html)
 
 # That's all folks!!!!!
