@@ -125,7 +125,7 @@ z &\mapsto& 1/\bar{z}
 - [ Heath-Brown, Fermat’s two squares theorem. Invariant (1984) ](https://core.ac.uk/reader/97080){target="_blank"}
 - Zagier, A one-sentence proof that every prime p = 1 (mod 4) is a sum of two squares, 1990
 - Elsholtz, Combinatorial Approach to Sums of Two Squares and Related Problems.  (2010) 
-- Penner, The decorated Teichmueller space of punctured surfaces, Comm  Math Phys  (1987)
+- [Penner, The decorated Teichmueller space of punctured surfaces, Comm  Math Phys  (1987)](./1104160216.pdf){target="_blank"}
 - [Zagier text](https://people.mpim-bonn.mpg.de/zagier/files/doi/10.2307/2323918/fulltext.pdf){target="_blank"}
 
 #
