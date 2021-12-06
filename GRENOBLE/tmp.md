@@ -109,7 +109,7 @@ z &\mapsto& 1/\bar{z}
 
 #
 
-<div class="wrap"><iframe data-src="./cover_triangles.html" > </iframe></div>
+<div class="wrap"><iframe data-src="./cover_triangles.html" width="480" > </iframe></div>
 
 
 
@@ -418,7 +418,7 @@ then there is a unique triple $z > y > x$
 
 #
 
-<div class="wrap"><iframe data-src="./button.html" > </iframe></div>
+<div class="wrap"><iframe data-src="./button.html" width="480" > </iframe></div>
 
 
 

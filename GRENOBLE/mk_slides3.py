@@ -107,12 +107,12 @@ if __name__ == '__main__':
         print("<< ", src)
         #this is typically a youtube video
         if 'http' in src:
-            wrapper = wrap%'''<iframe src="{}" allowfullscreen="true"> </iframe>'''
+            wrapper = wrap%'''<iframe src="{}" allowfullscreen="true" > </iframe>'''
             return wrapper.format(src)
 
         #local html file - this is loaded lazily, so animations start on view
         if 'html' in src:
-            wrapper = wrap%'''<iframe data-src="{}" > </iframe>'''
+            wrapper = wrap%'''<iframe data-src="{}" width="480" > </iframe>'''
             return wrapper.format(src)
 
         if 'mp4' in src:

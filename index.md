@@ -81,7 +81,16 @@ simulation of an epidemic the particles follow a random walk....
 - [corrections F4 bis]( ./MAT305/f4_corr_2.pdf)
 - [corrections F4 ter]( ./MAT305/f4_corr_3.pdf)
 - [corrections F5]( ./MAT305/f5_corr_1.pdf)
+
+### attention
+
+Je suis a [Tokyo](./GRENOBLE/short.html) et j'arriverai avant 8h30
+regarder les corrections ci-dessous :
+
+
 - [corrections F6]( ./MAT305/f6_corr_1.pdf)
+- [corrections F6 bis]( ./MAT305/f6_corr_bis.pdf)
+- exo 3 est difficile [regarder le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
 - [courbes](./MAT305/graphs_tangents.pdf)
 
 ---
