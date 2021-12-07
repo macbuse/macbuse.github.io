@@ -29,6 +29,13 @@
 [Proofs from the Book chapter](http://link.springer.com.https.jxnydx.proxy.chaoxing.com/chapter/10.1007/978-3-662-57265-8_4){target="_blank"}
 
 #
+
+Some of this is joint work with<br>
+Vlad Sergesciu
+
+
+
+#
 ## motivation from Markoff
 
 Markoff numbers are integers that appear in triples which are solutions of
@@ -56,9 +63,19 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 - Every integer appears to appear at most 6 times
 
 #
-### Multiplicity $\leq 6
+### Multiplicity $\leq 6$
 
 <img src="./Markoff_tree_full.svg" width="600">
+
+#
+## Notation
+
+- $\Gamma = \mathrm{SL}(2,\mathbb{Z})$ has torsion so $\mathbb{H}/\Gamma$ orbifold
+- $\Gamma(2) = \ker (\mathrm{SL}(2,\mathbb{Z})\rightarrow  \mathrm{SL}(2,\mathbb{F}_2))$
+- $\Gamma' = [\Gamma,\Gamma]$
+- $\mathbb{H}/\Gamma(2)$  three punctured sphere 
+- $\mathbb{H}/\Gamma'$ once punctured torus 
+
 
 #
 ### Frobenius uniqueness conjecture
@@ -118,6 +135,8 @@ z &\mapsto& 1/\bar{z}
 \end{array}$
 
 #
+
+arcs on a puntured sphere $\mathbb{H}/\Gamma$
 
 !![](./cover_triangles.html)
 
