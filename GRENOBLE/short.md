@@ -10,7 +10,16 @@
 
 - [Proofs from THE BOOK](https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem){target="_blank"}
 - [Convexity and Aigner's Conjectures](https://arxiv.org/abs/2101.03316){target="_blank"}
-- Can I prove these with one figure ?
+
+#
+## proof with one figure ?
+
+<img src="./norm_ball.png" width="600">
+
+#
+## proof with one figure ?
+
+<img src="./lines.png" width="800">
 
 #
 ## hyperbolic geometry proof of 
