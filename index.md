@@ -7,9 +7,7 @@
 - I am currently back from sick leave with a broken shoulder.
 - I am very busy with refereeing
 
-**Tuesday** 7/12/21 I am giving a talk in Tokyo 
 
-- [SLIDES]( ./GRENOBLE/short.html)
 
 ---
 
@@ -251,6 +249,7 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 
 ---
 
+- [Tokyo 7/12]( ./GRENOBLE/short.html)
 - [Toulouse 9/11]( ./GRENOBLE/web.html)
 - [Grenoble 8/10](./GRENOBLE/web.html)
 
