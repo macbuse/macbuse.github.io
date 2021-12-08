@@ -7,8 +7,6 @@
 - I am currently back from sick leave with a broken shoulder.
 - I am very busy with refereeing
 
-
-
 ---
 
 ## Before we start (you can skip)
@@ -21,7 +19,6 @@ After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've 
 
 [why ?](church)
 
-
 ---
 
 # Teaching 2020-21
@@ -30,14 +27,10 @@ After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've 
 
 ## First semester
 
-
 ### introduction à la programmation 
 
-### Important
 
-  **	I will be teaching from 13h today 3/12/21**
-
-  - Fridays 13:45
+- Fridays 13:45
 
 - [Presentation programmation](./PROG/pres)
 - [cours](./PROG/index.md)
@@ -82,9 +75,7 @@ simulation of an epidemic the particles follow a random walk....
 
 ### attention 7/12
 
-Je suis a [Tokyo](./GRENOBLE/short.html) et j'arriverai avant 8h30
-regarder les corrections ci-dessous :
-
+Je suis a [Tokyo](./GRENOBLE/short.html) et j'arriverai avant 8h30 regardez les corrections ci-dessous :
 
 - [corrections F6]( ./MAT305/f6_corr_1.pdf)
 - [corrections F6 bis]( ./MAT305/f6_corr_bis.pdf)
