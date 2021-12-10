@@ -30,7 +30,10 @@ After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've 
 ### introduction à la programmation 
 
 
-- Fridays 13:45
+This course has finished. Today 10/12 there is soutien en algebre. I will be
+available 10/12 to discuss projects at 16h after the soutien finishes.
+
+- Projects should be sent to my email mcshane@univ-grenoble-alpes.fr before 10/1/22
 
 - [Presentation programmation](./PROG/pres)
 - [cours](./PROG/index.md)
