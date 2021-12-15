@@ -59,6 +59,10 @@ simulation of an epidemic the particles follow a random walk....
 
 ### MAT305 
 
+### 15/12 je dois annuler
+
+Les corrections va apparaitre ci-dessous d'ici demain midi.
+
 - [mat305](https://dlst.univ-grenoble-alpes.fr/enseignements/ressources-pedagogiques/l2-chimie-ressources-pedagogiques-255950.kjsp)
   - Tuesday 8h 
   - Wednesday 9h45
