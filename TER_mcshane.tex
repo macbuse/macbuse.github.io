@@ -1,67 +1,111 @@
-Titre : Loi de réciprocité quadratique
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 
-Résumé : en théorie des nombres, la loi de réciprocité quadratique,
-établit des liens entre les nombres premiers ; plus précisément, elle
-décrit la possibilité d'exprimer un nombre premier comme un carré modulo
-un autre nombre premier. Conjecturée par Euler et reformulée par
-Legendre, elle a été correctement démontrée pour la première fois par
-Gauss en 1801. Elle permet de résoudre les deux problèmes de base de la
-théorie des résidus quadratiques et est considérée comme un des
-théorèmes les plus importants de la théorie des nombres, ayant de
-nombreuses généralisations.
+\author{}
+\date{}
 
-Théorème fondamental
+\begin{document}
 
-Étant donnés deux nombres premiers impairs distincts p et q :
+\hypertarget{titre-lalgorithme-zipper}{%
+\subsection{Titre : l'Algorithme
+Zipper}\label{titre-lalgorithme-zipper}}
 
-\begin{itemize}
-\tightlist
-\item
-  si p ou q est congru à 1 modulo 4, alors p est un carré modulo q si et
-  seulement si q est un carré modulo p.
-\item
-  si p et q sont congrus à 3 modulo 4, alors p est un carré modulo q si
-  et seulement si q n'est pas un carré modulo.
-\end{itemize}
+\hypertarget{ruxe9sumuxe9}{%
+\subsection{Résumé :}\label{ruxe9sumuxe9}}
 
-Les premières démonstrations aujourd'hui considérées comme complètes
-sont publiées par Gauss dans ses Disquisitiones arithmeticae en 1801. On
-compte plus de 200 démonstrations et parmi elles la preuve de D. Zagier
-est remarquable car elle ne tient qu'une ligne.
+En analyse complexe, le théorème de l'application conforme, dû à
+Bernhard Riemann, assure que toutes les parties ouvertes simplement
+connexes du plan complexe qui ne sont ni vides ni égales au plan tout
+entier sont conformes entre elles. Autrement dit, étant donné un domaine
+homéomorphe au disque unité il existe une bijection holomorphe entre ce
+disque et le disque unité.
 
-On va étudier trois preuves de ce résultat :
+Le théorème fut énoncé (sous l'hypothèse plus forte d'une frontière
+formés d'arcs différentiables) par Bernhard Riemann dans sa thèse, en
+1851. La démonstration de Riemann dépendait de l'existence d'une
+solution du problème de Dirichlet sur le domaine, qui était considéré
+comme àdmis à cette époque. Pourtant la méthode de Riemann ne s'applique
+pas aux domaines simplement connexes de frontière non suffisamment lisse
+; de tels domaines furent étudiés en 1900 par W. F. Osgood.
 
-\begin{itemize}
-\tightlist
-\item
-  à la base de la division euclidienne dans les entiers de Gauss.
-\item
-  en étudiant des modules libre de rang 2 suivant Lucas.
-\item
-  avec l'involution de Zagier et son interpretation en termes de la
-  combinatoire des moulins à vents decouverte par A. Spivak.
-\end{itemize}
+Au début des années 80, un algorithme élémentaire pour trouver une
+bijection holomorphe a été découvert par R. Kühnau et D.E. Marshall.
+L'algorithme est rapide et précis et relativement facile à programmer.
+Soit \(z_0, ..., z_n\) des points distincts dans le plan complexe.
+L'algorithme donne une suite de bijections holomorphes toute explicite
+qui converge vers une bijection holomorphe entre le disque unité et une
+région délimitée par une courbe de Jordan \(\gamma\) avec
+\(z_0, ..., z_n \in \gamma\). La complexité de l'algorithme depende de
+\(n\) mais pas de la courbe \(\gamma\) et ça converge rapidement même
+pour la courbe de Koch.
 
-En particulier, on mettra en avant la géométrie sous adjacente dans les
-preuves.
+On va étudier la méthode utilisée pour établir la convergence dans
+l'article de Rohde et Marshall. En particulier on va voir comment le
+taux de convergence varie selon la regularité de la courbe \(\gamma\).
+Si le temps nous le permet on développera les applications en
+informatiques et fera une comparaison avec d'autre méthodes numériques :
+transformations de Schwarz-Christoffel et empilements de cercles.
 
-Prérequis :
+\hypertarget{pruxe9requis}{%
+\subsection{Prérequis :}\label{pruxe9requis}}
 
-Algèbre I
+Fonctions holomorphes
 
-Références
+\hypertarget{ruxe9fuxe9rences}{%
+\subsection{Références :}\label{ruxe9fuxe9rences}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
-  Christian Elsholtz, A combinatorial approach to sums of two squares
-  and related problems
-  \href{https://www.math.tugraz.at/~elsholtz/WWW/papers/papers30nathanson-new-address3.pdf}{télécharger}
+  Donald E. Marshall, Steffen Rohde, Convergence of the Zipper algorithm
+  for conformal mapping \href{https://arxiv.org/abs/math/0605532}{arxiv}
 \item
-  Wagon, S.: The Euclidean algorithm strikes again. Amer. Math. Monthly
-  97 (1990), 125--129.
-\item
-  Zagier, D.: A one-sentence proof that every prime p = 1 (mod 4) is a
-  sum of two squares, Amer. Math. Monthly 97(2) (1990), 144. p
+  Sharon, E., and David Bryant Mumford, 2D-shape analysis using
+  conformal mapping. International Journal of Computer Vision, 2006
 \end{enumerate}
 
+\end{document}

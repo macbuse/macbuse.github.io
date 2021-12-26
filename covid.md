@@ -31,6 +31,8 @@ project of denying the possibility of truth beyond partisan perspective.
 
 #### articles
 
+[interview with a modeller](https://www.spectator.co.uk/article/my-twitter-conversation-with-the-chairman-of-the-sage-covid-modelling-committee)
+
 [Boys and vaccines](https://www.theguardian.com/world/2021/sep/10/boys-more-at-risk-from-pfizer-jab-side-effect-than-covid-suggests-study?fbclid=IwAR0YyzgKX4-8_GjT5_9JdeyogdNyT2_YBi82HmMCSdwbkgb09GruT2Xlu-k)
 
 [study](https://www.medrxiv.org/content/10.1101/2021.08.30.21262866v1)
