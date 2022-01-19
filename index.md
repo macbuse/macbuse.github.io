@@ -12,7 +12,7 @@
 
 ---
 
-# Teaching 2020-21
+# Teaching 2021-22
 
 <!-- [More details](teaching.md) -->
 
@@ -22,6 +22,11 @@
 ### MNUM 
 
 Fridays 13h45 salle CARISM RdC.
+
+1. I **prefer** if you bring your own computer
+it's not hygienic to use the computers in the room.
+1. there will be a break at 15h30 for 15 minutes to ventilate the room
+
 
 - [F1](./METH_NUM/1_feuille_flottant.pdf)
 	- 21/1 exos 1, 3 et 2 
