@@ -25,13 +25,22 @@ After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've 
 
 [More details](teaching.md)
 
+
+## Second semester
+
+### Mnum L3A2
+
+Fridays 13h45
+
+- [TD 1](./METH_NUM/1_feuille_flottant.pdf)
+
+---
+
 ## First semester
 
 ### introduction à la programmation 
 
-
 This course has finished we did some interesting things.
-
 
 #### Conway's life on a torus
 
@@ -52,15 +61,7 @@ simulation of an epidemic the particles follow a random walk....
 
 ### MAT305 
 
----
-
-## Second semester
-
-### Mnum L3A2
-
-Fridays 13h45
-
-- [TD 1](./METH_NUM/1_feuille_flottant.pdf)
+Math for second year chemists [archived](./MAT305_index.md)
 
 ---
 
