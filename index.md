@@ -23,9 +23,9 @@
 
 Fridays 13h45 salle CARISM RdC.
 
-1. I **prefer** if you bring your own computer
+1. I **prefer** if you bring your own computer as
 it's not hygienic to use the computers in the room.
-1. there will be a break at 15h30 for 15 minutes to ventilate the room
+1. there will be a break at 15h30 for 15 minutes to ventilate the room.
 
 
 - [F1](./METH_NUM/1_feuille_flottant.pdf)
