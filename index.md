@@ -14,16 +14,17 @@
 
 # Teaching 2020-21
 
-[More details](teaching.md)
+<!-- [More details](teaching.md) -->
 
 
 ## Second semester
 
-### Mnum L3A2
+### MNUM 
 
-Fridays 13h45
+Fridays 13h45 salle CARISM RdC.
 
-- [TD 1](./METH_NUM/1_feuille_flottant.pdf)
+- [F1](./METH_NUM/1_feuille_flottant.pdf)
+	- 21/1 exos 1, 3 et 2 
 
 ---
 
@@ -32,6 +33,8 @@ Fridays 13h45
 ### introduction à la programmation 
 
 This course has finished we did some interesting things.
+
+<!-- #### Mastermind -->
 
 #### Conway's life on a torus
 
