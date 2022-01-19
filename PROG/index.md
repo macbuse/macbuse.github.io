@@ -23,6 +23,12 @@ Projects
 	- code should be explained in text cells using Mrakdown
 	- there should be a list of references 
 
+- Projects should be sent to my email mcshane@univ-grenoble-alpes.fr before 10/1/22
+
+- [Presentation programmation](./PROG/pres)
+- [cours](./PROG/index.md)
+-  if you want to look ahead/back [cours 2020](./PROG/cours_2020.md)
+
 ---
 
 ### Friday 3/11

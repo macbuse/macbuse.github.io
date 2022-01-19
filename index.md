@@ -30,15 +30,8 @@ After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've 
 ### introduction à la programmation 
 
 
-This course has finished. 
-<!-- Today 10/12 there is soutien en algebre. I will be -->
-<!-- available 10/12 to discuss projects at 16h after the soutien finishes. -->
+This course has finished we did some interesting things.
 
-- Projects should be sent to my email mcshane@univ-grenoble-alpes.fr before 10/1/22
-
-- [Presentation programmation](./PROG/pres)
-- [cours](./PROG/index.md)
--  if you want to look ahead/back [cours 2020](./PROG/cours_2020.md)
 
 #### Conway's life on a torus
 
@@ -59,36 +52,15 @@ simulation of an epidemic the particles follow a random walk....
 
 ### MAT305 
 
-### 15/12 je dois annuler
+---
 
-Les corrections va apparaitre ci-dessous d'ici demain midi.
+## Second semester
 
-- [mat305](https://dlst.univ-grenoble-alpes.fr/enseignements/ressources-pedagogiques/l2-chimie-ressources-pedagogiques-255950.kjsp)
-  - Tuesday 8h 
-  - Wednesday 9h45
+### Mnum L3A2
 
-- [cours](./MAT305/cours.pdf)
-<!-- - [F1](./MAT305/TD1.pdf) -->
-<!-- - [F2](./MAT305/TD2.pdf) -->
+Fridays 13h45
 
-- [correction exo 6](./MAT305/correction_f2exo6.pdf)
-- [correction exos 7 etc](./MAT305/correction_rest.pdf)
-- [corrections F3]( ./MAT305/f3_corr.pdf)
-- [corrections F3 bis ]( ./MAT305/f3_corr_2.pdf)
-- [corrections F3 ter ]( ./MAT305/f3_corr_3.pdf)
-- [corrections F4]( ./MAT305/f4_corr_1.pdf)
-- [corrections F4 bis]( ./MAT305/f4_corr_2.pdf)
-- [corrections F4 ter]( ./MAT305/f4_corr_3.pdf)
-- [corrections F5]( ./MAT305/f5_corr_1.pdf)
-
-### attention 7/12
-
-Je suis a [Tokyo](./GRENOBLE/short.html) et j'arriverai avant 8h30 regardez les corrections ci-dessous :
-
-- [corrections F6]( ./MAT305/f6_corr_1.pdf)
-- [corrections F6 bis]( ./MAT305/f6_corr_bis.pdf)
-- exo 3 est difficile [regarder le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
-- [courbes](./MAT305/graphs_tangents.pdf)
+- [TD 1](./METH_NUM/1_feuille_flottant.pdf)
 
 ---
 
