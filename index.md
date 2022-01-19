@@ -9,15 +9,6 @@
 
 ---
 
-## Before we start (you can skip)
-
-After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
-
-- [the pope](https://github.com/tpope)
-- [the primate/bishop](https://github.com/ThePrimeagen)
-- [heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
-
-[why ?](church)
 
 ---
 
@@ -268,3 +259,13 @@ to explain the techniques and possibilities.
 <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/woodcuts/swirler.JPG" alt="photo" width="300">
 <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/woodcuts/lego.png" alt="photo" width="300">
 </center>
+
+## Finally (you can skip)
+
+After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've recently converted to  the church of [neovim](https://neovim.io/)
+
+- [the pope](https://github.com/tpope)
+- [the primate/bishop](https://github.com/ThePrimeagen)
+- [heretics/future](https://github.com/nvim-treesitter/nvim-treesitter)
+
+[why ?](church)
