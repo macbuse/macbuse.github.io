@@ -5,7 +5,7 @@
 ### mcshane@univ-grenoble-alpes.fr
 
 
-- this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had uploaded.
+- this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded.
 - I am currently back from sick leave with a broken shoulder.
 - I am very busy with refereeing
 
