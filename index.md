@@ -33,6 +33,12 @@ it's not hygienic to use the computers in the room.
 - [F1](./METH_NUM/1_feuille_flottant.pdf)
 	- 21/1 exos 1, 3 et 2 
 
+#### notes
+
+Two examples where binary (base 2) arithmetic is best:
+- [modexp](https://github.com/secworks/modexp/blob/master/src/model/python/modexp.py)
+- [Q_rsqrt](https://en.wikipedia.org/wiki/Fast_inverse_square_root)
+
 ---
 
 ## First semester
