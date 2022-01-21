@@ -31,7 +31,7 @@ it's not hygienic to use the computers in the room.
 
 
 - [F1](./METH_NUM/1_feuille_flottant.pdf)
-	- 21/1 exos 1, 3 et 2 
+	- 21/1 exos 1, 3 et 5
 
 #### notes
 
