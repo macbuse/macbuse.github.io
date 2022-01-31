@@ -3,7 +3,7 @@
 
 - [F1](./METH_NUM/1_feuille_flottant.pdf)
 	- 21/1 exos 1, 3 et 5  [correction](./METH_NUM/TP_1_corr.pdf) and [my brouillon](./METH_NUM/TP1.ipynb)
-	- 28/1 exos 6,7 et 8 [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf)
+	- 28/1 exos 6,7 et 8 [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html)
 	
 
 #### notes TP1
@@ -41,5 +41,4 @@ You should learn how to use **numpy** notation for matrices
 - ```np.identity```
 - ```np.zeros```
 - ```np.dot()``` matrix multiplication
-
 

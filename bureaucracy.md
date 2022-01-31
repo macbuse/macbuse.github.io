@@ -1,27 +1,44 @@
-# bureaucratie
+# Bureaucratie
 
 [source](https://www.nouvelobs.com/sante/20220129.OBS53836/excel-m-a-tue-comment-la-bureaucratie-a-asphyxie-notre-systeme-hospitalier.html?fbclid=IwAR3Zsfi5GGqATurrGcMpcDZfhmvYiY9-YxN1tQl3Us7TuWDT_zKGdj_YXAM)
 
 
 ## Maladie de projets
 
-« Écrivez-moi un projet ! » Tout est projet : projet médical, projet
-managérial, projet social, projet de soins, projet d’établissement, projet
-financier, projet de pôle, projet de département, projet de service, projet de
-chefferie de service, projet pédagogique, projet des représentants des usagers,
-etc. Aucun projet ne se réalise comme prévu, car c’est une littérature
-fictionnelle qui donne l’impression d’avoir été rédigée sous l’emprise de
-stupéfiants.
+« Écrivez-moi un projet ! » Tout est projet :
+projet médical
+- projet managérial
+- projet social
+- projet de soins
+- projet d’établissement
+- projet financier
+- projet de pôle
+- projet de département
+- projet de service
+- projet de chefferie de service
+- projet pédagogique
+- projet des représentants des usagers etc.
+
+Aucun projet ne se réalise comme prévu, car c’est une littérature fictionnelle
+qui donne l’impression d’avoir été rédigée sous l’emprise de stupéfiants.
 
 
-## reports
+## Reports
 
- Et que dire de ces rapports annuels d’activité, enquêtes administratives,
- rapports d’étapes, feuilles de route, plans stratégiques, boîtes à outils,
- états prévisionnels, plans locaux de santé, plans globaux de financement
- pluriannuels, stratégie nationale de santé, pilotage de la transformation
+ Et que dire de 
+- ces rapports annuels d’activité,
+- enquêtes administratives,
+- rapports d’étapes,
+- feuilles de route
+- plans stratégiques
+- boîtes à outils
+- états prévisionnels
+- plans locaux de santé
+- plans globaux de financement pluriannuels
+- stratégie nationale de santé
+- pilotage de la transformation
 
- ## Curious observation
+## Curious observation
 
 Fait assez curieux, la bureaucratie assure sa domination non pas en exigeant
 des données fiables ou contrôlées, mais se satisfait de ce que chaque case soit
@@ -30,7 +47,6 @@ n’a aucune conséquence. C’est une découverte étonnante qui peut vous simp
 la vie. On peut même dire que le recueil de données est une entreprise
 aléatoire. L’acribie n’est pas la qualité première des fournisseurs de chiffres
 officiels.
-
 
 
 ## Reporting, normes et procédures
@@ -63,46 +79,59 @@ pratique […] L’évolution de la médecine, et en particulier la multiplicati
 des procédures, a une influence négative sur son apprentissage et son exercice.
 »
 
-## Balzac
+## Balzac, Tocqueville  and meetings
 
 Balzac a vu la graine bureaucratique germer et en a immédiatement décelé les
-tares congénitales : la manie du rapport, la paralysie due à la centralisation
-et la ruine pour tout résultat. Pour compléter le tableau, ajoutons
-l’organisation incessante de réunions, ne serait-ce que pour fixer la date de
-la prochaine réunion. Le refus de participer à une réunion est vécu comme le
-dernier outrage par les bureaucrates. Balzac n’était pas le seul à avoir
-pressenti les ravages de la bureaucratie. Comme le rappelle le sociologue
-Michel Crozier : « Tocqueville a déjà démontré que cette administration
-omniprésente, qui s’occupe de tout et qui sait toujours mieux que les citoyens
-ce qui leur convient, étouffe leurs initiatives, diminue leur intérêt pour le
-bien public et engendre constamment par son agitation brouillonne les problèmes
-qu’elle devra finalement résoudre. […] Ne pouvant tout contrôler, elle
-s’acharne à développer des règlements, ajoutant la méfiance au contrôle et
-forçant tout le monde à l’irrégularité. »
+tares congénitales :
+- la manie du rapport
+- la paralysie due à la centralisation
+- la ruine pour tout résultat. 
+
+Pour compléter le tableau, ajoutons **l’organisation incessante de réunions**,
+ne serait-ce que pour fixer la date de la prochaine réunion. Le refus de
+participer à une réunion est vécu comme le dernier outrage par les
+bureaucrates. 
+
+Balzac n’était pas le seul à avoir pressenti les ravages de la bureaucratie.
+Comme le rappelle le sociologue Michel Crozier :
+
+« Tocqueville a déjà démontré que cette administration omniprésente, qui
+s’occupe de tout et qui sait toujours mieux que les citoyens ce qui leur
+convient, étouffe leurs initiatives, diminue leur intérêt pour le bien public
+et engendre constamment par son agitation brouillonne les problèmes qu’elle
+devra finalement résoudre. […] Ne pouvant tout contrôler, elle s’acharne à
+développer des règlements, ajoutant la méfiance au contrôle et forçant tout le
+monde à l’irrégularité. »
 
 La plus belle réussite de la bureaucratie, qui fait un tort considérable au
-monde hospitalier, est sans doute son aptitude à dilater le temps et à diluer
-les responsabilités. Ce qui dans la vraie vie prend une heure, prend dans la
-vie bureaucratique un trimestre, un semestre, une année. Pour justifier son
-existence et surtout ne pas laisser penser qu’il ne sert à rien, chaque
-échelon, et il s’en crée de nouveaux en permanence, caquette en réunions
-multiples, se divise en groupes et sous-groupes de travail, commissions et
-sous-commissions, pond des rapports et sous-rapports (« rapports d’étape »),
-met son grain de sel à tout propos, un grain de sable en réalité, contredit
-l’échelon inférieur, avant d’être contredit par l’échelon supérieur.
+monde hospitalier, est sans doute son aptitude 
+- à dilater le temps 
+- et à diluer les responsabilités. 
+
+Ce qui dans la vraie vie prend une heure, prend dans la vie bureaucratique un
+trimestre, un semestre, une année. 
+
+Pour justifier son existence et surtout ne pas laisser penser qu’il ne sert à
+rien, chaque échelon, et il s’en crée de nouveaux en permanence, caquette en
+réunions multiples, se divise en groupes et sous-groupes de travail,
+commissions et sous-commissions, pond des rapports et sous-rapports (« rapports
+d’étape »), met son grain de sel à tout propos, un grain de sable en réalité,
+contredit l’échelon inférieur, avant d’être contredit par l’échelon supérieur.
 
 
 ## politicians
 
+Le philosophe Michel Henry a décrit ainsi la nature de l’administration : 
 
-Le philosophe Michel Henry a décrit ainsi la nature de l’administration : «
-L’incompétence du politique se laisse reconnaître à l’intérieur de chacun des
+« L’incompétence du politique se laisse reconnaître à l’intérieur de chacun des
 organismes qu’il met en place et culmine dans l’administration. Le propre de
 celle-ci est, sous prétexte de défendre l’intérêt général, de substituer
 partout ses problèmes, ses méthodes, ses intérêts, bref sa finalité
 bureaucratique propre, aux finalités vivantes des entreprises individuelles
 vis-à-vis desquelles elle se comporte comme une contrainte extérieure et comme
 une force de mort. » 
+
+### administration comme tumeur
 
 Il souligne notamment la capacité de l’administration à organiser de façon
 autonome sa propre croissance, à la manière d’une tumeur maligne qui capte à
@@ -118,15 +147,20 @@ psychologues du travail, comme en France
 - Christophe Dejours 
 - Yves Clot. 
 
-Pour le premier, les acteurs de terrain ont été dépossédés de leur savoir et de
-la maîtrise de leur travail. Cette évolution s’est accompagnée de la perte des
-solidarités en raison de la généralisation de l’évaluation individuelle. Elle a
-généré une la **souffrance éthique**, car les agents sont tenus d’agir en
-**contradiction avec les valeurs** qui leur ont fait choisir un métier au service
-des autres.
-
-
 ## souffrance
+
+
+Pour Christophe Dejours 
+
+- les acteurs de terrain ont été dépossédés de leur savoir et de la maîtrise de
+  leur travail. 
+- accompagnée de la perte des solidarités en raison de la généralisation de
+  l’évaluation individuelle. 
+
+Elle a généré une la **souffrance éthique**, car les agents sont tenus d’agir
+en **contradiction avec les valeurs** qui leur ont fait choisir un métier au
+service des autres.
+
 
 Yves Clot oppose pour sa part 
 - le travail bien fait au travail empêché, 
@@ -140,7 +174,7 @@ psychosociaux est une aberration supplémentaire :
 des sinistrés à secourir. La victimologie ambiante, quand elle devient une
 gestion de la plainte “par en haut”, n’est souvent qu’un faux pas qui accroît,
 par un choc en retour, la passivité des opérateurs. […] Le monde du travail qui
-vient est un hybride social : une sorte de néofordisme se met en place, monté
+vient est un hybride social : une sorte de **néofordisme** se met en place, monté
 sur coussin compassionnel. La pression productiviste se dote d’amortisseurs
 psychologiques. L’engagement dans une performance trop souvent “factice” se
 marie à l’accompagnement de l’échec mal vécu, comme s’il fallait, pour
@@ -161,16 +195,14 @@ des bureaux.
 « Les chaînes de l’humanité torturée sont en papiers de ministères », écrivait Kafka.
 
 
-
 ## Gouvernance par les nombres
 
-Dire que nous vivons une crise des politiques publiques est peu dire. Les
-décisions des dirigeants au cours de ces dernières décennies ont conduit à un
-échec financier et surtout moral de plus en plus visible. Les services publics
-sont dans un état désastreux. La souffrance y est déniée. Parler de harcèlement
-institutionnel n’est pas exagéré. Cette situation misérable est l’aboutissement
-de ce que le philosophe du droit et professeur au Collège de France Alain
-Supiot a appelé « la gouvernance par les nombres ».
+Les décisions des dirigeants au cours de ces dernières décennies ont conduit à
+un échec financier et surtout moral de plus en plus visible. Les services
+publics sont dans un état désastreux. La souffrance y est déniée. Parler de
+harcèlement institutionnel n’est pas exagéré. Cette situation misérable est
+l’aboutissement de ce que le philosophe du droit et professeur au Collège de
+France Alain Supiot a appelé « la gouvernance par les nombres ».
 
 « Le renversement du règne de la loi au profit de la gouvernance par les
 nombres s’inscrit dans l’histoire longue du rêve de l’harmonie par le calcul,
@@ -182,39 +214,71 @@ sont assignés. »
 
 ### Indicators and indices
 
+
+[Goodhart](https://en.wikipedia.org/wiki/Goodhart%27s_law)
+
+Goodhart's law is an adage often stated as "When a measure becomes a target, it
+ceases to be a good measure".[1] It is named after British economist Charles
+Goodhart, who advanced the idea in a 1975 article on monetary policy in the
+United Kingdom.
+
+*Any observed statistical regularity will tend to collapse once pressure is
+placed upon it for control purposes.*
+
+It was later used to criticize the British Thatcher government for trying to
+conduct monetary policy on the basis of targets for broad and narrow money.
+
+---
+
+
 On entend souvent politiques ou hauts fonctionnaires prononcer cette phrase
-appliquée à tous les domaines : « Il faudrait quelques indicateurs bien
-choisis, en petit nombre. » Derrière une apparence de bon sens, cette
-proposition de retenir quelques indicateurs « bien choisis » – on ne dit pas
-comment – cache une erreur conceptuelle désormais bien démontrée. La loi de
-Goodhart devrait pourtant être connue de nos élites : lorsqu’une mesure devient
-un objectif, elle cesse d’être une bonne mesure. Un indicateur manipulable
-transformé en objectif a immédiatement des effets pervers. Les exemples
-d’indicateurs pervertis ne manquent pas. Ce sont les flacons d’antiseptiques
-versés dans le lavabo dès que leur consommation a servi à évaluer le suivi des
-règles d’asepsie, ou le refus des malades difficiles par les chirurgiens
-cardiaques américains quand le taux de mortalité chez leurs opérés devait
-servir à les classer – indicateur rapidement abandonné. Et que dire de la
-proposition du président Sarkozy qui avait envisagé que le taux de mortalité de
-chaque hôpital soit affiché dans le hall d’entrée des établissements ?
+appliquée à tous les domaines :
+<center>
+
+ **Il faudrait quelques indicateurs bien choisis, en petit nombre.**
+
+</center>
+
+Derrière une apparence de bon sens, cette proposition de retenir quelques
+indicateurs « bien choisis » – on ne dit pas comment – cache une erreur
+conceptuelle désormais bien démontrée. La loi de Goodhart devrait pourtant être
+connue de nos élites : lorsqu’une mesure devient un objectif, elle cesse d’être
+une bonne mesure. Un indicateur manipulable transformé en objectif a
+immédiatement des effets pervers. Les exemples d’indicateurs pervertis ne
+manquent pas. 
+- les flacons d’antiseptiques versés dans le lavabo dès que leur consommation a servi à évaluer le suivi des règles d’asepsie
+- ou le refus des malades difficiles par les chirurgiens cardiaques américains quand le taux de mortalité chez leurs opérés devait servir à les classer – indicateur
+rapidement abandonné. 
+
+Et que dire de la proposition du président Sarkozy qui
+avait envisagé que le taux de mortalité de chaque hôpital soit affiché dans le
+hall d’entrée des établissements ?
+
+
+### Objectives and contracts
 
 Le management par objectifs et indicateurs doit être considéré comme
 maltraitant. On sait pourtant, grâce à Supiot là encore, que « cette pratique
-s’est répandue qu’il s’agisse de la bibliométrie pour le chercheur, de la
-création de valeur pour l’actionnaire ou de la réduction du déficit public
-au-dessous de la barre des 3 % du PIB pour les États. Le pullulement des
-“contrats d’objectifs” décourage l’inventaire : contrats de plan État-région,
-contrats d’objectifs et de moyens pour la formation professionnelle, plans
-climat-énergie territoriaux, contrats pluriannuels d’objectifs et de moyens en
-santé, contrats d’objectifs des juridictions administratives, contrats
-pluriannuels d’établissement entre l’État et les universités, etc. » La
-recherche scientifique a été ravagée par l’instauration d’indicateurs. Elle
-s’est muée en recherche de publications dès lors que l’évaluation des
-chercheurs s’est résumée à un indicateur.
+s’est répandue qu’il s’agisse 
+- de la bibliométrie pour le chercheur
+- de la création de valeur pour l’actionnaire 
+- de la réduction du déficit public au-dessous de la barre des 3 % du PIB pour les États. 
+
+Le pullulement des “contrats d’objectifs” décourage l’inventaire :
+- contrats de plan État-région
+- contrats d’objectifs et de moyens pour la formation professionnelle
+- plans climat-énergie territoriaux
+- contrats pluriannuels d’objectifs et de moyens en santé
+- contrats d’objectifs des juridictions administratives
+- contrats pluriannuels d’établissement entre l’État et les universités
+- etc. 
 
 
 ## Inconduite scientifique
 
+La recherche scientifique a été ravagée par l’instauration d’indicateurs. Elle
+s’est muée en recherche de publications dès lors que l’évaluation des
+chercheurs s’est résumée à un indicateur.
 
 Cet indicateur n’évalue pas la qualité des publications mais leur nombre, et,
 dans le cas des recherches biomédicales, se traduit en recettes supplémentaires
@@ -233,9 +297,12 @@ millions d’articles scientifiques publiés entre 1980 et 1990, seuls deux sur
 Les organismes de recherches, comme en France le CNRS, se rendant compte des
 effets pervers de ce mode d’évaluation, abandonnent progressivement les
 indicateurs bibliométriques. Au lieu de demander à un chercheur quel est son
-score Sigaps, on lui posera une question bien plus embarrassante : qu’avez-vous
-apporté à votre domaine de recherche, quelle énigme avez-vous résolue, quels
-sont les résultats marquants auxquels vous êtes parvenus ? Beaucoup seront bien
+score Sigaps, on lui posera une question bien plus embarrassante :
+
+**qu’avez-vous apporté à votre domaine de recherche, quelle énigme avez-vous
+résolue, quels sont les résultats marquants auxquels vous êtes parvenus ?**
+
+Beaucoup seront bien
 en peine de répondre et les authentiques chercheurs sortiront du lot. Cette
 évaluation qualitative favorisera l’inventivité, l’originalité, et sera un bon
 remède à la graphorrhée actuelle.
