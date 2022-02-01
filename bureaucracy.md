@@ -286,15 +286,19 @@ Cet indicateur n’évalue pas la qualité des publications mais leur nombre, et
 dans le cas des recherches biomédicales, se traduit en recettes supplémentaires
 pour l’établissement hospitalier auquel sont rattachés les chercheurs. Pour ces
 deux raisons, la perversion de cet indicateur tient du prodige. Ce mode
-d’évaluation incite à tricher. Les cas d’inconduite scientifique se multiplient
-: données embellies, données fabriquées, plagiats. Le système de points Sigaps
-(Système d’Interrogation, de Gestion, d’Analyse des Publications scientifiques)
-établi en France a fait l’objet d’une étude canadienne qui montre que dans les
-douze ans qui ont suivi l’instauration de cet indicateur, le nombre de
-publications par les centres hospitaliers et universitaires français a augmenté
-de 45 %. Selon la revue « Nature Index », qui a analysé le devenir de 5
-millions d’articles scientifiques publiés entre 1980 et 1990, seuls deux sur
-100 000 restent marquants plusieurs décennies après leur parution.
+d’évaluation incite à tricher. Les cas d’inconduite scientifique se multiplient :
+- données embellies
+- données fabriquées
+- plagiats. 
+
+Le système de points Sigaps (Système d’Interrogation, de Gestion, d’Analyse des
+Publications scientifiques) établi en France a fait l’objet d’une étude
+canadienne qui montre que dans les douze ans qui ont suivi l’instauration de
+cet indicateur, le nombre de publications par les centres hospitaliers et
+universitaires français a augmenté de 45 %. Selon la revue « Nature Index »,
+qui a analysé le devenir de 5 millions d’articles scientifiques publiés entre
+1980 et 1990, seuls deux sur 100 000 restent marquants plusieurs décennies
+après leur parution.
 
 Les organismes de recherches, comme en France le CNRS, se rendant compte des
 effets pervers de ce mode d’évaluation, abandonnent progressivement les
@@ -304,11 +308,9 @@ score Sigaps, on lui posera une question bien plus embarrassante :
 **qu’avez-vous apporté à votre domaine de recherche, quelle énigme avez-vous
 résolue, quels sont les résultats marquants auxquels vous êtes parvenus ?**
 
-Beaucoup seront bien
-en peine de répondre et les authentiques chercheurs sortiront du lot. Cette
-évaluation qualitative favorisera l’inventivité, l’originalité, et sera un bon
-remède à la graphorrhée actuelle.
-
+Beaucoup seront bien en peine de répondre et les authentiques chercheurs
+sortiront du lot. Cette **évaluation qualitative** favorisera l’inventivité,
+l’originalité, et sera un bon remède à la graphorrhée actuelle.
 
 
 ## Solutions ?
