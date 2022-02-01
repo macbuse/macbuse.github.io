@@ -196,7 +196,18 @@ des bureaux.
 
 ---
 
-[neo fordism in an educational context](https://www.tandfonline.com/doi/pdf/10.1080/13664539700200011#:~:text=Neo%2DFordism%20is%20a%20term,than%20a%20genuinely%20shared%20commitment.)
+[Summary of neo/post-Fordism](https://research-methodology.net/fordism-neo-fordism-context-international-political-economy/)
+
+
+Importantly, “the post-Fordist regime of accumulation replaces the Fordist one
+with an emphasis on quality-competitive production for shifting and
+differentiated markets using qualified and highly skilled flexible labour, and
+is supported by a post-Fordist mode of regulation in which there is 
+- reduction state intervention on labour markets
+- a shift from responsibility to welfare provision from the state to the employers or private individuals
+- and a more flexible and varied approach to employment relations”.
+
+[1997 neo fordism in an educational context](https://www.tandfonline.com/doi/pdf/10.1080/13664539700200011#:~:text=Neo%2DFordism%20is%20a%20term,than%20a%20genuinely%20shared%20commitment.)
 
 The first is the rhetoric of post-Fordism, which claims that people are the
 most important resource in any organisation and it is only through their
@@ -204,8 +215,8 @@ development that learning organisations can survive. Teacher professionalism
 would seem to sit very well within this rhetoric, which advocates empowering
 core workers and giving them responsibility for their own professional
 development. Yet current government policies for the management and improvement
-of education are dominated by technical rationalism, which treats teachers as
-technicians to be controlled. This technicism is reinforced by competition and
+of education are dominated by **technical rationalism**, which treats **teachers as
+technicians** to be controlled. This technicism is reinforced by competition and
 funding mechanisms where inputs and outputs are counted and rewarded (or
 penalised). Education in England currently resembles neo-Fordism, a potentially
 malign combination of the two, where technicism dominates but is legitimated by
