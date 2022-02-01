@@ -212,6 +212,8 @@ cadre des bornes que la loi leur fixe, mais qu’ils réagissent en temps réel 
 multiples signaux qui leur parviennent pour atteindre les objectifs qui leur
 sont assignés. »
 
+[source](https://www.college-de-france.fr/site/alain-supiot/La-gouvernance-par-les-nombres-film.htm#:~:text=La%20gouvernance%20par%20les%20nombres%20est%20le%20titre%20d'un,de%20l'all%C3%A9geance%20%C2%BB%20(2013)
+
 ### Indicators and indices
 
 
