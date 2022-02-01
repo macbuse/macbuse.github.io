@@ -140,7 +140,7 @@ son profit les ressources de l’organisme au sein duquel elle se développe.
 ## 1980s and the advent of professional managers
 
 La bureaucratie de papa, source d’aimables plaisanteries, s’est transformée en
-outil toxique avec l’ère des « managers » et le tournant gestionnaire des
+outil toxique avec l’ère des **managers** et le tournant gestionnaire des
 années 1980. Ce tournant a été étudié par de nombreux sociologues et
 psychologues du travail, comme en France 
 
@@ -193,6 +193,27 @@ vogue et le sadisme une des qualités premières pour monter dans la hiérarchie
 des bureaux. 
 
 « Les chaînes de l’humanité torturée sont en papiers de ministères », écrivait Kafka.
+
+---
+
+[neo fordism in an educational context](https://www.tandfonline.com/doi/pdf/10.1080/13664539700200011#:~:text=Neo%2DFordism%20is%20a%20term,than%20a%20genuinely%20shared%20commitment.)
+
+The first is the rhetoric of post-Fordism, which claims that people are the
+most important resource in any organisation and it is only through their
+development that learning organisations can survive. Teacher professionalism
+would seem to sit very well within this rhetoric, which advocates empowering
+core workers and giving them responsibility for their own professional
+development. Yet current government policies for the management and improvement
+of education are dominated by technical rationalism, which treats teachers as
+technicians to be controlled. This technicism is reinforced by competition and
+funding mechanisms where inputs and outputs are counted and rewarded (or
+penalised). Education in England currently resembles neo-Fordism, a potentially
+malign combination of the two, where technicism dominates but is legitimated by
+a rhetoric of post-Fordism. To improve educational quality we need to break out
+of the neo-Fordist discourse. In so doing, professionalism reappears as a
+central concern for teacher development.
+
+---
 
 
 ## Gouvernance par les nombres
