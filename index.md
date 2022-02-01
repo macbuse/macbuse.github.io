@@ -28,10 +28,6 @@ Fridays 13h45 salle CARISM RdC.
 1. there will be a break at 15h30 for 15 minutes to ventilate the room.
 1. you may have to install **numpy** in Pycharm ```pip install numpy```
 
-- [F1](./METH_NUM/1_feuille_flottant.pdf)
-	- 21/1 exos 1, 3 et 5  [correction](./METH_NUM/TP_1_corr.pdf) and [my brouillon](./METH_NUM/TP1.ipynb)
-	- 28/1 exos 6,7 et 8
-
 [page for the class](./mnum_index.md)
 
 ---
