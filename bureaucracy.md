@@ -52,19 +52,17 @@ officiels.
 ## Reporting, normes et procédures
 
 Les membres de cette oppressante cléricature souffrent d’une étrange manie,
-liée à celle des indicateurs chiffrés : l’exigence de « reporting ». « Faire de
-la satisfaction d’indicateurs l’objectif d’un travail, non seulement détourne
-une partie de ce travail d’une action productive (un temps croissant étant
-consacré à renseigner ces indicateurs), mais le déconnecte des réalités du
-monde, auxquelles est substituée une image chiffrée construite dogmatiquement
-», écrit le juriste Alain Supiot. La demande de « reporting » porte sur la
+liée à celle des indicateurs chiffrés : l’exigence de **reporting** porte sur la
 moindre action, le moindre geste, bientôt la moindre pensée, le moindre rêve.
 Le temps pris par le « reporting » finit par recouvrir le temps passé à agir.
-Comment les historiens feront-ils pour ne pas porter un regard sévère sur ces
-ténèbres ? Comment seront jugés à la fois ceux qui ont répandu et ceux qui ont
-accepté sans broncher cette barbarie ? Affirmons avec Sénèque qu’« il viendra
-un temps où notre ignorance de faits si évidents fera l’étonnement de la
-postérité ».
+
+- Comment les historiens feront-ils pour ne pas porter un regard sévère sur ces
+ténèbres ?
+- Comment seront jugés à la fois ceux qui ont répandu et ceux qui ont
+accepté sans broncher cette barbarie ?
+
+Affirmons avec Sénèque qu’« il viendra un temps où notre ignorance de faits si
+évidents fera l’étonnement de la postérité ».
 
 Les normes et procédures prennent le pas sur le savoir-faire. Dans un article
 paru en 2015 dans la « Revue de médecine interne » intitulé « Jugement pratique
@@ -78,6 +76,8 @@ souffrance au travail des médecins est la remise en question de leur jugement
 pratique […] L’évolution de la médecine, et en particulier la multiplication
 des procédures, a une influence négative sur son apprentissage et son exercice.
 »
+
+[source](https://www.em-consulte.com/article/990782/jugement-pratique-et-burn-out-des-medecins)
 
 ## Balzac, Tocqueville  and meetings
 
