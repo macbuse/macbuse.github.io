@@ -119,7 +119,7 @@ d’étape »), met son grain de sel à tout propos, un grain de sable en réali
 contredit l’échelon inférieur, avant d’être contredit par l’échelon supérieur.
 
 
-## politicians
+## Politicians
 
 Le philosophe Michel Henry a décrit ainsi la nature de l’administration : 
 
@@ -131,13 +131,13 @@ bureaucratique propre, aux finalités vivantes des entreprises individuelles
 vis-à-vis desquelles elle se comporte comme une contrainte extérieure et comme
 une force de mort. » 
 
-### administration comme tumeur
+### Administration comme tumeur
 
 Il souligne notamment la capacité de l’administration à organiser de façon
 autonome sa propre croissance, à la manière d’une tumeur maligne qui capte à
 son profit les ressources de l’organisme au sein duquel elle se développe.
 
-## 1980s and professional managers
+## 1980s and the advent of professional managers
 
 La bureaucratie de papa, source d’aimables plaisanteries, s’est transformée en
 outil toxique avec l’ère des « managers » et le tournant gestionnaire des
