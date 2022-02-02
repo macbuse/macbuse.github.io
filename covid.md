@@ -72,6 +72,22 @@ The hope had been that we could vaccinate enough people to protect the unvaccina
 
 #### Meta-Analysis of lockdowns
 
+This seems to confirm the validity of the  [Great Barrington declaration](https://gbdeclaration.org/) proposition:
+
+
+Current lockdown policies are producing devastating effects on short and
+long-term public health. The results (to name a few) include lower childhood
+vaccination rates, worsening cardiovascular disease outcomes, fewer cancer
+screenings and deteriorating mental health – leading to greater excess
+mortality in years to come, with the working class and younger members of
+society carrying the heaviest burden. Keeping students out of school is a grave
+injustice. 
+
+Keeping these measures in place until a vaccine is available will cause
+irreparable damage, with the underprivileged disproportionately harmed.
+
+
+
 [A Literature Review and Meta-Analysis of the Effects of Lockdowns on COVID-19 Mortality](https://sites.krieger.jhu.edu/iae/files/2022/01/A-Literature-Review-and-Meta-Analysis-of-the-Effects-of-Lockdowns-on-COVID-19-Mortality.pdf)
 
 This systematic review and meta-analysis are designed to determine whether
