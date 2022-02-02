@@ -19,12 +19,12 @@ Ernest Becker [The denial of death](https://en.wikipedia.org/wiki/The_Denial_of_
 There is an interesting analysis of how media coverage is 
 [partisan](https://mediacloud.org/news/2021/4/3/coverage-of-covid-19-and-political-partisanship-comparing-across-nations) based on [prior work](https://library.oapen.org/handle/20.500.12657/28351)
 
-Central to the practice of objectivity as truth seeking is not infallibility but
-institutionalized error detection and correction. This is as true for journalism
-as it is for the scientific method, though the speed of publication, sensitivity
-to markets, and levels of evidence necessary in each enterprise differ
-significantly and result in different institutional details. And for all the
-differences between them, the projects of journalism and science are both
+Central to the practice of objectivity as truth seeking is not infallibility
+but institutionalized error detection and correction. This is as true for
+journalism as it is for the scientific method, though the speed of publication,
+sensitivity to markets, and levels of evidence necessary in each enterprise
+differ significantly and result in different institutional details. And for all
+the differences between them, the projects of journalism and science are both
 committed to norms of truth seeking anchored in a reality that is prior to and
 external to opinion and perspective. It is fundamentally different from the
 project of denying the possibility of truth beyond partisan perspective. 
@@ -48,12 +48,18 @@ project of denying the possibility of truth beyond partisan perspective.
 Covid: What’s the best way to top up our immunity?
 [BBC](https://www.bbc.com/news/health-58270098)
 
-"We could be digging ourselves into a hole, for a very long time, where we think we can only keep Covid away by boosting every year," Prof Eleanor Riley, an immunologist from the University of Edinburgh
+"We could be digging ourselves into a hole, for a very long time, where we
+think we can only keep Covid away by boosting every year," Prof Eleanor Riley,
+an immunologist from the University of Edinburgh
 
 
 [Riley Roslin Institut](https://en.wikipedia.org/wiki/Eleanor_Riley)
 
-"This isn't proven, but it could be a lot cheaper and simpler to let that happen than spend the whole time immunising people," said Prof Finn, who warns we could end up "locked into a cycle of boosting" without seeing if it was necessary. he said the argument in children had "already been won" as "40-50% have already been infected and most weren't ill or particularly ill".
+"This isn't proven, but it could be a lot cheaper and simpler to let that
+happen than spend the whole time immunising people," said Prof Finn, who warns
+we could end up "locked into a cycle of boosting" without seeing if it was
+necessary. he said the argument in children had "already been won" as "40-50%
+have already been infected and most weren't ill or particularly ill".
 
 
 [Adam Finn, Bristol](https://research-information.bris.ac.uk/en/persons/adam-h-r-finn)
@@ -62,7 +68,11 @@ Covid: What’s the best way to top up our immunity?
 
 [NZ move on strategy](https://www.theguardian.com/world/2021/aug/23/big-questions-new-zealand-covid-minister-raises-doubts-about-elimination-strategy)
 
-The hope had been that we could vaccinate enough people to protect the unvaccinated, added Walker, who also serves as the chief investigator for the UK analysis. “I suspect that, partly, the higher levels of virus that we’re seeing in these [Delta] infections in vaccinated people are consistent with the fact that unvaccinated people are just going to be at higher risk.
+The hope had been that we could vaccinate enough people to protect the
+unvaccinated, added Walker, who also serves as the chief investigator for the
+UK analysis. “I suspect that, partly, the higher levels of virus that we’re
+seeing in these [Delta] infections in vaccinated people are consistent with the
+fact that unvaccinated people are just going to be at higher risk.
 
 [Guardian Oxford study](https://www.theguardian.com/world/2021/aug/19/jabbed-adults-infected-with-delta-can-match-virus-levels-of-unvaccinated)
 
