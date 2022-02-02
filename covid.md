@@ -31,6 +31,9 @@ project of denying the possibility of truth beyond partisan perspective.
 
 #### articles
 
+[Lockdowns etc. only reduced COVID mortality by 0.2 PERCENT](https://www.dailymail.co.uk/news/article-10466995/New-study-says-lockdowns-reduced-COVID-mortality-2-percent.html)
+
+
 [interview with a modeller](https://www.spectator.co.uk/article/my-twitter-conversation-with-the-chairman-of-the-sage-covid-modelling-committee)
 
 [Boys and vaccines](https://www.theguardian.com/world/2021/sep/10/boys-more-at-risk-from-pfizer-jab-side-effect-than-covid-suggests-study?fbclid=IwAR0YyzgKX4-8_GjT5_9JdeyogdNyT2_YBi82HmMCSdwbkgb09GruT2Xlu-k)
@@ -66,6 +69,35 @@ The hope had been that we could vaccinate enough people to protect the unvaccina
 [DM Oxford study](https://www.dailymail.co.uk/news/article-9905631/Double-jabbed-catch-Delta-variant-just-likely-spread-Covid-unvaccinated.html)
 
 [Guardian CDC Mass.  study](https://www.theguardian.com/world/2021/jul/30/covid-delta-variant-guidelines-masks-cdc-paper-transmission)
+
+#### Meta-Analysis of lockdowns
+
+[A Literature Review and Meta-Analysis of the Effects of Lockdowns on COVID-19 Mortality](https://sites.krieger.jhu.edu/iae/files/2022/01/A-Literature-Review-and-Meta-Analysis-of-the-Effects-of-Lockdowns-on-COVID-19-Mortality.pdf)
+
+This systematic review and meta-analysis are designed to determine whether
+there is empirical evidence to support the belief that “lockdowns” reduce
+COVID-19 mortality. 
+
+**Lockdowns** are defined as the imposition of at least one compulsory,
+**non-pharmaceutical intervention** (NPI). NPIs are any government mandate that
+directly restrict peoples’ possibilities, such as policies that limit internal
+movement, close schools and businesses, and ban international travel. 
+
+This study employed a systematic search and screening procedure in which 18,590
+studies are identified that could potentially address the belief posed. After
+three levels of screening, 34 studies ultimately qualified. Of those 34
+eligible studies, 24 qualified for inclusion in the meta-analysis. They were
+separated into three groups:
+- lockdown stringency index studies
+- shelter-in-placeorder (SIPO) studies
+- and specific NPI studies. 
+
+An analysis of each of these three groups support the conclusion that lockdowns have had
+little to no effect on COVID-19 mortality. More specifically, stringency index
+studies find that lockdowns in Europe and the United States only reduced
+COVID-19 mortality by 0.2% on average. SIPOs were also ineffective, only
+reducing COVID-19 mortality by 2.9% on average. Specific NPI studies also find
+no broad-based evidence of noticeable effects on COVID-19 mortality. 
 
 
 ---
