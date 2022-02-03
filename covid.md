@@ -96,9 +96,10 @@ injustice.
 Keeping these measures in place until a vaccine is available will cause
 irreparable damage, with the underprivileged disproportionately harmed.
 
+- [see also](https://www.amazon.co.uk/Year-World-Went-Mad-Scientific/dp/1913207951/ref=sr_1_1?crid=2D3XJCGF0078T&keywords=Mark+Woolhouse&qid=1641200266&sprefix=mark+woolho%2Caps%2C115&sr=8-1)
+- [referer](https://unherd.com/2022/01/has-the-great-barrington-declaration-been-vindicated/)
 
-
-[A Literature Review and Meta-Analysis of the Effects of Lockdowns on COVID-19 Mortality](https://sites.krieger.jhu.edu/iae/files/2022/01/A-Literature-Review-and-Meta-Analysis-of-the-Effects-of-Lockdowns-on-COVID-19-Mortality.pdf)
+Citation from [A Literature Review and Meta-Analysis of the Effects of Lockdowns on COVID-19 Mortality](https://sites.krieger.jhu.edu/iae/files/2022/01/A-Literature-Review-and-Meta-Analysis-of-the-Effects-of-Lockdowns-on-COVID-19-Mortality.pdf)
 
 This systematic review and meta-analysis are designed to determine whether
 there is empirical evidence to support the belief that “lockdowns” reduce
