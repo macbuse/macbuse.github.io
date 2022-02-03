@@ -5,9 +5,9 @@
 ### mcshane@univ-grenoble-alpes.fr
 
 
+- I am organising a [special session](https://www.ams.org/meetings/international/2269_special.html) at **AMS-SMF-EMS** Joint International Meeting in July. 
 - I am currently back from sick leave with a broken shoulder.
 - I am very busy with refereeing
-- I am organising a [special session](https://www.ams.org/meetings/international/2269_special.html) at AMS-SMF-EMS Joint International Meeting in July. 
 - this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded.
 
 
