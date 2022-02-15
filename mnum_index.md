@@ -7,6 +7,7 @@
 	- 4/2 finir exo 8 ([convergence](https://www.maa.org/press/periodicals/loci/joma/iterative-methods-for-solving-iaxi-ibi-analysis-of-jacobi-and-gauss-seidel-methods) dans Jacobi) puis passer a F2
 - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement
 	- 11/2 **controle de 20 minutes en classe**
+	- 18/2 **DM en classe**
 
 ---
 ## controle du 11/2
