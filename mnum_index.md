@@ -9,7 +9,7 @@
 	- 4/2 finir exo 8 ([convergence](https://www.maa.org/press/periodicals/loci/joma/iterative-methods-for-solving-iaxi-ibi-analysis-of-jacobi-and-gauss-seidel-methods) dans Jacobi) puis passer a F2
 	- 11/2 **controle de 20 minutes en classe**
 	- 18/2 **DM en classe** [voici le sujet](./METH_NUM/cc1_2021_print.pdf) c'est le CC du mars 2021. Vous pouvez le faire en groupes.
-	<!-- [correction](./METH_NUM/cc1_2021_corr.pdf) -->
+	- [correction](./METH_NUM/cc1_2021_corr.pdf)
 - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement
 
 ---
@@ -70,7 +70,8 @@ Etude de convergence dans la methode de Jacobi.
 - V = valeur initiale (1,1)
 - solution exacte = (0,1)
 
-```C = np.array([2,1,1,1]).reshape(2,2)
+```
+C = np.array([2,1,1,1]).reshape(2,2)
 D = np.array([C[i,i] for i in range(C.shape[0])])
 V = np.ones(2)
 b = np.ones(2)
