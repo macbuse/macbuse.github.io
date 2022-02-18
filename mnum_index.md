@@ -60,8 +60,9 @@ You should learn how to use **numpy** notation for matrices
 [quickstart](https://numpy.org/doc/stable/user/quickstart.html)
 
 - ```np.array```
+- ```shape``` + ```reshape```
 - ```np.identity```
-- ```np.zeros```
+- ```np.zeros``` ```np.ones```
 - ```np.dot()``` matrix multiplication
 
 Etude de convergence dans la methode de Jacobi.
