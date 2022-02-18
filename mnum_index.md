@@ -6,7 +6,7 @@
 	- 28/1 exos 6,7 et 8 [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html)
 	- 4/2 finir exo 8 ([convergence](https://www.maa.org/press/periodicals/loci/joma/iterative-methods-for-solving-iaxi-ibi-analysis-of-jacobi-and-gauss-seidel-methods) dans Jacobi) puis passer a F2
 	- 11/2 **controle de 20 minutes en classe**
-	- 18/2 **DM en classe** [sujet](./METH_NUM/cc1_2021_print.pdf) c'est le CC du mars 2021. Vous pouvez le faire en groupe.
+	- 18/2 **DM en classe** [voici le sujet](./METH_NUM/cc1_2021_print.pdf) c'est le CC du mars 2021. Vous pouvez le faire en groupes.
 	<!-- [correction](./METH_NUM/cc1_2021_corr.pdf) -->
 - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement
 
