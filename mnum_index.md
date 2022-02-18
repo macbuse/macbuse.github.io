@@ -64,3 +64,21 @@ You should learn how to use **numpy** notation for matrices
 - ```np.zeros```
 - ```np.dot()``` matrix multiplication
 
+Etude de convergence dans la methode de Jacobi.
+- C = matrice 2x2 
+- V = valeur initiale (1,1)
+- solution exacte = (0,1)
+
+```C = np.array([2,1,1,1]).reshape(2,2)
+D = np.array([C[i,i] for i in range(C.shape[0])])
+V = np.ones(2)
+b = np.ones(2)
+
+E = []
+for k in range(40):
+    #V = (-LU.dot(V) + b)/D
+    V = V + (-C.dot(V) + b)/D
+    E.append(np.linalg.norm(V - [0,1]))
+plt.plot(np.log(E));
+```
+
