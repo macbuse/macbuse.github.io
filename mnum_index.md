@@ -54,7 +54,7 @@ def horner(x, P):
 ```
 ---
 
-#### notes TP2
+#### notes TP2-TP3
 
 You should learn how to use **numpy** notation for matrices
 [quickstart](https://numpy.org/doc/stable/user/quickstart.html)
