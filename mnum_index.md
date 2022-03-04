@@ -11,6 +11,7 @@
 	- 18/2 **DM en classe** [voici le sujet](./METH_NUM/cc1_2021_print.pdf) c'est le CC du mars 2021. Vous pouvez le faire en groupes.
 	- [correction](./METH_NUM/cc1_2021_corr.pdf)
 - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement
+	- 4/3 exos exo 2-3-4 et début de 6
 
 ---
 ## controle du 11/2
