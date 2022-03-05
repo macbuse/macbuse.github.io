@@ -353,6 +353,7 @@ add	WARWICK/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	ZHU_SLIDES/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
 addWidgetsRenderer	MAT305/graphs_tangents.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	METH_NUM/f1exo8.html	/^  function addWidgetsRenderer() {$/;"	f
+addWidgetsRenderer	METH_NUM/mnum.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/projects.html	/^  function addWidgetsRenderer() {$/;"	f
 and this contains the point  $frac{1}{2 }(1+ i)$
 audio_cb	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def audio_cb(match):$/;"	f
