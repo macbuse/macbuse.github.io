@@ -363,6 +363,7 @@ audio_cb	NN/mk_slides.py	/^    def audio_cb(match):$/;"	f
 begin{enumerate}
 begin{lem} label{midpoint}
 by showing that there is a geodesic invariant by 
+chks1	wordle.py	/^chks1 = [i for i,y in enumerate(mm) if y == '_']$/;"	v
 cols	VIRUS/6vsb/pair_parser.py	/^    cols = ['Donor', 'Acceptor', '-log Density', 'Stress']$/;"	v
 convolve2D	PROG/.ipynb_checkpoints/convolve-checkpoint.py	/^def convolve2D(image, $/;"	f
 convolve2D	PROG/convolve.py	/^def convolve2D(image, $/;"	f
@@ -424,6 +425,7 @@ get_audio	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audi
 get_audio	WARWICK/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	WARWICK/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	ZHU_SLIDES/mk_slides2.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
+guess	wordle.py	/^guess = 'slane'$/;"	v
 img_cb	D2/mk_slides2.py	/^    def img_cb(match):$/;"	f
 img_cb	DEM0_gpe_lec/mk_slides2.py	/^    def img_cb(match):$/;"	f
 img_cb	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def img_cb(match):$/;"	f
@@ -677,6 +679,7 @@ spoken_text	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    spoken_tex
 spoken_text	WARWICK/bb.py	/^    spoken_text = []$/;"	v
 spoken_text	WARWICK/mk_slides2.py	/^    spoken_text = []$/;"	v
 spoken_text	ZHU_SLIDES/mk_slides2.py	/^    spoken_text = []$/;"	v
+ss	wordle.py	/^ss  = list(zip(guess, mm))$/;"	v
 str2res	VIRUS/6vsb/pair_parser.py	/^def str2res(x):$/;"	f
 string2fn	D2/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
 string2fn	D2/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
@@ -747,6 +750,11 @@ the orientation preserving automorphism in $K^0$,
 the projection of the line 
 totals	VIRUS/6vsb/pair_parser.py	/^    totals = totals4residues(df)$/;"	v
 totals4residues	VIRUS/6vsb/pair_parser.py	/^def totals4residues(df, col='-log Density'):$/;"	f
+tt	wordle.py	/^    tt = [w for w in tt if w[i] not in forbidden[i]]$/;"	v
+tt	wordle.py	/^    tt = re.sub(r'[{}]'.format(nsub),'',tt)$/;"	v
+tt	wordle.py	/^tt = ' '.join(guesses)$/;"	v
+tt	wordle.py	/^tt = [w for w in tt if all( x in w for x in sub )]$/;"	v
+tt	wordle.py	/^tt = [w for w in tt.split() if len(w) == len(guesses[0])]$/;"	v
 txt2csv	VIRUS/6vsb/pair_parser.py	/^def txt2csv(fn, $/;"	f
 units_cb	D2/pp.py	/^def units_cb(mm):$/;"	f
 units_cb	D2/svg2html.py	/^def units_cb(mm):$/;"	f
