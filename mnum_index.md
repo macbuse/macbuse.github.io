@@ -28,13 +28,13 @@
 def cholesky(A):
     '''Performs a Cholesky decomposition 
     A, which must be a symmetric and positive definite matrix. 
-    returns the lower variant triangular matrix, L.'''
+    returns L = lower variant triangular matrix
+    such that A = L L^*'''
     n = len(A)
 
     # Initialise L as the zero matrix
     L = np.zeros((n,n))
 
-    # Perform the Cholesky decomposition
     for i in range(n):
         # under the diagonal
         for k in range(i):
