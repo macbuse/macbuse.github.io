@@ -19,7 +19,7 @@
 
 ---
 
-1) Programmer Cholesky avec <br>
+1) Programmer Cholesky <br>
    1.1 en utilisant la décomposition LU <br>
    1.2 par un calcul ligne par ligne <br>
    1.3 tester en générant aléatoirement des matrices symétriques définies positives <br>
