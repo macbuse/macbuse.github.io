@@ -12,11 +12,21 @@
 	- [correction](./METH_NUM/cc1_2021_corr.pdf)
 - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement
 	- 4/3 exos exo 2-3-4 et début de 6
-	- 11/3 Programmer Cholesky 1 en utilisant la décomposition LU tester en générant aléatoirement des matrices symétriques définies positives
-	- programmer la méthode QR (très simple) utiliser la méthode QR pour le calcul de valeurs propres
-	- applications avec les matrices compagnons pour la recherche de racines de polynomes
+	- 11/3 Programmer Cholesky 1 
+	- programmer la méthode QR 
 	- [mon brouillon](./METH_NUM/mnum.html)
 	- Indication [you can find code here](https://www.quantstart.com/articles/QR-Decomposition-with-Python-and-NumPy/)
+
+---
+
+1) Programmer Cholesky avec
+   1.1 en utilisant la décomposition LU
+   1.2 par un calcul ligne par ligne
+   1.3 tester en générant aléatoirement des matrices symétriques définies positives
+2) programmer la méthode QR 
+   2.1 Utiliser la méthode QR pour [le calcul de valeurs propres](https://www.andreinc.net/2021/01/25/computing-eigenvalues-and-eigenvectors-using-qr-decomposition#:~:text=Even%20if%20it's%20not%20very,Q%20is%20an%20orthonormal%20matrix.)
+   2.2 applications avec les matrices compagnons pour [la recherche de racines de polynomes](https://www.math.utah.edu/~gustafso/s2016/2270/labs/lab7-polyroot-qrmethod.pdf)
+
 
 ---
 ## controle du 11/2
