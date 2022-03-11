@@ -29,8 +29,8 @@
 
 ```
 def QR_householder(A):
-    '''Performs a Householder Reflections based QR becomposition of the                                               
-    matrix A an np.array
+    '''Performs a Householder Reflections based QR decomposition 
+    of  A an np.array
     Returns 
     - Q, an orthogonal matrix
     - R upper triangular matrix 
@@ -39,8 +39,6 @@ def QR_householder(A):
     
     n = A.shape[0]
     # Set R equal to A, and Q to the identity matrix of the same size
-    R = A
-    Q = np.identity(n)
 
     # The Householder procedure
     for k in range(n-1):  #  reduce the index by 1 to skip the 1x1 matrix
