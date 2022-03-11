@@ -16,6 +16,7 @@
 	- programmer la méthode QR (très simple) utiliser la méthode QR pour le calcul de valeurs propres
 	- applications avec les matrices compagnons pour la recherche de racines de polynomes
 	- [mon brouillon](./METH_NUM/mnum.html)
+	- Indication [you can find code here](https://www.quantstart.com/articles/QR-Decomposition-with-Python-and-NumPy/)
 
 ---
 ## controle du 11/2
