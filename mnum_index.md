@@ -23,6 +23,29 @@
    1.1 en utilisant la décomposition LU <br>
    1.2 par un calcul ligne par ligne <br>
    1.3 tester en générant aléatoirement des matrices symétriques définies positives <br>
+
+```
+def cholesky(A):
+    '''Performs a Cholesky decomposition 
+    A, which must be a symmetric and positive definite matrix. 
+    returns the lower variant triangular matrix, L.'''
+    n = len(A)
+
+    # Create zero matrix for L
+    L = np.zeros((n,n))
+
+    # Perform the Cholesky decomposition
+    for i in range(n):
+        for k in range(i+1):
+            tmp_sum = L[i,:] @  L[k,:]
+            
+            if (i == k): # Diagonal elements
+                L[i,k] = sqrt(A[i,i] - tmp_sum)
+            else:
+                L[i,k] = (1.0 / L[k,k] * (A[i,k] - tmp_sum))
+    return 
+```
+
 2) programmer la méthode QR  <br>
    2.1 Utiliser la méthode QR pour [le calcul de valeurs propres](https://www.andreinc.net/2021/01/25/computing-eigenvalues-and-eigenvectors-using-qr-decomposition#:~:text=Even%20if%20it's%20not%20very,Q%20is%20an%20orthonormal%20matrix.) <br>
    2.2 applications avec les matrices compagnons pour [la recherche de racines de polynomes](https://www.math.utah.edu/~gustafso/s2016/2270/labs/lab7-polyroot-qrmethod.pdf) <br>
