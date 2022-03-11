@@ -31,18 +31,20 @@ def cholesky(A):
     returns the lower variant triangular matrix, L.'''
     n = len(A)
 
-    # Create zero matrix for L
+    # Initialise L as the zero matrix
     L = np.zeros((n,n))
 
     # Perform the Cholesky decomposition
     for i in range(n):
-        for k in range(i+1):
-            tmp_sum = L[i,:] @  L[k,:]
-            
-            if (i == k): # Diagonal elements
-                L[i,k] = sqrt(A[i,i] - tmp_sum)
-            else:
-                L[i,k] = (1.0 / L[k,k] * (A[i,k] - tmp_sum))
+        # under the diagonal
+        for k in range(i):
+             # LaTeX: l_{ik} = \frac{1}{l_{kk}} \left( a_{ik} - \sum^{k-1}_{j=1} l_{ij} l_{kj} \right)
+            L[i,k] = (1.0 / L[k,k] * (A[i,k] -  L[i,:] @  L[k,:]))
+        
+        # on the diagonal
+        # LaTeX: l_{kk} = \sqrt{ a_{kk} - \sum^{k-1}_{j=1} l^2_{kj}}
+        L[i,i] = sqrt(A[i,i] -  L[i,:] @  L[i,:])
+
     return 
 ```
 
