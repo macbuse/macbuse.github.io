@@ -1,7 +1,6 @@
 # MNUM
 
 
-**Pour info** le CC1 aura lieu la semaine du 7 mars
 
 - [F1](./METH_NUM/1_feuille_flottant.pdf) Nombres flottants
 	- 21/1 exos 1, 3 et 5  [correction](./METH_NUM/TP_1_corr.pdf) and [my brouillon](./METH_NUM/TP1.ipynb)
