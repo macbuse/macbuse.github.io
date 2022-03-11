@@ -27,6 +27,47 @@
    2.1 Utiliser la méthode QR pour [le calcul de valeurs propres](https://www.andreinc.net/2021/01/25/computing-eigenvalues-and-eigenvectors-using-qr-decomposition#:~:text=Even%20if%20it's%20not%20very,Q%20is%20an%20orthonormal%20matrix.) <br>
    2.2 applications avec les matrices compagnons pour [la recherche de racines de polynomes](https://www.math.utah.edu/~gustafso/s2016/2270/labs/lab7-polyroot-qrmethod.pdf) <br>
 
+```
+def QR_householder(A):
+    '''Performs a Householder Reflections based QR becomposition of the                                               
+    matrix A an np.array
+    Returns 
+    - Q, an orthogonal matrix
+    - R upper triangular matrix 
+    such that A = QR.
+    '''
+    
+    n = A.shape[0]
+    # Set R equal to A, and Q to the identity matrix of the same size
+    R = A
+    Q = np.identity(n)
+
+    # The Householder procedure
+    for k in range(n-1):  #  reduce the index by 1 to skip the 1x1 matrix
+
+        # get the vectors x, e and the scalar alpha
+        x = R[k:,k]
+        e_0 = np.identity(n-k)[0]
+        alpha = -np.sign(x[0]) * np.linalg.norm(x)
+
+        u = x + alpha*e_0
+        v = u/np.linalg.norm(u)
+        
+        # matrix of the reflection x -> x - 2<v,x>v
+        Householder_matrix = np.identity(n-k) -  2*np.array([ v[i]*v for i  in range(n-k)])
+    
+        # pad out the matrix to match A.shape()
+        Q_k = np.identity(n)
+        Q_k[k:,k:] = Householder_matrix
+     
+        Q = Q_k @ Q
+        R = Q_k @ R
+
+    # Q is the inverse of the product of the Q_k
+    # we need to take the transpose/inverse now
+    return Q.T, R
+
+```
 
 ---
 ## controle du 11/2
