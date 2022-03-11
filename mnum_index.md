@@ -45,7 +45,7 @@ def QR_householder(A):
     # The Householder procedure
     for k in range(n-1):  #  reduce the index by 1 to skip the 1x1 matrix
 
-        # get the vectors x, e and the scalar alpha
+        # get the vectors x, e_0 and the scalar alpha
         x = R[k:,k]
         e_0 = np.identity(n-k)[0]
         alpha = -np.sign(x[0]) * np.linalg.norm(x)
@@ -63,8 +63,7 @@ def QR_householder(A):
         Q = Q_k @ Q
         R = Q_k @ R
 
-    # Q is the inverse of the product of the Q_k
-    # we need to take the transpose/inverse now
+    # Q is the inverse of our Q = product of the Q_k
     return Q.T, R
 
 ```
