@@ -91,21 +91,6 @@ def QR_householder(A):
 
 ```
 
----
-## controle du 11/2
-
-- Vous devez vous mettre en binome 
-- 30 minutes pour proposer une démarche et essayer de la programmer.
-- Après 30min de travail, je ferai le tour des groupes 
-- note A, B ou C. 
-
-- **Sujet 1)** Proposer une méthode de calcul approché d'une primitive d'une fonction donnée sur [a,b]. Par exemple f(x) = exp(-x^2) sur [0, 1]
-"Indication" : utiliser des différences finies d'ordre 1 ou 2 en imposant une valeur en 0 (la constante d'intégration)
-- **Sujet 2)** Traiter l'approximation de l'équation différentielle de l'exercice 8 en remplaçant le terme c(x) u (x) par c(x) * u'(x). Quelle discrétisation ? Ordre de convergence ?
-
-
----
-
 #### notes TP1
 
 Two examples where binary (base 2) arithmetic is best:
@@ -162,4 +147,19 @@ for k in range(40):
     E.append(np.linalg.norm(V - [0,1]))
 plt.plot(np.log(E));
 ```
+---
+## controle du 11/2
+
+- Vous devez vous mettre en binome 
+- 30 minutes pour proposer une démarche et essayer de la programmer.
+- Après 30min de travail, je ferai le tour des groupes 
+- note A, B ou C. 
+
+- **Sujet 1)** Proposer une méthode de calcul approché d'une primitive d'une fonction donnée sur [a,b]. Par exemple f(x) = exp(-x^2) sur [0, 1]
+"Indication" : utiliser des différences finies d'ordre 1 ou 2 en imposant une valeur en 0 (la constante d'intégration)
+- **Sujet 2)** Traiter l'approximation de l'équation différentielle de l'exercice 8 en remplaçant le terme c(x) u (x) par c(x) * u'(x). Quelle discrétisation ? Ordre de convergence ?
+
+
+---
+
 

@@ -15268,34 +15268,34 @@ is a decomposition of a matrix $\mathbf {A}$ which is</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[93]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[164]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">cholesky</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Performs a Cholesky decomposition of A, which must </span>
-<span class="sd">    be a symmetric and positive definite matrix. The function</span>
-<span class="sd">    returns the lower variant triangular matrix, L.&quot;&quot;&quot;</span>
+    <span class="sd">&#39;&#39;&#39;Performs a Cholesky decomposition </span>
+<span class="sd">    A, which must be a symmetric and positive definite matrix. </span>
+<span class="sd">    returns the lower variant triangular matrix, L.&#39;&#39;&#39;</span>
     <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
 
-    <span class="c1"># Create zero matrix for L</span>
+    <span class="c1"># Initialise L as the zero matrix</span>
     <span class="n">L</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">n</span><span class="p">,</span><span class="n">n</span><span class="p">))</span>
 
     <span class="c1"># Perform the Cholesky decomposition</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-            <span class="n">tmp_sum</span> <span class="o">=</span> <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,:]</span> <span class="o">@</span>  <span class="n">L</span><span class="p">[</span><span class="n">k</span><span class="p">,:]</span>
-            
-            <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="n">k</span><span class="p">):</span> <span class="c1"># Diagonal elements</span>
-                <span class="c1"># LaTeX: l_{kk} = \sqrt{ a_{kk} - \sum^{k-1}_{j=1} l^2_{kj}}</span>
-                <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">tmp_sum</span><span class="p">)</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="c1"># LaTeX: l_{ik} = \frac{1}{l_{kk}} \left( a_{ik} - \sum^{k-1}_{j=1} l_{ij} l_{kj} \right)</span>
-                <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mf">1.0</span> <span class="o">/</span> <span class="n">L</span><span class="p">[</span><span class="n">k</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">-</span> <span class="n">tmp_sum</span><span class="p">))</span>
+        <span class="c1"># under the diagonal</span>
+        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
+             <span class="c1"># LaTeX: l_{ik} = \frac{1}{l_{kk}} \left( a_{ik} - \sum^{k-1}_{j=1} l_{ij} l_{kj} \right)</span>
+            <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mf">1.0</span> <span class="o">/</span> <span class="n">L</span><span class="p">[</span><span class="n">k</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">-</span>  <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,:]</span> <span class="o">@</span>  <span class="n">L</span><span class="p">[</span><span class="n">k</span><span class="p">,:]))</span>
+        
+        <span class="c1">#on the diagonal</span>
+        <span class="c1"># LaTeX: l_{kk} = \sqrt{ a_{kk} - \sum^{k-1}_{j=1} l^2_{kj}}</span>
+        <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span>  <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,:]</span> <span class="o">@</span>  <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,:])</span>
+
     <span class="k">return</span> <span class="n">L</span>
 
 <span class="n">L</span> <span class="o">=</span> <span class="n">cholesky</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
 
-<span class="n">L</span><span class="p">,</span> <span class="n">L</span> <span class="o">@</span> <span class="n">L</span><span class="o">.</span><span class="n">T</span>
+<span class="n">L</span><span class="p">,</span> <span class="n">L</span> <span class="o">@</span> <span class="n">L</span><span class="o">.</span><span class="n">T</span> 
 </pre></div>
 
      </div>
@@ -15311,7 +15311,7 @@ is a decomposition of a matrix $\mathbf {A}$ which is</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[93]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[164]:</div>
 
 
 
