@@ -13,6 +13,9 @@
 - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement
 	- 4/3 exos exo 2-3-4 et début de 6
 	- [mon brouillon](./METH_NUM/mnum.html)
+	- 11/3 Programmer Cholesky 1 en utilisant la décomposition LU tester en générant aléatoirement des matrices symétriques définies positives
+	- programmer la méthode QR (très simple) utiliser la méthode QR pour le calcul de valeurs propres
+	- applications avec les matrices compagnons pour la recherche de racines de polynomes
 
 ---
 ## controle du 11/2
