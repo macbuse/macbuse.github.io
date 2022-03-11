@@ -14,7 +14,7 @@
 	- 4/3 exos exo 2-3-4 et début de 6
 	- 11/3 Programmer Cholesky 1 
 	- programmer la méthode QR 
-	- [mon brouillon](./METH_NUM/mnum.html)
+	- [mon brouillon](./METH_NUM/QR_etc.html)
 	- Indication [you can find code here](https://www.quantstart.com/articles/QR-Decomposition-with-Python-and-NumPy/) there are some mistakes in the code fix them!
 
 ---
