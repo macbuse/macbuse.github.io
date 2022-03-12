@@ -15268,24 +15268,25 @@ is a decomposition of a matrix $\mathbf {A}$ which is</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[164]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[168]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">cholesky</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
     <span class="sd">&#39;&#39;&#39;Performs a Cholesky decomposition </span>
 <span class="sd">    A, which must be a symmetric and positive definite matrix. </span>
-<span class="sd">    returns the lower variant triangular matrix, L.&#39;&#39;&#39;</span>
+<span class="sd">    returns L = lower variant triangular matrix</span>
+<span class="sd">    such that A = L L^*&#39;&#39;&#39;</span>
+    
+    
     <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
-
     <span class="c1"># Initialise L as the zero matrix</span>
     <span class="n">L</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">n</span><span class="p">,</span><span class="n">n</span><span class="p">))</span>
 
-    <span class="c1"># Perform the Cholesky decomposition</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
         <span class="c1"># under the diagonal</span>
         <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
              <span class="c1"># LaTeX: l_{ik} = \frac{1}{l_{kk}} \left( a_{ik} - \sum^{k-1}_{j=1} l_{ij} l_{kj} \right)</span>
-            <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mf">1.0</span> <span class="o">/</span> <span class="n">L</span><span class="p">[</span><span class="n">k</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">*</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">-</span>  <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,:]</span> <span class="o">@</span>  <span class="n">L</span><span class="p">[</span><span class="n">k</span><span class="p">,:]))</span>
+            <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span> <span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="o">-</span> <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">,:]</span> <span class="o">@</span>  <span class="n">L</span><span class="p">[</span><span class="n">k</span><span class="p">,:])</span> <span class="o">/</span> <span class="n">L</span><span class="p">[</span><span class="n">k</span><span class="p">,</span><span class="n">k</span><span class="p">]</span> <span class="p">)</span>
         
         <span class="c1">#on the diagonal</span>
         <span class="c1"># LaTeX: l_{kk} = \sqrt{ a_{kk} - \sum^{k-1}_{j=1} l^2_{kj}}</span>
@@ -15311,7 +15312,7 @@ is a decomposition of a matrix $\mathbf {A}$ which is</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[164]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[168]:</div>
 
 
 
@@ -15336,9 +15337,9 @@ is a decomposition of a matrix $\mathbf {A}$ which is</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
 <h1 id="QR-decompositions">QR decompositions<a class="anchor-link" href="#QR-decompositions">&#182;</a></h1><p><a href="https://www.quantstart.com/articles/QR-Decomposition-with-Python-and-NumPy/">source</a></p>
-<p>There are a few different algorithms for calculating the matrices $Q$ and $R$.</p>
-<p>We will outline the method of <a href="http://en.wikipedia.org/wiki/Householder_transformation">Householder Reflections</a>, which is known to be more numerically stable the  alternative Gramm-Schmidt method.</p>
-<p>Note, the following explanation is an expansion of the extremely detailed article on <a href="http://en.wikipedia.org/wiki/QR_decomposition#Using_Householder_reflections">QR Decomposition using Householder Reflections.</p>
+<p>There are a several different algorithms for calculating the matrices $Q$ and $R$.</p>
+<p>We will outline the method of <a href="http://en.wikipedia.org/wiki/Householder_transformation">Householder Reflections</a>, which is known to be <strong>more numerically stable</strong> than the  alternative Gramm-Schmidt method.</p>
+<p>For more details see  <a href="http://en.wikipedia.org/wiki/QR_decomposition#Using_Householder_reflections">QR Decomposition using Householder Reflections.</p>
 <p>A <strong>Householder Reflection</strong> is a linear transformation that enables a vector to be reflected through a plane or hyperplane. Essentially, we use this method because we want to create an upper triangular matrix, $R$. The householder reflection is able to carry out this vector reflection such that all but one of the coordinates disappears. The matrix $Q$ will be built up as a sequence of matrix multiplications that eliminate each coordinate in turn, up to the rank of the matrix $A$.</p>
 <p><strong>First step</strong> create the vector $\mathbb{x}$, which is the $k$-th column of the matrix $A$, for step $k$.</p>
 <p>We define $\alpha = -sgn(\mathbb{x}_k)(||\mathbb{x}||)$. The norm $||\cdot||$ used here is the <em>Euclidean norm</em>.</p>
@@ -15368,7 +15369,7 @@ Q = Q^T_1 Q^T_2 ... Q^T_t
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[147]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[216]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">QR_householder</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
@@ -15416,7 +15417,7 @@ Q = Q^T_1 Q^T_2 ... Q^T_t
 
 <span class="n">Q</span><span class="p">,</span> <span class="n">R</span> <span class="o">=</span> <span class="n">QR_householder</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
 
-<span class="n">Q</span> <span class="o">@</span> <span class="n">R</span><span class="p">,</span> <span class="n">Q</span> <span class="o">@</span> <span class="n">Q</span><span class="o">.</span><span class="n">T</span>
+<span class="n">Q</span><span class="p">,</span> <span class="n">R</span>
 </pre></div>
 
      </div>
@@ -15432,18 +15433,148 @@ Q = Q^T_1 Q^T_2 ... Q^T_t
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[147]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[216]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>(array([[ 12., -51.,   4.],
-        [  6., 167., -68.],
-        [ -4.,  24., -41.]]),
- array([[ 1.00000000e+00, -4.67885368e-18, -3.77113307e-17],
-        [-4.67885368e-18,  1.00000000e+00,  1.52836927e-17],
-        [-3.77113307e-17,  1.52836927e-17,  1.00000000e+00]]))</pre>
+<pre>(array([[ 0.85714286,  0.39428571, -0.33142857],
+        [ 0.42857143, -0.90285714,  0.03428571],
+        [-0.28571429, -0.17142857, -0.94285714]]),
+ array([[ 1.40000000e+01,  2.10000000e+01, -1.40000000e+01],
+        [-5.50670620e-16, -1.75000000e+02,  7.00000000e+01],
+        [ 3.01980663e-16, -3.63797881e-14,  3.50000000e+01]]))</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<hr>
+<h1 id="Recursive-version">Recursive version<a class="anchor-link" href="#Recursive-version">&#182;</a></h1><p>Same method but avoids doing the loop.</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[214]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">QR</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;Performs a Householder Reflections based QR becomposition of the                                               </span>
+<span class="sd">    matrix A an np.array</span>
+<span class="sd">    Returns </span>
+<span class="sd">    - Q, an orthogonal matrix</span>
+<span class="sd">    - R upper triangular matrix </span>
+<span class="sd">    such that A = QR.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    
+    <span class="n">n</span> <span class="o">=</span> <span class="n">A</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    
+    <span class="c1"># base case 1x1 matrix do nothing</span>
+    <span class="k">if</span>  <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">:</span> <span class="k">return</span> <span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">A</span>
+    
+    <span class="n">R</span> <span class="o">=</span> <span class="n">A</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+  
+    <span class="c1"># get the vectors x, e and the scalar alpha</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">R</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">e_0</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">identity</span><span class="p">(</span><span class="n">n</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">alpha</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">sign</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+    <span class="n">u</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">alpha</span><span class="o">*</span><span class="n">e_0</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="n">u</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">u</span><span class="p">)</span>
+
+    <span class="c1"># matrix of the reflection x -&gt; x - 2&lt;v,x&gt;v</span>
+    <span class="n">Q</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">identity</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="o">-</span>  <span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span> <span class="n">v</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">*</span><span class="n">v</span> <span class="k">for</span> <span class="n">i</span>  <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)])</span> 
+    
+    <span class="n">R</span> <span class="o">=</span> <span class="n">Q</span> <span class="o">@</span> <span class="n">R</span>
+    
+    <span class="c1"># do the recursion</span>
+    <span class="n">Q1</span><span class="p">,</span> <span class="n">R1</span> <span class="o">=</span> <span class="n">QR</span><span class="p">(</span><span class="n">R</span><span class="p">[</span><span class="mi">1</span><span class="p">:,</span><span class="mi">1</span><span class="p">:])</span>
+    
+    <span class="c1"># copy the results into Q, R</span>
+    <span class="n">Q</span><span class="p">[</span><span class="mi">1</span><span class="p">:,</span><span class="mi">1</span><span class="p">:]</span> <span class="o">=</span> <span class="n">Q</span><span class="p">[</span><span class="mi">1</span><span class="p">:,</span><span class="mi">1</span><span class="p">:]</span> <span class="o">@</span> <span class="n">Q1</span>
+    <span class="n">R</span><span class="p">[</span><span class="mi">1</span><span class="p">:,</span><span class="mi">1</span><span class="p">:]</span> <span class="o">=</span> <span class="n">R1</span>
+    
+    <span class="k">return</span> <span class="n">Q</span><span class="p">,</span> <span class="n">R</span>
+    
+    
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">12</span><span class="p">,</span> <span class="o">-</span><span class="mi">51</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> 
+              <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">167</span><span class="p">,</span> <span class="o">-</span><span class="mi">68</span><span class="p">],</span> 
+              <span class="p">[</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="o">-</span><span class="mi">41</span><span class="p">]])</span>
+
+<span class="n">QR</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[214]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>(array([[ 0.85714286,  0.39428571, -0.33142857],
+        [ 0.42857143, -0.90285714,  0.03428571],
+        [-0.28571429, -0.17142857, -0.94285714]]),
+ array([[ 1.40000000e+01,  2.10000000e+01, -1.40000000e+01],
+        [-5.50670620e-16, -1.75000000e+02,  7.00000000e+01],
+        [ 3.01980663e-16, -3.63797881e-14,  3.50000000e+01]]))</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[173]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">identity</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">A</span><span class="p">[</span><span class="mi">2</span><span class="p">:,</span><span class="mi">2</span><span class="p">:]</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[173]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>(1, 1)</pre>
 </div>
 
 </div>
