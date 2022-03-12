@@ -60,34 +60,34 @@ def QR_householder(A):
     - R upper triangular matrix 
     such that A = QR.
     '''
-    
     n = A.shape[0]
-    # Set R equal to A, and Q to the identity matrix of the same size
-
-    # The Householder procedure
-    for k in range(n-1):  #  reduce the index by 1 to skip the 1x1 matrix
-
-        # get the vectors x, e_0 and the scalar alpha
-        x = R[k:,k]
-        e_0 = np.identity(n-k)[0]
-        alpha = -np.sign(x[0]) * np.linalg.norm(x)
-
-        u = x + alpha*e_0
-        v = u/np.linalg.norm(u)
-        
-        # matrix of the reflection x -> x - 2<v,x>v
-        Householder_matrix = np.identity(n-k) -  2*np.array([ v[i]*v for i  in range(n-k)])
     
-        # pad out the matrix to match A.shape()
-        Q_k = np.identity(n)
-        Q_k[k:,k:] = Householder_matrix
-     
-        Q = Q_k @ Q
-        R = Q_k @ R
+    # base case 1x1 matrix do nothing
+    if  n == 1 : return [1], A
+    
+    R = A.copy()
+  
+    # get the vectors x, e and the scalar alpha
+    x = R[:,0]
+    e_0 = np.identity(n)[0]
+    alpha = -np.sign(x[0]) * np.linalg.norm(x)
 
-    # Q is the inverse of our Q = product of the Q_k
-    return Q.T, R
+    u = x + alpha*e_0
+    v = u/np.linalg.norm(u)
 
+    # matrix of the reflection x -> x - 2<v,x>v
+    Q = np.identity(n) -  2*np.array([ v[i]*v for i  in range(n)]) 
+    
+    R = Q @ R
+    
+    # do the recursion
+    Q1, R1 = QR(R[1:,1:])
+    
+    # copy the results into Q, R
+    Q[1:,1:] = Q[1:,1:] @ Q1
+    R[1:,1:] = R1
+    
+    return Q, R    
 ```
 
 #### notes TP1
