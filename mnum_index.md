@@ -85,8 +85,9 @@ def QR_householder(A):
     
     # copy the results into Q, R
     Q[1:,1:] = Q[1:,1:] @ Q1
-    R[1:,1:] = R1
-    
+    Q[0,1:] =  Q[0,1:] @ Q1
+    R[1:,1:] = R1   
+
     return Q, R    
 ```
 
