@@ -11,12 +11,16 @@
 	- [correction](./METH_NUM/cc1_2021_corr.pdf)
 - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement
 	- 4/3 exos exo 2-3-4 et début de 6
-	- 11/3 Programmer Cholesky 1 
+	- 11/3 Programmer Cholesky
+	- 18/3 F1 Exo 8 
+	* étudié numériquement le conditionnement A / h^2 + C 
+	* implémenté la résolution du système linéaire toukours de A / h^2 + C 
+	* méthodes itératives de Jacobi et Gauss Siedel (cf cours).
+
+---
 	- programmer la méthode QR 
 	- [mon brouillon](./METH_NUM/QR_etc.html)
 	- Indication [you can find code here](https://www.quantstart.com/articles/QR-Decomposition-with-Python-and-NumPy/) there are some mistakes in the code fix them!
-
----
 
 1) Programmer Cholesky <br>
    1.1 en utilisant la décomposition LU <br>
