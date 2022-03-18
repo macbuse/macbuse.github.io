@@ -21,6 +21,9 @@
 	- programmer la méthode QR 
 	- [mon brouillon](./METH_NUM/QR_etc.html)
 	- Indication [you can find code here](https://www.quantstart.com/articles/QR-Decomposition-with-Python-and-NumPy/) there are some mistakes in the code fix them!
+---
+
+### Notes from last week
 
 1) Programmer Cholesky <br>
    1.1 en utilisant la décomposition LU <br>
