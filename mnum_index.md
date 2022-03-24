@@ -9,18 +9,31 @@
 	- 11/2 **controle de 20 minutes en classe**
 	- 18/2 **DM en classe** [voici le sujet](./METH_NUM/cc1_2021_print.pdf) c'est le CC du mars 2021. Vous pouvez le faire en groupes.
 	- [correction](./METH_NUM/cc1_2021_corr.pdf)
+
+---
+
 - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement
 	- 4/3 exos exo 2-3-4 et début de 6
 	- 11/3 Programmer Cholesky
+		- programmer la méthode QR 
+		- [mon 	brouillon](./METH_NUM/QR_etc.html)
+		- Indication [you can find code here](https://www.quantstart.com/articles/QR-Decomposition-with-Python-and-NumPy/) there are some mistakes in the code fix them!
 	- 18/3 F1 Exo 8 
 	* étudié numériquement le conditionnement A / h^2 + C 
 	* implémenté la résolution du système linéaire toukours de A / h^2 + C 
 	* méthodes itératives de Jacobi et Gauss Siedel (cf cours).
 
 ---
-	- programmer la méthode QR 
-	- [mon brouillon](./METH_NUM/QR_etc.html)
-	- Indication [you can find code here](https://www.quantstart.com/articles/QR-Decomposition-with-Python-and-NumPy/) there are some mistakes in the code fix them!
+
+- [F3](./METH_NUM/3_feuille_interp.pdf)
+	- 25/3 
+	* programmation et plot du polynôme d'interpolation de Lagrange
+	* 1) Par évaluation naïve des Polynômes l_i de Lagrange
+	* 2) En utilisant les différences divisées
+	* Exercice 5 : visualiser le phénomène de Runge
+	* utilisation des abscisses de Tchebychev pour obtenir une convergence uniforme
+	* début de l'approximation : droite des moindres carrés
+
 ---
 
 ### Notes from last week
