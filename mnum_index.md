@@ -31,7 +31,7 @@
 	* 1) Par évaluation naïve des Polynômes l_i de Lagrange
 	* 2) En utilisant les différences divisées
 	* Exercice 5 : visualiser le [phénomène de Runge](https://en.wikipedia.org/wiki/Runge%27s_phenomenon)
-	* utilisation des [abscisses de Tchebychev](https://en.wikipedia.org/wiki/Chebyshev_nodes) pour obtenir une convergence uniforme
+	* utilisation des [abscisses de Tchebychev pour obtenir une convergence uniforme
 	* début de l'approximation : droite des moindres carrés
 
 ---
