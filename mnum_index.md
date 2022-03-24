@@ -26,7 +26,7 @@
 ---
 
 - [F3](./METH_NUM/3_feuille_interp.pdf)
-	- 25/3 
+	- 25/3 [mon brouillon](./METH_NUM/Lagrange.html]
 	* programmation et plot du polynôme d'interpolation de Lagrange
 	* 1) Par évaluation naïve des Polynômes l_i de Lagrange
 	* 2) En utilisant les différences divisées
