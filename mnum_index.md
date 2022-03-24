@@ -36,7 +36,7 @@
 
 ---
 
-### Notes from last week
+### Notes from previous week
 
 1) Programmer Cholesky <br>
    1.1 en utilisant la décomposition LU <br>
