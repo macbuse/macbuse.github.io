@@ -249,7 +249,7 @@ From March 2014 I've also been working with the [fablab MSTIC](http://fabmstic.l
 making mathematical curiosities from wood.
 I'm mainly interested in constructing geometric objects in wood using kerf
 bending patterns. Wood prepared using a laser cutting machine can be bent and
-joined to like a 3 dimensional jigsaw puzzle.
+joined to like a 3 dimensional jigsaw puzzle. [collection of pieces](https://www-fourier.ujf-grenoble.fr/~mcshane/SVGS/)
 
 <center>
  <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/tetra.JPG" alt="photo" width="300">
