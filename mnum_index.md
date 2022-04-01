@@ -33,6 +33,7 @@
 	* Exercice 5 : visualiser le [phénomène de Runge](https://en.wikipedia.org/wiki/Runge%27s_phenomenon)
 	* utilisation des [abscisses de Tchebychev](https://en.wikipedia.org/wiki/Chebyshev_nodes) pour obtenir une convergence uniforme
 	* début de l'approximation : droite des moindres carrés
+	- 1/4 exos 3,7,9, 10 **controle de TP note**
 
 ---
 
