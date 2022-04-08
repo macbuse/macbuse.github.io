@@ -34,6 +34,7 @@
 	* utilisation des [abscisses de Tchebychev](https://en.wikipedia.org/wiki/Chebyshev_nodes) pour obtenir une convergence uniforme
 	* début de l'approximation : droite des moindres carrés
 	- 1/4 exos 3,7,9, 10 **controle de TP note**
+	- 8/4 exos 7,9, 10 et finir la feuile 3
 
 ---
 

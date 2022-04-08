@@ -353,7 +353,6 @@ add	WARWICK/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	ZHU_SLIDES/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
 addWidgetsRenderer	MAT305/graphs_tangents.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	METH_NUM/.ipynb_checkpoints/mnum-checkpoint.html	/^  function addWidgetsRenderer() {$/;"	f
-addWidgetsRenderer	METH_NUM/Lagrange (1).html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	METH_NUM/Lagrange .html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	METH_NUM/Lagrange.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	METH_NUM/QR_etc.html	/^  function addWidgetsRenderer() {$/;"	f
