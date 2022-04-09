@@ -12,6 +12,17 @@ Conformity = living one's life for others.
 
 Ernest Becker [The denial of death](https://en.wikipedia.org/wiki/The_Denial_of_Death)
 
+
+---
+
+## postscript
+
+[article](https://www.nature.com/articles/d41586-022-00925-7)
+[cnn from 2020](https://edition.cnn.com/2020/05/13/us/coronavirus-washington-choir-outbreak-trnd/index.html)
+Throughout much of 2020, the World Health Organization (WHO) held tight to the idea that SARS-CoV-2, the virus that causes COVID-19, spreads through relatively large ‘respiratory’ droplets that are expelled by infected people while coughing, sneezing or speaking. These droplets contaminate nearby surfaces or get breathed in, so the WHO stressed the importance of washing hands and disinfecting surfaces.
+
+It took many months for the agency to acknowledge that the virus could travel on tiny particles called aerosols that can spread widely and linger in the air. And nearly two years passed before the WHO clearly stated that the virus is airborne.
+
 ---
 
 ### Press
