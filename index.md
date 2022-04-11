@@ -80,7 +80,7 @@ Math for second year chemists [archived](./MAT305_index.md)
 
 - Ex directeur de [GDR TRESSES](http://tresses.math.cnrs.fr)
 - Editor [Annales de l'Institut Fourier](http://aif.cedram.org/?lang=fr)
-- Principal investigator l'equipe action ```ToFu```
+- Principal investigator l'equipe action ```ToFu``` [persyval-lab](https://persyval-lab.org/)
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
 - Member of the Conseil de l'UFR IMAG2
 - [CV](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf)
