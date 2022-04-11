@@ -207,7 +207,6 @@ With Bill Goldman and a couple of his ex students we have been working on a book
 -  [GEOMETRIC IDENTITIES](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/Kokyuroku_mcshane.pdf)
 
 ---
----
 
 ## Talks
 
