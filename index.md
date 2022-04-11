@@ -218,6 +218,8 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 
 ---
 
+### 2021
+
 - [Tokyo 7/12]( ./GRENOBLE/short.html)
 - [Toulouse 9/11]( ./GRENOBLE/web.html)
 - [Grenoble 8/10](./GRENOBLE/web.html)
@@ -237,6 +239,9 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 
 - **Warwick 28/5** (Colloquium)
 - [Nantes 18/3](./NANTES/slides.html)
+
+### 2020
+
 - [HARVARD 18/12/20](./HARVARD/slides.html)
 
 ---
