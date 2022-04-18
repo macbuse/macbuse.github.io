@@ -14,6 +14,7 @@
 	- [Wilson Limit points Lagrange Spectrum](http://www.numdam.org/article/BSMF_1980__108__137_0.pdf)
 	- [Gbur Limit points again](https://link.springer.com/article/10.1007/BF01579595)
 	- [more recent](https://arxiv.org/abs/1911.06170)
+	- [mercat on mcmulle](http://www.numdam.org/item/10.5802/jtnb.829.pdf)
 
 - [osvienko Ramanujan cubic](https://arxiv.org/pdf/2110.01282.pdf)
 
