@@ -1,14 +1,14 @@
 #! /home/gregmcshane/anaconda3/bin/python3
 
 import requests
-import re, sys,os
+import re, sys
 TeX_template  = '''
-\documentclass[14pt]{amsart}
+\\documentclass[14pt]{amsart}
 \\begin{document}
-{\Large Wiki Math}
+{\\Large Wiki Math}
 
 %s
-\end{document}
+\\end{document}
 '''
 
 TeX_pp = r'<math.*?alttext="\{\\displaystyle (.*?)\}"'

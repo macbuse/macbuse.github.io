@@ -13,3 +13,8 @@ The SyncTeX feature of Evince requires communication via D-Bus. In order to use 
 
 pip3 install --user https://github.com/efoerster/evince-synctex/archive/master.zip
 
+
+There are other configs 
+- .latexmkrc $pdf_previewer [values](https://mg.readthedocs.io/latexmk.html)
+- .config/zathurarc 
+
