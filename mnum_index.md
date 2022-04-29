@@ -37,7 +37,7 @@
 	- 8/4 exos 7,9, 10 et finir la feuille 3
 
 
-[correction F3](./METH_NUM/3_feuille_interp_corrige.pdf]
+[correction F3](./METH_NUM/3_feuille_interp_corrige.pdf)
 
 - [F4](./METH_NUM/4_feuille_ode.pdf)
 - [29/4]
