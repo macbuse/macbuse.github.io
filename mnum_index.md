@@ -40,7 +40,7 @@
 [correction F3](./METH_NUM/3_feuille_interp_corrige.pdf)
 
 - [F5](./METH_NUM/5_feuille_int.pdf)
-- [29/4]
+- [29/4] [mon brouillon]( ./METH_NUM/integration.html)
 1) Approximation d'une intégrale 1D par
 
 * rectangle
