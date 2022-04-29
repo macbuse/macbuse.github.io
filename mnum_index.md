@@ -39,6 +39,17 @@
 
 [correction F3](./METH_NUM/3_feuille_interp_corrige.pdf]
 
+- [F4](./METH_NUM/4_feuille_ode.pdf)
+- [29/4]
+1) Approximation d'une intégrale 1D par
+
+* rectangle
+* trapèze
+* Simpson
+
+2) Étude d'ordres de convergence (1, 2 et 4)  <br>
+3) Méthode de Monte Carlo pour l'approximation d'une aire (disque dans un carré)
+
 ---
 
 ### Notes from previous week
