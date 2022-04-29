@@ -39,7 +39,7 @@
 
 [correction F3](./METH_NUM/3_feuille_interp_corrige.pdf)
 
-- [F4](./METH_NUM/4_feuille_ode.pdf)
+- [F5](./METH_NUM/5_feuille_int.pdf)
 - [29/4]
 1) Approximation d'une intégrale 1D par
 
