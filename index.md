@@ -201,10 +201,9 @@ With Bill Goldman and a couple of his ex students we have been working on a book
 
 <h2 id="recentpreprints">Recent preprints</h2>
 
+-  [EISENSTEIN INTEGERS AND EQUILATERAL IDEAL TRIANGLES](./eisenstein.pdf)
+-  [GEOMETRY OF FERMAT’S SUM OF SQUARES](./squares.pdf)
 -  [On systoles and ortho spectrum rigidity](https://arxiv.org/abs/1909.09829)
--  [NORMALIZED ENTROPY VERSUS VOLUME FOR PSEUDO-ANOSOVS](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/entropy.pdf)
--  [EQUIDECOMPOSABILITY, VOLUME FORMULAE AND ORTHOSPECTRA](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/CalegariBridgeman7.pdf)
--  [GEOMETRIC IDENTITIES](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/Kokyuroku_mcshane.pdf)
 
 ---
 
