@@ -24,8 +24,10 @@
 
 Fridays 13h45 salle CARISM RdC.
 
+**Derniere seance mercredi 4/5**
+
 1. there will be a break at 15h30 for 15 minutes to ventilate the room.
-1. you may have to install **numpy** in Pycharm ```pip install numpy```
+<!-- 1. you may have to install **numpy** in Pycharm ```pip install numpy``` -->
 
 [page for the class](./mnum_index.md)
 
