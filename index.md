@@ -203,6 +203,9 @@ With Bill Goldman and a couple of his ex students we have been working on a book
 
 <h2 id="recentpreprints">Recent preprints</h2>
 
+Mosty geometry of surfaces and (elementary) number theory.
+
+- [Convexity and Aigner's Conjectures](https://arxiv.org/pdf/2101.03316.pdf)
 -  [EISENSTEIN INTEGERS AND EQUILATERAL IDEAL TRIANGLES](./eisenstein.pdf)
 -  [GEOMETRY OF FERMAT’S SUM OF SQUARES](./squares.pdf)
 -  [On systoles and ortho spectrum rigidity](https://arxiv.org/abs/1909.09829)
