@@ -53,6 +53,9 @@
 2) Étude d'ordres de convergence (1, 2 et 4)  <br>
 3) Méthode de Monte Carlo pour l'approximation d'une aire (disque dans un carré)
 
+
+<!-- [correction]( ./METH_NUM/ -->
+
 ---
 
 [F4](./METH_NUM/4_feuille_ode.pdf)
