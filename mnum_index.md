@@ -57,7 +57,7 @@
 
 [F4](./METH_NUM/4_feuille_ode.pdf)
 
-	- 4/5 exos 2 et 4
+- 4/5 exos 2 et 4 [brouillon]( ./METH_NUM/euler_ode.html)
 
 ---
 
