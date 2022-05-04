@@ -57,6 +57,8 @@
 
 [F4](./METH_NUM/4_feuille_ode.pdf)
 
+	- 4/5 exos 2 et 4
+
 ---
 
 ### Notes from previous week
