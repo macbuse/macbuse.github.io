@@ -7,7 +7,7 @@
 
 - I am organising a [special session]() at **AMS-SMF-EMS** Joint International Meeting in July [website](https://ams-ems-smf2022.inviteo.fr/).
 	- [programme](https://ams-ems-smf2022.inviteo.fr/en/program/9)
-	- [special session program](./26-Combinatorial_and_Computational_Aspects_in_Topology-Schedule.xlsx)
+	- [special session schedule](./26-Combinatorial_and_Computational_Aspects_in_Topology-Schedule.xlsx)
 
 - I am currently in confinement with COVID
 - I am very busy with refereeing
