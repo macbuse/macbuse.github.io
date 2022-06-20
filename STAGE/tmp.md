@@ -21,7 +21,7 @@
 - [Mastermind](https://fr.wikipedia.org/wiki/Mastermind){target="_blank"}
 - Wordle
 	- [english](https://www.nytimes.com/games/wordle/index.html){target="_blank"}
-	- [french](https://wordlegame.org/fr){target="_blank"}
+	- [french](https://www.solitaire-play.com/lemot){target="_blank"}
 - [Conway](https://fr.wikipedia.org/wiki/Jeu_de_la_vie){target="_blank"}
 
 # algorithms
@@ -31,6 +31,15 @@
 - [Google Pagerank](https://fr.wikipedia.org/wiki/PageRank){target="_blank"}
 - [Word2vec](https://fr.wikipedia.org/wiki/Word2vec){target="_blank"}
 - [GPT3/LaMDA](https://www.npr.org/2022/06/16/1105552435/google-ai-sentient){target="_blank"}
+
+
+#
+
+<img src="./mastermind.png" width="600">
+
+#
+
+<img src="./knuth.png" width="600">
 
 #  Enumeration
 
@@ -48,6 +57,9 @@ def number_base(n, base):
 
 ```
 
+# Wordle
+
+ [english wordle](https://www.nytimes.com/games/wordle/index.html){target="_blank"}
 
 # Fibonacci
 

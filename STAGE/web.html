@@ -56,7 +56,7 @@
 <li class="fragment">Wordle
 <ul>
 <li class="fragment"><a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">english</a></li>
-<li class="fragment"><a href="https://wordlegame.org/fr" target="_blank">french</a></li>
+<li class="fragment"><a href="https://www.solitaire-play.com/lemot" target="_blank">french</a></li>
 </ul></li>
 <li class="fragment"><a href="https://fr.wikipedia.org/wiki/Jeu_de_la_vie" target="_blank">Conway</a></li>
 </ul>
@@ -70,6 +70,14 @@
 <li class="fragment"><a href="https://fr.wikipedia.org/wiki/Word2vec" target="_blank">Word2vec</a></li>
 <li class="fragment"><a href="https://www.npr.org/2022/06/16/1105552435/google-ai-sentient" target="_blank">GPT3/LaMDA</a></li>
 </ul>
+</section>
+<section id="section" class="slide level1">
+<h1></h1>
+<p><img src="./mastermind.png" width="600"></p>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<p><img src="./knuth.png" width="600"></p>
 </section>
 <section id="enumeration" class="slide level1">
 <h1>Enumeration</h1>
@@ -85,6 +93,10 @@
     else:
         return n % base + 10 * number_base(n // base, base)
 </code></pre>
+</section>
+<section id="wordle" class="slide level1">
+<h1>Wordle</h1>
+<p><a href="https://www.nytimes.com/games/wordle/index.html" target="_blank">english wordle</a></p>
 </section>
 <section id="fibonacci" class="slide level1">
 <h1>Fibonacci</h1>
@@ -122,7 +134,7 @@ print(fib)
 89, 144, 233, 377, 610, 987, 1597, 
 2584, 4181, 6765, 10946, 17711]</code></pre>
 </section>
-<section id="section" class="slide level1">
+<section id="section-2" class="slide level1">
 <h1></h1>
 <h3 id="odd-index-fibonacci-numbers">Odd index Fibonacci numbers</h3>
 <pre><code>fib[1::2] 
@@ -135,14 +147,14 @@ print(fib)
 <li class="fragment"><span class="math inline">\(34 = 3^2 + 5^2\)</span></li>
 </ul>
 </section>
-<section id="section-1" class="slide level1">
+<section id="section-3" class="slide level1">
 <h1></h1>
 <pre><code>[x**2 + y**2 for  x,y in zip(fib[0:11], fib[1:]) ]
 
 
 [1, 2, 5, 13, 34, 89, 233, 610, 1597, 4181, 10946]</code></pre>
 </section>
-<section id="section-2" class="slide level1">
+<section id="section-4" class="slide level1">
 <h1></h1>
 <h3 id="odd-index-fibonacci-numbers-1">Odd index Fibonacci numbers</h3>
 <p><span class="math display">\[F_{2n+1} = F_{n+1}^2 + F_n^2\]</span></p>
