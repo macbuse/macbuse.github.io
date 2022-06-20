@@ -9,7 +9,8 @@
 	- [programme](https://ams-ems-smf2022.inviteo.fr/en/program/9)
 	- [special session schedule](./26-Combinatorial_and_Computational_Aspects_in_Topology-Schedule.xlsx)
 
-- I am currently in confinement with COVID
+<!-- - I am currently in confinement with COVID -->
+- I'm probably doing a [high school stage this week](./STAGE/web.html)
 - I am very busy with refereeing
 - this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded.
 - Why is this page on GitHub? [Read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/)
@@ -32,7 +33,7 @@ Fridays 13h45 salle CARISM RdC.
 
 **Derniere seance mercredi 4/5 Salle SAFE**
 
-1. there will be a break at 15h30 for 15 minutes to ventilate the room.
+<!-- 1. there will be a break at 15h30 for 15 minutes to ventilate the room. -->
 <!-- 1. you may have to install **numpy** in Pycharm ```pip install numpy``` -->
 
 [page for the class](./mnum_index.md)
