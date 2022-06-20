@@ -35,11 +35,11 @@
 
 #
 
-<img src="./mastermind.png" width="600">
+<img src="./mastermind.png" width="800">
 
 #
 
-<img src="./knuth.png" width="600">
+<img src="./knuth.png" width="800">
 
 #  Enumeration
 
