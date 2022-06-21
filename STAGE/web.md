@@ -95,6 +95,15 @@ sont équivalents par découpage et recollement.
 - [Word2vec](https://fr.wikipedia.org/wiki/Word2vec){target="_blank"}
 - [GPT3/LaMDA](https://www.npr.org/2022/06/16/1105552435/google-ai-sentient){target="_blank"}
 
+#
+
+## Go/echecs
+
+- [AlphaGo](https://fr.wikipedia.org/wiki/AlphaGo){target="_blank"}
+- [AlphaZero](https://fr.wikipedia.org/wiki/AlphaZero){target="_blank"}
+- [StockFish](https://stockfishchess.org/){target="_blank"}
+- [the match](https://www.youtube.com/watch?v=8dT6CR9_6l4}{target="_blank"}
+
 
 #  
 ## Enumeration possibilities
@@ -125,12 +134,10 @@ def number_base(n, base):
 
 # Fibonacci
 
-
 - $F_0 = 0, F_1 = 1$
 - $F_{n+1} = F_n + F_{n-1}$
 
 # Python
-
 
 ```
 def Fibonacci(n):
