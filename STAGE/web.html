@@ -41,10 +41,53 @@
 <li class="fragment"><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/3D/heisenberg_moon_radial_hires.html" target="_blank">geometry: Heisenberg group</a></li>
 </ul>
 </section>
+<section id="geometry" class="slide level1">
+<h1>geometry</h1>
+<ul>
+<li class="fragment">Pythagoras</li>
+<li class="fragment">Théorème de Bolyai</li>
+<li class="fragment">Heron’s formula</li>
+</ul>
+</section>
+<section id="section" class="slide level1">
+<h1></h1>
+<h2 id="pythagore">Pythagore</h2>
+<p>Si un triangle est rectangle, le carré de la longueur de l’hypoténuse est égal à la somme des carrés des longueurs des deux autres côtés.</p>
+<p><span class="math inline">\(a^2 = b^2 + c^2\)</span></p>
+<ul>
+<li class="fragment">aire d’un triangle</li>
+<li class="fragment">aire d’un triangle rectangle <span class="math inline">\(\frac12 (b\times c)\)</span></li>
+<li class="fragment">decoupage d’un triangle rectangle</li>
+</ul>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<h2 id="théorème-de-bolyai">Théorème de Bolyai</h2>
+<p>Deux polygones A et B de même aire sont équivalents par découpage et recollement.</p>
+</section>
+<section class="slide level1">
+
+<p>On dit que deux polygones A et B sont <strong>par découpage et recollement</strong> si on peut decomposer</p>
+<ul>
+<li class="fragment">A comme une réunion finie de polygones <span class="math inline">\(A_i\)</span></li>
+<li class="fragment">B comme une réunion finie de polygones <span class="math inline">\(B_i\)</span></li>
+<li class="fragment">tels que pour tout <span class="math inline">\(i\)</span>, <span class="math inline">\(A_i\)</span> soit directement isométrique à <span class="math inline">\(B_i\)</span>.</li>
+<li class="fragment">On note alors <span class="math inline">\(A \sim B\)</span> .</li>
+</ul>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<h2 id="théorème-de-bolyai-1">Théorème de Bolyai</h2>
+<p>Deux polygones A et B de même aire sont équivalents par découpage et recollement.</p>
+<ol type="1">
+<li class="fragment"><span class="math inline">\(\forall\)</span> triangle <span class="math inline">\(T\)</span> <span class="math inline">\(\exists\)</span> rectangle <span class="math inline">\(R\)</span> avec <span class="math inline">\(T\sim R\)</span></li>
+<li class="fragment"><span class="math inline">\(\forall\)</span> <span class="math inline">\(R_1, R_2\)</span> de meme aire <span class="math inline">\(R_1 \sim R_2\)</span></li>
+<li class="fragment">Comment faire le cas general ?</li>
+</ol>
+</section>
 <section id="arithmetic" class="slide level1">
 <h1>Arithmetic</h1>
 <ul>
-<li class="fragment">Pythagoras</li>
 <li class="fragment">Fibonacci</li>
 <li class="fragment">Fermat</li>
 </ul>
@@ -71,11 +114,11 @@
 <li class="fragment"><a href="https://www.npr.org/2022/06/16/1105552435/google-ai-sentient" target="_blank">GPT3/LaMDA</a></li>
 </ul>
 </section>
-<section id="section" class="slide level1">
+<section id="section-3" class="slide level1">
 <h1></h1>
 <p><img src="./mastermind.png" width="800"></p>
 </section>
-<section id="section-1" class="slide level1">
+<section id="section-4" class="slide level1">
 <h1></h1>
 <p><img src="./knuth.png" width="800"></p>
 </section>
@@ -134,7 +177,7 @@ print(fib)
 89, 144, 233, 377, 610, 987, 1597, 
 2584, 4181, 6765, 10946, 17711]</code></pre>
 </section>
-<section id="section-2" class="slide level1">
+<section id="section-5" class="slide level1">
 <h1></h1>
 <h3 id="odd-index-fibonacci-numbers">Odd index Fibonacci numbers</h3>
 <pre><code>fib[1::2] 
@@ -147,14 +190,14 @@ print(fib)
 <li class="fragment"><span class="math inline">\(34 = 3^2 + 5^2\)</span></li>
 </ul>
 </section>
-<section id="section-3" class="slide level1">
+<section id="section-6" class="slide level1">
 <h1></h1>
 <pre><code>[x**2 + y**2 for  x,y in zip(fib[0:11], fib[1:]) ]
 
 
 [1, 2, 5, 13, 34, 89, 233, 610, 1597, 4181, 10946]</code></pre>
 </section>
-<section id="section-4" class="slide level1">
+<section id="section-7" class="slide level1">
 <h1></h1>
 <h3 id="odd-index-fibonacci-numbers-1">Odd index Fibonacci numbers</h3>
 <p><span class="math display">\[F_{2n+1} = F_{n+1}^2 + F_n^2\]</span></p>

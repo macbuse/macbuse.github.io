@@ -9,10 +9,56 @@
 - [topology: Alexander sphere](https://www-fourier.ujf-grenoble.fr/~mcshane/3D/alexanderSphere.html){target="_blank"}
 - [geometry: Heisenberg group](https://www-fourier.ujf-grenoble.fr/~mcshane/3D/heisenberg_moon_radial_hires.html){target="_blank"}
 
+# geometry
+
+- Pythagoras
+- Théorème de Bolyai
+- Heron's formula
+
+#
+
+## Pythagore
+
+Si un triangle est rectangle, le carré de la longueur de l’hypoténuse 
+est égal à la somme des carrés des longueurs des deux autres côtés.
+
+$a^2 = b^2 + c^2$
+
+
+- aire d'un triangle
+- aire d'un triangle rectangle $\frac12 (b\times c)$
+- decoupage d'un triangle rectangle
+
+#
+## Théorème de Bolyai
+
+Deux polygones A et B de même aire 
+sont équivalents par découpage et recollement.
+
+---
+
+On dit que deux polygones A et B
+sont **par découpage et recollement**
+si on peut decomposer 
+
+- A comme une réunion finie de polygones $A_i$
+- B comme une réunion finie de polygones $B_i$
+ - tels que pour tout $i$, $A_i$ soit directement isométrique à $B_i$.
+ - On note alors $A \sim B$
+.
+
+#
+## Théorème de Bolyai
+
+Deux polygones A et B de même aire 
+sont équivalents par découpage et recollement.
+
+1. $\forall$ triangle $T$ $\exists$ rectangle $R$ avec $T\sim R$
+1. $\forall$ $R_1, R_2$ de meme aire $R_1 \sim R_2$
+1. Comment faire le cas general ?
 
 # Arithmetic
 
-- Pythagoras
 - Fibonacci
 - Fermat
 
