@@ -35,7 +35,7 @@ $a^2 = b^2 + c^2$
 ### Exo
 
 - determiner le rapport longueur/largeur d'une feuille A4, A5, A6..
-- couper une feuille A4 en 3 morceaux qui se recollent pour former un carre
+- couper une feuille A5 en 3 morceaux qui se recollent pour former un carre
 
 
 #
