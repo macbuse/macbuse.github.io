@@ -63,11 +63,20 @@
 <section id="section-1" class="slide level1">
 <h1></h1>
 <h2 id="théorème-de-bolyai">Théorème de Bolyai</h2>
+<h3 id="exo">Exo</h3>
+<ul>
+<li class="fragment">determiner le rapport longueur/largeur d’une feuille A4, A5, A6..</li>
+<li class="fragment">couper une feuille A4 en 3 morceaux qui se recollent pour former un carre</li>
+</ul>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<h2 id="théorème-de-bolyai-1">Théorème de Bolyai</h2>
 <p>Deux polygones A et B de même aire sont équivalents par découpage et recollement.</p>
 </section>
 <section class="slide level1">
 
-<p>On dit que deux polygones A et B sont <strong>par découpage et recollement</strong> si on peut decomposer</p>
+<p>On dit que deux polygones A et B sont <br> <strong>équivalents par découpage et recollement</strong> <br> si on peut decomposer</p>
 <ul>
 <li class="fragment">A comme une réunion finie de polygones <span class="math inline">\(A_i\)</span></li>
 <li class="fragment">B comme une réunion finie de polygones <span class="math inline">\(B_i\)</span></li>
@@ -75,12 +84,12 @@
 <li class="fragment">On note alors <span class="math inline">\(A \sim B\)</span> .</li>
 </ul>
 </section>
-<section id="section-2" class="slide level1">
+<section id="section-3" class="slide level1">
 <h1></h1>
-<h2 id="théorème-de-bolyai-1">Théorème de Bolyai</h2>
+<h2 id="théorème-de-bolyai-2">Théorème de Bolyai</h2>
 <p>Deux polygones A et B de même aire sont équivalents par découpage et recollement.</p>
 <ol type="1">
-<li class="fragment"><span class="math inline">\(\forall\)</span> triangle <span class="math inline">\(T\)</span> <span class="math inline">\(\exists\)</span> rectangle <span class="math inline">\(R\)</span> avec <span class="math inline">\(T\sim R\)</span></li>
+<li class="fragment"><span class="math inline">\(\forall\)</span> triangle <span class="math inline">\(T\)</span>, <span class="math inline">\(\exists\)</span> rectangle <span class="math inline">\(R\)</span> avec <span class="math inline">\(T\sim R\)</span></li>
 <li class="fragment"><span class="math inline">\(\forall\)</span> rectangle <span class="math inline">\(R\)</span>, <span class="math inline">\(R \sim S\)</span> avec <span class="math inline">\(S=\)</span> carre de meme aire</li>
 <li class="fragment">Comment faire le cas general ?</li>
 <li class="fragment"><a href="https://batmath.org/wp-content/uploads/2017/09/ScissorsSFMTC171021solutions.pdf">solution</a></li>
@@ -105,8 +114,14 @@
 <li class="fragment"><a href="https://fr.wikipedia.org/wiki/Jeu_de_la_vie" target="_blank">Conway</a></li>
 </ul>
 </section>
-<section id="algorithms" class="slide level1">
-<h1>algorithms</h1>
+<section id="section-4" class="slide level1">
+<h1></h1>
+<p><strong>Mastermind: Knuth’s algorithm</strong></p>
+<p><a href="./Mastermind_projet_Touron_Camille_L3A-checkpoint.html" target="_blank">Camille projet L3</a></p>
+</section>
+<section id="section-5" class="slide level1">
+<h1></h1>
+<h2 id="algorithms">algorithms</h2>
 <ul>
 <li class="fragment"><a href="https://framagit.org/parcoursup/algorithmes-de-parcoursup" target="_blank">Parcours sup</a></li>
 <li class="fragment"><a href="https://www.labri.fr/perso/gimbert/" target="_blank">maintainer</a></li>
@@ -115,18 +130,11 @@
 <li class="fragment"><a href="https://www.npr.org/2022/06/16/1105552435/google-ai-sentient" target="_blank">GPT3/LaMDA</a></li>
 </ul>
 </section>
-<section id="section-3" class="slide level1">
+<section id="section-6" class="slide level1">
 <h1></h1>
-<p><img src="./mastermind.png" width="800"></p>
-</section>
-<section id="section-4" class="slide level1">
-<h1></h1>
-<p><img src="./knuth.png" width="800"></p>
-</section>
-<section id="enumeration" class="slide level1">
-<h1>Enumeration</h1>
+<h2 id="enumeration-possibilities">Enumeration possibilities</h2>
 <ul>
-<li class="fragment">6 colours</li>
+<li class="fragment">Matermind 6 colours</li>
 <li class="fragment"><span class="math inline">\(6^4 = 1296\)</span></li>
 <li class="fragment">6 colours <span class="math inline">\(\leftrightarrow\)</span> digits <span class="math inline">\(0,1,2\ldots 6\)</span></li>
 <li class="fragment">possibilities <span class="math inline">\(\leftrightarrow\)</span> digits <span class="math inline">\(0,1,2\ldots 1296\)</span></li>
@@ -137,6 +145,13 @@
     else:
         return n % base + 10 * number_base(n // base, base)
 </code></pre>
+</section>
+<section id="dnnai" class="slide level1">
+<h1>DNN/AI</h1>
+<ul>
+<li class="fragment"><a href="https://www.deepl.com/translator#en/fr/this%20is%20a%20lot%20of%20shit" target="_blank">Deepl</a></li>
+<li class="fragment"><a href="https://copilot.github.com/" target="_blank">Github copilot</a></li>
+</ul>
 </section>
 <section id="wordle" class="slide level1">
 <h1>Wordle</h1>
@@ -159,13 +174,6 @@
     else:
         return Fibonacci(n-1) + Fibonacci(n-2)</code></pre>
 </section>
-<section id="dnnai" class="slide level1">
-<h1>DNN/AI</h1>
-<ul>
-<li class="fragment"><a href="https://www.deepl.com/translator#en/fr/this%20is%20a%20lot%20of%20shit" target="_blank">Deepl</a></li>
-<li class="fragment"><a href="https://copilot.github.com/" target="_blank">Github copilot</a></li>
-</ul>
-</section>
 <section id="python-1" class="slide level1">
 <h1>Python</h1>
 <pre><code>fib = [1,1]
@@ -178,7 +186,7 @@ print(fib)
 89, 144, 233, 377, 610, 987, 1597, 
 2584, 4181, 6765, 10946, 17711]</code></pre>
 </section>
-<section id="section-5" class="slide level1">
+<section id="section-7" class="slide level1">
 <h1></h1>
 <h3 id="odd-index-fibonacci-numbers">Odd index Fibonacci numbers</h3>
 <pre><code>fib[1::2] 
@@ -191,14 +199,14 @@ print(fib)
 <li class="fragment"><span class="math inline">\(34 = 3^2 + 5^2\)</span></li>
 </ul>
 </section>
-<section id="section-6" class="slide level1">
+<section id="section-8" class="slide level1">
 <h1></h1>
 <pre><code>[x**2 + y**2 for  x,y in zip(fib[0:11], fib[1:]) ]
 
 
 [1, 2, 5, 13, 34, 89, 233, 610, 1597, 4181, 10946]</code></pre>
 </section>
-<section id="section-7" class="slide level1">
+<section id="section-9" class="slide level1">
 <h1></h1>
 <h3 id="odd-index-fibonacci-numbers-1">Odd index Fibonacci numbers</h3>
 <p><span class="math display">\[F_{2n+1} = F_{n+1}^2 + F_n^2\]</span></p>

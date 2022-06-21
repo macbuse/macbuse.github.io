@@ -24,10 +24,19 @@ est égal à la somme des carrés des longueurs des deux autres côtés.
 
 $a^2 = b^2 + c^2$
 
-
 - aire d'un triangle
 - aire d'un triangle rectangle $\frac12 (b\times c)$
 - decoupage d'un triangle rectangle
+
+
+#
+## Théorème de Bolyai
+
+### Exo
+
+- determiner le rapport longueur/largeur d'une feuille A4, A5, A6..
+- couper une feuille A4 en 3 morceaux qui se recollent pour former un carre
+
 
 #
 ## Théorème de Bolyai
@@ -37,8 +46,8 @@ sont équivalents par découpage et recollement.
 
 ---
 
-On dit que deux polygones A et B
-sont **par découpage et recollement**
+On dit que deux polygones A et B sont <br>
+**équivalents par découpage et recollement** <br>
 si on peut decomposer 
 
 - A comme une réunion finie de polygones $A_i$
@@ -53,7 +62,7 @@ si on peut decomposer
 Deux polygones A et B de même aire 
 sont équivalents par découpage et recollement.
 
-1. $\forall$ triangle $T$ $\exists$ rectangle $R$ avec $T\sim R$
+1. $\forall$ triangle $T$,  $\exists$ rectangle $R$ avec $T\sim R$
 1. $\forall$ rectangle $R$, $R \sim S$ avec $S=$ carre de meme aire 
 1. Comment faire le cas general ?
 1. [solution](https://batmath.org/wp-content/uploads/2017/09/ScissorsSFMTC171021solutions.pdf)
@@ -71,7 +80,14 @@ sont équivalents par découpage et recollement.
 	- [french](https://www.solitaire-play.com/lemot){target="_blank"}
 - [Conway](https://fr.wikipedia.org/wiki/Jeu_de_la_vie){target="_blank"}
 
-# algorithms
+#
+
+**Mastermind: Knuth's algorithm**
+
+[Camille projet L3](./Mastermind_projet_Touron_Camille_L3A-checkpoint.html){target="_blank"}
+
+# 
+## algorithms
 
 - [Parcours sup](https://framagit.org/parcoursup/algorithmes-de-parcoursup){target="_blank"}
 - [maintainer](https://www.labri.fr/perso/gimbert/){target="_blank"}
@@ -80,17 +96,10 @@ sont équivalents par découpage et recollement.
 - [GPT3/LaMDA](https://www.npr.org/2022/06/16/1105552435/google-ai-sentient){target="_blank"}
 
 
-#
+#  
+## Enumeration possibilities
 
-<img src="./mastermind.png" width="800">
-
-#
-
-<img src="./knuth.png" width="800">
-
-#  Enumeration
-
-- 6 colours
+- Matermind 6 colours
 - $6^4 = 1296$
 - 6 colours $\leftrightarrow$ digits $0,1,2\ldots 6$
 - possibilities $\leftrightarrow$ digits $0,1,2\ldots 1296$
@@ -104,9 +113,15 @@ def number_base(n, base):
 
 ```
 
+# DNN/AI
+
+- [Deepl](https://www.deepl.com/translator#en/fr/this%20is%20a%20lot%20of%20shit){target="_blank"}
+- [Github copilot](https://copilot.github.com/){target="_blank"}
+
+
 # Wordle
 
- [english wordle](https://www.nytimes.com/games/wordle/index.html){target="_blank"}
+[english wordle](https://www.nytimes.com/games/wordle/index.html){target="_blank"}
 
 # Fibonacci
 
@@ -127,10 +142,6 @@ def Fibonacci(n):
         return Fibonacci(n-1) + Fibonacci(n-2)
 ```
 
-# DNN/AI
-
-- [Deepl](https://www.deepl.com/translator#en/fr/this%20is%20a%20lot%20of%20shit){target="_blank"}
-- [Github copilot](https://copilot.github.com/){target="_blank"}
 
 # Python 
 
