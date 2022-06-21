@@ -12,7 +12,7 @@
 # geometry
 
 - Pythagoras
-- Théorème de Bolyai
+- Théorème de Bolyai (Wallace-Bolyai-Gerwein theorem)
 - Heron's formula
 
 #
@@ -54,8 +54,9 @@ Deux polygones A et B de même aire
 sont équivalents par découpage et recollement.
 
 1. $\forall$ triangle $T$ $\exists$ rectangle $R$ avec $T\sim R$
-1. $\forall$ $R_1, R_2$ de meme aire $R_1 \sim R_2$
+1. $\forall$ rectangle $R$, $R \sim S$ avec $S=$ carre de meme aire 
 1. Comment faire le cas general ?
+1. [solution](https://batmath.org/wp-content/uploads/2017/09/ScissorsSFMTC171021solutions.pdf)
 
 # Arithmetic
 
