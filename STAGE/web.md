@@ -67,6 +67,16 @@ sont équivalents par découpage et recollement.
 1. Comment faire le cas general ?
 1. [solution](https://batmath.org/wp-content/uploads/2017/09/ScissorsSFMTC171021solutions.pdf)
 
+#
+## Paradoxe
+
+il est possible de découper une boule de l'espace usuel $\mathbb{R}^{3}$
+en 5 morceaux et de réassembler ces morceaux pour former deux boules identiques à la première.
+
+- [Banach-Tarski](https://fr.wikipedia.org/wiki/Paradoxe_de_Banach-Tarski)
+
+
+
 # Arithmetic
 
 - Fibonacci
@@ -97,7 +107,7 @@ sont équivalents par découpage et recollement.
 
 #
 
-## Go/echecs
+## Go Echecs
 
 - [AlphaGo](https://fr.wikipedia.org/wiki/AlphaGo){target="_blank"}
 - [AlphaZero](https://fr.wikipedia.org/wiki/AlphaZero){target="_blank"}
