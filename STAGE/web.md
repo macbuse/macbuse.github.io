@@ -70,11 +70,11 @@ sont équivalents par découpage et recollement.
 #
 ## Paradoxe
 
-il est possible de découper une boule de l'espace usuel $\mathbb{R}^{3}$
-en 5 morceaux et de réassembler ces morceaux pour former deux boules identiques à la première.
+il est possible de découper une boule de $\mathbb{R}^{3}$ <br>
+en 5 morceaux et de les réassembler <br>
+pour former deux boules identiques à la première.
 
 - [Banach-Tarski](https://fr.wikipedia.org/wiki/Paradoxe_de_Banach-Tarski)
-
 
 
 # Arithmetic
