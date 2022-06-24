@@ -399,7 +399,10 @@ addWidgetsRenderer	METH_NUM/integration.html	/^  function addWidgetsRenderer() {
 addWidgetsRenderer	METH_NUM/mnum.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/Lagrange.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/projects.html	/^  function addWidgetsRenderer() {$/;"	f
+addWidgetsRenderer	STAGE/HARENG_L3A1.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	STAGE/Mastermind_projet_Touron_Camille_L3A-checkpoint.html	/^  function addWidgetsRenderer() {$/;"	f
+addWidgetsRenderer	STAGE/Sudoku_-_Sarah_Depernet.html	/^  function addWidgetsRenderer() {$/;"	f
+addWidgetsRenderer	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	mnum.html	/^  function addWidgetsRenderer() {$/;"	f
 and this contains the point  $frac{1}{2 }(1+ i)$
 audio_cb	JULIA/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def audio_cb(match):$/;"	f
@@ -624,6 +627,11 @@ new_format	VIRUS/6vsb/pair_parser.py	/^def new_format(df):$/;"	f
 number_base	STAGE/fib.py	/^def number_base(n, base):$/;"	f
 obtaining the required midpoint as the fixed point of the automorphism.
 on projecting to the surface  $xx$,
+on_click_closure	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^    function on_click_closure(name) {$/;"	f
+on_keyboard_event_closure	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^    function on_keyboard_event_closure(name) {$/;"	f
+on_mouse_event_closure	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^    function on_mouse_event_closure(name) {$/;"	f
+on_mouseover_closure	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^    function on_mouseover_closure(tooltip) {$/;"	f
+ondownload	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^    function ondownload(figure, _format) {$/;"	f
 pandoc_it	D2/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	DEM0_gpe_lec/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
@@ -717,6 +725,8 @@ pull_math	GPE_ENS/wiki_math.py	/^def pull_math(url):$/;"	f
 pull_math	GPE_ENS_2021/wiki_math.py	/^def pull_math(url):$/;"	f
 res2str	VIRUS/6vsb/pair_parser.py	/^def res2str(x):$/;"	f
 result	VIRUS/6vsb/pair_parser.py	/^        result = txt2csv(fn)$/;"	v
+set_focus	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^    function set_focus() {$/;"	f
+simpleKeys	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^function simpleKeys(original) {$/;"	f
 so this point is in the $sl2$ orbit of $i$>
 spoken_text	D2/mk_slides2.py	/^    spoken_text = []$/;"	v
 spoken_text	DEM0_gpe_lec/mk_slides2.py	/^    spoken_text = []$/;"	v
