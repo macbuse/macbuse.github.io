@@ -36,6 +36,7 @@ Automorphism groups	GRENOBLE/squares.tex	/^\\end{figure}$/;"	u
 Automorphism groups	STAGE/squares.tex	/^\\end{figure}$/;"	u
 Automorphisms of the three punctured sphere	GRENOBLE/squares.tex	/^$x \\mapsto -x$ and $x \\mapsto 1\/x$.$/;"	s
 Automorphisms of the three punctured sphere	STAGE/squares.tex	/^$x \\mapsto -x$ and $x \\mapsto 1\/x$.$/;"	s
+BLACK	STAGE/my_conway.py	/^BLACK = (0, 0, 0)$/;"	v
 Bezouts Theorem	GRENOBLE/squares.tex	/^ and we give a short exposition of it  in the appendix.$/;"	b
 Bezouts Theorem	STAGE/squares.tex	/^ and we give a short exposition of it  in the appendix.$/;"	b
 Bilan financier	GDR/rapport_gdr.tex	/^http:\/\/www.cedram.org\/spip.php?article228\\&lang=en$/;"	u
@@ -421,11 +422,13 @@ data	VV/svg2path.py	/^    data  = fp.read()$/;"	v
 dd	TEX_DUMP/TER2.tex	/^\\end{enumerate}$/;"	u
 df	VIRUS/6vsb/pair_parser.py	/^    df = merge_tables(pd.read_csv(stresses), $/;"	v
 dimension}label{gdr-cnrs2105-tresses-et-topologie-de-basse-dimension}
+draw_block	STAGE/my_conway.py	/^def draw_block(x, y, alive_color):$/;"	f
 end{enumerate}
 end{lem}
 end{pmatrix} in sl2,,, begin{pmatrix}
 end{pmatrix}.i  = frac{1}{2 }(1+ i)$$
 end{pmatrix}.i = frac{im i}{ 1^2 + 1^2}$$
+evolve	STAGE/my_conway.py	/^def evolve(E):$/;"	f
 float_format	VIRUS/6vsb/pair_parser.py	/^                      float_format="%.2f")$/;"	v
 float_format	VIRUS/6vsb/pair_parser.py	/^                 float_format="%.2f")$/;"	v
 float_format	VIRUS/6vsb/pair_parser.py	/^               float_format="%.2f")$/;"	v
@@ -512,6 +515,7 @@ in the family $ggp$
 item the automorphism induced by $U $ preserves no geodesic in $ ggp$ item the automorphism induced by $V $ preserves at most two geodesics in $ggp$
 layer_cb	D2/svg2html.py	/^    def layer_cb(mm):$/;"	f	function:mk_anim
 layer_cb	METH_NUM/LINE_ANIM/svg2html.py	/^    def layer_cb(mm):$/;"	f	function:mk_anim
+main	STAGE/my_conway.py	/^def main():$/;"	f
 math_cb	D2/mk_slides2.py	/^    def math_cb(match):$/;"	f
 math_cb	DEM0_gpe_lec/mk_slides2.py	/^    def math_cb(match):$/;"	f
 math_cb	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def math_cb(match):$/;"	f
@@ -725,6 +729,7 @@ pull_math	GPE_ENS/wiki_math.py	/^def pull_math(url):$/;"	f
 pull_math	GPE_ENS_2021/wiki_math.py	/^def pull_math(url):$/;"	f
 res2str	VIRUS/6vsb/pair_parser.py	/^def res2str(x):$/;"	f
 result	VIRUS/6vsb/pair_parser.py	/^        result = txt2csv(fn)$/;"	v
+screen	STAGE/my_conway.py	/^screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen$/;"	v
 set_focus	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^    function set_focus() {$/;"	f
 simpleKeys	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^function simpleKeys(original) {$/;"	f
 so this point is in the $sl2$ orbit of $i$>
@@ -916,6 +921,7 @@ voices	WARWICK/mk_slides2.py	/^    voices = Voices()$/;"	v
 voices	WARWICK/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
 voices	ZHU_SLIDES/mk_slides2.py	/^    voices = Voices()$/;"	v
 voices	ZHU_SLIDES/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+xmax	STAGE/my_conway.py	/^xmax = 600 #Width of screen in pixels$/;"	v
 xx	D2/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	D2/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
 xx	DEM0_gpe_lec/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
@@ -978,3 +984,4 @@ xx	WARWICK/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	WARWICK/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
 xx	ZHU_SLIDES/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	ZHU_SLIDES/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+ymax	STAGE/my_conway.py	/^ymax = 600 #Height of screen in pixels$/;"	v

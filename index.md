@@ -10,8 +10,8 @@
 	- [special session schedule](./26-Combinatorial_and_Computational_Aspects_in_Topology-Schedule.xlsx)
 
 <!-- - I am currently in confinement with COVID -->
-- I'm probably doing a [high school stage this week](./STAGE/web.html)
-- I am very busy with refereeing
+- I'm did a [high school stage this week](./STAGE/web.html)
+<!-- - I am very busy with refereeing -->
 - this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded.
 - Why is this page on GitHub? [Read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/)
 
