@@ -64,7 +64,10 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 <img src="./PROG/life_vid.gif" width="600">
 </center>
 
-simulation of an epidemic the particles follow a random walk....
+I embedded this in a [script with pygame](./PROG/my_conway.py)
+it's like 50 LOC.
+
+Simulation of an epidemic the particles follow a random walk....
 
 <center>
 <img src="./PROG/random_epix.gif" width="600">
