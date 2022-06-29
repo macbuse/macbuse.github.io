@@ -74,6 +74,9 @@ Simulation of an epidemic the particles follow a random walk....
 <img src="./PROG/random_epix.gif" width="600">
 </center>
 
+I embedded this in a [script with pygame too](./PROG/epidemic_sim.py)
+- more complicated about 150 LOC.
+
 ---
 
 ### MAT305 
