@@ -36,6 +36,7 @@ Automorphism groups	GRENOBLE/squares.tex	/^\\end{figure}$/;"	u
 Automorphism groups	STAGE/squares.tex	/^\\end{figure}$/;"	u
 Automorphisms of the three punctured sphere	GRENOBLE/squares.tex	/^$x \\mapsto -x$ and $x \\mapsto 1\/x$.$/;"	s
 Automorphisms of the three punctured sphere	STAGE/squares.tex	/^$x \\mapsto -x$ and $x \\mapsto 1\/x$.$/;"	s
+BLACK	PROG/epidemic_sim.py	/^BLACK = (0, 0, 0)$/;"	v
 BLACK	PROG/my_conway.py	/^BLACK = (0, 0, 0)$/;"	v
 BLACK	STAGE/my_conway.py	/^BLACK = (0, 0, 0)$/;"	v
 Bezouts Theorem	GRENOBLE/squares.tex	/^ and we give a short exposition of it  in the appendix.$/;"	b
@@ -99,6 +100,7 @@ Ford circles  lengths  midpoints	GRENOBLE/squares.tex	/^and  $\\gg$  denote the 
 Ford circles  lengths  midpoints	STAGE/squares.tex	/^and  $\\gg$  denote the image of this family on the surface.$/;"	u
 From the preceding paragraph there is a single geodesic namely 
 General geometric structures	TOFU/laz.tex	/^extending the work to cover closed surfaces without boundary~\\cite{mm-sosr-19}.$/;"	u
+Grid	PROG/epidemic_sim.py	/^class Grid():$/;"	c
 Important progress	TOFU/AMS-SMF.tex	/^Algorithms have been an important and consistent feature of all of these mathematical areas from the beginning. This includes both questions about the existence of algorithms and the development of practical algorithms for computing natural invariants. More recently, computer experiments and rigorous computer-assisted proofs have had a significant impact. It is natural to expect experimental and computational methods to play an expanding role in the theory of low dimensional spaces. Additional goals of the session are to present the development of new computational tools and implementations of new algorithms, and to provide opportunities for researchers to become more familiar with existing tools and how they can be applied in research.$/;"	u
 L activit   principale du GdR est la promotion et le financement des conf   rences organis   es par les membres. Le fonctionnement du GdR a   t   fortement perturb   par les circonstances sanitaires exceptionnelles en 2020. Au mois de janvier on avait pr   vu de participer au financement de sept conf   rences mais finalement le bilan est assez maigre  begin  itemize	GDR/rapport_gdr.tex	/^\\begin{document}$/;"	s
 Let $p$ be a prime congruent to 1 or 2 modulo 4.
@@ -314,6 +316,7 @@ __init__	NANTES/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	NN/mk_slides.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	PROG/RR/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	PROG/epidemic_sim.py	/^    def __init__(self, sz = 40):$/;"	m	class:Grid
 __init__	STAGE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	STAGE/mk_slides3.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	TOKYO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
@@ -415,6 +418,7 @@ begin{enumerate}
 begin{lem} label{midpoint}
 by showing that there is a geodesic invariant by 
 chks1	wordle.py	/^chks1 = [i for i,y in enumerate(mm) if y == '_']$/;"	v
+clip	PROG/epidemic_sim.py	/^def clip(x, sz):$/;"	f
 cols	VIRUS/6vsb/pair_parser.py	/^    cols = ['Donor', 'Acceptor', '-log Density', 'Stress']$/;"	v
 convolve2D	PROG/.ipynb_checkpoints/convolve-checkpoint.py	/^def convolve2D(image, $/;"	f
 convolve2D	PROG/convolve.py	/^def convolve2D(image, $/;"	f
@@ -423,6 +427,7 @@ data	VV/svg2path.py	/^    data  = fp.read()$/;"	v
 dd	TEX_DUMP/TER2.tex	/^\\end{enumerate}$/;"	u
 df	VIRUS/6vsb/pair_parser.py	/^    df = merge_tables(pd.read_csv(stresses), $/;"	v
 dimension}label{gdr-cnrs2105-tresses-et-topologie-de-basse-dimension}
+draw_block	PROG/epidemic_sim.py	/^def draw_block(x, y, alive_color):$/;"	f
 draw_block	PROG/my_conway.py	/^def draw_block(x, y, alive_color):$/;"	f
 draw_block	STAGE/my_conway.py	/^def draw_block(x, y, alive_color):$/;"	f
 end{enumerate}
@@ -483,6 +488,8 @@ get_audio	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audi
 get_audio	WARWICK/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	WARWICK/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	ZHU_SLIDES/mk_slides2.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
+get_blank	PROG/epidemic_sim.py	/^    def get_blank(self):$/;"	m	class:Grid
+get_move	PROG/epidemic_sim.py	/^    def get_move(self, pos):$/;"	m	class:Grid
 guess	wordle.py	/^guess = 'slane'$/;"	v
 img_cb	D2/mk_slides2.py	/^    def img_cb(match):$/;"	f
 img_cb	DEM0_gpe_lec/mk_slides2.py	/^    def img_cb(match):$/;"	f
@@ -518,6 +525,7 @@ in the family $ggp$
 item the automorphism induced by $U $ preserves no geodesic in $ ggp$ item the automorphism induced by $V $ preserves at most two geodesics in $ggp$
 layer_cb	D2/svg2html.py	/^    def layer_cb(mm):$/;"	f	function:mk_anim
 layer_cb	METH_NUM/LINE_ANIM/svg2html.py	/^    def layer_cb(mm):$/;"	f	function:mk_anim
+main	PROG/epidemic_sim.py	/^def main():$/;"	f
 main	PROG/my_conway.py	/^def main():$/;"	f
 main	STAGE/my_conway.py	/^def main():$/;"	f
 math_cb	D2/mk_slides2.py	/^    def math_cb(match):$/;"	f
@@ -627,6 +635,7 @@ mk_anim	PROG/svg2html.py	/^def mk_anim(src_fn):$/;"	f
 mk_anim	STAGE/svg2html.py	/^def mk_anim(src_fn):$/;"	f
 mk_anim	ZHU_SLIDES/animate_svg.py	/^def mk_anim(src_fn, $/;"	f
 mk_anim	ZHU_SLIDES/svg2html.py	/^def mk_anim(src_fn):$/;"	f
+mk_moves	PROG/epidemic_sim.py	/^    def mk_moves(self):$/;"	m	class:Grid
 mk_smoothed_table	VIRUS/6vsb/pair_parser.py	/^def mk_smoothed_table(totals):$/;"	f
 mm	VV/svg2path.py	/^mm = pp.search(data)$/;"	v
 names	VIRUS/6vsb/pair_parser.py	/^        names = [ '%s%04d'%x for x in zip(df[res], df[res+'1']) ]$/;"	v
@@ -733,6 +742,7 @@ pull_math	GPE_ENS/wiki_math.py	/^def pull_math(url):$/;"	f
 pull_math	GPE_ENS_2021/wiki_math.py	/^def pull_math(url):$/;"	f
 res2str	VIRUS/6vsb/pair_parser.py	/^def res2str(x):$/;"	f
 result	VIRUS/6vsb/pair_parser.py	/^        result = txt2csv(fn)$/;"	v
+screen	PROG/epidemic_sim.py	/^screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen$/;"	v
 screen	PROG/my_conway.py	/^screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen$/;"	v
 screen	STAGE/my_conway.py	/^screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen$/;"	v
 set_focus	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^    function set_focus() {$/;"	f
@@ -926,6 +936,7 @@ voices	WARWICK/mk_slides2.py	/^    voices = Voices()$/;"	v
 voices	WARWICK/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
 voices	ZHU_SLIDES/mk_slides2.py	/^    voices = Voices()$/;"	v
 voices	ZHU_SLIDES/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+xmax	PROG/epidemic_sim.py	/^xmax = 600 #Width of screen in pixels$/;"	v
 xmax	PROG/my_conway.py	/^xmax = 600 #Width of screen in pixels$/;"	v
 xmax	STAGE/my_conway.py	/^xmax = 600 #Width of screen in pixels$/;"	v
 xx	D2/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
@@ -990,5 +1001,6 @@ xx	WARWICK/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	WARWICK/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
 xx	ZHU_SLIDES/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	ZHU_SLIDES/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+ymax	PROG/epidemic_sim.py	/^ymax = 600 #Height of screen in pixels$/;"	v
 ymax	PROG/my_conway.py	/^ymax = 600 #Height of screen in pixels$/;"	v
 ymax	STAGE/my_conway.py	/^ymax = 600 #Height of screen in pixels$/;"	v
