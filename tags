@@ -418,7 +418,7 @@ begin{enumerate}
 begin{lem} label{midpoint}
 by showing that there is a geodesic invariant by 
 chks1	wordle.py	/^chks1 = [i for i,y in enumerate(mm) if y == '_']$/;"	v
-clip	PROG/epidemic_sim.py	/^def clip(x, sz):$/;"	f
+clip	PROG/epidemic_sim.py	/^    def clip(x):$/;"	f	function:main
 cols	VIRUS/6vsb/pair_parser.py	/^    cols = ['Donor', 'Acceptor', '-log Density', 'Stress']$/;"	v
 convolve2D	PROG/.ipynb_checkpoints/convolve-checkpoint.py	/^def convolve2D(image, $/;"	f
 convolve2D	PROG/convolve.py	/^def convolve2D(image, $/;"	f
@@ -427,7 +427,7 @@ data	VV/svg2path.py	/^    data  = fp.read()$/;"	v
 dd	TEX_DUMP/TER2.tex	/^\\end{enumerate}$/;"	u
 df	VIRUS/6vsb/pair_parser.py	/^    df = merge_tables(pd.read_csv(stresses), $/;"	v
 dimension}label{gdr-cnrs2105-tresses-et-topologie-de-basse-dimension}
-draw_block	PROG/epidemic_sim.py	/^def draw_block(x, y, alive_color):$/;"	f
+draw_block	PROG/epidemic_sim.py	/^def draw_block(x, y, color):$/;"	f
 draw_block	PROG/my_conway.py	/^def draw_block(x, y, alive_color):$/;"	f
 draw_block	STAGE/my_conway.py	/^def draw_block(x, y, alive_color):$/;"	f
 end{enumerate}
@@ -936,7 +936,7 @@ voices	WARWICK/mk_slides2.py	/^    voices = Voices()$/;"	v
 voices	WARWICK/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
 voices	ZHU_SLIDES/mk_slides2.py	/^    voices = Voices()$/;"	v
 voices	ZHU_SLIDES/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
-xmax	PROG/epidemic_sim.py	/^xmax = 600 #Width of screen in pixels$/;"	v
+xmax	PROG/epidemic_sim.py	/^xmax = 900 #Width of screen in pixels$/;"	v
 xmax	PROG/my_conway.py	/^xmax = 600 #Width of screen in pixels$/;"	v
 xmax	STAGE/my_conway.py	/^xmax = 600 #Width of screen in pixels$/;"	v
 xx	D2/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
@@ -1001,6 +1001,6 @@ xx	WARWICK/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	WARWICK/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
 xx	ZHU_SLIDES/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	ZHU_SLIDES/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
-ymax	PROG/epidemic_sim.py	/^ymax = 600 #Height of screen in pixels$/;"	v
+ymax	PROG/epidemic_sim.py	/^ymax = 900 #Height of screen in pixels$/;"	v
 ymax	PROG/my_conway.py	/^ymax = 600 #Height of screen in pixels$/;"	v
 ymax	STAGE/my_conway.py	/^ymax = 600 #Height of screen in pixels$/;"	v

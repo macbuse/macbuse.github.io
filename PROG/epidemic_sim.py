@@ -1,4 +1,5 @@
-# rewrite of https://gist.github.com/bennuttall/6952575
+# MIT licence
+
 
 from time import sleep
 import pygame
@@ -12,9 +13,9 @@ pygame.init()
 xmax = 900 #Width of screen in pixels
 ymax = 900 #Height of screen in pixels
 screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen
+pygame.display.set_caption('Simulation of an epidemic')
 
 BLACK = (0, 0, 0)
-
 
 class Grid():
     
@@ -63,7 +64,6 @@ class Grid():
     def get_move(self, pos):
         return random.choice(self.allowed_moves[self.X[pos]])
         
-    
 
 def draw_block(x, y, color):
     block_size = 9
@@ -72,21 +72,20 @@ def draw_block(x, y, color):
     center_point = ((x + (block_size / 2)), (y + (block_size / 2)))
     pygame.draw.circle(screen, color, center_point, block_size / 2,0)
 
-def clip(x, sz):
-    # don't look outside the box
-    # sz is global
-    if x < 0 : return 0
-    if x > sz :return sz
-    return x
 
 def main():
-    h = 0
-    alive_color = pygame.Color(h,100,100)
+    def clip(x):
+        # don't look outside the box
+        # sz is global
+        if x < 0 : return 0
+        if x > sz :return sz
+        return x
+
+    # initialise
+
+    alive_color = pygame.Color(0,100,100)
     infected_color = pygame.Color(250,10,10)
     wall_color = pygame.Color(250,250,10)
-
-    xlen = xmax // 9
-    ylen = ymax // 9
 
     sz = 100
     world  = Grid(sz=sz)
@@ -97,7 +96,6 @@ def main():
     walls = np.array(np.where(world.W[1:-1,1:-1] == 1)).T 
 
     sz -= 2
-                
     #initial configuration evenly spaced
     pp = []
     for j in range(2, sz,8):
@@ -108,35 +106,42 @@ def main():
     #choose who is infected
     cols = 2*np.ones(len(pp))
     cols[44] = cols[-36] =  cols[-1] = 7
+
+    # do the event loop
           
     stats_now = []
     for k in range(1000):
-        frame = world.get_blank() 
+        grid = world.get_blank() 
+        #update
         for pt,color in zip(pts, cols):
             pos = tuple(pt)
-            frame[pos] = color
+            grid[pos] = color
             pt += world.get_move(pos)
         
-        frame = frame + world.W[1:-1,1:-1]
+        grid += world.W[1:-1,1:-1]
         screen.fill(BLACK)
 
         for x,y in walls:
             draw_block(x, y, wall_color)
-        for x,y in np.array(np.where(frame == 2)).T:
+        for x,y in np.array(np.where(grid == 2)).T:
             draw_block(x, y, alive_color)
-        for x,y in np.array(np.where(frame == 7)).T:
+        for x,y in np.array(np.where(grid == 7)).T:
             draw_block(x, y, infected_color)
+
         pygame.display.flip()
-#count infected
+
+        #count infected, should be dumped to a file at the end
         stats_now.append(len(cols[cols>5]))
         # I have to recalculate this every time  
-        #maybe I should just delete the infected ???
         for _ in np.where(cols == 2)[0]:
             x, y = pts[_]
-            neighbors = frame[clip(x-1,sz):clip(x+2,sz), clip(y-1,sz):clip(y+2,sz) ]
-            if np.max(neighbors) > 5:
+            neighbors = grid[clip(x-1):clip(x+2), clip(y-1):clip(y+2) ]
+            if np.max(neighbors) > 6:
                 cols[_] = 7
         sleep(0.1)
+
+    #dump the data for analysis
+    pass
 
 if __name__ == '__main__':
     main()
