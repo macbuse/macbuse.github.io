@@ -1,4 +1,5 @@
 # rewrite of https://gist.github.com/bennuttall/6952575
+# anything that uses numpy is new
 
 from time import sleep
 import pygame
@@ -23,7 +24,7 @@ def evolve(E):
     return T
 
 def draw_block(x, y, alive_color):
-    block_size = 9
+    # block_size is global
     x *= block_size
     y *= block_size
     center_point = ((x + (block_size / 2)), (y + (block_size / 2)))
@@ -32,8 +33,11 @@ def draw_block(x, y, alive_color):
 def main():
     h = 0
     alive_color = pygame.Color(h,100,100)
-    xlen = xmax // 9
-    ylen = ymax // 9
+
+    global block_size 
+    block_size = 9
+    xlen = xmax // block_size
+    ylen = ymax // block_size
     while True:
         world = np.random.randint(0, high=2, size=(xlen, ylen))
         for _ in range(200):
