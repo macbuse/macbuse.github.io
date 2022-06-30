@@ -1,6 +1,5 @@
 # MIT licence
 
-
 from time import sleep
 import pygame
 import numpy as np
@@ -15,7 +14,6 @@ ymax = 900 #Height of screen in pixels
 screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen
 pygame.display.set_caption('Simulation of an epidemic')
 
-BLACK = (0, 0, 0)
 
 class Grid():
     
@@ -32,7 +30,6 @@ class Grid():
         
     def get_blank(self):
         return np.zeros_like(self.X)
-        
         
     def mk_moves(self):
         # you can rewrite this without using the convolution
@@ -119,7 +116,7 @@ def main():
             pt += world.get_move(pos)
         
         grid += world.W[1:-1,1:-1]
-        screen.fill(BLACK)
+        screen.fill((0,0,0))
 
         for x,y in walls:
             draw_block(x, y, wall_color)

@@ -36,7 +36,6 @@ Automorphism groups	GRENOBLE/squares.tex	/^\\end{figure}$/;"	u
 Automorphism groups	STAGE/squares.tex	/^\\end{figure}$/;"	u
 Automorphisms of the three punctured sphere	GRENOBLE/squares.tex	/^$x \\mapsto -x$ and $x \\mapsto 1\/x$.$/;"	s
 Automorphisms of the three punctured sphere	STAGE/squares.tex	/^$x \\mapsto -x$ and $x \\mapsto 1\/x$.$/;"	s
-BLACK	PROG/epidemic_sim.py	/^BLACK = (0, 0, 0)$/;"	v
 BLACK	PROG/my_conway.py	/^BLACK = (0, 0, 0)$/;"	v
 BLACK	STAGE/my_conway.py	/^BLACK = (0, 0, 0)$/;"	v
 Bezouts Theorem	GRENOBLE/squares.tex	/^ and we give a short exposition of it  in the appendix.$/;"	b

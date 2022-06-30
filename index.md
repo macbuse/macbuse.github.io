@@ -10,7 +10,7 @@
 	- [special session schedule](./26-Combinatorial_and_Computational_Aspects_in_Topology-Schedule.xlsx)
 
 <!-- - I am currently in confinement with COVID -->
-- I'm did a [high school stage this week](./STAGE/web.html)
+- I did a [stage this week](./STAGE/web.html) high school students.
 - This week I'm sad :) because Copilot is out of beta preview.
 <!-- - I am very busy with refereeing -->
 - this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded.
