@@ -487,7 +487,6 @@ get_audio	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audi
 get_audio	WARWICK/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	WARWICK/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	ZHU_SLIDES/mk_slides2.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
-get_blank	PROG/epidemic_sim.py	/^    def get_blank(self):$/;"	m	class:Grid
 get_move	PROG/epidemic_sim.py	/^    def get_move(self, pos):$/;"	m	class:Grid
 guess	wordle.py	/^guess = 'slane'$/;"	v
 img_cb	D2/mk_slides2.py	/^    def img_cb(match):$/;"	f
@@ -744,6 +743,7 @@ result	VIRUS/6vsb/pair_parser.py	/^        result = txt2csv(fn)$/;"	v
 screen	PROG/epidemic_sim.py	/^screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen$/;"	v
 screen	PROG/my_conway.py	/^screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen$/;"	v
 screen	STAGE/my_conway.py	/^screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen$/;"	v
+set_blank	PROG/epidemic_sim.py	/^    def set_blank(self):$/;"	m	class:Grid
 set_focus	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^    function set_focus() {$/;"	f
 simpleKeys	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^function simpleKeys(original) {$/;"	f
 so this point is in the $sl2$ orbit of $i$>
@@ -867,6 +867,7 @@ units_cb	PROG/RR/svg2html.py	/^def units_cb(mm):$/;"	f
 units_cb	PROG/svg2html.py	/^def units_cb(mm):$/;"	f
 units_cb	STAGE/svg2html.py	/^def units_cb(mm):$/;"	f
 units_cb	ZHU_SLIDES/svg2html.py	/^def units_cb(mm):$/;"	f
+update_screen	PROG/epidemic_sim.py	/^def update_screen(world):$/;"	f
 url	GPE_ENS/wiki_math.py	/^        url = 'https:\/\/en.wikipedia.org\/wiki\/Markov_number'$/;"	v
 url	GPE_ENS/wiki_math.py	/^        url = sys.argv[1]$/;"	v
 url	GPE_ENS_2021/wiki_math.py	/^        url = 'https:\/\/en.wikipedia.org\/wiki\/Markov_number'$/;"	v

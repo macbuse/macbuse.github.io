@@ -109,23 +109,23 @@ def main():
 
     sz -= 2
     #initial configuration evenly spaced
-    pp = []
+    start_pos = []
     for j in range(2, sz, 8):
         for k in range(2, sz, 8):
-            pp.append( np.array([j,k],dtype=int) )
+            start_pos.append( np.array([j,k],dtype=int) )
             
-    pts = np.array(pp)
+    pts = np.array(start_pos)
     #choose who is infected
     global INFECTED, UNINFECTED
     UNINFECTED = 2
     INFECTED = 7
-    agent_state = UNINFECTED*np.ones(len(pp))
+    agent_state = UNINFECTED*np.ones(len(start_pos))
     agent_state[44] = agent_state[-36] =  agent_state[-1] = INFECTED
 
     # do the event loop
     stats_now = []
     for k in range(1000):
-        #update world state
+
         world.set_blank() 
         for pt, state in zip(pts, agent_state):
             pos = tuple(pt)

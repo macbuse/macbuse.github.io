@@ -7,11 +7,11 @@
 
 - I am organising a [special session]() at **AMS-SMF-EMS** Joint International Meeting in July [website](https://ams-ems-smf2022.inviteo.fr/).
 	- [programme](https://ams-ems-smf2022.inviteo.fr/en/program/9)
-	- [special session schedule](./26-Combinatorial_and_Computational_Aspects_in_Topology-Schedule.xlsx)
+	- [special session schedule](./xxx.md)
 
 <!-- - I am currently in confinement with COVID -->
 - I did a [stage this week](./STAGE/web.html) high school students.
-- This week I'm sad :) because Copilot is out of beta preview.
+- This week I'm sad :( because Copilot is out of beta preview.
 <!-- - I am very busy with refereeing -->
 - this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded.
 - Why is this page on GitHub? [Read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/)
