@@ -7,7 +7,7 @@
 
 - I am organising a [special session]() at **AMS-SMF-EMS** Joint International Meeting in July [website](https://ams-ems-smf2022.inviteo.fr/).
 	- [programme](https://ams-ems-smf2022.inviteo.fr/en/program/9)
-	- [special session schedule](./xxx.md)
+	- [special session schedule](./schedule_amssmf.md)
 
 <!-- - I am currently in confinement with COVID -->
 - I did a [stage this week](./STAGE/web.html) high school students.
