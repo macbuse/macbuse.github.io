@@ -11,7 +11,7 @@ This is the schedule as of 7/7/22
 |The Teichmüller polynomial via Fox calculus|PARLAK Anna|#Group 1|Monday|16:00|16:30|
 |Localized geometric moves to compute hyperbolic structures on triangulated 3-manifolds|ROUILLÉ Owen|#Group 1|Monday|16:30|17:00|
 |T.B.A.|MÁLAGA Alba|#Group 1|Monday|17:00|17:30|
-|RANDOM MULTICURVES ON LARGE GENUS SURFACES|DELECROIX Vincent|#Group 1|Tuesday|13:30|14:30|
+|Random multicurves on large genus surfaces|DELECROIX Vincent|#Group 1|Tuesday|13:30|14:30|
 |Constructing hyperelliptic pillowcase covers from meanders|JEFFREYS Luke|#Group 1|Tuesday|14:30|15:00|
 |The conjugacy problem in mapping class groups|WEBB Richard|#Group 1|Tuesday|15:00|15:30|
 |"Counting dihedral subgroups of lattices in PSL(2,R)"|ERLANDSSON Viveka|#Group 1|Tuesday|16:00|17:00|
