@@ -3,7 +3,7 @@
 This is the schedule as of 7/7/22
 
 
-| Title | Main author |  Group | Day | Start time | End time | 
+| Title | Speaker |  Group | Day | Start time | End time | 
 | --- | ---  | --- | --- | --- | ---  | ---  | 
 |Ordering curves on hyperbolic surfaces|PARLIER Hugo|#Group 1|Monday|13:30|14:30|
 |Upper bound for distance in the pants graph|YAZDI Mohammadmahdi|#Group 1|Monday|14:30|15:00|
