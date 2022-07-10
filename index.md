@@ -10,9 +10,9 @@
 	- [special session schedule](./schedule_amssmf.md)
 
 <!-- - I am currently in confinement with COVID -->
-- I did a [stage this week](./STAGE/web.html) high school students.
 - This week I'm sad :( because Copilot is out of beta preview.
 <!-- - I am very busy with refereeing -->
+- I did a [stage ](./STAGE/web.html) high school students.
 - this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded.
 - Why is this page on GitHub? [Read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/)
 
