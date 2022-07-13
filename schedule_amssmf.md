@@ -1,4 +1,5 @@
 # Special session 26
+## Combinatorial and Computational Aspects of Topology
 
 This is the schedule as of 7/7/22
 
@@ -7,6 +8,8 @@ This is the schedule as of 7/7/22
 - welcome party Monday evening
 - reception Tuesday evening
 - banquet Thursday evening
+
+---
 
 
 | Title | Speaker |  Day | Start time | End time | 
