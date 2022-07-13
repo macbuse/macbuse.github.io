@@ -3,9 +3,10 @@
 This is the schedule as of 7/7/22
 
 - plenary talks are in the [Amphi Weil](https://goo.gl/maps/bfMkuKjfKBCJbRsX9)
-- special session talks are in [Batiment F](https://goo.gl/maps/VXct7MyxM1YVMciz8) about 5 minutes walk away
+- special session talks are in [Batiment F / UFR IM2AG / Salle 319](https://goo.gl/maps/VXct7MyxM1YVMciz8) about 5 minutes walk away
+- welcome party Monday evening
 - reception Tuesday evening
-- banquet Thursday
+- banquet Thursday evening
 
 
 | Title | Speaker |  Day | Start time | End time | 
