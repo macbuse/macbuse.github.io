@@ -1,6 +1,16 @@
 # Special session 26
 ## Combinatorial and Computational Aspects of Topology
 
+**IMPORTANT** the public transport network in Grenoble (TAG)
+is usually very good however there is a lot of maintenance taking place 
+and so you should check [on this page](https://www.tag.fr/1-accueil.htm?infoTrafic=1)
+before travelling.
+
+- the tram B and C come to campus
+- you may have to change from the tram C to the tram B because of maintenance.
+
+## Schedule
+
 This is the schedule as of 7/7/22
 
 - plenary talks are in the [Amphi Weil](https://goo.gl/maps/bfMkuKjfKBCJbRsX9)
