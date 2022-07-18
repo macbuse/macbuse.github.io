@@ -27,7 +27,7 @@ This is the schedule as of 7/7/22
 |Ordering curves on hyperbolic surfaces|PARLIER Hugo|Monday|13:30|14:30|
 |Upper bound for distance in the pants graph|YAZDI Mohammadmahdi|Monday|14:30|15:00|
 |Embedding Graphs into Two-Dimensional Simplicial Complexes|COLIN DE VERDIÈRE Éric|Monday|15:00|15:30|
-|The Teichmüller polynomial via Fox calculus|PARLAK Anna|Monday|16:00|16:30|
+|The Teichmüller polynomial via Fox calculus[slides](./AMS_PDF/Teich_via_Fox.pdf)|PARLAK Anna|Monday|16:00|16:30|
 |Localized geometric moves to compute hyperbolic structures on triangulated 3-manifolds|ROUILLÉ Owen|Monday|16:30|17:00|
 |T.B.A.|MÁLAGA Alba|Monday|17:00|17:30|
 |Random multicurves on large genus surfaces|DELECROIX Vincent|Tuesday|13:30|14:30|
