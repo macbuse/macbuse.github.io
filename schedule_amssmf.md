@@ -30,7 +30,7 @@ This is the schedule as of 7/7/22
 |Localized geometric moves to compute hyperbolic structures on triangulated 3-manifolds [slides](./AMS_PDF/rouille.pdf)|ROUILLÉ Owen|Monday|16:30|17:00|
 |Isometric PL Embeddings of Flat Tori [slides](./AMS_PDF/talk1-4.pdf) [slides](./AMS_PDF/talk2-1.pdf) |MÁLAGA Alba|Monday|17:00|17:30|
 |Random multicurves on large genus surfaces|DELECROIX Vincent|Tuesday|13:30|14:30|
-|Constructing hyperelliptic pillowcase covers from meanders [slides](./AMS_PDF/Luke Jeffreys - AMS-EMS-SMF 2022 SS 26.pdf)|JEFFREYS Luke|Tuesday|14:30|15:00|
+|Constructing hyperelliptic pillowcase covers from meanders [slides](./AMS_PDF/Jeffreys.pdf)|JEFFREYS_Luke|Tuesday|14:30|15:00|
 |The conjugacy problem in mapping class groups|WEBB Richard|Tuesday|15:00|15:30|
 |Counting dihedral subgroups of lattices in PSL(2,R)|ERLANDSSON Viveka|Tuesday|16:00|17:00|
 |Parameterized complexity in low dimensional topology|MARIA Clément|Tuesday|17:00|17:30|
