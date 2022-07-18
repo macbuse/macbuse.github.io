@@ -26,7 +26,6 @@ This is the schedule as of 7/7/22
 | --- | ---  | --- | --- | --- | ---  | ---  | 
 |Ordering curves on hyperbolic surfaces|PARLIER Hugo|Monday|13:30|14:30|
 |Embedding Graphs into Two-Dimensional Simplicial Complexes [slides](./AMS_PDF/colindeverdiere.pdf)|COLIN DE VERDIÈRE Éric|Monday|14:30|15:30|
-<!-- |Upper bound for distance in the pants graph|YAZDI Mohammadmahdi|Monday|14:30|15:00| -->
 |The Teichmüller polynomial via Fox calculus [slides](./AMS_PDF/Teich_via_Fox.pdf)|PARLAK Anna|Monday|16:00|16:30|
 |Localized geometric moves to compute hyperbolic structures on triangulated 3-manifolds [slides](./AMS_PDF/rouille.pdf)|ROUILLÉ Owen|Monday|16:30|17:00|
 |Isometric PL Embeddings of Flat Tori|MÁLAGA Alba|Monday|17:00|17:30|
@@ -38,3 +37,6 @@ This is the schedule as of 7/7/22
 |Short canonical decomposition for non-orientable surfaces|FULADI Niloufar|Wednesday|9:00|9:30|
 |Tree-like width of knots and obstructions.|Lunel Corentin|Wednesday|9:30|10:00|
 |Computational Complexity and Knot Theory|DE MESMAY Arnaud|Wednesday|10:30|11:30|
+
+
+<!-- |Upper bound for distance in the pants graph|YAZDI Mohammadmahdi|Monday|14:30|15:00| -->
