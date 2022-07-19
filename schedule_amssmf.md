@@ -1,6 +1,15 @@
 # Special session 26
 ## Combinatorial and Computational Aspects of Topology
 
+## zoom
+
+https://univ-grenoble-alpes-fr.zoom.us/j/93600841263?pwd=MS9GVkxrVEQzTXZCRkRMZ2s0blFyUT09
+
+Meeting ID: 936 0084 1263
+Passcode: 746490
+
+---
+
 **IMPORTANT** the public transport network in Grenoble (TAG)
 is usually very good however there is a lot of maintenance taking place 
 and so you should check [on this page](https://www.tag.fr/1-accueil.htm?infoTrafic=1)
@@ -18,6 +27,8 @@ This is the schedule as of 7/7/22
 - welcome party Monday evening
 - reception Tuesday evening
 - banquet Thursday evening
+
+
 
 ---
 
