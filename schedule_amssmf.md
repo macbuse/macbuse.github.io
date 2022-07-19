@@ -24,8 +24,8 @@ This is the schedule as of 7/7/22
 
 - plenary talks are in the [Amphi Weil](https://goo.gl/maps/bfMkuKjfKBCJbRsX9)
 - special session talks are in [Batiment F / UFR IM2AG / Salle 319](https://goo.gl/maps/VXct7MyxM1YVMciz8) about 5 minutes walk away
-- welcome party Monday evening
-- reception Tuesday evening
+<!-- - welcome party Monday evening -->
+<!-- - reception Tuesday evening -->
 - banquet Thursday evening
 
 
@@ -47,7 +47,7 @@ This is the schedule as of 7/7/22
 |Parameterized complexity in low dimensional topology [slides](./AMS_PDF/ClementMaria_AMS_EMS_SMF_2022.pdf)|MARIA Clément|Tuesday|17:00|17:30|
 |Short canonical decomposition for non-orientable surfaces|FULADI Niloufar|Wednesday|9:00|9:30|
 |Tree-like width of knots and obstructions.|Lunel Corentin|Wednesday|9:30|10:00|
-|Computational Complexity and Knot Theory|DE MESMAY Arnaud|Wednesday|10:30|11:30|
+|Computational Complexity and Knot Theory [slides](./AMS_PDF/Presentation.pdf) |DE MESMAY Arnaud|Wednesday|10:30|11:30|
 
 
 <!-- |Upper bound for distance in the pants graph|YAZDI Mohammadmahdi|Monday|14:30|15:00| -->
