@@ -31,7 +31,7 @@ This is the schedule as of 7/7/22
 |Isometric PL Embeddings of Flat Tori [slides 1](./AMS_PDF/talk1-4.pdf) [slides 2](./AMS_PDF/talk2-1.pdf) |MÁLAGA Alba|Monday|17:00|17:30|
 |Random multicurves on large genus surfaces|DELECROIX Vincent|Tuesday|13:30|14:30|
 |Constructing hyperelliptic pillowcase covers from meanders [slides](./AMS_PDF/Jeffreys.pdf)|JEFFREYS_Luke|Tuesday|14:30|15:00|
-|The conjugacy problem in mapping class groups|WEBB Richard|Tuesday|15:00|15:30|
+|The conjugacy problem in mapping class groups [slides](./AMS_PDF/Webb_presentation3.pdf) |WEBB Richard|Tuesday|15:00|15:30|
 |Counting dihedral subgroups of lattices in PSL(2,R) [slides](./AMS_PDF/viv grenoble slides.pdf) |ERLANDSSON Viveka|Tuesday|16:00|17:00|
 |Parameterized complexity in low dimensional topology [slides](./AMS_PDF/ClementMaria_AMS_EMS_SMF_2022.pdf)|MARIA Clément|Tuesday|17:00|17:30|
 |Short canonical decomposition for non-orientable surfaces|FULADI Niloufar|Wednesday|9:00|9:30|
