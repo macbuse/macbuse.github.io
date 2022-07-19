@@ -1,7 +1,7 @@
 # Special session 26
 ## Combinatorial and Computational Aspects of Topology
 
-## zoom
+<!-- ## zoom -->
 
 <!-- https://univ-grenoble-alpes-fr.zoom.us/j/93600841263?pwd=MS9GVkxrVEQzTXZCRkRMZ2s0blFyUT09 -->
 
@@ -20,7 +20,10 @@ before travelling.
 
 ## Schedule
 
-This is the schedule as of 7/7/22
+
+Eric is chairman 20/7 as I have a hospital appointment at 11:00.
+There are talks in Groupe 2 special sessions in the afternoon
+and I will come for tea at 15:30.
 
 - plenary talks are in the [Amphi Weil](https://goo.gl/maps/bfMkuKjfKBCJbRsX9)
 - special session talks are in [Batiment F / UFR IM2AG / Salle 319](https://goo.gl/maps/VXct7MyxM1YVMciz8) about 5 minutes walk away
