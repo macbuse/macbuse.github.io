@@ -33,7 +33,7 @@ This is the schedule as of 7/7/22
 |Constructing hyperelliptic pillowcase covers from meanders [slides](./AMS_PDF/Jeffreys.pdf)|JEFFREYS_Luke|Tuesday|14:30|15:00|
 |The conjugacy problem in mapping class groups|WEBB Richard|Tuesday|15:00|15:30|
 |Counting dihedral subgroups of lattices in PSL(2,R) [slides](./AMS_PDF/viv grenoble slides.pdf) |ERLANDSSON Viveka|Tuesday|16:00|17:00|
-|Parameterized complexity in low dimensional topology|MARIA Clément|Tuesday|17:00|17:30|
+|Parameterized complexity in low dimensional topology [slides](./AMS_PDF/ClementMaria_AMS_EMS_SMF_2022.pdf)|MARIA Clément|Tuesday|17:00|17:30|
 |Short canonical decomposition for non-orientable surfaces|FULADI Niloufar|Wednesday|9:00|9:30|
 |Tree-like width of knots and obstructions.|Lunel Corentin|Wednesday|9:30|10:00|
 |Computational Complexity and Knot Theory|DE MESMAY Arnaud|Wednesday|10:30|11:30|
