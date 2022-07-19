@@ -3,10 +3,10 @@
 
 ## zoom
 
-https://univ-grenoble-alpes-fr.zoom.us/j/93600841263?pwd=MS9GVkxrVEQzTXZCRkRMZ2s0blFyUT09
+<!-- https://univ-grenoble-alpes-fr.zoom.us/j/93600841263?pwd=MS9GVkxrVEQzTXZCRkRMZ2s0blFyUT09 -->
 
-Meeting ID: 936 0084 1263
-Passcode: 746490
+<!-- Meeting ID: 936 0084 1263 -->
+<!-- Passcode: 746490 -->
 
 ---
 
