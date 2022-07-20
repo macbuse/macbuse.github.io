@@ -5,8 +5,8 @@
 ### mcshane@univ-grenoble-alpes.fr
 
 
-- I am organising a special session at **AMS-SMF-EMS** Joint International Meeting in July [website](https://ams-ems-smf2022.inviteo.fr/).
-	- [programme](https://ams-ems-smf2022.inviteo.fr/index.php?langue=en&onglet=11&acces=&idUser=&emailUser=&messageConfirmation=)
+- I organised a special session at **AMS-SMF-EMS** Joint International Meeting in July. 
+	- [event programme](https://ams-ems-smf2022.inviteo.fr/index.php?langue=en&onglet=11&acces=&idUser=&emailUser=&messageConfirmation=)
 	- [special session schedule](./schedule_amssmf.md)
 
 <!-- - I am currently in confinement with COVID -->
