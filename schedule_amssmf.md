@@ -47,7 +47,7 @@ and I will come for tea at 15:30.
 |The conjugacy problem in mapping class groups [slides](./AMS_PDF/Webb_presentation3.pdf) |WEBB Richard|Tuesday|15:00|15:30|
 |Counting dihedral subgroups of lattices in PSL(2,R) [slides](./AMS_PDF/viv grenoble slides.pdf) |ERLANDSSON Viveka|Tuesday|16:00|17:00|
 |Parameterized complexity in low dimensional topology [slides](./AMS_PDF/ClementMaria_AMS_EMS_SMF_2022.pdf)|MARIA Clément|Tuesday|17:00|17:30|
-|Short canonical decomposition for non-orientable surfaces|FULADI Niloufar|Wednesday|9:00|9:30|
+|Short canonical decomposition for non-orientable surfaces [slides](./AMS_PDF/Grenoble_presentation.pdf) |FULADI Niloufar|Wednesday|9:00|9:30|
 |Tree-like width of knots and obstructions. [slides](./AMS_PDF/AMS_EMS_SMF_Slides_Lunel.pdf) |Lunel Corentin|Wednesday|9:30|10:00|
 |Computational Complexity and Knot Theory [slides](./AMS_PDF/Presentation.pdf) |DE MESMAY Arnaud|Wednesday|10:30|11:30|
 
