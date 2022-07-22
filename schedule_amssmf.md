@@ -1,22 +1,21 @@
 # Special session 26
 ## Combinatorial and Computational Aspects of Topology
 
-<!-- ## zoom -->
 
 <!-- https://univ-grenoble-alpes-fr.zoom.us/j/93600841263?pwd=MS9GVkxrVEQzTXZCRkRMZ2s0blFyUT09 -->
 
 <!-- Meeting ID: 936 0084 1263 -->
 <!-- Passcode: 746490 -->
 
----
+<!-- --- -->
 
-**IMPORTANT** the public transport network in Grenoble (TAG)
-is usually very good however there is a lot of maintenance taking place 
-and so you should check [on this page](https://www.tag.fr/1-accueil.htm?infoTrafic=1)
-before travelling.
+<!-- **IMPORTANT** the public transport network in Grenoble (TAG) -->
+<!-- is usually very good however there is a lot of maintenance taking place --> 
+<!-- and so you should check [on this page](https://www.tag.fr/1-accueil.htm?infoTrafic=1) -->
+<!-- before travelling. -->
 
-- the tram B and C come to campus
-- you may have to change from the tram C to the tram B because of maintenance.
+<!-- - the tram B and C come to campus -->
+<!-- - you may have to change from the tram C to the tram B because of maintenance. -->
 
 ## Schedule
 
@@ -24,11 +23,11 @@ before travelling.
 <!-- There are talks in Group 2 special sessions in the afternoon -->
 <!-- and I will come for tea at 15:30. -->
 
-- plenary talks are in the [Amphi Weil](https://goo.gl/maps/bfMkuKjfKBCJbRsX9)
-- special session talks are in [Batiment F / UFR IM2AG / Salle 319](https://goo.gl/maps/VXct7MyxM1YVMciz8) about 5 minutes walk away
+<!-- - plenary talks are in the [Amphi Weil](https://goo.gl/maps/bfMkuKjfKBCJbRsX9) -->
+<!-- - special session talks are in [Batiment F / UFR IM2AG / Salle 319](https://goo.gl/maps/VXct7MyxM1YVMciz8) about 5 minutes walk away -->
 <!-- - welcome party Monday evening -->
 <!-- - reception Tuesday evening -->
-- banquet Thursday evening
+<!-- - banquet Thursday evening -->
 
 
 
