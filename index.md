@@ -5,7 +5,7 @@
 ### mcshane@univ-grenoble-alpes.fr
 
 
-- I organised a special session at **AMS-SMF-EMS** Joint International Meeting in July. 
+- I organised a special session at **AMS-EMS-SMF** Joint International Meeting in July. 
 	- [event programme](https://ams-ems-smf2022.inviteo.fr/index.php?langue=en&onglet=11&acces=&idUser=&emailUser=&messageConfirmation=)
 	- [special session schedule](./schedule_amssmf.md)
 
