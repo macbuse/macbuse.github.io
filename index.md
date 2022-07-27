@@ -15,6 +15,7 @@
 - I did a [stage ](./STAGE/web.html) high school students.
 - this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded.
 - Why is this page on GitHub? [Read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/)
+- [frieze patterns](./frieze.pdf)
 
 ---
 
