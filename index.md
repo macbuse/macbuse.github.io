@@ -27,17 +27,19 @@
 
 ### MAT 103
 
-
+- First class:
 
 ### MAT305
 
+- First class:
 - Tuesdays 8:00
 - Wednesdays 9:45
 
-[annales](./MAT305_index.md)
+[2021 archived page](./MAT305_index.md)
 
 ### Introduction à la programmation 
 
+- First class:
 - Fridays 13:45
 - If you are coming to this class then please install [Anaconda](https://www.anaconda.com/products/distribution).
 
@@ -57,7 +59,8 @@ The evaluation is by project. Here are some of the finished projects from 2020 a
 [Correction examen 19/5]( ./METH_NUM/cf_2022.pdf)
 
 
-Fridays 13h45 salle CARISM RdC.
+- First class:
+<!-- - Fridays 13h45 salle CARISM RdC. -->
 
 <!-- **Derniere seance mercredi 4/5 Salle SAFE** -->
 
