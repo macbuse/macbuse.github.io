@@ -10,7 +10,7 @@ title: Home
 
 
 - I organised a special session at **AMS-EMS-SMF** Joint International Meeting in July. 
-	- [event programme](https://ams-ems-smf2022.inviteo.fr/index.php?langue=en&onglet=11&acces=&idUser=&emailUser=&messageConfirmation=)
+	<!-- - [event programme](https://ams-ems-smf2022.inviteo.fr/index.php?langue=en&onglet=11&acces=&idUser=&emailUser=&messageConfirmation=) -->
 	- [special session schedule](./schedule_amssmf.md)
 
 <!-- - I am currently in confinement with COVID -->
@@ -45,7 +45,7 @@ title: Home
 
 ### Introduction à la programmation 
 
-- First class:
+- First class: 16/09
 - Fridays 13:45
 - If you are coming to this class then please install [Anaconda](https://www.anaconda.com/products/distribution).
 
