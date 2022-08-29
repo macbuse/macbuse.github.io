@@ -19,20 +19,24 @@
 
 ---
 
-# Teaching 2021-22
+# Teaching 2022-23
+
+## First semester
 
 <!-- [More details](teaching.md) -->
 
-## Math MAT305
+### Math MAT305
 
 - Tuesdays 8:00
 - Wednesdays 9:45
 
-## programmation
+### programmation
 
 - Fridays 13:45
 
-[annales](./MAT305_index.md)`
+[annales](./MAT305_index.md)
+
+
 
 ## Second semester
 
