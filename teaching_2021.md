@@ -1,4 +1,12 @@
-First semester
+
+---
+layout: default
+title: archived
+---
+
+# Teaching 2021-22
+
+## First semester
 
 ### introduction à la programmation 
 
