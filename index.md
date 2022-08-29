@@ -10,10 +10,10 @@
 	- [special session schedule](./schedule_amssmf.md)
 
 <!-- - I am currently in confinement with COVID -->
-- This week I'm sad :( because Copilot is out of beta preview.
+<!-- - This week I'm sad :( because Copilot is out of beta preview. -->
 <!-- - I am very busy with refereeing -->
-- I did a [stage ](./STAGE/web.html) high school students.
-- this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded.
+<!-- - I did a [stage ](./STAGE/web.html) high school students. -->
+<!-- - this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded. -->
 - Why is this page on GitHub? [Read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/)
 - [frieze patterns](./frieze.pdf)
 
@@ -25,17 +25,29 @@
 
 <!-- [More details](teaching.md) -->
 
-### Math MAT305
+### MAT 103
+
+
+
+### MAT305
 
 - Tuesdays 8:00
 - Wednesdays 9:45
 
-### programmation
-
-- Fridays 13:45
-
 [annales](./MAT305_index.md)
 
+### Introduction à la programmation 
+
+- Fridays 13:45
+- If you are coming to this class then please install [Anaconda](https://www.anaconda.com/products/distribution).
+
+
+The evaluation is by project. Here are some of the finished projects from 2020 and 2021:
+
+- [sudoko with digit recognition](./STAGE/Sudoku_-_Sarah_Depernet.html)
+- [labrinths on surfaces](./STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html)
+- [labrinths classic](./STAGE/HARENG_L3A1.html)
+- [Mastermind d'apres Knuth](./STAGE/Mastermind_projet_Touron_Camille_L3A-checkpoint.html)
 
 
 ## Second semester
@@ -47,12 +59,12 @@
 
 Fridays 13h45 salle CARISM RdC.
 
-**Derniere seance mercredi 4/5 Salle SAFE**
+<!-- **Derniere seance mercredi 4/5 Salle SAFE** -->
 
 <!-- 1. there will be a break at 15h30 for 15 minutes to ventilate the room. -->
 <!-- 1. you may have to install **numpy** in Pycharm ```pip install numpy``` -->
 
-[page for the class](./mnum_index.md)
+<!-- [page for the class](./mnum_index.md) -->
 
 ---
 
