@@ -23,6 +23,16 @@
 
 <!-- [More details](teaching.md) -->
 
+## Math MAT305
+
+- Tuesdays 8:00
+- Wednesdays 9:45
+
+## programmation
+
+- Fridays 13:45
+
+[annales](./MAT305_index.md)`
 
 ## Second semester
 
