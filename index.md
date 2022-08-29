@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home
+---
 
 # Greg McShane
 
@@ -20,6 +24,8 @@
 ---
 
 # Teaching 2022-23
+
+[Last year's teaching](./teaching_2021.md)
 
 ## First semester
 
@@ -51,41 +57,6 @@ The evaluation is by project. Here are some of the finished projects from 2020 a
 - [labrinths classic](./STAGE/HARENG_L3A1.html)
 - [Mastermind d'apres Knuth](./STAGE/Mastermind_projet_Touron_Camille_L3A-checkpoint.html)
 
-
-## Second semester
-
-### MNUM 
-
-[Correction examen 19/5]( ./METH_NUM/cf_2022.pdf)
-
-
-- First class:
-<!-- - Fridays 13h45 salle CARISM RdC. -->
-
-<!-- **Derniere seance mercredi 4/5 Salle SAFE** -->
-
-<!-- 1. there will be a break at 15h30 for 15 minutes to ventilate the room. -->
-<!-- 1. you may have to install **numpy** in Pycharm ```pip install numpy``` -->
-
-<!-- [page for the class](./mnum_index.md) -->
-
----
-
-## First semester
-
-### introduction à la programmation 
-
-This course has finished we did some interesting things.
-
-Here are some of the finished projects:
-
-- [sudoko with digit recognition](./STAGE/Sudoku_-_Sarah_Depernet.html)
-- [labrinths on surfaces](./STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html)
-- [labrinths classic](./STAGE/HARENG_L3A1.html)
-- [Mastermind d'apres Knuth](./STAGE/Mastermind_projet_Touron_Camille_L3A-checkpoint.html)
-
-<!-- #### Mastermind -->
-
 #### Conway's life on a torus
 
 This is an amusing demonstration of how using a convolution to do something is
@@ -107,13 +78,26 @@ Simulation of an epidemic the particles follow a random walk....
 I embedded this in a [script with pygame too](./PROG/epidemic_sim.py)
 - more complicated about 150 LOC.
 
+
+## Second semester
+
+### MNUM 
+
+[Correction examen 19/5]( ./METH_NUM/cf_2022.pdf)
+
+
+- First class:
+<!-- - Fridays 13h45 salle CARISM RdC. -->
+
+<!-- **Derniere seance mercredi 4/5 Salle SAFE** -->
+
+<!-- 1. there will be a break at 15h30 for 15 minutes to ventilate the room. -->
+<!-- 1. you may have to install **numpy** in Pycharm ```pip install numpy``` -->
+
+<!-- [page for the class](./mnum_index.md) -->
+
 ---
 
-### MAT305 
-
-Math for second year chemists [archived](./MAT305_index.md)
-
----
 
 <!-- ## Stages/TER -->
 
