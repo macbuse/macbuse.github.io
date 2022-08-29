@@ -48,14 +48,16 @@ title: Home
 - First class: 16/09
 - Fridays 13:45
 - If you are coming to this class then please install [Anaconda](https://www.anaconda.com/products/distribution).
+- The evaluation is by project. 
 
-
-The evaluation is by project. Here are some of the finished projects from 2020 and 2021:
+Here are some of the finished projects from 2020 and 2021:
 
 - [sudoko with digit recognition](./STAGE/Sudoku_-_Sarah_Depernet.html)
 - [labrinths on surfaces](./STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html)
 - [labrinths classic](./STAGE/HARENG_L3A1.html)
 - [Mastermind d'apres Knuth](./STAGE/Mastermind_projet_Touron_Camille_L3A-checkpoint.html)
+
+And here are some of the things I learned to do by talking to the students (and going on forums).
 
 #### Conway's life on a torus
 
