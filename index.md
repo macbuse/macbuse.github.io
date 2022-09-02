@@ -71,7 +71,11 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 I embedded this in a [script with pygame](./PROG/my_conway.py)
 it's like 50 LOC.
 
-Simulation of an epidemic the particles follow a random walk....
+### Simulation of an epidemic 
+
+- the particles follow a random walk.
+- the yellow particles are infected
+- contact between yellow and blue results in transmission
 
 <center>
 <img src="./PROG/random_epix.gif" width="600">
