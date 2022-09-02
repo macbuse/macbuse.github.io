@@ -35,6 +35,9 @@ title: Home
 ### MAT 102
 
 - First class:
+- [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
+- [poly](./polyMAT102-main.pdf) 
+
 
 ### MAT305
 
