@@ -121,18 +121,18 @@ I embedded this in a [script with pygame too](./PROG/epidemic_sim.py)
 
 # What (else) do I do?
 
-- Ex directeur de [GDR TRESSES](http://tresses.math.cnrs.fr)
 - Editor [Annales de l'Institut Fourier](http://aif.cedram.org/?lang=fr)
 - Principal investigator l'equipe action ```ToFu``` [persyval-lab](https://persyval-lab.org/)
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
 - Member of the Conseil de l'UFR IMAG2
+- Ex directeur de [GDR TRESSES](http://tresses.math.cnrs.fr)
 - [CV](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf)
 - [research statement](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf)
 - [my github account](https://github.com/macbuse)
 
 ### seminars I go to
 
-Basically if you are looking for me on a Thursday well....forget it
+Basically if you are looking for me on a Thursday well....forget it!
 
 - Thursdays 10h30 [Seminaire francophone](https://www-fourier.univ-grenoble-alpes.fr/seminaire-gg/?q=seances)
 - Thursdays 14h TSG Grenoble
@@ -154,8 +154,8 @@ and visits to
 -    Boston College
 -    CUNY Graduate Center
 
-Here is the [book](https://bookstore.ams.org/mbk-135)
-that we wrote during the semester.
+Here is the [book](https://bookstore.ams.org/mbk-135) that we wrote during the
+semester.
 
 And where I got time to do write stuff forInkscape like this
 <a href="https://inkscape.org/~macbuse/%E2%98%85apollonian-master">Apollonian Packings</a>

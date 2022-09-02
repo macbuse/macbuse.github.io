@@ -1,228 +1,33 @@
+---
+layout: default
+title: Programming
+---
+
+
 # Introduction
 
 I suppose you know how to ask Google to translate this page in french - I have
 an qwerty keyboard and accents are impossible.
 
-The first class will be just preparation for what we will do then.  I won't be using the Moodle page so much as it is not easy to update unlike GitHub.  You will be learning how to use GitHub later -
-it's quite easy.
-
-Please watch the videos. 
-You can learn a lot from them.
-There will not be so much reading but there will be a lot of watching. 
-To begin with the videos will be mostly in french but some subjects are only really explained well in english. 
-
---- 
-
-## Projects
-
-Projects 
-- are due 12/1/21
-- must be submitted as a Jupyter notebook
-	- there should be an introduction in Markdown
-	- there should be working code
-	- code should be explained in text cells using Mrakdown
-	- there should be a list of references 
-
-- Projects should be sent to my email mcshane@univ-grenoble-alpes.fr before 10/1/22
-
-- [Presentation programmation](./PROG/pres)
-- [cours](./PROG/index.md)
--  if you want to look ahead/back [cours 2020](./PROG/cours_2020.md)
-
----
-
-### Friday 3/11
-
-So we'll discuss some project work 
-
-- like this project on [COVID](./random_blob.ipynb)
-- here is a [description](./covid_proj.md)
-- and here is a video of the simulation
-
-<center>
-<img src="./random_epix.gif" width="600">
-</center>
-
-If you haven't decided what you are doing for a project then look [here]( ./projects.html)
-
-
----
-
-### Friday 26/11
-
-So we'll discuss the wikipedia crawler 
-
-[wikipedia crawler](./gph2sites.ipynb)
-
-It was difficult to find a good working example for this week
-but here is the 
-[notebook](./regression_copy.ipynb)
-
-There are two kinds of regression to study:
-- multi variable linear regression
-- logistic regression
-
-The example of an application of logistic regression is recognising digits.
-There are better ways of doing this now using CNN - maybe you can do that as a project ?
-
-Watch at the video first:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BHs_2ttLRXk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-### Friday 19/11
-
-I will be teaching at 13:45 on 19 novembre
-
-We'll begin by discussing how to see that everything is philosophy.
-
-- [scraping](https://en.wikipedia.org/wiki/Web_scraping) 
-- [crawling](https://en.wikipedia.org/wiki/Web_crawler).
-
-So you should compute the eigenvalues of the adjacency matrix and try to draw the graph.
-
-#### Why?
-
-Google started out as a search engine and won the [search engine war](https://www.searchenginepeople.com/blog/125-why-google-won.html)
-by serving the most relevant results using the 
-[pagerank](https://dm561.github.io/assets/dm561-pagerank.pdf) algorithm.
-Basically this 
-- represents the web as an adjacency matrix for a graph
-- finds the biggest eigenvalue and it's eigenvector
-- interprets the eigenvector as a probability distributionr	
-- ranks pages according to the corresponding coefficient in the eigenvector
-
-This is a standard thing to do for random [walks on a graph](https://en.wikipedia.org/wiki/Random_walk).
-
----
-
-### Friday 12/11
-
-
-This week we'll be looking at a simple example of 
-- [scraping](https://en.wikipedia.org/wiki/Web_scraping) 
-- [crawling](https://en.wikipedia.org/wiki/Web_crawler).
-
-These are the two basic techniques necessary to build a robot like Google uses to index the web.
-
-- [notebook](./reg_exp.ipynb)
-- [my ideas](./gph2sites.ipynb)
-
-#### Why?
-
-Well my son told me that 
-[everything is about philosophy](https://www.huffpost.com/entry/wikipedia-philosophy_n_1093460#:~:text=Everything%20is%20about%20philosophy%2C%20in,%2C%22%20which%20describes%20the%20phenomenon.).
-
----
-
-### Friday 29/10
-
-- I talked about 
-- my version of [game of life](./life.md)
-	- how to get the code for the game of life from [here](https://www.webgamesonline.com/mastermind/index.php) using developer tools in **chrome**.
-- here is a [first notebook](./convolutions_etc.ipynb) on convolutions_etc
-- here is a [another notebook](./conv_kernels.ipynb) to look at
-
-### Why do this?
-
-well because convolutions allow us to write complicated stuff in a very simple way sometimes.
-
----
-
-
-### Friday 22/10
-
-- Finish the notebook on affine maps
-- Draw the Barnsley fern
-
----
-
-### Friday 15/10
-
-Here is a [notebook](./matplotlib_episode_two_corr.ipynb) 
-with solutions to last week's exercises
-
-And this is the [notebook](./affine_maps.ipynb) to study for this week.
-
-If you really want to do a project on games then look at this 
-- [Nash](https://www.theoj.org/joss-papers/joss.00904/10.21105.joss.00904.pdf).
-- [documentation](https://nashpy.readthedocs.io/en/stable/tutorial/index.html)
-
----
-
-### Friday 8/10
-
-This week we'll do some more graphics and draw some fractals.
-
-- Cantor's staircase
-- Barnsley's Fern
-- Koch snowflake
-
-We'll be using a lot of **recursion** to build tree structures.
-
-Here is the [a previsional version of the notebook](./matplotlib_episode_two.ipynb) to study.
-
-### Friday 1/10
-
-This is the [correction](./corrections.ipynb) for last week.
-
-And this is the [notebook](./matplotlib_one.ipynb) to study for Friday 1/10.
-
-Watch this video about [Matplotlib](https://matplotlib.org/)
-first.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O_OeWxpnUc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# Why are we doing this ?
-
-Everybody needs to make graphs and figures for
-- reports
-- books
-- web pages
-
----
-### Friday 24/9
-
-Here is the [second notebook](./numpy_intro.ipynb).
--- There are some difficult things in it mainly about matrices.
--- There are some excercises at the end of the worksheet.
-
-
-Watch these videos before starting:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Why do this?
-
-Numpy was developed by phycists for doing large numerical calculations.
-It is efficient because the loops that we would usually write are
-hidden by the API and done in **C**.
-
-It was adapted for doing Data Science and there is a special module for this 
-[Pandas](https://pandas.pydata.org/).
-
-A few years ago Google published an API to their neural net framework 
-called TensorFlow. The data is fed to the algorithms in [numpy arrays](https://www.tensorflow.org/guide/tf_numpy).
-
-Finally, as you will see in the notebook, images are stored as matrices
-and elementary image processing can be done using linear algebra and slicing.
-
----
-
-### Friday 17/9
+The first class will be just preparation for what we will do then.  I won't be
+using the Moodle page so much as it is not easy to update unlike GitHub.  You
+will be learning how to use GitHub later - it's quite easy.
+
+Please watch the videos. You can learn a lot from them. There will not be so
+much reading but there will be a lot of watching. To begin with the videos will
+be mostly in french but some subjects are only really explained well in
+english. 
+
+### Friday 16/9
 
 Here is the [first notebook](./lists.ipynb) I've prepared - you should go
 through it once you have **installed JuPyTer** (see below).
 
-If you are not familiar with Python then try [this notebook](./basic_python.ipynb).
+If you are **not** familiar with Python then try [this notebook](./basic_python.ipynb).
 
 
-
-At the end of the **first notebook** there is some code to 
-analyse letter frequency in Hamlet.
+At the end of the **first notebook** there is some code to analyse letter
+frequency in Hamlet.
 
 
 ## Exo
@@ -242,8 +47,8 @@ because of [statistical language models](https://en.wikipedia.org/wiki/Language_
 
 For BERT you can try and install it but you need a pretty good computer.
 
-We are only going to do very basic statistics on words
-but the Python code is close to what really happens.
+We are only going to do very basic statistics on words but the Python code is
+close to what really happens.
 
 - Texts are split up into words
 - frequencies of pairs of words are calculated. 
@@ -253,12 +58,6 @@ This is done for:
 - wikipedia
 - novels and newspaper articles
 - forums 
-
-
----
-### Friday 9/10
-
-You should do this for next week.
 
 ---
 
@@ -300,26 +99,28 @@ course using a Kaggle account if you have one.
 - is flexible: configure and arrange the user interface to support a wide range of workflows in data science, scientific computing, and machine learning. 
 - is a javascript **front end** running in my browser that interfaces with different **kernels**.
 
-I use Linux/OS X and usually start JuPyteR from a terminal
 
-```jupyter lab```
 
 Lab is a version of JuPyteR scheduled to replace ```jupyter notebooks```
 but there are still some bugs (in particular when using interactive widgets).
 
-When I run ```jupyter lab``` this appears in the navigator:
+When I run ```jupyter lab ``` this appears in the navigator:
 
 ![img](jlab.png)
 
-The **kernel sessions** list on the left are recent projects that are automatically opened. On the right there is a window with an open project TTS.ipynb. The file format [ipynb](https://fileinfo.com/extension/ipynb) stands for [Iron Python](https://ironpython.net/) Notebook. If you know about these things then it is really a [json](https://www.json.org/json-en.html) file.
+The **kernel sessions** list on the left are recent projects that are
+automatically opened. On the right there is a window with an open project
+TTS.ipynb. The file format [ipynb](https://fileinfo.com/extension/ipynb) stands
+for [Iron Python](https://ironpython.net/) Notebook. If you know about these
+things then it is really a [json](https://www.json.org/json-en.html) file.
 
-You can open a new notebook from the ```File``` menu.
+You can open a new notebook from the  **File menu**.
 
 ![img](jlab2.png)
 
-The blank retangle is
+The blank rectangle is
 a [code cell](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html)
-- you can write python code here and execute it with ```shft-enter```.
+- you can write python code here and execute it with ```shift-enter```.
 
 There are 2 other kinds of cell
 - Markdown for formatted text and math formulas.
