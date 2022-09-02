@@ -9,6 +9,7 @@ title: Home
 ### mcshane@univ-grenoble-alpes.fr
 
 
+- I will probably attend [this conference](https://ms-math-computer.science/projects/dmv_math_art_22.html) on zoom.
 - I organised a special session at **AMS-EMS-SMF** Joint International Meeting in July. 
 	<!-- - [event programme](https://ams-ems-smf2022.inviteo.fr/index.php?langue=en&onglet=11&acces=&idUser=&emailUser=&messageConfirmation=) -->
 	- [special session schedule](./schedule_amssmf.md)
