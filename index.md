@@ -32,7 +32,7 @@ title: Home
 
 <!-- [More details](teaching.md) -->
 
-### MAT 103
+### MAT 102
 
 - First class:
 
@@ -41,6 +41,8 @@ title: Home
 - First class:
 - Tuesdays 8:00
 - Wednesdays 9:45
+
+[web page](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php)
 
 [2021 archived page](./MAT305_index.md)
 
