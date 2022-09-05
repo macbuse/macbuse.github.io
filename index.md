@@ -56,6 +56,7 @@ title: Home
 
 - First class: 16/09
 - Fridays 13:45
+- [page for the class](./PROG/index.md)
 - If you are coming to this class then please install [Anaconda](https://www.anaconda.com/products/distribution).
 - The evaluation is by project. 
 
