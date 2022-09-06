@@ -70,9 +70,10 @@ Here are some of the finished projects from 2020 and 2021:
 
 Video of a 120-cell by Muaad Tamtam et Damis El Alami.
 
- <video  width="560" height="315" controls>
- < source="./PROG/120-cell.mp4" frameborder="0" >
+ <video  id="my-player" class="video-js vjs-default-skin vjs-big-play-centered" controls="controls" height="400" poster="xxx.jpg" width="600">
+<source src="./PROG/120-cell.mp4" type="video/mp4">
  </video>
+
 
 And here are some of the things I learned to do by talking to the students (and going on forums).
 
