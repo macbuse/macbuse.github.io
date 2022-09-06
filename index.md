@@ -67,6 +67,13 @@ Here are some of the finished projects from 2020 and 2021:
 - [labrinths classic](./STAGE/HARENG_L3A1.html)
 - [Mastermind d'apres Knuth](./STAGE/Mastermind_projet_Touron_Camille_L3A-checkpoint.html)
 
+
+Video of a 120-cell by Muaad Tamtam et Damis El Alami.
+
+ <iframe 
+ <!-- width="560" height="315" --> 
+ src="./PROG/120-cell.mp4" frameborder="0" allowfullscreen></iframe>
+
 And here are some of the things I learned to do by talking to the students (and going on forums).
 
 #### Conway's life on a torus
