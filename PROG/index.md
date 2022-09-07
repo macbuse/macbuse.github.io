@@ -9,9 +9,9 @@ title: Programming
 I suppose you know how to ask Google to translate this page in french - I have
 an qwerty keyboard and accents are impossible.
 
-The first class will be just preparation for what we will do then.  I won't be
-using the Moodle page so much as it is not easy to update unlike GitHub.  You
-will be learning how to use GitHub later - it's quite easy.
+The first class will be just preparation for what we will do in the rest of the
+semester.  I won't be using the Moodle page so much as it is not easy to update
+unlike GitHub.  You will be learning how to use GitHub later - it's quite easy.
 
 Please watch the videos. You can learn a lot from them. There will not be so
 much reading but there will be a lot of watching. To begin with the videos will
@@ -21,13 +21,13 @@ english.
 ### Friday 16/9
 
 Here is the [first notebook](./lists.ipynb) I've prepared - you should go
-through it once you have **installed JuPyTer** (see below).
+through it once you have **installed JuPyTer** (see below it comes with Anaconda).
 
-If you are **not** familiar with Python then try [this notebook](./basic_python.ipynb).
+If you are **not** familiar with Python then try [this notebook](./basic_python.ipynb) first.
 
 
 At the end of the **first notebook** there is some code to analyse letter
-frequency in Hamlet.
+frequency in Hamlet. You should go through it then do the exercise:
 
 
 ## Exo
@@ -45,15 +45,15 @@ because of [statistical language models](https://en.wikipedia.org/wiki/Language_
 - [BERT](https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/) is the latest from Google
 - [GPT3](https://en.wikipedia.org/wiki/GPT-3) is a competitor from OpenAI
 
-For BERT you can try and install it but you need a pretty good computer.
+For BERT: you can try and install it but you will need a pretty good computer.
 
 We are only going to do very basic statistics on words but the Python code is
 close to what really happens.
 
-- Texts are split up into words
+- Texts get split up into words
 - frequencies of pairs of words are calculated. 
 
-This is done for:
+This is done for text scraped from:
 
 - wikipedia
 - novels and newspaper articles
