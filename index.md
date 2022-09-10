@@ -42,9 +42,15 @@ title: Home
 - Monday 8:00 
 - Wednesdays 11:30 
 
+
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
-- [poly](./polyMAT102-main.pdf) 
+- [poly](./MAT102/polyMAT102-main.pdf) 
 - [F1](./MAT102/Fiche1-complexes.pdf)
+
+**nombres complexes*
+
+- [ensembles de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia)
+- [mandelbrottle](https://github.com/macbuse/Mandelbrottle/blob/master/mandelbrotlle_coke.ipynb)
 
 
 ### MAT305
