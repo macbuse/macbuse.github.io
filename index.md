@@ -48,7 +48,7 @@ title: Home
 **nombres complexes**
 
 - [ensembles de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia)
-- [lapin de Douady](https://youtu.be/JttLtB0Gkdk ){target="_blank}
+- [lapin de Douady](https://youtu.be/JttLtB0Gkdk )
 - [mandelbrottle](https://github.com/macbuse/Mandelbrottle/blob/master/mandelbrotlle_coke.ipynb)
 
 
