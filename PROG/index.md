@@ -6,7 +6,7 @@ title: Programming
 
 # Introduction
 
-I suppose you know how to ask Google to translate this page in french - I have
+I suppose you know how to ask Google to translate this page in French - I have
 an qwerty keyboard and accents are impossible.
 
 The first class will be just preparation for what we will do in the rest of the
@@ -15,8 +15,8 @@ unlike GitHub.  You will be learning how to use GitHub later - it's quite easy.
 
 Please watch the videos. You can learn a lot from them. There will not be so
 much reading but there will be a lot of watching. To begin with the videos will
-be mostly in french but some subjects are only really explained well in
-english. 
+be mostly in French but some subjects are only really explained well in
+English. 
 
 ### Friday 16/9
 
