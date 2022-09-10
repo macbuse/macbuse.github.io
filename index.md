@@ -39,20 +39,20 @@ title: Home
 ### MAT 102
 
 - First class: 12/9
-- Monday 8:00 
-- Wednesdays 11:30 
-
+- Monday 8:00, Wednesdays 11:30 
 
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
 - [poly](./MAT102/polyMAT102-main.pdf) 
 - [F1](./MAT102/Fiche1-complexes.pdf)
 
-**nombres complexes*
+**nombres complexes**
 
 - [ensembles de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia)
+- [lapin de Douady](https://youtu.be/JttLtB0Gkdk ){target="_blank}
 - [mandelbrottle](https://github.com/macbuse/Mandelbrottle/blob/master/mandelbrotlle_coke.ipynb)
 
 
+<!-- {target="_blank} -->
 ### MAT305
 
 - First class:
