@@ -39,7 +39,7 @@ title: Home
 ### MAT 102
 
 - First class: 12/9
-- Monday 8:00, Wednesdays 11:30 
+- Wednesdays 15h15, Thursday 8h
 
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
 - [poly](./MAT102/polyMAT102-main.pdf) 
