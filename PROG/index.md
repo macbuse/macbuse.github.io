@@ -147,8 +147,14 @@ waves](https://blog.jupyter.org/congratulations-to-the-ligo-and-virgo-collaborat
 physics](https://cds.cern.ch/record/2687389/files/CERN_SUM_PJ_report_Yixin.pdf)
 
 
-
+---
 ## Further reading
+
+### Why use Python?
+
+Because even the authors of the [C language manual](https://en.wikipedia.org/wiki/The_C_Programming_Language) say so:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GNyQxXw_oMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Python Idioms
 
