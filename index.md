@@ -59,6 +59,12 @@ title: Home
 - Tuesdays 8:00
 - Wednesdays 9:45
 
+[F1](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD1.pdf)
+- [1.2](https://www.wolframalpha.com/input?i=plot+-2x+%2B+3)
+- [1.3](https://www.wolframalpha.com/input?i=plot++1+%2B+1%2F%28x+%2B+2%29)
+- [1.7](https://www.wolframalpha.com/input?i=plot++x+%2B+2y+%2B+3)
+- [1.10](https://www.wolframalpha.com/input?i=plot+++%E2%88%92x+%2B+y)
+
 [web page](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php)
 
 [2021 archived page](./MAT305_index.md)
