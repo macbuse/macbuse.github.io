@@ -55,7 +55,7 @@ title: Home
 <!-- {target="_blank} -->
 ### MAT305
 
-- First class:
+- First class: 13/9
 - Tuesdays 8:00
 - Wednesdays 9:45
 
@@ -93,6 +93,8 @@ And here are some of the things I learned to do by talking to the students (and 
 This is an amusing demonstration of how using a convolution to do something is
 just the right thing to do. There is  a **pytorch** implementation somewhere.
 
+<!-- [simpson et al](https://sites.google.com/view/mlwm-seminar-2022) -->
+
 <center>
 <img src="./PROG/life_vid.gif" width="600">
 </center>
@@ -101,6 +103,12 @@ I embedded this in a [script with pygame](./PROG/my_conway.py)
 it's like 50 LOC.
 
 ### Simulation of an epidemic 
+
+<!-- solving mazes with random walks -->
+<!-- <iframe width="560" height="315" -->
+<!-- src="https://www.youtube.com/embed/BvwgdrC8vlE" title="YouTube video player" -->
+<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; -->
+<!-- encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 - the particles follow a random walk.
 - the yellow particles are infected
