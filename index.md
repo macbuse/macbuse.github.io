@@ -55,6 +55,8 @@ title: Home
 <!-- {target="_blank} -->
 ### MAT305
 
+[web page](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php)
+
 - First class: 13/9
 - Tuesdays 8:00
 - Wednesdays 9:45
@@ -66,7 +68,6 @@ title: Home
 	- [x + 2y + 3 = 0](https://www.wolframalpha.com/input?i=+y+%3D+-%28+x%2B+3%29%2F2)
 - [1.10](https://www.wolframalpha.com/input?i=plot+++%E2%88%92x+%2B+y)
 
-[web page](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php)
 
 [2021 archived page](./MAT305_index.md)
 
