@@ -38,7 +38,7 @@ title: Home
 
 ### MAT 102
 
-- First class: 12/9
+- First class: 14/9
 - Wednesdays 15h15, Thursday 8h
 
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
@@ -49,7 +49,7 @@ title: Home
 
 - [ensembles de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia)
 - [lapin de Douady](https://youtu.be/JttLtB0Gkdk )
-- [mandelbrottle](https://github.com/macbuse/Mandelbrottle/blob/master/mandelbrotlle_coke.ipynb)
+<!-- - [mandelbrottle](https://github.com/macbuse/Mandelbrottle/blob/master/mandelbrotlle_coke.ipynb) -->
 
 
 <!-- {target="_blank} -->
@@ -91,7 +91,7 @@ Here are some of the finished projects from 2020 and 2021:
 
 Video of a 120-cell by Muaad Tamtam et Damis El Alami.
 
- <video  id="my-player" class="video-js vjs-default-skin vjs-big-play-centered" controls="controls" height="400" poster="xxx.jpg" width="600">
+ <video  id="my-player" class="video-js vjs-default-skin vjs-big-play-centered" controls="controls"  width="600">
 <source src="./PROG/120-cell.mp4" type="video/mp4">
  </video>
 
