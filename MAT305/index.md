@@ -13,11 +13,11 @@
 
 - [1.2](https://www.wolframalpha.com/input?i=plot+-2x+%2B+3)
 - [1.3](https://www.wolframalpha.com/input?i=plot++1+%2B+1%2F%28x+%2B+2%29)
-- [1.5 3D interactive](./MAT305/cone.html)
-- [1.6 3D interactive](./MAT305/half_pipe.html)
+- [1.5 3D interactive](./cone.html)
+- [1.6 3D interactive](./half_pipe.html)
 - [1.7](https://www.wolframalpha.com/input?i=plot++x+%2B+2y+%2B+3)
 	- [x + 2y + 3 = 0](https://www.wolframalpha.com/input?i=+y+%3D+-%28+x%2B+3%29%2F2)
 - [1.10](https://www.wolframalpha.com/input?i=plot+++%E2%88%92x+%2B+y)
-- [1.10 3D interactive](./MAT305/plane_x.html)
+- [1.10 3D interactive](./plane_x.html)
 
 [2021 archived page](./MAT305_index.md)
