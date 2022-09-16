@@ -192,7 +192,7 @@ Everybody needs to make graphs and figures for
 
 Here is the [second notebook](./numpy_intro.ipynb).
 -- There are some difficult things in it mainly about matrices.
--- There are some excercises at the end of the worksheet.
+-- There are some exercises at the end of the worksheet.
 
 
 Watch these videos before starting:

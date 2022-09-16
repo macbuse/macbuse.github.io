@@ -6,10 +6,8 @@ title: Programming
 
 # Introduction
 
-I suppose you know how to ask Google to translate this page in French - I have
-an qwerty keyboard and accents are impossible.
 
-The first class will be just preparation for what we will do in the rest of the
+The first class was just preparation for what we will do in the rest of the
 semester.  I won't be using the Moodle page so much as it is not easy to update
 unlike GitHub.  You will be learning how to use GitHub later - it's quite easy.
 
@@ -17,6 +15,35 @@ Please watch the videos. You can learn a lot from them. There will not be so
 much reading but there will be a lot of watching. To begin with the videos will
 be mostly in French but some subjects are only really explained well in
 English. 
+
+---
+### Friday 23/9
+
+Here is the [second notebook](./numpy_intro.ipynb).
+
+-- There are some difficult things in it mainly about matrices.
+-- There are some exercises at the end of the worksheet.
+
+Watch these videos before starting:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NzDQTrqsxas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vw4u9uBFFqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Why do this?
+
+Numpy was developed by physicists for doing large numerical calculations.
+It is efficient because the loops that we would usually write are
+hidden by the API and done in **C**.
+
+It was adapted for doing Data Science and there is a special module for this 
+[Pandas](https://pandas.pydata.org/).
+
+A few years ago Google published an API to their neural net framework 
+called TensorFlow. The data is fed to the algorithms in [numpy arrays](https://www.tensorflow.org/guide/tf_numpy).
+
+Finally, as you will see in the notebook, images are stored as matrices
+and elementary image processing can be done using linear algebra and slicing.
 
 ### Friday 16/9
 
