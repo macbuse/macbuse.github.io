@@ -5,9 +5,13 @@
 - First class: 13/9
 - Tuesdays 8:00 Wednesdays 9:45
 
+
+
 ---
 
 - **Pour 20/9 preparer F1 exos 5 et 6.**
+
+**RAPPEL** [poly mat102](./mat102_functions.pdf)
 
 [F1](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD1.pdf)
 
