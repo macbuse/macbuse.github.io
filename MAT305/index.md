@@ -10,6 +10,7 @@
 ---
 
 - **Pour 20/9 preparer F1 exos 5 et 6.**
+- **Pour 21/9 preparer F1 exos 7 et 8**
 
 **RAPPEL** [poly mat102](./mat102_functions.pdf)
 
