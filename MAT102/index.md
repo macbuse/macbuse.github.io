@@ -4,8 +4,8 @@
 - Wednesdays 15h15, Thursday 8h
 
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
-- [poly](./MAT102/polyMAT102-main.pdf) 
-- [F1](./MAT102/Fiche1-complexes.pdf)
+- [poly](./polyMAT102-main.pdf) 
+- [F1](./Fiche1-complexes.pdf)
 
 **nombres complexes**
 
