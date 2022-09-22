@@ -11,8 +11,12 @@
 
 - **Pour 20/9 preparer F1 exos 5 et 6.**
 - **Pour 21/9 preparer F1 exos 7 et 8**
+- **Pour 27/9 preparer F2 exo 2**
 
 **RAPPEL** [poly mat102](./mat102_functions.pdf)
+
+[F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf)
+
 
 [F1](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD1.pdf)
 
