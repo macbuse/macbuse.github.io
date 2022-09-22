@@ -6,7 +6,6 @@
 - Tuesdays 8:00 Wednesdays 9:45
 
 
-
 ---
 
 - **Pour 20/9 preparer F1 exos 5 et 6.**
@@ -16,6 +15,9 @@
 **RAPPEL** [poly mat102](./mat102_functions.pdf)
 
 [F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf)
+
+- [exo 1](./graphs_tangents.pdf)
+- exo 3 est difficile [regarder le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
 
 
 [F1](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD1.pdf)
