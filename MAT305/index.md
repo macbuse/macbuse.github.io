@@ -5,20 +5,21 @@
 - First class: 13/9
 - Tuesdays 8:00 Wednesdays 9:45
 
-
 ---
 
 - **Pour 20/9 preparer F1 exos 5 et 6.**
 - **Pour 21/9 preparer F1 exos 7 et 8**
-- **Pour 27/9 preparer F2 exo 2**
+- **Pour 27/9 preparer F2 exo 2: determiner le domaine de definition pour chaque fonction**
 
-**RAPPEL** [poly mat102](./mat102_functions.pdf)
 
 [F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf)
+
+**RAPPEL** [poly mat102 pages 49-50](./mat102_functions.pdf)
 
 - [exo 1](./graphs_tangents.pdf)
 - exo 3 est difficile [regarder le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
 
+**RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
 [F1](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD1.pdf)
 
