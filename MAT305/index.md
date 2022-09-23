@@ -1,15 +1,21 @@
 # Mat 305
 
-[web page](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php)
+[web page avec tous les documents](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php)
 
 - First class: 13/9
 - Tuesdays 8:00 Wednesdays 9:45
 
+[2021 TD archived page](./MAT305_index.md)
+
 ---
+
+## Exos a preparer
 
 - **Pour 20/9 preparer F1 exos 5 et 6.**
 - **Pour 21/9 preparer F1 exos 7 et 8**
-- **Pour 27/9 preparer F2 exo 2: determiner le domaine de definition pour chaque fonction**
+- **Pour 27/9 preparer F2 exo 2:**
+	- calculer $\partial f/\partial x, \partial f/\partial y$ pour chaque fonction
+	- Verifier avec Wolfram ex [exo 2.1](https://www.wolframalpha.com/input?i=x+ln%28+y%5E2+%2B+1%29)
 
 
 [F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf)
@@ -18,6 +24,8 @@
 
 - [exo 1](./graphs_tangents.pdf)
 - exo 3 est difficile [regarder le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
+
+---
 
 **RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
@@ -32,4 +40,3 @@
 - [1.10](https://www.wolframalpha.com/input?i=plot+++%E2%88%92x+%2B+y)
 - [1.10 3D interactive](./plane_x.html)
 
-[2021 archived page](./MAT305_index.md)
