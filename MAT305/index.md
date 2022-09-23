@@ -14,9 +14,13 @@
 - **Pour 20/9 preparer F1 exos 5 et 6.**
 - **Pour 21/9 preparer F1 exos 7 et 8**
 - **Pour 27/9 preparer F2 exo 2:**
-	- calculer $\partial f/\partial x, \partial f/\partial y$ pour chaque fonction
+	- calculer les derivees partielles pour chaque fonction
 	- Verifier avec Wolfram ex [exo 2.1](https://www.wolframalpha.com/input?i=x+ln%28+y%5E2+%2B+1%29)
+<!-- $\partial f/\partial x, \partial f/\partial y$ pour --> 
 
+---
+
+## Feuilles avec commentaires
 
 [F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf)
 
@@ -28,6 +32,7 @@
 ---
 
 **RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
+
 
 [F1](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD1.pdf)
 
