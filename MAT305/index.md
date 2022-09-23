@@ -28,6 +28,7 @@
 
 - [exo 1](./graphs_tangents.pdf)
 - exo 3 est difficile [regarder le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
+	- [3D interactive](./monkey.html)
 
 ---
 
