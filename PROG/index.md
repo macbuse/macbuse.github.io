@@ -16,6 +16,20 @@ much reading but there will be a lot of watching. To begin with the videos will
 be mostly in French but some subjects are only really explained well in
 English. 
 
+#### Conway's life on a torus
+
+This is an amusing demonstration of how using a convolution to do something is
+just the right thing to do. There is  a **pytorch** implementation somewhere.
+
+<!-- [simpson et al](https://sites.google.com/view/mlwm-seminar-2022) -->
+
+<center>
+<img src="./life_vid.gif" width="600">
+</center>
+
+I embedded this in a [script with pygame](./my_conway.py)
+it's like 50 LOC.
+
 ---
 ### Friday 23/9
 

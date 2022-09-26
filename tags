@@ -397,6 +397,7 @@ addWidgetsRenderer	METH_NUM/f1exo8.html	/^  function addWidgetsRenderer() {$/;"	
 addWidgetsRenderer	METH_NUM/integration.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	METH_NUM/mnum.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/Lagrange.html	/^  function addWidgetsRenderer() {$/;"	f
+addWidgetsRenderer	PROG/numpy_intro.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/projects.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/thurston_bonsai.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	STAGE/HARENG_L3A1.html	/^  function addWidgetsRenderer() {$/;"	f
