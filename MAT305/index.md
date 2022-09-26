@@ -24,7 +24,9 @@
 
 [F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf)
 
-**RAPPEL** [poly mat102 pages 49-50](./mat102_functions.pdf)
+**RAPPEL** 
+1. [derivative : poly mat102 pages 49-50](./mat102_functions.pdf)
+1. [droites et plans : poly mat102 pages 30-34](./polyMAT102-lines.pdf)
 
 - [exo 1](./graphs_tangents.pdf)
 - exo 3 est difficile [regarder le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
