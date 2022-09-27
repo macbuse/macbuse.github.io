@@ -31,6 +31,10 @@
 **Exos**
 
 - [exo 1](./f2_exo1.md)
+	1. ellipse
+	1. ellipse
+	1. demi droite
+	1. [astroid](https://mathworld.wolfram.com/Astroid.html)
 - [Exo 2.2](https://www.wolframalpha.com/input?i=%282+x%29%2F%28x+%2B+y%29+%2B+log%28x%5E2+-+y%5E2%29)
 	- [derivee $f_{xy}$](https://www.wolframalpha.com/input?i=derivative+x+of+-%282+y%29%2F%28x+%2B+y%29+-+log%28x%5E2+-+y%5E2%29)
 	- [derivee $f_{yx}$](https://www.wolframalpha.com/input?i=derivative+y+of+%282+x%29%2F%28x+%2B+y%29+%2B+log%28x%5E2+-+y%5E2%29)
