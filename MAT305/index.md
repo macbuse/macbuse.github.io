@@ -31,6 +31,13 @@
 **Exos**
 
 - [exo 1](./f2_exo1.md)
+- [Exo 2.2](https://www.wolframalpha.com/input?i=%282+x%29%2F%28x+%2B+y%29+%2B+log%28x%5E2+-+y%5E2%29)
+	- [derivee $f_{xy}$](https://www.wolframalpha.com/input?i=derivative+x+of+-%282+y%29%2F%28x+%2B+y%29+-+log%28x%5E2+-+y%5E2%29)
+	- [derivee $f_{yx}$](https://www.wolframalpha.com/input?i=derivative+y+of+%282+x%29%2F%28x+%2B+y%29+%2B+log%28x%5E2+-+y%5E2%29)
+- [exo 2.3](https://www.wolframalpha.com/input?i=exp%28x%5E2+%2B+y%5E2%29+%2B+cos%28xy%29)
+	- [derivee $f_{yx}$](https://www.wolframalpha.com/input?i=derivate+y+of+2+e%5E%28x%5E2+%2B+y%5E2%29+x+-+y+sin%28x+y%29)
+	- [derivee $f_{xy}$](https://www.wolframalpha.com/input?i=derivate+x+of+2+e%5E%28x%5E2+%2B+y%5E2%29+y+-+x+sin%28x+y%29)
+
 - exo 3 est difficile [regarder le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
 	- [3D interactive](./monkey.html)
 
