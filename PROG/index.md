@@ -31,6 +31,26 @@ I embedded this in a [script with pygame](./my_conway.py)
 it's like 50 LOC.
 
 ---
+### Friday 30/9
+
+This is the [correction](./corrections.ipynb) for last week.
+
+And this is the [notebook](./matplotlib_one.ipynb) to study for this week.
+
+Watch this video about [Matplotlib](https://matplotlib.org/)
+first.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O_OeWxpnUc0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Why are we doing this ?
+
+Everybody needs to make graphs and figures for
+- reports
+- books
+- web pages
+
+
+---
 ### Friday 23/9
 
 Here is the [second notebook](./numpy_intro.ipynb).
