@@ -24,13 +24,16 @@
 
 [F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf)
 
+- [correction exo 1 et 2](./f6_corr_1.pdf)
+- [correction exo  2 suite](./f6_corr_bis.pdf)
+
 **RAPPEL** 
 1. [derivative : poly mat102 pages 49-50](./mat102_functions.pdf)
 1. [droites et plans : poly mat102 pages 30-34](./polyMAT102-lines.pdf)
 
 **Exos**
 
-- [exo 1](./f2_exo1.md)
+- [exo 1 : representation graphique](./f2_exo1.md)
 	1. ellipse
 	1. ellipse
 	1. demi droite
