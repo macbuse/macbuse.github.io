@@ -1,3 +1,9 @@
+---
+layout: default
+title: MAT305
+---
+
+
 # Mat 305
 
 [web page avec tous les documents](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php)

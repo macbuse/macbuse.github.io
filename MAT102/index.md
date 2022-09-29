@@ -15,6 +15,12 @@
 
 ---
 
+[F2](./Fiche2-sommes-produits.pdf)
+
+[ggg](fff)
+
+---
+
 [F1](./Fiche1-complexes.pdf)
 
 ### exos avec commentaires
