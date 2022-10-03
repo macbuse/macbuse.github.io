@@ -18,13 +18,13 @@ We want to show that the euclidean norm ball is smooth in a round about way
 by viewing it as the graph over a line segment and then bounding the 
 graph from above by the graph of a very simple quadratic function.
 This method works in general provided that the point in question
-can be *approxmated from the right and left* by points 
+can be *approximated from the right and left* by points 
 corresponding to primitive homology classes.
 
 ---
 
 **Approximation**
-The notion of approxmated from the right and left
+The notion of approximated from the right and left
 was introduced in [my thesis](http://wrap.warwick.ac.uk/4008/) for geodesics on a punctured surface
 but for the torus it is just a fact about continued fractions 
 (see [here](https://en.wikipedia.org/wiki/Continued_fraction#Infinite_continued_fractions_and_convergents)
@@ -93,10 +93,11 @@ $$(2t(1-t) \sin^2(\theta/2))/(2t\sin(\theta/2)) = (1-t) \sin(\theta/2).$$
 So this is bounded between $0$ and $\sin(\theta/2)$. 
 
 By elementary geometry the same estimate is holds for points on the portion 
-of the euclidean norm ball *squeezed* between the line segment and the parabola.
-It is easy to see from this that the norm ball is differentiable.
+of the euclidean norm ball *squeezed* between the chord (the $\|.\|_1$ norm ball) and the parabola. It is easy to see from this that the norm ball is differentiable.
 
-![fig](./triangle.png)
+
+
+![The euclidean ball getting squeezed](./triangle.png)
 
 
 ## Comparison norm
