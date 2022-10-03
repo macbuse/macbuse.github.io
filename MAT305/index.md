@@ -20,6 +20,8 @@ title: MAT305
 - **Pour 20/9 preparer F1 exos 5 et 6.**
 - **Pour 21/9 preparer F1 exos 7 et 8**
 - **Pour 27/9 preparer F2 exo 2:**
+- **Pour 4/10 preparer F2 exo 6:**
+- **Pour 5/10 preparer F2 exo 7:**
 	- calculer les derivees partielles pour chaque fonction
 	- Verifier avec Wolfram ex [exo 2.1](https://www.wolframalpha.com/input?i=x+ln%28+y%5E2+%2B+1%29)
 <!-- $\partial f/\partial x, \partial f/\partial y$ pour --> 
@@ -59,6 +61,21 @@ title: MAT305
 	- [la courbe](https://www.wolframalpha.com/input?i=plot+y%5E2+%E2%88%92+x%5E3+%E2%88%92+x%5E2+%3D0)
 	- [x en fonction de t](https://www.wolframalpha.com/input?i=solve+++t%5E2+x%5E2+%E2%88%92+x%5E3+%E2%88%92+x%5E2+%3D+0)
 	- [la courbe parametree par t](https://www.wolframalpha.com/input?i=plot+%28+t%5E2+-+1%2C+t%28+t%5E2+-+1%29+%29+t+from+-+1.5+to+1.5)
+
+- exo 6 ensembles de niveaux
+	1. cercle
+	1. droite
+	1. droite
+	1. [hyperbole](https://fr.wikipedia.org/wiki/Hyperbole_(math%C3%A9matiques)#%C3%89quations)
+
+A savoir :
+1. [cosh(t)](https://fr.wikipedia.org/wiki/Cosinus_hyperbolique)
+1. [x^2 - y^2](https://www.wolframalpha.com/input?i=level+curves+x%5E2+-+y%5E2)
+
+- exo 7 
+	- [graphe avec ensembles de niveaux](https://www.wolframalpha.com/input?i=plot+2x%5E2%2B5y%5E2%E2%88%922x+y)
+	- [gradient](https://www.wolframalpha.com/input?i=gradient+2x%5E2%2B5y%5E2%E2%88%922x+y)
+
 
 ---
 
