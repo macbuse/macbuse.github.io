@@ -1,12 +1,13 @@
+<title> Toponogov </title>
 
 # differentiability
 
 This is an outline of the ideas behind Theorem 2.1. of the paper ["Simple curves on tori"](https://arxiv.org/abs/math/0005220).
 
-The corner part that is non differentiability at rational slopes
-isn't difficult to do and there is a proof in [this paper](https://arxiv.org/abs/2107.13499)
-as for the flatness there is technically [a proof of this](https://arxiv.org/abs/2001.05557)
-which is essentially what we had in mind in the paragraph after Theorem 2.2
+The corner part, that is non differentiability at rational slopes,
+isn't difficult to do and there is a proof in [this paper](https://arxiv.org/abs/2107.13499).
+As for the flatness there is technically [a proof of this](https://arxiv.org/abs/2001.05557),
+which is essentially what we had in mind in the paragraph after Theorem 2.2,
 although our approach has a much more geometric flavour.
 
 
@@ -27,7 +28,7 @@ corresponding to primitive homology classes.
 The notion of approximated from the right and left
 was introduced in [my thesis](http://wrap.warwick.ac.uk/4008/) for geodesics on a punctured surface
 but for the torus it is just a fact about continued fractions 
-(see [here](https://en.wikipedia.org/wiki/Continued_fraction#Infinite_continued_fractions_and_convergents)
+(see [here](https://en.wikipedia.org/wiki/Continued_fraction#Infinite_continued_fractions_and_convergents))
 : if $\zeta$ is an irrational and $p_n/q_n$ the sequence of convergents
 then (after possibly renumbering)
 $$p_{2n}/q_{2n} < \zeta < p_{2n+1}/q_{2n+1}.$$
@@ -97,7 +98,7 @@ of the euclidean norm ball *squeezed* between the chord (the $\|.\|_1$ norm ball
 
 
 
-![The euclidean ball getting squeezed](./triangle.png)
+![**Figure:** The euclidean ball getting squeezed](./triangle.png)
 
 
 ## Comparison norm

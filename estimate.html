@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>estimate</title>
+  <title>toponogov</title>
   <style>
     html {
       line-height: 1.5;
@@ -150,13 +150,19 @@
   <![endif]-->
 </head>
 <body>
+<header id="title-block-header">
+<h1 class="title">toponogov</h1>
+</header>
+<title>
+Toponogov
+</title>
 <h1 id="differentiability">differentiability</h1>
 <p>This is an outline of the ideas behind Theorem 2.1. of the paper <a href="https://arxiv.org/abs/math/0005220">“Simple curves on tori”</a>.</p>
-<p>The corner part that is non differentiability at rational slopes isn’t difficult to do and there is a proof in <a href="https://arxiv.org/abs/2107.13499">this paper</a> as for the flatness there is technically <a href="https://arxiv.org/abs/2001.05557">a proof of this</a> which is essentially what we had in mind in the paragraph after Theorem 2.2 although our approach has a much more geometric flavour.</p>
+<p>The corner part, that is non differentiability at rational slopes, isn’t difficult to do and there is a proof in <a href="https://arxiv.org/abs/2107.13499">this paper</a>. As for the flatness there is technically <a href="https://arxiv.org/abs/2001.05557">a proof of this</a>, which is essentially what we had in mind in the paragraph after Theorem 2.2, although our approach has a much more geometric flavour.</p>
 <h2 id="squeezing-and-differentiability">Squeezing and differentiability</h2>
 <p>We want to show that the euclidean norm ball is smooth in a round about way by viewing it as the graph over a line segment and then bounding the graph from above by the graph of a very simple quadratic function. This method works in general provided that the point in question can be <em>approximated from the right and left</em> by points corresponding to primitive homology classes.</p>
 <hr />
-<p><strong>Approximation</strong> The notion of approximated from the right and left was introduced in <a href="http://wrap.warwick.ac.uk/4008/">my thesis</a> for geodesics on a punctured surface but for the torus it is just a fact about continued fractions (see <a href="https://en.wikipedia.org/wiki/Continued_fraction#Infinite_continued_fractions_and_convergents">here</a> : if <span class="math inline"><em>ζ</em></span> is an irrational and <span class="math inline"><em>p</em><sub><em>n</em></sub>/<em>q</em><sub><em>n</em></sub></span> the sequence of convergents then (after possibly renumbering) <span class="math display"><em>p</em><sub>2<em>n</em></sub>/<em>q</em><sub>2<em>n</em></sub> &lt; <em>ζ</em> &lt; <em>p</em><sub>2<em>n</em> + 1</sub>/<em>q</em><sub>2<em>n</em> + 1</sub>.</span></p>
+<p><strong>Approximation</strong> The notion of approximated from the right and left was introduced in <a href="http://wrap.warwick.ac.uk/4008/">my thesis</a> for geodesics on a punctured surface but for the torus it is just a fact about continued fractions (see <a href="https://en.wikipedia.org/wiki/Continued_fraction#Infinite_continued_fractions_and_convergents">here</a>) : if <span class="math inline"><em>ζ</em></span> is an irrational and <span class="math inline"><em>p</em><sub><em>n</em></sub>/<em>q</em><sub><em>n</em></sub></span> the sequence of convergents then (after possibly renumbering) <span class="math display"><em>p</em><sub>2<em>n</em></sub>/<em>q</em><sub>2<em>n</em></sub> &lt; <em>ζ</em> &lt; <em>p</em><sub>2<em>n</em> + 1</sub>/<em>q</em><sub>2<em>n</em> + 1</sub>.</span></p>
 <p>You should think of the vectors below as being <span class="math display"><em>v</em><sub>0</sub> = (<em>p</em><sub>2<em>n</em></sub>,<em>q</em><sub>2<em>n</em></sub>), <em>v</em><sub>1</sub> = (<em>p</em><sub>2<em>n</em> + 1</sub>,<em>q</em><sub>2<em>n</em> + 1</sub>).</span></p>
 <hr />
 <p>Let <span class="math inline"><em>v</em><sub>0</sub>, <em>v</em><sub>1</sub> ∈ ℝ<sup>2</sup></span> be pair of linearly independent vectors and <span class="math inline">∥.∥</span> be an arbitrary norm on <span class="math inline">ℝ</span>.</p>
@@ -181,7 +187,7 @@
 <p>So this is bounded between <span class="math inline">0</span> and <span class="math inline">sin (<em>θ</em>/2)</span>.</p>
 <p>By elementary geometry the same estimate is holds for points on the portion of the euclidean norm ball <em>squeezed</em> between the chord (the <span class="math inline">∥.∥<sub>1</sub></span> norm ball) and the parabola. It is easy to see from this that the norm ball is differentiable.</p>
 <figure>
-<img src="./triangle.png" alt="The euclidean ball getting squeezed" /><figcaption aria-hidden="true">The euclidean ball getting squeezed</figcaption>
+<img src="./triangle.png" alt="Figure: The euclidean ball getting squeezed" /><figcaption aria-hidden="true"><strong>Figure:</strong> The euclidean ball getting squeezed</figcaption>
 </figure>
 <h2 id="comparison-norm">Comparison norm</h2>
 <p>The above argument will work for the stable norm <span class="math inline">∥.∥<sub><em>s</em></sub></span> provided we can bound it from above (locally) by a euclidean norm. This follows from a general principle in negative curvature: <strong>distances are always greater than they are in a “comparable” euclidean/flat configuration.</strong></p>
