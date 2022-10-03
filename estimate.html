@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>estimate</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="differentiability">differentiability</h1>
+<p>This is an outline of the ideas behind Theorem 2.1. of the paper <a href="https://arxiv.org/abs/math/0005220">“Simple curves on tori”</a>.</p>
+<p>The corner part that is non differentiability at rational slopes isn’t difficult to do and there is a proof in <a href="https://arxiv.org/abs/2107.13499">this paper</a> as for the flatness there is technically <a href="https://arxiv.org/abs/2001.05557">a proof of this</a> which is essentially what we had in mind in the paragraph after Theorem 2.2 although our approach has a much more geometric flavour.</p>
+<h2 id="squeezing-and-differentiability">Squeezing and differentiability</h2>
+<p>We want to show that the euclidean norm ball is smooth in a round about way by viewing it as the graph over a line segment and then bounding the graph from above by the graph of a very simple quadratic function. This method works in general provided that the point in question can be <em>approxmated from the right and left</em> by points corresponding to primitive homology classes.</p>
+<hr />
+<p><strong>Approximation</strong> The notion of approxmated from the right and left was introduced in <a href="http://wrap.warwick.ac.uk/4008/">my thesis</a> for geodesics on a punctured surface but for the torus it is just a fact about continued fractions (see <a href="https://en.wikipedia.org/wiki/Continued_fraction#Infinite_continued_fractions_and_convergents">here</a> : if <span class="math inline"><em>ζ</em></span> is an irrational and <span class="math inline"><em>p</em><sub><em>n</em></sub>/<em>q</em><sub><em>n</em></sub></span> the sequence of convergents then (after possibly renumbering) <span class="math display"><em>p</em><sub>2<em>n</em></sub>/<em>q</em><sub>2<em>n</em></sub> &lt; <em>ζ</em> &lt; <em>p</em><sub>2<em>n</em> + 1</sub>/<em>q</em><sub>2<em>n</em> + 1</sub>.</span></p>
+<p>You should think of the vectors below as being <span class="math display"><em>v</em><sub>0</sub> = (<em>p</em><sub>2<em>n</em></sub>,<em>q</em><sub>2<em>n</em></sub>), <em>v</em><sub>1</sub> = (<em>p</em><sub>2<em>n</em> + 1</sub>,<em>q</em><sub>2<em>n</em> + 1</sub>).</span></p>
+<hr />
+<p>Let <span class="math inline"><em>v</em><sub>0</sub>, <em>v</em><sub>1</sub> ∈ ℝ<sup>2</sup></span> be pair of linearly independent vectors and <span class="math inline">∥.∥</span> be an arbitrary norm on <span class="math inline">ℝ</span>.</p>
+<p>Given a norm <span class="math inline">∥.∥</span> then there are two norms obvious norms on <span class="math inline">ℝ</span> that one can compare it with: 1. The one norm <span class="math inline">∥<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>∥<sub>1</sub> := |<em>x</em>|∥<em>v</em><sub>0</sub>∥ + |<em>v</em>|∥<em>v</em><sub>1</sub>∥</span> 1. The hilbert norm <span class="math inline">∥<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>∥<sub>2</sub><sup>2</sup> := |<em>x</em>|<sup>2</sup>∥<em>v</em><sub>0</sub>∥<sup>2</sup> + 2∥<em>v</em><sub>0</sub>∥<sup>∥</sup><em>v</em><sub>1</sub>∥cos (<em>θ</em>) + |<em>y</em>|<sup>2</sup>∥<em>v</em><sub>1</sub>∥<sup>2</sup></span></p>
+<p>Here <span class="math inline"><em>θ</em></span> might be the angle between <span class="math inline"><em>v</em><sub>0</sub>, <em>v</em><sub>1</sub></span> but it may be thought of as an arbitrary parameter.</p>
+<p>By a standard calculation</p>
+<p><span class="math display">∥<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>∥<sub>1</sub><sup>2</sup> − ∥<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>∥<sub>2</sub><sup>2</sup> = 2|<em>x</em>||<em>y</em>|∥<em>v</em><sub>0</sub>∥∥<em>v</em><sub>1</sub>∥<em>s</em><em>i</em><em>n</em><sup>2</sup>(<em>θ</em>/2)</span></p>
+<p>which gives</p>
+<!-- $$\| x v_0 + y v_1 \|_1 - \| x v_0 + y v_1 \|_2  =   \frac{2|x| |y| \|v_0\|\|v_1\| sin^2(\theta/2)}{\| x v_0 + y v_1 \|_1 + \| x v_0 + y v_1 \|_2}$$ -->
+<p><span class="math display">∥<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>∥<sub>1</sub> − ∥<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>∥<sub>2</sub> = (2|<em>x</em>||<em>y</em>|∥<em>v</em><sub>0</sub>∥∥<em>v</em><sub>1</sub>∥<em>s</em><em>i</em><em>n</em><sup>2</sup>(<em>θ</em>/2))/(<em>x</em><em>v</em><sub>0</sub>+<em>y</em><em>v</em><sub>1</sub>∥<sub>1</sub>+∥<em>x</em><em>v</em><sub>0</sub>+<em>y</em><em>v</em><sub>1</sub>∥<sub>2</sub>)</span></p>
+<p>so that</p>
+<!-- $$0 \leq \| x v_0 + y v_1 \|_1 - \| x v_0 + y v_1 \|_2  \leq   \frac{2 |x| |y| \|v_0\|\|v_1\| sin^2(\theta/2)}{2\| x v_0 + y v_1 \|_2}.$$ -->
+<p><span class="math display">0 ≤ ∥<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>∥<sub>1</sub> − ∥<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>∥<sub>2</sub> ≤ (2|<em>x</em>||<em>y</em>|∥<em>v</em><sub>0</sub>∥∥<em>v</em><sub>1</sub>∥<em>s</em><em>i</em><em>n</em><sup>2</sup>(<em>θ</em>/2))/(2∥<em>x</em><em>v</em><sub>0</sub>+<em>y</em><em>v</em><sub>1</sub>∥<sub>2</sub>).</span></p>
+<p>Now we want to show that the euclidean norm ball is smooth in a round about way. We divide by norms and suppose that <span class="math inline">∥<em>v</em><sub>0</sub>∥ = ∥<em>v</em><sub>1</sub>∥ = 1</span> and define <span class="math inline"><em>v</em><sub><em>t</em></sub> := (1−<em>t</em>)<em>v</em><sub>0</sub> + <em>t</em><em>v</em><sub>1</sub></span> so that the estimate above becomes: <span class="math display">0 ≤ ∥<em>v</em><sub><em>t</em></sub>∥<sub>1</sub> − ∥<em>v</em><sub><em>t</em></sub>∥<sub>2</sub> ≤ 2<em>t</em>(1−<em>t</em>)<em>s</em><em>i</em><em>n</em><sup>2</sup>(<em>θ</em>/2)/<em>m</em>,</span> where <span class="math inline"><em>m</em> := inf<sub>0 ≤ <em>t</em> ≤ 1</sub>∥<em>v</em><sub><em>t</em></sub>∥<sub>2</sub></span>, which is bounded away from <span class="math inline">0</span> since <span class="math inline"><em>v</em><sub>0</sub>, <em>v</em><sub>1</sub></span> is a basis and under the hypothesis <span class="math inline">∥<em>v</em><sub>0</sub>∥ = ∥<em>v</em><sub>1</sub>∥ = 1</span> it is just <span class="math inline">cos (<em>θ</em>/2)</span>. Now to simplify the argument we will suppose that <span class="math inline"><em>v</em><sub><em>t</em></sub></span> is a horizontal line and we consider the portion of the euclidean norm ball above the segment <span class="math inline"><em>v</em><sub><em>t</em></sub>, 0 ≤ <em>t</em> ≤ 1</span> it is easy to see that this is the graph of a function which lies between the line segment and the graph of <span class="math display"><em>t</em> ↦ 2<em>t</em>(1−<em>t</em>)<em>s</em><em>i</em><em>n</em><sup>2</sup>(<em>θ</em>/2)/<em>m</em>,</span> which is a parabola. Now we are interested in the behavior of vectors tangent to support planes as <span class="math inline"><em>θ</em> → 0</span>. The distance between <span class="math inline"><em>v</em><sub>0</sub></span> and <span class="math inline"><em>v</em><sub>1</sub></span> is <span class="math inline"><em>O</em>(<em>θ</em>)</span> and the distance between <span class="math inline"><em>v</em><sub>0</sub></span> and <span class="math inline"><em>v</em><sub><em>t</em></sub></span> is roughly <span class="math inline"><em>t</em></span> and we’ll use this later to calculate tangents.</p>
+<p>For the point <span class="math inline"><em>A</em>(<em>t</em>)</span> on the parabola corresponding to <span class="math inline"><em>t</em></span> the tangent vector is inside a cone bounded by lines tangent to <span class="math inline"><em>A</em>(0)<em>A</em>(<em>t</em>)</span> and <span class="math inline"><em>A</em>(1)<em>A</em>(<em>t</em>)</span>. One can estimate the slope of these lines in: in the case of <span class="math inline"><em>A</em>(0)<em>A</em>(<em>t</em>)</span> this is</p>
+<!-- $$\frac{2t(1-t) \sin^2(\theta/2)}{2t\sin(\theta/2)} = (1-t) \sin(\theta/2).$$ -->
+<p><span class="math display">(2<em>t</em>(1−<em>t</em>)sin<sup>2</sup>(<em>θ</em>/2))/(2<em>t</em>sin(<em>θ</em>/2)) = (1−<em>t</em>)sin (<em>θ</em>/2).</span></p>
+<p>So this is bounded between <span class="math inline">0</span> and <span class="math inline">sin (<em>θ</em>/2)</span>.</p>
+<p>By elementary geometry the same estimate is holds for points on the portion of the euclidean norm ball <em>squeezed</em> between the line segment and the parabola. It is easy to see from this that the norm ball is differentiable.</p>
+<figure>
+<img src="./triangle.png" alt="fig" /><figcaption aria-hidden="true">fig</figcaption>
+</figure>
+<h2 id="comparison-norm">Comparison norm</h2>
+<p>The above argument will work for the stable norm <span class="math inline">∥.∥<sub><em>s</em></sub></span> provided we can bound it from above (locally) by a euclidean norm. This follows from a general principle in negative curvature: <strong>distances are always greater than they are in a “comparable” euclidean/flat configuration.</strong></p>
+<p>Let <span class="math inline"><em>v</em><sub>0</sub></span> and <span class="math inline"><em>v</em><sub>1</sub></span> be primitive homology classes which form a basis. Then one has: <span class="math display">sinh (∥<em>v</em><sub>0</sub>∥/2)sinh (∥<em>v</em><sub>1</sub>∥/2)sin (<em>θ</em><sub><em>h</em></sub>) = 1,</span> where <span class="math inline"><em>θ</em><sub><em>h</em></sub></span> is the angle between the corresponding simple closed geodesics at the unique point where they intersect (see <a href="https://arxiv.org/abs/math/0403041">this article</a>). Because of the <span class="math inline">sinh </span> factors the angle between hyperbolic geodesics tends to zero exponentially faster than for the comparable geodesics on a euclidean torus. This is a manifestation of exponential divergence of Jacobi fields.</p>
+<p>From this data, that is the angle <span class="math inline"><em>θ</em><sub><em>h</em></sub></span>, we can construct a comparison norm <span class="math display">∥<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>∥<sub><em>e</em></sub><sup>2</sup> := |<em>x</em>|<sup>2</sup>∥<em>v</em><sub>0</sub>∥<sup>2</sup> + 2∥<em>v</em><sub>0</sub>∥<sup>∥</sup><em>v</em><sub>1</sub>∥cos (<em>θ</em><sub><em>h</em></sub>) + |<em>y</em>|<sup>2</sup>∥<em>v</em><sub>1</sub>∥<sup>2</sup>.</span></p>
+<hr />
+<p><strong>Theorem [CAT+]</strong> The restrictions of the stable norm and the comparison norms to the the positive cone <span class="math display">{<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>, <em>x</em>, <em>y</em> ∈ ℝ<sup>+</sup>}.</span> satisfy</p>
+<p><span class="math display">∥<em>v</em>∥<sub><em>e</em></sub> ≤ ∥<em>v</em>∥<sub><em>s</em></sub> ≤ ∥<em>v</em>∥<sub>1</sub>.</span></p>
+<hr />
+<p>This follows from: - an inductive enumeration of primitive homology classes (with positive coefficients) which is really due to <a href="https://en.wikipedia.org/wiki/Farey_sequence">Farey</a>. - <a href="https://en.m.wikipedia.org/wiki/Toponogov%27s_theorem#:~:text=It%20is%20one%20of%20a,a%20region%20of%20low%20curvature.">Toponogov’s Theorem</a></p>
+<p>The latter was used extensively by Gromov in his work on <span class="math inline"><em>δ</em></span>-hyperbolicity but <a href="https://www2.math.upenn.edu/~wziller/math660/TopogonovTheorem-Myer.pdf">this</a> gives an adequate exposittion.</p>
+<p>The first step in the induction is when we have a pair of triangles with side lengths <span class="math inline">∥<em>v</em><sub>0</sub>∥/2, ∥<em>v</em><sub>1</sub>∥/2</span> which meet at an angle <span class="math inline"><em>θ</em></span>. - one in euclidean space - the other in hyperbolic space Topongov says that the other edge is longer in hyperbolic space than in euclidean space.</p>
+<p>The reason why I divide by 2 is explained in <a href="https://arxiv.org/abs/math/0403041">this article</a>.</p>
+</body>
+</html>
