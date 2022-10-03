@@ -41,7 +41,8 @@ $$v_0= (p_{2n},q_{2n}), v_1 = (p_{2n+1},q_{2n+1}).$$
 Let $v_0,v_1 \in \mathbb{R}^2$ be pair of linearly independent vectors and
 $\|.\|$ be an arbitrary norm on $\mathbb{R}$.
 
-Given a norm $\|. \|$ then there are two norms obvious norms on $\mathbb{R}$ that one can compare it with:
+Given a norm $\|. \|$ then there are two obvious norms on $\mathbb{R}$ that one can compare it with:
+
 1. The one norm $\|x v_0 + y v_1 \|_1 := |x|\|v_0\| + |v| \|v_1\|$
 1. The hilbert norm $\| x v_0 + y v_1 \|_2^2 := |x|^2\|v_0\|^2 +2 \|v_0\|^\|v_1\|\cos(\theta) +  |y|^2 \|v_1\|^2$
 
@@ -108,7 +109,7 @@ This follows from a general principle in negative curvature:
 
 Let $v_0$ and $v_1$ be primitive homology classes which form a basis. Then one
 has: 
-$$\sinh(\|v_0\|/2)\sinh(\|v_1\|/2)\sin(\theta_h) = 1,$$ 
+$$\sinh(\|v_0\|_s/2)\sinh(\|v_1\|_s/2)\sin(\theta_h) = 1,$$ 
 where $\theta_h$ is the angle between the corresponding simple closed geodesics at the unique
 point where they intersect (see [this article](https://arxiv.org/abs/math/0403041)).
 Because of the $\sinh$ factors the angle between hyperbolic geodesics
