@@ -120,7 +120,7 @@ on a euclidean torus. This is a manifestation of exponential divergence
 of Jacobi fields.
 
 From this data, that is the angle $\theta_h$, we can construct a  comparison norm 
-$$\| x v_0 + y v_1 \|_e^2 := |x|^2\|v_0\|^2 +2 \|v_0\|^\|v_1\|\cos(\theta_h) +  |y|^2 \|v_1\|^2.$$
+$$\| x v_0 + y v_1 \|_e^2 := x^2\|v_0\|^2 +2xy \|v_0\|^\|v_1\|\cos(\theta_h) +  y^2 \|v_1\|^2.$$
 
 ---
 

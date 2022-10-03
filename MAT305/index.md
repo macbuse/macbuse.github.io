@@ -55,6 +55,11 @@ title: MAT305
 	- [voici le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
 	- [3D interactive](./monkey.html)
 
+- exo 4 
+	- [la courbe](https://www.wolframalpha.com/input?i=plot+y%5E2+%E2%88%92+x%5E3+%E2%88%92+x%5E2+%3D0)
+	- [x en fonction de t](https://www.wolframalpha.com/input?i=solve+++t%5E2+x%5E2+%E2%88%92+x%5E3+%E2%88%92+x%5E2+%3D+0)
+	- [la courbe parametree par t](https://www.wolframalpha.com/input?i=plot+%28+t%5E2+-+1%2C+t%28+t%5E2+-+1%29+%29+t+from+-+1.5+to+1.5)
+
 ---
 
 

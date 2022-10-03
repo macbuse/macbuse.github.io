@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>toponogov</title>
+  <title>estimate</title>
   <style>
     html {
       line-height: 1.5;
@@ -150,9 +150,6 @@
   <![endif]-->
 </head>
 <body>
-<header id="title-block-header">
-<h1 class="title">toponogov</h1>
-</header>
 <title>
 Toponogov
 </title>
@@ -192,7 +189,7 @@ Toponogov
 <h2 id="comparison-norm">Comparison norm</h2>
 <p>The above argument will work for the stable norm <span class="math inline">∥.∥<sub><em>s</em></sub></span> provided we can bound it from above (locally) by a euclidean norm. This follows from a general principle in negative curvature: <strong>distances are always greater than they are in a “comparable” euclidean/flat configuration.</strong></p>
 <p>Let <span class="math inline"><em>v</em><sub>0</sub></span> and <span class="math inline"><em>v</em><sub>1</sub></span> be primitive homology classes which form a basis. Then one has: <span class="math display">sinh (∥<em>v</em><sub>0</sub>∥<sub><em>s</em></sub>/2)sinh (∥<em>v</em><sub>1</sub>∥<sub><em>s</em></sub>/2)sin (<em>θ</em><sub><em>h</em></sub>) = 1,</span> where <span class="math inline"><em>θ</em><sub><em>h</em></sub></span> is the angle between the corresponding simple closed geodesics at the unique point where they intersect (see <a href="https://arxiv.org/abs/math/0403041">this article</a>). Because of the <span class="math inline">sinh </span> factors the angle between hyperbolic geodesics tends to zero exponentially faster than for the comparable geodesics on a euclidean torus. This is a manifestation of exponential divergence of Jacobi fields.</p>
-<p>From this data, that is the angle <span class="math inline"><em>θ</em><sub><em>h</em></sub></span>, we can construct a comparison norm <span class="math display">∥<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>∥<sub><em>e</em></sub><sup>2</sup> := |<em>x</em>|<sup>2</sup>∥<em>v</em><sub>0</sub>∥<sup>2</sup> + 2∥<em>v</em><sub>0</sub>∥<sup>∥</sup><em>v</em><sub>1</sub>∥cos (<em>θ</em><sub><em>h</em></sub>) + |<em>y</em>|<sup>2</sup>∥<em>v</em><sub>1</sub>∥<sup>2</sup>.</span></p>
+<p>From this data, that is the angle <span class="math inline"><em>θ</em><sub><em>h</em></sub></span>, we can construct a comparison norm <span class="math display">∥<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>∥<sub><em>e</em></sub><sup>2</sup> := <em>x</em><sup>2</sup>∥<em>v</em><sub>0</sub>∥<sup>2</sup> + 2<em>x</em><em>y</em>∥<em>v</em><sub>0</sub>∥<sup>∥</sup><em>v</em><sub>1</sub>∥cos (<em>θ</em><sub><em>h</em></sub>) + <em>y</em><sup>2</sup>∥<em>v</em><sub>1</sub>∥<sup>2</sup>.</span></p>
 <hr />
 <p><strong>Theorem [CAT+]</strong> The restrictions of the stable norm and the comparison norms to the the positive cone <span class="math display">{<em>x</em><em>v</em><sub>0</sub> + <em>y</em><em>v</em><sub>1</sub>, <em>x</em>, <em>y</em> ∈ ℝ<sup>+</sup>}.</span> satisfy</p>
 <p><span class="math display">∥<em>v</em>∥<sub><em>e</em></sub> ≤ ∥<em>v</em>∥<sub><em>s</em></sub> ≤ ∥<em>v</em>∥<sub>1</sub>.</span></p>
