@@ -4,12 +4,23 @@
 
 This is an outline of the ideas behind Theorem 2.1. of the paper ["Simple curves on tori"](https://arxiv.org/abs/math/0005220).
 
-The corner part, that is non differentiability at rational slopes,
+
+It is standard that every convex function admits left and right derivatives at every point 
+and that these are equal except possibly at countably many points. One can view the boundary 
+of a convex set as being locally a convex function so the same is true,
+that is it is a smooth except possibly at countably many points
+
+For the stable norm the corner part, that is non differentiability at rational slopes,
 isn't difficult to do and there is a proof in [this paper](https://arxiv.org/abs/2107.13499).
 As for the flatness there is technically [a proof of this](https://arxiv.org/abs/2001.05557),
 which is essentially what we had in mind in the paragraph after Theorem 2.2,
 although our approach has a much more geometric flavour.
 
+The idea is that if we have a convex function and look at the graph
+around a minimum at smaller and smaller scales then 
+the height of the graph gets vanishingly small compared with it's width.
+To do this for the stable norm we will compare it with a sequence
+of euclidean norms.
 
 
 ## Squeezing and differentiability
