@@ -17,7 +17,10 @@
 
 [F2](./Fiche2-sommes-produits.pdf)
 
-[ggg](fff)
+- [Suite arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique)
+- [Suite géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique)
+- [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique)
+
 
 ---
 
