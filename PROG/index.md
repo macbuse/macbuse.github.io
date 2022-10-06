@@ -31,6 +31,21 @@ I embedded this in a [script with pygame](./my_conway.py)
 it's like 50 LOC.
 
 ---
+
+### Friday 7/10
+
+This week we'll do some more graphics and draw some fractals.
+
+- Cantor's staircase
+- Barnsley's Fern
+- Koch snowflake
+
+We'll be using a lot of **recursion** to build tree structures.
+
+Here is the [notebook](./matplotlib_episode_two.ipynb) to study.
+
+---
+
 ### Friday 30/9
 
 This is the [correction](./corrections.ipynb) for last week.
