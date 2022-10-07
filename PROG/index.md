@@ -16,6 +16,10 @@ much reading but there will be a lot of watching. To begin with the videos will
 be mostly in French but some subjects are only really explained well in
 English. 
 
+
+If you want to read a book then try [this one](./thinkpython2.pdf).
+Or here is [a more elementary one](./book-python1.pdf).
+
 #### Conway's life on a torus
 
 This is an amusing demonstration of how using a convolution to do something is
