@@ -19,7 +19,6 @@ title: MAT305
 	- [f_yx](https://www.wolframalpha.com/input?i=derivate+y+of+y%5E2+-+%282+x%29%2F%281+-+x%5E2+-+y%5E2%29)
 	- [f_xy](https://www.wolframalpha.com/input?i=derivative+x+of+y+%282+x+-+3+y+-+2%2F%281+-+x%5E2+-+y%5E2%29%29)
 
-
 ---
 
 ## Exos a preparer
