@@ -6,12 +6,19 @@ title: MAT305
 
 # Mat 305
 
-[web page avec tous les documents](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php)
-
-- First class: 13/9
+<!-- - First class: 13/9 -->
 - Tuesdays 8:00 Wednesdays 9:45
 
-[2021 TD archived page](./MAT305_index.md)
+- [web page avec tous les documents](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php)
+- [2021 TD archived page](./MAT305_index.md)
+
+- [partiel du 8/10](./CC1_MAT305.pdf)
+	- [la courbe](https://www.wolframalpha.com/input?i=plot+%281+-+t%5E2%2C++t%5E3%2F4+-+3t%29)
+	- [vecteur velocite](https://www.wolframalpha.com/input?i=derivative+t+of++%281+-+t%5E2%2C++t%5E3%2F4+-+3t%29)
+	- [exo 2](https://www.wolframalpha.com/input?i=xy%5E2+%E2%88%92+y%5E3+%2B+log%281+%E2%88%92+x%5E2+%E2%88%92+y%5E2+%29)
+	- [f_yx](https://www.wolframalpha.com/input?i=derivate+y+of+y%5E2+-+%282+x%29%2F%281+-+x%5E2+-+y%5E2%29)
+	- [f_xy](https://www.wolframalpha.com/input?i=derivative+x+of+y+%282+x+-+3+y+-+2%2F%281+-+x%5E2+-+y%5E2%29%29)
+
 
 ---
 
@@ -28,18 +35,28 @@ title: MAT305
 
 ---
 
+
 ## Feuilles avec commentaires
 
-[F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf)
 
-- [correction exo 1 et 2](./f6_corr_1.pdf)
-- [correction exo  2 suite](./f6_corr_bis.pdf)
+[F3](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD3.pdf)
+
+**Rappel**
+
+- [Algebre lineaire](./polyMAT102-espace_vect.pdf)
+
+---
+
+[F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf)
 
 **RAPPEL** 
 1. [derivatives : poly mat102 pages 49-50](./mat102_functions.pdf)
 1. [droites et plans : poly mat102 pages 30-34](./polyMAT102-lines.pdf)
 
 **Exos**
+
+- [correction exo 1 et 2](./f6_corr_1.pdf)
+- [correction exo  2 suite](./f6_corr_bis.pdf)
 
 - [exo 1 : representation graphique](./f2_exo1.md)
 	1. [ellipse](https://mathworld.wolfram.com/Ellipse.html)
