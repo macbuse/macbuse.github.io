@@ -26,6 +26,8 @@ title: Home
 - [frieze patterns](./frieze.pdf)
 - [tea pots](./PROG/thurston_bonsai.html)
 
+![img](./fund_dom_reid_xx.svg)
+
 ---
 # Teaching 2022-23
 
