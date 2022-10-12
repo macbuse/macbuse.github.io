@@ -89,9 +89,9 @@ title: MAT305
 	- [x en fonction de t](https://www.wolframalpha.com/input?i=solve+++t%5E2+x%5E2+%E2%88%92+x%5E3+%E2%88%92+x%5E2+%3D+0)
 	- [la courbe parametree par t](https://www.wolframalpha.com/input?i=plot+%28+t%5E2+-+1%2C+t%28+t%5E2+-+1%29+%29+t+from+-+1.5+to+1.5)
 - exo 5 
-	1. [x^2 + y^2](https://www.wolframalpha.com/input?i=plot+gradient+x%5E2+%2B+y%5E2)
-	1. [x^2 -  y^2](https://www.wolframalpha.com/input?i=plot+gradient+x%5E2+-++y%5E2)
-	1. [x^ + cos(y) ](https://www.wolframalpha.com/input?i=plot+gradient+x%5E2+%2B+cos%28y%29)
+	1. [$`x^2 + y^2`$](https://www.wolframalpha.com/input?i=plot+gradient+x%5E2+%2B+y%5E2)
+	1. [$`x^2 -  y^2`$](https://www.wolframalpha.com/input?i=plot+gradient+x%5E2+-++y%5E2)
+	1. [$`x^2 + cos(y)`$ ](https://www.wolframalpha.com/input?i=plot+gradient+x%5E2+%2B+cos%28y%29)
 
 - exo 6 ensembles de niveaux
 	1. cercle
