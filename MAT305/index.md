@@ -44,6 +44,17 @@ title: MAT305
 
 - [Algebre lineaire](./polyMAT102-espace_vect.pdf)
 
+- exo 1
+	1. OK
+	1. OK
+	1. OK
+	1. OK
+	1. OK 
+	1. non
+	1. OK
+	1. non
+	1. OK
+
 ---
 
 [F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf)
