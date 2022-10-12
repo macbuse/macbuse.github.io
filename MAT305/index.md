@@ -81,7 +81,7 @@ title: MAT305
 	- [derivee $f_{xy}$](https://www.wolframalpha.com/input?i=derivate+x+of+2+e%5E%28x%5E2+%2B+y%5E2%29+y+-+x+sin%28x+y%29)
 
 - exo 3 est difficile  la fonction ne verifie pas la relation de Schwarz en (0,0)
-	- [voici le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
+	- [voici le graphe](http/grs://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
 	- [3D interactive](./monkey.html)
 
 - exo 4 
@@ -95,9 +95,11 @@ title: MAT305
 
 - exo 6 ensembles de niveaux
 	1. cercle
-	1. droite
+	1. 2 droites 
+		-[graphe 3D interactive](./half_pipe.html)
 	1. droite
 	1. [Hyperbole](https://fr.wikipedia.org/wiki/Hyperbole_(math%C3%A9matiques)#%C3%89quations)
+		- [graphe 3D interactive](./saddle2.html)
 
 A savoir :
 1. [cosh(t)](https://fr.wikipedia.org/wiki/Cosinus_hyperbolique)
