@@ -39,9 +39,13 @@ it's like 50 LOC.
 ### Friday 14/10
 
 Here is a [notebook](./matplotlib_episode_two_corr.ipynb) 
-with solutions to last week's exercises
+with solutions to last week's exercises.
 
-And this is the [notebook](./affine_maps.ipynb) to study for this week.
+We were talking about [Newton fractals](https://en.wikipedia.org/wiki/Newton_fractal) and [this](./newton_raphson.html) is how to do it.
+
+![newton](./newton.png)
+
+This is the [notebook](./affine_maps.ipynb) to study for this week.
 
 If you really want to do a project on games then look at this 
 - [Nash](https://www.theoj.org/joss-papers/joss.00904/10.21105.joss.00904.pdf).
