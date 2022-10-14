@@ -48,7 +48,7 @@ title: Home
 <!-- {target="_blank} -->
 ### MAT305
 
-- First class: 13/9
+<!-- - First class: 13/9 -->
 - Tuesdays 8:00 Wednesdays 9:45
 - [web page for class](./MAT305/index.md)
 
@@ -56,18 +56,17 @@ title: Home
 
 ### Introduction à la programmation 
 
-- First class: 16/09
+<!-- - First class: 16/09 -->
 - Fridays 13:45
 - [page for the class](./PROG/index.md)
-- If you are coming to this class then please install [Anaconda](https://www.anaconda.com/products/distribution).
-- The evaluation is by project. 
+<!-- - If you are coming to this class then please install [Anaconda](https://www.anaconda.com/products/distribution). -->
 
-Here are some of the finished projects from 2020 and 2021:
+Evaluation is by project. Here are some of the finished projects from 2020 and 2021:
 
-- [sudoko with digit recognition](./STAGE/Sudoku_-_Sarah_Depernet.html)
-- [labrinths on surfaces](./STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html)
-- [labrinths classic](./STAGE/HARENG_L3A1.html)
-- [Mastermind d'apres Knuth](./STAGE/Mastermind_projet_Touron_Camille_L3A-checkpoint.html)
+1. [sudoko with digit recognition](./STAGE/Sudoku_-_Sarah_Depernet.html)
+1. [labrinths on surfaces](./STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html)
+1. [labrinths classic](./STAGE/HARENG_L3A1.html)
+1. [Mastermind d'apres Knuth](./STAGE/Mastermind_projet_Touron_Camille_L3A-checkpoint.html)
 
 
 Video of a 120-cell by Muaad Tamtam et Damis El Alami.
@@ -77,7 +76,7 @@ Video of a 120-cell by Muaad Tamtam et Damis El Alami.
  </video>
 
 
-And here are some of the things I learned to do by talking to the students (and going on forums).
+And this is something I learned to do by talking to the students (and going on forums).
 
 
 ### Simulation of an epidemic 
@@ -118,7 +117,6 @@ I embedded this in a [script with pygame too](./PROG/epidemic_sim.py)
 <!-- [page for the class](./mnum_index.md) -->
 
 ---
-
 
 <!-- ## Stages/TER -->
 
