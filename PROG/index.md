@@ -45,8 +45,9 @@ We were talking about [Newton fractals](https://en.wikipedia.org/wiki/Newton_fra
 [these](http://paulbourke.net/fractals/newtonraphson/) are very pretty.
 [This](./newton_raphson.html) is how to do it properly using **numpy**.
 
-![newton](./newton.png)
+<!-- ![newton](./newton.png) -->
 
+<iframe>src="./newton_frac.html" </iframe>
 
 
 This is the [notebook](./affine_maps.ipynb) to study for this week.
