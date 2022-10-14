@@ -41,9 +41,13 @@ it's like 50 LOC.
 Here is a [notebook](./matplotlib_episode_two_corr.ipynb) 
 with solutions to last week's exercises.
 
-We were talking about [Newton fractals](https://en.wikipedia.org/wiki/Newton_fractal) and [this](./newton_raphson.html) is how to do it.
+We were talking about [Newton fractals](https://en.wikipedia.org/wiki/Newton_fractal),
+[these](http://paulbourke.net/fractals/newtonraphson/) are very pretty.
+[This](./newton_raphson.html) is how to do it properly using **numpy**.
 
 ![newton](./newton.png)
+
+
 
 This is the [notebook](./affine_maps.ipynb) to study for this week.
 
