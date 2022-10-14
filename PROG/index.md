@@ -47,7 +47,7 @@ We were talking about [Newton fractals](https://en.wikipedia.org/wiki/Newton_fra
 
 <!-- ![newton](./newton.png) -->
 
-<iframe>src="./newton_frac.html" </iframe>
+<iframe src="./newton_frac.html"> </iframe>
 
 
 This is the [notebook](./affine_maps.ipynb) to study for this week.
