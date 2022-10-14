@@ -36,6 +36,19 @@ it's like 50 LOC.
 
 ---
 
+### Friday 14/10
+
+Here is a [notebook](./matplotlib_episode_two_corr.ipynb) 
+with solutions to last week's exercises
+
+And this is the [notebook](./affine_maps.ipynb) to study for this week.
+
+If you really want to do a project on games then look at this 
+- [Nash](https://www.theoj.org/joss-papers/joss.00904/10.21105.joss.00904.pdf).
+- [documentation](https://nashpy.readthedocs.io/en/stable/tutorial/index.html)
+
+---
+
 ### Friday 7/10
 
 This week we'll do some more graphics and draw some fractals.
