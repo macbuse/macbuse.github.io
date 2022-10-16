@@ -24,8 +24,8 @@ title: Home
 #### what I'm doing this week
 
 - [frieze patterns](./frieze.pdf)
-- [tea pots](./PROG/thurston_bonsai.html)
-
+- [newton stuff](./PROG/newton_frac.html)
+<!-- - [tea pots](./PROG/thurston_bonsai.html) -->
 ![img](./fund_dom_reid_xx.svg)
 
 ---

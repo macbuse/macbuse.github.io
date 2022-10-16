@@ -63,7 +63,6 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- <iframe src="./newton_frac.html"> </iframe> -->
 
-
 This is the [notebook](./affine_maps.ipynb) to study for this week.
 
 If you really want to do a project on games then look at this 
