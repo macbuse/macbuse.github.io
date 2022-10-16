@@ -47,7 +47,20 @@ We were talking about [Newton fractals](https://en.wikipedia.org/wiki/Newton_fra
 
 ![newton](./newton.png)
 
-[video of a family of fractals](./newton_frac.html)
+I uploaded a video to YouTube as that was easiest
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/cMlELMtt6GA" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!-- [video of a family of fractals](./newton_frac.html) -->
+
+<!-- <video width="512" height="512" loop preload="auto"> -->
+<!--   <source src="xx.mp4" type="video/mp4"> -->
+<!-- Your browser does not support the video tag. -->
+<!-- </video> -->
+
 <!-- <iframe src="./newton_frac.html"> </iframe> -->
 
 
