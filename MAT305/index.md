@@ -44,7 +44,7 @@ title: MAT305
 
 - [Algebre lineaire](./polyMAT102-espace_vect.pdf)
 
-- exo 1
+- exo 1 
 	1. OK
 	1. OK
 	1. OK
@@ -54,6 +54,15 @@ title: MAT305
 	1. OK
 	1. non
 	1. OK
+
+- exo 4 a/
+	1. OK
+	1. NON  $F_2(2,0), 2F_2(1,0)$
+	1. OK
+	1. OK
+
+
+- exo 5 [correction de 2021](./correction_f2exo6.pdf]
 
 ---
 
