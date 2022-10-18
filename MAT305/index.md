@@ -62,7 +62,7 @@ title: MAT305
 	1. OK
 
 
-- exo 5 [correction de 2021](./correction_f2exo6.pdf]
+- exo 5 [correction de 2021](./correction_f2exo6.pdf)
 
 ---
 
