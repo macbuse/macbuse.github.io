@@ -9,10 +9,6 @@ title: Home
 ### mcshane@univ-grenoble-alpes.fr
 
 
-- I will probably attend [this conference](https://ms-math-computer.science/projects/dmv_math_art_22.html) on zoom.
-- I organised a special session at **AMS-EMS-SMF** Joint International Meeting in July. 
-	<!-- - [event programme](https://ams-ems-smf2022.inviteo.fr/index.php?langue=en&onglet=11&acces=&idUser=&emailUser=&messageConfirmation=) -->
-	- [special session schedule](./schedule_amssmf.md)
 
 <!-- - I am currently in confinement with COVID -->
 <!-- - This week I'm sad :( because Copilot is out of beta preview. -->
@@ -21,22 +17,35 @@ title: Home
 <!-- - this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded. -->
 - Why is this page on GitHub? [Read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/)
 
-#### what I'm doing this week
+<h1 id="research">Research</h1>
 
-- [frieze patterns](./frieze.pdf)
-- [newton stuff](./PROG/newton_frac.html)
-<!-- - [tea pots](./PROG/thurston_bonsai.html) -->
-<!-- ![img](./fund_dom_reid_xx.svg) -->
+- I am principal investigator [ToFu](https://persyval-lab.org/en/ToFu)
+- I am an associate member of <a href="http://gear.math.illinois.edu">GEAR</a>
+- I was <strong>director</strong> of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
+<!-- - I will probably attend [this conference](https://ms-math-computer.science/projects/dmv_math_art_22.html) on zoom. -->
+- I organised a special session at **AMS-EMS-SMF** Joint International Meeting in July. 
+	<!-- - [event programme](https://ams-ems-smf2022.inviteo.fr/index.php?langue=en&onglet=11&acces=&idUser=&emailUser=&messageConfirmation=) -->
+	- [special session schedule](./schedule_amssmf.md)
 
-### what I've been doing lately
 
-Mostly geometry of surfaces and its relations with number theory.
+#### what I've been doing lately
 
--  Markov uniqueness, pants and the Bunyakovsky conjecture
--  [EISENSTEIN INTEGERS AND EQUILATERAL IDEAL TRIANGLES](./eisenstein.pdf)
--  [GEOMETRY OF FERMAT’S SUM OF SQUARES](./squares.pdf)
+Mostly geometry of surfaces and its relations with number theory
+here are some preprints.
+
+-  Markov uniqueness, pants and the Bunyakovsky conjecture **coming soon**
+-  [Eisenstein integers and equilateral ideal triangles](./eisenstein.pdf)
+-  [geometry of Fermat’s sum of squares](./squares.pdf)
 -  [Convexity and Aigner's Conjectures](https://arxiv.org/pdf/2101.03316.pdf)
 -  [On systoles and ortho spectrum rigidity](https://arxiv.org/abs/1909.09829)
+
+#### what I'm doing this week
+
+<!-- - [frieze patterns](./frieze.pdf) -->
+- [newton fractals](./PROG/newton_frac.html)
+- back on [Copilot](https://github.com/features/copilot)
+<!-- - [tea pots](./PROG/thurston_bonsai.html) -->
+<!-- ![img](./fund_dom_reid_xx.svg) -->
 
 ---
 # Teaching 2022-23
