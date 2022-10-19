@@ -26,7 +26,17 @@ title: Home
 - [frieze patterns](./frieze.pdf)
 - [newton stuff](./PROG/newton_frac.html)
 <!-- - [tea pots](./PROG/thurston_bonsai.html) -->
-![img](./fund_dom_reid_xx.svg)
+<!-- ![img](./fund_dom_reid_xx.svg) -->
+
+### what I've been doing lately
+
+Mostly geometry of surfaces and its relations with number theory.
+
+-  Markov uniqueness, pants and the Bunyakovsky conjecture
+-  [EISENSTEIN INTEGERS AND EQUILATERAL IDEAL TRIANGLES](./eisenstein.pdf)
+-  [GEOMETRY OF FERMAT’S SUM OF SQUARES](./squares.pdf)
+-  [Convexity and Aigner's Conjectures](https://arxiv.org/pdf/2101.03316.pdf)
+-  [On systoles and ortho spectrum rigidity](https://arxiv.org/abs/1909.09829)
 
 ---
 # Teaching 2022-23
@@ -247,7 +257,11 @@ to get information about closed hyperbolic manifolds.
 <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/qf_manifold.svg" width="600">
 </center>
 
-With Bill Goldman and a couple of his ex students we have been working on a book that just got published <a href="https://www.amazon.com/Automorphisms-Two-generator-Isometric-Hyp:we/dp/1470436140">by the AMS</a>. Much of it is dedicated to explaining this picture of an invariant fractal in the character variety.
+With Bill Goldman and a couple of his ex students we have been working on a
+book that just got published 
+<a href="https://www.amazon.com/Automorphisms-Two-generator-Isometric-Hyp:we/dp/1470436140">by the AMS</a>. 
+Much of it is dedicated to explaining this picture of an invariant
+fractal in the character variety.
 
 
 <center>
@@ -255,7 +269,7 @@ With Bill Goldman and a couple of his ex students we have been working on a book
 </center>
 
 
-<h2 id="recentpreprints">Recent preprints</h2>
+<h2 id="recentpreprints"> Recent preprints</h2>
 
 Mostly geometry of surfaces and (elementary) number theory.
 
