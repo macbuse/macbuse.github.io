@@ -11,6 +11,7 @@ title: MAT305
 
 - [web page avec tous les documents](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php)
 - [2021 TD archived page](./MAT305_index.md)
+- [mes calculs](./uniqueness.pdf)
 
 - [partiel du 8/10](./CC1_MAT305.pdf)
 	- [la courbe](https://www.wolframalpha.com/input?i=plot+%281+-+t%5E2%2C++t%5E3%2F4+-+3t%29)
