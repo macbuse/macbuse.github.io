@@ -154,17 +154,20 @@ prime then the uniqueness conjecture is true.
 
 \end{thm}
 
-The polynomial $m^2 X^2 + 1$ satisfies the hypothesis of the Bunyakovsky conjecture:
+The polynomial $m^2 X^2 + 1$ satisfies the hypothesis of the Bunyakovsky conjecture namely:
 \begin{itemize}
-\item its leading coefficient is positive.
-\item it is irreducible over $\ZZ$.
-\item it is non trivial over $\mathbb{F}_p$ for all primes $p$.
+\item is non constant
+\item it is irreducible in  $\ZZ[X]$.
+\item its reduction is non trivial in $\mathbb{F}_p[X]$ for all primes $p$.
 \end{itemize}
 
 According to the conjecture under these hypotheses the the restriction of the
-polynomial  $m^2 X^2 + 1$ to the integers has an infinity of prime values.
+polynomial  $m^2 X^2 + 1$ to the integers has an infinity of prime values. The
+simplest example is $m=1$ and the polynomial $X^2 + 1$ and in this case it was
+Euler who posed the question. The interested reader can find more details and
+its relation to another conjecture in \cite{Pollack}.
 
-The proof of our theorem, though it relates two conjectures apparently from
+The proof of our theorem, though it relates these two conjectures apparently from
 number theory, has an essential topological ingredient in the form of Lemma
 \ref{lem: labelling}.
 
@@ -188,12 +191,14 @@ arises as the length of such a geodesic.
 There is an equivalent conjecture to the Markoff conjecture (Conjecture 3
 \cite{mcp}) which concerns simple closed geodesics on $\xx$:
 
-\textit{The modular torus $\xx$ has the following property: if $\alpha, \beta$
+\noindent
+\textbf{Conjecture:} \textit{The modular torus $\xx$ has the following property: if $\alpha, \beta$
 is a pair of simple closed geodesics of the same length, then there is an
 automorphism  of $\xx$ taking one to the other.}
 
-Since the group of automorphisms of $\xx$ is isomorphic to a cyclic group of order 6 
-this means that the multiplicity of and number in the spectrum of  lengths is at most 6.
+Since the group of automorphisms of $\xx$ is isomorphic to a cyclic group of
+order 6 this means that the multiplicity of any number in the spectrum of
+lengths of simple closed geodesics is at most 6.
 
 \begin{figure}[ht]
 \begin{center}
@@ -203,13 +208,16 @@ this means that the multiplicity of and number in the spectrum of  lengths is at
 	\label{fig:torus}
 \end{figure}
 
-An important feature of the $\xx$ is that it admits non trivial automorphisms.
-It is east to show that $\Gamma'$ is normalised by $\begin{pmatrix} 0 & -1 \\ 1 & 0
-\end{pmatrix}$ and so this induces an automorphism, in fact the
-\textit{elliptic involution}, of $\xx$. A  \textit{Weierstrass point} is one of
-the three fixed points of this involution. The interaction of this
-automorphisms with the various geodesics on $\xx$ is central to the proof of
-Theorem \ref{main}.
+% An important feature of the $\xx$ is that it admits non trivial
+% automorphisms.
+Among the automorphisms of $\xx$ there is one in particular that we will be
+concerned with the \textit{elliptic involution} which is the unique
+automorphism of order 2. The elliptic involution arises as follows: $\Gamma'$
+is normalised by $\begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ and so this
+induces an involution of $\xx$. A \textit{Weierstrass point} is one of the
+three fixed points of this involution. The interaction of this automorphisms
+with the various geodesics on $\xx$ is central to the proof of Theorem
+\ref{main}.
 
 \subsection{Introducing $\lambda$-lengths}
 
@@ -251,7 +259,7 @@ outside of the pair of lifts of $H$ tangent to $\partial \HH$ at $\gamma^\pm$.
 \begin{center}
 \includegraphics[scale=.5]{lambda.png}
 \end{center}
-\caption{Lift of $\gamma$ and the terminal lifts of the cusp region $H$.
+\caption{Above a lift of $\gamma$ and the terminal lifts of the cusp region $H$ of the punctured torus below.
 The solid arc of the demi circle is the portion used to define the $\lambda$-length  with respect to $H$.}
 	\label{fig:lambda length}
 \end{figure}
@@ -309,31 +317,23 @@ below.}
 	\label{fig: cut torus}
 \end{figure}
 
-\subsubsection{Proving unicity for a Markoff number} Our argument now is that
+\subsubsection{Proving unicity for a Markoff number} 
+Our argument reduces to:
+
 if $\gamma, \gamma'$ is a pair of  bicuspidal geodesic 
 
 \begin{itemize}	
 \item each of which is invariant under the elliptic involution 
-\item have $\lambda$-length a prime $p$ 
+\item each has  $\lambda$-length some prime $p$ 
 \end{itemize}	
 
 then there is an automorphism of $\xx$ which takes $\gamma$ to $\gamma'$. This
-is because  the prime $p$ splits in an essentially unique way over the Gaussian integers.
-This means that there are at most six such geodesics on $\xx$. Now if $\gamma$
-is in addition disjoint from a simple closed geodesic $\alpha$ then any other
-simple geodesic of the same length is the image of $\alpha$ under some
-automorphism of $\xx$ too. (see discussion of Conjecture 3 \cite{mcp} above).
-
-% \begin{thm}[Fermat]\label{main}
-% Let $p$ be a prime then the equation
-% $$x^2 + y^2 = p $$
-% has a solution in integers  iff  $p =2$ or $p-1$ is a multiple of $4$.
-% \end{thm}
-
-% As in Zagier's remarkable proof \cite{zagier} this result follow from showing
-% that a certain involution has a fixed point. Amusingly Burnsides's Lemma
-% reduces this to showing that another involution has exactly two fixed points.
-
+is because  the prime $p$ splits in an essentially unique way over the Gaussian
+integers which means that there are at most six such geodesics on $\xx$. Now if
+in addition $\gamma$ say is disjoint from a simple closed geodesic $\alpha$ then
+any other simple geodesic of the same length is the image of $\alpha$ under
+some automorphism of $\xx$ too. (see discussion of Conjecture 3 \cite{mcp}
+above).
 
 \subsection{Organisation, Remarks}
 
@@ -349,19 +349,33 @@ to show Theorem \ref{main} and show how the sequence $k^2m^2 + 1$ arises.
 
 
 The content of sections 2 and 3 is purely expository and, as such, we make no
-claims of originality. We will assume that the reader has some familiarity with
+claim of originality. We will assume that the reader has some familiarity with
 the theory of Fuchsian groups. Almost all  of the material in Sections 2 be
 found in Serre's book \cite{serre} and the reader should not need any other
 references to understand this paper. 
 
 This work grew out of an attempt to find a geometric proof of Fermat's theorem
-on sums of squares to understand Heath-Brown and Zagier's proofs \cite{zagier}.
-We note that in recent work by Bourgain, Gamburd and Sarnak prove that almost
-all Markoff numbers are highly composite. Much inspiration came from listening
-to Dennis Sullivan's lecture at the Abel Prize ceremony in 2022. The idea of
-looking at other arcs on pants is how I fancifully imagined he, as a
+on sums of squares to understand Heath-Brown and Zagier's proofs \cite{zagier}:
+
+ \begin{thm}[Fermat]
+ Let $p$ be a prime then the equation
+ $$x^2 + y^2 = p $$
+ has a solution in integers  iff  $p =2$ or $p-1$ is a multiple of $4$.
+ \end{thm}
+
+ \noindent We succeeded, the result is to be found in \cite{squares}, and much
+ of Section 2 is lifted from that paper.
+
+Another factor was recent work by Bourgain, Gamburd and Sarnak proving that
+almost all Markoff numbers are highly composite. Inspiration then  came from
+listening to Dennis Sullivan's lecture at the Abel Prize ceremony in 2022. The
+idea of looking at other arcs on pants is how I fancifully imagined he, as a
 topologist, might have tried to deal with composite Markoff numbers.
 
+
+% As in Zagier's remarkable proof \cite{zagier} this result follow from showing
+% that a certain involution has a fixed point. Amusingly Burnsides's Lemma
+% reduces this to showing that another involution has exactly two fixed points.
  % \subsubsection{Farey tessalation}
 % This work was  inspired by an almost obsessive study  of the 
  % \textit{Farey tessalation}.
@@ -737,7 +751,7 @@ so that the result follows in this case to.
 
 \subsection{Geodesics on pants}\label{geos on pants}
 
-As we said in the Introduction made our proof of Button's theorem possible was
+As we said in the introduction made our proof of Button's theorem possible was
 that  each closed simple geodesic $\alpha$ on $\xx$ is paired with a unique
 simple bicuspidal geodesic $\alpha^*$. Using the fact that this bicuspidal
 geodesic passes through a single Weierstrass point and our reformulation
@@ -751,22 +765,22 @@ merely that:
 		a prime number that can be written as a sum of two squares  $a^2 + b^2$.
 \end{enumerate}
 
-Since $a,b$ are unique up to permutation then, by Lemma \ref{squares}, there is
-only be a single  geodesic of the family of vertical lines ending at  $k/p$
-which meets the $\sl2$-orbit of $i$. We now show how to compute the
-$\lambda$-length of any such geodesic which finishes the proof of Theorem
-\ref{main}.
+Since $a,b>0$ are unique up to permutation then, by Lemma \ref{squares}, there
+is a single  geodesic of the family of vertical lines ending at  $k/p$ which
+meets the $\sl2$-orbit of $i$. We now show how to compute the $\lambda$-length
+of any such geodesic which finishes the proof of Theorem \ref{main}.
 
- By cutting along the closed geodesic $\alpha$ we obtain a (degenerate) pair of
- pants with a single cusp and boundary consisting of a pair of closed geodesics
- of lengths $\ell(\alpha)$. Any curve disjoint from $\alpha$, for example
- $\alpha^*$, survives this cutting process and we can compute its length on
- this pair of pants. Since we are only interested in $\lambda$-lengths it is
- more convenient to work with a slightly different pair of pants which has the
- same spectrum of $\lambda$-lengths but which is uniformised by a particularly
- nice Fuchsian group $\GG$. This coincidence is due to the fact that the pants
- obtained by cutting along $\alpha$ and this new pair of pants are double
- covers of a certain orbifold.
+By cutting along the closed geodesic $\alpha$ (see \cite{thesis}) we obtain a
+(degenerate) pair of pants with a single cusp and boundary consisting of a pair
+of closed geodesics of lengths $\ell(\alpha)$. Any curve disjoint from
+$\alpha$, for example $\alpha^*$, survives this cutting process and we can
+compute its length on this pair of pants. Since we are only interested in
+$\lambda$-lengths it is more convenient to work with a slightly different pair
+of pants which has the same set of $\lambda$-lengths but which is uniformised
+by a particularly nice Fuchsian group $\GG$. This coincidence is due to the
+fact that the pants obtained by cutting along $\alpha$ and this new pair of
+pants have a common (double) cover Figure \ref{fig: pants} covers of a certain
+orbifold.
 
 
 Let
@@ -870,6 +884,7 @@ and in the middle the surface $\HH/(\GG\cap \GG^*)$.}
 M. Aigner
 \textit{Markov's Theorem and 100 Years of the Uniqueness Conjecture}, Springer( 2013)
 
+
 \bibitem{barag}
 A. Baragar,
 \textit{On the Unicity Conjecture for Markoff Numbers}
@@ -897,7 +912,7 @@ Yi Huang
 \textit{Moduli Spaces of Surfaces}e University of Melbourne Doctoral Thesis 2014
 \url{https://www.yihuang.site/pdfs/yi%20huang_moduli%20spaces%20of%20surfaces%20(phd%20thesis).pdf}
 
-\bibitem{thesis}
+\bibitem{squares}
 G. McShane, V. Sergesciu
 \textit{Geometry of fermat’s sum of squares}, 2021 
 \url{https://macbuse.github.io/squares.pdf}
@@ -922,6 +937,11 @@ Geometriae Dedicata volume 129, pages15–22 (2007)
 R. C. Penner, 
 \textit{The decorated Teichmueller space of punctured surfaces}, 
 Communications in Mathematical Physics 113 (1987), 299–339.
+
+\bibitem{Pollack}
+Paul Pollack
+\textit{ Hypothesis H and an impossibility theorem of Ram Murty }
+Rendiconti del Seminario Matematico 68(2) 2010
 
 \bibitem{schmutz}
  Paul Schmutz Schaller. Geometry of Riemann surfaces based on closed geodesics. Bull. Amer.
