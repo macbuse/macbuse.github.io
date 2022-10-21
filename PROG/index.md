@@ -34,6 +34,22 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 I embedded this in a [script with pygame](./my_conway.py)
 it's like 50 LOC.
 
+
+
+---
+
+
+### Friday 21/10
+
+- Finish the notebook on affine maps
+- Draw the Barnsley fern
+- if you finish then here is a [first notebook](./convolutions_etc.ipynb) on convolutions_etc
+
+well because convolutions allow us to write complicated stuff in a very simple way sometimes.
+- game of life
+- simulations
+- maze solving code
+
 ---
 
 ### Friday 14/10

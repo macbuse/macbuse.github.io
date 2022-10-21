@@ -30,12 +30,12 @@ title: Home
 
 #### what I've been doing lately
 
-Mostly geometry of surfaces and its relations with number theory
+Geometry of surfaces and its relations with number theory
 here are some preprints.
 
 -  Markov uniqueness, pants and the Bunyakovsky conjecture **coming soon**
 -  [Eisenstein integers and equilateral ideal triangles](./eisenstein.pdf)
--  [geometry of Fermat’s sum of squares](./squares.pdf)
+-  [Geometry of Fermat’s sum of squares](./squares.pdf)
 -  [Convexity and Aigner's Conjectures](https://arxiv.org/pdf/2101.03316.pdf)
 -  [On systoles and ortho spectrum rigidity](https://arxiv.org/abs/1909.09829)
 
@@ -58,7 +58,7 @@ here are some preprints.
 
 ### MAT 102
 
-- First class: 14/9
+<!-- - First class: 14/9 -->
 - Wednesdays 15h15, Thursday 8h
 - [web page for class](./MAT102/index.md)
 
@@ -126,12 +126,6 @@ I embedded this in a [script with pygame too](./PROG/epidemic_sim.py)
 
 
 - First class:
-<!-- - Fridays 13h45 salle CARISM RdC. -->
-
-<!-- **Derniere seance mercredi 4/5 Salle SAFE** -->
-
-<!-- 1. there will be a break at 15h30 for 15 minutes to ventilate the room. -->
-<!-- 1. you may have to install **numpy** in Pycharm ```pip install numpy``` -->
 
 <!-- [page for the class](./mnum_index.md) -->
 
