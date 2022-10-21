@@ -79,7 +79,7 @@
 
  \author[McShane]{Greg McShane}
  % \author[Vlad]{Vlad Sergesciu}
-\address{Institut Fourier 100 rue des maths, BP 74, 38402 St Martin d'H\`eres cedex, France}
+\address{Institut Fourier 100 rue des maths, BP 74, 38402 Gieres. France}
 \email{mcshane at univ-grenoble-alpes.fr}
 
 
@@ -133,7 +133,7 @@ if $p$ is an odd prime.
  \end{thm}
 
 
-Subsequently Aigner extended  this approach showing:
+Subsequently Aigner extended  this showing:
  
  \begin{thm}[Aigner]
  Let $m$ be a Markoff number of the form 
@@ -143,18 +143,22 @@ Subsequently Aigner extended  this approach showing:
 
 We will not be concerned with Aigner's theorem but we will give a short proof
 of Button's theorem using some geometry and the fact that the ring of Gaussian
-integers is a unique factorisation domain. This geometric approach will allow
-us to show that the unicity of Markoff numbers is a corollary of the
-Bunyakovsky conjecture. More precisely:
+integers is a unique factorisation domain. This approach will allow us to show
+that the unicity of Markoff numbers is a corollary of the Bunyakovsky
+conjecture. More precisely:
 
 \begin{thm}\label{main}
 
-If for every positive integer $m$ the sequence $$k^2m^2 + 1, k \in \ZZ$$ contains a
+If for every Maroff number $m$ the sequence $$k^2m^2 + 1, k \in \ZZ$$ contains a
 prime then the uniqueness conjecture is true.
 
 \end{thm}
 
-The polynomial $m^2 X^2 + 1$ satisfies the hypothesis of the Bunyakovsky conjecture namely:
+
+In fact, if we relax the hypothesis and suppose that $m$ is any non zero
+integer then the polynomial $m^2 X^2 + 1$ still satisfies the hypothesis of the
+Bunyakovsky conjecture namely:
+
 \begin{itemize}
 % \item is non constant
 \item it is irreducible in  $\ZZ[X]$.
@@ -162,7 +166,7 @@ The polynomial $m^2 X^2 + 1$ satisfies the hypothesis of the Bunyakovsky conject
 \end{itemize}
 
 \noindent
-According to the conjecture under these hypotheses the the restriction of the
+According to the conjecture, under these hypotheses, the the restriction of the
 polynomial  $m^2 X^2 + 1$ to the integers has an infinity of prime values. The
 simplest example is $m=1$ and the polynomial $X^2 + 1$ and in this case it was
 Euler who posed the question. The interested reader can find more details and
@@ -388,12 +392,13 @@ topologist, might have tried to deal with composite Markoff numbers.
 
 \subsection{Thanks}
 
-The first author thanks Bob Penner, Louis Funar and Alexei Marin conversations
-over the years concerning this subject. He would also like to thank Yi Huang
-for reading early drafts of the manuscript.
-
-We would also like to thank Boris Springborn  for telling us about his work
+It is a pleasure to thank Louis Funar, Alexei Marin, Bob Penner and Vlad
+Sergesciu for  conversations over the years concerning this subject. We would
+also like to thank Yi Huang for reading early drafts of the manuscript and
+Boris Springborn  for telling us about his work
 \cite{spring} which is closely related to ours.
+
+This paper was written using Vimtex for Neovim and copilot.vim .
 
 
 
@@ -934,7 +939,7 @@ Invent. Math. (1998)
 
 \bibitem{mcp}
 Greg McShane, Hugo Parlier,
-Multiplicities of simple closed geodesics and hypersurfaces in Teichmüller space,
+\textit{Multiplicities of simple closed geodesics and hypersurfaces in Teichmüller space,}
 Geom. Topol.
 Volume 12, Number 4 (2008), 1883-1919.
 
@@ -954,8 +959,9 @@ Paul Pollack
 Rendiconti del Seminario Matematico 68(2) 2010
 
 \bibitem{schmutz}
- Paul Schmutz Schaller. Geometry of Riemann surfaces based on closed geodesics. Bull. Amer.
-Math. Soc. (N.S.),  1998.
+ Paul Schmutz Schaller. 
+ \textit{Geometry of Riemann surfaces based on closed geodesics.}
+ Bull. Amer. Math. Soc. (N.S.),  1998.
 
 \bibitem{serre}
 J-P. Serre,
@@ -990,6 +996,9 @@ D. Zagier,
  Acta Arithmetica, Volume: 128, Issue: 3, page 295-301
 
 
+  \bibitem{copilot}
+  Tim Pope Copilot for vim
+   \url{https://github.com/github/copilot.vim}
 
 %
 
