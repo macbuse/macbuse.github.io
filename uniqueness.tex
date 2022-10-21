@@ -184,6 +184,16 @@ is a Markoff number where
 $\ell_\gamma$ is the length of $\gamma$. Conversely, every Markoff number
 arises as the length of such a geodesic.
 
+There is an equivalent conjecture to the Markoff conjecture (Conjecture 3
+\cite{mcp}) which concerns simple closed geodesics on $\xx$:
+
+\textit{The modular torus $\xx$ has the following property: if $\alpha, \beta$
+is a pair of simple closed geodesics of the same length, then there is an
+automorphism  of $\xx$ taking one to the other.}
+
+Since the group of automorphisms of $\xx$ is isomorphic to a cyclic group of order 6 
+this means that the multiplicity of and number in the spectrum of  lengths is at most 6.
+
 \begin{figure}[ht]
 \begin{center}
 \includegraphics[scale=.5]{torus.png} 
@@ -297,7 +307,15 @@ below.}
 
 	\label{fig: cut torus}
 \end{figure}
-% Consider the following well known theorem from elementary number theory:
+
+Our argument now is that if any pair of  bicuspidal geodesic $\gamma, \gamma'$
+which are invariant under the elliptic involution and have $\lambda$-length a
+prime $p$ are related by an automorphism. This is because $p$ splits in an
+essentially unique way over the Gaussian integers. This means that there are at
+most six such geodesics on $\xx$. Now if $\gamma$ is disjoint from a simple
+closed geodesic $\alpha$ then any other such geodesic of the same length is the
+image of $\alpha$ under some automorphism of $\xx$. (see discussion of
+Conjecture 3 \cite{mcp} above).
 
 % \begin{thm}[Fermat]\label{main}
 % Let $p$ be a prime then the equation
@@ -442,19 +460,13 @@ is on one of the lines of the family in the statement.
 
 \subsubsection{Calculating $\lambda$-lengths}
 
-Let $a/c, b/d$ be a pair of distinct rationals.
-We define the \textit{length} of the arc 
-joining these rationals 
-to be the length, with respect to the Poincar\'e metric on $\HH$, 
-of the portion  outside of the Ford circles tangent at $a/c, b/d$ .
-
-
-Following Penner \cite{bob} we define the
-$\lambda$-length of an arc to be the exponential of this 
-length.
- It is a consequence  of Lemma \ref{calcul} below  that the arcs of $\lambda$-length 1 are the edges in the so-called 
-\textit{Farey diagram} (see Figure \ref{farey diagram}).
-We have:
+Let $a/c, b/d$ be a pair of distinct rationals. We define the \textit{length}
+of the arc joining these rationals to be the length, with respect to the
+Poincar\'e metric on $\HH$, of the portion  outside of the Ford circles tangent
+at $a/c, b/d$ . and the $\lambda$-length of an arc to be the exponential of
+this length. It is a consequence  of Lemma \ref{calcul} below  that the arcs of
+$\lambda$-length 1 are the edges in the so-called \textit{Farey diagram} (see
+Figure \ref{farey diagram}). We have:
 
 \begin{lem}\label{calcul}
 Let $a/c, b/d$ be a pair of distinct extended rationals.
@@ -878,8 +890,9 @@ R. C. Penner,
 \textit{The decorated Teichmueller space of punctured surfaces}, 
 Communications in Mathematical Physics 113 (1987), 299–339.
 
-
-
+\bibitem{schmutz}
+ Paul Schmutz Schaller. Geometry of Riemann surfaces based on closed geodesics. Bull. Amer.
+Math. Soc. (N.S.),  1998.
 
 \bibitem{serre}
 J-P. Serre,
