@@ -33,7 +33,7 @@ title: Home
 Geometry of surfaces and its relations with number theory
 here are some preprints.
 
--  Markov uniqueness, pants and the Bunyakovsky conjecture **coming soon**
+-  [Markov uniqueness, pants and the Bunyakovsky conjecture](./uniqueness.pdf)
 -  [Eisenstein integers and equilateral ideal triangles](./eisenstein.pdf)
 -  [Geometry of Fermat’s sum of squares](./squares.pdf)
 -  [Convexity and Aigner's Conjectures](https://arxiv.org/pdf/2101.03316.pdf)

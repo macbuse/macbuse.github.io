@@ -38,7 +38,6 @@ it's like 50 LOC.
 
 ---
 
-
 ### Friday 21/10
 
 - Finish the notebook on affine maps
