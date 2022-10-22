@@ -75,10 +75,9 @@
 
 
 
-\title{Markov uniqueness, pants and the Bunyakovsky conjecture}
+\title{Markoff uniqueness, pants and the Bunyakovsky conjecture}
 
  \author[McShane]{Greg McShane}
- % \author[Vlad]{Vlad Sergesciu}
 \address{Institut Fourier 100 rue des maths, BP 74, 38402 Gieres. France}
 \email{mcshane at univ-grenoble-alpes.fr}
 
@@ -93,14 +92,13 @@ We show that the Bunyakovsky conjecture implies the Markov uniqueness
 conjecture. Explicitly: If for every positive integer $m$ the sequence 
 
 $$k^2m^2 + 1, k \in \ZZ$$ 
-
+\noindent
 contains a prime then Markov uniqueness conjecture is true. Surprisingly,
 though our result relates these two well known conjectures in number theory, 
-the ingredients of   our proof are for the most part geometric and to some extent
+the ingredients of  our proof are for the most part geometric and even
 topological.
 
 \end{abstract} 
-
 
 \section{Introduction}
 
@@ -132,10 +130,11 @@ satisfied the uniqueness conjecture.
 if $p$ is an odd prime.
  \end{thm}
 
-\noindent
- In fact Baragar and Button proved that the uniqueness conjecture holds 
- when $m$ is replaced by $3m+2$ and $3m-2$ in the statement of the theorem. Our
- work here started as an attempt to show these results geometrically.
+\noindent In fact Baragar and Button also proved that the uniqueness conjecture
+holds when $m$ is replaced by $3m+2$ and $3m-2$ in the statement of the
+theorem. Our work here started as an attempt to show these results
+geometrically. Although we were not successful in this we think our Theorem
+\ref{main} is of some interest in its own right.
 
 Subsequently Aigner extended  this showing:
  
@@ -158,9 +157,10 @@ prime then the uniqueness conjecture is true.
 
 \end{thm}
 
-In fact, if we relax the hypothesis and suppose that $m$ is any non zero
-integer then the polynomial $m^2 X^2 + 1$ still satisfies the hypothesis of the
-Bunyakovsky conjecture \cite{Bouniakowsky} namely:
+In fact, if we drop the hypothesis that $m$ is a Markoff number and suppose
+that $m$ is any non zero integer then the polynomial $m^2 X^2 + 1$ will still
+satisfy the hypothesis of the Bunyakovsky conjecture \cite{Bouniakowsky}
+namely:
 
 \begin{itemize}
 \item it has a positive leading coefficient
@@ -179,9 +179,14 @@ are infinitely many primes of the form $ak + b$ . The interested reader can
 find more details and its relation to another conjecture in \cite{Pollack} and
 \cite{jones}.
 
-The proof of our theorem, though it relates these two conjectures apparently from
-number theory, has an essential topological ingredient in the form of Lemma
-\ref{lem: labelling}.
+The proof of our theorem, though it relates these two conjectures apparently
+from number theory, has an essential topological ingredient in the form of
+Lemma \ref{lem: labelling}. The numbers $k^2m^2 + 1$ arise as $\lambda$-lengths
+on a pair of pants. A \textit{pair of pants} is a hyperbolic surface
+homeomorphic to a sphere minus 3 disjoint discs and is obtained as a quotient
+$C/G$ where $G$ is a Fuchsian group and  $C\subset \HH$ is a convex subset, in
+fact the convex hull of the limit set of $G$. In the text we will abuse
+notation and say that the pants is the quotient $\HH/G$.
 
 \subsection{Geodesics on hyperbolic surfaces} In the mid 20th century H. Cohn
 initiated a program which resulted in a correspondence between Markoff numbers
@@ -332,7 +337,7 @@ below.}
 	\label{fig: cut torus}
 \end{figure}
 
-\subsubsection{Proving unicity for a Markoff number} 
+\subsubsection{Proving unicity for a Markoff number $m$} \label{sec:proof}
 Our argument reduces to:
 
 if $\gamma, \gamma'$ is a pair of  bicuspidal geodesic 
@@ -349,6 +354,10 @@ in addition $\gamma$ say is disjoint from a simple closed geodesic $\alpha$ then
 any other simple geodesic of the same length is the image of $\alpha$ under
 some automorphism of $\xx$ too. (see discussion of Conjecture 3 \cite{mcp}
 above).
+
+Thus we have proved Theorem \ref{main} and all that is left to do is to show
+that $m^2k^2 + 1$ is indeed the $\lambda$-length a geodesic of the required type.
+
 
 \subsection{Organisation, Remarks}
 
@@ -398,7 +407,7 @@ topologist, might have tried to deal with composite Markoff numbers.
  
 
 \subsection{Thanks}
-
+$
 It is a pleasure to thank Louis Funar, Alexei Marin, Bob Penner and Vlad
 Sergesciu for  conversations over the years concerning this subject. We would
 also like to thank Yi Huang for reading early drafts of the manuscript and
@@ -910,8 +919,7 @@ Canadian Mathematical Bulletin , Volume 39 , Issue 1 , 01 March 1996 , pp. 3 - 9
 \bibitem{Bouniakowsky}
 V. Bouniakowsky, 
 \textit{Sur les diviseurs num\'eriques invariables des fonctions rationnelles enti\`eres,}
-
-Mem. Acad. Sci. St. Peteresbourg, 6e s\'erie, vol. VI (1857), 305–329.1 
+Mem. Acad. Sci. St. Peteresbourg, 6e s\'erie, vol. VI (1857), 305–329.1  \newline
 Available at:
 \url{https://books.google.fr/books?hl=fr&id=wXIhAQAAMAAJ&pg=PA305#v=onepage&q&f=false}
 
@@ -932,8 +940,8 @@ L. Euler, letter to Goldbach, 28th October 1752 (letter CXLIX), available at
 \url{http://eulerarchive.maa.org/correspondence/letters/OO0877.pdf}
 
 \bibitem{ford}
-Lester R Ford,
-\textit{Automorphic Functions}
+Lester R. Ford 
+\textit{Automorphic Functions} Chelsea Publishing Company, 1951
 
 \bibitem{yi thesis}
 Yi Huang
