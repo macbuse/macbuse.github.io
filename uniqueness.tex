@@ -38,7 +38,6 @@
 \def\im{\mathrm{Im}\,}
 
 
-
 \def\SL{\mathrm{SL}(2,\CC)}
 
 \def\xx{\HH/\Gamma'}
@@ -407,16 +406,16 @@ topologist, might have tried to deal with composite Markoff numbers.
  
 
 \subsection{Thanks}
-$
-It is a pleasure to thank Louis Funar, Alexei Marin, Bob Penner and Vlad
+
+It is a pleasure to thank Louis Funar, Alexis Marin, Bob Penner and Vlad
 Sergesciu for  conversations over the years concerning this subject. We would
 also like to thank Yi Huang for reading early drafts of the manuscript and
-Boris Springborn  for telling us about his work
-\cite{spring} which is closely related to ours.
+Boris Springborn  for telling us about his work \cite{spring} which is closely
+related to ours.
 
 This paper was written using vimtex for neovim and copilot.vim \cite{copilot}.
-
-
+As such some of the text may be a little idiosyncratic in that it was composed
+by an AI.
 
 \section{Ford circles, lengths, midpoints} 
 \label{lengths}
@@ -479,7 +478,8 @@ Then the geodesic $\{ m/n + i t,\, t \in \RR \}$
 \end{itemize}
 \end{lem}
 
-Finally, the key lemma that relates the $\sl2$ action to sums of squares is:
+Finally, the key lemma that relates the $\sl2$ action to sums of squares is
+and it is what we will use to calculate $\lambda$-lengths in Section 4.
 
 \begin{lem} \label{squares}
 Let $n$ be a positive integer.
@@ -532,8 +532,18 @@ of the arc joining these rationals to be the length, with respect to the
 Poincar\'e metric on $\HH$, of the portion  outside of the Ford circles tangent
 at $a/c, b/d$ . and the $\lambda$-length of an arc to be the exponential of
 this length. It is a consequence  of Lemma \ref{calcul} below  that the arcs of
-$\lambda$-length 1 are the edges in the so-called \textit{Farey diagram} (see
-Figure \ref{farey diagram}). We have:
+$\lambda$-length 1 are the edges in the so-called \textit{Farey diagram} 
+ (see Figure \ref{fig: farey diagram}). 
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[scale=.5]{farey_tree.png}
+\end{center}
+\caption{The Farey diagram.}
+	\label{fig: farey diagram}
+\end{figure}
+
+We have:
 
 \begin{lem}\label{determinant}
 Let $a/c, b/d$ be a pair of distinct extended rationals.
@@ -547,7 +557,7 @@ Further if $a/b = 1/0$ then the arc is a vertical line
  whose midpoint has imaginary part equal to $1/d$ .
 \end{lem}
 
-\proof By transivity of $P\sl2$ on the extended rationals we may assume $a/c =
+\proof By transitivity of $P\sl2$ on the extended rationals we may assume $a/c =
 1/0$ and so the determinant of the matrix is $d$. The Ford circle at $1/0$  is
 $\{ z, \im z > 1\}$ and at $b/d$ it is a circle of euclidean diameter $1/d^2$.
 The top of this circle is tangent to the line $\{ z, \im z = 1/d^2\}$ and the
@@ -706,6 +716,15 @@ with endpoint  $k/m$, where $1\leq k \leq m-1$ is coprime to $m$,
 projects to an arc on the modular torus.
 \end{thm}
 
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[scale=.4]{markoff_tree.png} 
+\end{center}
+\caption{The tree of Markoff triples, the multiplicity is at most six.}
+	\label{fig:markoff_tree}
+\end{figure}
+
 \proof The Markoff triples form a binary tree with a preferred vertex
 corresponding to the fundamental triple $(1,1,1)$. Define the multiplicity of a
 Markoff number to be the  number of triples for which it appears as the largest
@@ -713,7 +732,7 @@ integer. One can easily check that for the so-called singular Markoff numbers 1
 and 2 their multiplicity is 3 and, since group of automorphisms of the tree
 that fix the fundamental triple of order 6, the multiplicity of any other
 Markoff number is at least $6$. Thus the uniqueness conjecture can be restated as:
-multiplicity of any other Markoff number is at most $6$.
+multiplicity of any other Markoff number is at most $6$ (Figure \ref{fig:markoff_tree}).
 
 Using Cohn's correspondence it follows that the uniqueness conjecture is equivalent
 to the number of oriented closed simple geodesics on the modular torus of any
@@ -743,8 +762,11 @@ We are now ready to present a proof of Theorem \ref{button}.
  
 \subsection{Proof of Button's theorem}
 
- \proof: Suppose that $m=p^k$ is a Markoff number. By the previous paragraph there are coprime integers $a,b$ so that 
-$$p^k = a^2 + b^2 \Rightarrow a^2b^{-2} = -1 \in \fp.$$
+ \proof: 
+Suppose that $m=p^k$ is a Markoff number which forms a Markoff triple with $x,y$:
+$$x^2 + y^2 + m^2 - xym = 0$$
+so that 
+$$\bar{x}^2 + \bar{y}^2 = 0 \in \fp.$$
 It follows that $p$ is either $2$ or $1 \mod 4$ and 
 so by Fermat's theorem  there are coprime positive integers $c,d$,
  unique up to permutation,
@@ -759,19 +781,20 @@ a &=& \mathrm{Re}\, (c\pm id)^k \\
 b &=& \mathrm{Im}\, (c\pm id)^k.
 \end{eqnarray}
 
+\noindent
 Since $a,b$ are unique up to permutation then, by Lemma \ref{squares}, there is
-only be a single  geodesic of the family of vertical lines ending at  $k/p^k$
+only  a single  geodesic of the family of vertical lines ending at  $k/mi, 0\leq k \leq m$
 which meets the $\sl2$-orbit of $i$. The result then follows from the
 Paragraph \ref{frobenius}.
 
 Now suppose that  $m=2p^k$ is a Markoff number.
-By the above  $p^k$ can be written as a sum of squares $a^2 + b^2 = |a + ib|^2$ 
+By the above  $p^k$ can be written as a sum of squares $c^2 + d^2 = |c + id|^2$ 
 essentially uniquely.
-Observe that   $2$ factors as 
+Observe that  $2$ factors as 
 $$ 2 = i(1+i)^2.$$
 Observe that $2 p^k$ can also  be written as a sum of squares
 essentially uniquely namely
-$$2p^k = |(1+i) (a + ib) |^2 =  (a-b)^2 + (a+b)^2,$$ 
+$$2p^k = |(1+i) (c + id) |^2 =  (c-d)^2 + (c+d)^2,$$ 
 so that the result follows in this case to.
 
 \hfill $\Box$
@@ -893,7 +916,7 @@ and in the middle the surface $\HH/(\GG\cap \GG^*)$.}
 $$ Q^kP = 
 \begin{pmatrix} 1 & m \\ 0 & 1 \end{pmatrix},\begin{pmatrix} 1 & 0 \\ -km & 1 \end{pmatrix}  
 = \begin{pmatrix} 1-km^2 & m \\ -km & 1 \end{pmatrix} $$
-The imaginary part of $Q^kP.i$ is given by
+By Lemma \ref{squares} the imaginary part of $Q^kP.i$ is given by
 $$\frac{1}{ k^2 m^4 + 1}$$
 
 So there is a half infinite geodesic in $\HH$ joining the ideal point $\infty$
@@ -902,6 +925,32 @@ under the involution form a bicuspidal geodesic of the required
 $\lambda$-length.
 
 \hfill$\Box$
+
+\subsection{Afterword: confusing coefficients}
+
+Both $\GG$ and $\GG^*$ are subgroups of the principal congruence subgroup
+$\Gamma(n)$ and so the off diagonal coefficients of elements are always
+divisible by $m$. The modular group acts  and $\Gamma'$ act transitively on the
+rationals since the corresponding quotient orbifold and surface respectively
+have a single cusp. The pair of pants $\HH/\GG^*$ has a pair of cusps, each
+cusp corresponding to the orbit of $\infty$ or $0$ under $\GG^*$ and so there
+are three distinct types of bicuspidal geodesic: 
+
+\begin{enumerate}
+\item type 1 has a  lift to $\HH$ with ideal endpoints $\infty$ and some other point of the orbit of $\infty$;
+\item type 2 has a with ideal endpoints $0$ and some other point of the orbit of $0$;
+\item type 3 has a   with ideal endpoints $\infty$ and some point of the orbit of $0$.
+\end{enumerate}
+
+If $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \in \GG^*$ then the the image
+of $\infty$ by this element is $a/b$. It follows that the terminal Ford
+circles are $F$ and another one tangent at $a/b$ of radius $c^2$. One sees in
+this way that the $\lambda$-length of the corresponding bicuspidal geodesic
+which is of type 1 above is always divisible by $m$. A similar argument shows
+that the $\lambda$-length of any type 2 geodesic is divisible by $m$ too. This
+curious observation led us to believe falsely that no useful information could
+be extracted from the bicuspidal geodesics. Fortunately, the third type of
+geodesic is not divisible by $m$, and is always congruent to $1$ modulo $m$.
 
 
 \thebibliography{99}
@@ -920,8 +969,7 @@ Canadian Mathematical Bulletin , Volume 39 , Issue 1 , 01 March 1996 , pp. 3 - 9
 V. Bouniakowsky, 
 \textit{Sur les diviseurs num\'eriques invariables des fonctions rationnelles enti\`eres,}
 Mem. Acad. Sci. St. Peteresbourg, 6e s\'erie, vol. VI (1857), 305–329.1  \newline
-Available at:
-\url{https://books.google.fr/books?hl=fr&id=wXIhAQAAMAAJ&pg=PA305#v=onepage&q&f=false}
+Available at: \url{https://books.google.fr/books?hl=fr&id=wXIhAQAAMAAJ&pg=PA305#v=onepage&q&f=false}
 
 \bibitem{button}
 J. O. Button, 
@@ -1034,12 +1082,6 @@ D. Zagier,
 
 %
 
-%\bibitem{mcr}
-%Greg McShane, Igor Rivin
-%\textit{A norm on homology of surfaces and counting simple geodesics}
-%International Mathematics Research Notices, Volume 1995, Issue 2, 1995
-%
-%
 %
 %\bibitem{ra}
 %M. Rabideaua, R. Schiffler,
@@ -1054,23 +1096,6 @@ D. Zagier,
 %\url{https://arxiv.org/abs/2010.10335}
 %
 
-
-%\bibitem{Gui}
-%L. Guillop\'e, Laurent(F-GREN-F)
-%Sur la distribution des longueurs des g\'eod\'esiques ferm\'ees d'une surface compacte \`a bord totalement g\'eod\'esique. 
-%Duke Math. J. 53 (1986), no. 3, 827-848. 
-
-%\bibitem{MC}
-%C. L. Mallows and J. M. C. Clark. 
-%{\it Linear-intercept distributions do not characterize plane sets}
-% Journal of Applied Probability, 7(1):240-244, 1970.
-% 
-% \bibitem{Masai-McShane}
-% Masai, Hidetoshi and Greg McShane,
-% ``On systoles and ortho spectrum rigidity'', preprint.
-% \bibitem{MMc}
-% Masai, Hidetoshi, and Greg McShane. "Equidecomposability, volume formulae and ortho spectra." Algebraic \& Geometric Topology 13.6 (2013): 3135-3152.
- 
 
 
 
