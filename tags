@@ -1,6 +1,7 @@
 
  More precislely, we show that, for $p > 2$:
  Theorem ref{triv}.
+ proof: 
  that has as its  midpoint a point in the $sl2$  orbit of $i$.
  there  is always a geodesic which passes through
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
@@ -10,8 +11,10 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 $$2 = 1^2 + 1^2.$$
+$$bar{x}^2 + bar{y}^2 = 0 in fp.$$
 $$begin{pmatrix}
 $$im frac{1}{2 }(1+ i) = frac{1}{2}  =  im begin{pmatrix}
+$$x^2 + y^2 + m^2 - xym = 0$$
 $${ 1/2 + i t,, t in RR }$$
 %subsubsection{Conjugations between  inversions}
 (the automorphism induced by $U $ fixes three disjoint geodesics joining cusps and permutes the pair of ideal triangles in their complement  but the second requires establishing the analogue of the fact that the equation $$x  2  1$$ has at most two solutions in any field or integral domain for that matter. Let us start by saying which geodesics are preserved by the automorphism  they are unsurprisingly the pair with endpoints $ pm 1  p$. To see this consider the map begin  equation	GRENOBLE/squares.tex	/^\\hfill $\\Box\$$/;"	s
@@ -48,6 +51,7 @@ Burnside Lemma	STAGE/squares.tex	/^The first author thanks Louis Funar and the s
 CR SnapPy	TOFU/laz.tex	/^Here we have two very concrete goals$/;"	b
 Character Variety	GRENOBLE/squares.tex	/^Conversely, every Markoff number arises from a geodesic length.$/;"	u
 Character Variety	STAGE/squares.tex	/^Conversely, every Markoff number arises from a geodesic length.$/;"	u
+Character Variety	uniqueness.tex	/^approach.$/;"	u
 Combinatorial length and rigidity	TOFU/laz.tex	/^We now describe the main research challenges that we intend to tackle. $/;"	u
 Composite integers	GRENOBLE/squares.tex	/^\\hfill $\\Box\$$/;"	b
 Composite integers	STAGE/squares.tex	/^\\hfill $\\Box\$$/;"	b
@@ -97,11 +101,17 @@ Fixed point sets	GRENOBLE/squares.tex	/^as all we require is that the group cont
 Fixed point sets	STAGE/squares.tex	/^as all we require is that the group contains a suitable Klein four group.$/;"	u
 Ford circles  lengths  midpoints	GRENOBLE/squares.tex	/^and  $\\gg$  denote the image of this family on the surface.$/;"	u
 Ford circles  lengths  midpoints	STAGE/squares.tex	/^and  $\\gg$  denote the image of this family on the surface.$/;"	u
+Ford circles  lengths  midpoints	uniqueness.tex	/^by an AI.$/;"	s
 From the preceding paragraph there is a single geodesic namely 
 General geometric structures	TOFU/laz.tex	/^extending the work to cover closed surfaces without boundary~\\cite{mm-sosr-19}.$/;"	u
+Geodesics on pants	uniqueness.tex	/^\\hfill $\\Box\$$/;"	u
 Grid	PROG/epidemic_sim (1).py	/^class Grid():$/;"	c
 Grid	PROG/epidemic_sim.py	/^class Grid():$/;"	c
+Idea of the proof	uniqueness.tex	/^ the sum of two squares that is it factorises over the Gaussian integers.$/;"	u
 Important progress	TOFU/AMS-SMF.tex	/^Algorithms have been an important and consistent feature of all of these mathematical areas from the beginning. This includes both questions about the existence of algorithms and the development of practical algorithms for computing natural invariants. More recently, computer experiments and rigorous computer-assisted proofs have had a significant impact. It is natural to expect experimental and computational methods to play an expanding role in the theory of low dimensional spaces. Additional goals of the session are to present the development of new computational tools and implementations of new algorithms, and to provide opportunities for researchers to become more familiar with existing tools and how they can be applied in research.$/;"	u
+Introducing $ lambda$-lengths	uniqueness.tex	/^\\ref{main}.$/;"	u
+It follows that $p$ is either $2$ or $1 mod 4$ and 
+Key topological lemma	uniqueness.tex	/^\\end{itemize}$/;"	b
 L activit   principale du GdR est la promotion et le financement des conf   rences organis   es par les membres. Le fonctionnement du GdR a   t   fortement perturb   par les circonstances sanitaires exceptionnelles en 2020. Au mois de janvier on avait pr   vu de participer au financement de sept conf   rences mais finalement le bilan est assez maigre  begin  itemize	GDR/rapport_gdr.tex	/^\\begin{document}$/;"	s
 Let $p$ be a prime congruent to 1 or 2 modulo 4.
 Liste de conf   rences qui ont eu lieu	GDR/rapport_gdr.tex	/^\\end{itemize}$/;"	b
@@ -112,6 +122,7 @@ Note	GRENOBLE/squares.tex	/^This proves Theorem \\ref{triv}.$/;"	u
 Note	STAGE/squares.tex	/^This proves Theorem \\ref{triv}.$/;"	u
 Note that one has 
 Objectives	TOFU/laz.tex	/^Between 1983 and 2004, Robertson and Seymour have written a series of 20 papers adding up to more than 500 pages to prove the Wagner conjecture saying that every minor closed class of graphs is characterized by a finite family of forbidden minors~\\cite{w-gt-70}.  An important step in the proof is to describe the structure of the graphs excluding a fixed minor. This structure theorem~\\cite{rs-tv-99} states that such graphs can be obtained from cellular embeddings of graphs in surfaces of bounded genus, to which one applies some standard operations such as clique-sums~\\cite{l-gmt-06}. A cellular embedding of a graph is called a combinatorial map (or combinatorial surface). Combinatorial maps are thus central objects in graph theory not only as discrete models of surfaces but also as the main components of the graph structures. Understanding the structure of combinatorial maps is thus a fundamental question from both the topological and combinatorial viewpoints. Spectral graph theory, based on graph Laplacians, has been successful to obtain important structural properties such as the Cheeger inequality~\\cite{c-lbsel-70}. The Laplacian is also a main tool to analyse the geometry of hyperbolic surfaces. In particular, there is a striking connection to the length spectrum through the Selberg trace formula. Developing an analogous theory on combinatorial surfaces is a challenging objective.$/;"	s
+Organisation  Remarks	uniqueness.tex	/^that $m^2k^2 + 1$ is indeed the $\\lambda$-length a geodesic of the required type.$/;"	u
 Organizers	TOFU/AMS-SMF.tex	/^\\smallskip$/;"	s
 Orientation reversing automorphisms	GRENOBLE/squares.tex	/^acts as a group of possibly orientation reversing  automorphisms of the surface $\\xx$.$/;"	u
 Orientation reversing automorphisms	STAGE/squares.tex	/^acts as a group of possibly orientation reversing  automorphisms of the surface $\\xx$.$/;"	u
@@ -221,7 +232,9 @@ Presentation of the team	TOFU/TOFU.tex	/^\\tableofcontents$/;"	s
 Presentation of the team	TOFU/laz.tex	/^\\newpage$/;"	s
 Principales   tapes envisag   es	TOFU/laz.tex	/^It is our intention to develop and distribute open source softwares and packages.$/;"	s
 Production scientifique	GDR/rapport_gdr.tex	/^23\/9\/2020.$/;"	u
+Proof of Button s theorem}
 Proof of Fermat s Theorem}
+Proving unicity for a Markoff number $m$	uniqueness.tex	/^\\end{figure}$/;"	b
 R   sultats attendus	TOFU/laz.tex	/^(ICJ Lyon, IMJ Paris, University of Luxembourg).$/;"	s
 Rapport d activité 2020}label{rapport-dactivituxe9-2020}
 References	STAGES/stage_m2r_2020.tex	/^\\hypertarget{references}{%$/;"	u
@@ -240,6 +253,8 @@ Stage M2R	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{stage-m2r}{%$/;"	s
 Stage M2R	TEX_DUMP/stage_m2r_2020.tex	/^\\hypertarget{stage-m2r}{%$/;"	s
 Stage M2R	TEX_DUMP/stage_m2r_2020_bis.tex	/^\\hypertarget{stage-m2r}{%$/;"	s
 Structural graph theory and combinatorial maps	TOFU/laz.tex	/^holonomy groups are discrete, and if discrete, which are arithmetic.$/;"	u
+Sum of squares	uniqueness.tex	/^$$ \\frac{X^2}{9}.$\$$/;"	u
+Suppose that $m=p^k$ is a Markoff number which forms a Markoff triple with $x,y$:
 Surface theory	TOFU/OLD/TOFU1.tex	/^reply to this demand below. $/;"	u
 Surface theory	TOFU/TOFU.tex	/^reply to this demand below. $/;"	u
 Surface theory	TOFU/laz.tex	/^reply to this demand below. $/;"	u
@@ -248,6 +263,7 @@ Synopsis	TOFU/TOFU.tex	/^\\end{center}$/;"	s
 Synopsis	TOFU/laz.tex	/^\\end{center}$/;"	s
 Thanks	GRENOBLE/squares.tex	/^this paper if they are already familiar with  the Burnside Lemma.$/;"	u
 Thanks	STAGE/squares.tex	/^this paper if they are already familiar with  the Burnside Lemma.$/;"	u
+Thanks	uniqueness.tex	/^% As in Zagier's remarkable proof \\cite{zagier} this result follow from showing$/;"	u
 The Group action	GRENOBLE/squares.tex	/^then it must permute the Ford regions at each end of a lift to $\\HH$.$/;"	u
 The Group action	STAGE/squares.tex	/^then it must permute the Ford regions at each end of a lift to $\\HH$.$/;"	u
 The case $p=2$ is exceptional and we will deal with it first.
@@ -733,6 +749,8 @@ set_blank	PROG/epidemic_sim (1).py	/^    def set_blank(self):$/;"	m	class:Grid
 set_blank	PROG/epidemic_sim.py	/^    def set_blank(self):$/;"	m	class:Grid
 set_focus	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^    function set_focus() {$/;"	f
 simpleKeys	STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html	/^function simpleKeys(original) {$/;"	f
+so by Fermat s theorem there are coprime positive integers $c  d$  unique up to permutation  so that $$p  c  2  d  2   c  id   c - id  .$$ It is well known that the RHS is the unique factorisation of $p$ in the Gaussian integers and it follows that the unique factorisation of $m$ is $$p  k   c  id   k  c - id   k.$$ A consequence of this is that the pair of coprime positive integers $a  b$ such that $p  k  a  2  b  2$ is unique up to permutation. Explicitly we have  begin  eqnarray	uniqueness.tex	/^We are now ready to present a proof of Theorem \\ref{button}.$/;"	u
+so that 
 so this point is in the $sl2$ orbit of $i$>
 spoken_text	D2/mk_slides2.py	/^    spoken_text = []$/;"	v
 spoken_text	DEM0_gpe_lec/mk_slides2.py	/^    spoken_text = []$/;"	v
