@@ -65,6 +65,8 @@ title: MAT305
 
 - exo 5 [correction de 2021](./correction_f2exo6.pdf)
 
+- exo 7-8 et 9-12 [correction](./correction_rest.pdf)
+
 ---
 
 [F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf)
