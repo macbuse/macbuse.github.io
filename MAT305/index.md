@@ -66,6 +66,7 @@ title: MAT305
 - exo 5 [correction de 2021](./correction_f2exo6.pdf)
 
 - exo 7-8 et 9-12 [correction](./correction_rest.pdf)
+	- [notes](http://mathix.org/linux/wp-content/uploads/2013/02/Expose-43.pdf)
 
 ---
 
