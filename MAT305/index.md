@@ -14,6 +14,7 @@ title: MAT305
 - [mes calculs](./uniqueness.pdf)
 
 - [partiel du 8/10](./CC1_MAT305.pdf)
+	- [correction](./CC1_corr.pdf)
 	- [la courbe](https://www.wolframalpha.com/input?i=plot+%281+-+t%5E2%2C++t%5E3%2F4+-+3t%29)
 	- [vecteur velocite](https://www.wolframalpha.com/input?i=derivative+t+of++%281+-+t%5E2%2C++t%5E3%2F4+-+3t%29)
 	- [exo 2](https://www.wolframalpha.com/input?i=xy%5E2+%E2%88%92+y%5E3+%2B+log%281+%E2%88%92+x%5E2+%E2%88%92+y%5E2+%29)
@@ -67,6 +68,7 @@ title: MAT305
 
 - exo 7-8 et 9-12 [correction](./correction_rest.pdf)
 	- [notes](http://mathix.org/linux/wp-content/uploads/2013/02/Expose-43.pdf)
+	- [les reflexions en chimie](https://fr.wikipedia.org/wiki/%C3%89nantiom%C3%A9rie#:~:text=L'%C3%A9nantiom%C3%A9rie%20est%20une%20propri%C3%A9t%C3%A9,deux%20%C3%A9nantiom%C3%A8res%20est%20dite%20chirale.)
 
 ---
 
