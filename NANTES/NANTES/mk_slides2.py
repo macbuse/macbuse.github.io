@@ -1,4 +1,4 @@
-#!  /home/macbuse/anaconda3/bin/python3.9
+#! /home/gregmcshane/anaconda3/bin/python3.6 
 '''whatever'''
 
 import os, re, time, sys
@@ -6,7 +6,7 @@ import subprocess
 
 import json #serialise
 import requests
-# from gtts import gTTS
+from gtts import gTTS
 
 class Voices():
     '''vv'''

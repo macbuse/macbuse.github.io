@@ -17,7 +17,6 @@ $$im frac{1}{2 }(1+ i) = frac{1}{2}  =  im begin{pmatrix}
 $$x^2 + y^2 + m^2 - xym = 0$$
 $${ 1/2 + i t,, t in RR }$$
 %subsubsection{Conjugations between  inversions}
-(the automorphism induced by $U $ fixes three disjoint geodesics joining cusps and permutes the pair of ideal triangles in their complement  but the second requires establishing the analogue of the fact that the equation $$x  2  1$$ has at most two solutions in any field or integral domain for that matter. Let us start by saying which geodesics are preserved by the automorphism  they are unsurprisingly the pair with endpoints $ pm 1  p$. To see this consider the map begin  equation	GRENOBLE/squares.tex	/^\\hfill $\\Box\$$/;"	s
 (the automorphism induced by $U $ fixes three disjoint geodesics joining cusps and permutes the pair of ideal triangles in their complement  but the second requires establishing the analogue of the fact that the equation $$x  2  1$$ has at most two solutions in any field or integral domain for that matter. Let us start by saying which geodesics are preserved by the automorphism  they are unsurprisingly the pair with endpoints $ pm 1  p$. To see this consider the map begin  equation	STAGE/squares.tex	/^\\hfill $\\Box\$$/;"	s
 1 & 0 \
 1 & 1
@@ -28,32 +27,23 @@ ARGS	D2/svg2html.py	/^    ARGS = PARSER.parse_args()$/;"	v
 ARGS	DEM0_gpe_lec/svg2html.py	/^    ARGS = PARSER.parse_args()$/;"	v
 ARGS	METH_NUM/LINE_ANIM/svg2html.py	/^    ARGS = PARSER.parse_args()$/;"	v
 ARGS	PROG/RR/svg2html.py	/^    ARGS = PARSER.parse_args()$/;"	v
-Action on a family of geodesics	GRENOBLE/squares.tex	/^\\hfill $\\Box\$$/;"	s
 Action on a family of geodesics	STAGE/squares.tex	/^\\hfill $\\Box\$$/;"	s
 Algorithmic study of lengths	TOFU/laz.tex	/^ surface permutes the homotopy class of curves, hence the length spectrum. Does the discrete nature of the graph metric induce specific properties of this action? In other words, can we learn the graph structure from this action?$/;"	u
-Another Klein four group.	GRENOBLE/squares.tex	/^\\end{figure}$/;"	u
 Another Klein four group.	STAGE/squares.tex	/^\\end{figure}$/;"	u
-Appendix  Markoff numbers	GRENOBLE/squares.tex	/^can be adapted to the geometric setting to show this.$/;"	s
 Appendix  Markoff numbers	STAGE/squares.tex	/^can be adapted to the geometric setting to show this.$/;"	s
-Automorphism groups	GRENOBLE/squares.tex	/^\\end{figure}$/;"	u
 Automorphism groups	STAGE/squares.tex	/^\\end{figure}$/;"	u
-Automorphisms of the three punctured sphere	GRENOBLE/squares.tex	/^$x \\mapsto -x$ and $x \\mapsto 1\/x$.$/;"	s
 Automorphisms of the three punctured sphere	STAGE/squares.tex	/^$x \\mapsto -x$ and $x \\mapsto 1\/x$.$/;"	s
 BLACK	PROG/my_conway.py	/^BLACK = (0, 0, 0)$/;"	v
 BLACK	STAGE/my_conway.py	/^BLACK = (0, 0, 0)$/;"	v
-Bezouts Theorem	GRENOBLE/squares.tex	/^ and we give a short exposition of it  in the appendix.$/;"	b
 Bezouts Theorem	STAGE/squares.tex	/^ and we give a short exposition of it  in the appendix.$/;"	b
 Bilan financier	GDR/rapport_gdr.tex	/^http:\/\/www.cedram.org\/spip.php?article228\\&lang=en$/;"	u
 Bounds and statistics for closed geodesics	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{bounds-and-statistics-for-closed-geodesics}{%$/;"	s
 Bounds and statistics for closed geodesics	TEX_DUMP/stage_m2r_2020_bis.tex	/^\\hypertarget{bounds-and-statistics-for-closed-geodesics}{%$/;"	s
-Burnside Lemma	GRENOBLE/squares.tex	/^The first author thanks Louis Funar and the second author for  many useful conversations over the years concerning this subject. He would also like to thank Xu Binbin for reading early drafts of the manuscript.$/;"	s
 Burnside Lemma	STAGE/squares.tex	/^The first author thanks Louis Funar and the second author for  many useful conversations over the years concerning this subject. He would also like to thank Xu Binbin for reading early drafts of the manuscript.$/;"	s
 CR SnapPy	TOFU/laz.tex	/^Here we have two very concrete goals$/;"	b
-Character Variety	GRENOBLE/squares.tex	/^Conversely, every Markoff number arises from a geodesic length.$/;"	u
 Character Variety	STAGE/squares.tex	/^Conversely, every Markoff number arises from a geodesic length.$/;"	u
 Character Variety	uniqueness.tex	/^approach.$/;"	u
 Combinatorial length and rigidity	TOFU/laz.tex	/^We now describe the main research challenges that we intend to tackle. $/;"	u
-Composite integers	GRENOBLE/squares.tex	/^\\hfill $\\Box\$$/;"	b
 Composite integers	STAGE/squares.tex	/^\\hfill $\\Box\$$/;"	b
 Context	STAGES/stage_m2r_2020.tex	/^\\hypertarget{context}{%$/;"	u
 Context	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{context}{%$/;"	u
@@ -61,13 +51,11 @@ Context	TEX_DUMP/stage_m2r_2020.tex	/^\\hypertarget{context}{%$/;"	u
 Context	TEX_DUMP/stage_m2r_2020_bis.tex	/^\\hypertarget{context}{%$/;"	u
 Context	TOFU/AMS-SMF.tex	/^3 long\/plenary talks 12 short exposés for a total of 9h.$/;"	u
 Curve complex	TOFU/laz.tex	/^appear in the work of Mirzakhani.$/;"	u
-Cusp regions	GRENOBLE/squares.tex	/^\\hfill $\\Box\$$/;"	b
 Cusp regions	STAGE/squares.tex	/^\\hfill $\\Box\$$/;"	b
 Details of the stage	STAGES/stage_m2r_2020.tex	/^\\hypertarget{details-of-the-stage}{%$/;"	u
 Details of the stage	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{details-of-the-stage}{%$/;"	b
 Details of the stage	TEX_DUMP/stage_m2r_2020.tex	/^\\hypertarget{details-of-the-stage}{%$/;"	u
 Details of the stage	TEX_DUMP/stage_m2r_2020_bis.tex	/^\\hypertarget{details-of-the-stage}{%$/;"	b
-Exactly two fixed geodesics.	GRENOBLE/squares.tex	/^preserved by the automorphism induced by $V'$.$/;"	u
 Exactly two fixed geodesics.	STAGE/squares.tex	/^preserved by the automorphism induced by $V'$.$/;"	u
 FN	D2/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 FN	DEM0_gpe_lec/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
@@ -83,6 +71,9 @@ FN	HARVARD/bb.py	/^    FN = sys.argv[1]$/;"	v
 FN	HARVARD/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 FN	JM/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 FN	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    FN = sys.argv[1]$/;"	v
+FN	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    FN = sys.argv[1]$/;"	v
+FN	NANTES/NANTES/bb.py	/^    FN = sys.argv[1]$/;"	v
+FN	NANTES/NANTES/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 FN	NANTES/bb.py	/^    FN = sys.argv[1]$/;"	v
 FN	NANTES/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 FN	PROG/RR/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
@@ -97,9 +88,7 @@ FN	WARWICK/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 FN	ZHU_SLIDES/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 Fibonacci	STAGE/fib.py	/^def Fibonacci(n):$/;"	f
 First organizer 	TOFU/AMS-SMF.tex	/^\\section{Organizers}$/;"	P
-Fixed point sets	GRENOBLE/squares.tex	/^as all we require is that the group contains a suitable Klein four group.$/;"	u
 Fixed point sets	STAGE/squares.tex	/^as all we require is that the group contains a suitable Klein four group.$/;"	u
-Ford circles  lengths  midpoints	GRENOBLE/squares.tex	/^and  $\\gg$  denote the image of this family on the surface.$/;"	u
 Ford circles  lengths  midpoints	STAGE/squares.tex	/^and  $\\gg$  denote the image of this family on the surface.$/;"	u
 Ford circles  lengths  midpoints	uniqueness.tex	/^by an AI.$/;"	s
 From the preceding paragraph there is a single geodesic namely 
@@ -115,16 +104,13 @@ Key topological lemma	uniqueness.tex	/^\\end{itemize}$/;"	b
 L activit   principale du GdR est la promotion et le financement des conf   rences organis   es par les membres. Le fonctionnement du GdR a   t   fortement perturb   par les circonstances sanitaires exceptionnelles en 2020. Au mois de janvier on avait pr   vu de participer au financement de sept conf   rences mais finalement le bilan est assez maigre  begin  itemize	GDR/rapport_gdr.tex	/^\\begin{document}$/;"	s
 Let $p$ be a prime congruent to 1 or 2 modulo 4.
 Liste de conf   rences qui ont eu lieu	GDR/rapport_gdr.tex	/^\\end{itemize}$/;"	b
-Markoff cubic	GRENOBLE/squares.tex	/^\\end{thm}$/;"	u
 Markoff cubic	STAGE/squares.tex	/^\\end{thm}$/;"	u
 Mini-exercices	LATEX/bodin_slides.tex	/^\\end{frame}$/;"	s
-Note	GRENOBLE/squares.tex	/^This proves Theorem \\ref{triv}.$/;"	u
 Note	STAGE/squares.tex	/^This proves Theorem \\ref{triv}.$/;"	u
 Note that one has 
 Objectives	TOFU/laz.tex	/^Between 1983 and 2004, Robertson and Seymour have written a series of 20 papers adding up to more than 500 pages to prove the Wagner conjecture saying that every minor closed class of graphs is characterized by a finite family of forbidden minors~\\cite{w-gt-70}.  An important step in the proof is to describe the structure of the graphs excluding a fixed minor. This structure theorem~\\cite{rs-tv-99} states that such graphs can be obtained from cellular embeddings of graphs in surfaces of bounded genus, to which one applies some standard operations such as clique-sums~\\cite{l-gmt-06}. A cellular embedding of a graph is called a combinatorial map (or combinatorial surface). Combinatorial maps are thus central objects in graph theory not only as discrete models of surfaces but also as the main components of the graph structures. Understanding the structure of combinatorial maps is thus a fundamental question from both the topological and combinatorial viewpoints. Spectral graph theory, based on graph Laplacians, has been successful to obtain important structural properties such as the Cheeger inequality~\\cite{c-lbsel-70}. The Laplacian is also a main tool to analyse the geometry of hyperbolic surfaces. In particular, there is a striking connection to the length spectrum through the Selberg trace formula. Developing an analogous theory on combinatorial surfaces is a challenging objective.$/;"	s
 Organisation  Remarks	uniqueness.tex	/^that $m^2k^2 + 1$ is indeed the $\\lambda$-length a geodesic of the required type.$/;"	u
 Organizers	TOFU/AMS-SMF.tex	/^\\smallskip$/;"	s
-Orientation reversing automorphisms	GRENOBLE/squares.tex	/^acts as a group of possibly orientation reversing  automorphisms of the surface $\\xx$.$/;"	u
 Orientation reversing automorphisms	STAGE/squares.tex	/^acts as a group of possibly orientation reversing  automorphisms of the surface $\\xx$.$/;"	u
 Our  argument is exactly  the same as for
 PARSER	D2/pp.py	/^    PARSER = argparse.ArgumentParser()$/;"	v
@@ -146,6 +132,9 @@ PP_IMG	HARVARD/bb.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)',
 PP_IMG	HARVARD/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_IMG	JM/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_IMG	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	NANTES/NANTES/bb.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_IMG	NANTES/NANTES/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_IMG	NANTES/bb.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_IMG	NANTES/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_IMG	PROG/RR/mk_slides2.py	/^    PP_IMG = re.compile(r'(\\d+)!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
@@ -174,6 +163,9 @@ PP_MATH	HARVARD/bb.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL
 PP_MATH	HARVARD/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
 PP_MATH	JM/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
 PP_MATH	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	NANTES/NANTES/bb.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
+PP_MATH	NANTES/NANTES/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
 PP_MATH	NANTES/bb.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
 PP_MATH	NANTES/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
 PP_MATH	PROG/RR/mk_slides2.py	/^    PP_MATH = re.compile(r'(\\d+)(\\$.*?\\$)', re.DOTALL)$/;"	v
@@ -200,6 +192,9 @@ PP_MEDIA	HARVARD/bb.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', 
 PP_MEDIA	HARVARD/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_MEDIA	JM/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_MEDIA	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	NANTES/NANTES/bb.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
+PP_MEDIA	NANTES/NANTES/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_MEDIA	NANTES/bb.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_MEDIA	NANTES/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
 PP_MEDIA	PROG/RR/mk_slides2.py	/^    PP_MEDIA = re.compile(r'!!\\[(.*?)\\]\\((.*?)\\)', re.DOTALL)$/;"	v
@@ -261,10 +256,8 @@ Surface theory	TOFU/laz.tex	/^reply to this demand below. $/;"	u
 Synopsis	TOFU/OLD/TOFU1.tex	/^\\end{center}$/;"	s
 Synopsis	TOFU/TOFU.tex	/^\\end{center}$/;"	s
 Synopsis	TOFU/laz.tex	/^\\end{center}$/;"	s
-Thanks	GRENOBLE/squares.tex	/^this paper if they are already familiar with  the Burnside Lemma.$/;"	u
 Thanks	STAGE/squares.tex	/^this paper if they are already familiar with  the Burnside Lemma.$/;"	u
 Thanks	uniqueness.tex	/^% As in Zagier's remarkable proof \\cite{zagier} this result follow from showing$/;"	u
-The Group action	GRENOBLE/squares.tex	/^then it must permute the Ford regions at each end of a lift to $\\HH$.$/;"	u
 The Group action	STAGE/squares.tex	/^then it must permute the Ford regions at each end of a lift to $\\HH$.$/;"	u
 The case $p=2$ is exceptional and we will deal with it first.
 The first point is rather easy 
@@ -291,6 +284,9 @@ Voices	HARVARD/bb.py	/^class Voices():$/;"	c
 Voices	HARVARD/mk_slides2.py	/^class Voices():$/;"	c
 Voices	JM/mk_slides2.py	/^class Voices():$/;"	c
 Voices	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^class Voices():$/;"	c
+Voices	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^class Voices():$/;"	c
+Voices	NANTES/NANTES/bb.py	/^class Voices():$/;"	c
+Voices	NANTES/NANTES/mk_slides2.py	/^class Voices():$/;"	c
 Voices	NANTES/bb.py	/^class Voices():$/;"	c
 Voices	NANTES/mk_slides2.py	/^class Voices():$/;"	c
 Voices	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^class Voices():$/;"	c
@@ -323,6 +319,9 @@ __init__	HARVARD/bb.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	HARVARD/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	JM/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	NANTES/NANTES/bb.py	/^    def __init__(self):$/;"	m	class:Voices
+__init__	NANTES/NANTES/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	NANTES/bb.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	NANTES/mk_slides2.py	/^    def __init__(self):$/;"	m	class:Voices
 __init__	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def __init__(self):$/;"	m	class:Voices
@@ -355,6 +354,9 @@ __repr__	HARVARD/bb.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
 __repr__	HARVARD/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
 __repr__	JM/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
 __repr__	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	NANTES/NANTES/bb.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
+__repr__	NANTES/NANTES/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
 __repr__	NANTES/bb.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
 __repr__	NANTES/mk_slides2.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
 __repr__	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def __repr__(self):$/;"	m	class:Voices	file:
@@ -385,6 +387,9 @@ add	HARVARD/bb.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	HARVARD/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	JM/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	NANTES/NANTES/bb.py	/^    def add(self, txts):$/;"	m	class:Voices
+add	NANTES/NANTES/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	NANTES/bb.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	NANTES/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def add(self, txts):$/;"	m	class:Voices
@@ -481,6 +486,9 @@ get_audio	HARVARD/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	HARVARD/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	JM/mk_slides2.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
 get_audio	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	NANTES/NANTES/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
+get_audio	NANTES/NANTES/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	NANTES/bb.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	NANTES/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def get_audio(self,to_say):$/;"	m	class:Voices
@@ -514,6 +522,9 @@ img_cb	HARVARD/bb.py	/^    def img_cb(match):$/;"	f
 img_cb	HARVARD/mk_slides2.py	/^    def img_cb(match):$/;"	f
 img_cb	JM/mk_slides2.py	/^    def img_cb(match):$/;"	f
 img_cb	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def img_cb(match):$/;"	f
+img_cb	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def img_cb(match):$/;"	f
+img_cb	NANTES/NANTES/bb.py	/^    def img_cb(match):$/;"	f
+img_cb	NANTES/NANTES/mk_slides2.py	/^    def img_cb(match):$/;"	f
 img_cb	NANTES/bb.py	/^    def img_cb(match):$/;"	f
 img_cb	NANTES/mk_slides2.py	/^    def img_cb(match):$/;"	f
 img_cb	PROG/RR/mk_slides2.py	/^    def img_cb(match):$/;"	f
@@ -550,6 +561,9 @@ math_cb	HARVARD/bb.py	/^    def math_cb(match):$/;"	f
 math_cb	HARVARD/mk_slides2.py	/^    def math_cb(match):$/;"	f
 math_cb	JM/mk_slides2.py	/^    def math_cb(match):$/;"	f
 math_cb	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def math_cb(match):$/;"	f
+math_cb	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def math_cb(match):$/;"	f
+math_cb	NANTES/NANTES/bb.py	/^    def math_cb(match):$/;"	f
+math_cb	NANTES/NANTES/mk_slides2.py	/^    def math_cb(match):$/;"	f
 math_cb	NANTES/bb.py	/^    def math_cb(match):$/;"	f
 math_cb	NANTES/mk_slides2.py	/^    def math_cb(match):$/;"	f
 math_cb	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    def math_cb(match):$/;"	f
@@ -580,6 +594,9 @@ md_with_tags	HARVARD/bb.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"
 md_with_tags	HARVARD/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
 md_with_tags	JM/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
 md_with_tags	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	NANTES/NANTES/bb.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
+md_with_tags	NANTES/NANTES/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
 md_with_tags	NANTES/bb.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
 md_with_tags	NANTES/mk_slides2.py	/^    md_with_tags = re.sub(PP_MATH, math_cb, xx)$/;"	v
 md_with_tags	NN/.ipynb_checkpoints/mk_slides-checkpoint.py	/^    md_with_tags = re.sub(pp_math, math_cb, xx)$/;"	v
@@ -610,6 +627,9 @@ media_cb	HARVARD/bb.py	/^    def media_cb(match):$/;"	f
 media_cb	HARVARD/mk_slides2.py	/^    def media_cb(match):$/;"	f
 media_cb	JM/mk_slides2.py	/^    def media_cb(match):$/;"	f
 media_cb	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def media_cb(match):$/;"	f
+media_cb	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def media_cb(match):$/;"	f
+media_cb	NANTES/NANTES/bb.py	/^    def media_cb(match):$/;"	f
+media_cb	NANTES/NANTES/mk_slides2.py	/^    def media_cb(match):$/;"	f
 media_cb	NANTES/bb.py	/^    def media_cb(match):$/;"	f
 media_cb	NANTES/mk_slides2.py	/^    def media_cb(match):$/;"	f
 media_cb	PROG/RR/mk_slides2.py	/^    def media_cb(match):$/;"	f
@@ -662,12 +682,15 @@ pandoc_it	GLASGOW/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 
 pandoc_it	GLASGOW/bb.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	GLASGOW/mk_slides2.py	/^    pandoc_it = ('pandoc -t revealjs -c mycss.css -s -o {}.html tmp.md'.format(FN.split('.')[0])).split()$/;"	v
 pandoc_it	GRENOBLE/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
-pandoc_it	GRENOBLE/mk_slides3.py	/^    pandoc_it = ('\/home\/macbuse\/bin\/pandoc -t revealjs -c mycss.css -s -o {}.html tmp.md'.format(FN.split('.')[0])).split()$/;"	v
+pandoc_it	GRENOBLE/mk_slides3.py	/^    pandoc_it = ('\/home\/macbuse\/bin\/pandoc -t revealjs -s -o {}.html tmp.md'.format(FN.split('.')[0])).split()$/;"	v
 pandoc_it	HARVARD/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	HARVARD/bb.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	HARVARD/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	JM/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	NANTES/NANTES/bb.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
+pandoc_it	NANTES/NANTES/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	NANTES/bb.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	NANTES/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
 pandoc_it	PROG/RR/mk_slides2.py	/^    pandoc_it = 'pandoc -t revealjs -c mycss.css -s -o slides.html tmp.md'.split()$/;"	v
@@ -766,6 +789,9 @@ spoken_text	HARVARD/bb.py	/^    spoken_text = []$/;"	v
 spoken_text	HARVARD/mk_slides2.py	/^    spoken_text = []$/;"	v
 spoken_text	JM/mk_slides2.py	/^    spoken_text = []$/;"	v
 spoken_text	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    spoken_text = []$/;"	v
+spoken_text	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    spoken_text = []$/;"	v
+spoken_text	NANTES/NANTES/bb.py	/^    spoken_text = []$/;"	v
+spoken_text	NANTES/NANTES/mk_slides2.py	/^    spoken_text = []$/;"	v
 spoken_text	NANTES/bb.py	/^    spoken_text = []$/;"	v
 spoken_text	NANTES/mk_slides2.py	/^    spoken_text = []$/;"	v
 spoken_text	PROG/RR/mk_slides2.py	/^    spoken_text = []$/;"	v
@@ -810,6 +836,12 @@ string2fn	JM/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
 string2fn	JM/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
 string2fn	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
 string2fn	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	NANTES/NANTES/bb.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	NANTES/NANTES/bb.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
+string2fn	NANTES/NANTES/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
+string2fn	NANTES/NANTES/mk_slides2.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
 string2fn	NANTES/bb.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
 string2fn	NANTES/bb.py	/^    string2fn = voices.string2fn #delegate this$/;"	v
 string2fn	NANTES/mk_slides2.py	/^    def string2fn(self, xx):$/;"	m	class:Voices
@@ -902,6 +934,12 @@ voices	JM/mk_slides2.py	/^    voices = Voices()$/;"	v
 voices	JM/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
 voices	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = Voices()$/;"	v
 voices	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = Voices()$/;"	v
+voices	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	NANTES/NANTES/bb.py	/^    voices = Voices()$/;"	v
+voices	NANTES/NANTES/bb.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
+voices	NANTES/NANTES/mk_slides2.py	/^    voices = Voices()$/;"	v
+voices	NANTES/NANTES/mk_slides2.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
 voices	NANTES/bb.py	/^    voices = Voices()$/;"	v
 voices	NANTES/bb.py	/^    voices = {'K' : 'en-GB_KateV3Voice',$/;"	v	class:Voices
 voices	NANTES/mk_slides2.py	/^    voices = Voices()$/;"	v
@@ -966,6 +1004,12 @@ xx	JM/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	JM/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
 xx	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	NANTES/NANTES/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	NANTES/NANTES/bb.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	NANTES/NANTES/bb.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
+xx	NANTES/NANTES/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
+xx	NANTES/NANTES/mk_slides2.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
 xx	NANTES/bb.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v
 xx	NANTES/bb.py	/^    xx = re.sub(PP_MEDIA , media_cb, md)$/;"	v
 xx	NANTES/mk_slides2.py	/^    xx = re.sub(PP_IMG, img_cb, xx)$/;"	v

@@ -1,4 +1,4 @@
-#!  /home/macbuse/anaconda3/bin/python3.8
+#!  /home/macbuse/anaconda3/bin/python3.9
 '''whatever'''
 
 import os, re, time, sys
@@ -6,7 +6,7 @@ import subprocess
 
 import json #serialise
 import requests
-from gtts import gTTS
+# from gtts import gTTS
 
 class Voices():
     '''vv'''
@@ -146,8 +146,10 @@ if __name__ == '__main__':
         fp.write(md_with_tags)
         
     #split this (past col 80) so that we can replace for -o later if we want
-    # /home/macbuse/anaconda3/bin/python3.8
-    pandoc_it = ('/home/macbuse/bin/pandoc -t revealjs -c mycss.css -s -o {}.html tmp.md'.format(FN.split('.')[0])).split()
+
+    # some stupid conflict with the css 26/10/2022
+    # pandoc_it = ('/home/macbuse/bin/pandoc -t revealjs -c mycss.css -s -o {}.html tmp.md'.format(FN.split('.')[0])).split()
+    pandoc_it = ('/home/macbuse/bin/pandoc -t revealjs -s -o {}.html tmp.md'.format(FN.split('.')[0])).split()
     # pandoc_it.extend('-V revealjs-url=../reveal.js --mathjax -i'.split())
     pandoc_it.extend('-V revealjs-url=https://www-fourier.ujf-grenoble.fr/~mcshane/reveal.js --mathjax -i'.split())
     print(' '.join(pandoc_it))

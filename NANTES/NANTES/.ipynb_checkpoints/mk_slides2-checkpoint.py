@@ -1,4 +1,4 @@
-#!  /home/macbuse/anaconda3/bin/python3.9
+#! /home/gregmcshane/anaconda3/bin/python3.6 
 '''whatever'''
 
 import os, re, time, sys
@@ -6,7 +6,7 @@ import subprocess
 
 import json #serialise
 import requests
-# from gtts import gTTS
+from gtts import gTTS
 
 class Voices():
     '''vv'''
@@ -129,7 +129,7 @@ if __name__ == '__main__':
         return wrapper.format(string2fn(src))
     
     def math_cb(match):
-        wrapper = '<span style="font-size: {}%">{}</span>'
+        wrapper = '<div style="font-size: {}%">{}</div>'
         return wrapper.format(match.group(1), match.group(2))
     
     def img_cb(match):

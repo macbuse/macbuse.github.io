@@ -41,7 +41,7 @@ $1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181
 ### Frobenius uniqueness conjecture
 
 - The largest integer in a triple determines the two other numbers.
-- For every Markoff number 200$m$ there are exactly 3 simple closed geodesics of length  200$2\cosh^{-1}(3m/2)$ on the modular torus 200$\mathbb{H}/\Gamma'$ 
+- For every Markoff number $m$ there are exactly 3 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus $\mathbb{H}/\Gamma'$ 
 
 
 #
@@ -58,12 +58,12 @@ m = Markoff number
 #
 ## Button's Theorem
 
-If 200$z$ is a Markoff number which is prime<br>
-then there is a unique triple 200$z > y > x$
+If $z$ is a Markoff number which is prime<br>
+then there is a unique triple $z > y > x$
 
-- 200$x^2 + y^2 + z^2 - 3x y z = 0.$
-- 200$\bar{x}^2 + \bar{y}^2 = 0.$ in 200$\mathbb{F}_z$
-- 200$(\bar{x}/\bar{y})^2 = -1$ in 200$\mathbb{F}_z$
+- $x^2 + y^2 + z^2 - 3x y z = 0.$
+- $\bar{x}^2 + \bar{y}^2 = 0.$ in $\mathbb{F}_z$
+- $(\bar{x}/\bar{y})^2 = -1$ in $\mathbb{F}_z$
 
 #
 
@@ -371,7 +371,7 @@ then there is a unique triple 200$z > y > x$
 #
 
 - Button's theorem follows from unicity and
-- For every Markoff number 200$m$ there are exactly 3 simple closed geodesics of length  200$2\cosh^{-1}(3m/2)$ on the modular torus 200$\mathbb{H}/\Gamma'$ 
+- For every Markoff number 200$m$ there are exactly 3 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus 200$\mathbb{H}/\Gamma'$ 
 - exactly 3 simple arcs of 200$\lambda$ length 200$9m^2$ on 200$\mathbb{H}/\Gamma'$ 
 
 # That's all folks!!!!!
