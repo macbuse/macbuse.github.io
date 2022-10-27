@@ -13,7 +13,7 @@ title: MAT305
 - [2021 TD archived page](./MAT305_index.md)
 - [mes calculs](./uniqueness.pdf)
 
-- [partiel du 8/10](./CC1_MAT305.pdf)
+- [CC du 8/10](./CC1_MAT305.pdf)
 	- [correction](./CC1_corr.pdf)
 	- [la courbe](https://www.wolframalpha.com/input?i=plot+%281+-+t%5E2%2C++t%5E3%2F4+-+3t%29)
 	- [vecteur velocite](https://www.wolframalpha.com/input?i=derivative+t+of++%281+-+t%5E2%2C++t%5E3%2F4+-+3t%29)
