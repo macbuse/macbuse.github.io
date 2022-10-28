@@ -38,6 +38,8 @@ it's like 50 LOC.
 
 ### Friday 28/10
 
+#### Salle 18 pas l'amphi
+
 - Here is my solution for [Barnsley fractal](./barnsley_fern.ipynb)
 - I talked about 
 	- my version of [game of life](./life.md)
