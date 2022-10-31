@@ -3,9 +3,7 @@ layout: default
 title: Programming
 ---
 
-
 # Introduction
-
 
 The first class was just preparation for what we will do in the rest of the
 semester.  I won't be using the Moodle page so much as it is not easy to update

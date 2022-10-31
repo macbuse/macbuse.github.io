@@ -46,7 +46,7 @@ here are some preprints.
 - back on [Copilot](https://github.com/features/copilot)
 <!-- - [tea pots](./PROG/thurston_bonsai.html) -->
 <!-- ![img](./fund_dom_reid_xx.svg) -->
-
+- thhinking about projects like [magic squares](https://en.wikipedia.org/wiki/Magic_square#Method_of_superposition)
 ---
 # Teaching 2022-23
 
