@@ -19,6 +19,8 @@ title: Home
 
 <h1 id="research">Research</h1>
 
+
+- [CV 2022](./CV.pdf
 - I am principal investigator [ToFu](https://persyval-lab.org/en/ToFu)
 - I am an associate member of <a href="http://gear.math.illinois.edu">GEAR</a>
 - I was <strong>director</strong> of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
@@ -152,7 +154,7 @@ I embedded this in a [script with pygame too](./PROG/epidemic_sim.py)
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
 - Member of the Conseil de l'UFR IMAG2
 - Ex directeur de [GDR TRESSES](http://tresses.math.cnrs.fr)
-- [CV](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/cv2016.pdf)
+- [CV](./CV.pdf
 - [research statement](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf)
 - [my github account](https://github.com/macbuse)
 
