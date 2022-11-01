@@ -25,9 +25,9 @@ title: Home
 - I am an associate member of <a href="http://gear.math.illinois.edu">GEAR</a>
 - I was <strong>director</strong> of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
 <!-- - I will probably attend [this conference](https://ms-math-computer.science/projects/dmv_math_art_22.html) on zoom. -->
-- I organised a special session at **AMS-EMS-SMF** Joint International Meeting in July. 
+- I organised a [special session](./schedule_amssmf.md) **AMS-EMS-SMF** Joint International Meeting in July. 
 	<!-- - [event programme](https://ams-ems-smf2022.inviteo.fr/index.php?langue=en&onglet=11&acces=&idUser=&emailUser=&messageConfirmation=) -->
-	- [special session schedule](./schedule_amssmf.md)
+	<!-- - [special session schedule](./schedule_amssmf.md) -->
 
 
 #### what I've been doing lately
