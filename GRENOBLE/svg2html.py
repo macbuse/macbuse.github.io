@@ -1,4 +1,4 @@
-#!  /home/macbuse/anaconda3/bin/python3.8
+#!  /home/macbuse/anaconda3/bin/python3.9
 import re, sys
 from svgpathtools import svg2paths
 
@@ -43,8 +43,6 @@ def units_cb(mm):
     return '%spx'%mm.group(1)
 
 
-
-
 def mk_anim(src_fn):
     
     def path_cb(mm):
@@ -57,7 +55,7 @@ def mk_anim(src_fn):
     data = re.sub(pp_metadata, '', data)
 
     paths, attributes = svg2paths(src_fn)
-    path_ids = ['p%d'%k for k,x in enumerate(paths) ]
+    path_ids = ['p%d'%k for k, _ in enumerate(paths) ]
 
     data = re.sub(pp_units, units_cb, data)
     svg = re.sub(pp_path, path_cb, data)

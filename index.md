@@ -20,7 +20,7 @@ title: Home
 <h1 id="research">Research</h1>
 
 
-- [CV 2022](./CV.pdf
+- [CV 2022](./CV.pdf)
 - I am principal investigator [ToFu](https://persyval-lab.org/en/ToFu)
 - I am an associate member of <a href="http://gear.math.illinois.edu">GEAR</a>
 - I was <strong>director</strong> of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
