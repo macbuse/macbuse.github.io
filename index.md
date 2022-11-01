@@ -51,7 +51,12 @@ here are some preprints.
 - thinking about projects like [magic squares](https://en.wikipedia.org/wiki/Magic_square#Method_of_superposition)
 
 ```
-N = 5
+# compare with
+# https://scipython.com/book/chapter-6-numpy/examples/creating-a-magic-square/
+# which is (nearly) twice as long :(
+
+import numpy as np
+N = 5 # Ok so N must be odd
 seed_row = ( (N+1)*np.arange(0, N) + 1) % N**2
 seed_row = np.roll(seed_row, 1)
 
