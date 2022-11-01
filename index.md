@@ -48,7 +48,23 @@ here are some preprints.
 - back on [Copilot](https://github.com/features/copilot)
 <!-- - [tea pots](./PROG/thurston_bonsai.html) -->
 <!-- ![img](./fund_dom_reid_xx.svg) -->
-- thhinking about projects like [magic squares](https://en.wikipedia.org/wiki/Magic_square#Method_of_superposition)
+- thinking about projects like [magic squares](https://en.wikipedia.org/wiki/Magic_square#Method_of_superposition)
+
+```
+N = 5
+seed_row = ( (N+1)*np.arange(0, N) + 1) % N**2
+seed_row = np.roll(seed_row, 1)
+
+magic_square =  np.zeros((N,N), dtype=int)
+for k in range(0,N):
+    magic_square[k] = (np.roll(seed_row, -k) + k * N  ) % N**2
+#exception
+magic_square[magic_square == 0] = N**2
+
+# check
+np.sum(magic_square, axis=0), np.sum(magic_square, axis=1),  magic_square % N
+```
+
 ---
 # Teaching 2022-23
 
