@@ -44,10 +44,10 @@ here are some preprints.
 #### what I'm doing this week
 
 <!-- - [frieze patterns](./frieze.pdf) -->
-- [newton fractals](./PROG/newton_frac.html)
-- back on [Copilot](https://github.com/features/copilot)
 <!-- - [tea pots](./PROG/thurston_bonsai.html) -->
 <!-- ![img](./fund_dom_reid_xx.svg) -->
+- [newton fractals](./PROG/newton_frac.html)
+- back on [Copilot](https://github.com/features/copilot)
 - thinking about projects like [magic squares](https://en.wikipedia.org/wiki/Magic_square#Method_of_superposition)
 
 ```
