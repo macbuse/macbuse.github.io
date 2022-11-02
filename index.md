@@ -46,7 +46,7 @@ here are some preprints.
 <!-- - [frieze patterns](./frieze.pdf) -->
 <!-- - [tea pots](./PROG/thurston_bonsai.html) -->
 <!-- ![img](./fund_dom_reid_xx.svg) -->
-- [newton fractals](./PROG/newton_frac.html)
+- [newton fractals](./PROG/newton_frrac.html)
 - back on [Copilot](https://github.com/features/copilot)
 - thinking about projects like [magic squares](https://en.wikipedia.org/wiki/Magic_square#Method_of_superposition)
 
@@ -57,8 +57,11 @@ here are some preprints.
 
 import numpy as np
 N = 5 # Ok so N must be odd
-seed_row = ( (N+1)*np.arange(0, N) + 1) % N**2
-seed_row = np.roll(seed_row, 1)
+
+seed = N + 1
+seed_row = (seed*np.arange(0, N) + 1) % N**2
+seed_row = np.roll(seed_row, 3)
+offset = 2
 
 magic_square =  np.zeros((N,N), dtype=int)
 for k in range(0,N):
@@ -67,7 +70,7 @@ for k in range(0,N):
 magic_square[magic_square == 0] = N**2
 
 # check
-np.sum(magic_square, axis=0), np.sum(magic_square, axis=1),  magic_square % N
+np.sum(magic_square, axis=0), np.sum(magic_square, axis=1),  magic_square.trace()
 ```
 
 ---
