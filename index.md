@@ -55,18 +55,16 @@ here are some preprints.
 # https://scipython.com/book/chapter-6-numpy/examples/creating-a-magic-square/
 # which is (nearly) twice as long :(
 
-import numpy as np
-N = 5 # Ok so N must be odd
-
 seed = N + 1
 seed_row = (seed*np.arange(0, N) + 1) % N**2
-seed_row = np.roll(seed_row, 3)
+seed_row = np.roll(seed_row, N //2)
 offset = 2
 
 magic_square =  np.zeros((N,N), dtype=int)
 for k in range(0,N):
-    magic_square[k] = (np.roll(seed_row, -k) + k * N  ) % N**2
-#exception
+    magic_square[k] = (np.roll(seed_row, k*offset) - k * N  ) 
+
+magic_square = magic_square % N**2
 magic_square[magic_square == 0] = N**2
 
 # check
