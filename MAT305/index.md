@@ -39,6 +39,10 @@ title: MAT305
 
 ## Feuilles avec commentaires
 
+[F4](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD4.pdf)
+- [ebauche de correction](./f3_corr.pdf)
+
+---
 
 [F3](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD3.pdf)
 

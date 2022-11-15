@@ -406,6 +406,7 @@ add	WARWICK/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def add(self, txts
 add	WARWICK/bb.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	WARWICK/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
 add	ZHU_SLIDES/mk_slides2.py	/^    def add(self, txts):$/;"	m	class:Voices
+addWidgetsRenderer	MAT305/.ipynb_checkpoints/mat305_notes-checkpoint.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	MAT305/graphs_tangents.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	MAT305/mat305_notes.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	METH_NUM/.ipynb_checkpoints/mnum-checkpoint.html	/^  function addWidgetsRenderer() {$/;"	f

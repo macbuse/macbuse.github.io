@@ -55,20 +55,24 @@ here are some preprints.
 # https://scipython.com/book/chapter-6-numpy/examples/creating-a-magic-square/
 # which is (nearly) twice as long :(
 
-seed = N + 1
-seed_row = (seed*np.arange(0, N) + 1) % N**2
-seed_row = np.roll(seed_row, N //2)
-offset = 2
+def mk_magic_square(N=5,
+                    RANDOM=False):
+    
+    seed_row = (N+1) * np.arange(0, N) + 1
+    seed_row = np.roll(seed_row, N // 2)
 
-magic_square =  np.zeros((N,N), dtype=int)
-for k in range(0,N):
-    magic_square[k] = (np.roll(seed_row, k*offset) - k * N  ) 
+    ms =  np.zeros((N,N), dtype=int)
+    for k in range(0,N):
+        ms[k] = np.roll(seed_row, -k) + k * N  
+    
+    ms = ms % N**2
+    ms[ms == 0] = N**2
 
-magic_square = magic_square % N**2
-magic_square[magic_square == 0] = N**2
-
-# check
-np.sum(magic_square, axis=0), np.sum(magic_square, axis=1),  magic_square.trace()
+    if RANDOM :
+        V = np.identity(N, dtype=int)
+        np.random.shuffle(V)
+        ms = V @ ms
+    return  ms
 ```
 
 ---
