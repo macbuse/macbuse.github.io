@@ -41,6 +41,7 @@ title: MAT305
 
 [F4](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD4.pdf)
 - [ebauche de correction](./f3_corr.pdf)
+- [correction exos 5 & 6](./f3_corr_2.pdf)
 
 ---
 
