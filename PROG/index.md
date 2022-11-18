@@ -37,12 +37,14 @@ it's like 50 LOC.
 
 I will be teaching at 13:45 on 19 novembre
 
-We'll begin by discussing how to see that everything is philosophy.
+We'll begin by discussing how to see that everything is [philosophy](./philosophy.html).
 
 - [scraping](https://en.wikipedia.org/wiki/Web_scraping) 
 - [crawling](https://en.wikipedia.org/wiki/Web_crawler).
 
-So you should compute the eigenvalues of the adjacency matrix and try to draw the graph.
+
+**Exercise** : Here is a [network of pages](./SCRAPE/X_aoy.html).
+You should compute the eigenvalues of the adjacency matrix and try to draw the graph.
 
 #### Why?
 
@@ -57,6 +59,7 @@ Basically this
 
 This is a standard thing to do for random [walks on a graph](https://en.wikipedia.org/wiki/Random_walk).
 
+---
 
 ### Friday 28/10
 
