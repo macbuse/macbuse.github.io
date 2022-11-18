@@ -46,6 +46,8 @@ We'll begin by discussing how to see that everything is [philosophy](./philosoph
 **Exercise** : Here is a [network of pages](./SCRAPE/X_aoy.html).
 You should compute the eigenvalues of the adjacency matrix and try to draw the graph.
 
+This is [my solution](./gph2sites.ipynb).
+
 #### Why?
 
 Google started out as a search engine and won the [search engine war](https://www.searchenginepeople.com/blog/125-why-google-won.html)
