@@ -1,6 +1,6 @@
 %Geometry of sums of squares
-%greg mc
-%November 2021
+%Beijing/Nankai
+%November 2022
 
 #
 
@@ -29,7 +29,7 @@ $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 
 $1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$
 
-200$(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
+$(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 
 # 
 ### Markoff numbers
@@ -75,16 +75,16 @@ then there is a unique triple $z > y > x$
 #
 ## two groups of order 4
 
-Acting on 150$\mathbb{F}_p^*$
+Acting on $\mathbb{F}_p^*$
 
-150$\begin{array}{lll}
+$\begin{array}{lll}
 x &\mapsto& -x \\
 x &\mapsto& 1/x
 \end{array}$
 
-Acting on 150$\mathbb{H}$
+Acting on $\mathbb{H}$
 
-150$\begin{array}{lll}
+$\begin{array}{lll}
 z &\mapsto& -\bar{z} \\
 z &\mapsto& 1/\bar{z}
 \end{array}$
