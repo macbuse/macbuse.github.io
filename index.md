@@ -319,6 +319,10 @@ Talks are [Reveal.js](https://revealjs.com/) slides
 - blue text is a link to a resource on the web
 
 ---
+### 2022
+
+
+- [Beijing/Nankai 21/11]( ./GRENOBLE/web.html)
 
 ### 2021
 

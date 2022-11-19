@@ -123,51 +123,50 @@ z &\mapsto& 1/\bar{z}
 #
 ### Burnside Lemma 
 
-- <span style="font-size: 200%">$G$</span> acting on <span style="font-size: 200%">$X$</span> then 
+- $G$ acting on $X$ then 
 
-    <span style="font-size: 250%">$|G| |X/G| = \sum_{g} |X^g|$</span>
+    $|G| |X/G| = \sum_{g} |X^g|$
 
-- <span style="font-size: 200%">$X^g$</span> =  fixed points of the element <span style="font-size: 200%">$g$</span> 
-- <span style="font-size: 200%">$X/G$</span>  the orbit space.
+- $X^g$ =  fixed points of the element $g$ 
+- $X/G$  the orbit space.
 
 #
 ## Theorem 1.1
 
-Acting on <span style="font-size: 200%">$X = \mathbb{F}_p^*$</span>
+Acting on $X = \mathbb{F}_p^*$
 
-- identity <span style="font-size: 200%">$|X^g| = p-1$</span> 
-- <span style="font-size: 200%">$x \mapsto -x, |X^g| = 0$</span>  
-- <span style="font-size: 200%">$x \mapsto 1/x, |X^g| = 2$</span>  
-- <span style="font-size: 200%">$x \mapsto -1/x, |X^g| = \ldots$</span>  
+- identity $|X^g| = p-1$ 
+- $x \mapsto -x, |X^g| = 0$  
+- $x \mapsto 1/x, |X^g| = 2$  
+- $x \mapsto -1/x, |X^g| = \ldots$  
 
 #
 
 
-- <span style="font-size: 250%">$|G| |X/G| = \sum_{g} |X^g|$</span>
-- <span style="font-size: 250%">$4 |X/G| = (p-1) + 2 + |X^{(x\mapsto -1/x)}|$</span>
-- <span style="font-size: 250%">$\Rightarrow  |X^{(x\mapsto -1/x)}|= 2$</span>,, if <span style="font-size: 250%">$4 \not | (p+1)$</span>
-- <span style="font-size: 250%">$\Rightarrow  \exists x,\, x^2 = -1$</span>, if <span style="font-size: 250%">$4 \not | (p+1)$</span>
-
+- $|G| |X/G| = \sum_{g} |X^g|$
+- $4 |X/G| = (p-1) + 2 + |X^{(x\mapsto -1/x)}|$
+- $\Rightarrow  |X^{(x\mapsto -1/x)}| = 2,\, \text{if }4 \not \mid (p+1)$
+- $\Rightarrow  \exists x,\, x^2 = -1,\, \text{if }4 \not \mid (p+1)$$
 
 #
 ## Theorem 1.2: sum of 2 squares
 
-Acting on <span style="font-size: 200%">$\mathbb{H}$</span>
+Acting on $\mathbb{H}$
 
-<span style="font-size: 200%">$\begin{array}{lll}
+$\begin{array}{lll}
 z &\mapsto& -\bar{z} \\
 z &\mapsto& 1/\bar{z}
-\end{array}$</span>
+\end{array}$
 
 
 
 #
 ## Primitives
 
-- <span style="font-size: 250%">$\mathbb{Z}^2$</span> 
+- $\mathbb{Z}^2$ 
 - infinitely many primitive elements 
-- <span style="font-size: 250%">$(a,b)$</span> primitive iff <span style="font-size: 250%">$a,b \in \mathbb{Z}$</span> coprime
-- <span style="font-size: 200%">$SL(2,\mathbb{Z})$</span> transitive on primitives
+- $(a,b)$ primitive iff $a,b \in \mathbb{Z}$ coprime
+- $SL(2,\mathbb{Z})$ transitive on primitives
 
 
 #
@@ -183,11 +182,11 @@ z &\mapsto& 1/\bar{z}
 ## Farey tessalation
 
 
-<span style="font-size: 200%">$\mathbb{Q}\cup \infty \subset$</span> circle/projective line
+$\mathbb{Q}\cup \infty \subset$ circle/projective line
 
-- <span style="font-size: 200%">$(a,b)\text{ primitive } \mapsto a/b \in \mathbb{Q}\cup \infty$</span>
-- <span style="font-size: 200%">$\begin{pmatrix} a & c \\ b & d \end{pmatrix} \in \mathrm{SL}(2,\mathbb{Z})\mapsto$</span>  arc joining <span style="font-size: 200%">$(a/b, c/d)$</span> 
-- <span style="font-size: 200%">$(a/b, c/d)$</span> are Farey neighbors
+- $(a,b)\text{ primitive } \mapsto a/b \in \mathbb{Q}\cup \infty$
+- $\begin{pmatrix} a & c \\ b & d \end{pmatrix} \in \mathrm{SL}(2,\mathbb{Z})\mapsto$  arc joining $(a/b, c/d)$ 
+- $(a/b, c/d)$ are Farey neighbors
 
 
 #
@@ -204,13 +203,13 @@ z &\mapsto& 1/\bar{z}
 
 #
 ## Definitions
-- **arc** = Poincaré geodesic joining <span style="font-size: 200%">$a/b, c/d \in \mathbb{Q}\cup \infty$</span>
-- **<span style="font-size: 200%">$\lambda$</span>- length of  arc** <span style="font-size: 200%">$= |ad - bc|^2$</span> 
+- **arc** = Poincaré geodesic joining $a/b, c/d \in \mathbb{Q}\cup \infty$
+- **$\lambda$- length of  arc** $= |ad - bc|^2$ 
 
 #
 ## Lemma
 
-**<span style="font-size: 200%">$\log \lambda$</span>- length ** = length of the portion outside Ford circles tangent to the real line at its endpoints
+**$\log \lambda$- length ** = length of the portion outside Ford circles tangent to the real line at its endpoints
 
 
 #
@@ -221,50 +220,50 @@ z &\mapsto& 1/\bar{z}
 
 #
 
-<span style="font-size: 200%">$\mathrm{SL}(2,\mathbb{Z})$</span> acts by Mobius transformations on <span style="font-size: 200%">$\mathbb{H}$</span>
+$\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 
-- <span style="font-size: 200%">$\begin{pmatrix} a & c \\ b & d \end{pmatrix}.z = \frac{az+b}{cz+d}$</span> 
+- $\begin{pmatrix} a & c \\ b & d \end{pmatrix}.z = \frac{az+b}{cz+d}$ 
 - preserves the Poincaré (hyperbolic) metric
-- the orbit of <span style="font-size: 200%">$F := \{ z, \mathrm{Im}\, z > 1\}$</span> are the Ford circles
+- the orbit of $F := \{ z, \mathrm{Im}\, z > 1\}$ are the Ford circles
 
 #
 
 <img src="./ford_circles_again.png" width="600">
 
-- point of tangency with <span style="font-size: 200%">$\mathbb{R} = p/q$</span>, diameter = <span style="font-size: 200%">$1/q^2$</span>
+- point of tangency with $\mathbb{R} = p/q$, diameter = $1/q^2$
 
 #
 ### Proof of lemma
 
-- **arc** joining <span style="font-size: 200%">$a/b, c/d$</span> has **<span style="font-size: 200%">$\lambda$</span>- length ** <span style="font-size: 200%">$= |ad - bc|^2$</span> 
-- **<span style="font-size: 200%">$\log \lambda$</span>- length ** = length of the portion outside Ford circles tangent to the real line at its endpoints
+- **arc** joining $a/b, c/d$ has **$\lambda$- length ** $= |ad - bc|^2$ 
+- **$\log \lambda$- length ** = length of the portion outside Ford circles tangent to the real line at its endpoints
 
 
 #
 ### Proof of lemma
 
-- <span style="font-size: 200%">$\mathrm{SL}(2,\mathbb{Z})$</span>  transitive, 
-- can suppose <span style="font-size: 200%">$a/b = \infty$</span> and <span style="font-size: 200%">$c/d = k/(ad - bc)$</span>
-- Ford circles  <span style="font-size: 200%">$F$</span>  tangent at <span style="font-size: 200%">$\infty$</span>
-- and another of diameter <span style="font-size: 200%">$1/(ad - bc)^2$</span>
-- the **midpoint** of this vertical arc is at height <span style="font-size: 200%">$1/|ad - bc|$</span>
+- $\mathrm{SL}(2,\mathbb{Z})$  transitive, 
+- can suppose $a/b = \infty$ and $c/d = k/(ad - bc)$
+- Ford circles  $F$  tangent at $\infty$
+- and another of diameter $1/(ad - bc)^2$
+- the **midpoint** of this vertical arc is at height $1/|ad - bc|$
 
 #
 #
-- <span style="font-size: 200%">$\Gamma = \mathrm{SL}(2,\mathbb{Z})$</span> has torsion so <span style="font-size: 200%">$\mathbb{H}/\Gamma$</span> orbifold
-- <span style="font-size: 200%">$\Gamma(2) = \ker (\mathrm{SL}(2,\mathbb{Z})\rightarrow  \mathrm{SL}(2,\mathbb{F}_2))$</span>
-- <span style="font-size: 200%">$\Gamma' = [\Gamma,\Gamma]$</span>
-- <span style="font-size: 200%">$\mathbb{H}/\Gamma(2)$</span>  three punctured sphere 
-- <span style="font-size: 200%">$\mathbb{H}/\Gamma'$</span> once punctured torus 
+- $\Gamma = \mathrm{SL}(2,\mathbb{Z})$ has torsion so $\mathbb{H}/\Gamma$ orbifold
+- $\Gamma(2) = \ker (\mathrm{SL}(2,\mathbb{Z})\rightarrow  \mathrm{SL}(2,\mathbb{F}_2))$
+- $\Gamma' = [\Gamma,\Gamma]$
+- $\mathbb{H}/\Gamma(2)$  three punctured sphere 
+- $\mathbb{H}/\Gamma'$ once punctured torus 
 
 #
 
 In the solution of Aigner's conjectures the geometry of the 
 simple geodesics on
-<span style="font-size: 200%">$\mathbb{H}/\Gamma'$</span> once punctured torus was important. 
+$\mathbb{H}/\Gamma'$ once punctured torus was important. 
 
 - For Fermat's theorem it's the automorphisms of 
-<span style="font-size: 200%">$\mathbb{H}/\Gamma(2)$</span> =  three punctured sphere 
+$\mathbb{H}/\Gamma(2)$ =  three punctured sphere 
 
 #
 
@@ -273,21 +272,21 @@ can be cut up into 2 ideal triangles.
 
 <img src="./fund_dom_gamma2.png" width="400">
 
-- Fundamental domain for <span style="font-size: 200%">$\Gamma(2)$</span>
+- Fundamental domain for $\Gamma(2)$
 
 
 #
 
 <img src="./three_punctured.png" width="400">
 
-- <span style="font-size: 200%">$i, 1+i, \frac12 ( 1 + i)$</span> are midpoints
+- $i, 1+i, \frac12 ( 1 + i)$ are midpoints
 
 #
 ## reciprocals of sums of squares
 
-- <span style="font-size: 200%">$i, 1+i, \frac12 ( 1 + i)$</span> are midpoints of arcs
-- the lifts to <span style="font-size: 200%">$\mathbb{H}$</span> of the midpoints <span style="font-size: 200%">$=\Gamma.i$</span> 
-- <span style="font-size: 250%">$\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}$</span>
+- $i, 1+i, \frac12 ( 1 + i)$ are midpoints of arcs
+- the lifts to $\mathbb{H}$ of the midpoints $=\Gamma.i$ 
+- $\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}$
 
 #
 
@@ -301,27 +300,27 @@ fixing the cusp labeled <span style="font-size: 200%">$\infty$</span>?
 
 #
 
-- fixes the cusp and midpoint <span style="font-size: 200%">$\frac12(1+i)$</span><br>
+- fixes the cusp and midpoint $\frac12(1+i)$<br>
 - dashed geodesics are invariant under the group<br>
 <img src="./three_punctured.png" width="400">
 
 #
-### the set <span style="font-size: 200%">$X$</span>
+### the set $X$
 
-- arcs joining cusps <span style="font-size: 200%">$\infty, 1$</span> with <span style="font-size: 200%">$\lambda$</span>-length <span style="font-size: 200%">$p^2$</span>
-- lift to vertical lines with endpoints <span style="font-size: 200%">$k/p$</span> with <span style="font-size: 200%">$k$</span> odd
-- <span style="font-size: 200%">$|X| = p - 1$</span> as before
+- arcs joining cusps $\infty, 1$ with $\lambda$-length $p^2$
+- lift to vertical lines with endpoints $k/p$ with $k$ odd
+- $|X| = p - 1$ as before
 
 #
 ### Lemma
-Let <span style="font-size: 200%">$n$</span> be a positive integer.
-The number of  ways of writing <span style="font-size: 200%">$n$</span>  as a  sum of squares
-<span style="font-size: 200%">$n = c^2 + d^2$</span>
-with <span style="font-size: 200%">$c,d$</span> coprime integers is equal to the number of  integers 
-<span style="font-size: 200%">$0 \leq k < n-1$</span> coprime to <span style="font-size: 200%">$n$</span>
+Let $n$ be a positive integer.
+The number of  ways of writing $n$  as a  sum of squares
+$n = c^2 + d^2$
+with $c,d$ coprime integers is equal to the number of  integers 
+$0 \leq k < n-1$ coprime to $n$
 such that the line
-<span style="font-size: 200%">$\{  k/n + i t,\, t>0  \}$</span>
-contains  a point in the <span style="font-size: 200%">$\Gamma$</span>  orbit of <span style="font-size: 200%">$i$</span>.
+$\{  k/n + i t,\, t>0  \}$
+contains  a point in the $\Gamma$  orbit of $i$.
 
 #
 ### Proof of lemma
@@ -330,48 +329,48 @@ contains  a point in the <span style="font-size: 200%">$\Gamma$</span>  orbit of
 #
 ## subgroup lifts to 
 
-- <span style="font-size: 200%">$U': z \mapsto 2-\bar{z},\, V' : z \mapsto \bar{z}/(\bar{z} - 1)$</span>
-- composition is <span style="font-size: 200%">$U'\circ V' : z \mapsto z \mapsto (-z + 2) /( z + 1)$</span>
-- whose fixed point is <span style="font-size: 200%">$i+1$</span>.
+- $U': z \mapsto 2-\bar{z},\, V' : z \mapsto \bar{z}/(\bar{z} - 1)$
+- composition is $U'\circ V' : z \mapsto z \mapsto (-z + 2) /( z + 1)$
+- whose fixed point is $i+<span style="font-size: 1%">$.
 
 #
 
-- <span style="font-size: 200%">$U': z \mapsto 2-\bar{z}$</span> induces an automorphism no fixed points in
-    <span style="font-size: 200%">$X,\, p \geq 3$</span>
-- <span style="font-size: 200%">$V' : z \mapsto \bar{z}/(\bar{z} - 1)$</span> is an inversion in a circle center
+- $</span>U': z \mapsto 2-\bar{z}$ induces an automorphism no fixed points in
+    $X,\, p \geq 3$
+- $V' : z \mapsto \bar{z}/(\bar{z} - 1)$ is an inversion in a circle center
     with endpoints -1 and 1
-- projection to surface is simple arc of <span style="font-size: 200%">$\lambda$</span> length <span style="font-size: 200%">$=4$</span>
+- projection to surface is simple arc of $\lambda$ length $=4$
 
 #
 ## Lemma
 
-The automorphism <span style="font-size: 200%">$V$</span> induced by <span style="font-size: 200%">$V'$</span> <br>
-fixes two and exactly two arcs in <span style="font-size: 200%">$X$</span>.
+The automorphism $V$ induced by $V'$ <br>
+fixes two and exactly two arcs in $X$.
 
 - apply Burnside Lemma to prove Theorem 1.2
-- <span style="font-size: 200%">$4 |X/G| = (p-1) + 2 + |X^{U\circ V}|$</span>
+- $4 |X/G| = (p-1) + 2 + |X^{U\circ V}|$
 
 #
 ## Proof
 
-- If <span style="font-size: 200%">$\infty$</span> and <span style="font-size: 200%">$k/p$</span> are exchanged by an inversion swapping Ford circles
-- Then the endpoints of the fixed circle are <span style="font-size: 200%">$(k-1)/p$</span> and <span style="font-size: 200%">$(k+1)/p$</span>  
-- if <span style="font-size: 200%">$1 < k < p-1$</span> the arc joining these points has <span style="font-size: 200%">$\lambda$</span>-length = <span style="font-size: 200%">$4p^2 >4$</span> 
+- If $\infty$ and $k/p$ are exchanged by an inversion swapping Ford circles
+- Then the endpoints of the fixed circle are $(k-1)/p$ and $(k+1)/p$  
+- if $1 < k < p-1$ the arc joining these points has $\lambda$-length = $4p^2 >4$ 
 
 #
 ## Button's Theorem
 
-If <span style="font-size: 200%">$z$</span> is a Markoff number which is prime<br>
-then there is a unique triple <span style="font-size: 200%">$z > y > x$</span>
+If $z$ is a Markoff number which is prime<br>
+then there is a unique triple $z > y > x$
 
-- <span style="font-size: 200%">$x^2 + y^2 + z^2 - 3x y z = 0.$</span>
-- <span style="font-size: 200%">$\bar{x}^2 + \bar{y}^2 = 0$</span> in <span style="font-size: 200%">$\mathbb{F}_z$</span>
-- <span style="font-size: 200%">$(\bar{x}/\bar{y})^2 = -1$</span> in <span style="font-size: 200%">$\mathbb{F}_z$</span>
+- $x^2 + y^2 + z^2 - 3x y z = 0.$
+- $\bar{x}^2 + \bar{y}^2 = 0$ in $\mathbb{F}_z$
+- $(\bar{x}/\bar{y})^2 = -1$ in $\mathbb{F}_z$
 
 #
 
 - Button's theorem follows from unicity and
-- For every Markoff number <span style="font-size: 200%">$m$</span> there are exactly 3 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus <span style="font-size: 200%">$\mathbb{H}/\Gamma'$</span> 
-- exactly 3 simple arcs of <span style="font-size: 200%">$\lambda$</span> length <span style="font-size: 200%">$9m^2$</span> on <span style="font-size: 200%">$\mathbb{H}/\Gamma'$</span> 
+- For every Markoff number $m$ there are exactly 3 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus $\mathbb{H}/\Gamma'$ 
+- exactly 3 simple arcs of $\lambda$ length $9m^2$ on $\mathbb{H}/\Gamma'$ 
 
 # That's all folks!!!!!
