@@ -1,5 +1,5 @@
 %Geometry of sums of squares
-%greg mc
+%Beijing/Nankai
 %November 2022
 
 #
@@ -67,27 +67,44 @@ then there is a unique triple $z > y > x$
 
 #
 
-<img src="./theoremsab.png" width="600">
+<!-- <img src="./theoremsab.png" width="600"> -->
 
+### Theorem 1.2
+
+Let $p$ be a prime then
+$$x^2 + y^2= p$$
+has a solution over $\mathbb{Z}$
+
+- iff $p = 2$ or $p − 1$ is a multiple of 4.
 - Button's theorem follows from unicity here
 
 
 #
+
+### Theorem 1.3
+
+Let $p$ be a prime then
+$$x^2  + xy + y^2= p$$
+has a solution over $\mathbb{Z}$ 
+
+- iff $p = 3$ or $p − 1$ is a multiple of 6.
+
+#
 ## two groups of order 4
 
-Acting on <span style="font-size: 150%">$\mathbb{F}_p^*$</span>
+Acting on $\mathbb{F}_p^*$
 
-<span style="font-size: 150%">$\begin{array}{lll}
+$\begin{array}{lll}
 x &\mapsto& -x \\
 x &\mapsto& 1/x
-\end{array}$</span>
+\end{array}$
 
-Acting on <span style="font-size: 150%">$\mathbb{H}$</span>
+Acting on $\mathbb{H}$
 
-<span style="font-size: 150%">$\begin{array}{lll}
+$\begin{array}{lll}
 z &\mapsto& -\bar{z} \\
 z &\mapsto& 1/\bar{z}
-\end{array}$</span>
+\end{array}$
 
 #
 ## Farey tessalation
@@ -99,9 +116,8 @@ z &\mapsto& 1/\bar{z}
 
 <img src="./ford_circles.gif" width="400">
 
-#
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0hlvhQZIOQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- # -->
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/0hlvhQZIOQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 #
 ## References etc
@@ -209,7 +225,7 @@ $\mathbb{Q}\cup \infty \subset$ circle/projective line
 #
 ## Lemma
 
-**$\log \lambda$- length ** = length of the portion outside Ford circles tangent to the real line at its endpoints
+**$\log \lambda$-length** = length of the portion outside Ford circles tangent to the real line at its endpoints
 
 
 #
@@ -236,7 +252,7 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 ### Proof of lemma
 
 - **arc** joining $a/b, c/d$ has **$\lambda$- length ** $= |ad - bc|^2$ 
-- **$\log \lambda$- length ** = length of the portion outside Ford circles tangent to the real line at its endpoints
+- **$\log \lambda$-length** = length of the portion outside Ford circles tangent to the real line at its endpoints
 
 
 #
@@ -258,10 +274,9 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 
 #
 
-In the solution of Aigner's conjectures the geometry of the 
+- For Aigner's conjectures the geometry of the 
 simple geodesics on
 $\mathbb{H}/\Gamma'$ once punctured torus was important. 
-
 - For Fermat's theorem it's the automorphisms of 
 $\mathbb{H}/\Gamma(2)$ =  three punctured sphere 
 
@@ -334,11 +349,11 @@ contains  a point in the $\Gamma$  orbit of $i$.
 - whose fixed point is $i+<span style="font-size: 1%">$.
 
 #
+## automorphisms 
 
-- $</span>U': z \mapsto 2-\bar{z}$ induces an automorphism no fixed points in
-    $X,\, p \geq 3$
-- $V' : z \mapsto \bar{z}/(\bar{z} - 1)$ is an inversion in a circle center
-    with endpoints -1 and 1
+<!-- - $</span>U' : z \mapsto 2-\bar{z}$ induces an automorphism no fixed points in $X,\, p \geq 3$ -->
+- $U' : z: z \mapsto 2-\bar{z}$ induces an automorphism no fixed points in $X,\, \text{if } p \geq 3$
+- $V' : z \mapsto \bar{z}/(\bar{z} - 1)$ is an inversion in a circle center with endpoints -1 and 1
 - projection to surface is simple arc of $\lambda$ length $=4$
 
 #
