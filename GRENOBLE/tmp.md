@@ -1,6 +1,13 @@
 %Geometry of sums of squares
-%Beijing/Nankai
+%JSTeichR 
 %November 2022
+
+#
+
+
+-  [Geometry of Fermat’s sum of squares](./squares.pdf)
+-  [Convexity and Aigner's Conjectures](https://arxiv.org/pdf/2101.03316.pdf)
+-  [Eisenstein integers and equilateral ideal triangles](./eisenstein.pdf)
 
 #
 
@@ -76,7 +83,7 @@ $$x^2 + y^2= p$$
 has a solution over $\mathbb{Z}$
 
 - iff $p = 2$ or $p − 1$ is a multiple of 4.
-- Button's theorem follows from unicity here
+	- Button's theorem follows from unicity of $x,y$
 
 
 #
@@ -88,6 +95,12 @@ $$x^2  + xy + y^2= p$$
 has a solution over $\mathbb{Z}$ 
 
 - iff $p = 3$ or $p − 1$ is a multiple of 6.
+
+
+#
+
+
+<img src="./eisenstein.png" width="600">
 
 #
 ## two groups of order 4
@@ -174,10 +187,10 @@ Group acting on $X = \mathbb{F}_p^*$:
 - $|G| |X/G| = \sum_{g} |X^g|$
 - $4 |X/G| = (p-1) + 2 + |X^{(x\mapsto -1/x)}|$
 - $\Rightarrow  |X^{(x\mapsto -1/x)}| = 2,\, \text{if }4 \not \mid (p+1)$
-- $\Rightarrow  \exists x,\, x^2 = -1,\, \text{if }4 \not \mid (p+1)$$
+- $\Rightarrow  \exists x,\, x^2 = -1,\, \text{if }4 \not \mid (p+1)$
 
 #
-## Theorem 1.2: sum of 2 squares
+### Theorem 1.2: sum of 2 squares
 
 Acting on $\mathbb{H}$
 
@@ -323,13 +336,15 @@ What is the group of automorphisms?
 #
 
 What is the subgroup of automorphisms <br>
-fixing the cusp labeled <span style="font-size: 200%">$\infty$</span>?
+fixing the cusp labeled $\infty$?
 
 #
 
-- fixes the cusp and midpoint $\frac12(1+i)$<br>
-- dashed geodesics are invariant under the group<br>
 <img src="./three_punctured.png" width="400">
+
+- fixes the cusp and midpoint $\frac12(1+i)$<br>
+- dashed arca are invariant under the group<br>
+- one arc has $\lambda$-length 1, the other 2.
 
 #
 ### the set $X$
