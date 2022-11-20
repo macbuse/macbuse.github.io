@@ -147,14 +147,26 @@ z &\mapsto& 1/\bar{z}
 - $X/G$  the orbit space.
 
 #
-## Theorem 1.1
 
-Acting on $X = \mathbb{F}_p^*$
+### Theorem 1.1
+
+Let $p$ be a prime then 
+
+$x^2 = -1$
+
+has a solution over $\mathbb{F}_p$
+
+- iff $p = 2$ or $p − 1$ is a multiple of 4.
+
+#
+### Proof
+
+Group acting on $X = \mathbb{F}_p^*$:
 
 - identity $|X^g| = p-1$ 
 - $x \mapsto -x, |X^g| = 0$  
 - $x \mapsto 1/x, |X^g| = 2$  
-- $x \mapsto -1/x, |X^g| = \ldots$  
+- $x \mapsto -1/x, |X^g| = \ldots$ ?  
 
 #
 
