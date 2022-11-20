@@ -370,13 +370,22 @@
 </section>
 <section id="section-44" class="slide level1">
 <h1></h1>
-<p>What is the group of automorphisms? <img src="./three_punctured.png" width="400"></p>
+<h2 id="lemma-a">Lemma A</h2>
+<ul>
+<li class="fragment">Let <span class="math inline">\(n\)</span> be a positive integer.</li>
+<li class="fragment">The number of ways of writing <span class="math inline">\(n\)</span> as a sum of squares <span class="math inline">\(n = c^2 + d^2\)</span> with <span class="math inline">\(c,d\)</span> coprime integers</li>
+<li class="fragment">is equal to the number of integers <span class="math inline">\(0 \leq k &lt; n-1\)</span> coprime to <span class="math inline">\(n\)</span> such that the line <span class="math inline">\(\{ k/n + i t,\, t&gt;0 \}\)</span> contains a point in the <span class="math inline">\(\Gamma\)</span> orbit of <span class="math inline">\(i\)</span>.</li>
+</ul>
 </section>
 <section id="section-45" class="slide level1">
 <h1></h1>
-<p>What is the subgroup of automorphisms <br> fixing the cusp labeled <span class="math inline">\(\infty\)</span>?</p>
+<p>What is the group of automorphisms? <img src="./three_punctured.png" width="400"></p>
 </section>
 <section id="section-46" class="slide level1">
+<h1></h1>
+<p>What is the subgroup of automorphisms <br> fixing the cusp labeled <span class="math inline">\(\infty\)</span>?</p>
+</section>
+<section id="section-47" class="slide level1">
 <h1></h1>
 <p><img src="./three_punctured.png" width="400"></p>
 <ul>
@@ -385,7 +394,7 @@
 <li class="fragment">one arc has <span class="math inline">\(\lambda\)</span>-length 1, the other 2.</li>
 </ul>
 </section>
-<section id="section-47" class="slide level1">
+<section id="section-48" class="slide level1">
 <h1></h1>
 <h3 id="the-set-x">the set <span class="math inline">\(X\)</span></h3>
 <ul>
@@ -394,22 +403,18 @@
 <li class="fragment"><span class="math inline">\(|X| = p - 1\)</span> as before</li>
 </ul>
 </section>
-<section id="section-48" class="slide level1">
-<h1></h1>
-<h3 id="lemma-1">Lemma</h3>
-<p>Let <span class="math inline">\(n\)</span> be a positive integer. The number of ways of writing <span class="math inline">\(n\)</span> as a sum of squares <span class="math inline">\(n = c^2 + d^2\)</span> with <span class="math inline">\(c,d\)</span> coprime integers is equal to the number of integers <span class="math inline">\(0 \leq k &lt; n-1\)</span> coprime to <span class="math inline">\(n\)</span> such that the line <span class="math inline">\(\{ k/n + i t,\, t&gt;0 \}\)</span> contains a point in the <span class="math inline">\(\Gamma\)</span> orbit of <span class="math inline">\(i\)</span>.</p>
-</section>
 <section id="section-49" class="slide level1">
 <h1></h1>
-<h3 id="proof-of-lemma-2">Proof of lemma</h3>
+<h3 id="lemma-a-1">Lemma A</h3>
+<p>Let <span class="math inline">\(n\)</span> be a positive integer. The number of ways of writing <span class="math inline">\(n\)</span> as a sum of squares <span class="math inline">\(n = c^2 + d^2\)</span> with <span class="math inline">\(c,d\)</span> coprime integers is equal to the number of integers <span class="math inline">\(0 \leq k &lt; n-1\)</span> coprime to <span class="math inline">\(n\)</span> such that the line <span class="math inline">\(\{ k/n + i t,\, t&gt;0 \}\)</span> contains a point in the <span class="math inline">\(\Gamma\)</span> orbit of <span class="math inline">\(i\)</span>.</p>
 </section>
 <section id="section-50" class="slide level1">
 <h1></h1>
-<h2 id="subgroup-lifts-to">subgroup lifts to</h2>
+<h3 id="subgroup-lifts-to">subgroup lifts to</h3>
 <ul>
 <li class="fragment"><span class="math inline">\(U&#39;: z \mapsto 2-\bar{z},\, V&#39; : z \mapsto \bar{z}/(\bar{z} - 1)\)</span></li>
-<li class="fragment">composition is <span class="math inline">\(U&#39;\circ V&#39; : z \mapsto z \mapsto (-z + 2) /( z + 1)\)</span></li>
-<li class="fragment">whose fixed point is <span class="math inline">\(i+&lt;span style=&quot;font-size: 1%&quot;&gt;\)</span>.</li>
+<li class="fragment"><span class="math inline">\(U&#39;\circ V&#39; : z \mapsto z \mapsto (-z + 2) /( z + 1)\)</span></li>
+<li class="fragment"><span class="math inline">\(U&#39; \circ V&#39;\)</span> fixes <span class="math inline">\(i+1\)</span> <!-- - whose fixed point is $i+<span style="font-size: 1%">$. --></li>
 </ul>
 </section>
 <section id="section-51" class="slide level1">
@@ -417,14 +422,14 @@
 <h2 id="automorphisms">automorphisms</h2>
 <!-- - $</span>U' : z \mapsto 2-\bar{z}$ induces an automorphism no fixed points in $X,\, p \geq 3$ -->
 <ul>
-<li class="fragment"><span class="math inline">\(U&#39; : z: z \mapsto 2-\bar{z}\)</span> induces an automorphism no fixed points in <span class="math inline">\(X,\, \text{if } p \geq 3\)</span></li>
-<li class="fragment"><span class="math inline">\(V&#39; : z \mapsto \bar{z}/(\bar{z} - 1)\)</span> is an inversion in a circle center with endpoints -1 and 1</li>
-<li class="fragment">projection to surface is simple arc of <span class="math inline">\(\lambda\)</span> length <span class="math inline">\(=4\)</span></li>
+<li class="fragment"><span class="math inline">\(U&#39;\)</span> induces an automorphism no fixed points in <span class="math inline">\(X,\, \text{if } p \geq 3\)</span></li>
+<li class="fragment"><span class="math inline">\(V&#39;\)</span> is an inversion in a half circle with endpoints -1 and 1</li>
+<li class="fragment">this arc’s projection to surface is simple arc of <span class="math inline">\(\lambda\)</span>-length <span class="math inline">\(=4\)</span></li>
 </ul>
 </section>
 <section id="section-52" class="slide level1">
 <h1></h1>
-<h2 id="lemma-2">Lemma</h2>
+<h2 id="lemma-b">Lemma B</h2>
 <p>The automorphism <span class="math inline">\(V\)</span> induced by <span class="math inline">\(V&#39;\)</span> <br> fixes two and exactly two arcs in <span class="math inline">\(X\)</span>.</p>
 <ul>
 <li class="fragment">apply Burnside Lemma to prove Theorem 1.2</li>
@@ -446,21 +451,29 @@
 <h2 id="buttons-theorem-1">Button’s Theorem</h2>
 <p>If <span class="math inline">\(z\)</span> is a Markoff number which is prime<br> then there is a unique triple <span class="math inline">\(z &gt; y &gt; x\)</span></p>
 <ul>
-<li class="fragment"><span class="math inline">\(x^2 + y^2 + z^2 - 3x y z = 0.\)</span></li>
-<li class="fragment"><span class="math inline">\(\bar{x}^2 + \bar{y}^2 = 0\)</span> in <span class="math inline">\(\mathbb{F}_z\)</span></li>
-<li class="fragment"><span class="math inline">\((\bar{x}/\bar{y})^2 = -1\)</span> in <span class="math inline">\(\mathbb{F}_z\)</span></li>
+<li class="fragment">Button’s theorem follows from unicity in <span class="math inline">\(z = c^2 + d^2\)</span></li>
+<li class="fragment"><span class="math inline">\(\Leftrightarrow\)</span> unique vertical geodesic in Lemma A.</li>
+<li class="fragment">let’s look at that again</li>
 </ul>
 </section>
 <section id="section-55" class="slide level1">
 <h1></h1>
 <ul>
-<li class="fragment">Button’s theorem follows from unicity and</li>
+<li class="fragment">The number of ways of writing <span class="math inline">\(n\)</span> as a sum of squares <span class="math inline">\(n = c^2 + d^2\)</span> with <span class="math inline">\(c,d\)</span> coprime integers</li>
+<li class="fragment">is equal to the number of integers <span class="math inline">\(0 \leq k &lt; n-1\)</span> coprime to <span class="math inline">\(n\)</span> such that the line <span class="math inline">\(\{ k/n + i t,\, t&gt;0 \}\)</span> contains a point in the <span class="math inline">\(\Gamma\)</span> orbit of <span class="math inline">\(i\)</span>.</li>
 <li class="fragment">For every Markoff number <span class="math inline">\(m\)</span> there are exactly 3 simple closed geodesics of length <span class="math inline">\(2\cosh^{-1}(3m/2)\)</span> on the modular torus <span class="math inline">\(\mathbb{H}/\Gamma&#39;\)</span></li>
-<li class="fragment">exactly 3 simple arcs of <span class="math inline">\(\lambda\)</span> length <span class="math inline">\(9m^2\)</span> on <span class="math inline">\(\mathbb{H}/\Gamma&#39;\)</span></li>
+<li class="fragment"><span class="math inline">\(\Leftrightarrow\)</span> exactly 3 simple arcs of <span class="math inline">\(\lambda\)</span>-length <span class="math inline">\(9m^2\)</span> on <span class="math inline">\(\mathbb{H}/\Gamma&#39;\)</span></li>
 </ul>
 </section>
-<section id="thats-all-folks" class="slide level1">
-<h1>That’s all folks!!!!!</h1>
+<section id="section-56" class="slide level1">
+<h1></h1>
+<div class="wrap">
+<iframe data-src="./button.html" width="680" height="500">
+</iframe>
+</div>
+</section>
+<section id="the-end" class="slide level1">
+<h1>The End</h1>
 </section>
     </div>
   </div>

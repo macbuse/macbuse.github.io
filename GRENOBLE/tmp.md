@@ -356,6 +356,13 @@ can be cut up into 2 ideal triangles.
 - $\mathrm{Im} \frac{ai+b}{ci+d} = \frac{\mathrm{Im}\, i }{c^2 + d^2}$
 
 #
+## Lemma A
+
+- Let $n$ be a positive integer.
+- The number of  ways of writing $n$  as a  sum of squares $n = c^2 + d^2$ with $c,d$ coprime integers
+- is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
+
+#
 
 What is the group of automorphisms?
 <img src="./three_punctured.png" width="400">
@@ -381,7 +388,7 @@ fixing the cusp labeled $\infty$?
 - $|X| = p - 1$ as before
 
 #
-### Lemma
+### Lemma A
 Let $n$ be a positive integer.
 The number of  ways of writing $n$  as a  sum of squares
 $n = c^2 + d^2$
@@ -391,27 +398,25 @@ such that the line
 $\{  k/n + i t,\, t>0  \}$
 contains  a point in the $\Gamma$  orbit of $i$.
 
-#
-### Proof of lemma
-
 
 #
-## subgroup lifts to 
+### subgroup lifts to 
 
 - $U': z \mapsto 2-\bar{z},\, V' : z \mapsto \bar{z}/(\bar{z} - 1)$
-- composition is $U'\circ V' : z \mapsto z \mapsto (-z + 2) /( z + 1)$
-- whose fixed point is $i+<span style="font-size: 1%">$.
+- $U'\circ V' : z \mapsto z \mapsto (-z + 2) /( z + 1)$
+- $U' \circ V'$ fixes $i+1$
+<!-- - whose fixed point is $i+<span style="font-size: 1%">$. -->
 
 #
 ## automorphisms 
 
 <!-- - $</span>U' : z \mapsto 2-\bar{z}$ induces an automorphism no fixed points in $X,\, p \geq 3$ -->
-- $U' : z: z \mapsto 2-\bar{z}$ induces an automorphism no fixed points in $X,\, \text{if } p \geq 3$
-- $V' : z \mapsto \bar{z}/(\bar{z} - 1)$ is an inversion in a circle center with endpoints -1 and 1
-- projection to surface is simple arc of $\lambda$ length $=4$
+- $U'$ induces an automorphism no fixed points in $X,\, \text{if } p \geq 3$
+- $V'$ is an inversion in a half circle with endpoints -1 and 1
+- this arc's projection to surface is simple arc of $\lambda$-length $=4$
 
 #
-## Lemma
+## Lemma B
 
 The automorphism $V$ induced by $V'$ <br>
 fixes two and exactly two arcs in $X$.
@@ -432,14 +437,21 @@ fixes two and exactly two arcs in $X$.
 If $z$ is a Markoff number which is prime<br>
 then there is a unique triple $z > y > x$
 
-- $x^2 + y^2 + z^2 - 3x y z = 0.$
-- $\bar{x}^2 + \bar{y}^2 = 0$ in $\mathbb{F}_z$
-- $(\bar{x}/\bar{y})^2 = -1$ in $\mathbb{F}_z$
+- Button's theorem follows from unicity in $z = c^2 + d^2$
+- $\Leftrightarrow$ unique vertical geodesic in Lemma A.
+- let's look at that again
 
 #
 
-- Button's theorem follows from unicity and
+- The number of  ways of writing $n$  as a  sum of squares $n = c^2 + d^2$ with $c,d$ coprime integers
+-  is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
 - For every Markoff number $m$ there are exactly 3 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus $\mathbb{H}/\Gamma'$ 
-- exactly 3 simple arcs of $\lambda$ length $9m^2$ on $\mathbb{H}/\Gamma'$ 
+- $\Leftrightarrow$ exactly 3 simple arcs of $\lambda$-length $9m^2$ on $\mathbb{H}/\Gamma'$ 
 
-# That's all folks!!!!!
+#
+
+<div class="wrap"><iframe data-src="./button.html" width="680" height="500" > </iframe></div>
+
+
+
+# The End

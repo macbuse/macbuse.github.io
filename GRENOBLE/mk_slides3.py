@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
         #local html file - this is loaded lazily, so animations start on view
         if 'html' in src:
-            wrapper = wrap%'''<iframe data-src="{}" width="480" > </iframe>'''
+            wrapper = wrap%'''<iframe data-src="{}" width="680" height="500" > </iframe>'''
             return wrapper.format(src)
 
         if 'mp4' in src:
