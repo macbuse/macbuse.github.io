@@ -21,13 +21,14 @@
 
 <img src="./theoremsab.png" width="600">
 
+-  [Geometry of Fermat’s sum of squares](./squares.pdf)
 
 #
 
 Markov numbers are integers that appear in triples which are solutions of
 a Diophantine equation the so-called Markov cubic
 
-<span style="font-size: 200%">$x^2 + y^2 + z^2 - 3x y z = 0.$</span>
+<span style="font-size: 150%">$x^2 + y^2 + z^2 - 3x y z = 0.$</span>
 
 $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 
@@ -71,6 +72,8 @@ then there is a unique triple $z > y > x$
 - $x^2 + y^2 + z^2 - 3x y z = 0.$
 - $\bar{x}^2 + \bar{y}^2 = 0.$ in $\mathbb{F}_z$
 - $(\bar{x}/\bar{y})^2 = -1$ in $\mathbb{F}_z$
+-  $\Rightarrow p = 2$ or $p − 1$ is a multiple of 4.
+
 
 #
 
@@ -83,7 +86,7 @@ $$x^2 + y^2= p$$
 has a solution over $\mathbb{Z}$
 
 - iff $p = 2$ or $p − 1$ is a multiple of 4.
-	- Button's theorem follows from unicity of $x,y$
+- Button's theorem follows from unicity of $x,y$
 
 
 #
@@ -99,8 +102,9 @@ has a solution over $\mathbb{Z}$
 
 #
 
-
 <img src="./eisenstein.png" width="600">
+
+-  [Eisenstein integers and equilateral ideal triangles](./eisenstein.pdf)
 
 #
 ## two groups of order 4
@@ -148,6 +152,8 @@ z &\mapsto& 1/\bar{z}
 
 <img src="./zagier.png" width="800">
 
+#
+## Let's begin then...
 
 #
 ### Burnside Lemma 
@@ -176,18 +182,33 @@ has a solution over $\mathbb{F}_p$
 
 Group acting on $X = \mathbb{F}_p^*$:
 
+$\begin{array}{lll}
+x &\mapsto& x \\
+x &\mapsto& -x \\
+x &\mapsto& 1/x \\
+x &\mapsto& -1/x
+\end{array}$
+
+#
+
+### Counting fixed points
+
 - identity $|X^g| = p-1$ 
 - $x \mapsto -x, |X^g| = 0$  
 - $x \mapsto 1/x, |X^g| = 2$  
 - $x \mapsto -1/x, |X^g| = \ldots$ ?  
 
 #
-
+### Apply Burnside
 
 - $|G| |X/G| = \sum_{g} |X^g|$
 - $4 |X/G| = (p-1) + 2 + |X^{(x\mapsto -1/x)}|$
 - $\Rightarrow  |X^{(x\mapsto -1/x)}| = 2,\, \text{if }4 \not \mid (p+1)$
 - $\Rightarrow  \exists x,\, x^2 = -1,\, \text{if }4 \not \mid (p+1)$
+
+
+#
+## QED
 
 #
 ### Theorem 1.2: sum of 2 squares
@@ -213,8 +234,11 @@ z &\mapsto& 1/\bar{z}
 #
 ## Important
 
-<span style="font-size: 200%">$\{ \textit{primitives} \} = \mathbb{Q}\cup \infty \subset$</span> circle/projective line <span style="font-size: 200%">$= \partial_\infty \mathbb{H}$</span>
-
+\begin{eqnarray*}
+\{ \textit{primitives} \} &=& \mathbb{Q}\cup \infty\\
+&\subset& \text{circle/projective line } \\
+&=& \partial_\infty \mathbb{H}
+\end{eqnarray*}
 
 #
 
@@ -269,14 +293,15 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 
 #
 
-<img src="./ford_circles_again.png" width="600">
+<img src="./ford_circles_again.png" width="500">
 
-- point of tangency with $\mathbb{R} = p/q$, diameter = $1/q^2$
+- $p/q$ point of tangency with $\mathbb{R}$, diameter = $1/q^2$
+- ie the diameter is the square of the inverse of the denominator of $p/q$
 
 #
 ### Proof of lemma
 
-- **arc** joining $a/b, c/d$ has **$\lambda$- length ** $= |ad - bc|^2$ 
+- **arc** joining $a/b, c/d$ has **$\lambda$-length** $= |ad - bc|^2$ 
 - **$\log \lambda$-length** = length of the portion outside Ford circles tangent to the real line at its endpoints
 
 
@@ -287,10 +312,12 @@ $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
 - can suppose $a/b = \infty$ and $c/d = k/(ad - bc)$
 - Ford circles  $F$  tangent at $\infty$
 - and another of diameter $1/(ad - bc)^2$
-- the **midpoint** of this vertical arc is at height $1/|ad - bc|$
+<!-- - the **midpoint** of this vertical arc is at height $1/|ad - bc|$ -->
 
 #
 #
+### Groups and quotients
+
 - $\Gamma = \mathrm{SL}(2,\mathbb{Z})$ has torsion so $\mathbb{H}/\Gamma$ orbifold
 - $\Gamma(2) = \ker (\mathrm{SL}(2,\mathbb{Z})\rightarrow  \mathrm{SL}(2,\mathbb{F}_2))$
 - $\Gamma' = [\Gamma,\Gamma]$
@@ -322,7 +349,7 @@ can be cut up into 2 ideal triangles.
 - $i, 1+i, \frac12 ( 1 + i)$ are midpoints
 
 #
-## reciprocals of sums of squares
+### reciprocals of sums of squares
 
 - $i, 1+i, \frac12 ( 1 + i)$ are midpoints of arcs
 - the lifts to $\mathbb{H}$ of the midpoints $=\Gamma.i$ 
