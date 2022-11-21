@@ -33,6 +33,18 @@ a Diophantine equation the so-called Markov cubic
 $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 
 #
+
+### Theorem
+
+$(x,y,z) \in \mathbb{R}_+,\,x^2 + y^2 + z^2 - x y z = 0.$
+
+can be identified with the Teichmueller space of the punctured torus
+using Penner's $\lambda$-lengths.
+
+
+- $x^2 + y^2 + z^2 - 3x y z = 0.$
+
+#
 ### Odd index Fibonacci numbers are Markoff numbers
 
 $1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$
@@ -437,19 +449,42 @@ fixes two and exactly two arcs in $X$.
 If $z$ is a Markoff number which is prime<br>
 then there is a unique triple $z > y > x$
 
+$x^2 + y^2 + z^2 - 3x y z = 0.$
+
 - Button's theorem follows from unicity in $z = c^2 + d^2$
 - $\Leftrightarrow$ unique vertical geodesic in Lemma A.
 - let's look at that again
 
 #
 
-- The number of  ways of writing $n$  as a  sum of squares $n = c^2 + d^2$ with $c,d$ coprime integers
--  is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
-- For every Markoff number $m$ there are exactly 3 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus $\mathbb{H}/\Gamma'$ 
-- $\Leftrightarrow$ exactly 3 simple arcs of $\lambda$-length $9m^2$ on $\mathbb{H}/\Gamma'$ 
+- Number of  ways of writing $n$  as a  sum of squares $c^2 + d^2$ with $c,d$ coprime integers
+-  =  number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
+- For every Markoff number $m>2$ there are exactly 6 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus $\mathbb{H}/\Gamma'$ 
+- $\Leftrightarrow$ exactly 6 simple arcs of $\lambda$-length $9m^2$ on $\mathbb{H}/\Gamma'$ 
+
+#
+
+![](./ptorus (1).svg)
+
+#
+
+<!-- ![](./fund_dom_cut.png) -->
+
+![](./geod_pair.png)
+
+pair of disjoint simple closed and arc geodesics
+
+#
+
+### Theorem
+
+$(x,y,z) \in \mathbb{R}_+,\,x^2 + y^2 + z^2 - x y z = 0.$
+
+can be identified with the Teichmueller space of the punctured torus.
 
 #
 
 !![](./button.html)
+exactly 6 simple arcs of $\lambda$-length $9m^2$ on $\mathbb{H}/\Gamma'$ 
 
 # The End
