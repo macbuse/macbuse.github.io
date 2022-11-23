@@ -19,7 +19,7 @@
 
 ---
 
-[F4](./Fiche3-geometrie.pdf)
+[F3](./Fiche3-geometrie.pdf)
 
 ---
 
