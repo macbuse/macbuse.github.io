@@ -15,6 +15,14 @@
 
 ---
 
+[F4](./Fiche4-fonctions.pdf)
+
+---
+
+[F4](./Fiche3-geometrie.pdf)
+
+---
+
 [F2](./Fiche2-sommes-produits.pdf)
 - [quick test](./qt2.pdf)
 
