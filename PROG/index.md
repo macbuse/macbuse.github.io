@@ -38,7 +38,7 @@ it's like 50 LOC.
 
 So we'll discuss the wikipedia crawler : did you manage to fix it ?
 
-[wikipedia crawler](./gph2sites.ipynb)
+[wikipedia crawler](./philosophy.ipynb)
 
 It was difficult to find a good working example for this week
 but here is the 
