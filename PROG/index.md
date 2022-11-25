@@ -32,6 +32,29 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 I embedded this in a [script with pygame](./my_conway.py)
 it's like 50 LOC.
 
+---
+
+### Friday 25/11
+
+So we'll discuss the wikipedia crawler : did you manage to fix it ?
+
+[wikipedia crawler](./gph2sites.ipynb)
+
+It was difficult to find a good working example for this week
+but here is the 
+[notebook](./regression_copy.ipynb)
+
+There are two kinds of regression to study:
+- multi variable linear regression
+- logistic regression
+
+The example of an application of logistic regression is recognising digits.
+There are better ways of doing this now using CNN - maybe you can do that as a project ?
+
+Watch at the video first:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BHs_2ttLRXk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Friday 18/11
 
