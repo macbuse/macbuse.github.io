@@ -40,6 +40,12 @@ So we'll discuss the wikipedia crawler : did you manage to fix it ?
 
 [wikipedia crawler](./philosophy.ipynb)
 
+**update** so I fixed my crawler to work with a cache 
+which means it works **much** faster. I also dump the 
+cache [to a json file](./philo.json). This could
+make an interesting project: study how long it takes 
+to get to some liknk in the cach as the size of the cache grows.
+
 It was difficult to find a good working example for this week
 but here is the 
 [notebook](./regression_copy.ipynb)
