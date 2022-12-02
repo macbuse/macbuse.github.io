@@ -34,6 +34,25 @@ it's like 50 LOC.
 
 ---
 
+### Friday 3/11
+
+So we'll discuss some project work 
+
+- like this project on [COVID](./random_blob.ipynb)
+- here is a [description](./covid_proj.md)
+- and here is a video of the simulation
+
+<center>
+<img src="./random_epix.gif" width="600">
+</center>
+
+[Here](./epidemic_sim.py) is the code for a PyGame version.
+
+If you haven't decided what you are doing for a project then look [here]( ./projects.html)
+
+
+---
+
 ### Friday 25/11
 
 So we'll discuss the wikipedia crawler : did you manage to fix it ?
