@@ -34,7 +34,7 @@ it's like 50 LOC.
 
 ---
 
-### Friday 3/11
+### Friday 2/11
 
 So we'll discuss some project work 
 
