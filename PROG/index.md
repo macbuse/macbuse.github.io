@@ -38,7 +38,7 @@ it's like 50 LOC.
 
 So we'll discuss some project work 
 
-- like this project on [COVID](./random_blob.ipynb)
+- like this project on [COVID](./random_walk_epidemic.ipynb
 - here is a [description](./covid_proj.md)
 - and here is a video of the simulation
 
