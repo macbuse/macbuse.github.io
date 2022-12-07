@@ -41,7 +41,7 @@ title: MAT305
 
 ---
 
-[F5](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD6.pdf)
+[F6](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD6.pdf)
 
 - [correction](./f5_corr_1.pdf)
 
