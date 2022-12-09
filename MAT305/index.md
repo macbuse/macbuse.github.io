@@ -41,7 +41,7 @@ title: MAT305
 
 ---
 
-[F6](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD6.pdf)
+/bin/bash: :q: command not found
 
 - [correction](./f5_corr_1.pdf)
 

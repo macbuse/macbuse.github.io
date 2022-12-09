@@ -32,6 +32,35 @@ just the right thing to do. There is  a **pytorch** implementation somewhere.
 I embedded this in a [script with pygame](./my_conway.py)
 it's like 50 LOC.
 
+--- 
+
+## Projects
+
+Projects 
+- are due 11/1/23
+- must be submitted as a Jupyter notebook
+	- there should be an introduction in Markdown
+	- there should be working code
+	- code should be explained in text cells using Mrakdown
+	- there should be a list of references 
+
+- Projects should be sent to my email mcshane@univ-grenoble-alpes.fr before 11/1/23
+
+---
+
+## Battleships
+
+
+[Wikipedia page](https://en.wikipedia.org/wiki/Battleship_(game))
+
+It's OK to write a programme to 
+play this algorithmically.
+
+- This is a [good reference](https://towardsdatascience.com/coding-an-intelligent-battleship-agent-bf0064a4b319).
+- You can even just rewrite [his code](https://github.com/aydinschwa/Battleship-AI/blob/main/battleship_pg.py) using numpy.
+- [This is my brouillon](./battleships.ipynb)
+
+
 ---
 
 ### Friday 2/11
