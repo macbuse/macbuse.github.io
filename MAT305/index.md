@@ -13,7 +13,12 @@ title: MAT305
 - [2021 TD archived page](./MAT305_index.md)
 - [mes calculs](./uniqueness.pdf)
 
-- [CC du 8/10](./CC1_MAT305.pdf)
+---
+
+- [CC2 du  9/11/22 sujet + bareme + correction](./CC2_MAT305.pdf)
+
+
+- [CC1 du 8/10](./CC1_MAT305.pdf)
 	- [correction](./CC1_corr.pdf)
 	- [la courbe](https://www.wolframalpha.com/input?i=plot+%281+-+t%5E2%2C++t%5E3%2F4+-+3t%29)
 	- [vecteur velocite](https://www.wolframalpha.com/input?i=derivative+t+of++%281+-+t%5E2%2C++t%5E3%2F4+-+3t%29)
@@ -34,9 +39,6 @@ title: MAT305
 	- Verifier avec Wolfram ex [exo 2.1](https://www.wolframalpha.com/input?i=x+ln%28+y%5E2+%2B+1%29)
 <!-- $\partial f/\partial x, \partial f/\partial y$ pour --> 
 
----
-
-[CC2 9/11/22 sujet + bareme + correction](./CC2_MAT305.pdf)
 
 ---
 
@@ -44,7 +46,9 @@ title: MAT305
 
 ---
 
+[Diagonalisation bis](./diag.pdf)
 
+[F5](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD6.pdf)
 - [correction](./f5_corr_1.pdf)
 
 ---
