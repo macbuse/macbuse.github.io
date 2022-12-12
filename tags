@@ -419,6 +419,7 @@ addWidgetsRenderer	METH_NUM/f1exo8.html	/^  function addWidgetsRenderer() {$/;"	
 addWidgetsRenderer	METH_NUM/integration.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	METH_NUM/mnum.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/Lagrange.html	/^  function addWidgetsRenderer() {$/;"	f
+addWidgetsRenderer	PROG/Untitled Folder/matrices_exams.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/newton_raphson.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/numpy_intro.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/philosophy.html	/^  function addWidgetsRenderer() {$/;"	f

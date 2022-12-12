@@ -36,12 +36,14 @@ title: MAT305
 
 ---
 
+[CC2 9/11/22 sujet + bareme + correction](./CC2_MAT305.pdf)
+
+---
 
 ## Feuilles avec commentaires
 
 ---
 
-/bin/bash: :q: command not found
 
 - [correction](./f5_corr_1.pdf)
 
