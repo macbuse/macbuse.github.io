@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1670853757 "diag.tex" "diag.pdf" "diag" 1670853757
+["pdflatex"] 1670912136 "diag.tex" "diag.pdf" "diag" 1670912136
   "/etc/texmf/web2c/texmf.cnf" 1603380208 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -19,9 +19,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1603380217 127853 b41f58aff49fe1af38af8d065f49d51c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1638216024 859411 1a27c5a34a5e9b9ecd9b1885c8a3a37f ""
-  "diag.aux" 1670853757 8 a94a2480d3289e625eea47cd1b285758 ""
-  "diag.tex" 1670853755 1019 331fd36b6efca6b9fd4d8158a918b055 ""
+  "diag.aux" 1670912136 8 a94a2480d3289e625eea47cd1b285758 ""
+  "diag.tex" 1670912133 1047 e51fca4f54d83770b91c15b6b9c79d47 ""
   (generated)
   "diag.log"
-  "diag.pdf"
   "diag.aux"
+  "diag.pdf"

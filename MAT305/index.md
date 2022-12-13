@@ -174,3 +174,7 @@ A savoir :
 - [1.10](https://www.wolframalpha.com/input?i=plot+++%E2%88%92x+%2B+y)
 - [1.10 3D interactive](./plane_x.html)
 
+
+---
+
+[Diagonalisation solutions](./sols.md)
