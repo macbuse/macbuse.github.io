@@ -15,6 +15,14 @@
 
 ---
 
+[F5](./Fiche5-integrales.pdf)
+
+- [exo 5](./Fiche5Ex5.pdf)
+- [exo 6](./Fiche5Ex6.pdf)
+- [exo 7](./Fiche5Ex7.pdf)
+
+---
+
 [F4](./Fiche4-fonctions.pdf)
 
 ---
