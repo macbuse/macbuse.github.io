@@ -60,10 +60,16 @@ play this algorithmically.
 - You can even just rewrite [his code](https://github.com/aydinschwa/Battleship-AI/blob/main/battleship_pg.py) using numpy.
 - [This is my brouillon](./battleships.ipynb)
 
+---
+
+### Friday 16/11
+
+**No class today**
+
 
 ---
 
-### Friday 2/11
+### Friday 2/12
 
 So we'll discuss some project work 
 

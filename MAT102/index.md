@@ -6,6 +6,21 @@
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
 - [poly](./polyMAT102-main.pdf) 
 
+---
+
+- Last class 15/12 : bonnes vacances 
+- My [new friend](https://chat.openai.com/chat) wrote a story for us.
+
+```
+
+Write a story about about Lynna 
+who is late for  her math class 
+but makes up to the teacher 
+by buying a hot chocolate for him
+
+```
+
+And [here is the result](./story.md).
 
 <!-- **nombres complexes** -->
 
