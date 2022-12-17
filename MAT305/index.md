@@ -30,14 +30,14 @@ title: MAT305
 
 ## Exos a preparer
 
-- **Pour 20/9 preparer F1 exos 5 et 6.**
-- **Pour 21/9 preparer F1 exos 7 et 8**
-- **Pour 27/9 preparer F2 exo 2:**
-- **Pour 4/10 preparer F2 exo 6:**
-- **Pour 5/10 preparer F2 exo 7:**
-	- calculer les derivees partielles pour chaque fonction
-	- Verifier avec Wolfram ex [exo 2.1](https://www.wolframalpha.com/input?i=x+ln%28+y%5E2+%2B+1%29)
-<!-- $\partial f/\partial x, \partial f/\partial y$ pour --> 
+<!-- - **Pour 20/9 preparer F1 exos 5 et 6.** -->
+<!-- - **Pour 21/9 preparer F1 exos 7 et 8** -->
+<!-- - **Pour 27/9 preparer F2 exo 2:** -->
+<!-- - **Pour 4/10 preparer F2 exo 6:** -->
+<!-- - **Pour 5/10 preparer F2 exo 7:** -->
+<!-- 	- calculer les derivees partielles pour chaque fonction -->
+<!-- 	- Verifier avec Wolfram ex [exo 2.1](https://www.wolframalpha.com/input?i=x+ln%28+y%5E2+%2B+1%29) -->
+<!-- <!-1- $\partial f/\partial x, \partial f/\partial y$ pour -1-> --> 
 
 
 ---
@@ -46,9 +46,10 @@ title: MAT305
 
 ---
 
-[Diagonalisation bis](./diag.pdf)
+- [Inversion](./inverse.pdf)
+- [Diagonalisation bis](./diag.pdf)
 
-[F5](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD6.pdf)
+[F6](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD6.pdf)
 - [correction](./f5_corr_1.pdf)
 
 ---
