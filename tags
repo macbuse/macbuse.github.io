@@ -451,6 +451,8 @@ draw_block	PROG/epidemic_sim (1).py	/^def draw_block(x, y, color):$/;"	f
 draw_block	PROG/epidemic_sim.py	/^def draw_block(x, y, color):$/;"	f
 draw_block	PROG/my_conway.py	/^def draw_block(x, y, alive_color):$/;"	f
 draw_block	STAGE/my_conway.py	/^def draw_block(x, y, alive_color):$/;"	f
+egcd	MAT305/mats.py	/^def egcd(a, b):$/;"	f
+egcd_list	MAT305/mats.py	/^def egcd_list(l):$/;"	f
 end{enumerate}
 end{lem}
 end{pmatrix} in sl2,,, begin{pmatrix}
@@ -475,6 +477,7 @@ fn	VV/mm.py	/^    fn = sys.argv[1]$/;"	v
 fn	ZHU_SLIDES/animate_svg.py	/^    fn = sys.argv[1]$/;"	v
 fn	ZHU_SLIDES/svg2html.py	/^    fn = sys.argv[1]$/;"	v
 fns	VIRUS/6vsb/pair_parser.py	/^    fns = ['hb-stress.txt', 'full_out.txt']$/;"	v
+gcd_list	MAT305/mats.py	/^def gcd_list(l):$/;"	f
 get_audio	D2/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	DEM0_gpe_lec/mk_slides2.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
 get_audio	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    def get_audio(self, to_say):$/;"	m	class:Voices
@@ -767,6 +770,7 @@ pull_math	GPE_ENS/wiki_math.py	/^def pull_math(url):$/;"	f
 pull_math	GPE_ENS_2021/wiki_math.py	/^def pull_math(url):$/;"	f
 res2str	VIRUS/6vsb/pair_parser.py	/^def res2str(x):$/;"	f
 result	VIRUS/6vsb/pair_parser.py	/^        result = txt2csv(fn)$/;"	v
+row_reduce	MAT305/mats.py	/^def row_reduce(M):$/;"	f
 screen	PROG/epidemic_sim (1).py	/^screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen$/;"	v
 screen	PROG/epidemic_sim.py	/^screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen$/;"	v
 screen	PROG/my_conway.py	/^screen = pygame.display.set_mode((xmax, ymax), 0, 24) #New 24-bit screen$/;"	v

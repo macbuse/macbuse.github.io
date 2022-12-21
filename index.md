@@ -180,7 +180,7 @@ I embedded this in a [script with pygame too](./PROG/epidemic_sim.py)
 - Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
 - Member of the Conseil de l'UFR IMAG2
 - Ex directeur de [GDR TRESSES](http://tresses.math.cnrs.fr)
-- [CV](./CV.pdf
+- [CV](./CV.pdf)
 - [research statement](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf)
 - [my github account](https://github.com/macbuse)
 
