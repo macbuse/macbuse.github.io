@@ -80,6 +80,17 @@ def mk_magic_square(N=5,
 
 [Last year's teaching](./teaching_2021.md)
 
+## Second semester
+
+### MNUM 
+
+[Correction examen 19/5]( ./METH_NUM/cf_2022.pdf)
+
+
+- First class:
+
+<!-- [page for the class](./mnum_index.md) -->
+
 ## First semester
 
 <!-- [More details](teaching.md) -->
@@ -146,16 +157,6 @@ I embedded this in a [script with pygame too](./PROG/epidemic_sim.py)
 - more complicated about 150 LOC.
 
 
-## Second semester
-
-### MNUM 
-
-[Correction examen 19/5]( ./METH_NUM/cf_2022.pdf)
-
-
-- First class:
-
-<!-- [page for the class](./mnum_index.md) -->
 
 ---
 
