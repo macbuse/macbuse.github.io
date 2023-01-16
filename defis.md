@@ -11,7 +11,7 @@ computational tools, for instance in obtaining certified and rigorous formal
 demonstrations of celebrated theorems, or checking  the validity of important
 conjectures by means of high-performance computing. This virtuous circle
 includes almost all areas of mathematics whether that be  algebra, analysis,
-combinatorics, geometry, number theory. For instance, geometry and topology,
+combinatorics, geometry, or number theory. For instance, geometry and topology,
 often have an important role in modeling physical problems, whilst analytical,
 algebraic, or probabilistic techniques have proven indispensable in resolving
 the resulting mathematical questions. A goal of the present project is to build

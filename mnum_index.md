@@ -7,7 +7,10 @@ Salle F217 batiment F
 
 ---
 
-Les feuilles sont en ligne  : cliquez sur F1 pour telecharger.
+- Les feuilles sont en ligne  : cliquez sur F1 pour telecharger.
+- C'est  plus facile: 
+	- Si vous regardez les exos avant la classe.
+	- Si vous venez avec votre propre ordinnateur et  Python 3.8
 
 - [F1](./METH_NUM/1_feuille_flottant.pdf) Nombres flottants
 	- semaine 16/1 exos 1, 3 et 5  
