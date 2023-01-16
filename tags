@@ -19,7 +19,6 @@ $${ 1/2 + i t,, t in RR }$$
 %subsubsection{Conjugations between  inversions}
 (the automorphism induced by $U $ fixes three disjoint geodesics joining cusps and permutes the pair of ideal triangles in their complement  but the second requires establishing the analogue of the fact that the equation $$x  2  1$$ has at most two solutions in any field or integral domain for that matter. Let us start by saying which geodesics are preserved by the automorphism  they are unsurprisingly the pair with endpoints $ pm 1  p$. To see this consider the map begin  equation	QUADS/xx.tex	/^\\hfill $\\Box\$$/;"	s
 (the automorphism induced by $U $ fixes three disjoint geodesics joining cusps and permutes the pair of ideal triangles in their complement  but the second requires establishing the analogue of the fact that the equation $$x  2  1$$ has at most two solutions in any field or integral domain for that matter. Let us start by saying which geodesics are preserved by the automorphism  they are unsurprisingly the pair with endpoints $ pm 1  p$. To see this consider the map begin  equation	STAGE/squares.tex	/^\\hfill $\\Box\$$/;"	s
-(the automorphism induced by $U $ fixes three disjoint geodesics joining cusps and permutes the pair of ideal triangles in their complement  but the second requires establishing the analogue of the fact that the equation $$x  2  1$$ has at most two solutions in any field or integral domain for that matter. Let us start by saying which geodesics are preserved by the automorphism  they are unsurprisingly the pair with endpoints $ pm 1  p$. To see this consider the map begin  equation	macbuse.github.io/xx.tex	/^\\hfill $\\Box\$$/;"	s
 1 & 0 \
 1 & 1
 ANIM	D2/pp.py	/^ANIM = []$/;"	v
@@ -31,35 +30,26 @@ ARGS	METH_NUM/LINE_ANIM/svg2html.py	/^    ARGS = PARSER.parse_args()$/;"	v
 ARGS	PROG/RR/svg2html.py	/^    ARGS = PARSER.parse_args()$/;"	v
 Action on a family of geodesics	QUADS/xx.tex	/^\\hfill $\\Box\$$/;"	s
 Action on a family of geodesics	STAGE/squares.tex	/^\\hfill $\\Box\$$/;"	s
-Action on a family of geodesics	macbuse.github.io/xx.tex	/^\\hfill $\\Box\$$/;"	s
 Algorithmic study of lengths	TOFU/laz.tex	/^ surface permutes the homotopy class of curves, hence the length spectrum. Does the discrete nature of the graph metric induce specific properties of this action? In other words, can we learn the graph structure from this action?$/;"	u
 Another Klein four group.	QUADS/xx.tex	/^\\end{figure}$/;"	u
 Another Klein four group.	STAGE/squares.tex	/^\\end{figure}$/;"	u
-Another Klein four group.	macbuse.github.io/xx.tex	/^\\end{figure}$/;"	u
 Appendix  Markoff numbers	STAGE/squares.tex	/^can be adapted to the geometric setting to show this.$/;"	s
 Automorphism groups	QUADS/xx.tex	/^\\end{figure}$/;"	u
 Automorphism groups	STAGE/squares.tex	/^\\end{figure}$/;"	u
-Automorphism groups	macbuse.github.io/xx.tex	/^\\end{figure}$/;"	u
 Automorphisms of the three punctured sphere	QUADS/xx.tex	/^$x \\mapsto -x$ and $x \\mapsto 1\/x$.$/;"	s
 Automorphisms of the three punctured sphere	STAGE/squares.tex	/^$x \\mapsto -x$ and $x \\mapsto 1\/x$.$/;"	s
-Automorphisms of the three punctured sphere	macbuse.github.io/xx.tex	/^$x \\mapsto -x$ and $x \\mapsto 1\/x$.$/;"	s
 BLACK	PROG/my_conway.py	/^BLACK = (0, 0, 0)$/;"	v
 BLACK	STAGE/my_conway.py	/^BLACK = (0, 0, 0)$/;"	v
 Bezouts Theorem	QUADS/quads.tex	/^ In fact the first author set this as an  undergraduate exam question some years ago.$/;"	b
 Bezouts Theorem	QUADS/squares.tex	/^ In fact this was the observation that was the starting point for this paper.$/;"	b
 Bezouts Theorem	STAGE/squares.tex	/^ and we give a short exposition of it  in the appendix.$/;"	b
-Bezouts Theorem	macbuse.github.io/quads.tex	/^ In fact the first author set this as an  undergraduate exam question some years ago.$/;"	b
-Bezouts Theorem	macbuse.github.io/squares.tex	/^ In fact this was the observation that was the starting point for this paper.$/;"	b
 Bilan financier	GDR/rapport_gdr.tex	/^http:\/\/www.cedram.org\/spip.php?article228\\&lang=en$/;"	u
 Bounds and statistics for closed geodesics	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{bounds-and-statistics-for-closed-geodesics}{%$/;"	s
 Bounds and statistics for closed geodesics	TEX_DUMP/stage_m2r_2020_bis.tex	/^\\hypertarget{bounds-and-statistics-for-closed-geodesics}{%$/;"	s
 Burnside Lemma	QUADS/xx.tex	/^thank Xu Binbin for reading early drafts of the manuscript.$/;"	s
 Burnside Lemma	STAGE/squares.tex	/^The first author thanks Louis Funar and the second author for  many useful conversations over the years concerning this subject. He would also like to thank Xu Binbin for reading early drafts of the manuscript.$/;"	s
-Burnside Lemma	macbuse.github.io/xx.tex	/^thank Xu Binbin for reading early drafts of the manuscript.$/;"	s
 Burnside and signatures	QUADS/quads.tex	/^For background the book by Cox \\cite{cox} is highly recommended.$/;"	b
 Burnside and signatures	QUADS/xx.tex	/^this paper if they are already familiar with  Burnsides Lemma.$/;"	b
-Burnside and signatures	macbuse.github.io/quads.tex	/^For background the book by Cox \\cite{cox} is highly recommended.$/;"	b
-Burnside and signatures	macbuse.github.io/xx.tex	/^this paper if they are already familiar with  Burnsides Lemma.$/;"	b
 CR SnapPy	TOFU/laz.tex	/^Here we have two very concrete goals$/;"	b
 Character Variety	STAGE/squares.tex	/^Conversely, every Markoff number arises from a geodesic length.$/;"	u
 Character Variety	uniqueness.tex	/^approach.$/;"	u
@@ -73,7 +63,6 @@ Context	TOFU/AMS-SMF.tex	/^3 long\/plenary talks 12 short exposés for a total o
 Curve complex	TOFU/laz.tex	/^appear in the work of Mirzakhani.$/;"	u
 Cusp regions	QUADS/xx.tex	/^\\hfill $\\Box\$$/;"	b
 Cusp regions	STAGE/squares.tex	/^\\hfill $\\Box\$$/;"	b
-Cusp regions	macbuse.github.io/xx.tex	/^\\hfill $\\Box\$$/;"	b
 Details of the stage	STAGES/stage_m2r_2020.tex	/^\\hypertarget{details-of-the-stage}{%$/;"	u
 Details of the stage	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{details-of-the-stage}{%$/;"	b
 Details of the stage	TEX_DUMP/stage_m2r_2020.tex	/^\\hypertarget{details-of-the-stage}{%$/;"	u
@@ -81,10 +70,7 @@ Details of the stage	TEX_DUMP/stage_m2r_2020_bis.tex	/^\\hypertarget{details-of-
 Exactly two fixed geodesics.	QUADS/squares.tex	/^%so that it's neighbors are exactly the integers $m\/1$.$/;"	u
 Exactly two fixed geodesics.	QUADS/xx.tex	/^preserved by the automorphism induced by $V'$.$/;"	u
 Exactly two fixed geodesics.	STAGE/squares.tex	/^preserved by the automorphism induced by $V'$.$/;"	u
-Exactly two fixed geodesics.	macbuse.github.io/squares.tex	/^%so that it's neighbors are exactly the integers $m\/1$.$/;"	u
-Exactly two fixed geodesics.	macbuse.github.io/xx.tex	/^preserved by the automorphism induced by $V'$.$/;"	u
 Existence of solutions to $x  2 pm n y  2  p$	QUADS/quads.tex	/^\\end{proof}$/;"	s
-Existence of solutions to $x  2 pm n y  2  p$	macbuse.github.io/quads.tex	/^\\end{proof}$/;"	s
 FN	D2/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 FN	DEM0_gpe_lec/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 FN	DEMO/.ipynb_checkpoints/mk_slides2-checkpoint.py	/^    FN = sys.argv[1]$/;"	v
@@ -115,15 +101,12 @@ FN	WARWICK/bb.py	/^    FN = sys.argv[1]$/;"	v
 FN	WARWICK/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 FN	ZHU_SLIDES/mk_slides2.py	/^    FN = sys.argv[1]$/;"	v
 Farey tessalation	QUADS/xx.tex	/^ In fact the first author set this as an  undergraduate exam question some years ago.$/;"	b
-Farey tessalation	macbuse.github.io/xx.tex	/^ In fact the first author set this as an  undergraduate exam question some years ago.$/;"	b
 Fibonacci	STAGE/fib.py	/^def Fibonacci(n):$/;"	f
 First organizer 	TOFU/AMS-SMF.tex	/^\\section{Organizers}$/;"	P
 Fixed point sets	QUADS/xx.tex	/^as all we require is that the group contains a suitable Klein four group.$/;"	u
 Fixed point sets	STAGE/squares.tex	/^as all we require is that the group contains a suitable Klein four group.$/;"	u
-Fixed point sets	macbuse.github.io/xx.tex	/^as all we require is that the group contains a suitable Klein four group.$/;"	u
 Ford circles  lengths  midpoints	QUADS/xx.tex	/^and  $\\gg$  denote the image of this family on the surface.$/;"	u
 Ford circles  lengths  midpoints	STAGE/squares.tex	/^and  $\\gg$  denote the image of this family on the surface.$/;"	u
-Ford circles  lengths  midpoints	macbuse.github.io/xx.tex	/^and  $\\gg$  denote the image of this family on the surface.$/;"	u
 Ford circles  lengths  midpoints	uniqueness.tex	/^by an AI.$/;"	s
 From the preceding paragraph there is a single geodesic namely 
 General geometric structures	TOFU/laz.tex	/^extending the work to cover closed surfaces without boundary~\\cite{mm-sosr-19}.$/;"	u
@@ -134,36 +117,27 @@ Idea of the proof	uniqueness.tex	/^ the sum of two squares that is it factorises
 Important progress	TOFU/AMS-SMF.tex	/^Algorithms have been an important and consistent feature of all of these mathematical areas from the beginning. This includes both questions about the existence of algorithms and the development of practical algorithms for computing natural invariants. More recently, computer experiments and rigorous computer-assisted proofs have had a significant impact. It is natural to expect experimental and computational methods to play an expanding role in the theory of low dimensional spaces. Additional goals of the session are to present the development of new computational tools and implementations of new algorithms, and to provide opportunities for researchers to become more familiar with existing tools and how they can be applied in research.$/;"	u
 Introducing $ lambda$-lengths	uniqueness.tex	/^\\ref{main}.$/;"	u
 Introduction	QUADS/xx.tex	/^\\end{abstract} $/;"	s
-Introduction	macbuse.github.io/xx.tex	/^\\end{abstract} $/;"	s
 Invariant arcs and solutions to $x  2 pm n y  2  p$	QUADS/quads.tex	/^\\end{center}$/;"	s
-Invariant arcs and solutions to $x  2 pm n y  2  p$	macbuse.github.io/quads.tex	/^\\end{center}$/;"	s
 Inversions and fixed geodesics	QUADS/squares.tex	/^$$2 = 1^2 + 1^2.$\$$/;"	u
-Inversions and fixed geodesics	macbuse.github.io/squares.tex	/^$$2 = 1^2 + 1^2.$\$$/;"	u
 It follows that $p$ is either $2$ or $1 mod 4$ and 
 Key topological lemma	uniqueness.tex	/^\\end{itemize}$/;"	b
 L activit   principale du GdR est la promotion et le financement des conf   rences organis   es par les membres. Le fonctionnement du GdR a   t   fortement perturb   par les circonstances sanitaires exceptionnelles en 2020. Au mois de janvier on avait pr   vu de participer au financement de sept conf   rences mais finalement le bilan est assez maigre  begin  itemize	GDR/rapport_gdr.tex	/^\\begin{document}$/;"	s
 Lambda lengths	QUADS/xx.tex	/^ \\textit{Farey tessalation}.$/;"	b
-Lambda lengths	macbuse.github.io/xx.tex	/^ \\textit{Farey tessalation}.$/;"	b
 Let $p$ be a prime congruent to 1 or 2 modulo 4.
 Liste de conf   rences qui ont eu lieu	GDR/rapport_gdr.tex	/^\\end{itemize}$/;"	b
 Markoff cubic	STAGE/squares.tex	/^\\end{thm}$/;"	u
 Mini-exercices	LATEX/bodin_slides.tex	/^\\end{frame}$/;"	s
 Non prime integers	QUADS/xx.tex	/^\\hfill $\\Box\$$/;"	b
-Non prime integers	macbuse.github.io/xx.tex	/^\\hfill $\\Box\$$/;"	b
 Note	QUADS/xx.tex	/^This proves Theorem \\ref{triv}.$/;"	u
 Note	STAGE/squares.tex	/^This proves Theorem \\ref{triv}.$/;"	u
-Note	macbuse.github.io/xx.tex	/^This proves Theorem \\ref{triv}.$/;"	u
 Note that one has 
 Objectives	TOFU/laz.tex	/^Between 1983 and 2004, Robertson and Seymour have written a series of 20 papers adding up to more than 500 pages to prove the Wagner conjecture saying that every minor closed class of graphs is characterized by a finite family of forbidden minors~\\cite{w-gt-70}.  An important step in the proof is to describe the structure of the graphs excluding a fixed minor. This structure theorem~\\cite{rs-tv-99} states that such graphs can be obtained from cellular embeddings of graphs in surfaces of bounded genus, to which one applies some standard operations such as clique-sums~\\cite{l-gmt-06}. A cellular embedding of a graph is called a combinatorial map (or combinatorial surface). Combinatorial maps are thus central objects in graph theory not only as discrete models of surfaces but also as the main components of the graph structures. Understanding the structure of combinatorial maps is thus a fundamental question from both the topological and combinatorial viewpoints. Spectral graph theory, based on graph Laplacians, has been successful to obtain important structural properties such as the Cheeger inequality~\\cite{c-lbsel-70}. The Laplacian is also a main tool to analyse the geometry of hyperbolic surfaces. In particular, there is a striking connection to the length spectrum through the Selberg trace formula. Developing an analogous theory on combinatorial surfaces is a challenging objective.$/;"	s
 Organisation  Remarks	QUADS/quads.tex	/^ \\end{itemize}$/;"	u
 Organisation  Remarks	QUADS/squares.tex	/^ \\end{itemize}$/;"	u
-Organisation  Remarks	macbuse.github.io/quads.tex	/^ \\end{itemize}$/;"	u
-Organisation  Remarks	macbuse.github.io/squares.tex	/^ \\end{itemize}$/;"	u
 Organisation  Remarks	uniqueness.tex	/^that $m^2k^2 + 1$ is indeed the $\\lambda$-length a geodesic of the required type.$/;"	u
 Organizers	TOFU/AMS-SMF.tex	/^\\smallskip$/;"	s
 Orientation reversing automorphisms	QUADS/xx.tex	/^acts as a group of possibly orientation reversing  automorphisms of the surface $\\xx$.$/;"	u
 Orientation reversing automorphisms	STAGE/squares.tex	/^acts as a group of possibly orientation reversing  automorphisms of the surface $\\xx$.$/;"	u
-Orientation reversing automorphisms	macbuse.github.io/xx.tex	/^acts as a group of possibly orientation reversing  automorphisms of the surface $\\xx$.$/;"	u
 Our  argument is exactly  the same as for
 PARSER	D2/pp.py	/^    PARSER = argparse.ArgumentParser()$/;"	v
 PARSER	D2/svg2html.py	/^    PARSER = argparse.ArgumentParser()$/;"	v
@@ -290,8 +264,6 @@ References	STAGES/stage_m2r_2020.tex	/^\\hypertarget{references}{%$/;"	u
 References	STAGES/stage_m2r_2020_bis.tex	/^\\hypertarget{references}{%$/;"	b
 References	TEX_DUMP/stage_m2r_2020.tex	/^\\hypertarget{references}{%$/;"	u
 References	TEX_DUMP/stage_m2r_2020_bis.tex	/^\\hypertarget{references}{%$/;"	b
-References	macbuse.github.io/quads.tex	/^to the quadratic forms $x^2 + y^2$, $x^2 + 2y^2$ and $x^2 + 3y^2$.$/;"	b
-References	macbuse.github.io/squares.tex	/^and from this we deduce Theorem \\ref{main}.$/;"	b
 Request budget and scientific justification	TOFU/laz.tex	/^\\section{Principales étapes envisagées}$/;"	s
 Research Context	TOFU/OLD/TOFU1.tex	/^both in the short and long term. $/;"	s
 Research Context	TOFU/TOFU.tex	/^both in the short and long term. $/;"	s
@@ -314,17 +286,13 @@ Synopsis	TOFU/TOFU.tex	/^\\end{center}$/;"	s
 Synopsis	TOFU/laz.tex	/^\\end{center}$/;"	s
 Thanks	QUADS/xx.tex	/^ and applying Bezout's Theorem.$/;"	u
 Thanks	STAGE/squares.tex	/^this paper if they are already familiar with  the Burnside Lemma.$/;"	u
-Thanks	macbuse.github.io/xx.tex	/^ and applying Bezout's Theorem.$/;"	u
 Thanks	uniqueness.tex	/^% As in Zagier's remarkable proof \\cite{zagier} this result follow from showing$/;"	u
 The Group action	QUADS/xx.tex	/^then it must permute the Ford regions at each end of a lift to $\\HH$.$/;"	u
 The Group action	STAGE/squares.tex	/^then it must permute the Ford regions at each end of a lift to $\\HH$.$/;"	u
-The Group action	macbuse.github.io/xx.tex	/^then it must permute the Ford regions at each end of a lift to $\\HH$.$/;"	u
 The case $p=2$ is exceptional and we will deal with it first.
 The case $x  2  4 y  2  p$	QUADS/quads.tex	/^Let $p$ be an odd prime.$/;"	u
-The case $x  2  4 y  2  p$	macbuse.github.io/quads.tex	/^Let $p$ be an odd prime.$/;"	u
 The first point is rather easy 
 The singular case of Lemma ref  midpoint	QUADS/squares.tex	/^the  fixed point of the map induced by $U'\\circ V'$.$/;"	u
-The singular case of Lemma ref  midpoint	macbuse.github.io/squares.tex	/^the  fixed point of the map induced by $U'\\circ V'$.$/;"	u
 Then one has as in Lemma ref{squares}:
 Then there is always a geodesic 
 Third organizer  contact 	TOFU/AMS-SMF.tex	/^\\paragraph{Second organizer:} Saul Schleimer, University of Warwick, s.schleimer@warwick.ac.uk$/;"	P
@@ -952,7 +920,6 @@ the  fixed point of the map induced by $U circ V $.
 the orientation preserving automorphism in $K^0$,
 the projection of the line 
 thebibliography  99	QUADS/xx.tex	/^can be adapted to the geometric setting to show this.$/;"	s
-thebibliography  99	macbuse.github.io/xx.tex	/^can be adapted to the geometric setting to show this.$/;"	s
 totals	VIRUS/6vsb/pair_parser.py	/^    totals = totals4residues(df)$/;"	v
 totals4residues	VIRUS/6vsb/pair_parser.py	/^def totals4residues(df, col='-log Density'):$/;"	f
 tt	wordle.py	/^    tt = [w for w in tt if w[i] not in forbidden[i]]$/;"	v

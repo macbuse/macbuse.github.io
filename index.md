@@ -96,7 +96,6 @@ here are some preprints.
 
 ---
 
-[page for the class](./mnum_index.md)
 
 ## First semester
 

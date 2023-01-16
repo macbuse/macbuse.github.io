@@ -174,48 +174,51 @@ Les feuilles sont en ligne  : cliquez sur F1 pour telecharger.
 <!-- ``` -->
 <!-- --- -->
 
-<!-- #### notes TP2-TP3 -->
+---
 
-<!-- You should learn how to use **numpy** notation for matrices -->
-<!-- [quickstart](https://numpy.org/doc/stable/user/quickstart.html) -->
+## numpy
 
-<!-- - ```np.array``` -->
-<!-- - ```shape``` + ```reshape``` -->
-<!-- - ```np.identity``` -->
-<!-- - ```np.zeros``` ```np.ones``` -->
-<!-- - ```np.dot()``` matrix multiplication -->
+I will assume you know how to use **numpy**.
 
-<!-- Etude de convergence dans la methode de Jacobi. -->
-<!-- - C = matrice 2x2 --> 
-<!-- - V = valeur initiale (1,1) -->
-<!-- - solution exacte = (0,1) -->
+[introduction  here](./PROG/numpy_intro.html)
 
-<!-- ``` -->
-<!-- C = np.array([2,1,1,1]).reshape(2,2) -->
-<!-- D = np.array([C[i,i] for i in range(C.shape[0])]) -->
-<!-- V = np.ones(2) -->
-<!-- b = np.ones(2) -->
+You should learn how to use **numpy** notation for matrices
+[quickstart](https://numpy.org/doc/stable/user/quickstart.html)
 
-<!-- E = [] -->
-<!-- for k in range(40): -->
-<!--     #V = (-LU.dot(V) + b)/D -->
-<!--     V = V + (-C.dot(V) + b)/D -->
-<!--     E.append(np.linalg.norm(V - [0,1])) -->
-<!-- plt.plot(np.log(E)); -->
-<!-- ``` -->
-<!-- --- -->
-<!-- ## controle du 11/2 -->
-
-<!-- - Vous devez vous mettre en binome --> 
-<!-- - 30 minutes pour proposer une démarche et essayer de la programmer. -->
-<!-- - Après 30min de travail, je ferai le tour des groupes --> 
-<!-- - note A, B ou C. --> 
-
-<!-- - **Sujet 1)** Proposer une méthode de calcul approché d'une primitive d'une fonction donnée sur [a,b]. Par exemple f(x) = exp(-x^2) sur [0, 1] -->
-<!-- "Indication" : utiliser des différences finies d'ordre 1 ou 2 en imposant une valeur en 0 (la constante d'intégration) -->
-<!-- - **Sujet 2)** Traiter l'approximation de l'équation différentielle de l'exercice 8 en remplaçant le terme c(x) u (x) par c(x) * u'(x). Quelle discrétisation ? Ordre de convergence ? -->
+- ```np.array```
+- ```shape``` + ```reshape```
+- ```np.identity```
+- ```np.zeros``` ```np.ones```
+- ```@``` matrix multiplication
 
 
-<!-- --- -->
+---
+
+## Example from F1
+
+Etude de convergence dans la methode de Jacobi.
+- C = matrice 2x2 
+- V = valeur initiale (1,1)
+- solution exacte = (0,1)
+
+```
+C = np.array([2,1,1,1]).reshape(2,2)
+D = np.array([C[i,i] for i in range(C.shape[0])])
+V = np.ones(2)
+b = np.ones(2)
+
+E = []
+for k in range(40):
+    #V = (-LU @ V) + b)/D
+    V = V + (-C @ V) + b)/D
+    E.append(np.linalg.norm(V - [0,1]))
+plt.plot(np.log(E));
+```
+
+
+
+
+
+---
 
 
