@@ -84,10 +84,17 @@ here are some preprints.
 
 ### MNUM 
 
-[Correction examen 19/5]( ./METH_NUM/cf_2022.pdf)
+- **Salle F217 batiment F**
+- [page pour la classe](./mnum_index.md)
+- First class: mercredi 18/1 ou  vendredi 20/1
+
+- mercredi 13h45
+- vendredi 13h45
 
 
-- First class:
+[Correction examen 19/5/2022]( ./METH_NUM/cf_2022.pdf)
+
+---
 
 [page for the class](./mnum_index.md)
 
