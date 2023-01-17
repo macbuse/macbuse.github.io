@@ -36,6 +36,22 @@ we  believe that  the following directions are of particular interest:
 
 ### Modeling, Simulation & Optimization
 
+
+Applied mathematics is a pivotal discipline at the interface between
+fundamental research and applications. It's purpose is to develop theories and
+techniques that are applicable in diverse scientific fields, and as such it is
+a natural *home* for interdisciplinary projects. There are two essential
+ingredients in this process: modelling and simulation. Modelling is concerned
+with finding the most appropriate mathematical description of a problem, to
+making it tractable for subsequent analysis. Simplification procedures such as
+dimension reduction are often needed to allow for a complete analysis or for
+efficient computer simulations. As very few “real” problems (eg fluid flows)
+can be solved explicitly, simulations play an essential role and require
+appropriate discretizations of the problem becomes one of obtaining accurate
+approximate solutions. Fundamental concepts are used by applied mathematicians
+to analyze the problems and optimize the computed solutions.
+
+
 * modeling/simulation/identification for multi-physics, multi-scale, multi-domain problems
 * uncertainty quantification / modeling with stochastic component / robust control in presence of a stochastic component
 * hydrodynamics modeling and simulation
