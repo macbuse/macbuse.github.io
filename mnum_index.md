@@ -16,12 +16,20 @@ Salle F217 batiment F
 	- semaine 16/1 exos 1, 3 et 5  
 	- programmer l'algo  dans exo 1.1
 
-    <!-- [correction](./METH_NUM/TP_1_corr.pdf) and [my brouillon](./METH_NUM/TP1.ipynb) -->
+ <!-- [correction](./METH_NUM/TP_1_corr.pdf) and [my brouillon](./METH_NUM/TP1.ipynb) -->
+
+![](./binary.png)
+
 <!-- 	- 28/1 exos 6,7 et 8 [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html) -->
 <!-- 	- 4/2 finir exo 8 ([convergence](https://www.maa.org/press/periodicals/loci/joma/iterative-methods-for-solving-iaxi-ibi-analysis-of-jacobi-and-gauss-seidel-methods) dans Jacobi) puis passer a F2 -->
-<!-- 	- 11/2 **controle de 20 minutes en classe** -->
-<!-- 	- 18/2 **DM en classe** [voici le sujet](./METH_NUM/cc1_2021_print.pdf) c'est le CC du mars 2021. Vous pouvez le faire en groupes. -->
-<!-- 	- [correction](./METH_NUM/cc1_2021_corr.pdf) -->
+
+## Controles  (2022)
+
+Something  similar this  year but dates will change
+
+	- 11/2 **controle de 20 minutes en classe**
+	- 18/2 **DM en classe** [voici le sujet](./METH_NUM/cc1_2021_print.pdf) c'est le CC du mars 2021. Vous pouvez le faire en groupes.
+	- [correction](./METH_NUM/cc1_2021_corr.pdf)
 
 
 <!-- - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement -->
