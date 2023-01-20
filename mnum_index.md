@@ -15,6 +15,9 @@ Salle F217 batiment F
 - [F1](./METH_NUM/1_feuille_flottant.pdf) Nombres flottants
 	- semaine 16/1 exos 1, 3 et 5  
 	- programmer l'algo  dans exo 1.1
+	- programmer le calcul du [constant d'euler](https://fr.wikipedia.org/wiki/Constante_d%27Euler-Mascheroni) exo  3
+    - programmer l'algo dans 5.1, Horner 5.2 et l'evaluation naive.
+    
 
  <!-- [correction](./METH_NUM/TP_1_corr.pdf) and [my brouillon](./METH_NUM/TP1.ipynb) -->
 
