@@ -11,15 +11,21 @@ Salle F217 batiment F
 - C'est  plus facile: 
 	- Si vous regardez les exos avant la classe.
 	- Si vous venez avec votre propre ordinnateur et  Python 3.8
+<br>
+<br>
+<br>
 
 - [F1](./METH_NUM/1_feuille_flottant.pdf) Nombres flottants
-	- semaine 16/1 exos 1, 3 et 5  
+	- **semaine 16/1** exos 1,3 et 5  
 	- programmer l'algo  dans exo 1.1
 	- programmer le calcul du [constant d'euler](https://fr.wikipedia.org/wiki/Constante_d%27Euler-Mascheroni) exo  3
-    - programmer l'algo dans 5.1, Horner 5.2 et l'evaluation naive.
+	- programmer l'algo dans 5.1, Horner 5.2 et l'evaluation naive.
+	- [correction](./METH_NUM/TP_1_corr.pdf) and [my solutions and comments](./METH_NUM/mnum_week1.ipynb)
     
+	- **semaine 23/1** exos 6,7 et 8 
 
- [correction](./METH_NUM/TP_1_corr.pdf) and [my solutions and comments](./METH_NUM/mnum_week1.ipynb)
+    <!-- [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html) -->
+
 
 ![](./binary.png)
 
