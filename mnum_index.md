@@ -20,7 +20,7 @@ Salle F217 batiment F
 	- programmer l'algo  dans exo 1.1
 	- programmer le calcul du [constant d'euler](https://fr.wikipedia.org/wiki/Constante_d%27Euler-Mascheroni) exo  3
 	- programmer l'algo dans 5.1, Horner 5.2 et l'evaluation naive.
-	- [correction](./METH_NUM/TP_1_corr.pdf) and [my solutions and comments](./METH_NUM/mnum_week1.ipynb)
+	- [correction](./METH_NUM/TP_1_corr.pdf) and [my solutions and comments](./METH_NUM/mnum_week1.html)
     
 	- **semaine 23/1** exos 6,7 et 8 
 
