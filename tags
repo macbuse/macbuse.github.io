@@ -450,6 +450,7 @@ addWidgetsRenderer	METH_NUM/euler_ode.html	/^  function addWidgetsRenderer() {$/
 addWidgetsRenderer	METH_NUM/f1exo8.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	METH_NUM/integration.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	METH_NUM/mnum.html	/^  function addWidgetsRenderer() {$/;"	f
+addWidgetsRenderer	METH_NUM/mnum_week1.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/Lagrange.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/Untitled Folder/matrices_exams.html	/^  function addWidgetsRenderer() {$/;"	f
 addWidgetsRenderer	PROG/newton_raphson.html	/^  function addWidgetsRenderer() {$/;"	f

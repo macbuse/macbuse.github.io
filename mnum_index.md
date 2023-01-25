@@ -23,6 +23,7 @@ Salle F217 batiment F
 	- [correction](./METH_NUM/TP_1_corr.pdf) and [my solutions and comments](./METH_NUM/mnum_week1.html)
     
 	- **semaine 23/1** exos 6,7 et 8 
+    -  use  [scipy.integrate.quad](https://docs.scipy.org/doc/scipy/tutorial/integrate.html) to  calculate the value  of the integrals
 
     <!-- [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html) -->
 
