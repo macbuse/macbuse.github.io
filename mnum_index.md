@@ -5,6 +5,7 @@ Salle F217 batiment F
 - mercredi 13h45
 - vendredi 13h45
 
+
 ---
 
 - Les feuilles sont en ligne  : cliquez sur F1 pour telecharger.
@@ -24,6 +25,7 @@ Salle F217 batiment F
     
 	- **semaine 23/1** exos 6,7 et 8 
     -  use  [scipy.integrate.quad](https://docs.scipy.org/doc/scipy/tutorial/integrate.html) to  calculate the value  of the integrals
+    - [mon brouillon]( ./METH_NUM/mnum_week2.html)
 
     <!-- [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html) -->
 
