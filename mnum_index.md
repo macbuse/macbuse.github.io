@@ -34,6 +34,10 @@ Salle F217 batiment F
 	-  exos exo 2-3-4 et début de 6
 <!-- 	- 11/3 Programmer Cholesky -->
 
+	- **semaine 6/2** F2 exo  8, 
+    - programmer l'inverse d'une matrice triangulaire superieure
+    - mini CC de TP 30 minutes
+
 ![](./binary.png)
 
 <!-- 	- 28/1 exos 6,7 et 8 [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html) -->
