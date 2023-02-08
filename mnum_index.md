@@ -249,5 +249,5 @@ plt.plot(np.log(E));
 
 ---
 
-    - [mon brouillon]( ./METH_NUM/mnum_week3_matrices.html)
+    - [mon brouillon](./METH_NUM/mnum_week3_matrices.html)
 
