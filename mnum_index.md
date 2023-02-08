@@ -31,14 +31,10 @@ Salle F217 batiment F
 
 	- **semaine 31/1** F1 exo  8, 
     - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement 
-	-  exos exo 2-3-4 et début de 6
-    - [correction](./METH_NUM/2_feuille_condition_corrige_1.pdf)
-    - [mon brouillon]( ./METH_NUM/mnum_week3_matrices.html)
 
 	- **semaine 6/2** F2 exo  8, 
-    - mini CC de TP 30 minutes
+    - mini CC de TP 30 minutes [sujet](./METH_NUM/sujet_CC.html)
     - DS [sujet](./METH_NUM/DS_fev.pdf)
-    - programmer l'inverse d'une matrice triangulaire superieure
 	- programmer Cholesky
 
 ![](./binary.png)
@@ -253,4 +249,5 @@ plt.plot(np.log(E));
 
 ---
 
+    - [mon brouillon]( ./METH_NUM/mnum_week3_matrices.html)
 
