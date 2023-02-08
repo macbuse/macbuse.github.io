@@ -39,6 +39,7 @@ Salle F217 batiment F
     - programmer l'inverse d'une matrice triangulaire superieure
 	- programmer Cholesky
     - mini CC de TP 30 minutes
+    - DS [sujet](./METH_NUM/DS_fev.pdf)
 
 ![](./binary.png)
 
