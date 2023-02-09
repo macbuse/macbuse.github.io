@@ -32,7 +32,7 @@ Salle F217 batiment F
 	- **semaine 31/1** F1 exo  8, 
     - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement 
 
-	- **semaine 6/2** F2 exo  8, 
+	- **semaine 6/2** F2 exo  8, 9
     <!-- - mini CC de TP 30 minutes [sujet](./METH_NUM/sujet_CC.html) -->
     - DS [sujet](./METH_NUM/cc1_2021_print.pdf)
 	- programmer Cholesky
