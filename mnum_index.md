@@ -30,11 +30,14 @@ Salle F217 batiment F
     <!-- [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html) -->
 
 	- **semaine 31/1** F1 exo  8, 
-    - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement 
+
+---
+
+ - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement 
 
 	- **semaine 6/2** F2 exo  8, 9
-    <!-- - mini CC de TP 30 minutes [sujet](./METH_NUM/sujet_CC.html) -->
-    - DS [sujet](./METH_NUM/cc1_2021_print.pdf)
+    - mini CC de TP 30 minutes [sujet](./METH_NUM/sujet2_feb.html)
+    - DS Exo 3 [sujet](./METH_NUM/cc1_2021_print.pdf)
 	- programmer Cholesky
 
 ![](./binary.png)
