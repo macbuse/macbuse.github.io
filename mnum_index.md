@@ -27,7 +27,7 @@ Salle F217 batiment F
     -  use  [scipy.integrate.quad](https://docs.scipy.org/doc/scipy/tutorial/integrate.html) to  calculate the value  of the integrals
     - [mon brouillon]( ./METH_NUM/mnum_week2.html)
 
-    <!-- [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html) -->
+    [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html)
 
 	- **semaine 31/1** F1 exo  8, 
 
@@ -38,11 +38,14 @@ Salle F217 batiment F
 	- **semaine 6/2** F2 exo  8, 9
     - mini CC de TP 30 minutes [sujet](./METH_NUM/sujet2_feb.html)
     - DS Exo 3 [sujet](./METH_NUM/cc1_2021_print.pdf)
+
+	- **semaine 20/2** F2 exo  6, 7, 8, eventuellement 9
 	- programmer Cholesky
+
+<!-- 	- 28/1 exos 6,7 et 8 [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html) -->
 
 ![](./binary.png)
 
-<!-- 	- 28/1 exos 6,7 et 8 [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html) -->
 <!-- 	- 4/2 finir exo 8 ([convergence](https://www.maa.org/press/periodicals/loci/joma/iterative-methods-for-solving-iaxi-ibi-analysis-of-jacobi-and-gauss-seidel-methods) dans Jacobi) puis passer a F2 -->
 
 ## Controles  (2022)
@@ -50,7 +53,7 @@ Salle F217 batiment F
 Something  similar this  year but dates will change
 
 	- 11/2 **controle de 20 minutes en classe**
-	- 18/2 **DM en classe** [voi-`ci le sujet](./METH_NUM/cc1_2021_print.pdf) c'est le CC du mars 2021. Vous pouvez le faire en groupes.
+	- 18/2 **DM en classe** [voici le sujet](./METH_NUM/cc1_2021_print.pdf) c'est le CC du mars 2021. Vous pouvez le faire en groupes.
 	- [correction](./METH_NUM/cc1_2021_corr.pdf)
 
 
