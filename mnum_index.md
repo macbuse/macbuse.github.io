@@ -40,10 +40,23 @@ Salle F217 batiment F
     - DS Exo 3 [sujet](./METH_NUM/cc1_2021_print.pdf)
 
 	- **semaine 20/2** F2 exo  6, 7, 8, eventuellement 9
-	- programmer Cholesky
+	- programmer cholesky
+```
+ for i in range(n):
 
+        # do under the diagonal first!
+        for k in range(i):
+
+             # LaTeX: $l_{ik} = \frac{1}{l_{kk}} \left( a_{ik} - \sum^{k-1}_{j=1} l_{ij} l_{kj} \right)$
+
+             <your code>
+
+        #on the diagonal, this is quite subtle depends on the previous loop 
+        # LaTeX: $l_{kk} = \sqrt{ a_{kk} - \sum^{k-1}_{j=1} l^2_{kj}}$
+        <your code>
+```
+       
 <!-- 	- 28/1 exos 6,7 et 8 [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html) -->
-
 ![](./binary.png)
 
 <!-- 	- 4/2 finir exo 8 ([convergence](https://www.maa.org/press/periodicals/loci/joma/iterative-methods-for-solving-iaxi-ibi-analysis-of-jacobi-and-gauss-seidel-methods) dans Jacobi) puis passer a F2 -->
