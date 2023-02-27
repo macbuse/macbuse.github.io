@@ -41,6 +41,9 @@ Salle F217 batiment F
 
 	- **semaine 20/2** F2 exo  6, 7, 8, eventuellement 9
 	- programmer cholesky
+    - [correction](./METH_NUM/2_feuille_condition_corrige.pdf)
+    - [mon brouillon](./METH_NUM/QR_etc.html)
+    
 ```
  for i in range(n):
 
@@ -56,7 +59,10 @@ Salle F217 batiment F
         <your code>
 ```
        
-<!-- 	- 28/1 exos 6,7 et 8 [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html) -->
+	- **semaine 27/2** 
+    - programmer la decomposition QR
+    - utiliser l'exo 2 dans [ce sujet](./METH_NUM/cc1_2021_print.pdf)
+
 ![](./binary.png)
 
 <!-- 	- 4/2 finir exo 8 ([convergence](https://www.maa.org/press/periodicals/loci/joma/iterative-methods-for-solving-iaxi-ibi-analysis-of-jacobi-and-gauss-seidel-methods) dans Jacobi) puis passer a F2 -->
