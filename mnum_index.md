@@ -13,7 +13,7 @@ Salle F217 batiment F
 	- Si vous regardez les exos avant la classe.
 	- Si vous venez avec votre propre ordinnateur et  Python 3.8
 <br>
-<br>
+<br>R
 <br>
 
 - [F1](./METH_NUM/1_feuille_flottant.pdf) Nombres flottants
@@ -53,6 +53,7 @@ Salle F217 batiment F
         - avec [Gramm Schmidt](https://bdesgraupes.pagesperso-orange.fr/UPX/Master1/MNM1_seance_07_doc.pdf)
         - avec les matrices de Householder
     - Householder : utiliser l'exo 2 dans [ce sujet](./METH_NUM/cc1_2021_print.pdf)
+    - [Calculer les valeurs propres](http://jaramillo.perso.math.cnrs.fr/Courses/MaSC4A/TD3.pdf) avec QR
 
 ![](./binary.png)
 
