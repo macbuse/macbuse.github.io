@@ -17,6 +17,9 @@ Salle F217 batiment F
 <br>
 
 - [F1](./METH_NUM/1_feuille_flottant.pdf) Nombres flottants
+   
+    - [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html)
+
 	- **semaine 16/1** exos 1,3 et 5  
 	- programmer l'algo  dans exo 1.1
 	- programmer le calcul du [constant d'euler](https://fr.wikipedia.org/wiki/Constante_d%27Euler-Mascheroni) exo  3
@@ -27,7 +30,6 @@ Salle F217 batiment F
     -  use  [scipy.integrate.quad](https://docs.scipy.org/doc/scipy/tutorial/integrate.html) to  calculate the value  of the integrals
     - [mon brouillon]( ./METH_NUM/mnum_week2.html)
 
-    [correction](./METH_NUM/1_feuille_flottant_corrigé.pdf) and [my brouillon](./METH_NUM/f1exo8.html)
 
 	- **semaine 31/1** F1 exo  8, 
 
@@ -35,33 +37,22 @@ Salle F217 batiment F
 
  - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement 
 
+    - [correction](./METH_NUM/2_feuille_condition_corrige.pdf)
+
 	- **semaine 6/2** F2 exo  8, 9
     - mini CC de TP 30 minutes [sujet](./METH_NUM/sujet2_feb.html)
     - DS Exo 3 [sujet](./METH_NUM/cc1_2021_print.pdf)
 
 	- **semaine 20/2** F2 exo  6, 7, 8, eventuellement 9
 	- programmer cholesky
-    - [correction](./METH_NUM/2_feuille_condition_corrige.pdf)
     - [mon brouillon](./METH_NUM/QR_etc.html)
     
-```
- for i in range(n):
 
-        # do under the diagonal first!
-        for k in range(i):
-
-             # LaTeX: $l_{ik} = \frac{1}{l_{kk}} \left( a_{ik} - \sum^{k-1}_{j=1} l_{ij} l_{kj} \right)$
-
-             <your code>
-
-        #on the diagonal, this is quite subtle depends on the previous loop 
-        # LaTeX: $l_{kk} = \sqrt{ a_{kk} - \sum^{k-1}_{j=1} l^2_{kj}}$
-        <your code>
-```
-       
 	- **semaine 27/2** 
-    - programmer la decomposition QR
-    - utiliser l'exo 2 dans [ce sujet](./METH_NUM/cc1_2021_print.pdf)
+    - programmer la decomposition QR 
+        - avec [Gramm Schmidt](https://bdesgraupes.pagesperso-orange.fr/UPX/Master1/MNM1_seance_07_doc.pdf)
+        - avec les matrices de Householder
+    - Householder : utiliser l'exo 2 dans [ce sujet](./METH_NUM/cc1_2021_print.pdf)
 
 ![](./binary.png)
 
