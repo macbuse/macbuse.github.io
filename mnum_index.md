@@ -55,9 +55,19 @@ Salle F217 batiment F
     - Householder : utiliser l'exo 2 dans [ce sujet](./METH_NUM/cc1_2021_print.pdf)
     - [Calculer les valeurs propres](http://jaramillo.perso.math.cnrs.fr/Courses/MaSC4A/TD3.pdf) avec QR
 
+        - [correction exo 2](./METH_NUM/cc1_2021.pdf)
+        - [mon brouillon](./METH_NUM/QR_corr.html)
+
+	- **semaine 6/3** 
+    - Programmer Householder
+
+
 ![](./binary.png)
 
 <!-- 	- 4/2 finir exo 8 ([convergence](https://www.maa.org/press/periodicals/loci/joma/iterative-methods-for-solving-iaxi-ibi-analysis-of-jacobi-and-gauss-seidel-methods) dans Jacobi) puis passer a F2 -->
+
+
+---
 
 ## Controles  (2022)
 
