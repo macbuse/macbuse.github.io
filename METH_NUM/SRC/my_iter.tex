@@ -5,13 +5,13 @@
    \textwidth 16cm
 \oddsidemargin=0cm
 
-\usepackage[frenchb]{babel}
+% \usepackage[french]{babel}
 \usepackage[utf8]{inputenc}
 
 
 \usepackage{url,amsmath,amssymb,amsthm,amsfonts,epsfig}
 % eurosym,geometry}
-\selectlanguage{french}
+% \selectlanguage{french}
 
 \def\var{\mathrm{var}}
 \def\BB{\mathcal{B}}
@@ -148,7 +148,7 @@ Le domaine de Gershgorin, qu'on notera ${\cal G}(A)$ est la réunion des
 disques $D_i$ pour $1\leq i\leq n$.
 Montrer que le spectre de $A$ est inclus dans ${\cal G}(A)$.
 
-
+\eexer
 
 \bexer (Méthode de la puissance)
 Soit $A=\left(\begin{array}{ccc}99&1&0\\1&100&1\\0&1&98\end{array}\right)$.
@@ -174,6 +174,7 @@ $A-\gamma I_3$ si $\gamma$ est la valeur trouvée à la question 2) ?
 \end{enumerate}
 
 \eexer
+
 
 \bexer
 (élimination)
@@ -256,11 +257,8 @@ de $A$ est inf\'erieure \`a $\varepsilon$ (on pourra utiliser une base
 orthonormale de vecteurs propres de $A$).
 \eexer
 
-\end{document}
-\pagebreak
-\noindent Intro mod\'elisation num\'erique \hfill Formulation
-variationnelle \hfill {L3 2016/2017}\\
 
+\bexer
 
 On consid\`ere l'\'equation diff\'erentielle 
 $$ -u'{'}+\alpha u=f, \quad x \in [0,1], \quad u(0)=u(1)=0 $$
@@ -299,9 +297,9 @@ Comment se compare cette m\'ethode avec la m\'ethode des diff\'erences
 finies de la feuille 1~?
 \end{enumerate}
 
-\end{document}
-\pagebreak
-{\bf Exercice 17}\\
+\eexer
+
+\bexer
 Soit $P$ un polyn\^ome unitaire de degr\'e $d>0$ \`a coefficients
 r\'eels 
 (ou complexes)
@@ -363,63 +361,6 @@ l'existence d'une unique racine de module maximal), quels
 sont les obstacles pr\'evisibles~? Comment peut-on les contourner~?
 \end{enumerate}
 
-\pagebreak
-
-
-\end{document}
-% \bexer
-% Soit $A$ la matrice tridiagonale de taille $n$ donnée par :
-% \[A=\left(\begin{array}{ccccc}2&-1&&&\\-1&2&-1&&{\bf 0}\\
-%     &\ddots&\ddots&\ddots&\\{\bf
-%       0}&&-1&2&-1\\&&&-1&2 \end{array}\right)\]
-% \begin{enumerate}
-% \item
-% Montrer que 
-% $$u_k=(\sin(\frac{k\pi}{n+1}),...,
-% \sin(\frac{kj\pi}{n+1}),...,\sin(\frac{kn\pi}{n+1})) $$
-% est vecteur propre de $A$ et calculer la valeur propre associ\'ee.
-% En d\'eduire que les m\'ethode de Jacobi, de Gauss-Seidel et de
-% relaxation (pour $\omega<2$) convergent.
-% \item
-% %Soit $b=\left(\begin{array}{c}1\\0\\0\\\vdots\\0\\1\end{array}\right)$.
-% Soit $b=(1,0,...,0,1)$.
-% La solution du système linéaire $Ax=b$ est donnée par 
-% %$x=\left(\begin{array}{c}1\\1\\\vdots\\1\end{array}\right)$.
-% $x=(1,1,...,1)$.
-% \'Evaluer le nombre d'itérations
-% pour avoir une précision de \verb|1e-10| en appliquant la m\'ethode
-% de Jacobi, de Gauss-Seidel et de relaxation (avec $\omega =1.5$). 
-% On fera des simulations pour $4\leq n\leq 20$.
-% Quel est le cout d'une it\'eration en fonction de $n$~? Comment se
-% compare cette m\'ethode avec une m\'ethode directe~?
-% \item
-% Pour $n=20$, représenter la fonction donnant le rayon spectral de la 
-% matrice de la méthode de relaxation en fonction de $\omega\in [0,2]$. 
-% Trouver graphiquement le paramètre optimal et comparer le à 
-% $\frac{2}{1+\sqrt{1-\rho(J)^2}}$.
-% \end{enumerate}
-% \eexer
-
-% \bexer
-
-% {\bf Méthode de Newton dans le plan complexe}
-
-% On propose de représenter les bassins d'attraction des zéros de $z \mapsto z^3-1$ dans $\C$ pour la méthode de Newton.
-
-% Les zéros sont $Z=\{1, j ,j^2\}$ où $j=e^{\frac{2i\pi}{3}}$.
-
-% Si $a\in Z$, on note $A(a)=\{z_0\in\C\ /\ (z_n)_{n\in \N} \mbox{tend vers }a\}$ où $z_{n+1}=\frac{2z_n^2+1}{3z_n^3}$. $A(a)$ est appelé le bassin d'attraction de $a$.
-
-% Soit $\epsilon >0$ et $N\in \N$. Soit $A_{N,\epsilon}(a)=\{z_0\in\C\ /\ |z_N-a|<\epsilon\}$.
-
-% Ecrire un programme qui colorie en rouge les points de $A_{N,\epsilon}(1)$, en vert ceux de  $A_{N,\epsilon}(j)$ en bleu ceux de $A_{N,\epsilon}(j^2)$ et en jaune les autres.
-
-% Même exercice avec le polynome $z \mapsto (z-1)(z-a+\demi)(z+a+\demi)$ où $a=-0.00508+0.333136i$.
-
-% {\it voir http://images.math.cnrs.fr/La-methode-de-Newton-et-son.html}
-
-% \eexer
-
+\eexer 
 
 \end{document}
-
