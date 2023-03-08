@@ -8,6 +8,8 @@
 % \usepackage[french]{babel}
 \usepackage[utf8]{inputenc}
 
+\usepackage{graphicx}
+\usepackage{caption}
 
 \usepackage{url,amsmath,amssymb,amsthm,amsfonts,epsfig}
 % eurosym,geometry}
@@ -98,48 +100,9 @@
 \noindent Intro mod. num. 
 \hfill Puissance \hfill {L3 \the\year}\\
 
-\bexer
-Soit $P$ une matrice transpos\'ee d'une matrice stochastique,
-c'est-\`a-dire une matrice carr\'ee de taille $N$ dont les coefficients v\'erifient
-$$ a_{ij} \in [0,1], \quad \sum_{i=1}^N a_{ij} =1 $$
-la somme des coefficients d'une colonne donn\'ee vaut 1.\\
-L'algorithme PageRank de Google construit une telle matrice \`a partir
-du graphe connectant les pages web entre elles en posant
-$a_{ij}=\frac{1}{n_j}$ si la page $j$ pointe vers la page $i$ et 0
-sinon, avec $n_j$ le nombre de liens \'emis par la page $j$ (chaque lien
-repr\'esente en quelque sorte un vote, dont le poids est pond\'er\'e
-par le nombre de liens). Par
-exemple
-\[ P= \left(\begin{array}{ccccc}
-0 & 0 & \frac{1}{4} & 0 & 0 \\
-0 & 0 & \frac{1}{4} & 0 & 0 \\
-\frac{1}{2} & 1 & 0 & \frac{1}{2} & 0 \\
-0 & 0 & \frac{1}{4} & 0 & 0 \\
-\frac{1}{2} & 0 & \frac{1}{4} & \frac{1}{2} & 1
-\end{array}\right) \]
-correspondrait \`a un web jouet de 5 pages
- o\`u la page 1 pointe vers les pages 3
-et 5, la page 2 vers la page 3, la page 3 vers 1, 2, 4, 5, 
-la page 4
-vers les pages 3 et 5 et la page 5 vers elle-m\^eme.
-
-On s'int\'eresse \`a l'\'equation~:
-\[ r =(1-\alpha)Pr+\alpha \frac1N (1,...,1), \quad \alpha \in ]0,1[ \]
-Dans PageRank $\alpha=0.15$ et
-$r_j$ donne le rang de classement de la page $j$
-\begin{enumerate}
-\item D\'eterminer la norme de $P$ comme application lin\'eaire
-de $\R^N$ dans $\R^N$ subordonn\'ee \`a la norme $L^1$ dans $\R^N$
-$$ |||P|||_1 = \mbox{max}_{\{r/\|r\|_1=1\}} \|Pr\|_1, \quad
-\|r\|_1=\sum_{j=1}^N |r_j| $$
-\item En d\'eduire que la m\'ethode du point fixe permet
-de r\'esoudre le probl\`eme.
-\end{enumerate}
-\eexer
-
 
 \bexer
-Domaine de Gershgorin
+\textbf{Domaine de Gershgorin}
 
 Soit $A\in {\cal M}_n(\C)$.
 On note, pour $1\leq i\leq n$, $D_i$ la boule fermée dans $\C$ de 
@@ -150,13 +113,21 @@ Montrer que le spectre de $A$ est inclus dans ${\cal G}(A)$.
 
 \eexer
 
-\bexer (Méthode de la puissance)
-Soit $A=\left(\begin{array}{ccc}99&1&0\\1&100&1\\0&1&98\end{array}\right)$.
-\begin{enumerate}
- \item Montrer que $A$ est diagonalisable et en utilisant l'exercice 
-précédent que ses valeurs propres appartiennent à $[97,102]$.
-\item Déterminer par la méthode de la puissance
-une approximation de la plus grande valeur propre de $A$.
+\bexer \textbf{Stabilité}\\
+Si $A$ est une matrice sym\'etrique, et si $\|(A-\lambda) u\| \leq
+\varepsilon \| u\|$, montrer que la distance de $\lambda$ au spectre
+de $A$ est inf\'erieure \`a $\varepsilon$ (on pourra utiliser une base
+orthonormale de vecteurs propres de $A$).
+\eexer
+
+
+\bexer (Méthode de la puissance)\\ Soit
+$A=\left(\begin{array}{ccc}99&1&0\\1&100&1\\0&1&98\end{array}\right)$.
+\begin{enumerate} \item Montrer que $A$ est diagonalisable et en
+	utilisant l'exercice sur le domaine de Gersggorin que ses
+	valeurs propres appartiennent à $[97,102]$. \item
+	Déterminer par la méthode de la puissance une approximation
+	de la plus grande valeur propre de $A$.
 
 Pour ceci, on écrira une fonction qui donnera une valeur approchée 
 de la plus grande valeur propre, une valeur approchée d'un 
@@ -201,6 +172,8 @@ de A et de ses vecteurs propres.
 
 L'appliquer à la matrice de l'exercice précédent.
 \end{enumerate}
+\eexer
+
 
 \bexer (valeurs propres conjuguées)
 
@@ -238,25 +211,114 @@ triple d'une matrice subordonn\'ee \`a la norme euclidienne.
 \eexer
 
 
+\bexer \textbf{PageRank}
+Soit $P$ une matrice transpos\'ee d'une matrice stochastique,
+c'est-\`a-dire une matrice carr\'ee de taille $N$ dont les coefficients v\'erifient
+$$ a_{ij} \in [0,1], \quad \sum_{i=1}^N a_{ij} =1 $$
+la somme des coefficients d'une colonne donn\'ee vaut 1.\\
+L'algorithme PageRank de Google construit une telle matrice \`a partir
+du graphe connectant les pages web entre elles en posant
+$a_{ij}=\frac{1}{n_j}$ si la page $j$ pointe vers la page $i$ et 0
+sinon, avec $n_j$ le nombre de liens \'emis par la page $j$ (chaque lien
+repr\'esente en quelque sorte un vote, dont le poids est pond\'er\'e
+par le nombre de liens). 
+
+On considère
+le
+reseau :
+
+\begin{figure}[ht]
+\begin{center}
+	\includegraphics[scale=.4]{./graph1.png}
+\end{center}
+\end{figure}
+
+dont la matrice d'adjacence (de connectivité) $A$ est
+
+
+\begin{figure}[ht]
+\begin{center}
+	\includegraphics[scale=.4]{./adj_matrix.png}
+\end{center}
+\end{figure}
+
+\begin{enumerate}
+	\item Dessiner le graphe  dont la matrice d'adjacence $C$
+		est $C^2$.
+	\item Trouver les valeurs propres de $C$ avec
+		\textbf{numpy}
+	\item Pourquoi $0$ est valeur propre ? 
+	\item Calculer la matrice $\tilde{C}$ (voir le cours).
+	La  matrice est stochastique ?
+
+	
+\end{enumerate}
+
+
+L’idée de Brin et Page pour permettre la découverte d’une
+distribution stable par multiplication itérée de la matrice
+stochastique est d’introduire la métaphore du “surfeur aléatoire” (random surfer). Cette métaphore permet en fait de
+rendre la matrice ergodique. Le surfeur suit la structure
+des liens du web, sauf que de temps en temps il décide
+d’entrer une URL dans la barre de navigation afin de
+sauter vers une page quelconque non nécessairement
+connectée à la page courante. On appelle cette opération
+la téléportation. La téléportation est aléatoire : chaque
+page est équiprobable en tant que destination d’une opération de téléportation. On fait une combinaison convexe de
+$C$ et de la matrice qui représente l’opération de
+téléportation.
+
+\begin{enumerate}
+	\item Rendre $\tilde{C}$ stochastique comme expliquer dans
+		le cours: $$ \alpha E + (1-\alpha)\frac{1}{n} e.e^T$$.
+	\item Utiliser la méthode de  la puissance pour calculer la
+		plus grande valeur propre.
+	\item Trouver le vecteur propre associé. Donner une
+		interpretation du vecteur propre.
+
+\eexer
+
 
 \bexer
-Utiliser la méthode QR pour trouver des valeurs approchées 
+{\bf Méthode $QR$ pour le calcul de valeurs propres}\\
+
+Soit une matrice $A\in\mathcal{M}_n(\mathbb{R})$ inversible. Dans cet exercice, on va utiliser la décomposition $QR$ pour déterminer toutes les valeurs propres de $A$. Pour cela, on définit une suite de matrices de la manière suivante : \\
+
+$A_1 =  A$, puis pour tout $k\geq1$,
+
+$$\left\{
+\begin{aligned}
+& (Q_k, R_k) =  \hbox{décomposition QR de } A_k\\
+&A_{k+1} = R_k Q_k
+\end{aligned}
+\right.$$ 
+
+\begin{itemize}
+
+\item Montrer que les matrices $A_k$ construites au cours des itérations sont toutes semblables à $A$. Elles ont donc les mêmes valeurs propres que $A$. 
+
+\item On suppose que les valeurs propres de $A$ sont toutes de modules différents ($|\lambda_1|>\cdots>|\lambda_n|$). Soit $P\in\mathrm{GL}_n(\Rsp)$ telle que $P^{-1}AP=diag(\lambda_1,\cdots,\lambda_n):=\Lambda$. On suppose que $P^{-1}$ admet une factorisation $LU$. Montrer qu'alors
+
+$$\lim_{k\rightarrow +\infty} (A_k)_{ii} =\lambda_i,\hspace{0.3cm}\forall \  i,\hspace{1cm}\hbox{et}\hspace{1cm} \lim_{k\rightarrow +\infty} (A_k)_{ij} = 0,\hspace{0.3cm}\forall \ 1\leq j<i \leq n.$$
+
+\item Implémenter cette méthode et vérifier numériquement que la vitesse de convergence dépend de $\max_i \ | \frac{\lambda_{i+1}}{\lambda_i} |$.
+
+\item
+Trouver des valeurs approchées 
 des valeurs propres de 
  \[A=\left(\begin{array}{ccccc}
 0&1&0&0&0\\1&1&1&0&0\\0&1&1&1&0\\0&0&1&1&1\\0&0&0&1&2
 \end{array}\right)\]
 Observer la forme des matrices intermédiaires.
-Pour une matrice g\'en\'erale, on utilise la forme de Hessenberg avant
-de faire la m\'ethode QR.
+
+% Pour une matrice g\'en\'erale, on utilise la forme de Hessenberg avant
+% de faire la m\'ethode QR.
+
+\end{itemize}
 \eexer
 
-\bexer
-Si $A$ est une matrice sym\'etrique, et si $\|(A-\lambda) u\| \leq
-\varepsilon \| u\|$, montrer que la distance de $\lambda$ au spectre
-de $A$ est inf\'erieure \`a $\varepsilon$ (on pourra utiliser une base
-orthonormale de vecteurs propres de $A$).
-\eexer
 
+\end{document}
 
 \bexer
 

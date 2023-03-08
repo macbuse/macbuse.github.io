@@ -58,8 +58,15 @@ Salle F217 batiment F
         - [correction exo 2](./METH_NUM/cc1_2021.pdf)
         - [mon brouillon](./METH_NUM/QR_corr.html)
 
-	- **semaine 6/3** 
-    - Programmer Householder
+
+[F3](./METH_NUM/SRC/my_iter.pdf)
+
+-  **semaine 6/3** 
+   - Programmer Householder
+   - F3 exos 1, 2, 3
+   - [méthode de la
+     puissance](https://www.bibmath.net/dico/index.php?action=affiche&quoi=./m/methodepuissance.html)
+
 
 
 ![](./binary.png)
