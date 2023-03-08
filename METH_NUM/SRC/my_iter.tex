@@ -210,7 +210,6 @@ Utiliser la m\'ethode de la puissance pour d\'eterminer la norme
 triple d'une matrice subordonn\'ee \`a la norme euclidienne.
 \eexer
 
-
 \bexer \textbf{PageRank}
 Soit $P$ une matrice transpos\'ee d'une matrice stochastique,
 c'est-\`a-dire une matrice carr\'ee de taille $N$ dont les coefficients v\'erifient
@@ -233,8 +232,9 @@ reseau :
 \end{center}
 \end{figure}
 
-dont la matrice d'adjacence (de connectivité) $A$ est
+dont la matrice d'adjacence (de connectivité) $C$ est
 
+% https://perso.liris.cnrs.fr/pierre-edouard.portier/teaching_2014_2015/ia/pr/pr.pdf
 
 \begin{figure}[ht]
 \begin{center}
@@ -270,14 +270,15 @@ téléportation.
 
 \begin{enumerate}
 	\item Rendre $\tilde{C}$ stochastique comme expliquer dans
-		le cours: $$ \alpha E + (1-\alpha)\frac{1}{n} e.e^T$$.
+		le cours: $$ \alpha E + (1-\alpha)\frac{1}{n}
+		e.e^T.$$
 	\item Utiliser la méthode de  la puissance pour calculer la
 		plus grande valeur propre.
 	\item Trouver le vecteur propre associé. Donner une
 		interpretation du vecteur propre.
 
+\end{enumerate}
 \eexer
-
 
 \bexer
 {\bf Méthode $QR$ pour le calcul de valeurs propres}\\
@@ -297,7 +298,9 @@ $$\left\{
 
 \item Montrer que les matrices $A_k$ construites au cours des itérations sont toutes semblables à $A$. Elles ont donc les mêmes valeurs propres que $A$. 
 
-\item On suppose que les valeurs propres de $A$ sont toutes de modules différents ($|\lambda_1|>\cdots>|\lambda_n|$). Soit $P\in\mathrm{GL}_n(\Rsp)$ telle que $P^{-1}AP=diag(\lambda_1,\cdots,\lambda_n):=\Lambda$. On suppose que $P^{-1}$ admet une factorisation $LU$. Montrer qu'alors
+\item On suppose que les valeurs propres de $A$ sont toutes de
+	modules différents ($|\lambda_1|>\cdots>|\lambda_n|$). Soit
+	$P\in\mathrm{GL}_n(\mathbb{R})$ telle que $P^{-1}AP=diag(\lambda_1,\cdots,\lambda_n):=\Lambda$. On suppose que $P^{-1}$ admet une factorisation $LU$. Montrer qu'alors
 
 $$\lim_{k\rightarrow +\infty} (A_k)_{ii} =\lambda_i,\hspace{0.3cm}\forall \  i,\hspace{1cm}\hbox{et}\hspace{1cm} \lim_{k\rightarrow +\infty} (A_k)_{ij} = 0,\hspace{0.3cm}\forall \ 1\leq j<i \leq n.$$
 
@@ -315,6 +318,7 @@ Observer la forme des matrices intermédiaires.
 % de faire la m\'ethode QR.
 
 \end{itemize}
+
 \eexer
 
 

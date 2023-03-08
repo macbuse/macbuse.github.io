@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.2.17)  8 MAR 2023 10:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.2.17)  8 MAR 2023 11:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -211,7 +211,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <./graph1.png, id=16, 398.48875pt x 197.73875pt>
 File: ./graph1.png Graphic file (type png)
 <use ./graph1.png>
-Package pdftex.def Info: ./graph1.png  used on input line 232.
+Package pdftex.def Info: ./graph1.png  used on input line 231.
 (pdftex.def)             Requested size: 159.39267pt x 79.09409pt.
 <./adj_matrix.png, id=18, 346.29375pt x 257.96375pt>
 File: ./adj_matrix.png Graphic file (type png)
@@ -219,69 +219,16 @@ File: ./adj_matrix.png Graphic file (type png)
 Package pdftex.def Info: ./adj_matrix.png  used on input line 241.
 (pdftex.def)             Requested size: 138.51503pt x 103.18365pt.
  [2 <./graph1.png> <./adj_matrix.png>]
-
-./my_iter.tex:279: LaTeX Error: \begin{enumerate} on input line 271 ended by \end{em}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 \eexer
-            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./my_iter.tex:279: LaTeX Error: \begin{em} on input line 214 ended by \end{exer}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 \eexer
-            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-./my_iter.tex:300: Undefined control sequence.
-l.300 ...lambda_n|$). Soit $P\in\mathrm{GL}_n(\Rsp
-                                                  )$ telle que $P^{-1}AP=dia...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./my_iter.tex:321: LaTeX Error: \begin{exer} on input line 214 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.321 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[3] (./my_iter.aux) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 214 (\begingroup)
-### bottom level 
+[3] (./my_iter.aux) ) 
 Here is how much of TeX's memory you used:
  3922 strings out of 481252
  59104 string characters out of 5915888
@@ -289,9 +236,9 @@ Here is how much of TeX's memory you used:
  20844 multiletter control sequences out of 15000+600000
  406118 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,9n,74p,316b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,9n,74p,266b,377s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/macbuse/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on my_iter.pdf (3 pages, 144968 bytes).
+Output written on my_iter.pdf (3 pages, 144993 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
