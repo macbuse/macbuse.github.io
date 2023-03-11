@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1678270148 "my_iter.tex" "my_iter.pdf" "my_iter" 1678270149
+["pdflatex"] 1678306379 "my_iter.tex" "my_iter.pdf" "my_iter" 1678306380
   "/etc/texmf/web2c/texmf.cnf" 1676666735 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/macbuse/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1677339241 11524 316f0e21d96efd41102bbea01240cd63 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -56,11 +56,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1676666743 75955 f78456fd1308dc295dc476a68e28d85b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1676666754 1283509 41d8e6aa2855af409027dc7cb39246f0 ""
-  "adj_matrix.png" 1678266422 14877 66a381cb19c76ac3bb829fc54dd6dba8 ""
   "graph1.png" 1678265738 16121 fd386e60e271a18abc5add47b30e9291 ""
-  "my_iter.aux" 1678270149 32 ab05033ccbb38b00a31b200ccedf8001 ""
-  "my_iter.tex" 1678270143 15509 c56d2a2b46cb253092696e0a65e42566 ""
+  "my_iter.aux" 1678306380 32 ab05033ccbb38b00a31b200ccedf8001 ""
+  "my_iter.tex" 1678306376 10950 e620c4af3a536b5dbb4752d85b014b1b ""
   (generated)
-  "my_iter.log"
-  "my_iter.aux"
   "my_iter.pdf"
+  "my_iter.aux"
+  "my_iter.log"

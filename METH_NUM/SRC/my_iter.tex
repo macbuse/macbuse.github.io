@@ -98,15 +98,19 @@
 \begin{document}
 %\Large
 \noindent Intro mod. num. 
-\hfill Puissance \hfill {L3 \the\year}\\
+\hfill Valeurs propres, méthode de la puissance \hfill {L3 \the\year}\\
 
 
 \bexer
 \textbf{Domaine de Gershgorin}
 
 Soit $A\in {\cal M}_n(\C)$.
-On note, pour $1\leq i\leq n$, $D_i$ la boule fermée dans $\C$ de 
-centre $a_{i,i}$ et de rayon $\ds\sum_{j\not= i}|a_{i,j}|$.
+On note, pour $1\leq i\leq n$, $D_i$ la boule fermée dans $\C$ 
+\begin{itemize}
+\item de 
+centre $a_{i,i}$ 
+\item et de rayon $\ds\sum_{j\not= i}|a_{i,j}|$.
+\end{itemize}
 Le domaine de Gershgorin, qu'on notera ${\cal G}(A)$ est la réunion des 
 disques $D_i$ pour $1\leq i\leq n$.
 Montrer que le spectre de $A$ est inclus dans ${\cal G}(A)$.
@@ -121,10 +125,11 @@ orthonormale de vecteurs propres de $A$).
 \eexer
 
 
-\bexer (Méthode de la puissance)\\ Soit
+\bexer \textbf{Méthode de la puissance}\\ Soit
 $A=\left(\begin{array}{ccc}99&1&0\\1&100&1\\0&1&98\end{array}\right)$.
+
 \begin{enumerate} \item Montrer que $A$ est diagonalisable et en
-	utilisant l'exercice sur le domaine de Gersggorin que ses
+	utilisant l'exercice sur le domaine de Gershgorin que ses
 	valeurs propres appartiennent à $[97,102]$. \item
 	Déterminer par la méthode de la puissance une approximation
 	de la plus grande valeur propre de $A$.
@@ -148,7 +153,7 @@ $A-\gamma I_3$ si $\gamma$ est la valeur trouvée à la question 2) ?
 
 
 \bexer
-(élimination)
+\textbf{Elimination}
 
 Soit $A$ une matrice réelle de taille $n$.
 On suppose que les valeurs propres de $A$ notées $\{\lambda_1,\ldots,\lambda_n\}$ sont deux à deux distinctes et vérifient :
@@ -175,7 +180,7 @@ L'appliquer à la matrice de l'exercice précédent.
 \eexer
 
 
-\bexer (valeurs propres conjuguées)
+\bexer \textbf{Valeurs propres conjuguées}
 
 Si $A$ est une matrice réelle, sa plus grande valeur propre en module n'est
 pas forcément réelle, $A$ peut avoir un couple de valeurs propres
@@ -190,7 +195,7 @@ réelle de taille 4 (non symétrique).
 \eexer
 
 \bexer
-(itérations inverses)
+\textbf{Itérations inverses}
 
 Lorsqu'on a effectué quelques itérations de la méthode de la puissance,
 on a une première approximation $\lambda$ 
@@ -210,7 +215,7 @@ Utiliser la m\'ethode de la puissance pour d\'eterminer la norme
 triple d'une matrice subordonn\'ee \`a la norme euclidienne.
 \eexer
 
-\bexer \textbf{PageRank}
+\bexer \textbf{PageRank}\\ 
 Soit $P$ une matrice transpos\'ee d'une matrice stochastique,
 c'est-\`a-dire une matrice carr\'ee de taille $N$ dont les coefficients v\'erifient
 $$ a_{ij} \in [0,1], \quad \sum_{i=1}^N a_{ij} =1 $$
@@ -226,6 +231,9 @@ On considère
 le
 reseau :
 
+
+% https://perso.liris.cnrs.fr/pierre-edouard.portier/teaching_2014_2015/ia/pr/pr.pdf
+
 \begin{figure}[ht]
 \begin{center}
 	\includegraphics[scale=.4]{./graph1.png}
@@ -234,13 +242,17 @@ reseau :
 
 dont la matrice d'adjacence (de connectivité) $C$ est
 
-% https://perso.liris.cnrs.fr/pierre-edouard.portier/teaching_2014_2015/ia/pr/pr.pdf
-
-\begin{figure}[ht]
 \begin{center}
-	\includegraphics[scale=.4]{./adj_matrix.png}
+$$\begin{pmatrix}
+0 & 1 & 1 & 0 & 0 & 0 \\ 
+0 & 0 & 0 & 0 & 0 & 0 \\ 
+1 & 1 & 0 & 0 & 1 & 0 \\ 
+0 & 0 & 0 & 0 & 1 & 1 \\ 
+0 & 0 & 0 & 1 & 0 & 1 \\ 
+0 & 0 & 0 & 1 & 0 & 0
+\end{pmatrix}
+$$
 \end{center}
-\end{figure}
 
 \begin{enumerate}
 	\item Dessiner le graphe  dont la matrice d'adjacence $C$
@@ -281,7 +293,7 @@ téléportation.
 \eexer
 
 \bexer
-{\bf Méthode $QR$ pour le calcul de valeurs propres}\\
+\textbf{Méthode $QR$ pour le calcul de valeurs propres}\\
 
 Soit une matrice $A\in\mathcal{M}_n(\mathbb{R})$ inversible. Dans cet exercice, on va utiliser la décomposition $QR$ pour déterminer toutes les valeurs propres de $A$. Pour cela, on définit une suite de matrices de la manière suivante : \\
 
@@ -324,109 +336,4 @@ Observer la forme des matrices intermédiaires.
 
 \end{document}
 
-\bexer
 
-On consid\`ere l'\'equation diff\'erentielle 
-$$ -u'{'}+\alpha u=f, \quad x \in [0,1], \quad u(0)=u(1)=0 $$
-\begin{enumerate}
-\item Discuter en fonction de $\alpha$ le nombre de solutions pour
-  $f=0$. Comparer les conditions aux bords
-avec le cas des conditions initiales $u(0)=0, u'(0)=0$.
-\item On pose $\alpha>0$.
- D\'eterminer $a$ et $l$ de la formulation ``faible'' de cette \'equation
-$ a(u,v)=l(v)$ pour tout $v$ de classe $C^1$ par morceaux nulle aux
-bords.
-\item Montrer que $a$ est sym\'etrique d\'efinie positive.
-\item V\'erifier que la solution de $a(u,v)=l(v)$ est un extr\^emum
-de  $J(u)=\frac12 a(u,u)-l(u)$ (formulation variationnelle de
-l'\'equation diff\'erentielle).
-\item Soit $N\geq2$, $h=1/N$ et $x_k=kh=k/N$ pour $k=0,..N$.\\
-Pour $1\leq k \leq N-1$, on 
-note $\phi_k(x)=\mbox{max}(0,1-|(x-x_k)/h|)$ la fonction 
-atteignant son maximum 1 en $x_k$ et de
-pente $\pm 1/h$ entre $[x_{k-1},x_{k+1}]$.\\
-On va chercher le minimum de $J$ sur l'espace vectoriel
-$E$ de dimension finie engendr\'e par les fonctions $\phi_k$
-(c'est la projection orthogonale par rapport au produit scalaire 
-induit par $a$ de la solution sur $E$, pourquoi~?)
-D\'eterminer $a_{j,k}=a(\phi_j,\phi_k)$, $l_k=l(\phi_k)$.
-\item Montrer que le minimum $u$ de $J$ sur $E$ v\'erifie $a(u,v)=l(v)$ pour
-tout $v \in E$. En d\'eduire une matrice $A$ telle que
-$A(u(x_j))_{j=1..N-1}=(l_j)_{j=1..N-1}$.
-\item D\'eterminer $u(x_j)$ puis $u$.
-\item Tracer sur une m\^eme figure $u$ et la solution exacte
-pour $f(t)=1$ et pour $f(t)=t(1-t)$ pour $N=3$ et $N=10$.
-\item Pour $N$ grand, quel est le cout de l'\'etape matricielle de la r\'esolution
-par le pivot de Gauss~? Comparer avec la m\'ethode de Jacobi.
-\item Que faut-il modifier lorsque $\alpha$ d\'epend de $x$~?
-Comment se compare cette m\'ethode avec la m\'ethode des diff\'erences
-finies de la feuille 1~?
-\end{enumerate}
-
-\eexer
-
-\bexer
-Soit $P$ un polyn\^ome unitaire de degr\'e $d>0$ \`a coefficients
-r\'eels 
-(ou complexes)
-$$ P=x^d+p_{d-1}x^{d-1}+...+p_1x+p_0$$
-On suppose que $P$ admet une seule racine de
-module maximal, que l'on notera $z$. 
-On souhaite trouver une approximation de $z$
-par une m\'ethode combinant la m\'ethode de la puissance et de Newton.
-Par exemple pour fixer les id\'ees et tester~:
-$$ P=x^7-11x^4+5x-55, \quad d=7$$
-\begin{enumerate}
-\item On construit une matrice compagnon $M$ de $P$ (commande
-\verb|M:=tran(companion(P))| de Xcas) d\'efinie par~:
-$$ M=\left(\begin{array}{cccccc}
-0 & 1 & 0 & ... & 0 & 0 \\
-0 & 0 & 1 & ... & 0 & 0 \\
-...& ... & ... & ... & ... & ... \\
-0 & 0 & 0 & ... & 1 & 0 \\
-0 & 0 & 0 & ... & 0 & 1 \\
--p_0 & -p_1 & -p_2 & ... & -p_{d-2} & -p_{d-1} \\
-\end{array}\right)$$
-on admettra que le polyn\^ome caract\'eristique
-de $M$ est $P$. Expliquer pourquoi la m\'ethode de la puissance
-appliqu\'ee \`a $M$ permet de d\'eterminer la racine $z$ de $P$.
-\item En utilisant la structure particuli\`ere
-de la matrice $M$, expliquer comment on peut calculer 
-efficacement $v_{n+1}=Mv_n$ \`a partir de la liste $l$
-des coefficients de $P$ par ordre croissant 
-(\verb|l:=revlist(symb2poly(P,x))|) 
-en $O(d)$ op\'erations.
-\item \'Etant donn\'e un petit r\'eel $\varepsilon>0$, 
-quel test d'arr\^et vous parait le plus judicieux pour
-stopper le calcul des $v_n$~? Pourra-t-on certifier que l'estimation
-de la valeur propre obtenue sera proche \`a $\varepsilon$ pr\`es de $z$~?
-\item Programmer l'algorithme en passant en param\`etre
-la liste \verb|l| et le petit r\'eel \verb|eps|
-(on pourra utiliser \verb|v[1..d-1]|
-qui extrait les \'el\'ements de \verb|v| d'indice \verb|1| \`a \verb|d-1|
-inclus, \verb|dotprod(l,v)|
-effectue le produit scalaire de \verb|l| et \verb|v| en tronquant
-le vecteur le plus long lorsqu'ils ne sont pas de taille \'egale, 
-et les instructions \verb|append| et \verb|normalize|)
-\item Dans les questions suivantes, sauf la derni\`ere, on travaille
-sur l'exemple. Donner une estimation $z_4$ de $z$
-pour l'exemple pour $\varepsilon$=\verb|1e-4| et $z_8$ pour
-$\varepsilon$=\verb|1e-8|. Combien d'it\'erations sont-elles
-n\'ecessaires pour obtenir cette estimation~?
-Pouvait-on s'y attendre~?
-\item Afin d'acc\'el\'erer le calcul, on se propose d'utiliser la suite
-it\'erative $u_n$ de la  m\'ethode de Newton en partant de $u_0=z_4$.
-Donner l'expression de $u_{n+1}$ en fonction de $u_n$.
-Quelle pr\'ecision peut-on esp\'erer 
-en effectuant 2 it\'erations~?
-\item Calculer $u_2$. Proposer un raisonnement pour
-majorer l'erreur $|u_2-z|$ et calculer ce majorant.
-\item Si on souhaite g\'en\'eraliser la m\'ethode ci-dessus \`a un
-polyn\^ome unitaire quelconque (sans faire l'hypoth\`ese de
-l'existence d'une unique racine de module maximal), quels
-sont les obstacles pr\'evisibles~? Comment peut-on les contourner~?
-\end{enumerate}
-
-\eexer 
-
-\end{document}
