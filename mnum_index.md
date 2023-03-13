@@ -12,9 +12,8 @@ Salle F217 batiment F
 - C'est  plus facile: 
 	- Si vous regardez les exos avant la classe.
 	- Si vous venez avec votre propre ordinnateur et  Python 3.8
-<br>
-<br>R
-<br>
+
+---
 
 - [F1](./METH_NUM/1_feuille_flottant.pdf) Nombres flottants
    
@@ -70,6 +69,8 @@ Salle F217 batiment F
    - [mon brouillon](./METH_NUM/powers.html)
 
 
+- **semaine 6/3** 
+   - F3 exos 4, 5, 6, 7, 8
 
 ![](./binary.png)
 
