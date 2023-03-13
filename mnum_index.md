@@ -5,7 +5,6 @@ Salle F217 batiment F
 - mercredi 13h45
 - vendredi 13h45
 
-
 ---
 
 - Les feuilles sont en ligne  : cliquez sur F1 pour telecharger.
