@@ -67,7 +67,7 @@ Salle F217 batiment F
    - Programmer Householder
    - F3 exos 1, 2, 3
    - [méthode de la puissance](https://www.bibmath.net/dico/index.php?action=affiche&quoi=./m/methodepuissance.html)
-   - [mon brouillon](./METH_NUM/powers.ipynb)
+   - [mon brouillon](./METH_NUM/powers.html)
 
 
 

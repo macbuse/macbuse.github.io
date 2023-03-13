@@ -15,11 +15,8 @@ toward Ukraine. Indeed, in 2014, after Russia annexed Crimea, Mearsheimer wrote
 that “the United States and its European allies share most of the
 responsibility for this crisis.”
 
-+++
+---
 
-\\[*Support The New Yorker’s
-award-winning journalism. [Subscribe today
-»](https://subscribe.newyorker.com/subscribe/splits/newyorker/NYR_Generic?source=HCL_NYR_IN_CONTENT_SUBSCRIBE_0_ZZ)*\\]
 
 The current [invasion of Ukraine](https://www.newyorker.com/magazine/2022/03/07/in-ukraine-daily-life-in-the-face-of-war)
 has renewed several long-standing debates about the relationship between the
@@ -36,9 +33,9 @@ Ukraine.
 think the world got here?**
 
 I think all the trouble in this case really
-started in April, 2008, at the *NATO*{: .small} Summit in Bucharest, where
-afterward *NATO*{: .small} issued a statement that said Ukraine and Georgia
-would become part of *NATO*{: .small}. The Russians made it unequivocally clear
+started in April, 2008, at the *NATO* Summit in Bucharest, where
+afterward *NATO* issued a statement that said Ukraine and Georgia
+would become part of *NATO* The Russians made it unequivocally clear
 at the time that they viewed this as an existential threat, and they drew a
 line in the sand. Nevertheless, what has happened with the passage of time is
 that we have moved forward to include Ukraine in the West to make Ukraine a
