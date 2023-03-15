@@ -69,7 +69,11 @@ Salle F217 batiment F
 
 
 - **semaine 6/3** 
-   - F3 exos 4, 5, 6, 7, 8
+    - F3 exos 4, 5, 6, 7, 8
+    - [methode de la puissance
+      inverse](https://www.bibmath.net/dico/index.php?action=affiche&quoi=./m/methpuisinverse.html)
+
+
 
 ![](./binary.png)
 
