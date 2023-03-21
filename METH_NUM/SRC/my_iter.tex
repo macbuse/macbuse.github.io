@@ -240,9 +240,11 @@ reseau :
 \end{center}
 \end{figure}
 
-dont la matrice d'adjacence (de connectivité) $C$ est
+dont la matrice d'adjacence (transposé de la matrice de
+connectivité) $^t C$ est
 
 \begin{center}
+
 $$\begin{pmatrix}
 0 & 1 & 1 & 0 & 0 & 0 \\ 
 0 & 0 & 0 & 0 & 0 & 0 \\ 
@@ -255,8 +257,8 @@ $$
 \end{center}
 
 \begin{enumerate}
-	\item Dessiner le graphe  dont la matrice d'adjacence $C$
-		est $C^2$.
+	\item Dessiner le graphe  dont la matrice d'adjacence $^t C$
+		est $(^t C)^2$.
 	\item Trouver les valeurs propres de $C$ avec
 		\textbf{numpy}
 	\item Pourquoi $0$ est valeur propre ? 
@@ -281,9 +283,12 @@ $C$ et de la matrice qui représente l’opération de
 téléportation.
 
 \begin{enumerate}
-	\item Rendre $\tilde{C}$ stochastique comme expliquer dans
-		le cours: $$ \alpha E + (1-\alpha)\frac{1}{n}
+	\item Appliquer le processus le cours à $\tilde{C}$ stochastique comme expliquer dans: $$ \alpha E + (1-\alpha)\frac{1}{n}
 		e.e^T.$$
+	\item Rendre la matrice obtenue \textit{ergodique}:
+		remplacer les coefficients $=0$ par une petite
+		valeur qui represente la téléportation.
+	
 	\item Utiliser la méthode de  la puissance pour calculer la
 		plus grande valeur propre.
 	\item Trouver le vecteur propre associé. Donner une

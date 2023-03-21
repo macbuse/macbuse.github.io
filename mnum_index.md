@@ -68,12 +68,26 @@ Salle F217 batiment F
    - [mon brouillon](./METH_NUM/powers.html)
 
 
-- **semaine 6/3** 
+- **semaine 13/3** 
+
     - F3 exos 4, 5, 6, 7, 8
     - [methode de la puissance
       inverse](https://www.bibmath.net/dico/index.php?action=affiche&quoi=./m/methpuisinverse.html)
 
 
+- [F4](./METH_NUM/3_feuille_interp.pdf)
+
+	* programmation et plot du polynôme d'interpolation de Lagrange
+	* 1) Par évaluation naïve des Polynômes l_i de Lagrange
+	* 2) En utilisant les différences divisées
+	* Exercice 5 : visualiser le [phénomène de Runge](https://en.wikipedia.org/wiki/Runge%27s_phenomenon)
+
+<!-- 	- 25/3 [mon brouillon](./METH_NUM/Lagrange.html) -->
+<!-- 	* utilisation des [abscisses de Tchebychev](https://en.wikipedia.org/wiki/Chebyshev_nodes) pour obtenir une convergence uniforme -->
+<!-- 	* début de l'approximation : droite des moindres carrés -->
+<!-- 	- 1/4 exos 3,7,9, 10 **controle de TP note** -->
+<!-- 	- 8/4 exos 7,9, 10 et finir la feuille 3 -->
+<!-- [correction F3](./METH_NUM/3_feuille_interp_corrige.pdf) -->
 
 ![](./binary.png)
 
@@ -91,8 +105,6 @@ Something  similar this  year but dates will change
 	- [correction](./METH_NUM/cc1_2021_corr.pdf)
 
 
-<!-- 		- programmer la méthode QR --> 
-<!-- 		- [mon 	brouillon](./METH_NUM/QR_etc.html) -->
 <!-- 		- Indication [you can find code here](https://www.quantstart.com/articles/QR-Decomposition-with-Python-and-NumPy/) there are some mistakes in the code fix them! -->
 <!-- 	- 18/3 F1 Exo 8 --> 
 <!-- 	* étudié numériquement le conditionnement A / h^2 + C --> 
@@ -101,19 +113,6 @@ Something  similar this  year but dates will change
 
 <!-- --- -->
 
-<!-- - [F3](./METH_NUM/3_feuille_interp.pdf) -->
-<!-- 	- 25/3 [mon brouillon](./METH_NUM/Lagrange.html) -->
-<!-- 	* programmation et plot du polynôme d'interpolation de Lagrange -->
-<!-- 	* 1) Par évaluation naïve des Polynômes l_i de Lagrange -->
-<!-- 	* 2) En utilisant les différences divisées -->
-<!-- 	* Exercice 5 : visualiser le [phénomène de Runge](https://en.wikipedia.org/wiki/Runge%27s_phenomenon) -->
-<!-- 	* utilisation des [abscisses de Tchebychev](https://en.wikipedia.org/wiki/Chebyshev_nodes) pour obtenir une convergence uniforme -->
-<!-- 	* début de l'approximation : droite des moindres carrés -->
-<!-- 	- 1/4 exos 3,7,9, 10 **controle de TP note** -->
-<!-- 	- 8/4 exos 7,9, 10 et finir la feuille 3 -->
-
-
-<!-- [correction F3](./METH_NUM/3_feuille_interp_corrige.pdf) -->
 
 <!-- --- -->
 
