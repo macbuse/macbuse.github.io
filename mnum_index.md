@@ -77,10 +77,17 @@ Salle F217 batiment F
 
 - [F4](./METH_NUM/3_feuille_interp.pdf)
 
-	* programmation et plot du polynôme d'interpolation de Lagrange
-	* 1) Par évaluation naïve des Polynômes l_i de Lagrange
-	* 2) En utilisant les différences divisées
-	* Exercice 5 : visualiser le [phénomène de Runge](https://en.wikipedia.org/wiki/Runge%27s_phenomenon)
+```
+##ATTENTION!!!
+import numpy as np
+import matplotlib.pyplot as plt
+from numpy.polynomial import polynomial
+```
+	- programmation et plot du polynôme d'interpolation de Lagrange
+	- 1) Par évaluation naïve des Polynômes l_i de Lagrange
+	- 2) En utilisant les différences divisées
+	- Exercice 5 : visualiser le [phénomène de Runge](https://en.wikipedia.org/wiki/Runge%27s_phenomenon)
+
 
 <!-- 	- 25/3 [mon brouillon](./METH_NUM/Lagrange.html) -->
 <!-- 	* utilisation des [abscisses de Tchebychev](https://en.wikipedia.org/wiki/Chebyshev_nodes) pour obtenir une convergence uniforme -->
