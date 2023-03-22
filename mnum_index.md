@@ -35,8 +35,9 @@ Salle F217 batiment F
  - [F2](./METH_NUM/2_feuille_condition.pdf) Systèmes, conditionnement 
     - [correction](./METH_NUM/2_feuille_condition_corrige.pdf)
 
--
-	- **semaine 6/2** F2 exo  8, 9
+<br>
+
+- **semaine 6/2** F2 exo  8, 9
     - mini CC de TP 30 minutes [sujet](./METH_NUM/sujet2_feb.html)
     - DS Exo 3 [sujet](./METH_NUM/cc1_2021_print.pdf)
 	- **semaine 20/2** F2 exo  6, 7, 8, eventuellement 9
@@ -44,8 +45,8 @@ Salle F217 batiment F
     - [mon brouillon](./METH_NUM/QR_etc.html)
     
 
--
-	- **semaine 27/2** 
+
+- **semaine 27/2** 
     - programmer la decomposition QR 
         - avec [Gramm Schmidt](https://bdesgraupes.pagesperso-orange.fr/UPX/Master1/MNM1_seance_07_doc.pdf)
         - avec les matrices de Householder
@@ -60,11 +61,13 @@ Salle F217 batiment F
 [F3](./METH_NUM/SRC/my_iter.pdf) Itération
 
 - **semaine 6/3** 
+
    - Programmer Householder
    - F3 exos 1, 2, 3
    - [méthode de la puissance](https://www.bibmath.net/dico/index.php?action=affiche&quoi=./m/methodepuissance.html)
    - [mon brouillon](./METH_NUM/powers.html)
 
+<br>
 
 - **semaine 13/3** 
 
@@ -72,6 +75,7 @@ Salle F217 batiment F
     - [methode de la puissance
       inverse](https://www.bibmath.net/dico/index.php?action=affiche&quoi=./m/methpuisinverse.html)
 
+---
 
 - [F4](./METH_NUM/3_feuille_interp.pdf)
 
@@ -85,7 +89,7 @@ from numpy.polynomial import polynomial
 -  **semaine 20/3**
 
 	- programmation et plot du polynôme d'interpolation de Lagrange
-	- 1) Par évaluation naïve des Polynômes l_i de Lagrange
+	- 1) Par évaluation naïve des polynômes l_i de Lagrange
 	- 2) En utilisant les différences divisées
 	- Exercice 5 : visualiser le [phénomène de Runge](https://en.wikipedia.org/wiki/Runge%27s_phenomenon)
 
