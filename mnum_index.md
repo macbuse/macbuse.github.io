@@ -74,14 +74,16 @@ Salle F217 batiment F
 
 
 - [F4](./METH_NUM/3_feuille_interp.pdf)
+
 ```
 ##ATTENTION!!!
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy.polynomial import polynomial
-
 ```
+
 -  **semaine 20/3**
+
 	- programmation et plot du polynôme d'interpolation de Lagrange
 	- 1) Par évaluation naïve des Polynômes l_i de Lagrange
 	- 2) En utilisant les différences divisées
