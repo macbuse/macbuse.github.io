@@ -83,7 +83,10 @@ Salle F217 batiment F
 ##ATTENTION!!!
 import numpy as np
 import matplotlib.pyplot as plt
-from numpy.polynomial import polynomial
+
+# polynomial class in one variable x
+P = np.poly1d([1,1])
+print(P)
 ```
 
 -  **semaine 20/3**
