@@ -15039,7 +15039,9 @@ Name: web_name, Length: 108, dtype: object</pre>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
-<h1 id="Regular-expressions">Regular expressions<a class="anchor-link" href="#Regular-expressions">&#182;</a></h1><p>convert the templates to Python3 using <strong>re</strong></p>
+<h1 id="Converting-templates-using-regular-expressions">Converting templates using regular expressions<a class="anchor-link" href="#Converting-templates-using-regular-expressions">&#182;</a></h1><p>convert the templates in gregTexDatapy to Python3 using <strong>re</strong></p>
+<p>we need to use <code>string.format(**dictionary)</code>
+to print to a file</p>
 
 </div>
 </div>
@@ -15093,7 +15095,7 @@ Name: web_name, Length: 108, dtype: object</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="the-original-template">the original template<a class="anchor-link" href="#the-original-template">&#182;</a></h1><p>I copy pasted it from thr bottom of the file</p>
+<h1 id="the-original-template">the original template<a class="anchor-link" href="#the-original-template">&#182;</a></h1><p>Load the original file as text</p>
 
 </div>
 </div>
@@ -15103,85 +15105,11 @@ Name: web_name, Length: 108, dtype: object</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[90]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">texTemplateMCF</span> <span class="o">=</span> <span class="sa">r</span><span class="s1">&#39;&#39;&#39;</span>
-<span class="s1">\begin</span><span class="si">{center}</span><span class="s1"></span>
-<span class="s1">{\Large </span><span class="si">%(Corps)s</span><span class="s1"> %(N° emploi)s-%(Numéro Gesup)s: Rapport sur la candidature de }</span>
-<span class="s1">\end</span><span class="si">{center}</span><span class="s1"></span>
-<span class="s1">\vs</span>
-
-<span class="s1">\no</span>
-<span class="s1">{\bf {\large Nom} :} </span><span class="si">%(Nom)s</span><span class="s1">\\</span>
-<span class="s1">{\bf Prénom :} </span><span class="si">%(Prénom)s</span><span class="s1">\\</span>
-<span class="s1">{\bf Date de naissance :} %(Né(e) le)s\\</span>
-<span class="s1">{\bf Fonction actuelle :} %(Situation professionnelle)s,\\ %(Lieu d&#39;exercice)s \\</span>
-
-
-<span class="s1">\vs</span>
-<span class="s1">\no</span>
-<span class="s1">{\bf {\large Thèse} :} %(Titre thèse)s\\</span>
-<span class="s1">{\bf Date :} %(Date soutenance)s\\</span>
-<span class="s1">{\bf Etablissement :} %(Lieu soutenance)s\\</span>
-<span class="s1">{\bf Directeur :} %(Directeur Thèse)s\\</span>
-<span class="s1">{\bf Jury :} </span><span class="si">%(Jury)s</span><span class="s1">\\</span>
-<span class="s1">\\</span>
-<span class="s1">\no</span>
-<span class="s1">{\bf Mots clés :}\\</span>
-<span class="s1">{\bf Avis sur l&#39;audition du candidat :} d\&#39;efavorable/possible/tr\`es favorable \\</span>
-
-<span class="s1">\section</span><span class="si">{Publications}</span><span class="s1"></span>
-
-
-<span class="s1">\ben</span>
-<span class="s1">\item \`a remplir</span>
-<span class="s1">\een</span>
-
-<span class="s1">{\textbf{  Informations fournies :} </span><span class="si">%(Travaux)s</span><span class="s1"></span>
-
-
-<span class="s1">\section{Activités enseignement}</span>
-
-<span class="s1">\ben</span>
-<span class="s1">\item \`a remplir</span>
-<span class="s1">\een</span>
-
-<span class="s1">{\textbf{  Informations fournies :}%(Activités enseignement)s</span>
-
-
-<span class="s1">\section</span><span class="si">{Administration}</span><span class="s1"></span>
-
-<span class="s1">\ben</span>
-<span class="s1">\item \`a remplir</span>
-<span class="s1">\een</span>
-
-<span class="s1">{\textbf{  Informations fournies :}%(Activités administratives)s</span>
-
-
-
-<span class="s1">\section{Autres (encadrement, animation, contrats, prix)}</span>
-<span class="s1">\ben</span>
-<span class="s1">\item \`a remplir</span>
-<span class="s1">\een</span>
-
-
-<span class="s1">\section{Rapport scientifique}</span>
-
-<span class="s1">\section*{Domaine de recherche}</span>
-
-<span class="s1">%(Activités recherche)s</span>
-
-<span class="s1">\section*{Avis sur le dossier}</span>
-
-<span class="s1">\textit{Texte de synthèse du rapporteur}</span>
-
-<span class="s1">\vs</span>
-<span class="s1">\no</span>
-<span class="s1">Date et signature :</span>
-
-<span class="s1">\end</span><span class="si">{document}</span><span class="s1"></span>
-<span class="s1">&#39;&#39;&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;./gregTexData.py&#39;</span><span class="p">,</span><span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fp</span><span class="p">:</span>
+    <span class="n">txt</span> <span class="o">=</span> <span class="n">fp</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -15201,12 +15129,12 @@ Name: web_name, Length: 108, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[120]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[158]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
@@ -15214,14 +15142,102 @@ Name: web_name, Length: 108, dtype: object</pre>
 <span class="k">def</span> <span class="nf">callback</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
     <span class="k">return</span> <span class="s1">&#39;{{</span><span class="si">{}</span><span class="s1">}}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
 
-<span class="n">ss</span> <span class="o">=</span> <span class="n">texTemplateMCF</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;{&#39;</span><span class="p">,</span><span class="s1">&#39;{{&#39;</span><span class="p">)</span>
-<span class="c1">#standard string replacements</span>
-<span class="n">ss</span> <span class="o">=</span> <span class="n">ss</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;}&#39;</span><span class="p">,</span><span class="s1">&#39;}}&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">fix_tex</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;{&#39;</span><span class="p">,</span><span class="s1">&#39;{{&#39;</span><span class="p">)</span>
+    <span class="c1">#standard string replacements</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="n">m</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;}&#39;</span><span class="p">,</span><span class="s1">&#39;}}&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">m</span>
+    
+<span class="n">ss</span> <span class="o">=</span> <span class="n">txt</span>
+
+<span class="n">ss</span> <span class="o">=</span> <span class="n">ss</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;ur&#39;&quot;</span><span class="p">,</span><span class="s2">&quot;r&#39;&quot;</span><span class="p">)</span>
+
 <span class="c1">#ss = ss.replace(&#39;\&#39;,&#39;\\&#39;)</span>
 
 <span class="c1">#regexp to change the formatting to python3</span>
+<span class="c1">#you have to do it in this order </span>
+
+<span class="c1"># escape { and } in tex</span>
+<span class="n">ss</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s2">&quot;(&#39;&#39;&#39;.*?&#39;&#39;&#39;)&quot;</span><span class="p">,</span> <span class="n">fix_tex</span><span class="p">,</span><span class="n">ss</span><span class="p">,</span><span class="n">flags</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">DOTALL</span><span class="p">)</span>
+<span class="c1"># replace the formatting %( ) with { }</span>
 <span class="n">ss</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">&#39;%\((.*?)\)s&#39;</span><span class="p">,</span><span class="n">callback</span><span class="p">,</span><span class="n">ss</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">ss</span><span class="p">[:</span><span class="mi">500</span><span class="p">])</span>
+
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;p3Templates.py&#39;</span><span class="p">,</span><span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fp</span><span class="p">:</span>
+    <span class="n">fp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">ss</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<hr>
+<h1 id="Testing">Testing<a class="anchor-link" href="#Testing">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[172]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">importlib</span>
+
+<span class="n">importlib</span><span class="o">.</span><span class="n">reload</span><span class="p">(</span><span class="n">p3Templates</span><span class="p">)</span>
+
+<span class="c1">#import p3Templates</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[172]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>&lt;module &#39;p3Templates&#39; from &#39;/home/macbuse/TMP/p3Templates.py&#39;&gt;</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[177]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">p3Templates</span><span class="o">.</span><span class="n">texTemplateMCF</span><span class="p">[:</span><span class="mi">200</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -15244,6 +15260,7 @@ Name: web_name, Length: 108, dtype: object</pre>
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>
+
 \begin{{center}}
 {{\Large {Corps} {N° emploi}-{Numéro Gesup}: Rapport sur la candidature de }}
 \end{{center}}
@@ -15252,18 +15269,7 @@ Name: web_name, Length: 108, dtype: object</pre>
 \no
 {{\bf {{\large Nom}} :}} {Nom}\\
 {{\bf Prénom :}} {Prénom}\\
-{{\bf Date de naissance :}} {Né(e) le}\\
-{{\bf Fonction actuelle :}} {Situation professionnelle},\\ {Lieu d&#39;exercice} \\
-
-
-\vs
-\no
-{{\bf {{\large Thèse}} :}} {Titre thèse}\\
-{{\bf Date :}} {Date soutenance}\\
-{{\bf Etablissement :}} {Lieu soutenance}\\
-{{\bf Directeur :}} {Directeur Thèse}\\
-{{\bf Jury :}} {Jury}\\
-\\
+{{\bf Date de nais
 </pre>
 </div>
 </div>
@@ -15298,12 +15304,12 @@ Name: web_name, Length: 108, dtype: object</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[119]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[174]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dd</span> <span class="o">=</span> <span class="n">candidates</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">orient</span><span class="o">=</span><span class="s1">&#39;records&#39;</span><span class="p">)</span>
 <span class="n">candidate</span> <span class="o">=</span> <span class="n">dd</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
-<span class="n">latex_report</span> <span class="o">=</span> <span class="n">ss</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">**</span><span class="n">candidate</span><span class="p">)</span>
+<span class="n">latex_report</span> <span class="o">=</span> <span class="n">p3Templates</span><span class="o">.</span><span class="n">texTemplateMCF</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">**</span><span class="n">candidate</span><span class="p">)</span>
 
 <span class="n">name</span> <span class="o">=</span> <span class="n">candidate</span><span class="p">[</span><span class="s1">&#39;web_name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;+&#39;</span><span class="p">,</span><span class="s1">&#39;_&#39;</span><span class="p">)</span>
 
@@ -15329,563 +15335,6 @@ Name: web_name, Length: 108, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;/home/macbuse/RECRUTEMENT/gregTexData.py&quot;</span><span class="p">,</span><span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fp</span><span class="p">:</span>
-    <span class="n">ss</span> <span class="o">=</span> <span class="n">fp</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">ss</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre># -*- coding: utf-8 -*-
-
-#IMPORTANT: if you add a template to this file please make it *raw utf8*
-#by adding the letters ur before the string
-
-#I had to split the TeX header from the rest and write it as ascii
-
-PRESIDENT=&#34;Erwan Lanneau&#34;
-VOTANTS=14
-NULS=0
-OUI=14
-NON=0
-SCALE=.2
-
-
-
-motifs = {&#39;demission&#39;: &#39;&#39;&#39;le candidat a retir\&#39;e sa candidature.&#39;&#39;&#39;,
-          &#39;a&#39; : ur&#39;&#39;&#39;Compte tenu du sujet de recherche du candidat
-          une int\&#39;egration au sein du laboratoire est difficilement envisageable.&#39;&#39;&#39;,
-&#39;ab&#39;: ur&#39;&#39;&#39;Compte tenu du sujet de recherche du candidat,
-          une int\&#39;egration au sein du laboratoire est difficilement envisageable.&#39;&#39;&#39;,
-&#39;b&#39;: ur&#39;&#39;&#39;Le  dossier du candidat  pr\&#39;esente un projet de rechereche int\&#39;eressant
-par rapport aux th\&#39;ematiques du laboratoire mais le comit\&#39;e juge prudent d&#39;attendre un an ou plus  pour suivre son \&#39;evolution.
-&#39;&#39;&#39;,
-&#39;c&#39;: ur&#39;&#39;&#39;Le  niveau du concours \&#39;etant tr\`es \&#39;elev\&#39;e cette ann\&#39;ee
-la qualit\&#39;e du dossier  n&#39;est pas suffisante pour demander l&#39;audition du candidat. 
-&#39;&#39;&#39;,
-&#39;ac&#39;: ur&#39;&#39;&#39;Compte tenu du sujet de recherche du candidat, une int\&#39;egration au sein
-du laboratoire est difficilement envisageable. Le  niveau du concours \&#39;etant tr\`es \&#39;elev\&#39;e,
-le comit\&#39;e ne demande pas l&#39;audition du candidat.&#39;&#39;&#39;,
-&#39;bc&#39;: ur&#39;&#39;&#39;Le  dossier du candidat  pr\&#39;esente un projet de rechereche int\&#39;eressant par rapport aux th\&#39;ematiques du laboratoire mais le comit\&#39;e juge prudent d&#39;attendre un an ou plus
-pour suivre son \&#39;evolution. Le  niveau du concours \&#39;etant tr\`es \&#39;elev\&#39;e, le comit\&#39;e ne demande pas l&#39;audition du candidat.&#39;&#39;&#39;
-}
-
-
-
-
-header = r&#39;&#39;&#39;\documentclass[a4paper, 12pt, titlepage]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath,amssymb}
-\usepackage[french]{babel}
-\selectlanguage{french}
-\usepackage{enumerate}
-\usepackage{graphicx}
-
-
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\C}{\mathbb{C}}
-\def\no{\noindent}
-\def\vs{\vskip 1cm}
-\def\ben{\begin{enumerate}}
-\def\een{\end{enumerate}}
-
-\begin{document}
-\pagestyle{empty}
-&#39;&#39;&#39;
-
-
-texTemplateProf = ur&#39;&#39;&#39;
-
-\begin{center}
-{\Large %(Corps)s %(N° emploi)s: Rapport sur la candidature de }
-\end{center}
-\vs
-
-\no
-{\bf {\large Nom} :} %(Nom)s\\
-{\bf Prénom :} %(Prénom)s\\
-{\bf Date de naissance :} %(Né(e) le)s\\
-{\bf Fonction actuelle :} %(Situation professionnelle)s,\\ %(Lieu d&#39;exercice)s \\
-
-
-\vs
-\no
-{\bf {\large HDR} :} %(Titre thèse)s\\
-{\bf Date :} %(Date soutenance)s\\
-{\bf Etablissement :} %(Lieu soutenance)s\\
-{\bf Directeur :} %(Directeur Thèse)s\\
-{\bf Jury :} %(Jury)s\\
-\\
-\no
-{\bf Mots cl\&#39;es :}\\
-
-
-\section*{Publications}
-
-
-\ben
-\item \`a remplir
-\een
-
-{\textbf{  Informations fournies : } %(Travaux)s
-
-
-\section*{Enseignement}
-
-\ben
-\item \`a remplir
-\een
-
-{\textbf{  Informations fournies : }%(Activités enseignement)s
-
-
-\section*{Encadrement}
-
-
-\ben
-\item \`a remplir
-\een
-
-\section*{Administration}
-
-\ben
-\item \`a remplir
-\een
-
-{\textbf{  Informations fournies : }%(Activités administratives)s
-
-
-
-\section*{Rayonnement}
-\ben
-\item \`a remplir
-\een
-
-
-\section*{Rapport scientifique}
-
-\subsection*{Domaine de recherche}
-
-%(Activités recherche)s
-
-\subsection*{Conclusion}
-
-
-
-
-\vs
-\no
-Date et signature :
-
-
-
-
-\end{document}
-&#39;&#39;&#39;
-
-texTemplateProf2 = ur&#39;&#39;&#39;
-
-\begin{center}
-{\Large %(Corps)s %(N° emploi)s-%(Numéro Gesup)s: Rapport sur la candidature de }
-\end{center}
-\vs
-
-\no
-{\bf {\large Nom} :} %(Nom)s\\
-{\bf Prénom :} %(Prénom)s\\
-{\bf Date de naissance :} %(Né(e) le)s\\
-{\bf Fonction actuelle :} %(Situation professionnelle)s,\\ %(Lieu d&#39;exercice)s \\
-
-
-\vs
-\no
-{\bf {\large HDR} :} %(Titre thèse)s\\
-{\bf Date :} %(Date soutenance)s\\
-{\bf Etablissement :} %(Lieu soutenance)s\\
-{\bf Directeur :} %(Directeur Thèse)s\\
-{\bf Jury :} %(Jury)s\\
-\\
-\no
-{\bf Mots cl\&#39;es :}\\
-
-
-\section*{Publications}
-
-
-{\textbf{  Informations fournies : } %(Travaux)s
-
-
-\section*{Enseignement}
-
-
-{\textbf{  Informations fournies : }%(Activités enseignement)s
-
-
-\section*{Encadrement}
-
-
-\section*{Administration}
-
-
-{\textbf{  Informations fournies : }%(Activités administratives)s
-
-
-
-\section*{Rayonnement}
-
-
-\section*{Rapport scientifique}
-
-\subsection*{Domaine de recherche}
-
-%(Activités recherche)s
-
-\subsection*{Conclusion}
-
-
-
-
-\vs
-\no
-Date et signature :
-
-
-
-
-\end{document}
-&#39;&#39;&#39;
-
-texTemplateMCF = ur&#39;&#39;&#39;
-
-\begin{center}
-{\Large %(Corps)s %(N° emploi)s-%(Numéro Gesup)s: Rapport sur la candidature de }
-\end{center}
-\vs
-
-\no
-{\bf {\large Nom} :} %(Nom)s\\
-{\bf Prénom :} %(Prénom)s\\
-{\bf Date de naissance :} %(Né(e) le)s\\
-{\bf Fonction actuelle :} %(Situation professionnelle)s,\\ %(Lieu d&#39;exercice)s \\
-
-
-\vs
-\no
-{\bf {\large Thèse} :} %(Titre thèse)s\\
-{\bf Date :} %(Date soutenance)s\\
-{\bf Etablissement :} %(Lieu soutenance)s\\
-{\bf Directeur :} %(Directeur Thèse)s\\
-{\bf Jury :} %(Jury)s\\
-\\
-\no
-{\bf Mots clés :}\\
-{\bf Avis sur l&#39;audition du candidat :} d\&#39;efavorable/possible/tr\`es favorable \\
-
-\section{Publications}
-
-
-\ben
-\item \`a remplir
-\een
-
-{\textbf{  Informations fournies :} %(Travaux)s
-
-
-\section{Activités enseignement}
-
-\ben
-\item \`a remplir
-\een
-
-{\textbf{  Informations fournies :}%(Activités enseignement)s
-
-
-\section{Administration}
-
-\ben
-\item \`a remplir
-\een
-
-{\textbf{  Informations fournies :}%(Activités administratives)s
-
-
-
-\section{Autres (encadrement, animation, contrats, prix)}
-\ben
-\item \`a remplir
-\een
-
-
-\section{Rapport scientifique}
-
-\section*{Domaine de recherche}
-
-%(Activités recherche)s
-
-\section*{Avis sur le dossier}
-
-\textit{Texte de synthèse du rapporteur}
-
-\vs
-\no
-Date et signature :
-
-\end{document}
-&#39;&#39;&#39;
-
-
-
-texTemplateAudition = ur&#39;&#39;&#39;
-\begin{center}
-{\Large %(Corps)s %(N° emploi)s-%(Numéro Gesup)s: Rapport sur l&#39;audition de }
-\end{center}
-\vs
-
-\no
-{\bf {\large Nom} :} %(Nom)s\\
-{\bf Prénom :} %(Prénom)s\\
-{\bf Date de naissance :} %(Né(e) le)s\\
-
-
-%(Nom)s a confirm\&#39;e l&#39;evaluation des rapporteurs.
-Il a commenc\&#39;e par presenter son  parcours de formation.
-
-Par la suite %(Prénom)s a abord\&#39;e
-son activit\&#39;e de recherche sur %(Activités recherche)s
-%(Nom)s  a expliqu\&#39;e ses r\&#39;esultats
-avec
-clart\&#39;e,
-faisant preuve de dynamisme dans sa recherche.
-Nous etions
-satisfaits
-\&#39;epat\&#39;es
-par son exposition.
-
-Quant \`a la question d&#39;int\&#39;egration au laboratoire,
-%(Prénom)s nous a signal\&#39;e que l&#39;\&#39;equipe de
-topologie
-algebre et g\&#39;eom\&#39;etrie
-physique math\&#39;ematique
-th\&#39;eorie de nombres
-analyse et g\&#39;eom\&#39;etrie
-est le plus proche \`a ses inter\^ts.
-En particulier %(Nom)s envisage de travailler avec
-...
-
-
-Sa maitrise du francaise
-est adequate/excellente.
-Nous avons pu constater que %(Nom)s ,
-par sa presentation et sa facon de d&#39;expliquer
-ses r\&#39;esultats,
-est tout \`a fait  pr\^et \`a
-assurer les cours d\`es la rentr\&#39;ee 2013.
-
-
-
-\vs
-\begin{flushright}Fait \`a St. Martin d&#39;H\`eres
-
-\includegraphics[scale=.8]{mysig.jpg}
-\end{flushright}
-
-&#39;&#39;&#39;
-
-Audition = ur&#39;&#39;&#39;
-\begin{center}
-{\Large
-UNIVERSITE JOSEPH FOURIER – GRENOBLE 1\\
-AVIS DU COMITE DE SELECTION\\
-}
-\end{center}
-Postes %(Corps)s %(N° emploi)s \\
-Laboratoire : IF Unité 5582\\
-
-
-\vs
-
-\no
-\textbf{\large Candidat :}
-{\bf {Nom} :} %(Nom)s
-{\bf Prénom :} %(Prénom)s\\
-{\bf Date de naissance :} %(Né(e) le)s\\
-
-\begin{center}
-\textbf{Délibération du comité de sélection}
-\end{center}
-
-\no
-Après examen du dossier de candidature
-qui s’est déroulée le %(DATE)s
-les membres du comité de sélection ont émis
-un avis favorable sur votre candidature.
-
-\vs\no
-\textbf{D\&#39;etail du vote}\\
-Votants : %(VOTANTS)s\\
-Nuls : $(NULS)s \\
-\no
-\textbf{Suffrages exprim\&#39;es}\\
-OUI : %(OUI)s\\
-NON ou BLANCS : %(NON)s
-\vs
-\no
-Signature du président du comité de sélection
-
-\begin{flushright}Fait \`a St. Martin d&#39;H\`eres
-
-\includegraphics[scale=.8]{mysig.jpg}
-%(PRESIDENT)s
-\end{flushright}
-
-
-
-\textbf{ Avis motivé du comité de sélection sur la candidature}
-\no
-
-Excellent dossier. Int\&#39;egration au labo sans probl\`eme.
-
-&#39;&#39;&#39;
-
-nonAudition = ur&#39;&#39;&#39;
-\begin{center}
-{\Large
-UNIVERSITE JOSEPH FOURIER - GRENOBLE 1\\
-AVIS DU COMITE DE SELECTION\\
-}
-\end{center}
-Poste : %(Corps)s %(N° emploi)s\\
-Laboratoire : IF Unit\&#39;e 5582\\
-
-
-\vs
-
-\no
-\textbf{ Candidat :}
-{{Nom} :} %(Nom)s
-{Pr\&#39;enom :} %(Prénom)s\\
-{Date de naissance :} %(Né(e) le)s\\
-
-\begin{center}
-\textbf{D\&#39;elib\&#39;eration du comit\&#39;e de s\&#39;election}
-\end{center}
-
-\no
-Apr\`es examen du dossier de candidature
-qui s’est d\&#39;eroul\&#39;ee le %(DATE)s
-les membres du comité de sélection ont \&#39;emis
-un avis défavorable sur votre candidature.
-
-\vs\no
-\textbf{D\&#39;etail du vote}\\
-Votants : %(VOTANTS)s\\
-Nuls : %(NULS)s \\
-\no
-\textbf{Suffrages exprim\&#39;es}\\
-OUI : %(OUI)s\\
-NON ou BLANCS : %(NON)s
-\vs
-\no
-Signature du président du comité de sélection
-
-\begin{flushright}Fait \`a St. Martin d&#39;H\`eres
-
-\includegraphics[scale=%(SCALE)f]{mysig.jpg}
-%(PRESIDENT)s
-\end{flushright}
-
-
-
-
-\begin{center}
-\textbf{ Avis motiv\&#39;e du comit\&#39;e de s\&#39;election sur la candidature}
-\end{center}
-
-\no
-&#39;&#39;&#39;
-
-#Fait \`a St. Martin d&#39;H\`eres
-
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
 
