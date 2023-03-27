@@ -14577,10 +14577,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="c1"># this is to avoid getting warnings</span>
 <span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">mode</span><span class="o">.</span><span class="n">chained_assignment</span> <span class="o">=</span> <span class="kc">None</span>
 </pre></div>
@@ -14595,7 +14596,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load the file to a DataFrame</span>
@@ -14882,7 +14883,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fix_name</span><span class="p">(</span><span class="n">row</span><span class="p">):</span>
@@ -14928,7 +14929,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># this is a trick to get only valid rows</span>
@@ -14977,7 +14978,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">candidates</span><span class="p">[</span><span class="s1">&#39;web_name&#39;</span><span class="p">]</span>
@@ -14998,7 +14999,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
 
 
 
@@ -15290,7 +15291,7 @@ to print to a file</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dd</span> <span class="o">=</span> <span class="n">candidates</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">orient</span><span class="o">=</span><span class="s1">&#39;records&#39;</span><span class="p">)</span>
@@ -15380,17 +15381,10 @@ to print to a file</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># you should have this in the xls</span>
-<span class="c1"># this is just for a test</span>
-<span class="n">candidates</span><span class="p">[</span><span class="s1">&#39;motif&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;ab&#39;</span><span class="p">]</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">candidates</span><span class="p">)</span>
-
-<span class="n">dd</span> <span class="o">=</span> <span class="n">candidates</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">orient</span><span class="o">=</span><span class="s1">&#39;records&#39;</span><span class="p">)</span>
-<span class="c1"># to test if it skips auditionned candidates</span>
-<span class="n">dd</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="s1">&#39;motif&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
-
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dd</span> <span class="o">=</span> <span class="n">candidates</span><span class="o">.</span><span class="n">to_dict</span><span class="p">(</span><span class="n">orient</span><span class="o">=</span><span class="s1">&#39;records&#39;</span><span class="p">)</span>
 
 <span class="n">committee</span> <span class="o">=</span> <span class="n">p3Templates</span><span class="o">.</span><span class="n">committee</span>
 <span class="n">committee</span><span class="p">[</span><span class="s1">&#39;DATE&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;today&#39;</span>
@@ -15402,11 +15396,11 @@ to print to a file</p>
     <span class="c1"># making a single .tex file</span>
     <span class="c1"># one page per candidate</span>
     <span class="n">fp</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">_header_tex</span><span class="p">)</span>
-    <span class="c1"># only do the first five</span>
     <span class="k">for</span> <span class="n">candidate</span> <span class="ow">in</span> <span class="n">dd</span><span class="p">:</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">candidate</span><span class="p">[</span><span class="s1">&#39;motif&#39;</span><span class="p">]:</span>
+        <span class="c1"># you should have added a column motif  in the xls</span>
+        <span class="k">if</span> <span class="n">candidate</span><span class="p">[</span><span class="s1">&#39;motif&#39;</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">p3Templates</span><span class="o">.</span><span class="n">motifs</span> <span class="p">:</span>
             <span class="c1"># print the name to check</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Audition : </span><span class="si">{Nom}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">**</span><span class="n">candidate</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Audition : </span><span class="si">{motif}</span><span class="s2"> </span><span class="si">{Nom}</span><span class="s2"> &quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">**</span><span class="n">candidate</span><span class="p">))</span>
             <span class="k">continue</span>
         <span class="c1"># u need to add the commitee date</span>
         <span class="n">candidate</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">committee</span><span class="p">)</span>
@@ -15437,7 +15431,106 @@ to print to a file</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Audition : ANNI
+<pre>Audition : nan BEI 
+Audition : nan BELOTTO DA SILVA 
+Audition : nan BENGOECHEA 
+Audition : nan BENZERGA 
+Audition : nan BETEA 
+Audition : nan BLAGOUCHINE 
+Audition : nan BLANC 
+Audition : nan BROCHIER 
+Audition : nan BROTHIER 
+Audition : nan CAMERE 
+Audition : nan CAMPESATO 
+Audition : nan CAPUANO 
+Audition : nan CASAZZA 
+Audition : nan CHARETTE 
+Audition : nan CHAVLI 
+Audition : nan CUBIDES KOVACSICS 
+Audition : nan DANIEL 
+Audition : nan DARONDEAU 
+Audition : nan DAURAT 
+Audition : nan DEJONCHEERE 
+Audition : nan DEMONET 
+Audition : nan DI BRINO 
+Audition : nan DI NEZZA 
+Audition : nan ELCHINGER 
+Audition : nan ELOY 
+Audition : nan FANONI 
+Audition : nan FANTINI 
+Audition : nan FERRAGUTI 
+Audition : nan FILIPPINI 
+Audition : nan FLORIS 
+Audition : nan GADBLED 
+Audition : nan GAGLIARDI 
+Audition : nan GENDRON 
+Audition : nan GERBER 
+Audition : nan GHEFFAR 
+Audition : nan GOBET 
+Audition : nan GOUJARD 
+Audition : nan GRIFFON 
+Audition : nan GUERE 
+Audition : nan GUERIN 
+Audition : nan GUERVILLE 
+Audition : nan HANNA 
+Audition : nan HENNION 
+Audition : nan IEZZI 
+Audition : nan IRIGOYEN 
+Audition : nan IZQUIERDO 
+Audition : nan JAROSSAY 
+Audition : nan KAROUI 
+Audition : nan KOHLI 
+Audition : nan LAMEI 
+Audition : nan LANGLOIS 
+Audition : nan LE FOURN 
+Audition : nan LEGRAND 
+Audition : nan LEZOWSKI 
+Audition : nan LIN 
+Audition : nan LOUSTAU 
+Audition : nan LUDKOVSKY 
+Audition : nan MALAGA SABOGAL 
+Audition : nan MARNAT 
+Audition : nan MEGARBANE 
+Audition : nan MOKDAD 
+Audition : nan MONCLAIR 
+Audition : nan MOUSSAOUI 
+Audition : nan MOYA GIUSTI 
+Audition : nan OGER 
+Audition : nan PAGE 
+Audition : nan PECASTAING 
+Audition : nan PENCHEVRE 
+Audition : nan PEREIRA M GERALDES DIOGO 
+Audition : nan PETIT 
+Audition : nan PETITJEAN 
+Audition : nan PIT 
+Audition : nan POL 
+Audition : nan POLONI 
+Audition : nan PORTA 
+Audition : nan PUCHOL 
+Audition : nan RENAUDINEAU 
+Audition : nan ROBERT 
+Audition : nan ROGNERUD 
+Audition : nan SACCHETTO 
+Audition : nan SALA 
+Audition : nan SAN SATURNINO 
+Audition : nan SARFATTI 
+Audition : nan SCARPONI 
+Audition : nan SCHNURER 
+Audition : nan SEPPI 
+Audition : nan SHEN 
+Audition : nan SKLINOS 
+Audition : nan SLUTSKIY 
+Audition : nan STELLA 
+Audition : nan TANTURRI 
+Audition : nan TEYSSIER 
+Audition : nan THIEL 
+Audition : nan THIZY 
+Audition : nan TURCHETTI 
+Audition : nan VENEZIANO 
+Audition : nan VIU SOS 
+Audition : nan VOGLAIRE 
+Audition : nan ZALAMANSKY 
+Audition : nan ZHANG 
 </pre>
 </div>
 </div>
