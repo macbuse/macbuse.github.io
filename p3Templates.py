@@ -5,12 +5,14 @@
 
 #I had to split the TeX header from the rest and write it as ascii
 
-PRESIDENT="Erwan Lanneau"
-VOTANTS=14
-NULS=0
-OUI=14
-NON=0
-SCALE=.2
+committee = {"PRESIDENT" : "Erwan Lanneau",
+"VOTANTS" : 14,
+"NULS" : 0,
+"OUI" : 14,
+"NON" : 0,
+"SCALE" : .2,
+"DATE" : "now"
+}
 
 
 
@@ -148,7 +150,7 @@ Date et signature :
 texTemplateProf2 = r'''
 
 \begin{{center}}
-{{\Large {Corps} {N° emploi}-{Numéro Gesup}: Rapport sur la candidature de }}
+{{\Large {Corps} {N° emploi:.0f}-{Numéro Gesup}: Rapport sur la candidature de }}
 \end{{center}}
 \vs
 
@@ -220,7 +222,7 @@ Date et signature :
 texTemplateMCF = r'''
 
 \begin{{center}}
-{{\Large {Corps} {N° emploi}-{Numéro Gesup}: Rapport sur la candidature de }}
+{{\Large {Corps} {N° emploi:.0f}-{Numéro Gesup}: Rapport sur la candidature de }}
 \end{{center}}
 \vs
 
@@ -299,7 +301,7 @@ Date et signature :
 
 texTemplateAudition = r'''
 \begin{{center}}
-{{\Large {Corps} {N° emploi}-{Numéro Gesup}: Rapport sur l'audition de }}
+{{\Large {Corps} {N° emploi:.0f}-{Numéro Gesup}: Rapport sur l'audition de }}
 \end{{center}}
 \vs
 
@@ -356,11 +358,11 @@ assurer les cours d\`es la rentr\'ee 2013.
 Audition = r'''
 \begin{{center}}
 {{\Large
-UNIVERSITE JOSEPH FOURIER – GRENOBLE 1\\
+UNIVERSITE GRENOBLE ALPES\\
 AVIS DU COMITE DE SELECTION\\
 }}
 \end{{center}}
-Postes {Corps} {N° emploi} \\
+Postes {Corps} {N° emploi:.0f} \\
 Laboratoire : IF Unité 5582\\
 
 
@@ -412,11 +414,11 @@ Excellent dossier. Int\'egration au labo sans probl\`eme.
 nonAudition = r'''
 \begin{{center}}
 {{\Large
-UNIVERSITE JOSEPH FOURIER - GRENOBLE 1\\
+UNIVERSITE GRENOBLE ALPES\\
 AVIS DU COMITE DE SELECTION\\
 }}
 \end{{center}}
-Poste : {Corps} {N° emploi}\\
+Poste : {Corps} {N° emploi:.0f}\\
 Laboratoire : IF Unit\'e 5582\\
 
 
@@ -450,12 +452,13 @@ NON ou BLANCS : {NON}
 \no
 Signature du président du comité de sélection
 
-\begin{{flushright}}Fait \`a St. Martin d'H\`eres
+\begin{{flushright}} Fait \`a St. Martin d'H\`eres
 
-\includegraphics[scale=%(SCALE)f]{{mysig.jpg}}
+\includegraphics[scale={SCALE}]{{mysig.jpg}}
 {PRESIDENT}
-\end{{flushright}}
 
+
+\end{{flushright}}
 
 
 
