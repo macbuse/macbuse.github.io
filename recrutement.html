@@ -14883,7 +14883,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fix_name</span><span class="p">(</span><span class="n">row</span><span class="p">):</span>
@@ -14892,11 +14892,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <span class="k">return</span> <span class="n">ss</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span><span class="s1">&#39;+&#39;</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">arxiv</span><span class="p">(</span><span class="n">row</span><span class="p">):</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="n">fix_name</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
-    <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;https://arxiv.org/search/?query=</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1">&#39;</span>
-    <span class="n">url</span> <span class="o">+=</span> <span class="s1">&#39;&amp;searchtype=all&amp;abstracts=show&amp;order=-announced_date_first&amp;size=50&#39;</span>                  
+    <span class="c1">#this is a pain </span>
+    <span class="k">if</span> <span class="s1">&#39;-&#39;</span> <span class="ow">in</span> <span class="n">row</span><span class="p">[</span><span class="s1">&#39;Prénom&#39;</span><span class="p">]:</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s1">&#39;Nom&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span><span class="s1">&#39;+&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;%2C&#39;</span> <span class="o">+</span> <span class="n">row</span><span class="p">[</span><span class="s1">&#39;Prénom&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="n">fix_name</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
+        
+    <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;https://arxiv.org/search/math?searchtype=author&amp;query=</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1">&#39;</span>                  
     <span class="n">request</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;&lt;a href = &quot;</span><span class="si">{</span><span class="n">url</span><span class="si">}</span><span class="s1">&quot; target = &quot;blank&quot;&gt;&#39;</span>    
-    <span class="n">request</span> <span class="o">+=</span> <span class="s1">&#39;  </span><span class="si">{Prénom}</span><span class="s1"> </span><span class="si">{Nom}</span><span class="s1"> &lt;/a&gt;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">**</span><span class="n">row</span><span class="p">)</span>
+    <span class="n">request</span> <span class="o">+=</span> <span class="s1">&#39;</span><span class="si">{Prénom}</span><span class="s1"> </span><span class="si">{Nom}</span><span class="s1"> &lt;/a&gt;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="o">**</span><span class="n">row</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">request</span>
 
 <span class="k">def</span> <span class="nf">google</span><span class="p">(</span><span class="n">row</span><span class="p">):</span>
@@ -14929,7 +14933,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># this is a trick to get only valid rows</span>
