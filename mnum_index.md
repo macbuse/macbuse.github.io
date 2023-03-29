@@ -94,8 +94,14 @@ print(P)
 	- programmation et plot du polynôme d'interpolation de Lagrange
 	- 1) Par évaluation naïve des polynômes l_i de Lagrange
 	- 2) En utilisant les différences divisées
-	- Exercice 5 : visualiser le [phénomène de Runge](https://en.wikipedia.org/wiki/Runge%27s_phenomenon)
 
+    - [mon brouillon](./METH_NUM/Lagrange.html)
+
+
+-  **semaine 27/3**
+    - Exo 3
+	- Exercice 5 : visualiser le [phénomène de Runge](https://en.wikipedia.org/wiki/Runge%27s_phenomenon)
+    - Exos 6,7,8
 
 <!-- 	- 25/3 [mon brouillon](./METH_NUM/Lagrange.html) -->
 <!-- 	* utilisation des [abscisses de Tchebychev](https://en.wikipedia.org/wiki/Chebyshev_nodes) pour obtenir une convergence uniforme -->
@@ -126,10 +132,6 @@ Something  similar this  year but dates will change
 <!-- 	* implémenté la résolution du système linéaire toukours de A / h^2 + C --> 
 <!-- 	* méthodes itératives de Jacobi et Gauss Siedel (cf cours). -->
 
-<!-- --- -->
-
-
-<!-- --- -->
 
 <!-- - [F5](./METH_NUM/5_feuille_int.pdf) -->
 <!-- - [29/4] [mon brouillon]( ./METH_NUM/integration.html) -->
@@ -155,11 +157,6 @@ Something  similar this  year but dates will change
 <!-- --- -->
 
 <!-- ### Notes from previous week -->
-
-<!-- 1) Programmer Cholesky <br> -->
-<!--    1.1 en utilisant la décomposition LU <br> -->
-<!--    1.2 par un calcul ligne par ligne <br> -->
-<!--    1.3 tester en générant aléatoirement des matrices symétriques définies positives <br> -->
 
 <!-- ``` -->
 <!-- def cholesky(A): -->
