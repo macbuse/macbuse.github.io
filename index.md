@@ -57,6 +57,7 @@ here are some preprints.
 <!-- ![](./my_cat.svg) -->
 
 ![](./my_dove.svg)
+![](./my_icarus.svg)
 
 <!-- ``` -->
 <!-- # compare with -->
