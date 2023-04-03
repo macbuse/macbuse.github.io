@@ -46,9 +46,17 @@ here are some preprints.
 <!-- - [frieze patterns](./frieze.pdf) -->
 <!-- - [tea pots](./PROG/thurston_bonsai.html) -->
 <!-- ![img](./fund_dom_reid_xx.svg) -->
-- [newton fractals](./PROG/newton_frrac.html)
-- back on [Copilot](https://github.com/features/copilot)
-- thinking about projects like [magic squares](https://en.wikipedia.org/wiki/Magic_square#Method_of_superposition)
+- [newton fractals](./PROG/newton_frac.html)
+<!-- - back on [Copilot](https://github.com/features/copilot) -->
+<!-- - thinking about projects like [magic squares](https://en.wikipedia.org/wiki/Magic_square#Method_of_superposition) -->
+
+- thinking about  einsteins
+
+![](./haring.svg)
+
+![](./my_cat.svg)
+
+![](./my_dove.svg)
 
 <!-- ``` -->
 <!-- # compare with -->
