@@ -9,7 +9,6 @@ title: Home
 ### mcshane@univ-grenoble-alpes.fr
 
 
-
 <!-- - I am currently in confinement with COVID -->
 <!-- - This week I'm sad :( because Copilot is out of beta preview. -->
 <!-- - I am very busy with refereeing -->
