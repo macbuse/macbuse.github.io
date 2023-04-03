@@ -54,7 +54,7 @@ here are some preprints.
 
 ![](./haring.svg)
 
-![](./my_cat.svg)
+<!-- ![](./my_cat.svg) -->
 
 ![](./my_dove.svg)
 
