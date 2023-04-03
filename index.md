@@ -54,10 +54,12 @@ here are some preprints.
 
 ![](./haring.svg)
 
+more [here](./mono.md)
+
 <!-- ![](./my_cat.svg) -->
 
-![](./my_dove.svg)
-![](./my_icarus.svg)
+<!-- ![](./my_dove.svg) -->
+<!-- ![](./my_icarus.svg) -->
 
 <!-- ``` -->
 <!-- # compare with -->
