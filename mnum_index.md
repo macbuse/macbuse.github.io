@@ -102,13 +102,25 @@ print(P)
     - Exo 3
 	- Exercice 5 : visualiser le [phénomène de Runge](https://en.wikipedia.org/wiki/Runge%27s_phenomenon)
     - Exos 6,7,8
+    - [correction F3](./METH_NUM/3_feuille_interp_corrige.pdf)
 
 <!-- 	- 25/3 [mon brouillon](./METH_NUM/Lagrange.html) -->
 <!-- 	* utilisation des [abscisses de Tchebychev](https://en.wikipedia.org/wiki/Chebyshev_nodes) pour obtenir une convergence uniforme -->
 <!-- 	* début de l'approximation : droite des moindres carrés -->
 <!-- 	- 1/4 exos 3,7,9, 10 **controle de TP note** -->
 <!-- 	- 8/4 exos 7,9, 10 et finir la feuille 3 -->
-<!-- [correction F3](./METH_NUM/3_feuille_interp_corrige.pdf) -->
+
+- [F5](./METH_NUM/5_feuille_int.pdf)
+    <!-- - [29/4] [mon brouillon]( ./METH_NUM/integration.html) -->
+
+    1)  Approximation d'une intégrale 1D par
+
+    * rectangle
+    * trapèze
+    * Simpson
+
+    2) Étude d'ordres de convergence (1, 2 et 4)  <br>
+    3) Méthode de Monte Carlo pour l'approximation d'une aire (disque dans un carré)
 
 ![](./binary.png)
 
@@ -132,18 +144,6 @@ Something  similar this  year but dates will change
 <!-- 	* implémenté la résolution du système linéaire toukours de A / h^2 + C --> 
 <!-- 	* méthodes itératives de Jacobi et Gauss Siedel (cf cours). -->
 
-
-<!-- - [F5](./METH_NUM/5_feuille_int.pdf) -->
-<!-- - [29/4] [mon brouillon]( ./METH_NUM/integration.html) -->
-
-<!-- 1) Approximation d'une intégrale 1D par -->
-
-<!-- * rectangle -->
-<!-- * trapèze -->
-<!-- * Simpson -->
-
-<!-- 2) Étude d'ordres de convergence (1, 2 et 4)  <br> -->
-<!-- 3) Méthode de Monte Carlo pour l'approximation d'une aire (disque dans un carré) -->
 
 
 <!-- <!-1- [correction]( ./METH_NUM/ -1-> -->
