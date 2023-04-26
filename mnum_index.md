@@ -5,6 +5,10 @@ Salle F217 batiment F
 - mercredi 13h45
 - vendredi 13h45
 
+
+**ATTENTION** je suis absent aujourd'hui 26/4 avec une entorse de la
+cheville - je ferai cours le 28/4 à 13h45 
+
 ---
 
 - Les feuilles sont en ligne  : cliquez sur F1 pour telecharger.
