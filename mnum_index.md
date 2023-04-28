@@ -115,9 +115,10 @@ print(P)
 <!-- 	- 8/4 exos 7,9, 10 et finir la feuille 3 -->
 
 - [F5](./METH_NUM/5_feuille_int.pdf)
-    <!-- - [29/4] [mon brouillon]( ./METH_NUM/integration.html) -->
+    -  [mon brouillon]( ./METH_NUM/integration.html)
+    - [notebook](./METH_NUM/integration.ipynb)
 
-    1)  Approximation d'une intégrale 1D par
+    1)  Approximation d'une inégrale 1D par
 
     * rectangle
     * trapèze
