@@ -60,17 +60,17 @@ $$\int_0^\infty f(t){dt}$$
 <!-- transition: clockwise -->
 ```
 
-# counterclockwise
+# Wipe
 
 <!-- _backgroundColor: #4996C8 -->
-<!-- _transition: counterclockwise -->
+<!-- _transition: wipe -->
 
 ```markdown
-<!-- transition: counterclockwise -->
+<!-- transition: wipe -->
 ```
 
-# cover
-<!-- _transition: cover -->
+# Aigner
+<!-- _transition: wipe -->
 
 
 ![width:400px](./Martin_Aigner.jpg)
@@ -81,7 +81,7 @@ $$\int_0^\infty f(t){dt}$$
 
 
 #
-<!-- _transition: cover -->
+<!-- _transition: cube -->
 Markov numbers are integers that appear in triples which are solutions of
 a Diophantine equation the so-called Markov cubic
 
@@ -90,8 +90,8 @@ $x^2 + y^2 + z^2 - 3x y z = 0.$
 $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
 
 # 
-<!-- _transition: cube -->
-## infinity of Markoff numbers
+<!-- _transition: wipe -->
+## infinity of Markoff triples: $z=1$
 
 $\begin{pmatrix} 3 & -1 \\ 1 & 0 \end{pmatrix}$
 is an automorph of $x^2 + y^2  - 3x y.$
@@ -102,7 +102,7 @@ $\begin{pmatrix}v_{n+1} \\ v_n \end{pmatrix} = \begin{pmatrix} 3 & -1 \\ 1 & 0 \
 
 #
 ### Odd index Fibonacci numbers are Markoff numbers
-
+<!-- _transition: cube -->
 $1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, ...$
 
 $(1,1,1),(1,1,2),(1,2,5),(1,5,13)$
