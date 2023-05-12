@@ -45,11 +45,10 @@ style: |
   section.small-code pre { font-size: 68%; }
 -->
 
-#
+# Markoff numbers 
+<!-- _class: lead -->
 <!-- _transition: glow -->
-Markoff numbers 
-greg mc
-May 2021
+greg mc shane
 
 # Martin Aigner
 <!-- _transition: wipe -->
@@ -110,13 +109,12 @@ m = Markoff number
 * [ Bugeaud, Reutenauer, Siksek](https://core.ac.uk/download/pdf/82088222.pdf)
 * Conclusion too hard!!!
 
-
 #
 <!-- _transition: cube -->
 ### Aigner's monotonicity conjectures
 
 * Markov’s theorem and 100 years of the uniqueness conjecture. A mathematical journey from irrational numbers to perfect matchings.  2013.  
-* M. Rabideaua, R. Schiffler,
+* M. Rabideau, R. Schiffler,
 Continued fractions and orderings on the Markov numbers,
 Advances in Mathematics Vol 370,  2020.
 * C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markov numbers: fixed numerator, denominator, and sum conjectures.
