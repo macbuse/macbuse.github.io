@@ -65,10 +65,13 @@ level groups should be treated as a major public health priority.
 Effective policies are required to decrease cumulative exposure to
 cardiovascular risk factors, such as 
 
-- smoking, 
-- being overweight,
-- hypertension 
-- diabetes. 
+* smoking, 
+* being overweight,
+* hypertension 
+* diabetes. 
+
+# Context in France since 2010
+<!-- _transition: cube -->
 
 #
 
@@ -81,7 +84,7 @@ The problem of inequality in the face of death has become an important topic in 
 
 <!-- _transition: fade -->
 
-the most disadvantaged groups cumulate a number of risky behaviours, such as smoking, excessive alcohol consumption, poor diet and a sedentary lifestyle. In contrast, managers and the intermediate professions smoke and drink in moderation. ...., these differences in behaviour show up clearly in the mortality rates associated with certain diseases. The risk of death due to a tumour in the larynx, pharynx, lungs, oesophagus, liver is especially high among manual workers, and is at the heart of a significant portion of the observed differences in mortality. ...... the mortality rate associated with a tumour of the pharynx was 11 times higher for skilled workers and labourers than for teachers and the intellectual professions (Desplanques, 1993).
+the most disadvantaged groups cumulate a number of **risky behaviours**, such as smoking, excessive alcohol consumption, poor diet and a sedentary lifestyle. In contrast, managers and the intermediate professions smoke and drink in moderation. ...., these differences in behaviour show up clearly in the mortality rates associated with certain diseases. The risk of death due to a tumour in the larynx, pharynx, lungs, oesophagus, liver is especially high among **manual workers**, and is at the heart of a significant portion of the observed differences in mortality. ...... the mortality rate associated with a tumour of the pharynx was **11 times higher** for skilled workers and labourers than for teachers and the intellectual professions (Desplanques, 1993).
 
 
 
