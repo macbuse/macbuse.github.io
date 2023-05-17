@@ -42,7 +42,7 @@ style: |
   }
 
   header, footer { text-align: center; color: currentcolor; }
-  section.small-code pre { font-size: 68%; }
+ # section.small-code pre { font-size: 68%; }
 -->
 # Inequalities in mortality 
 <!-- _transition: fade -->
@@ -137,4 +137,95 @@ the most disadvantaged groups cumulate a number of **risky behaviours**, such as
 
 [source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4631263/#:~:text=Overall%2C%205.3%25%20of%20total%20cancer,%3B%202.3%25%2C%20women).
 
+# Mortality by department
 
+<!-- _transition: fade -->
+[source](https://www.ined.fr/fichier/s_rubrique/22051/2013_3_france_mortality_by_departement.en.pdf)
+
+
+#
+
+<!-- _transition: fade -->
+![w:750](./life_expectancy_dept.png)
+
+
+#
+
+<!-- _transition: fade -->
+![w:750](./mortality_30-59.png)
+
+#
+
+<!-- _transition: cube -->
+![w:750](./mortality_table_30-59.png)
+
+# Life expectancy in Scotland 
+
+<!-- _transition: cube -->
+is markedly lower compared to other European nations 
+and the UK as a whole. 
+
+What are the reasons for this higher mortality?
+
+[source](https://www.sciencedirect.com/science/article/abs/pii/S0033350612001096?via%3Dihub)
+
+#
+
+<!-- _transition: cube -->
+![w:750](./causes_scotland)
+
+[source](https://www.scotpho.org.uk/population-dynamics/deaths/data/most-frequent-causes/)
+
+# explanations 
+
+
+1. artefactual 
+1.  downstream 
+1.  midstream 
+1.  upstream 
+
+
+#  artefactual explanations 
+
+<!-- _transition: fade -->
+ <style scoped>section { justify-content: start; }</style>
+- deprivation
+- migration
+
+
+
+# downstream explanations
+
+<!-- _transition: fade -->
+ <style scoped>section { justify-content: start; }</style>
+- genetics
+-  health behaviours
+-  individual values
+
+# midstream explanations 
+
+<!-- _transition: fade -->
+- substance misuse
+- culture of boundlessness and alienation
+- family, gender relations and parenting differences
+- lower social capital
+- sectarianism
+- culture of limited social mobility
+- health service supply or demand
+- deprivation concentration
+
+
+# upstream explanations 
+
+<!-- _transition: cube -->
+ <style scoped>section { justify-content: start; }</style>
+- climate
+-  inequalities
+-  de-industrialization
+-  political attack
+
+#  Conclusions
+
+* between 1950 and 1980 the reasons for higher mortality are unclear, but may be linked to particular industrial, employment, housing and cultural patterns. 
+
+* from 1980 onwards, the higher mortality is most likely to be accounted for by a synthesis which begins from the changed political context of the 1980s, and the consequent hopelessness and community disruption experienced. 
