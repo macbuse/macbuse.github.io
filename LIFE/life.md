@@ -45,6 +45,15 @@ style: |
  # section.small-code pre { font-size: 68%; }
 -->
 # Inequalities in mortality 
+ <style scoped>section { justify-content: start; }</style>
+
+<!-- _transition: fade -->
+France is an extremely insular culture. While they like to think of themselves on the cutting edge of culture, intellectual ideas often die and arrive in France very late..... French intellectuals were still clinging to Stalinism and Maoism 20 years after the rest of the world had abandoned them.
+
+**Noam Chomsky**
+
+# Inequalities in mortality 
+ <style scoped>section { justify-content: start; }</style>
 <!-- _transition: fade -->
 ## Social inequalities 
 
@@ -76,7 +85,12 @@ cardiovascular risk factors, such as
 #
 
 <!-- _transition: fade -->
-The problem of inequality in the face of death has become an important topic in French public discourse in recent times, in particular in autumn 2010 during debate about raising the minimum legal retirement age by two years, by gradually shifting it from age 60 to 62. The debate became focused around a politically divisive issue: should the retirement age remain unchanged for low-skilled workers on the grounds that they enter the labour market earlier and / or have more strenuous jobs and live shorter lives?
+The problem of inequality in the face of death has become an important topic in French public discourse in recent times, in particular in autumn 2010 during debate about raising the minimum legal retirement age by two years, by gradually shifting it from age 60 to 62. The debate became focused around a politically divisive issue:
+
+*should the retirement age remain unchanged for low-skilled workers
+on the grounds that they enter the labour market earlier and / or
+have more strenuous jobs and live shorter lives?*
+
 
 [source](https://www.ofce.sciences-po.fr/blog/social-inequality-in-the-face-of-death/)
 
@@ -179,10 +193,11 @@ What are the reasons for this higher mortality?
 # explanations 
 
 
-1. artefactual 
-1.  downstream 
-1.  midstream 
-1.  upstream 
+1. artefactual: seek to account for inequalities in health
+as a construct of the measurement process. 
+1.  downstream:  chronic causes
+1.  midstream:  behavioral determinants
+1.  upstream: social determinants
 
 
 #  artefactual explanations 
