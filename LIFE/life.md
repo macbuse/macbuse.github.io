@@ -122,6 +122,37 @@ the most disadvantaged groups cumulate a number of **risky behaviours**, such as
 
 #
 
+HEAD: CAUSE-SPECIFIC MORTALITY
+A number of recent studies have found that educational differences in mortality vary across causes of death. For example, deaths that are more closely linked to social and behavioral risk factors (lung cancer, respiratory diseases, homicide, and accidents) are associated with wide educational differences in mortality rates, while there are narrower educational differences in mortality rates for causes less amenable to human control (such as cancers other than lung cancer)
+
+[source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4435622/)
+
+#
+
+![w:700](./educationvscauses.png)
+
+#
+
+![w:700](./life_expectancy_25.png)
+[source](https://pubmed.ncbi.nlm.nih.gov/25093685/)
+
+#
+
+![w:900](./causal_mechanism.png)
+
+#
+
+A debate within the mortality literature centers around the impact
+of health behaviors on the prospects of disadvantaged groups.
+.....Findings reveal that cigarette smoking is an important mediator
+of the education-mortality gap for **all males and for younger
+females**. In particular, education-mortality gaps for young men
+narrow considerably when cigarette smoking is accounted for, 
+
+[source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885918/)
+
+#
+
 <!-- _transition: fade -->
 ## All cause mortality males 45-65
 ![](./table3.png)
@@ -193,11 +224,10 @@ What are the reasons for this higher mortality?
 # explanations 
 
 
-1. artefactual: seek to account for inequalities in health
-as a construct of the measurement process. 
-1.  downstream:  chronic causes
-1.  midstream:  behavioral determinants
-1.  upstream: social determinants
+1. artefactual:  a construct of the measurement process. 
+1.  downstream:  occur at the micro level/individual and include one's genetics
+1.  midstream:  material circumstances
+1.  upstream: macro factors that comprise social-structural influences
 
 
 #  artefactual explanations 
