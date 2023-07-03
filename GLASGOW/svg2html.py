@@ -1,7 +1,7 @@
 #! /home/gregmcshane/anaconda3/bin/python3.6 
 
-import re, sys, os
-from svgpathtools import svg2paths, wsvg
+import re, sys
+from svgpathtools import svg2paths
 
 html = '''<!DOCTYPE html>
 <html lang="en">
@@ -21,7 +21,7 @@ html = '''<!DOCTYPE html>
   '''
 
 anim_params = '''    
-#{} {{ stroke-dasharray:  {};
+#{} {{ stroke-dasharray: {};
       stroke-dashoffset: {};
       animation: offset {:.2f}s linear forwards;
       animation-delay: {:.2f}s;
@@ -43,9 +43,6 @@ pp_units = re.compile('(\d+)pt')
 def units_cb(mm):
     return '%spx'%mm.group(1)
 
-
-
-
 def mk_anim(src_fn):
     
     def path_cb(mm):
@@ -60,7 +57,6 @@ def mk_anim(src_fn):
 
     paths, attributes = svg2paths(src_fn)
     path_ids = ['p%d'%k for k,x in enumerate(paths) ]
-    path_ids_cp = path_ids[:]
 
     data = re.sub(pp_units, units_cb, data)
     svg = re.sub(pp_path, path_cb, data)
@@ -73,7 +69,6 @@ def mk_anim(src_fn):
     for l in lengths:
         rolling.append(rolling[-1] + l)
 
-
     animations = [ anim_params.format('p%d'%k,l,l,l/500, d/500) 
                                   for k,l,d in zip(range(len(lengths)), lengths, rolling)  ]
 
@@ -84,7 +79,6 @@ def mk_anim(src_fn):
     with open('%s.html'%src_fn.split('.')[0],'w') as fp:
         fp.write(html.format(style, svg))
         
-
 
 if __name__ == '__main__':
     

@@ -63,6 +63,10 @@ it possible to reduce the accumulation of risk factors.
 <!-- [source](https://www.hal.inserm.fr/file/index/docid/364818/filename/Edisc-art-sept08.doc) -->
 [source:INSERM](https://www.hal.inserm.fr/inserm-00364818v1/file/Edisc-art-sept08.pdf)
 
+#
+<!-- _transition: cube -->
+## All cause mortality males 45-65
+![](./table3.png)
 
 # Social inequalities in mortality 
 <!-- _transition: cube -->
@@ -78,6 +82,7 @@ cardiovascular risk factors, such as
 * being overweight,
 * hypertension 
 * diabetes. 
+
 
 # Context in France since 2010
 <!-- _transition: cube -->
@@ -113,16 +118,15 @@ the most disadvantaged groups cumulate a number of **risky behaviours**, such as
 
 ![w:600](./table1.png)
 
-# Niveau d'étude
-
+# 
+**Niveau d'étude**
 <!-- _transition: fade -->
-![w:500](./table2.png)
-
+![w:530](./table2.png)
 [source](https://www.insee.fr/fr/statistiques/2383438#graphique-figure1_radio2)
 
 #
 
-HEAD: CAUSE-SPECIFIC MORTALITY
+## CAUSE-SPECIFIC MORTALITY
 A number of recent studies have found that educational differences in mortality vary across causes of death. For example, deaths that are more closely linked to social and behavioral risk factors (lung cancer, respiratory diseases, homicide, and accidents) are associated with wide educational differences in mortality rates, while there are narrower educational differences in mortality rates for causes less amenable to human control (such as cancers other than lung cancer)
 
 [source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4435622/)
@@ -142,6 +146,7 @@ A number of recent studies have found that educational differences in mortality 
 
 #
 
+<!-- _transition: fade -->
 A debate within the mortality literature centers around the impact
 of health behaviors on the prospects of disadvantaged groups.
 .....Findings reveal that cigarette smoking is an important mediator
@@ -152,8 +157,7 @@ narrow considerably when cigarette smoking is accounted for,
 [source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2885918/)
 
 #
-
-<!-- _transition: fade -->
+<!-- _transition: cube -->
 ## All cause mortality males 45-65
 ![](./table3.png)
 
@@ -274,3 +278,20 @@ What are the reasons for this higher mortality?
 * between 1950 and 1980 the reasons for higher mortality are unclear, but may be linked to particular industrial, employment, housing and cultural patterns. 
 
 * from 1980 onwards, the higher mortality is most likely to be accounted for by a synthesis which begins from the changed political context of the 1980s, and the consequent hopelessness and community disruption experienced. 
+
+
+
+# Notes
+
+[HK construction
+workers](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7078528/)
+
+[health promotion Japan](https://pubmed.ncbi.nlm.nih.gov/35236511/)
+
+[Occupational gradients in smoking behavior USA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3275688/)
+
+[Effect of stressful life events on changes in smoking
+GAZEL](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4809990/)
+
+[smoking prevalence
+US](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4570501/#:~:text=Estimating%20Current%2DSmoking%20Prevalence,not%20quit%20by%20that%20age.)
