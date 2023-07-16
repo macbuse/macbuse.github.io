@@ -11,7 +11,7 @@ title: MAT305
 
 - [web page avec tous les documents](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php)
 - [2021 TD archived page](./MAT305_index.md)
-- [mes calculs](./uniqueness.pdf)
+<!-- - [mes calculs](./uniqueness.pdf) -->
 
 ---
 

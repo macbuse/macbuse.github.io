@@ -1,0 +1,607 @@
+<!--
+theme: gaia
+class: gaia lead
+headingDivider: 1
+paginate: true
+header: Serfest
+footer: Kyoto 2023
+backgroundImage: linear-gradient(-20deg, rgba(0, 0, 0, 0.6), transparent)
+_paginate: false
+_header: ''
+_footer: ''
+
+style: |
+  @keyframes marp-outgoing-transition-vertical-scroll {
+    from { transform: translateY(0%); }
+    to { transform: translateY(-100%); }
+  }
+  @keyframes marp-incoming-transition-vertical-scroll {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0%); }
+  }
+
+  @keyframes marp-outgoing-transition-vflip {
+    0% { animation-timing-function: ease-in; }
+    50% {
+      transform: perspective(100vw) translateZ(-100vw) rotateX(-90deg);
+      opacity: 0.5;
+      animation-timing-function: step-end;
+    }
+    100% { opacity: 0; }
+  }
+  @keyframes marp-incoming-transition-vflip {
+    0% {
+      animation-timing-function: step-start;
+      opacity: 0;
+    }
+    50% {
+      transform: perspective(100vw) translateZ(-100vw) rotateX(90deg);
+      opacity: 0.5;
+      animation-timing-function: ease-out;
+    }
+  }
+
+  header, footer { text-align: center; color: currentcolor; }
+  section.small-code pre { font-size: 68%; }
+
+-->
+
+# Markoff numbers 
+<!-- _transition: glow -->
+greg mc shane
+
+# Martin Aigner
+<!-- _transition: wipe -->
+
+
+![bg left](./Martin_Aigner.jpg)
+
+* [Proofs from THE BOOK](https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem)
+* [Convexity and Aigner's Conjectures](https://arxiv.org/abs/2101.03316)
+* Prove his conjectures with one figure?
+
+#
+## Aigner's conjectures proof
+
+![w:800](./lines.png)
+
+#
+<!-- _transition: cube -->
+**Markov numbers** are integers that appear a **Markov triple** 
+$$(1,1,1),(1,2,1),(2,5,1),(5,13,1)$$
+which are solutions of a Diophantine equation 
+the so-called **Markov cubic**
+
+* $$x^2 + y^2 + z^2 - 3x y z = 0.$$
+
+
+<!-- # --> 
+<!-- _transition: wipe -->
+<!-- ## infinity of Markoff triples: $z=1$ -->
+
+<!-- $\begin{pmatrix} 3 & -1 \\ 1 & 0 \end{pmatrix}$ -->
+<!-- is an automorph of --> 
+<!-- $$x^2 + y^2  - 3x y.$$ -->
+
+<!-- So $( v_n,v_{n+1},1)$ is a Markov triple where -->
+
+<!-- $\begin{pmatrix} x \\ y \end{pmatrix}=  \begin{pmatrix}v_{n+1} \\ v_n \end{pmatrix} = \begin{pmatrix} 3 & -1 \\ 1 & 0 \end{pmatrix}^n \begin{pmatrix}1 \\ 1 \end{pmatrix}$ -->
+
+#
+### Odd index Fibonacci numbers are Markoff numbers
+<!-- _transition: cube -->
+$1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181 \ldots$
+
+$(1,1,1),(1,2,1),(2,5,1),(5,13,1),(13,34,1),(34,89,1)$
+
+#
+<!-- _transition: cube -->
+### Frobenius uniqueness conjecture
+
+The largest integer in a triple determines the two other numbers.
+
+#
+<!-- _transition: cube -->
+### Partial results
+
+m = Markoff number
+
+* Jack Button for [m prime](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292)
+* Baragar [m, 3m - 2, 3m + 2 prime](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88B0E426FFCBEA8B3A345C1074B8CC59/S0008439500018828a.pdf/on-the-unicity-conjecture-for-markoff-numbers.pdf)
+* Zhang [An elementary proof...](https://arxiv.org/abs/math/0606283)
+* Lang, Tan [A simple proof....](https://arxiv.org/abs/math/0508443)
+* [ Bugeaud, Reutenauer, Siksek](https://core.ac.uk/download/pdf/82088222.pdf)
+* Conclusion too hard!!!
+
+#
+<!-- _transition: cube -->
+### Aigner's monotonicity conjectures
+
+* Markov’s theorem and 100 years of the uniqueness conjecture. A mathematical journey from irrational numbers to perfect matchings.  2013.  
+* M. Rabideau, R. Schiffler,
+Continued fractions and orderings on the Markov numbers,
+Advances in Mathematics Vol 370,  2020.
+* C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markov numbers: fixed numerator, denominator, and sum conjectures.
+
+
+#
+<!-- _transition: slide -->
+There is a natural map (we'll see why shortly)
+
+$\mathbb{Q}\cup \infty \rightarrow$ Markoff numbers
+
+$p/q \mapsto m_{p,q}$
+
+![w:700](./aigner_mono.png)
+
+# 
+<!-- _transition: slide -->
+## A tale of three trees
+
+Labeling Markoff numbers
+
+* Markoff number = $m_{p/q}$
+* Farey "tree" of coprime integers $p,q$
+* Markoff tree of solutions to the cubic
+* Bass-Serre of a free product 
+
+$PSL(2,\mathbb{Z}) \simeq \mathbb{Z}/2 * \mathbb{Z}/3$
+
+# 
+## coprime integers $p,q$
+
+* 2x2 matrix
+* arc on a punctured torus
+* closed geodesic (disjoint from the arc)
+* snake graph and its perfect matchings
+* "lengths" that verify a Ptolemy inequality
+
+<!-- # --> 
+<!-- ## Story of involutions -->
+
+<!-- - Vieta jumping -->
+<!-- - diagonal exchanges -->
+<!-- - mutations -->
+
+
+#
+## Group actions
+
+* $\mathbb{Z}$ acting by translation on $\mathbb{R}$.
+* two possible generators more correctly primitive elements
+* **primitive** iff $a = b^m \Rightarrow m = \pm 1$ 
+
+## Group actions
+
+* $\mathbb{Z}^2$ acting by translation on $\mathbb{R}^2$.
+* infinitely many primitive elements 
+* $(a,b)$ primitive iff $a,b \in \mathbb{Z}$ coprime
+
+
+#
+## Group actions
+* $GL(2,\mathbb{Z})$ acting by "base change" on $\mathbb{Z}^2$
+* Bezout's identity $\Rightarrow$ transitive on primitives
+* Visualize  $GL(2,\mathbb{Z})$ action 
+
+#
+
+<!-- _transition: glow -->
+$\mathbb{Q}\cup \infty \subset$ circle/projective line
+
+* $(a,b)\text{ primitive } \mapsto a/b \in \mathbb{Q}\cup \infty$
+* $\begin{pmatrix} a & c \\ b & d \end{pmatrix} \mapsto$  arc joining $(a/b, c/d)$ 
+* $(a/b, c/d)$ are Farey neighbors
+
+#
+<!-- _transition: fade -->
+![w:600](./sami.jpg)
+[source](https://www.math.mcgill.ca/sdouba/seminar/sami)
+
+<!-- # -->
+<!-- ![width:600px](./pozzi.jpg.png) -->
+<!-- [source](https://www.mathi.uni-heidelberg.de/~pozzetti/trees/4.pdf) -->
+
+#
+<!-- _transition: cube -->
+![width:600px](./farey_tree.png)
+
+[source](https://www3.nd.edu/~math/rtg/GTS/www3.nd.edu/_jquigle2/GSTS%20FA18/Week1P.pdf)
+
+#
+
+### natural map ?
+<!-- _transition: cube -->
+$\mathbb{Q}\cup \infty \rightarrow$ Markoff numbers
+
+$p/q \mapsto m_{p,q}$
+
+* $GL(2, \mathbb{Z})$ action on $\mathbb{Q}\cup \infty$ 
+* $GL(2, \mathbb{Z})$ action on Markoff numbers ?
+* [Vieta jumping](https://en.wikipedia.org/wiki/Vieta_jumping)
+
+#
+<!-- _transition: cube -->
+### Vieta jumps/flips/involutions
+$x^2 + y^2 + z^2 - 3x y z = 0.$
+
+* quadratic in $x$,  two roots $x^\pm$
+* Vieta formula $x^+ + x^- = 3yz$ 
+* involution $(x^-,y,z) \mapsto (x⁺, y,z) = (3yz - x^-, y,z)$
+
+#
+
+Peter Sarnak (Princeton and IAS)
+
+Title: Strong approximation for Markoff surfaces
+
+We discuss the transitivity properties of the group of morphisms generated by Vieta involutions on the solutions in congruences to the Markoff equation as well as to other Markoff type affine cubic surfaces. These are dictated in part by the finite orbits of these actions on the algebraic points
+
+Joint work with J.Bourgain and A.Gamburd.
+
+#
+<!-- _transition: fade -->
+## Automorphisms
+$$x^2 + y^2 + z^2 - 3x y z = 0.$$
+
+- Vieta flips
+- (cyclic) permutations of $x,y,z$
+- action of $\mathbb{Z}/2 * \mathbb{Z}/3 \simeq PSL(2,\mathbb{Z})$ 
+
+#
+<!-- _transition: glow -->
+Natural  = $PSL(2,\mathbb{Z})$-equivariant map
+
+$\mathbb{Q}\cup \infty \rightarrow p/q \mapsto \text{Markoff
+number}\,\,m_{p/q}$
+
+- $(0:1) \mapsto  0/1 \mapsto  m_{0/1} = 1 = x$
+- $(1:0) \mapsto  \infty \mapsto m_{1/0} = 1 = y$
+- $(1:1) \mapsto  1/1 \mapsto m_{1/1} = 2 = z$ 
+- actions = projective on left and by autos on right
+
+# 
+### Tree structure
+
+comes from Bass-Serre tree of
+ $PSL(2,\mathbb{Z})$ 
+
+<!-- ![w:500px](./Markoff_tree_full.svg) -->
+![bg left 100%](./Markoff_tree_full.svg)
+
+
+#
+<!-- _transition: cube -->
+## Frobenius uniqueness conjecture
+
+* The largest integer in a triple determines the two other numbers.
+* The multiplicity of any number in the complementary regions to the tree is at most **6**
+
+![bg left 100%](./Markoff_tree_full.svg)
+
+#
+## Modern theory: H. Cohn 
+
+Approach to Markov’s Minimal Forms Through Modular Functions (1955)
+
+- modular torus = quotient of upper half plane $\mathbb{H}$ by  commutator subgroup of $\Gamma'< \text{PSL}(2, \mathbb{Z})$, acting by Mobius transformations
+-  relates Markoff numbers to lengths of simple closed geodesics
+
+#
+## Character variety
+
+ modular torus = $\mathbb{H}/\Gamma'$ 
+
+- $\Gamma'\simeq \mathbb{Z}*\mathbb{Z} \simeq$ fundamental group of the torus.
+- any hyperbolic torus = $\mathbb{H}/ \rho(\mathbb{Z}*\mathbb{Z})$, 
+- $\rho:\mathbb{Z}*\mathbb{Z}\rightarrow\text{PSL}(2, \mathbb{R})$ discrete faithful representation
+- lifts to $\hat{\rho}:\mathbb{Z}*\mathbb{Z}\rightarrow\text{SL}(2, \mathbb{R})$ 
+- $a,b$ generators of $\mathbb{Z}*\mathbb{Z}$
+- character map $\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
+
+#
+
+## Puncture condition 
+
+$aba^{-1}b^{-1}$ is a loop round the puncture 
+so its holonomy is parabolic and in fact:
+
+$tr \hat{\rho} (aba^{-1}b^{-1}) = -2$
+
+- $(x,y,z) =  ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
+- $0 = 2+ tr \hat{\rho} (aba^{-1}b^{-1}) = x^2 + y^2 + z^2 - x y z .$
+- ie Markoff cubic up to a change of variable
+
+#
+
+Cohn shows that 
+the permutations and the Vieta flips
+used to construct Markov's binary tree
+are induced by automorphisms of the
+fundamental group of the torus.
+
+#### Exo
+
+- Nielsen moves
+- $tr ab  + tr ab^{-1} = (tr a) (tr b)$
+#
+
+![](./ptorusx.svg)
+
+#
+
+<!-- ![](./fund_dom_cut.png) -->
+
+![](./geod_pair.png)
+
+pair of disjoint simple closed and arc geodesics
+
+#
+
+### Theorem
+
+$(x,y,z) \in \mathbb{R}_+,\,x^2 + y^2 + z^2 - x y z = 0.$
+
+can be identified with the Teichmueller space of the punctured torus.
+
+
+#
+## Counting problem
+
+$N(t) := \text{number of Markoff numbers} \leq t$
+
+**Theorem** $N(t) = C (\log(3t))^2 + O(\log t)$
+
+- Zagier (1982) [On the Number of Markov Numbers Below a Given Bound.](https://www.ams.org/journals/mcom/1982-39-160/S0025-5718-1982-0669663-7/S0025-5718-1982-0669663-7.pdf) 
+- Greg McShane, Igor Rivin (1995) [A norm on homology of surfaces and counting simple geodesics](https://arxiv.org/abs/math/0005222)
+
+#
+### Counting closed simple geodesics
+
+- character map $\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
+- $a,b$ generators  fundamental group of the torus.
+- $a$ is generator iff $\exists$ essential simple  closed curve representing its conjugacy class
+
+
+#
+### Simple representatives
+
+![w:650](./representative.svg)
+
+#
+### Simple representatives in homology
+
+$\phi :  \mathbb{Z}*\mathbb{Z} \rightarrow \mathbb{Z}^2 \simeq
+H^1(T,\mathbb{Z})$.
+abelianizing homomorphism.
+
+- $\phi$ takes generators of  $\mathbb{Z}*\mathbb{Z}$ to generators of $\mathbb{Z}^2$.
+- $(p,q) \in \mathbb{Z}^2$  generator $\Leftrightarrow p,q$ coprime.
+
+
+#
+### The norm
+
+Let $c$ be an essential closed curve $\ell_c$ its length.
+
+$\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
+
+- convexity/triangle inequality
+- any pair of curves in linearly independent homology classes intersect
+- a curve with self intersections is never a minimizer
+
+#
+
+![w:800](./surgery.jpg)
+
+<!-- # -->
+
+
+<!-- ![w:800](./minimizer.png) -->
+
+
+#
+
+**Corollary:** Let T be a punctured torus  with a hyperbolic structure. 
+
+- Then, the shortest multicurve representing a non-trivial homology class $h$ is a simple closed geodesic if $h$ is a primitive homology class, and a multiply covered geodesic otherwise. 
+- In addition, the shortest multicurve representing $h$ is unique.
+
+#
+
+## Unit ball
+
+![w:500](./holed_torus.png)
+
+#
+### Unit ball and counting
+
+- $\sharp \{ \gamma \in \mathbb{Z}^2,\, \| \gamma \| \leq t \} \sim \text{area unit ball}\times t^2$ 
+- $\sharp \{ \gamma \text{ primitive},\, \| \gamma \| \leq t \} \sim \frac{6}{\pi^2}\text{area unit ball}\times t^2$ 
+- the area of the unit ball depends on the hyperbolic structure
+- with Rivin we studied it, but now it's called the Mirzakhani function :(
+
+#
+## Why log ?
+$N(t) = C (\log(3t)^2 + O(\log t)$
+
+- $m_{p/q} = \frac13 tr \hat{\rho}( \gamma_{p/q})$
+- $= \frac23 \cosh\left(\frac{\ell_{\gamma_p}}{2} \right)$
+- $= \frac23 \cosh(\| (q,p) \|_s)$
+- **important** $t ↦ \frac23 \cosh(t)$ monotone increasing on $[0,\infty[$
+
+
+#
+## Aigner's conjectures 
+
+
+![w:700](./aigner_mono.png)
+#
+
+[On the ordering of the Markov numbers](https://arxiv.org/abs/2010.13010)
+Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler
+
+The proof uses a connection to cluster algebras. It was observed
+in [P, BBH] that the Markov numbers can be obtained from the cluster variables in the cluster
+algebra of the once-punctured torus by specializing the initial cluster variables to 1. Moreover, the clusters in the cluster algebra then specialize to the Markov triples. On the other hand, the cluster variables can be computed by a combinatorial formula given as a summation over the perfect matchings of a so-called snake graph.
+
+#
+## Snake graph
+
+![w:800](./snake_6.png)
+
+#
+## Reformulate Aigner's conjectures 
+
+
+ Markoff number $m_{p/q} = \frac23 \cosh(\| (q,p) \|_s)$
+ $t ↦ \frac23 \cosh(t)$ monotone increasing on $[0,\infty[$
+
+
+- Let $p, q$ be real non negative numbers and $i > 0$ then
+
+- $\|(q,p) \|_s < \|(q + i,p) \|_s$
+- $\|(q,p) \|_s < \|(q ,p +i ) \|_s$
+- If in addition $p < q$ then
+$\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$
+
+#
+### Aigner's conjectures proof
+
+![w:1000](./lines.png)
+
+#
+##
+
+![w:1000](./schiffler.png)
+
+[source](https://arxiv.org/pdf/2010.13010.pdf)
+
+
+#
+## Button's Theorem
+
+If $z$ is a Markoff number which is prime
+then there is a unique triple $z > y > x$
+
+$x^2 + y^2 + z^2 - 3x y z = 0.$
+
+#
+
+### Theorem (Fermat)
+
+Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
+
+- iff $p = 2$ or $p − 1$ is a multiple of 4.
+
+- Button's theorem follows from "unicity" of $c,d$
+- unique factorisation $p = (ci+d)(-ci+d)\in \mathbb{Z}[i]$
+
+#
+<!-- _transition: cube -->
+## Frobenius uniqueness conjecture
+
+* The multiplicity of any number in the complementary regions to the tree is at most **6**
+
+![bg left 100%](./Markoff_tree_full.svg)
+
+#
+
+- $\Gamma = \mathrm{PSL}(2,\mathbb{Z})$
+- $\Gamma' = [\Gamma,\Gamma]$ 
+- $\mathbb{H}/\Gamma' =$ modular torus
+- loop around the cusp $z \mapsto z + 6$
+- automorphism group $\Gamma/\Gamma' \simeq \mathbb{Z}/6\mathbb{Z}$
+- generator of the automorphism group is $z \mapsto z + 1$
+
+
+#
+
+### Lemma A
+
+The $\lambda$-length of the unique arc disjoint from the 
+simple closed geodesic such that $m = \frac23 \cosh(\ell_\gamma)$ is $m$.
+
+#
+<style scoped>
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+}
+
+</style>
+## Lemma B
+
+Let $m$ be a positive integer. 
+The number of  ways of writing $m$  as a  sum of squares
+$$m = c^2 + d^2$$
+with $c,d$ coprime integers is equal to the number of arcs 
+$\{  k/m + i t,\, t>0  \},\,\,0 \leq k < m-1$ coprime to $m$
+meeting the $\Gamma$  orbit of $i$.
+
+#
+
+![w:650](./farey_tree.png)
+
+
+#
+## Ford circles
+
+![w:700](./ford_circles_again.png)
+
+
+# Definitions
+- **arc** = Poincaré geodesic joining $a/c, b/d \in \mathbb{Q}\cup \infty$
+- **$\lambda$-length of  arc** $= |ad - bc|$ 
+- $\lambda$-length of arc on $\mathbb{H}/\Gamma'$ is the length of a lift to $\mathbb{H}$
+
+<!-- # -->
+<!-- ## Lemma C -->
+
+<!-- **$2\log( \lambda$-length)** = length of the portion outside Ford circles tangent to the real line at its endpoints -->
+
+
+- $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
+- orbit of $F := \{ z, \mathrm{Im}\, z > 1\}$ are the Ford circles
+<!-- - $\begin{pmatrix} a & b \\ c & d \end{pmatrix}.z = \frac{az+b}{cz+d}$ --> 
+#
+![w:500](./ford_circles_again.png)
+
+- $p/q$ point of tangency with $\mathbb{R}$, diameter = $1/q^2$
+- ie diameter is the square of the inverse of the denominator of $p/q$
+
+<!-- text_align: top -->
+# Lemma A
+
+- **arc** joining $a/c, b/d$ has **$\lambda$-length** $= |ad - bc|$ 
+- **$2 \log \lambda$-length** = length of the portion outside Ford circles tangent to the real line at its endpoints
+
+
+<!-- text_align: top -->
+# Proof of lemma
+- $\mathrm{SL}(2,\mathbb{Z})$  transitive on $\mathbb{P}(\mathbb{Q})$, 
+- can suppose $a/c= \infty=1/0$ and $b/d = k/(ad - bc)$
+- joins Ford circle  $F$  tangent at $\infty$ and another of diameter $1/(ad - bc)^2$
+- "length" of portion outside these is $-2\log(ad - bc)$
+<!-- - the **midpoint** of this vertical arc is at height $1/|ad - bc|$ -->
+
+
+<!-- - Button's theorem follows from unicity in $z = c^2 + d^2$ -->
+<!-- - $\Leftrightarrow$ unique vertical geodesic in Lemma A. -->
+<!-- - let's look at that again -->
+
+#
+
+- Number of  ways of writing $m$  as   $c^2 + d^2$
+  =  number of  integers $0 \leq k < m-1$ coprime to $n$ such that the line $\{  k/m + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
+- For every Markoff number $m>2$ there are exactly 6 simple closed geodesics of length  $2\cosh^{-1}(3m/2)$ on the modular torus $\mathbb{H}/\Gamma'$ 
+- $\Leftrightarrow$ exactly 6 simple arcs of $\lambda$-length $m$ on $\mathbb{H}/\Gamma'$ 
+
+#
+<iframe src="./button.html" height="600" width="700"></iframe>
+
+exactly 6 simple arcs of $\lambda$-length $m$ on $\mathbb{H}/\Gamma'$ 
+
+# The End
