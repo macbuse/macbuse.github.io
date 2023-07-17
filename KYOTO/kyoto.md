@@ -53,11 +53,13 @@ greg mc shane
 
 #
 
+<!-- _transition: cube -->
 - slides : google **greg mcshane github**
 - click on **serfest**
+- ith there is a bug in my slides blame [this guy](https://github.com/yhatt)
 
 #
-<!-- _transition: cube -->
+<!-- _transition: slide -->
 **Markoff numbers** are integers that appear a **Markoff triple** 
 $$(1,1,1),(1,2,1),(2,5,1),(5,13,1)$$
 which are solutions of a Diophantine equation 
@@ -80,11 +82,17 @@ the so-called **Markoff cubic**
 
 #
 ### Odd index Fibonacci numbers are Markoff numbers
-<!-- _transition: cube -->
+<!-- _transition: slide -->
 $1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181 \ldots$
 
 $(1,1,1),(1,2,1),(2,5,1),(5,13,1),(13,34,1),(34,89,1)$
 
+#
+### Odd index Pell numbers are Markoff numbers
+<!-- _transition: cube -->
+$0, 1, 2, 5, 12, 29, 70, 169, 408, 985, 2378, 5741, 13860,\ldots$
+
+$(1,5,2), (5,29,2),(29,169,2)\ldots$
 #
 <!-- _transition: slide -->
 ### Frobenius uniqueness conjecture
