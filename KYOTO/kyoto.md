@@ -333,6 +333,7 @@ $tr \hat{\rho} (aba^{-1}b^{-1}) = -2$
  <p style = "text-align: left"> 
 Cohn (and others) shows that the 
 </p>
+
 - permutations 
 - the Vieta flips 
 <p style="text-align:left">
@@ -733,5 +734,13 @@ then $m$ satisfies the uniqueness conjecture
 </p>
 
 # 
-
+<!-- _transition: cube -->
 ![w:800](./thatsallfolks.png)
+
+#
+### Theorem (Fermat)
+
+Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
+
+- iff $p = 2$ or $p − 1$ is a multiple of 4.
+
