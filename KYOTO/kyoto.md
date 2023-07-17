@@ -56,7 +56,7 @@ greg mc shane
 <!-- _transition: cube -->
 - slides : google **greg mcshane github**
 - click on **serfest**
-- ith there is a bug in my slides blame [this guy](https://github.com/yhatt)
+- if there is a bug in my slides blame [this guy](https://github.com/yhatt)
 
 #
 <!-- _transition: slide -->
