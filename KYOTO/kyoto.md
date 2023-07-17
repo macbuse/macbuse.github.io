@@ -130,12 +130,13 @@ $p/q \mapsto m_{p,q}$
 ![w:700](./aigner_mono.png)
 
 #
+<!-- _transition: wipe -->
 ## Aigner's conjectures proof
 
 ![w:800](./lines.png)
 
 # Labeling Markoff numbers
-<!-- _transition: slide -->
+<!-- _transition: cube -->
 ## A tale of three trees
 
 
@@ -147,8 +148,8 @@ $p/q \mapsto m_{p,q}$
 $PSL(2,\mathbb{Z}) \simeq \mathbb{Z}/2 * \mathbb{Z}/3$
 
 # 
+<!-- _transition: cube -->
 ## coprime integers $p,q$
-
 * arc on a punctured torus
 * closed geodesic (disjoint from the arc)
 * snake graph and its perfect matchings
@@ -200,7 +201,7 @@ $\mathbb{Q}\cup \infty \subset$ circle/projective line
 #
 
 ### natural map ?
-<!-- _transition: cube -->
+<!-- _transition: slide -->
 $\mathbb{Q}\cup \infty \rightarrow$ Markoff numbers
 
 $p/q \mapsto m_{p,q}$
@@ -355,8 +356,7 @@ $N(t) := \text{number of Markoff numbers} \leq t$
 ### Counting closed simple geodesics
 
 - character map $\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
-. $a,b$ generators  fundamental group of the torus.
-. $a$ is generator iff $\exists$ essential simple  closed curve representing its conjugacy class
+* $a$ is generator iff $\exists$ essential simple  closed curve representing its conjugacy/free homotopy class
 
 
 # 
@@ -435,19 +435,6 @@ $N(t) = C (\log(3t)^2 + O(\log t)$
 
 
 ![w:700](./aigner_mono.png)
-#
-
-[On the ordering of the Markoff numbers](https://arxiv.org/abs/2010.13010)
-Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler
-
-The proof uses a connection to cluster algebras. It was observed
-in [P, BBH] that the Markoff numbers can be obtained from the cluster variables in the cluster
-algebra of the once-punctured torus by specializing the initial cluster variables to 1. Moreover, the clusters in the cluster algebra then specialize to the Markoff triples. On the other hand, the cluster variables can be computed by a combinatorial formula given as a summation over the perfect matchings of a so-called snake graph.
-
-#
-## Snake graph
-
-![w:800](./snake_6.png)
 
 #
 ## Reformulate Aigner's conjectures 
@@ -472,20 +459,37 @@ $\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$
 #
 ##
 
-![w:1000](./schiffler.png)
+![w:1100](./schiffler.png)
 
 * [Gaster](https://arxiv.org/abs/2107.13499)
 
 [source](https://arxiv.org/pdf/2010.13010.pdf)
 
 #
-##
 
+[On the ordering of the Markoff numbers](https://arxiv.org/abs/2010.13010)
+Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler
+
+The proof uses a connection to cluster algebras. It was observed
+in [P, BBH] that the Markoff numbers can be obtained from the cluster variables in the cluster
+algebra of the once-punctured torus by specializing the initial cluster variables to 1. Moreover, the clusters in the cluster algebra then specialize to the Markoff triples. On the other hand, the cluster variables can be computed by a combinatorial formula given as a summation over the perfect matchings of a so-called snake graph.
+
+#
+<!-- _transition: cube -->
+## Snake graph
+
+![w:800](./snake_6.png)
+
+
+#
+<!-- _transition: cube -->
+##
 
 ![w:1000](./schif_proof.png)
 
 
 #
+<!-- _transition: slide -->
 ## Button's Theorem
 
 If $z$ is a Markoff number which is prime
@@ -494,7 +498,7 @@ then there is a unique triple $z > y > x$
 $x^2 + y^2 + z^2 - 3x y z = 0.$
 
 #
-
+<!-- _transition: cube -->
 ### Theorem (Fermat)
 
 Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
@@ -514,60 +518,77 @@ Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
 
 #
 
-- $\Gamma = \mathrm{PSL}(2,\mathbb{Z})$
-- $\Gamma' = [\Gamma,\Gamma]$ 
-- $\mathbb{H}/\Gamma' =$ modular torus
-- loop around the cusp $z \mapsto z + 6$
-- automorphism group $\Gamma/\Gamma' \simeq \mathbb{Z}/6\mathbb{Z}$
-- "generator" of the automorphism group is $z \mapsto z + 1$
-- $z \mapsto -1/z$ normalises $\Gamma'$ so induces an involution of $\mathbb{H}/\Gamma'$
-- the involution has 3 fixed points which lift to the $\Gamma$ orbit of i.
+ $\Gamma = \mathrm{PSL}(2,\mathbb{Z})$
+* $\Gamma' = [\Gamma,\Gamma]$ 
+* $\mathbb{H}/\Gamma' =$ modular torus
+* loop around the cusp $z \mapsto z + 6$
+* automorphism group $\Gamma/\Gamma' \simeq \mathbb{Z}/6\mathbb{Z}$
+* "generator" of the automorphism group is $z \mapsto z + 1$
+* $z \mapsto -1/z$ normalises $\Gamma'$ so induces an involution of $\mathbb{H}/\Gamma'$
+* the involution has 3 fixed points which lift to the $\Gamma$ orbit of i.
 
 #
 
+<!-- _transition: slide -->
 ![w:650](./farey_tree.png)
 
 #
+<!-- _transition: cube -->
 ## Ford circles
 
 ![w:700](./ford_circles_again.png)
 
 
 # Definitions
-- **arc** = Poincaré geodesic joining $a/c, b/d \in \mathbb{Q}\cup \infty$
-- **$\lambda$-length of  arc** $= |ad - bc|$ 
-- $\lambda$-length of arc on $\mathbb{H}/\Gamma'$ is the length of a lift to $\mathbb{H}$
+<!-- _transition: slide -->
+ **arc** = Poincaré geodesic joining $a/c, b/d \in \mathbb{Q}\cup \infty$
+* **$\lambda$-length of  arc** $= |ad - bc|$ 
+* $\lambda$-length of arc on $\mathbb{H}/\Gamma'$ is the length of a lift to $\mathbb{H}$
 
 
-- $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
-- orbit of $F := \{ z, \mathrm{Im}\, z > 1\}$ are the Ford circles
+* $\mathrm{SL}(2,\mathbb{Z})$ acts by Mobius transformations on $\mathbb{H}$
+* orbit of $F := \{ z, \mathrm{Im}\, z > 1\}$ are the Ford circles
 <!-- - $\begin{pmatrix} a & b \\ c & d \end{pmatrix}.z = \frac{az+b}{cz+d}$ --> 
+
 #
+<!-- _transition: slide -->
 ![w:500](./ford_circles_again.png)
+
+* $p/q$ point of tangency with $\mathbb{R}$, diameter = $1/q^2$
+*   hyperbolic midpoint of the arc joining $F$ to this Ford circle is at euclidean height $1/q$
+<!-- - ie diameter is the square of the inverse of the denominator of $p/q$ -->
+
+#
+
+<!-- _transition: cube -->
+![bg left 100%](./lambda.svg)
 
 - $p/q$ point of tangency with $\mathbb{R}$, diameter = $1/q^2$
 -   hyperbolic midpoint of the arc joining $F$ to this Ford circle is at euclidean height $1/q$
 <!-- - ie diameter is the square of the inverse of the denominator of $p/q$ -->
 
-
 # Proposition
+<!-- _transition: slide -->
 
 - **arc** joining $a/c, b/d$ has **$\lambda$-length** $= |ad - bc|$ 
 - **$2 \log \lambda$-length** = length of the portion outside Ford circles tangent to the real line at its endpoints
 
 
 <!-- text_align: top -->
-# Proof 
-- $\mathrm{SL}(2,\mathbb{Z})$  transitive on $\mathbb{P}(\mathbb{Q})$, 
-- can suppose $a/c= \infty=1/0$ and $b/d = k/(ad - bc)$
-- joins Ford circle  $F$  tangent at $\infty$ and another of diameter $1/(ad - bc)^2$
-- hyperbolic length of portion outside these is $2\log(ad - bc)$
+#
+<!-- _transition: cube -->
+![bg left 100%](./lambda.svg)
+ $\mathrm{SL}(2,\mathbb{Z})$  transitive on $\mathbb{P}(\mathbb{Q})$, 
+* can suppose $a/c= \infty=1/0$ and $b/d = k/(ad - bc)$
+* joins Ford circle  $F$  tangent at $\infty$ and another of diameter $1/(ad - bc)^2$
+* hyperbolic length of portion outside these is $2\log(ad - bc)$
 <!-- - the **midpoint** of this vertical arc is at height $1/|ad - bc|$ -->
 
 
 
 #
 
+<!-- _transition: slide -->
 ### Lemma A
 
 The $\lambda$-length of the unique arc disjoint from the 
@@ -579,22 +600,24 @@ simple closed geodesic such that $m = \frac23 \cosh(\ell_\gamma/2)$ is $m$.
 Every Markoff number $m$ is a sum of squares ie $m=c^2 + d^2$
 
 #
-## Proof
+<!-- _transition: slide -->
+## Proof of corollary
 
-- simple close geodesic $\gamma$ is invariant under the elliptic involution
-- the unique arc $\gamma^*$ disjoint from $\gamma$ is invariant
-- $⇒ \exists$  a fixed point of the elliptic involution on $\gamma^*$
-- $⇒ \exists$ a lift of $\gamma^*$ which is a vertical line and which meets  $\Gamma.\{i\}$
-- since $\lambda$-length of $\gamma^*$ = m this point is at euclidean height $1/m$
+* simple close geodesic $\gamma$ is invariant under the elliptic involution
+* the unique arc $\gamma^*$ disjoint from $\gamma$ is invariant
+* $⇒ \exists$  a fixed point of the elliptic involution on $\gamma^*$
+* $⇒ \exists$ a lift of $\gamma^*$ which is a vertical line and which meets  $\Gamma.\{i\}$
+* since $\lambda$-length of $\gamma^*$ = m this point is at euclidean height $1/m$
 
 #
-<!-- _transition: glow -->
+<!-- _transition: cube -->
 ## and  so we have the equation
 
 $$\text{height } = \frac{1}{m} = \mathrm{Im} \frac{ai +b}{ci+d}  = \frac{1}{c^2 + d^2}$$
 
 
 # by the same argument.... 
+<!-- _transition: slide -->
 ## Lemma C
 
 Let $m$ be a positive integer. 
@@ -605,7 +628,7 @@ $\{  k/m + i t,\, t>0  \}$
 $0 \leq k < m-1$ coprime to $m$ which meet $\Gamma.\{i\}$
 
 # Counting solutions
-
+<!-- _transition: slide -->
 The "number of  ways" of writing $m$  as 
 $$m = c^2 + d^2$$
 
@@ -616,12 +639,14 @@ $$m = c^2 + d^2$$
 
 # Example
 
+<!-- _transition: cube -->
+
 $5 = 2^2 + 1^2$
 
-$$\begin{pmatrix} 1& 0 \\ 2& 1 \end{pmatrix}.i
+ $$\begin{pmatrix} 1& 0 \\ 2& 1 \end{pmatrix}.i
 = \frac{i}{2i+1} = \frac25 + \frac{i}{5}$$
 
-$$\begin{pmatrix} 1& 1 \\ 1& 2 \end{pmatrix}.i
+ $$\begin{pmatrix} 1& 1 \\ 1& 2 \end{pmatrix}.i
 = \frac{i+1}{i+2} = \frac35 + \frac{i}{5}$$
 
 <!-- text_align: top -->
