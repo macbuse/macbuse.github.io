@@ -80,7 +80,7 @@ $1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181
 $(1,1,1),(1,2,1),(2,5,1),(5,13,1),(13,34,1),(34,89,1)$
 
 #
-<!-- _transition: cube -->
+<!-- _transition: slide -->
 ### Frobenius uniqueness conjecture
 
 The largest integer in a triple determines the two other numbers.
@@ -148,7 +148,7 @@ $p/q \mapsto m_{p,q}$
 $PSL(2,\mathbb{Z}) \simeq \mathbb{Z}/2 * \mathbb{Z}/3$
 
 # 
-<!-- _transition: cube -->
+<!-- _transition: slide -->
 ## coprime integers $p,q$
 * arc on a punctured torus
 * closed geodesic (disjoint from the arc)
@@ -213,7 +213,8 @@ $p/q \mapsto m_{p,q}$
 #
 <!-- _transition: cube -->
 ### Vieta jumps/flips/involutions
-$x^2 + y^2 + z^2 - 3x y z = 0.$
+$$x^2 + y^2 + z^2 - 3x y z = 0.$$
+$$x^2 - (3yz)x  + (y^2 + z^2) = 0.$$
 
 * quadratic in $x$,  two roots $x^\pm$
 * Vieta formula $x^+ + x^- = 3yz$ 
@@ -271,6 +272,7 @@ comes from Bass-Serre tree of
 ![bg left 100%](./Markoff_tree_full.svg)
 
 #
+<!-- _transition: slide -->
 ## Modern theory: H. Cohn 
 
 Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
@@ -279,6 +281,7 @@ Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 *  relates Markoff numbers to lengths of simple closed geodesics
 
 #
+<!-- _transition: cube -->
 ![bg left 50%](./ptorusx.svg)
 
 * modular torus = quotient of upper half plane $\mathbb{H}$ by  commutator subgroup of $\Gamma'< \text{PSL}(2, \mathbb{Z})$
@@ -286,6 +289,7 @@ Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 * elliptic involution swaps triangles fixes midpoint of diagonal
 
 #
+<!-- _transition: fade -->
 ## Character variety
 
  modular torus = $\mathbb{H}/\Gamma'$ 
@@ -415,10 +419,10 @@ $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 #
 ### Unit ball and counting
 
-- $\sharp \{ \gamma \in \mathbb{Z}^2,\, \| \gamma \| \leq t \} \sim \text{area unit ball}\times t^2$ 
-- $\sharp \{ \gamma \text{ primitive},\, \| \gamma \| \leq t \} \sim \frac{6}{\pi^2}\text{area unit ball}\times t^2$ 
-- the area of the unit ball depends on the hyperbolic structure
-- with Rivin we studied it, but now it's called the Mirzakhani function :(
+ $\sharp \{ \gamma \in \mathbb{Z}^2,\, \| \gamma \| \leq t \} \sim \text{area unit ball}\times t^2$ 
+* $\sharp \{ \gamma \text{ primitive},\, \| \gamma \| \leq t \} \sim \frac{6}{\pi^2}\text{area unit ball}\times t^2$ 
+* the area of the unit ball depends on the hyperbolic structure
+* with Rivin we studied it, but now it's called the Mirzakhani function :(
 
 #
 ## Why log ?
@@ -434,7 +438,7 @@ $N(t) = C (\log(3t)^2 + O(\log t)$
 ## Aigner's conjectures 
 
 
-![w:700](./aigner_mono.png)
+![w:1000](./aigner_mono.png)
 
 #
 ## Reformulate Aigner's conjectures 
