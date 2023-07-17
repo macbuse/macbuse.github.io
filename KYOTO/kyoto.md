@@ -719,6 +719,7 @@ exactly 6 simple arcs of $\lambda$-length $m$ on $\mathbb{H}/\Gamma'$
 
 # In fact....
 
+<!-- _transition: glow -->
 
  <p style = "text-align: left"> 
 if $m$ is a Markoff number and 
@@ -731,4 +732,6 @@ if $m$ is a Markoff number and
 then $m$ satisfies the uniqueness conjecture
 </p>
 
-# The End
+# 
+
+![w:800](./thatsallfolks.png)
