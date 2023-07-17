@@ -50,6 +50,12 @@ style: |
 <!-- _transition: glow -->
 greg mc shane
 
+
+#
+
+- slides : google **greg mcshane github**
+- click on **serfest**
+
 #
 <!-- _transition: cube -->
 **Markoff numbers** are integers that appear a **Markoff triple** 
@@ -115,19 +121,17 @@ m = Markoff number
 * Markoff’s theorem and 100 years of the uniqueness conjecture. A mathematical journey from irrational numbers to perfect matchings.  2013.  
 * M. Rabideau, R. Schiffler,
 Continued fractions and orderings on the Markoff numbers,
-Advances in Mathematics Vol 370,  2020.
-* C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markoff numbers: fixed numerator, denominator, and sum conjectures.
+Advances in Mathematics Vol 370,  2020. [published](https://www.sciencedirect.com/science/article/abs/pii/S0001870820302577)
+* C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markoff numbers: fixed numerator, denominator, and sum conjectures. [published](https://www.sciencedirect.com/science/article/abs/pii/S0196885821000658)
 
 
 #
 <!-- _transition: slide -->
 There is a natural map (we'll see why shortly)
 
-$\mathbb{Q}\cup \infty \rightarrow$ Markoff numbers
+$\mathbb{Q}\cup \infty \rightarrow \text{Markoff numbers},\,\, p/q \mapsto m_{p,q}$
 
-$p/q \mapsto m_{p,q}$
-
-![w:700](./aigner_mono.png)
+![w:1000](./aigner_mono.png)
 
 #
 <!-- _transition: wipe -->
@@ -218,7 +222,7 @@ $$x^2 - (3yz)x  + (y^2 + z^2) = 0.$$
 
 * quadratic in $x$,  two roots $x^\pm$
 * Vieta formula $x^+ + x^- = 3yz$ 
-* involution $(x^-,y,z) \mapsto (x⁺, y,z) = (3yz - x^-, y,z)$
+* involution $(x^-,y,z) \mapsto (x^+, y,z) = (3yz - x^-, z,y)$
 
 #
 
@@ -303,6 +307,7 @@ Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 
 #
 
+<!-- _transition: cube -->
 ## Puncture condition 
 
 $aba^{-1}b^{-1}$ is a loop round the puncture 
@@ -316,10 +321,10 @@ $tr \hat{\rho} (aba^{-1}b^{-1}) = -2$
 
 #
 
-<!-- <p text-align: left> -->
-Cohn shows that the 
-<!-- </p> -->
-
+<!-- _transition: fade -->
+ <p style = "text-align: left"> 
+Cohn (and others) shows that the 
+</p>
 - permutations 
 - the Vieta flips 
 <p style="text-align:left">
@@ -334,6 +339,7 @@ Cohn shows that the
 
 #
 
+<!-- _transition: cube -->
 ### Theorem
 
 
@@ -347,6 +353,7 @@ can be identified with the Teichmueller space of the punctured torus.
 
 
 #
+<!-- _transition: fade -->
 ## Counting problem
 
 $N(t) := \text{number of Markoff numbers} \leq t$
@@ -357,6 +364,7 @@ $N(t) := \text{number of Markoff numbers} \leq t$
 - Greg McShane, Igor Rivin (1995) [A norm on homology of surfaces and counting simple geodesics](https://arxiv.org/abs/math/0005222)
 
 #
+<!-- _transition: fade -->
 ### Counting closed simple geodesics
 
 - character map $\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
@@ -364,6 +372,7 @@ $N(t) := \text{number of Markoff numbers} \leq t$
 
 
 # 
+<!-- _transition: cube -->
 ### Simple representatives
 
 ![bg left 50%](./ptorusx.svg)
@@ -383,6 +392,7 @@ $N(t) := \text{number of Markoff numbers} \leq t$
 
 
 #
+<!-- _transition: fade -->
 ### Norms and minimizers
 
 Let $c$ be an essential closed curve $\ell_c$ its length.
@@ -395,7 +405,10 @@ $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 
 #
 
-![w:800](./surgery.jpg)
+<!-- _transition: fade -->
+![w:1000](./surgery.jpg)
+
+* Cluster algebra folks call this a **smoothing**
 
 <!-- # -->
 
@@ -405,6 +418,7 @@ $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 
 #
 
+<!-- _transition: cube -->
 **Corollary:** Let T be a punctured torus  with a hyperbolic structure. 
 
 - Then, the shortest multicurve representing a non-trivial homology class $h$ is a simple closed geodesic if $h$ is a primitive homology class, and a multiply covered geodesic otherwise. 
@@ -412,11 +426,13 @@ $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 
 #
 
+<!-- _transition: cube -->
 ## Unit ball
 
 ![w:500](./holed_torus.png)
 
 #
+<!-- _transition: fade -->
 ### Unit ball and counting
 
  $\sharp \{ \gamma \in \mathbb{Z}^2,\, \| \gamma \| \leq t \} \sim \text{area unit ball}\times t^2$ 
@@ -425,6 +441,7 @@ $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 * with Rivin we studied it, but now it's called the Mirzakhani function :(
 
 #
+<!-- _transition: cube -->
 ## Why log ?
 $N(t) = C (\log(3t)^2 + O(\log t)$
 
@@ -435,12 +452,14 @@ $N(t) = C (\log(3t)^2 + O(\log t)$
 
 
 #
+<!-- _transition: fade -->
 ## Aigner's conjectures 
 
 
 ![w:1000](./aigner_mono.png)
 
 #
+<!-- _transition: fade -->
 ## Reformulate Aigner's conjectures 
 
 
@@ -456,11 +475,13 @@ $N(t) = C (\log(3t)^2 + O(\log t)$
 $\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$
 
 #
+<!-- _transition: fade -->
 ### Aigner's conjectures proof
 
 ![w:1000](./lines.png)
 
 #
+<!-- _transition: cube -->
 ##
 
 ![w:1100](./schiffler.png)
@@ -471,6 +492,7 @@ $\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$
 
 #
 
+<!-- _transition: fade -->
 [On the ordering of the Markoff numbers](https://arxiv.org/abs/2010.13010)
 Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler
 
@@ -479,7 +501,7 @@ in [P, BBH] that the Markoff numbers can be obtained from the cluster variables 
 algebra of the once-punctured torus by specializing the initial cluster variables to 1. Moreover, the clusters in the cluster algebra then specialize to the Markoff triples. On the other hand, the cluster variables can be computed by a combinatorial formula given as a summation over the perfect matchings of a so-called snake graph.
 
 #
-<!-- _transition: cube -->
+<!-- _transition: fade -->
 ## Snake graph
 
 ![w:800](./snake_6.png)
@@ -530,6 +552,14 @@ Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
 * "generator" of the automorphism group is $z \mapsto z + 1$
 * $z \mapsto -1/z$ normalises $\Gamma'$ so induces an involution of $\mathbb{H}/\Gamma'$
 * the involution has 3 fixed points which lift to the $\Gamma$ orbit of i.
+
+#
+<!-- _transition: cube -->
+![bg left 50%](./ptorusx.svg)
+
+* elliptic involution swaps triangles fixes midpoint of diagonal
+* $z \mapsto -1/z$ normalises induces an involution of $\mathbb{H}/\Gamma'$
+* the fixed points lift to the $\Gamma.\{i\}$
 
 #
 
@@ -656,6 +686,7 @@ $5 = 2^2 + 1^2$
 <!-- text_align: top -->
 
 #
+<!-- _transition: slide -->
 ## Lemma C
 
 The number of  ways of writing $m$  as a  sum of squares
@@ -664,17 +695,32 @@ is equal to the number of arcs on the modular surface
 1. of $\lambda$-length $m$ 
 1. which pass through the cone point of of order 2.
 
-
-# Proof of Button
-
-1. every Markoff number $m$ is the sum of two squares
-1. if $m$ is prime then there are two ways of doing this
-1. there are $\leq 12$ oriented simple arcs of $\lambda$ length $m$ on $\mathbb{H}/\Gamma'$
-1. the multiplicity of $m$ in the Markoff tree is at most 6
-
 #
+<!-- _transition: cube -->
 <iframe src="./button.html" height="600" width="700"></iframe>
 
 exactly 6 simple arcs of $\lambda$-length $m$ on $\mathbb{H}/\Gamma'$ 
+
+# Proof of Button
+
+<!-- _transition: slide -->
+ every Markoff number $m$ is the sum of two squares
+* if $m$ is prime then there are two ways of doing this
+* there are $\leq 12$ oriented simple arcs of $\lambda$ length $m$ on $\mathbb{H}/\Gamma'$
+* the multiplicity of $m$ in the Markoff tree is at most 6
+
+# In fact....
+
+
+ <p style = "text-align: left"> 
+if $m$ is a Markoff number and 
+</p>
+
+- $m = p^k$
+- or $m = 2p^k$
+
+ <p style = "text-align: left"> 
+then $m$ satisfies the uniqueness conjecture
+</p>
 
 # The End
