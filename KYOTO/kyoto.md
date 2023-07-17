@@ -628,13 +628,21 @@ Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
 <!-- - the **midpoint** of this vertical arc is at height $1/|ad - bc|$ -->
 
 
+#
+## pairing arcs and curves
+<!-- _transition: cube -->
+![bg left 50%](./ptorusx.svg)
+
+* modular torus obtained from a pair of ideal triangles by identification
+* blue arc $\gamma^*$  is the unique arc  disjoint from blue curve $\gamma^*$  
+
 
 #
 
 <!-- _transition: slide -->
 ### Lemma A
 
-The $\lambda$-length of the unique arc disjoint from the 
+The $\lambda$-length of the unique arc $\gamma^*$  disjoint from the 
 simple closed geodesic such that $m = \frac23 \cosh(\ell_\gamma/2)$ is $m$.
 
 *Proof:* Easy calculation
