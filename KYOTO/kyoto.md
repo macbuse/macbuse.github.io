@@ -602,7 +602,6 @@ Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
 <!-- - ie diameter is the square of the inverse of the denominator of $p/q$ -->
 
 #
-
 <!-- _transition: cube -->
 ![bg left 100%](./lambda.svg)
 
@@ -617,7 +616,6 @@ Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
 - **$2 \log \lambda$-length** = length of the portion outside Ford circles tangent to the real line at its endpoints
 
 
-<!-- text_align: top -->
 #
 <!-- _transition: cube -->
 ![bg left 100%](./lambda.svg)
@@ -629,16 +627,15 @@ Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
 
 
 #
-## pairing arcs and curves
 <!-- _transition: cube -->
+## pairing arcs and curves
 ![bg left 50%](./ptorusx.svg)
 
 * modular torus obtained from a pair of ideal triangles by identification
-* blue arc $\gamma^*$  is the unique arc  disjoint from blue curve $\gamma^*$  
+* blue arc $\gamma^*$  is the unique arc  disjoint from blue curve $\gamma$  
 
 
 #
-
 <!-- _transition: slide -->
 ### Lemma A
 
@@ -692,7 +689,7 @@ $$m = c^2 + d^2$$
 
 <!-- _transition: cube -->
 
-$5 = 2^2 + 1^2$
+$5 = 2^2 + 1^2= 1^2 + 2^2$
 
  $$\begin{pmatrix} 1& 0 \\ 2& 1 \end{pmatrix}.i
 = \frac{i}{2i+1} = \frac25 + \frac{i}{5}$$
@@ -731,14 +728,14 @@ exactly 6 simple arcs of $\lambda$-length $m$ on $\mathbb{H}/\Gamma'$
 <!-- _transition: glow -->
 
  <p style = "text-align: left"> 
-if $m$ is a Markoff number and 
+if m is a Markoff number and 
 </p>
 
 - $m = p^k$
 - or $m = 2p^k$
 
  <p style = "text-align: left"> 
-then $m$ satisfies the uniqueness conjecture
+then m satisfies the uniqueness conjecture
 </p>
 
 # 
