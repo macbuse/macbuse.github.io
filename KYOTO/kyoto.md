@@ -500,7 +500,6 @@ $\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$
 [source](https://arxiv.org/pdf/2010.13010.pdf)
 
 #
-
 <!-- _transition: fade -->
 [On the ordering of the Markoff numbers](https://arxiv.org/abs/2010.13010)
 Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler
@@ -515,13 +514,11 @@ algebra of the once-punctured torus by specializing the initial cluster variable
 
 ![w:800](./snake_6.png)
 
-
 #
 <!-- _transition: cube -->
 ##
 
 ![w:1000](./schif_proof.png)
-
 
 #
 <!-- _transition: slide -->
@@ -571,7 +568,6 @@ Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
 * the fixed points lift to the $\Gamma.\{i\}$
 
 #
-
 <!-- _transition: slide -->
 ![w:650](./farey_tree.png)
 
