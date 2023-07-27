@@ -322,6 +322,8 @@ fractal in the character variety.
 
 Mostly geometry of surfaces and (elementary) number theory.
 
+- [Isospectral configurations in Euclidean and Hyperbolic
+Geometry](./MC0726.pdf)
 - [Convexity and Aigner's Conjectures](https://arxiv.org/pdf/2101.03316.pdf)
 -  [EISENSTEIN INTEGERS AND EQUILATERAL IDEAL TRIANGLES](./eisenstein.pdf)
 -  [GEOMETRY OF FERMAT’S SUM OF SQUARES](./squares.pdf)
