@@ -8,7 +8,6 @@ title: Home
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
-* [Serfest talk](./KYOTO/kyoto.html)
 
 <!-- - I am currently in confinement with COVID -->
 <!-- - This week I'm sad :( because Copilot is out of beta preview. -->
@@ -30,12 +29,23 @@ title: Home
 	<!-- - [special session schedule](./schedule_amssmf.md) -->
 
 
-#### what I've been doing lately
+
+
+
+#### What have I  been doing lately?
+
+
+Travelling in Japan visiting TiTech and Rims
+
+* [Serfest talk RIMS](./KYOTO/kyoto.html)
+* [Seminar TiTech]()
+
 
 Geometry of surfaces and its relations with number theory
 here are some preprints.
 
 <!-- -  [Markov uniqueness, pants and the Bunyakovsky conjecture](./uniqueness.pdf) -->
+- [Isospectral configurations in Euclidean and Hyperbolic Geometry](./MC0726.pdf)
 -  [Eisenstein integers and equilateral ideal triangles](./eisenstein.pdf)
 -  [Geometry of Fermat’s sum of squares](./squares.pdf)
 -  [Convexity and Aigner's Conjectures](https://arxiv.org/pdf/2101.03316.pdf)
