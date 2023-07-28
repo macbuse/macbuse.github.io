@@ -9,6 +9,8 @@ title: Home
 ### mcshane@univ-grenoble-alpes.fr
 
 
+[TITECH talk 28 July](./TIT2023/tokyo.html)
+
 <!-- - I am currently in confinement with COVID -->
 <!-- - This week I'm sad :( because Copilot is out of beta preview. -->
 <!-- - I am very busy with refereeing -->
@@ -27,8 +29,6 @@ title: Home
 - I organised a [special session](./schedule_amssmf.md) **AMS-EMS-SMF** Joint International Meeting in July. 
 	<!-- - [event programme](https://ams-ems-smf2022.inviteo.fr/index.php?langue=en&onglet=11&acces=&idUser=&emailUser=&messageConfirmation=) -->
 	<!-- - [special session schedule](./schedule_amssmf.md) -->
-
-
 
 
 
