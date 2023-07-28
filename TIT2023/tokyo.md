@@ -66,8 +66,8 @@ greg mc shane
 
 
 * $\Gamma = \mathrm{PSL}(2,\mathbb{Z})$ two index 6 subgroups
-* $\Gamma(2) = \ker (\Gamma →\mathrm{PSL}(2,\mathbb{Z}/2\mathbb{Z})) \simeq \mathfrak{S}_3$
-* $\Gamma' = [\Gamma,\Gamma] = \ker (\Gamma →\mathbb{Z}/6\mathbb{Z})$ 
+* $\Gamma(2) = \ker (\Gamma →\mathrm{PSL}(2,\mathbb{Z}/2\mathbb{Z})) \simeq \mathbb{Z}*\mathbb{Z}$
+* $\Gamma' = [\Gamma,\Gamma] = \ker (\Gamma →\mathbb{Z}/6\mathbb{Z})\simeq \mathbb{Z}*\mathbb{Z}$ 
 * $\mathbb{H}/\Gamma(2) =$ three punctured sphere, automorphisms $\simeq \mathfrak{S}_3$
 * $\mathbb{H}/\Gamma' =$ modular torus, automorphisms $\simeq \mathbb{Z}/6\mathbb{Z}$ 
 
@@ -872,12 +872,13 @@ fixes two and exactly two arcs in $X$.
 # Question
 <!-- _transition: glow -->
 
-Can other elementary results for quadratic forms be interpreted in a similar way?
+ Can other elementary results for quadratic forms 
+ be interpreted in a similar way?
 
-- Fermat $x^2 + 2y^2 = p$ for $p = 1, 3 \mod 8$
+* Fermat $x^2 + 2y^2 = p$ for $p = 1, 3 \mod 8$
+ using arcs $\mathbb{H}/\Gamma_0(2)$ where $\Gamma_0(n) := \left\{\begin{pmatrix} 1 & * \\ 0 & 1 \end{pmatrix} \mod n \right\}$
 
-using arcs $\mathbb{H}/\Gamma_0(2)$ where $\Gamma_0(n) := \left\{\begin{pmatrix} 1 & * \\ 0 & 1 \end{pmatrix} \mod n \right\}$
-
+* Baragar ? [m, 3m - 2, 3m + 2 prime](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88B0E426FFCBEA8B3A345C1074B8CC59/S0008439500018828a.pdf/on-the-unicity-conjecture-for-markoff-numbers.pdf)
 
 
 
