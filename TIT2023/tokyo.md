@@ -230,7 +230,7 @@ $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 $\mathbb{Q}\cup \infty \subset$ circle/projective line
 
 * $(a,c)\text{ primitive } \mapsto a/c \in \mathbb{Q}\cup \infty$
-* $\begin{pmatrix} a & d \\ c & d \end{pmatrix} \mapsto$  arc joining $(a/c, b/d)$ 
+* $\begin{pmatrix} a & b \\ c & d \end{pmatrix} \mapsto$  arc joining $(a/c, b/d)$ 
 * $(a/b, c/d)$ are Farey neighbors iff $|ad - bc | =  1$
 * obvious transitive $SL(2,\mathbb{Z})$  action on Farey neighbors
 
