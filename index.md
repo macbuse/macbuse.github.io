@@ -9,7 +9,6 @@ title: Home
 ### mcshane@univ-grenoble-alpes.fr
 
 
-[TITECH talk 28 July](./TIT2023/tokyo.html)
 
 <!-- - I am currently in confinement with COVID -->
 <!-- - This week I'm sad :( because Copilot is out of beta preview. -->
@@ -38,7 +37,7 @@ title: Home
 Travelling in Japan visiting TiTech and Rims
 
 * [Serfest talk RIMS](./KYOTO/kyoto.html)
-* [Seminar TiTech]()
+* [TITECH talk 28 July](./TIT2023/tokyo.html)
 
 
 Geometry of surfaces and its relations with number theory
@@ -343,12 +342,21 @@ Geometry](./MC0726.pdf)
 
 ## Talks
 
-Talks are [Reveal.js](https://revealjs.com/) slides 
+Talks were [Reveal.js](https://revealjs.com/) slides till 2023
+but I've switched to [Marp](https://github.com/marp-team/marp) but
+it's  basically the same
+
 - blue arrows = next/previous
-- esc-key foroverview
+<!-- - esc-key foroverview -->
 - blue text is a link to a resource on the web
 
+
 ---
+### 2023
+
+* [Serfest talk RIMS](./KYOTO/kyoto.html)
+* [TITECH talk 28 July](./TIT2023/tokyo.html)
+
 ### 2022
 
 
