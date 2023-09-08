@@ -96,25 +96,24 @@ more [here](./mono.md)
 <!-- ``` -->
 
 ---
-# Teaching 2022-23
+# Teaching 2023-24
 
-[Last year's teaching](./teaching_2021.md)
+<!-- [Last year's teaching](./teaching_2021.md) -->
 
 ## Second semester
 
-### MNUM 
+<!-- ### MNUM --> 
 
-- **Salle F217 batiment F**
-- [page pour la classe](./mnum_index.md)
-- First class: mercredi 18/1 ou  vendredi 20/1
+<!-- - **Salle F217 batiment F** -->
+<!-- - [page pour la classe](./mnum_index.md) -->
+<!-- - First class: mercredi 18/1 ou  vendredi 20/1 -->
 
-- mercredi 13h45
-- vendredi 13h45
+<!-- - mercredi 13h45 -->
+<!-- - vendredi 13h45 -->
 
 
-[Correction examen 19/5/2022]( ./METH_NUM/cf_2022.pdf)
+<!-- [Correction examen 19/5/2022]( ./METH_NUM/cf_2022.pdf) -->
 
----
 
 
 ## First semester
@@ -123,44 +122,43 @@ more [here](./mono.md)
 
 ### MAT 102
 
-<!-- - First class: 14/9 -->
+<!-- - First class: 13/9 -->
 - Wednesdays 15h15, Thursday 8h
 - [web page for class](./MAT102/index.md)
 
 ---
 
-<!-- {target="_blank} -->
 ### MAT305
 
-<!-- - First class: 13/9 -->
+<!-- - First class: 12/9 -->
 - Tuesdays 8:00 Wednesdays 9:45
 - [web page for class](./MAT305/index.md)
 
 ---
 
-### Introduction à la programmation 
+<!-- ### Introduction à la programmation --> 
 
-<!-- - First class: 16/09 -->
-- Fridays 13:45
-- [page for the class](./PROG/index.md)
-<!-- - If you are coming to this class then please install [Anaconda](https://www.anaconda.com/products/distribution). -->
+<!-- <!-1- - First class: 16/09 -1-> -->
+<!-- - Fridays 13:45 -->
+<!-- - [page for the class](./PROG/index.md) -->
+<!-- <!-1- - If you are coming to this class then please install [Anaconda](https://www.anaconda.com/products/distribution). -1-> -->
 
-Evaluation is by project. Here are some of the finished projects from 2020 and 2021:
+<!-- Evaluation is by project. Here are some of the finished projects from 2020 and 2021: -->
 
-1. [sudoko with digit recognition](./STAGE/Sudoku_-_Sarah_Depernet.html)
-1. [labrinths on surfaces](./STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html)
-1. [labrinths classic](./STAGE/HARENG_L3A1.html)
-1. [Mastermind d'apres Knuth](./STAGE/Mastermind_projet_Touron_Camille_L3A-checkpoint.html)
-
-
-Video of a 120-cell by Muaad Tamtam et Damis El Alami.
-
- <video  id="my-player" class="video-js vjs-default-skin vjs-big-play-centered" controls="controls"  width="600">
-<source src="./PROG/120-cell.mp4" type="video/mp4">
- </video>
+<!-- 1. [sudoko with digit recognition](./STAGE/Sudoku_-_Sarah_Depernet.html) -->
+<!-- 1. [labrinths on surfaces](./STAGE/projet-info_Abel-Douzal_Charles-Schwing-2021-2022.html) -->
+<!-- 1. [labrinths classic](./STAGE/HARENG_L3A1.html) -->
+<!-- 1. [Mastermind d'apres Knuth](./STAGE/Mastermind_projet_Touron_Camille_L3A-checkpoint.html) -->
 
 
-And this is something I learned to do by talking to the students (and going on forums).
+<!-- Video of a 120-cell by Muaad Tamtam et Damis El Alami. -->
+
+<!--  <video  id="my-player" class="video-js vjs-default-skin vjs-big-play-centered" controls="controls"  width="600"> -->
+<!-- <source src="./PROG/120-cell.mp4" type="video/mp4"> -->
+<!--  </video> -->
+
+
+<!-- And this is something I learned to do by talking to the students (and going on forums). -->
 
 
 ### Simulation of an epidemic 
