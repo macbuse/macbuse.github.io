@@ -177,7 +177,7 @@ title: MAT305
 <!-- - [1.5 3D interactive](./cone.html) -->
 <!-- - [1.6 3D interactive](./half_pipe.html) -->
 <!-- - [1.7](https://www.wolframalpha.com/input?i=plot++x+%2B+2y+%2B+3) -->
-	- [x + 2y + 3 = 0](https://www.wolframalpha.com/input?i=+y+%3D+-%28+x%2B+3%29%2F2)
+<!-- - [x + 2y + 3 = 0](https://www.wolframalpha.com/input?i=+y+%3D+-%28+x%2B+3%29%2F2) -->
 <!-- - [1.10](https://www.wolframalpha.com/input?i=plot+++%E2%88%92x+%2B+y) -->
 <!-- - [1.10 3D interactive](./plane_x.html) -->
 
