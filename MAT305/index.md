@@ -6,12 +6,20 @@ title: MAT305
 
 # Mat 305
 
-<!-- - First class: 13/9 -->
-- Tuesdays 9:45 Wednesdays 9:45
+
+- Tuesdays 8:00
+- Wednesdays 9:45
+- First class: 12/9
+
+
+## Programme
+
+1.  Fonctions de plusieurs variables
+1.  Algèbre linéaire
 
 
 <!-- - [web page avec tous les documents](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php) -->
-- [2021 TD archived page](./MAT305_index.md)
+<!-- - [2021 TD archived page](./MAT305_index.md) -->
 <!-- - [mes calculs](./uniqueness.pdf) -->
 
 ---
@@ -158,22 +166,22 @@ title: MAT305
 ---
 
 
-[F1](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD1.pdf)
+[F1](./F1_2023exos.pdf)
 
 **RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
-**Exos**
+<!-- **Exos** -->
 
-- [1.2](https://www.wolframalpha.com/input?i=plot+-2x+%2B+3)
-- [1.3](https://www.wolframalpha.com/input?i=plot++1+%2B+1%2F%28x+%2B+2%29)
-- [1.5 3D interactive](./cone.html)
-- [1.6 3D interactive](./half_pipe.html)
-- [1.7](https://www.wolframalpha.com/input?i=plot++x+%2B+2y+%2B+3)
+<!-- - [1.2](https://www.wolframalpha.com/input?i=plot+-2x+%2B+3) -->
+<!-- - [1.3](https://www.wolframalpha.com/input?i=plot++1+%2B+1%2F%28x+%2B+2%29) -->
+<!-- - [1.5 3D interactive](./cone.html) -->
+<!-- - [1.6 3D interactive](./half_pipe.html) -->
+<!-- - [1.7](https://www.wolframalpha.com/input?i=plot++x+%2B+2y+%2B+3) -->
 	- [x + 2y + 3 = 0](https://www.wolframalpha.com/input?i=+y+%3D+-%28+x%2B+3%29%2F2)
-- [1.10](https://www.wolframalpha.com/input?i=plot+++%E2%88%92x+%2B+y)
-- [1.10 3D interactive](./plane_x.html)
+<!-- - [1.10](https://www.wolframalpha.com/input?i=plot+++%E2%88%92x+%2B+y) -->
+<!-- - [1.10 3D interactive](./plane_x.html) -->
 
 
 ---
 
-[Diagonalisation solutions](./sols.md)
+<!-- [Diagonalisation solutions](./sols.md) -->
