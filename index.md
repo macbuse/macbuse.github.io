@@ -16,6 +16,37 @@ title: Home
 <!-- - I did a [stage ](./STAGE/web.html) high school students. -->
 <!-- - this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded. -->
 - Why is this page on GitHub? [Read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/)
+---
+
+## Teaching 2023-24
+
+### First semester
+
+<!-- [More details](teaching.md) -->
+
+#### MAT 102
+
+<!-- - First class: 13/9 -->
+- Wednesdays 15h15, Thursday 8h
+- [web page for class](./MAT102/index.md)
+
+---
+
+#### MAT305
+
+<!-- - First class: 12/9 -->
+- Tuesdays 8:00 Wednesdays 9:45
+- [web page for class](./MAT305/index.md)
+
+---
+
+### Second semester
+
+- delegation CNRS
+
+
+---
+
 
 <h1 id="research">Research</h1>
 
@@ -96,11 +127,8 @@ more [here](./mono.md)
 <!-- ``` -->
 
 ---
-# Teaching 2023-24
 
-<!-- [Last year's teaching](./teaching_2021.md) -->
 
-## Second semester
 
 <!-- ### MNUM --> 
 
@@ -113,28 +141,6 @@ more [here](./mono.md)
 
 
 <!-- [Correction examen 19/5/2022]( ./METH_NUM/cf_2022.pdf) -->
-
-
-
-## First semester
-
-<!-- [More details](teaching.md) -->
-
-### MAT 102
-
-<!-- - First class: 13/9 -->
-- Wednesdays 15h15, Thursday 8h
-- [web page for class](./MAT102/index.md)
-
----
-
-### MAT305
-
-<!-- - First class: 12/9 -->
-- Tuesdays 8:00 Wednesdays 9:45
-- [web page for class](./MAT305/index.md)
-
----
 
 <!-- ### Introduction à la programmation --> 
 
