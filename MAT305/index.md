@@ -173,11 +173,14 @@ title: MAT305
 **Exos**
 
 
-- 2.2
-[solution](https://www.wolframalpha.com/input?i=derivative+sqrt%283+-+2x%29)
+- [1.2 graph](https://www.wolframalpha.com/input?i=plot+-2x+%2B+3)
+- [1.3 graph](https://www.wolframalpha.com/input?i=plot++1+%2B+1%2F%28x+%2B+2%29)
+- [1.4 graph](https://www.wolframalpha.com/input?i=plot++%7C2x+-3%7C)
 
-<!-- - [1.2](https://www.wolframalpha.com/input?i=plot+-2x+%2B+3) -->
-<!-- - [1.3](https://www.wolframalpha.com/input?i=plot++1+%2B+1%2F%28x+%2B+2%29) -->
+- 2.1.2 [derivative](https://www.wolframalpha.com/input?i=derivative+sqrt%283+-+2x%29)
+- 2.1.3 [derivative](https://www.wolframalpha.com/input?i=derivative+1%2F%28x%5E2%2B1%29)
+- 2.1.4 [graph](https://www.wolframalpha.com/input?i=plot+%28x-1%29%2F%28x%2B1%29)
+
 <!-- - [1.5 3D interactive](./cone.html) -->
 <!-- - [1.6 3D interactive](./half_pipe.html) -->
 <!-- - [1.7](https://www.wolframalpha.com/input?i=plot++x+%2B+2y+%2B+3) -->
