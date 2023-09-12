@@ -170,7 +170,11 @@ title: MAT305
 
 **RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
-<!-- **Exos** -->
+**Exos**
+
+
+- 2.2
+[solution](https://www.wolframalpha.com/input?i=derivative+sqrt%283+-+2x%29)
 
 <!-- - [1.2](https://www.wolframalpha.com/input?i=plot+-2x+%2B+3) -->
 <!-- - [1.3](https://www.wolframalpha.com/input?i=plot++1+%2B+1%2F%28x+%2B+2%29) -->
