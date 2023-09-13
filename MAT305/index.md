@@ -168,6 +168,10 @@ title: MAT305
 
 [F1](./F1_2023exos.pdf)
 
+**PREPARER** 
+
+- pour 19/9 Exercice 1.5 (Équation d’état des gaz parfaits)- [sur wikipedia](https://fr.wikipedia.org/wiki/Loi_des_gaz_parfaits)
+
 **RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
 **Exos**
