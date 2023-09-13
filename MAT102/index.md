@@ -1,14 +1,14 @@
 # MAT 102
 
-- First class: 14/9
+- First class: 13/9
 - Wednesdays 15h15, Thursday 8h
 
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
 - [poly](./polyMAT102-main.pdf) 
 
----
+<!-- --- -->
 
-- Last class 15/12 : bonnes vacances 
+<!-- - Last class 15/12 : bonnes vacances --> 
 - My [new friend](https://chat.openai.com/chat) wrote a story for us.
 
 ```
@@ -28,42 +28,42 @@ And [here is the result](./story.md).
 <!-- - [lapin de Douady](https://youtu.be/JttLtB0Gkdk ) -->
 <!-- <!-1- - [mandelbrottle](https://github.com/macbuse/Mandelbrottle/blob/master/mandelbrotlle_coke.ipynb) -1-> -->
 
----
+<!-- --- -->
 
-[F5](./Fiche5-integrales.pdf)
+<!-- [F5](./Fiche5-integrales.pdf) -->
 
-- [exo 5](./Fiche5Ex5.pdf)
-- [exo 6](./Fiche5Ex6.pdf)
-- [exo 7](./Fiche5Ex7.pdf)
-- [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29)
-- [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29)
-- [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29)
-- [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29)
-- [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29)
-- [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29)
+<!-- - [exo 5](./Fiche5Ex5.pdf) -->
+<!-- - [exo 6](./Fiche5Ex6.pdf) -->
+<!-- - [exo 7](./Fiche5Ex7.pdf) -->
+<!-- - [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29) -->
+<!-- - [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29) -->
+<!-- - [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29) -->
+<!-- - [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29) -->
+<!-- - [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29) -->
+<!-- - [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29) -->
 
----
+<!-- --- -->
 
-[F4](./Fiche4-fonctions.pdf)
+<!-- [F4](./Fiche4-fonctions.pdf) -->
 
----
+<!-- --- -->
 
-[F3](./Fiche3-geometrie.pdf)
+<!-- [F3](./Fiche3-geometrie.pdf) -->
 
----
+<!-- --- -->
 
-[F2](./Fiche2-sommes-produits.pdf)
-- [quick test](./qt2.pdf)
+<!-- [F2](./Fiche2-sommes-produits.pdf) -->
+<!-- - [quick test](./qt2.pdf) -->
 
-- [Suite arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique)
-- [Suite géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique)
-- [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique)
+<!-- - [Suite arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique) -->
+<!-- - [Suite géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique) -->
+<!-- - [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique) -->
 
 
 ---
 
 [F1](./Fiche1-complexes.pdf)
-- [quick test](./)
+- [quick test](./quick_test.pdf)
 
 ### exos avec commentaires
 
