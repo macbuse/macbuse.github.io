@@ -174,6 +174,8 @@ title: MAT305
 
 **RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
+---
+
 **Exos**
 
 

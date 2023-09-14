@@ -67,6 +67,24 @@ And [here is the result](./story.md).
 
 ### exos avec commentaires
 
+**Exo 4**
+
+1. pas de solution
+
+1. [solve −5x^2−9x+2 = 0](https://www.wolframalpha.com/input?i=solve++%E2%88%925x%5E2%E2%88%929x%2B2)
+1. [solve  1/3 x^2−2x+3 = 0](https://www.wolframalpha.com/input?i=solve++1%2F3+x%5E2%E2%88%922x%2B3+%3D+0)
+1. [ −4x+3x 2+1 = 0](https://www.wolframalpha.com/input?i=solve+++%E2%88%924x%2B3x%5E2%2B1+%3D+0)
+
+**Exo 6**
+
+1. [(2, 1)  - (−1, 2)](https://www.wolframalpha.com/input?i=%282%2C+1%29++-+%28%E2%88%921%2C+2%29)
+
+1. [(5, −3)  - (3,
+1)](https://www.wolframalpha.com/input?i=%285%2C+%E2%88%923%29++-+%283%2C+1%29)
+
+---
+
+
 **1.3.1.2 Calcul des racines carrées via la forme algébrique**
 
 - [11 e](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D+8+%E2%88%92+6i)
