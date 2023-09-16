@@ -204,6 +204,7 @@ title: MAT305
 - [1.4.6 3D interactive](./plane_x.html)
 
 
+- [1.6 3D interactive](./cos_cone.html)
 ---
 
 <!-- [Diagonalisation solutions](./sols.md) -->
