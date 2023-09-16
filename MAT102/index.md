@@ -9,7 +9,7 @@
 <!-- --- -->
 
 <!-- - Last class 15/12 : bonnes vacances --> 
-- My [new friend](https://chat.openai.com/chat) wrote a story for us.
+- My [new friend the ChatGPT](https://chat.openai.com/chat) wrote a story for us.
 
 ```
 
@@ -63,7 +63,18 @@ And [here is the result](./story.md).
 ---
 
 [F1](./Fiche1-complexes.pdf)
-- [quick test](./quick_test.pdf)
+- [quick test Octobre 2022](./quick_test.pdf)
+
+---
+
+**Preparer** Exercices de base sur les nombres complexes, exos 9,10
+
+**Verifier** vos réponses avec WolframAlpha :  exemples
+
+- [question 10 a](https://www.wolframalpha.com/input?i=simplify+%281+%2B+i%29%5E2)
+- [question 10 e](https://www.wolframalpha.com/input?i=simplify+%281+%2B+2i%29%283+%2B+4i%29+)
+---
+
 
 ### exos avec commentaires
 
@@ -73,9 +84,11 @@ And [here is the result](./story.md).
 
 1. [solve −5x^2−9x+2 = 0](https://www.wolframalpha.com/input?i=solve++%E2%88%925x%5E2%E2%88%929x%2B2)
 1. [solve  1/3 x^2−2x+3 = 0](https://www.wolframalpha.com/input?i=solve++1%2F3+x%5E2%E2%88%922x%2B3+%3D+0)
-1. [ −4x+3x 2+1 = 0](https://www.wolframalpha.com/input?i=solve+++%E2%88%924x%2B3x%5E2%2B1+%3D+0)
+1. [ −4x+3x^2+1 = 0](https://www.wolframalpha.com/input?i=solve+++%E2%88%924x%2B3x%5E2%2B1+%3D+0)
 
 **Exo 6**
+
+Distance AB = longueur du vecteur A - B (et du B - A)
 
 1. [(2, 1)  - (−1, 2)](https://www.wolframalpha.com/input?i=%282%2C+1%29++-+%28%E2%88%921%2C+2%29)
 

@@ -196,12 +196,12 @@ title: MAT305
 - 3.3 [solve  x + ln(y)>0](https://www.wolframalpha.com/input?i=solve++x+%2B+ln%28y%29%3E0)
 - 3.5 [y sin(x) graph and contour plot](https://www.wolframalpha.com/input?i=plot+y+sin%28x%29++for+x+from+-2pi+to+2pi+and++y+from+-1+to+1)
 
-<!-- - [1.5 3D interactive](./cone.html) -->
-<!-- - [1.6 3D interactive](./half_pipe.html) -->
+- [1.4.1 3D interactive](./cone.html)
+- [1.4.2 3D interactive](./half_pipe.html)
 <!-- - [1.7](https://www.wolframalpha.com/input?i=plot++x+%2B+2y+%2B+3) -->
 <!-- - [x + 2y + 3 = 0](https://www.wolframalpha.com/input?i=+y+%3D+-%28+x%2B+3%29%2F2) -->
 <!-- - [1.10](https://www.wolframalpha.com/input?i=plot+++%E2%88%92x+%2B+y) -->
-<!-- - [1.10 3D interactive](./plane_x.html) -->
+- [1.4.6 3D interactive](./plane_x.html)
 
 
 ---
