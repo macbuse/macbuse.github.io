@@ -112,8 +112,6 @@ title: MAT305
 
 <!-- [F2](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/MAT305-TD2.pdf) -->
 
-<!-- **RAPPEL** --> 
-<!-- 1. [derivatives : poly mat102 pages 49-50](./mat102_functions.pdf) -->
 <!-- 1. [droites et plans : poly mat102 pages 30-34](./polyMAT102-lines.pdf) -->
 
 <!-- **Exos** -->
@@ -125,13 +123,13 @@ title: MAT305
 <!-- 	1. [ellipse](https://mathworld.wolfram.com/Ellipse.html) -->
 <!-- 	1. ellipse -->
 <!-- 	1. demi droite -->
-<!-- 	1. [astroid](https://mathworld.wolfram.com/Astroid.html) -->
-<!-- - [exo 2.2](https://www.wolframalpha.com/input?i=%282+x%29%2F%28x+%2B+y%29+%2B+log%28x%5E2+-+y%5E2%29) -->
-<!-- 	- [derivee $f_{xy}$](https://www.wolframalpha.com/input?i=derivative+x+of+-%282+y%29%2F%28x+%2B+y%29+-+log%28x%5E2+-+y%5E2%29) -->
-<!-- 	- [derivee $f_{yx}$](https://www.wolframalpha.com/input?i=derivative+y+of+%282+x%29%2F%28x+%2B+y%29+%2B+log%28x%5E2+-+y%5E2%29) -->
+
+<!-- - [derivee $f_{xy}$](https://www.wolframalpha.com/input?i=derivative+x+of+-%282+y%29%2F%28x+%2B+y%29+-+log%28x%5E2+-+y%5E2%29) -->
+<!-- - [derivee $f_{yx}$](https://www.wolframalpha.com/input?i=derivative+y+of+%282+x%29%2F%28x+%2B+y%29+%2B+log%28x%5E2+-+y%5E2%29) -->
+
 <!-- - [exo 2.3](https://www.wolframalpha.com/input?i=exp%28x%5E2+%2B+y%5E2%29+%2B+cos%28xy%29) -->
-<!-- 	- [derivee $f_{yx}$](https://www.wolframalpha.com/input?i=derivate+y+of+2+e%5E%28x%5E2+%2B+y%5E2%29+x+-+y+sin%28x+y%29) -->
-<!-- 	- [derivee $f_{xy}$](https://www.wolframalpha.com/input?i=derivate+x+of+2+e%5E%28x%5E2+%2B+y%5E2%29+y+-+x+sin%28x+y%29) -->
+<!-- - [derivee $f_{yx}$](https://www.wolframalpha.com/input?i=derivate+y+of+2+e%5E%28x%5E2+%2B+y%5E2%29+x+-+y+sin%28x+y%29) -->
+<!-- - [derivee $f_{xy}$](https://www.wolframalpha.com/input?i=derivate+x+of+2+e%5E%28x%5E2+%2B+y%5E2%29+y+-+x+sin%28x+y%29) -->
 
 <!-- - exo 3 est difficile  la fonction ne verifie pas la relation de Schwarz en (0,0) -->
 <!-- 	- [voici le graphe](http/grs://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29) -->
@@ -167,9 +165,28 @@ title: MAT305
 
 [F2](./F2_2023exos.pdf)
 
+**PREPARER** 
+
+Pour 26/9
+
+
+**RAPPEL** 
+-  [derivatives : poly mat102 pages 49-50](./mat102_functions.pdf)
+
+---
+
+Exo 1.2
+
+- [x ln(y^2 + 1)](https://www.wolframalpha.com/input?i=derivative+of+x+ln%28y%5E2+%2B+1%29)
+- [(x − y) ln(x^2 − y^2 )](https://www.wolframalpha.com/input?i=derivative+of+%28x+%E2%88%92+y%29+ln%28x%5E2+%E2%88%92+y%5E2+%29%3B)
+- [exp(x^2+y^3 ) −
+cos(xy)](https://www.wolframalpha.com/input?i=derivative+of+exp%28x%5E2%2By%5E3+%29+%E2%88%92+cos%28xy%29)
+
 ---
 
 [F1](./F1_2023exos.pdf)
+
+**RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
 **PREPARER** 
 
@@ -178,7 +195,6 @@ title: MAT305
 - [2.c](https://www.wolframalpha.com/input?i=plot+y%2Fx+for+x+from+0+to+2+and+y+from+0+to+2)
 
 
-**RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
 ---
 
