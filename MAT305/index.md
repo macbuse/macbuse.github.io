@@ -174,6 +174,9 @@ title: MAT305
 **PREPARER** 
 
 - pour 19/9 Exercice 1.5 (Équation d’état des gaz parfaits)- [sur wikipedia](https://fr.wikipedia.org/wiki/Loi_des_gaz_parfaits)
+- [1:d + e](https://www.wolframalpha.com/input?i=plot+xy+for+x+from+0+to+10+and+y+from+0+to+10)
+- [2.c](https://www.wolframalpha.com/input?i=plot+y%2Fx+for+x+from+0+to+2+and+y+from+0+to+2)
+
 
 **RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
