@@ -67,12 +67,15 @@ And [here is the result](./story.md).
 
 ---
 
+**Preparer** Exos 16,18
+
 **Preparer** Exercices de base sur les nombres complexes, exos 9,10
 
 **Verifier** vos réponses avec WolframAlpha :  exemples
 
 - [question 10 a](https://www.wolframalpha.com/input?i=simplify+%281+%2B+i%29%5E2)
 - [question 10 e](https://www.wolframalpha.com/input?i=simplify+%281+%2B+2i%29%283+%2B+4i%29+)
+
 ---
 
 
