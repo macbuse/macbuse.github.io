@@ -167,7 +167,10 @@ title: MAT305
 
 **PREPARER** 
 
-Pour 26/9
+Pour 26/9 : 1.2. Dérivées partielles, gradient 
+
+Pour 27/9 : 1.3. Problème 1.1 (Équation des ondes).
+
 
 
 **RAPPEL** 
@@ -185,7 +188,6 @@ cos(xy)](https://www.wolframalpha.com/input?i=derivative+of+exp%28x%5E2%2By%5E3+
 ---
 
 [F1](./F1_2023exos.pdf)
-
 **RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
 **PREPARER** 
