@@ -187,8 +187,9 @@ cos(xy)](https://www.wolframalpha.com/input?i=derivative+of+exp%28x%5E2%2By%5E3+
 
 **Problem**
 
-[demo
-interactif](https://demonstrations.wolfram.com/LaSuperpositionDeDeuxOndesFrench/)
+- [demo interactif](https://demonstrations.wolfram.com/LaSuperpositionDeDeuxOndesFrench/)
+- [ANC headphones](https://en.wikipedia.org/wiki/Noise-cancelling_headphones)
+
 
 - [cos( x + y -1) for x from -4*pi to 4*pi](https://www.wolframalpha.com/input?i=plot+cos%28+x+%2B+y+-1%29+for+x+from+-4*pi+to+4*pi+)
 - [cos( -x + y -1) for x from -4*pi to 4*pi](https://www.wolframalpha.com/input?i=plot+cos%28-+x+%2B+y+-1%29+for+x+from+-4*pi+to+4*pi+)
