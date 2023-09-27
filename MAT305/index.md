@@ -185,9 +185,21 @@ Exo 1.2
 - [exp(x^2+y^3 ) −
 cos(xy)](https://www.wolframalpha.com/input?i=derivative+of+exp%28x%5E2%2By%5E3+%29+%E2%88%92+cos%28xy%29)
 
+**Problem**
+
+[demo
+interactif](https://demonstrations.wolfram.com/LaSuperpositionDeDeuxOndesFrench/)
+
+- [cos( x + y -1) for x from -4*pi to 4*pi](https://www.wolframalpha.com/input?i=plot+cos%28+x+%2B+y+-1%29+for+x+from+-4*pi+to+4*pi+)
+- [cos( -x + y -1) for x from -4*pi to 4*pi](https://www.wolframalpha.com/input?i=plot+cos%28-+x+%2B+y+-1%29+for+x+from+-4*pi+to+4*pi+)
+- [superposition](https://www.wolframalpha.com/input?i=plot+cos%28+x+%2B+y+-1%29+%2B+cos%28+-x+%2B+y+-1%29+for+x+from+-2*pi+to+2*pi+)
+
+
 ---
 
 [F1](./F1_2023exos.pdf)
+
+
 **RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
 **PREPARER** 

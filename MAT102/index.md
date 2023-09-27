@@ -69,7 +69,7 @@ And [here is the result](./story.md).
 
 **Preparer** Exos 16,18
 
-**Preparer** Exercices de base sur les nombres complexes, exos 9,10
+**Preparer** Exos 9,10
 
 **Verifier** vos réponses avec WolframAlpha :  exemples
 
