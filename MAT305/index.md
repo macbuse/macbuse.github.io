@@ -182,8 +182,7 @@ Exo 1.2
 
 - [x ln(y^2 + 1)](https://www.wolframalpha.com/input?i=derivative+of+x+ln%28y%5E2+%2B+1%29)
 - [(x − y) ln(x^2 − y^2 )](https://www.wolframalpha.com/input?i=derivative+of+%28x+%E2%88%92+y%29+ln%28x%5E2+%E2%88%92+y%5E2+%29%3B)
-- [exp(x^2+y^3 ) −
-cos(xy)](https://www.wolframalpha.com/input?i=derivative+of+exp%28x%5E2%2By%5E3+%29+%E2%88%92+cos%28xy%29)
+- [exp(x^2+y^3 ) − cos(xy)](https://www.wolframalpha.com/input?i=derivative+of+exp%28x%5E2%2By%5E3+%29+%E2%88%92+cos%28xy%29)
 
 **Problem**
 
@@ -204,6 +203,11 @@ cos(xy)](https://www.wolframalpha.com/input?i=derivative+of+exp%28x%5E2%2By%5E3+
 **RAPPEL** [poly mat102 pages 37-41](./mat102_functions.pdf)
 
 **PREPARER** 
+
+- pour 3/10 Exercice 1.3. f_1, f_2
+    * g_{1,c}(t) = (c cos(t), c sin(t))
+    * g_{2,c}(t) = (-2 + \sqrt(c-3),t)
+
 
 - pour 19/9 Exercice 1.5 (Équation d’état des gaz parfaits)- [sur wikipedia](https://fr.wikipedia.org/wiki/Loi_des_gaz_parfaits)
 - [1:d + e](https://www.wolframalpha.com/input?i=plot+xy+for+x+from+0+to+10+and+y+from+0+to+10)
