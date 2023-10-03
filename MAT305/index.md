@@ -131,9 +131,6 @@ title: MAT305
 <!-- - [derivee $f_{yx}$](https://www.wolframalpha.com/input?i=derivate+y+of+2+e%5E%28x%5E2+%2B+y%5E2%29+x+-+y+sin%28x+y%29) -->
 <!-- - [derivee $f_{xy}$](https://www.wolframalpha.com/input?i=derivate+x+of+2+e%5E%28x%5E2+%2B+y%5E2%29+y+-+x+sin%28x+y%29) -->
 
-<!-- - exo 3 est difficile  la fonction ne verifie pas la relation de Schwarz en (0,0) -->
-<!-- 	- [voici le graphe](http/grs://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29) -->
-<!-- 	- [3D interactive](./monkey.html) -->
 
 <!-- - exo 4 --> 
 <!-- 	- [la courbe](https://www.wolframalpha.com/input?i=plot+y%5E2+%E2%88%92+x%5E3+%E2%88%92+x%5E2+%3D0) -->
@@ -178,6 +175,11 @@ Pour 27/9 : 1.3. Problème 1.1 (Équation des ondes).
 
 ---
 
+Exo 1.4 est difficile  la fonction ne verifie pas la relation de Schwarz en (0,0)
+
+- [voici le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
+- [3D interactive](./monkey.html)
+
 Exo 1.2
 
 - [x ln(y^2 + 1)](https://www.wolframalpha.com/input?i=derivative+of+x+ln%28y%5E2+%2B+1%29)
@@ -207,6 +209,12 @@ Exo 1.2
 - pour 3/10 Exercice 1.3. f_1, f_2
     * g_{1,c}(t) = (c cos(t), c sin(t))
     * g_{2,c}(t) = (-2 + \sqrt(c-3),t)
+
+<br>
+
+- [gradient of sqrt(x^2+y^2)](https://www.wolframalpha.com/input?i=gradient+of+sqrt%28x%5E2%2By%5E2%29)
+- [plot x + 2y + 3](https://www.wolframalpha.com/input?i=plot+x+%2B+2y+%2B+3)
+- [plot x^2 − 9y^2](https://www.wolframalpha.com/input?i=plot+x%5E2+%E2%88%92+9y%5E2)
 
 
 - pour 19/9 Exercice 1.5 (Équation d’état des gaz parfaits)- [sur wikipedia](https://fr.wikipedia.org/wiki/Loi_des_gaz_parfaits)
