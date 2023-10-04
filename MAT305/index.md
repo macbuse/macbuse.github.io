@@ -18,6 +18,8 @@ title: MAT305
 1.  Algèbre linéaire
 
 
+A titre d'info  sur
+les notations [CC 2022](./CC1_MAT305.pdf)
 <!-- - [web page avec tous les documents](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php) -->
 <!-- - [2021 TD archived page](./MAT305_index.md) -->
 <!-- - [mes calculs](./uniqueness.pdf) -->
@@ -170,6 +172,7 @@ Pour 27/9 : 1.3. Problème 1.1 (Équation des ondes).
 
 
 
+
 **RAPPEL** 
 -  [derivatives : poly mat102 pages 49-50](./mat102_functions.pdf)
 
@@ -179,6 +182,8 @@ Exo 1.4 est difficile  la fonction ne verifie pas la relation de Schwarz en (0,0
 
 - [voici le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
 - [3D interactive](./monkey.html)
+
+- [calculs](./f6_corr_bis.pdf)
 
 Exo 1.2
 
