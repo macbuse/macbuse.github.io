@@ -52,8 +52,8 @@ And [here is the result](./story.md).
 
 <!-- --- -->
 
-<!-- [F2](./Fiche2-sommes-produits.pdf) -->
-<!-- - [quick test](./qt2.pdf) -->
+[F2](./Fiche2-sommes-produits.pdf)
+- [quick test](./qt2.pdf)
 
 <!-- - [Suite arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique) -->
 <!-- - [Suite géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique) -->

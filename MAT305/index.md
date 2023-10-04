@@ -11,6 +11,9 @@ title: MAT305
 - Wednesdays 9:45
 - First class: 12/9
 
+**IMPORTANT** CC1 mardi 10/10
+
+---
 
 ## Programme
 
