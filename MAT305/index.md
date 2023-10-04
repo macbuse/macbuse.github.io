@@ -178,6 +178,8 @@ Pour 27/9 : 1.3. Problème 1.1 (Équation des ondes).
 
 ---
 
+[Exo supplementaire](./supp_exo.pdf)
+
 Exo 1.4 est difficile  la fonction ne verifie pas la relation de Schwarz en (0,0)
 
 - [voici le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
