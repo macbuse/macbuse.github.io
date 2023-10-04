@@ -3,6 +3,11 @@
 - First class: 13/9
 - Wednesdays 15h15, Thursday 8h
 
+
+**IMPORTANT Quick test 1 le 5/10**
+
+- [quick test Octobre 2022](./quick_test.pdf)
+
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
 - [poly](./polyMAT102-main.pdf) 
 
