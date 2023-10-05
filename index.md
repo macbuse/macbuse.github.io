@@ -429,4 +429,4 @@ After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've 
 
 [why ?](church)
 
-[this](./MAT102/quick_test.pdf)
+[this](./q1.pdf)
