@@ -11,7 +11,7 @@ title: MAT305
 - Wednesdays 9:45
 - First class: 12/9
 
-**IMPORTANT** CC1 mardi 10/10
+**IMPORTANT**  initialement prevu le 10/11,  CC1 aura lieu le mercredi 11/10
 
 ---
 
