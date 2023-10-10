@@ -22,7 +22,10 @@ title: MAT305
 
 
 A titre d'info  sur
-les notations [CC 2022](./CC1_MAT305.pdf)
+les notations 
+- [CC 2022](./CC1_MAT305.pdf)
+- [correction](./CC1_corr.pdf)
+<!-- - [CC1 du 8/10](./CC1_MAT305.pdf) -->
 <!-- - [web page avec tous les documents](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php) -->
 <!-- - [2021 TD archived page](./MAT305_index.md) -->
 <!-- - [mes calculs](./uniqueness.pdf) -->
@@ -32,8 +35,6 @@ les notations [CC 2022](./CC1_MAT305.pdf)
 <!-- - [CC2 du  9/11/22 sujet + bareme + correction](./CC2_MAT305.pdf) -->
 
 
-<!-- - [CC1 du 8/10](./CC1_MAT305.pdf) -->
-<!-- 	- [correction](./CC1_corr.pdf) -->
 <!-- 	- [la courbe](https://www.wolframalpha.com/input?i=plot+%281+-+t%5E2%2C++t%5E3%2F4+-+3t%29) -->
 <!-- 	- [vecteur velocite](https://www.wolframalpha.com/input?i=derivative+t+of++%281+-+t%5E2%2C++t%5E3%2F4+-+3t%29) -->
 <!-- 	- [exo 2](https://www.wolframalpha.com/input?i=xy%5E2+%E2%88%92+y%5E3+%2B+log%281+%E2%88%92+x%5E2+%E2%88%92+y%5E2+%29) -->
@@ -172,8 +173,6 @@ les notations [CC 2022](./CC1_MAT305.pdf)
 Pour 26/9 : 1.2. Dérivées partielles, gradient 
 
 Pour 27/9 : 1.3. Problème 1.1 (Équation des ondes).
-
-
 
 
 **RAPPEL** 
