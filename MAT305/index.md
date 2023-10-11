@@ -23,7 +23,7 @@ title: MAT305
 
 A titre d'info  sur
 les notations 
-- [CC 2022](./CC1_MAT305.pdf)
+- [CC 2022](./CC1_MAT305_2022.pdf)
 - [correction](./CC1_corr.pdf)
 <!-- - [CC1 du 8/10](./CC1_MAT305.pdf) -->
 <!-- - [web page avec tous les documents](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php) -->

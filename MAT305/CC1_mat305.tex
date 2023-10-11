@@ -1,0 +1,191 @@
+\documentclass[a4paper,12pt]{article}
+
+% \usepackage[french]{babel}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb,amsthm,amsmath,amsfonts}
+\usepackage{textcomp}
+%\usepackage{bbm}
+
+\usepackage{framed}
+
+\def\BF{\begin{framed} }
+\def\EF{\end{framed} }
+
+\frenchspacing
+
+\long\def\/*#1*/{}
+
+\def\gal{\text{Gal}}
+
+\setlength{\textwidth}{15cm}
+\setlength{\hoffset}{0.46cm}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\textheight}{24.2cm}
+\setlength{\headheight}{0cm}
+\setlength{\topmargin}{0cm}
+\setlength{\headsep}{0cm}
+\setlength{\paperwidth}{29cm}
+
+\def\R{\mathbb{R}}
+\def\C{\mathbb{C}}
+\def\N{\mathbb{N}}
+\def\Z{\mathbb{Z}}
+\def\Q{\mathbb{Q}}
+\def\F{\mathbb{F}}
+\def\1{\mathbbm{1}}
+
+% Usual sets of numbers  
+\def\bA{{\Bbb A}}
+\def\bC{{\Bbb C}}
+\def\bF{{\Bbb F}}
+\def\bK{{\Bbb K}}
+\def\bN{{\Bbb N}}
+\def\bP{{\Bbb P}}
+\def\bQ{{\Bbb Q}}
+\def\bR{{\Bbb R}}
+\def\bZ{{\Bbb Z}}
+
+
+\DeclareMathOperator{\pgcd}{pgcd}
+\DeclareMathOperator{\ppcm}{ppcm}
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\Hom}{Hom}
+
+\newcommand{\FF}{\mathbb{F}_q}
+
+\def\ggauche{\textgravedbl}
+\def\gdroite{\textacutedbl}
+
+
+% Usual sets of numbers  
+\def\bA{{\Bbb A}}
+\def\bC{{\Bbb C}}
+%\def{\bF{\Bbb F}}
+\def\bK{{\Bbb K}}
+\def\bN{{\Bbb N}}
+\def\bP{{\Bbb P}}
+\def\bQ{{\Bbb Q}}
+\def\bR{{\Bbb R}}
+\def\bZ{{\Bbb Z}}
+
+\def\gc{\hbox{\goth c}}
+\def\sevengc{\hbox{\sevengoth c}}
+\def\mathfrak{\hbox{\goth S}}
+\def\tr{\mathop{\rm tr}}
+\def\Gal{\mathop{\rm Gal}}
+\def\syquad#1#2{\left({#1\over #2}\right)}
+
+
+\reversemarginpar
+
+\newcommand{\dual}{\vee}
+
+\newtheorem{enonce}{Exercice}
+\newenvironment{E}[0]{\begin{enonce}\rm}{\bigskip \end{enonce}}
+
+\begin{document}
+	\noindent UGA \hfill L2\\
+	\hfill 2023-24 \\
+	\bigskip
+
+	\begin{center}
+		\textsc{CC1 MAT305}
+
+% {\it Notes de cours autoris\'ees. Sujet de 2 pages.\\
+% Il n’est pas necessaire de tout faire pour avoir la note maximale.}
+
+{\bf You can write in english.}
+		
+
+	\end{center}
+	\bigskip
+	
+\hrulefill
+	
+\vspace{1cm}
+
+ 
+
+\begin{center}
+{\large{\bf Exercice 1}}
+\end{center}
+
+
+Calculer les derivées partielles $f_x,f_y$ et $f_{xy}, f_{yx}$ pour
+chacune des fonctions\\ 
+$f:\mathbb{R}^2 \rightarrow \mathbb{R}$  suivantes :
+
+ 
+ \begin{enumerate}
+ 
+\item  $f(x,y) = x^3y^2+ 5y^2-x+7$
+
+\item $ f(x,y) = \cos(xy^2)+\sin x$
+
+\item $ f(x,y) = e^{x^2 + y^3}\sqrt{x^2+1}$
+
+\item $f(x,y) = \frac{x^2 - y^2}{x^2 + 1}
+
+ \end{enumerate}
+
+
+
+
+\hrulefill
+
+\vspace{1cm}
+
+\begin{center}
+{\large{\bf Exercice 2}}
+\end{center}
+
+Pour chacune des fonctions $f$ suivantes calculer $f_{xx} + f_{yy}$
+: 
+
+\begin{enumerate}
+	\item $f(x,y)=  x^2 - y^2$
+	\item $f(x,y) = e^x \sin(y) + e^y \cos(x)$
+	\item $f(x,y)=  \log(\sqrt{ x^2 + y^2})$
+	
+\end{enumerate}
+
+\hrulefill
+
+\vspace{1cm}
+
+\begin{center}
+{\large{\bf Exercice 3}}
+\end{center}
+
+
+On définit $f:\mathbb{R}^2 \setminus (0,0)\rightarrow	\mathbb{R}$ par $f(x,y) = \log(x^2 +
+y^2)$.
+
+\begin{enumerate}
+	\item Déterminer les ensembles de niveaux de $f$ et
+		donner une interpretation geométrique.
+	\item Monter que $f\circ \gamma$ est constante o\`u
+		$\gamma: \mathbb{R} \rightarrow
+		\mathbb{R}^2
+		,\, t \mapsto (\cos(t),\sin(t))$ et préciser
+		la valeur du constant.
+
+	\item  Calculer le gradient de $f$ et $\dot{\gamma}$ le vecteur
+		vitesse de $\gamma$. 
+	\item Calculer le produit scalaire 
+		$(\mathrm{grad}\,f).\dot{\gamma}$ et representer le résultat
+		graphiquement.
+	
+\end{enumerate}
+ 
+
+\end{document}
