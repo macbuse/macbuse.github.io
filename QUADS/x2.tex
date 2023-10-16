@@ -38,9 +38,6 @@
 \def\oo{\HH / \Gamma_0(2)} 
 
 
-
-\def\SL{\mathrm{SL}(2,\CC)}
-
 \def\xx{\HH/g2}
 
 
@@ -58,6 +55,8 @@
 \def\sl2{\mathrm{SL}(2, \ZZ)}
 \def\g2{\Gamma(2)}
 \def\slc{\mathrm{SL}(2, \CC)}
+
+\def\oi{\Gamma.\{i\}}
 
 \def\xx{\HH/\g2}
 \def\gg{\mathcal{G}_n}
@@ -77,16 +76,20 @@
 \title{Geodesics and values of quadratic forms}
 
  \author[McShane]{Greg McShane}
- \author[Vlad]{Vlad Sergesciu}
+ % \author[Vlad]{Vlad Sergesciu}
 \address{Institut Fourier 100 rue des maths, BP 74, 38402 St Martin d'H\`eres cedex, France}
 \email{mcshane at univ-grenoble-alpes.fr}
+
+
 
 
 \begin{document}
 
 \maketitle
 
+\section{Introduction}
 
+	
 
 \begin{thm}\label{triv}
 Let $p$ be a prime then the equation
@@ -102,6 +105,70 @@ $$x^2 + y^2 = p $$
 has a solution in integers  iff  $p =2$ or $p-1$ is a multiple of $4$.
 \end{thm}
 
+There are many proofs of these theorems but the approach initiated
+by Heath-Brown in \cite{heath} has inspired many admirers if not 
+imitators see for example the  account of Elsholtz \cite{elsholtz}.
+The essential ingredients are :
+a finite set $X$ equipped with a pair of involutions
+\begin{itemize}
+	\item any fixed point of the one of the involutions, should it exist, is a solution of the equation.
+	\item the other involution has a unique fixed point which is easy to compute.
+\end{itemize}
+
+The existence of the unique fixed point of the second involution
+allows one to conclude that  the $X$ has an odd number of elements
+and so that any involution has a fixed point.
+
+The transformation $z \mapsto z + 1$ generates an infinite cyclic
+group acting on $\mathbb{H}$.
+The standard fundamental domain for this group is an infinite strip,
+which we will refer to as the \textit{fundamental strip},
+consisting of all the $z\in \CC$ such that 
+the real part is between $0$ and $1$.
+
+\begin{lem} \label{squares}
+Let $n\geq2$ be an integer.
+The number of  ways of writing $n$  as a  sum of squares
+$$n = c^2 + d^2$$
+with $c,d$ coprime integers
+is equal to the number of points
+of $\oi$, 
+the $\sl2$  orbit of $i$,
+in the fundamental strip at height $\frac{1}{n}$.
+\end{lem}
+
+
+\proof  Suppose there is such a point which we denote  $w$
+verifying the hypotheses in particular
+
+$$w = \frac{ai + b}{ci + d},\, \begin{pmatrix} a&b\\c&d
+\end{pmatrix} \in \Gamma,$$
+then
+
+$$\im w = \im  \frac{ai +b}{ci+d } = \frac{\im i} {c^2 + d^2}.$$
+
+Conversely if $c,d$ are coprime integers 
+ then there exists $a,b$ such that
+ $$ad - bc = 1 \Rightarrow  
+ \begin{pmatrix}
+ a & b \\
+ c & d
+ \end{pmatrix} \in \sl2.
+$$
+%The real part of $w = \frac{ai +b}{ci+d }$ is
+%$$ac + bd = (a,b).(c,d),$$
+%and
+By applying a suitable iterate of the parabolic transformation 
+$z \mapsto z + 1$,
+one can choose $w$ such that $0 \leq \text{Re\,} w < 1$.
+So if $n = c^2 + d^2$ then $\frac{ai +b}{ci+d }$
+is on one of the lines of the family in the statement.
+
+\hfill $\Box$
+
+
+
+
 The principal congruence subgroup $\Gamma(p)$ is the subgroup of $\SL(2,\ZZ)$ is a normal.
 It is a subgroup of $\Gamma_0(p)$:
 $$ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = \begin{pmatrix} 1 & * \\ 0 & 1 \end{pmatrix} \mod p.$$
@@ -113,7 +180,139 @@ $$ P^{-1}Q = \begin{pmatrix} -1 & -1 \\ 2 & 1 \end{pmatrix}.$$
 So the quotient $\oo$ is a non-compact orbifold with two cusps and a single cone point.
 
 
+
+\thebibliography{99}
+
+\bibitem{aigner}
+M. Aigner
+\textit{Markov's Theorem and 100 Years of the Uniqueness Conjecture}, Springer( 2013)
+
+\bibitem{aigner2}
+Aigner M., Ziegler G.M.  
+\textit{Representing numbers as sums of two squares.} In: Proofs from THE BOOK. Springer, Berlin, Heidelberg. (2010)
+
+\bibitem{barag}
+A. Baragar,
+\textit{On the Unicity Conjecture for Markoff Numbers}
+Canadian Mathematical Bulletin , Volume 39 , Issue 1 , 01 March 1996 , pp. 3 - 9
+
+\bibitem{button}
+J. O. Button, 
+\textit{The uniqueness of the prime Markoff numbers},
+ J. London Math. Soc.
+(2) 58 (1998), 9–17.
+
+% \bibitem{cana}
+% Ilke Canakci, Ralf Schiffler
+% \textit{Snake graphs and continued fractions}
+% European Journal of Combinatorics
+% Volume 86, May 2020, 103081
+
+\bibitem{dolan}
+Dolan, S. (2021). 105.38 A very simple proof of the two-squares theorem. The Mathematical Gazette, 105(564), 511-511. doi:10.1017/mag.2021.120
+
+\bibitem{elsholtz}
+Elsholtz C.A 
+\textit{Combinatorial Approach to Sums of Two Squares and Related Problems.}
+ In: Chudnovsky D., Chudnovsky G. (eds) Additive Number Theory. Springer, New York, NY.
+ (2010) 
+
+
+\bibitem{ford}
+Lester R Ford,
+\textit{Automorphic Functions}
+
+\bibitem{heath}
+Heath-Brown, Roger. 
+\textit{ Fermat’s two squares theorem.} Invariant (1984) 
+
+\bibitem{thesis}
+G. McShane,
+\textit{Simple geodesics and a series constant over Teichmuller space}
+Invent. Math. (1998)
+
+\bibitem{mong}
+M.L. Lang, S.P Tan,
+\textit{A simple proof of the Markoff conjecture for prime powers}
+Geometriae Dedicata volume 129, pages15–22 (2007)
+
+\bibitem{bob}
+R. C. Penner, 
+\textit{The decorated Teichmueller space of punctured surfaces}, 
+Communications in Mathematical Physics 113 (1987), 299–339.
+
+
+\bibitem{north}
+Northshield, Sam. 
+\textit{A Short Proof of Fermat’s Two-square Theorem.} The American Mathematical Monthly. 127. 638-638. (2020). 
+
+\bibitem{serre}
+J-P. Serre,
+\textit{A Course in Arithmetic},
+Graduate Texts in Mathematics,
+Springer-Verlag New York
+1973
+
+% \bibitem{saw}
+% Scott Wolpert,
+% \textit{On the Kahler form of the moduli space of once-punctured tori}, 
+% Comment. Math. Helv. 58(1983)246-256
+
+\bibitem{zagier}
+D. Zagier,
+ \textit{A one-sentence proof that every prime p = 1 (mod 4) is a sum of two squares}, 
+ American Mathematical Monthly, 97 (2): 144
+ 
+ % \bibitem{zhang}
+ % Y. Zhang,
+ % \textit{ An elementary proof of uniqueness of Markoff numbers}
+ % preprint, arXiv:math.NT/0606283
+ 
+  % \bibitem{zhang2}
+  %  Y. Zhang,
+ % \textit{Congruence and uniqueness of certain Markoff numbers}
+ % Acta Arithmetica, Volume: 128, Issue: 3, page 295-301
+
+
+
+
+
+
+ 
+
+
 \end{document}
+
+
+For the pair $\infty, 1/2$  and  $0, 2/p$   one has the matrix equation:
+\begin{equation}
+\begin{pmatrix}
+1 & 1\\
+0 & 2
+\end{pmatrix}
+= 
+\begin{pmatrix}
+ -(p-1)/2& 1\\
+1 & 0
+\end{pmatrix}
+\begin{pmatrix}
+0& 2\\
+1 & p
+\end{pmatrix}.
+\end{equation}
+
+
+The first matrix on the LHS is an element of $\gl2$
+and from it, using Lemma \ref{fps}, we can obtain an orientation reversing isometry of
+$\HH$ conjugating the inversion (\ref{inversion}) to $V$.
+Finally, by changing signs in the expression(\ref{inversion})  one obtains an inversion 
+conjugate to $V$ mapping the geodesic with endpoint $-1/p$ to itself.
+
+%We say that a pair of (extended) rational $m/n, m'/n'$ are \textit{Farey neighbors} 
+%if $|mn' - nm'| = 1$ with the convention that $\infty = 1/0$ 
+%so that it's neighbors are exactly the integers $m/1$.
+%The Farey neighbors of $0= 0/1$ are the rationals $1/n$ and in particular $1/p$ 
+%is one of them though $2/p$ is not. 
 
 
 

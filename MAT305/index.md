@@ -32,6 +32,8 @@ les notations
 
 ---
 
+[revision](./extra.pdf)
+
 <!-- - [CC2 du  9/11/22 sujet + bareme + correction](./CC2_MAT305.pdf) -->
 
 
