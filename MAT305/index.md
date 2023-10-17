@@ -3,7 +3,6 @@ layout: default
 title: MAT305
 ---
 
-
 # Mat 305
 
 
@@ -32,10 +31,8 @@ les notations
 
 ---
 
-[revision](./extra.pdf)
-
-[correction CC1](./CC1_MAT305.pdf)
-
+- [revision](./extra.pdf)
+- [correction CC1](./CC1_mat305.pdf)
 <!-- - [CC2 du  9/11/22 sujet + bareme + correction](./CC2_MAT305.pdf) -->
 
 
