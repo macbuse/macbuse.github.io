@@ -31,6 +31,12 @@ les notations
 
 ---
 
+
+[F3 calcul matriciel](./F3_2023exos.pdf)
+
+
+---
+
 - [revision](./extra.pdf)
 - [correction CC1](./CC1_mat305_2023.pdf)
 <!-- - [CC2 du  9/11/22 sujet + bareme + correction](./CC2_MAT305.pdf) -->
