@@ -34,6 +34,7 @@ les notations
 
 [F3 calcul matriciel](./F3_2023exos.pdf)
 
+- [Algebre lineaire](./polyMAT102-espace_vect.pdf)
 
 ---
 
