@@ -49,7 +49,9 @@ And [here is the result](./story.md).
 
 <!-- --- -->
 
-<!-- [F4](./Fiche4-fonctions.pdf) -->
+[F4](./Fiche4-fonctions.pdf)
+
+---
 
 <!-- --- -->
 
