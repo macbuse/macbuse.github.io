@@ -53,11 +53,9 @@ And [here is the result](./story.md).
 
 <!-- --- -->
 
-<!-- [F3](./Fiche3-geometrie.pdf) -->
+[F3](./Fiche3-geometrie.pdf)
 
-<!-- --- -->
 
-[F3](Fiche3-geometrie)
 
 
 ---
