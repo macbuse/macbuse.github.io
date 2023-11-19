@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1698745858 "x2.tex" "x2.pdf" "x2" 1698745858
+["pdflatex"] 1700387872 "x2.tex" "x2.pdf" "x2" 1700387872
   "/etc/texmf/web2c/texmf.cnf" 1676666735 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -102,11 +102,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1691239997 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1691240015 1283516 c99059ef2f5ff189f77ab066586d2243 ""
-  "x2.aux" 1698745824 2250 dac7019540caab363d71da961d04a2ed "pdflatex"
-  "x2.out" 1698745824 379 f4a9b1e0cd2f0549a7d47936c99c69c1 "pdflatex"
-  "x2.tex" 1698745857 12806 10ad4dff59a897595803d0dc83cd4285 ""
+  "hecke_fund_dom.png" 1700386772 51289 17700b284bd73e1bde91be00bda518f4 ""
+  "x2.aux" 1700387793 3558 a8a01cab6161809de2f8716776bfea13 "pdflatex"
+  "x2.out" 1700387793 772 cecae7486652921a5f78e8a04257ae41 "pdflatex"
+  "x2.tex" 1700387870 19758 f492012bdb36437420c769cd5e7055e1 ""
   (generated)
-  "x2.aux"
-  "x2.log"
-  "x2.pdf"
   "x2.out"
+  "x2.aux"
+  "x2.pdf"
+  "x2.log"
