@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1700387872 "x2.tex" "x2.pdf" "x2" 1700387872
+["pdflatex"] 1700428091 "x2.tex" "x2.pdf" "x2" 1700428091
   "/etc/texmf/web2c/texmf.cnf" 1676666735 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -26,6 +26,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
@@ -42,6 +43,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1248133631 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1248133631 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -102,12 +104,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1691239997 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1691240015 1283516 c99059ef2f5ff189f77ab066586d2243 ""
-  "hecke_fund_dom.png" 1700386772 51289 17700b284bd73e1bde91be00bda518f4 ""
-  "x2.aux" 1700387793 3558 a8a01cab6161809de2f8716776bfea13 "pdflatex"
-  "x2.out" 1700387793 772 cecae7486652921a5f78e8a04257ae41 "pdflatex"
-  "x2.tex" 1700387870 19758 f492012bdb36437420c769cd5e7055e1 ""
+  "Ford-circles.png" 0 -1 0 ""
+  "hecke_fund_dom.png" 1700427114 52781 b83fda82112e9475f8df29481c05ed3b ""
+  "x2.aux" 1700428063 3852 30e5890f4467f98d5b97d95a5b750f81 "pdflatex"
+  "x2.out" 1700428063 772 dbc5b46d0aaccf225fe90e12d80c7e19 "pdflatex"
+  "x2.tex" 1700428091 21106 3f79e28bfb956ffc28b1443bda8a4ff8 ""
   (generated)
-  "x2.out"
-  "x2.aux"
-  "x2.pdf"
   "x2.log"
+  "x2.pdf"
+  "x2.aux"
+  "x2.out"

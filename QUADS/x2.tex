@@ -438,12 +438,43 @@ $$\ah \{\infty\} =   \Gamma(2) \{\infty\} \cup \Gamma(2) \{1\}.$$
 
 \subsection{Cusp regions  on $\oot$}
 
+We denote by $F$ the set  $\{ z, \im z > 1\}$
+this is a \textit{horoball in $\HH$} centered at $\infty$.
+The image of $F$ under the $\sl2$ action consists of
+$F$ and infinitely many disjoint circles, the so-called \textit{Ford circles}, 
+each tangent to the real line at some rational $m/n$.
+We adopt the convention that $F$ is also a Ford circle of infinite radius.
+  \begin{figure}[ht]
+\begin{center}
+\includegraphics[scale=.8]{Ford-circles.png} 
+\end{center}
+\caption{Ford circles with tangent points and curvatures.
+Recall that the curvature of a euclidean circle is the reciprocal of its radius.}
+\end{figure}
+
+The following is well known and is easily checked:
+
+\begin{lem}\label{ford}
+The Ford circle tangent to the real line at $m/n$
+has Euclidean diameter $1/n^2$.
+\end{lem}
+
+
 The image of a Ford circle on $\xx$ is a \textit{cusp region}
 around one of the three cusps $0,1,\infty$ of $\xx$.
-The map $z\mapsto z/z+1$ normalises $\g_{2}$
-and so induces an automorphism, in fact an involution of $\oo$ and
+The map $z\mapsto z/z+1$ normalises $\g2$
+and so induces an automorphism, in fact an involution of $\xx$ and
 the quotient is naturally identified with $\oot$.
 Thus $\oot$ inherits a system of cusp regions from $\oo$.
+The involution $z\mapsto -2/z$ normalises $\ah$ so induces an
+automorphism of $\oot$ which fixes the points labelled
+$1+i$ and $i\sqrt 2$, swaps the cusps labelled
+$\infty=\frac{1}{0}$ and
+$0= \frac{0}{1}$ but which does not swap the cusp regions inherited
+from $\xx$.
+We remedy this by choosing a pair of cusp regions which are tangent
+at the fixed point of the automorphism.
+
 
 \subsection{Arcs on $\oot$}
 
@@ -453,15 +484,22 @@ The surface has two cusps and so there are two kind of arc
 	\item arcs that have both ends at the same either
 		cusps $0/1$ or $1/0$.
 \end{itemize}
-The involution $z\mapsto -2/z$ normalises $\ah$ so induces an
-automorphism of $\oot$ which swaps the cusps.
-Since the automorphism swaps cusps only arcs of the first  kind can
-be invariant for it.
+
+\begin{lem}
+Arcs of the first kind,
+that is those which join distinct cusps $0/1$ and $1/0$,
+have the same $\lambda$-length for the inherited
+cusp regions and our modified cusp regions. 
+\end{lem}
+
+
+Since the automorphism swaps cusps only arcs of the first  kind can be invariant for it.
 Now any arc of the first kind lifts to a vertical line ending at
 some rational $\frac{m}{n}\in \QQ$.
-It follows that there are exactly $p-1$ arcs of the first kind,
+It follows that for each  $p$  prime there are exactly $p-1$ arcs of the first kind,
 namely the projections to $\oot$ of the Poincaré geodesics  $\infty,
-\frac{2k}{p}$ with  $k = 1,2\ldots p-1$.
+\frac{2k}{p}$ with  $k = 1,2\ldots p-1$
+and each of these has $\lambda$-length $p$ for our choice of cusp regions.
 
 
 \thebibliography{99}
