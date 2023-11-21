@@ -158,6 +158,9 @@ the arc is not simple.
 \section{Klein four group and the Burnside Lemma}
 
 We give a proof of Theorem \ref{triv} using the Burnside Lemma.
+
+
+
 Recall that if $G$ is  a group acting on a finite set $X$ then the Burnside Lemma says
 \begin{equation}\label{burnside}
 |G| |X/G| = \sum_{g} |X^g| 
@@ -188,8 +191,8 @@ Now for our choice of $X$ and $G$ equation (\ref{burnside}) yields
 The LHS is always divisible by $4$ so the  RHS is too and
 it follows from this that
 $$ |X^g|. = \left\{  \begin{array}{ll}
-0 & (p-1) =  2 \mod 4 \\
-2 & (p-1) =  0 \mod 4 \\
+		0 & \text{if }(p-1) =  2 \mod 4 \\
+2 & \text{if }(p-1) =  0 \mod 4 \\
 \end{array}
 \right.
 $$
@@ -399,6 +402,9 @@ $$ P = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix} \text{ and } Q=  \begin{pmat
 The product $P^{-1}Q$ is an element of order $2$:
 $$ P^{-1}Q = \begin{pmatrix} -1 & -1 \\ 2 & 1 \end{pmatrix}.$$
 So the quotient $\oo$ is a non-compact orbifold with two cusps and a single cone point.
+This orbifold admits a Klein four group as its group of orentations
+and the quotient by this group is a hyperbolic triangle with angles
+$0, \pi/2, \pi/4$.
 
 
 The action of this group on $\mathbb{Q}\cup \{\infty\}$ is not
@@ -419,7 +425,7 @@ $$\Gamma_0(2) \{0\} =   \Gamma(2) \{0\} \cup \Gamma(2) \{1\}.$$
 \caption{On the left a fundamental domain for $\ah$ with side
 pairings.  On the right the quotient surface $\oot$, the dark region
 is a cusp region.}
-\label{fund}
+\label{fundamental domain}
 \end{figure}
 
 In the previous section we considered the action of the involution
@@ -431,11 +437,20 @@ However it does normalise the \textit{anti Hecke congruencegroup}:
 $$ \ah := \left \{ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = 
 \begin{pmatrix} 1 & 0 \\ * & 1 \end{pmatrix} \mod N \right \} < \g2.$$
 The Hecke congruence group and the anti Hecke group are isomorphic
-and in fact conjugate in $\Gamma$ by $z\mapsto -1/z$.
+and in fact $z\mapsto -1/z$ conjugates them  in $\Gamma$  .
 We can determine the orbits of this group on $\QQ$ using this
 conjugation and we have:
 $$\ah \{\infty\} =   \Gamma(2) \{\infty\} \cup \Gamma(2) \{1\}.$$
 
+  \begin{figure}[hb]
+	  \label{cusp regions}
+\begin{center}
+\includegraphics[scale=.5]{hecke_cover.png} 
+\end{center}
+\caption{On the left $\xx$ with the cusp regions inherited from the
+Ford circles i $\mathbb{H}$.
+On the right $\oot$ with the unmodified cusp regions.}
+\end{figure}
 \subsection{Cusp regions  on $\oot$}
 
 We denote by $F$ the set  $\{ z, \im z > 1\}$
@@ -444,6 +459,10 @@ The image of $F$ under the $\sl2$ action consists of
 $F$ and infinitely many disjoint circles, the so-called \textit{Ford circles}, 
 each tangent to the real line at some rational $m/n$.
 We adopt the convention that $F$ is also a Ford circle of infinite radius.
+If $G < \sl2$ is any finite index subgroup then 
+each Ford circle projects to a cusp region on $\mathbb{H}/G$ and we
+call this system  the \textit{canonical system of cusp regions}.
+
   \begin{figure}[ht]
 \begin{center}
 \includegraphics[scale=.8]{Ford-circles.png} 
@@ -459,21 +478,59 @@ The Ford circle tangent to the real line at $m/n$
 has Euclidean diameter $1/n^2$.
 \end{lem}
 
+\begin{coro}
+	The $\lambda$-length of the arc joining 
+	$a/c, b/d \in \mathbb{Q}$ is the absolute value of
+	the determinant of the associated matrix 
+	$$A= \begin{pmatrix} a& b\\c&d \end{pmatrix}.$$
+\end{coro}
 
-The image of a Ford circle on $\xx$ is a \textit{cusp region}
-around one of the three cusps $0,1,\infty$ of $\xx$.
-The map $z\mapsto z/z+1$ normalises $\g2$
-and so induces an automorphism, in fact an involution of $\xx$ and
-the quotient is naturally identified with $\oot$.
-Thus $\oot$ inherits a system of cusp regions from $\oo$.
+\proof There exists  $b'\in \mathbb{Z}$ and  a matrix $A' \in \sl2$ such that the product $A'A$
+is an upper triangular matrix:
+	$$A'A= \begin{pmatrix} 1& b'\\0& \det A
+	\end{pmatrix}.$$
+The image of $a/c$ under the Mobius transformation associated to
+$A'$ is infinity and the image of $b/d$ is $b'/\det A$.
+The Ford circle at $\infty$ is $F$ and the 
+diameter of the circle tangent at $b'/\det A$ is $(\det A)^2$.
+
+\hfill $\Box$
+
+
+The canonical system on $\xx$ consists of three cusp regions 
+one for each of the three cusps $0,1,\infty$.
+The map $z\mapsto z/z+1$ fixes $0$ and normalises $\g2$,
+so induces an automorphism, in fact an involution of $\xx$ which
+fixes the cusp labeled $0$.
+The quotient of $\xx$ by the involution is naturally identified with
+the surface $\oot$
+inherits a system of cusp regions from $\oo$ via the quotient map.
 The involution $z\mapsto -2/z$ normalises $\ah$ so induces an
 automorphism of $\oot$ which fixes the points labelled
 $1+i$ and $i\sqrt 2$, swaps the cusps labelled
 $\infty=\frac{1}{0}$ and
 $0= \frac{0}{1}$ but which does not swap the cusp regions inherited
 from $\xx$.
+In fact a computation shows that the cusp region at $\infty$ has
+area $2$ whilst the cusp region at $0$ has area $1$.
 We remedy this by choosing a pair of cusp regions which are tangent
-at the fixed point of the automorphism.
+at the fixed point of the automorphism and have the same area that
+is $\sqrt 2$.
+To do this 
+\begin{itemize}
+\item the cusp region at $1/0$ shrinks by a factor of
+$\sqrt 2$ 
+\item whilst the other cusp region at $0/1$ expands by $\sqrt 2$.
+\end{itemize}
+The lifts of this modified pair of cusp regions to $\HH$ form a family of circles each of which, like the Ford
+circles, are tangent to the real line at a rational
+$\frac{m}{n}\in \mathbb{Q}$.
+However, the diameter of the circle tangent at $m/n$ is now
+
+\begin{itemize}
+	\item $\sqrt 2 \times 1/ n^2$ if $m$ is even.
+	\item $1/\sqrt 2 \times 1 / n^2$ if $m$ is odd.
+\end{itemize}
 
 
 \subsection{Arcs on $\oot$}
