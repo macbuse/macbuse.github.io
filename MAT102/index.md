@@ -51,6 +51,8 @@ And [here is the result](./story.md).
 
 [F4](./Fiche4-fonctions.pdf)
 
+[quick test 2022](./qt3.pdf)
+
 ---
 
 <!-- --- -->

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1700562230 "x2.tex" "x2.pdf" "x2" 1700575167
+["pdflatex"] 1701081131 "x2.tex" "x2.pdf" "x2" 1701081131
   "/etc/texmf/web2c/texmf.cnf" 1676666735 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -34,6 +34,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
@@ -103,13 +104,14 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1691239997 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1691240015 1283516 c99059ef2f5ff189f77ab066586d2243 ""
   "Ford-circles.png" 1700428215 16957 e22a75e626fcf76a56f7732f45f8af31 ""
+  "farey_mod.png" 1700676363 19420 2875e43aa21d3c7fd4903c1b9d112b84 ""
   "hecke_cover.png" 1700562227 64430 665a0acc96041f29617c9696e36549a4 ""
   "hecke_fund_dom.png" 1700427114 52781 b83fda82112e9475f8df29481c05ed3b ""
-  "x2.aux" 1700562231 4300 442df65ef10865c96ca3576a915abbc2 "pdflatex"
-  "x2.out" 1700562231 772 c60693e069eeb6601bda92b36958f35b "pdflatex"
-  "x2.tex" 1700572919 23205 49214ca42393c6a7162d61737768ecdc ""
+  "x2.aux" 1701080947 5168 938713e60b6e2ecd9ff813dc21456d31 "pdflatex"
+  "x2.out" 1701080947 943 188148ea7b0a38341d260c7ac6901f94 "pdflatex"
+  "x2.tex" 1701081130 26305 36976ea6c7c13853d020dfb981517ec4 ""
   (generated)
-  "x2.aux"
-  "x2.log"
   "x2.out"
   "x2.pdf"
+  "x2.log"
+  "x2.aux"

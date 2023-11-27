@@ -119,26 +119,38 @@ and the like.
 \subsection{Involutions}
 
 The essential ingredients in the Heath-Brown paper are:
-a finite set $X$ equipped with a pair of involutions
+a finite set $X$ equipped with a pair of involutions such that:
+
+
 \begin{itemize}
-	\item any fixed point of the one of the involutions, should it exist, is a solution of the equation.
-	\item the other involution has a unique fixed point which is easy to compute.
+	\item Any fixed point of the one of the involutions,
+		should it exist, is a solution of the equation;
+	\item The other involution has a unique fixed point which is easy to compute.
 \end{itemize}
 
 The existence of the unique fixed point of the second involution
 allows one to conclude that  the $X$ has an odd number of elements
 and so that any involution has a fixed point.
 
+Probably the most elegant incarnation of this method is Dolan's
+proof \cite{dolan}.
+
 \subsection{Arcs on a punctured surface}
 
 The starting point for this work was a series of observations
 concerning $\lambda$-lengths of simple arcs on a once punctured
 torus equipped with a hyperbolic structure for example $\HH/\Gamma'$
-where $\Gamma' < \sl2$ is the commutator subgroup. An important
+where $\Gamma' < \sl2$ is the commutator subgroup. 
+The reader, unfamiliar with the relationship between hyperbolic
+geometry and number theory,
+should consult Springborn's articles \cite{springborn1, springborn2}
+where a dictionary between geometric and number theoretic notions is presented.
+
+An important
 feature of a punctured surface is that it admits \textit{uniform
 cusp regions} that is there is a neighborhood of each puncture, or more properly cusp, isometric to 
 $$\{z\in \mathbb{H}, \mathrm{Re}z \geq 1\}/\langle z \mapsto z+2 \rangle$$  
-Such a torus can
+The  torus $\mathbb{H}/\Gamma'$ can
 be obtained from a pair of ideal triangles by "gluing" and the sides
 of the ideal triangles form a triple of complete simple geodesics on
 the surface. The corners of the triangles glue up to a neighborhood
@@ -154,11 +166,82 @@ the arc
 outside the uniform cusp region is connected, more care is needed if
 the arc is not simple.
 
+Since Penner first defined $\lambda$-length 
+there has been much work on their applications
+
+\begin{itemize}
+	\item Weil-Peterson volume of moduli space \cite{bob}
+	\item cluster algebras \cite{Fomin}.
+	\item Conway-Coxeter frieze patterns \cite{frieze}.
+\end{itemize}
+Our approach depends on determining the number of arcs on a surface
+of $\lambda$-length p.
+Probably the easiest surface to count arcs on is $\xx$.
+
+\begin{thm}\label{g2 arcs}
+	Let $p$ be a prime number then the number of arcs of
+	$\lambda$-length p on the surface
+	$\xx$ is $3(p-1)$.
+\end{thm}
+
+The surface is $\xx$ is not compact and has three cusps which, as we
+shall see, are naturally associated with $0,1,\infty$.
+Actually $\xx$ is a degree 6 cover of the modular surface
+$\mathbb{H}/\Gamma$. 
+Unfortunately this covering is ramified at 2 points and
+the projection of an arc on $\xx$ may or may not be an arc.
+The problem lies in that an arc may be invariant by some involution
+in the covering group and as a consequence connects the cusp on
+$\mathbb{H}/\Gamma$ to a ramification point.
+In fact 
+
+
+\begin{thm}\label{modular arcs}
+	Let $p$ be a prime number then the number of arcs of
+	$\lambda$-length p on the modular surface
+	$\mathbb{H}/\Gamma$ is 
+	
+	\begin{itemize}
+		\item p-1 if 4 does not divide p-1,
+		\item p-2 if p=2 or 4 divides p-1.
+	\end{itemize}
+
+	% \begin{itemize}
+	% 	\item p-1 if p-1 and  12 are coprime
+	% 	\item p-3 if p is of the form $12k +1$
+	% 	\item p-2 if p is of the form $12k+7$, $12k
+	% 		+5$ or $12k + 9$
+	% \end{itemize}
+
+\end{thm}
+
+As we shall see in Section \ref{}, this result is indeed equivalent to Theorem \ref{main}. 
+
+Computing the $\lamda$-length of an arc $\alpha$ on $\xx$ 
+is relatively simple.
+One considers a lift $\hat{\alpha}$ of the arc.
+This is a Poincaré geodesic joining a pair of distinct rationals
+$a/c,b/d \in \mathbb{Q}$ and the $\lambda$-length is just
+the determinant of the matrix
+$$ 
+ \begin{pmatrix} a & b \\ c & d \end{pmatrix}.
+$$
+Evidently the arcs on $\xx$ fall into two families:
+\begin{itemize}
+	\item arcs that join distinct cusps. 
+	\item arcs that have both ends at the same cusp
+\end{itemize}
+We will refer to the second kind of arc as a \textit{loop}.
+Amusingly one has:
+\begin{lem}
+	An arc on $\xx$ is a loop if and only if its
+	$\lambda$-length is even.
+\end{lem}
+
 
 \section{Klein four group and the Burnside Lemma}
 
 We give a proof of Theorem \ref{triv} using the Burnside Lemma.
-
 
 
 Recall that if $G$ is  a group acting on a finite set $X$ then the Burnside Lemma says
@@ -235,7 +318,9 @@ is the norm of $x+y \sqrt{2}\in \mathbb{Z}[\sqrt{2}]$ which is a
 euclidean ring for this norm,
 one reduces to considering just the solutions of 
 $$p = x^2 - 2y^2.$$
-Finally, one concludes by showing that if $x,y$ are integers then
+Finally, 
+% by considering congruence classes modulo 8,
+one concludes by showing that if $x,y$ are integers then
 $x^2 - 2y^2$ never takes the value $3 \mod 8$.
 
 \subsection{The case $p=11$}
@@ -280,6 +365,9 @@ One notes that there are two fixed points of $-\bar{x} \mapsto
 
 
 \section{Counting sums of squares}
+
+
+\subsection{Counting points in $\Gamma$ orbits}
 
 The transformation $z \mapsto z + 1$ generates an infinite cyclic
 group acting on $\mathbb{H}$.
@@ -331,12 +419,26 @@ one can choose $w$ such that $0 \leq \text{Re\,} w < 1$.
 
 \hfill $\Box$
 
+\begin{lem} \label{squares}
+Let $n\geq2$ be an integer and $m < n$ a square free integer.
+The number of  ways of writing $n$  as a  sum of squares
+$$n = mc^2 + d^2$$
+with $c,d$ coprime integers
+is equal to the number of points
+of $\Gamma.\{i\sqrt m\}  $
+the $\sl2$  orbit of $i\sqrt m$,
+in the fundamental strip at height $\frac{m}{n}$.
+\end{lem}
+
+
+\subsection{Counting points/arcs on surfaces}
+
 Suppose that $n$ is can be written as a sum of squares $c^2 +d^2$
-and $w$ is the corresponding point in the fundamental stripthen we
+and $w$ is the corresponding point in the fundamental strip then we
 can associate a Poincaré geodesic to $w$ in a natural way, 
 we simply take the vertical line that passes through $w$.
 This geodesic joins two points in the ideal boundary of $\mathbb{H}$
-namely $\infty$ and $\frac{ac + bd}{n}\in \mathbb{R}$.
+namely $\infty$ and $\frac{ac + bd}{n}\in \mathbb{Q}$.
 Although not strictly necessary we choose to associate a geometric
 quantity to this geodesic - Penner's $\lambda$-length.
 
@@ -406,6 +508,15 @@ This orbifold admits a Klein four group as its group of orentations
 and the quotient by this group is a hyperbolic triangle with angles
 $0, \pi/2, \pi/4$.
 
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.5]{hecke_fund_dom.png} 
+\end{center}
+\caption{On the left a fundamental domain for $\ah$ with side
+pairings.  On the right the quotient surface $\oot$, the dark region
+is a cusp region.}
+\label{fundamental domain}
+\end{figure}
 
 The action of this group on $\mathbb{Q}\cup \{\infty\}$ is not
 transitive and there are two orbits.
@@ -418,15 +529,6 @@ corresponding to $\frac{0}{1} = 0,\, \frac{1}{1} = 1, \,
 Now since $P$ maps $0$ to one:
 $$\Gamma_0(2) \{0\} =   \Gamma(2) \{0\} \cup \Gamma(2) \{1\}.$$
 
- \begin{figure}[ht]
-\begin{center}
-\includegraphics[scale=.5]{hecke_fund_dom.png} 
-\end{center}
-\caption{On the left a fundamental domain for $\ah$ with side
-pairings.  On the right the quotient surface $\oot$, the dark region
-is a cusp region.}
-\label{fundamental domain}
-\end{figure}
 
 In the previous section we considered the action of the involution
 $x\mapsto -2/x$ on $\mathbb{F}_{p}^*$. It is natural to study the
@@ -442,16 +544,6 @@ We can determine the orbits of this group on $\QQ$ using this
 conjugation and we have:
 $$\ah \{\infty\} =   \Gamma(2) \{\infty\} \cup \Gamma(2) \{1\}.$$
 
-  \begin{figure}[hb]
-	  \label{cusp regions}
-\begin{center}
-\includegraphics[scale=.5]{hecke_cover.png} 
-\end{center}
-\caption{On the left $\xx$ with the cusp regions inherited from the
-Ford circles i $\mathbb{H}$.
-On the right $\oot$ with the unmodified cusp regions.}
-\end{figure}
-\subsection{Cusp regions  on $\oot$}
 
 We denote by $F$ the set  $\{ z, \im z > 1\}$
 this is a \textit{horoball in $\HH$} centered at $\infty$.
@@ -463,7 +555,7 @@ If $G < \sl2$ is any finite index subgroup then
 each Ford circle projects to a cusp region on $\mathbb{H}/G$ and we
 call this system  the \textit{canonical system of cusp regions}.
 
-  \begin{figure}[ht]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[scale=.8]{Ford-circles.png} 
 \end{center}
@@ -496,6 +588,16 @@ diameter of the circle tangent at $b'/\det A$ is $(\det A)^2$.
 
 \hfill $\Box$
 
+  \begin{figure}[H]
+	  \label{cusp regions}
+\begin{center}
+\includegraphics[scale=.5]{hecke_cover.png} 
+\end{center}
+\caption{On the left $\xx$ with the cusp regions inherited from the
+Ford circles  $\mathbb{H}$.
+On the right $\oot$ with the unmodified cusp regions.}
+\end{figure}
+\subsection{Cusp regions  on $\oot$}
 
 The canonical system on $\xx$ consists of three cusp regions 
 one for each of the three cusps $0,1,\infty$.
@@ -504,34 +606,41 @@ so induces an automorphism, in fact an involution of $\xx$ which
 fixes the cusp labeled $0$.
 The quotient of $\xx$ by the involution is naturally identified with
 the surface $\oot$
-inherits a system of cusp regions from $\oo$ via the quotient map.
+inherits a system of cusp regions from $\xx$ via the quotient map.
 The involution $z\mapsto -2/z$ normalises $\ah$ so induces an
 automorphism of $\oot$ which fixes the points labelled
 $1+i$ and $i\sqrt 2$, swaps the cusps labelled
-$\infty=\frac{1}{0}$ and
-$0= \frac{0}{1}$ but which does not swap the cusp regions inherited
+$\frac{1}{0}$ and
+$\frac{0}{1}$ but which does not swap the cusp regions inherited
 from $\xx$.
-In fact a computation shows that the cusp region at $\infty$ has
-area $2$ whilst the cusp region at $0$ has area $1$.
+In fact a computation shows that the cusp region for $\frac{1}{0}$ has
+area $2$ whilst the cusp region for $\frac{0}{1}$ has area $1$.
 We remedy this by choosing a pair of cusp regions which are tangent
-at the fixed point of the automorphism and have the same area that
-is $\sqrt 2$.
+at the fixed point of the automorphism and which both have area $\sqrt 2$.
 To do this 
 \begin{itemize}
-\item the cusp region at $1/0$ shrinks by a factor of
+\item the cusp region for $1/0$ shrinks by a factor of
 $\sqrt 2$ 
-\item whilst the other cusp region at $0/1$ expands by $\sqrt 2$.
+\item whilst the other cusp region for $0/1$ expands by $\sqrt 2$.
 \end{itemize}
 The lifts of this modified pair of cusp regions to $\HH$ form a family of circles each of which, like the Ford
-circles, are tangent to the real line at a rational
+circles, is tangent to the real line at a rational
 $\frac{m}{n}\in \mathbb{Q}$.
-However, the diameter of the circle tangent at $m/n$ is now
+However, the diameter of the circle tangent at $m/n$ is no longer
+$\frac{1}{n^2}$ as in Lemma \ref{ford}
 
 \begin{itemize}
 	\item $\sqrt 2 \times 1/ n^2$ if $m$ is even.
 	\item $1/\sqrt 2 \times 1 / n^2$ if $m$ is odd.
 \end{itemize}
 
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[scale=1]{farey_mod.png} 
+\end{center}
+\caption{Modified Farey circles}
+\label{modified farey}
+\end{figure}
 
 \subsection{Arcs on $\oot$}
 
@@ -565,6 +674,7 @@ and each of these has $\lambda$-length $p$ for our choice of cusp regions.
 M. Aigner
 \textit{Markov's Theorem and 100 Years of the Uniqueness Conjecture}, Springer( 2013)
 
+
 \bibitem{aigner2}
 Aigner M., Ziegler G.M.  
 \textit{Representing numbers as sums of two squares.} In: Proofs from the book. Springer, Berlin, Heidelberg. (2010)
@@ -580,6 +690,10 @@ J. O. Button,
  J. London Math. Soc.
 (2) 58 (1998), 9–17.
 
+\bibitem{frieze}
+Ilke Canakci, Anna Felikson, Ana Garcia Elsener, Pavel Tumarkin,
+\textit{Friezes for a pair of pants}a,
+Proceedings of the Formal Power Series and Algebraic Combinatorics 2022 - Séminaire Lotharingien de Combinatoire
 % \bibitem{cana}
 % Ilke Canakci, Ralf Schiffler
 % \textit{Snake graphs and continued fractions}
@@ -587,7 +701,7 @@ J. O. Button,
 % Volume 86, May 2020, 103081
 
 \bibitem{dolan}
-Dolan, S. (2021). 105.38 A very simple proof of the two-squares theorem. The Mathematical Gazette, 105(564), 511-511. doi:10.1017/mag.2021.120
+Dolan, S., A very simple proof of the two-squares theorem. The Mathematical Gazette, 105(564), 511-511. (2021) doi:10.1017/mag.2021.120
 
 \bibitem{elsholtz}
 Elsholtz C.A 
@@ -595,6 +709,10 @@ Elsholtz C.A
  In: Chudnovsky D., Chudnovsky G. (eds) Additive Number Theory. Springer, New York, NY.
  (2010) 
 
+\bibitem{Fomin}
+S. Fomin and D. Thurston,
+\textit{Cluster algebras and triangulated surfaces}
+Part II: Lambda lengths, \url{arXiv:1210.5569v1.}
 
 \bibitem{ford}
 Lester R Ford,
@@ -614,7 +732,6 @@ Neil Herriot, Communication with Jim Propp
 \bibitem{jackson}
 Jackson, Terence H.. “A Short Proof That Every Prime $p = 3 (\mod 8)$
 Is of the Form $x^2 + 2y^2$.” The American Mathematical Monthly 107 (2000): 447 - 447.
-
 
 
 \bibitem{mong}
@@ -658,6 +775,18 @@ Graduate Texts in Mathematics,
 Springer-Verlag New York
 1973
 
+\bibitem{springborn1}
+
+B. Springborn. The hyperbolic geometry of Markov’s theorem on Diophantine
+approximation and quadratic forms. Enseign. Math., 63(3-4):333–373, 2017.
+
+\bibitem{springborn2}
+Boris Springborn,
+\textit{The worst approximable rational numbers}
+\url{https://arxiv.org/abs/2209.15542}
+
+
+
 % \bibitem{saw}
 % Scott Wolpert,
 % \textit{On the Kahler form of the moduli space of once-punctured tori}, 
@@ -678,47 +807,4 @@ D. Zagier,
  % \textit{Congruence and uniqueness of certain Markoff numbers}
  % Acta Arithmetica, Volume: 128, Issue: 3, page 295-301
 
-
-
-
-
-
- 
-
-
 \end{document}
-
-
-For the pair $\infty, 1/2$  and  $0, 2/p$   one has the matrix equation:
-\begin{equation}
-\begin{pmatrix}
-1 & 1\\
-0 & 2
-\end{pmatrix}
-= 
-\begin{pmatrix}
- -(p-1)/2& 1\\
-1 & 0
-\end{pmatrix}
-\begin{pmatrix}
-0& 2\\
-1 & p
-\end{pmatrix}.
-\end{equation}
-
-
-The first matrix on the LHS is an element of $\gl2$
-and from it, using Lemma \ref{fps}, we can obtain an orientation reversing isometry of
-$\HH$ conjugating the inversion (\ref{inversion}) to $V$.
-Finally, by changing signs in the expression(\ref{inversion})  one obtains an inversion 
-conjugate to $V$ mapping the geodesic with endpoint $-1/p$ to itself.
-
-%We say that a pair of (extended) rational $m/n, m'/n'$ are \textit{Farey neighbors} 
-%if $|mn' - nm'| = 1$ with the convention that $\infty = 1/0$ 
-%so that it's neighbors are exactly the integers $m/1$.
-%The Farey neighbors of $0= 0/1$ are the rationals $1/n$ and in particular $1/p$ 
-%is one of them though $2/p$ is not. 
-
-
-
-
