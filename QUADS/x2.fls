@@ -613,6 +613,11 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./3sphere.png
+INPUT ./3sphere.png
+INPUT 3sphere.png
+INPUT ./3sphere.png
+INPUT ./3sphere.png
 INPUT ./hecke_fund_dom.png
 INPUT ./hecke_fund_dom.png
 INPUT hecke_fund_dom.png

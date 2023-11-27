@@ -51,7 +51,6 @@ And [here is the result](./story.md).
 
 [F4](./Fiche4-fonctions.pdf)
 
-[quick test 2022](./qt3.pdf)
 
 ---
 
@@ -59,6 +58,7 @@ And [here is the result](./story.md).
 
 [F3](./Fiche3-geometrie.pdf)
 
+[quick test géométrie 2022](./qt3.pdf)
 
 
 

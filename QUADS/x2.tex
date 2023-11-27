@@ -184,8 +184,24 @@ Probably the easiest surface to count arcs on is $\xx$.
 	$\xx$ is $3(p-1)$.
 \end{thm}
 
+
+ \begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.3]{3sphere.png} 
+\end{center}
+\caption{The surface $\xx$. The dotted lines are arcs one of which
+is a loop of $\lambda$-length 2, and the other has $\lambda$-length 1.}
+\label{3sphere}
+\end{figure}
+
 The surface is $\xx$ is not compact and has three cusps which, as we
-shall see, are naturally associated with $0,1,\infty$.
+shall see, are naturally associated with $0,1,\infty \in \partial \mathbb{H}$.
+This is a manifestation of the fact that $\g2$ acts on the extended
+rationals $\mathbb{Q} \cup \{\infty\}$.
+By \textit{parity} we mean one
+of the three classes one obtains by taking the 
+numerator and denominator of $\frac{p}{q}$ modulo 2
+where, by convention, $\infty = \frac{1}{0}$.
 Actually $\xx$ is a degree 6 cover of the modular surface
 $\mathbb{H}/\Gamma$. 
 Unfortunately this covering is ramified at 2 points and
@@ -231,8 +247,9 @@ Evidently the arcs on $\xx$ fall into two families:
 	\item arcs that join distinct cusps. 
 	\item arcs that have both ends at the same cusp
 \end{itemize}
-We will refer to the second kind of arc as a \textit{loop}.
-Amusingly one has:
+We will refer to the second kind of arc as a \textit{loops}
+(see Figure \ref{3sphere}).
+Amusingly one can characterise loops using $\lambda$-lengths.
 \begin{lem}
 	An arc on $\xx$ is a loop if and only if its
 	$\lambda$-length is even.
@@ -389,7 +406,6 @@ in the fundamental strip at height $\frac{1}{n}$.
 
 Note that we are counting $c^2 + d^2$ and $d^2 + c^2$ 
 as \textit{different} representations of $n$.
-
 
 \proof  Suppose there is such a point which we denote  $w$
 verifying the hypotheses in particular

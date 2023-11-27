@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  27 NOV 2023 11:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  27 NOV 2023 17:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -341,13 +341,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<3sphere.png, id=92, 669.2503pt x 509.65407pt>
+File: 3sphere.png Graphic file (type png)
+<use 3sphere.png>
+Package pdftex.def Info: 3sphere.png  used on input line 190.
+(pdftex.def)             Requested size: 200.77664pt x 152.8974pt.
+ [2 <./3sphere.png>]
 
-LaTeX Warning: Reference `' on page 2 undefined on input line 218.
+LaTeX Warning: Reference `' on page 3 undefined on input line 234.
 
-./x2.tex:220: Undefined control sequence.
+./x2.tex:236: Undefined control sequence.
 <recently read> \lamda 
                        
-l.220 Computing the $\lamda
+l.236 Computing the $\lamda
                            $-length of an arc $\alpha$ on $\xx$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -355,17 +361,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[2] [3]
+[3]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 328.
+(hyperref)                removing `math shift' on input line 345.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 328.
+(hyperref)                removing `math shift' on input line 345.
 
-./x2.tex:339: Misplaced alignment tab character &.
-l.339 to choose the integers $0,1, 2\ldots p-1&
+[4]
+./x2.tex:356: Misplaced alignment tab character &.
+l.356 to choose the integers $0,1, 2\ldots p-1&
                                                $ as representatives for the
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -374,99 +381,92 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 372.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 372.
+(hyperref)                removing `math shift' on input line 389.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 372.
+(hyperref)                removing `\Gamma' on input line 389.
 
-[5]
-<hecke_fund_dom.png, id=124, 696.0742pt x 368.19662pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 389.
+
+[5] [6]
+<hecke_fund_dom.png, id=134, 696.0742pt x 368.19662pt>
 File: hecke_fund_dom.png Graphic file (type png)
 <use hecke_fund_dom.png>
-Package pdftex.def Info: hecke_fund_dom.png  used on input line 513.
+Package pdftex.def Info: hecke_fund_dom.png  used on input line 529.
 (pdftex.def)             Requested size: 348.03624pt x 184.09785pt.
- [6]
-<Ford-circles.png, id=131, 463.7325pt x 137.51375pt>
+ [7 <./hecke_fund_dom.png>]
+<Ford-circles.png, id=142, 463.7325pt x 137.51375pt>
 File: Ford-circles.png Graphic file (type png)
 <use Ford-circles.png>
-Package pdftex.def Info: Ford-circles.png  used on input line 560.
+Package pdftex.def Info: Ford-circles.png  used on input line 576.
 (pdftex.def)             Requested size: 370.9865pt x 110.01114pt.
 
-Overfull \hbox (10.9865pt too wide) in paragraph at lines 560--561
+Overfull \hbox (10.9865pt too wide) in paragraph at lines 576--577
  [] 
  []
 
-[7 <./hecke_fund_dom.png>]
-<hecke_cover.png, id=139, 717.37485pt x 376.56474pt>
+[8 <./Ford-circles.png>]
+<hecke_cover.png, id=151, 717.37485pt x 376.56474pt>
 File: hecke_cover.png Graphic file (type png)
 <use hecke_cover.png>
-Package pdftex.def Info: hecke_cover.png  used on input line 594.
+Package pdftex.def Info: hecke_cover.png  used on input line 610.
 (pdftex.def)             Requested size: 358.68654pt x 188.2819pt.
 
-Underfull \vbox (badness 6842) has occurred while \output is active []
-
- [8 <./Ford-circles.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 602.
+(hyperref)                removing `math shift' on input line 618.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 602.
+(hyperref)                removing `\Gamma' on input line 618.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 602.
+(hyperref)                removing `subscript' on input line 618.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 602.
+(hyperref)                removing `superscript' on input line 618.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 602.
+(hyperref)                removing `math shift' on input line 618.
 
-<farey_mod.png, id=149, 443.50958pt x 157.47252pt>
+[9 <./hecke_cover.png>]
+<farey_mod.png, id=159, 443.50958pt x 157.47252pt>
 File: farey_mod.png Graphic file (type png)
 <use farey_mod.png>
-Package pdftex.def Info: farey_mod.png  used on input line 639.
+Package pdftex.def Info: farey_mod.png  used on input line 655.
 (pdftex.def)             Requested size: 443.5085pt x 157.47212pt.
 
-Overfull \hbox (83.5085pt too wide) in paragraph at lines 639--640
+Overfull \hbox (83.5085pt too wide) in paragraph at lines 655--656
  [] 
  []
 
 
-Underfull \vbox (badness 3646) has occurred while \output is active []
-
- [9 <./hecke_cover.png>]
-
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 647.
+(hyperref)                removing `math shift' on input line 663.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 647.
+(hyperref)                removing `\Gamma' on input line 663.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 647.
+(hyperref)                removing `subscript' on input line 663.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 647.
+(hyperref)                removing `superscript' on input line 663.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 647.
+(hyperref)                removing `math shift' on input line 663.
 
 [10 <./farey_mod.png>] [11] (./x2.aux)
 
@@ -476,21 +476,21 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `x2.out' has not changed.
-(rerunfilecheck)             Checksum: 188148EA7B0A38341D260C7AC6901F94;943.
+(rerunfilecheck)             Checksum: 357F32AE6D41A59B115B61CF9F691996;943.
  ) 
 Here is how much of TeX's memory you used:
- 8374 strings out of 481252
- 127150 string characters out of 5915889
- 434380 words of memory out of 5000000
- 24957 multiletter control sequences out of 15000+600000
+ 8382 strings out of 481252
+ 127260 string characters out of 5915889
+ 434525 words of memory out of 5000000
+ 24963 multiletter control sequences out of 15000+600000
  411843 words of font info for 60 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
- 82i,9n,88p,341b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,9n,88p,341b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on x2.pdf (11 pages, 377320 bytes).
+Output written on x2.pdf (11 pages, 397284 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
