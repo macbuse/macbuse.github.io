@@ -249,7 +249,7 @@ Evidently the arcs on $\xx$ fall into two families:
 \end{itemize}
 We will refer to the second kind of arc as a \textit{loops}
 (see Figure \ref{3sphere}).
-Amusingly one can characterise loops using $\lambda$-lengths.
+Amusingly one can characterise loops using $\lambda$-lengthis.
 \begin{lem}
 	An arc on $\xx$ is a loop if and only if its
 	$\lambda$-length is even.
@@ -356,7 +356,7 @@ It is the usual
 to choose the integers $0,1, 2\ldots p-1&$ as representatives for the
 latter, 
 however, we shall find it convenient to work with
-another set of representatives which are the even integers 
+another set of representatives, the even integers 
 $0, 2, 4 \ldots 2p -2$.
 Using the euclidean algorithm to compute $\bar{x}^{-1} \in \mathbb{F}_{11}$
 we have the following table:
@@ -383,8 +383,17 @@ One notes that there are two fixed points of $-\bar{x} \mapsto
 
 \section{Counting sums of squares}
 
+We count solutions for the diophantine problem $n = mc^2 + d^2$ in
+two ways:
+\begin{itemize}
+	\item Firstly by showing that solutions are
+		naturally associated to the  $\Gamma$
+		orbit of $i\sqrt m$;
+	\item Secondly by counting arcs of $\lambda$-length n.
+\end{itemize}
 
-\subsection{Counting points in $\Gamma$ orbits}
+
+\subsection{From solutions to $\Gamma$ orbits}
 
 The transformation $z \mapsto z + 1$ generates an infinite cyclic
 group acting on $\mathbb{H}$.
@@ -401,27 +410,29 @@ with $c,d$ coprime integers
 is equal to the number of points
 of $\oi$, 
 the $\sl2$  orbit of $i$,
-in the fundamental strip at height $\frac{1}{n}$.
+in the fundamental strip such that the imaginary part (euclidean height) is $\frac{1}{n}$.
 \end{lem}
-
 Note that we are counting $c^2 + d^2$ and $d^2 + c^2$ 
 as \textit{different} representations of $n$.
 
-\proof  Suppose there is such a point which we denote  $w$
-verifying the hypotheses in particular
+\proof  Suppose there is a point $w$
+verifying the hypotheses, in particular
 
-$$w = \frac{ai + b}{ci + d},\, \begin{pmatrix} a&b\\c&d
-\end{pmatrix} \in \Gamma,$$
-then
+$$w = \frac{ai + b}{ci + d},\, 
+\text{ for some } \begin{pmatrix} a&b\\c&d
+\end{pmatrix} \in \Gamma.$$
+Then one has:
 
-$$\im w = \im  \frac{ai +b}{ci+d } = \frac{\im i} {c^2 + d^2}.$$
+$$\im w = \im  \left (\frac{ai +b}{ci+d } \right)
+= \frac{\im i} {c^2 + d^2},$$
 
-So $n = c^2 + d^2$.
+so $n = c^2 + d^2$ as claimed.
 
-Conversely if $c,d$ are coprime integers 
+Conversely if $c,d$ are coprime integers
+such that $n=c^2 +d^2$
  then there exists $a,b$ such that
  $$ad - bc = 1 \Rightarrow  
- \begin{pmatrix}
+A =  \begin{pmatrix}
  a & b \\
  c & d
  \end{pmatrix} \in \Gamma.
@@ -430,12 +441,14 @@ $$
 %$$ac + bd = (a,b).(c,d),$$
 %and
 By applying a suitable iterate of the parabolic transformation 
-$z \mapsto z + 1$,
+$z \mapsto z + 1$, if necessary 
 one can choose $w$ such that $0 \leq \text{Re\,} w < 1$.
 
 \hfill $\Box$
 
-\begin{lem} \label{squares}
+By exactly the same argument one has a slightly more general result:
+
+\begin{lem} \label{quadratic form}
 Let $n\geq2$ be an integer and $m < n$ a square free integer.
 The number of  ways of writing $n$  as a  sum of squares
 $$n = mc^2 + d^2$$
@@ -443,11 +456,11 @@ with $c,d$ coprime integers
 is equal to the number of points
 of $\Gamma.\{i\sqrt m\}  $
 the $\sl2$  orbit of $i\sqrt m$,
-in the fundamental strip at height $\frac{m}{n}$.
+in the fundamental strip at euclidean height $\frac{\sqrt m}{n}$.
 \end{lem}
 
 
-\subsection{Counting points/arcs on surfaces}
+\subsection{From $\Gamma$ orbits to arcs}
 
 Suppose that $n$ is can be written as a sum of squares $c^2 +d^2$
 and $w$ is the corresponding point in the fundamental strip then we
@@ -455,8 +468,11 @@ can associate a Poincaré geodesic to $w$ in a natural way,
 we simply take the vertical line that passes through $w$.
 This geodesic joins two points in the ideal boundary of $\mathbb{H}$
 namely $\infty$ and $\frac{ac + bd}{n}\in \mathbb{Q}$.
-Although not strictly necessary we choose to associate a geometric
-quantity to this geodesic - Penner's $\lambda$-length.
+Penner's $\lambda$-length
+This geodesic projects to an arc on the surface $\xx$
+and, using the definition above, its $\lambda$-length is $n$.
+If $n$ is not even then this arc is not a loop
+and so joins a pair of distinct cusps $\infty$ to $1$ say.
 
 
 
@@ -473,7 +489,7 @@ ideal boundary.
 To each Poincaré geodesic is associated a unique inversion which fixes it pointwise. 
 The inversion
 $\rh: z\mapsto -\bar{z}$ fixes $0$ and $\infty$ 
-and so the arc joining them.
+and so the geodesic joining them.
 The group of isometries acts transitively on pairs of distinct
 points $a,b \in \partial \mathbb{H}$ and so
 there is an inversion that fixes the geodesic joining $a,b$which is
@@ -493,19 +509,28 @@ and the $\lambda$-length of the geodesic joining them
 is $|a^2 - b^2|$.
 
 \end{itemize}
-
+It follows from these remarks that:
 \begin{lem}
 	Let $p>2$ be a prime then:
 	
 \begin{itemize} 
 
-	\item There are exactly two arcs of $\lambda$-length
-		$p$ invariant under $\rv$;
 	\item There is no arc of $\lambda$-length $p$
 		invariant under $\rh$.
+	\item There are exactly two arcs of $\lambda$-length
+		$p$ invariant under $\rv$;
 
 \end{itemize}
 \end{lem}
+\proof 
+The first part is easy because the $\lambda$-length of such an arc
+is an even integer.
+The second part follows from the fact that p factorises as
+$$p = |(a-b)| |(a+b)|,$$
+so up to permutation and change of sign $a,b$ are the integers
+$\frac{1}{2}(p\pm1)$.
+
+\hfill $\Box$
 
 \section{Congruence subgroups}
 
