@@ -31,6 +31,31 @@ les notations
 
 ---
 
+- [CC2 du  9/12/22 sujet + bareme + correction](./CC2_MAT305.pdf)
+
+**solutions noyau/image**
+
+ker = {t[ 5 -2  1]} im = 1x + -1y + 2z = 0 
+
+ker = {t[  6 -15  28]} im = 1x + -1y + 2z = 0 
+
+ker = {t[ -6  13 -23]} im = -1x + 1y + 2z = 0 
+
+ker = {t[-3  3 -2]} im = -1x + 5y + -3z = 0 
+
+ker = {t[-12   7  -9]} im = 1x + -3y + -1z = 0 
+
+ker = {t[ -3  -1 -12]} im = -1x + -1y + -1z = 0 
+
+ker = {t[-5 -4 -4]} im = 5x + -1y + -1z = 0 
+
+ker = {t[  7  -3 -10]} im = -1x + -1y + 3z = 0 
+
+ker = {t[-6 -1  2]} im = -2x + 1y + -1z = 0 
+
+ker = {t[ 20 -13   3]} im = -1x + -1y + -1z = 0
+
+
 - [Multiplication etc.](./mult.pdf)
 - [F3 calcul matriciel](./F3_2023exos.pdf)
 
