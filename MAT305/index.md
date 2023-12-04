@@ -31,8 +31,13 @@ les notations
 
 ---
 
+- [Feuille diagonalisation](./diag.pdf)
+
+---
+
 - [Feuille inverses](./inverse.pdf)
 - [CC2 du  9/12/22 sujet + bareme + correction](./CC2_MAT305.pdf)
+
 ---
 
 
