@@ -10,7 +10,7 @@ title: MAT305
 - Wednesdays 9:45
 - First class: 12/9
 
-**IMPORTANT**  initialement prevu le 10/11,  CC1 aura lieu le mercredi 11/10
+**IMPORTANT** CC2 mercredi 6/12 
 
 ---
 
@@ -31,7 +31,10 @@ les notations
 
 ---
 
+- [Feuille inverses](./inverse.pdf)
 - [CC2 du  9/12/22 sujet + bareme + correction](./CC2_MAT305.pdf)
+---
+
 
 **solutions noyau/image**
 
