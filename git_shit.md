@@ -1,5 +1,13 @@
 # Github Credentials
 
+# 2023 
+
+- install gcm with apt-get
+- git config --global credential.helper store
+
+---
+
+
 I was using a password to access via the CLI in Linux.  The 13/8/21 they
 discontinued this API. Migration was painful.  Maybe it's because Microsoft wants us to use GUI clients.
 
