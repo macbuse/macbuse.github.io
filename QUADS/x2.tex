@@ -108,11 +108,12 @@ $$x^2 + y^2 = p $$
 has a solution in integers  iff  $p =2$ or $p-1$ is a multiple of $4$.
 \end{thm}
 
-There are many proofs of these theorems but the approach initiated
+There are myriad proofs of these theorems but the approach initiated
 by Heath-Brown in \cite{heath} has inspired many admirers if not 
 imitators see for example the very nice account of Elsholtz \cite{elsholtz}.
-In some senses this manuscript is a companion 
-to Elsholtz's where instead of looking at the number theory as combinatorics we work in an explicitly geometric context.
+In some sense this manuscript is a companion 
+to Elsholtz's where, instead of looking at the number theory as
+combinatorics, we work in an explicitly geometric context.
 As such we refer the reader to Elsholtz for historical perspective
 and the like.
 
@@ -129,7 +130,7 @@ a finite set $X$ equipped with a pair of involutions such that:
 \end{itemize}
 
 The existence of the unique fixed point of the second involution
-allows one to conclude that  the $X$ has an odd number of elements
+allows one to conclude that the set $X$ has an odd number of elements
 and so that any involution has a fixed point.
 
 Probably the most elegant incarnation of this method is Dolan's
@@ -148,8 +149,9 @@ where a dictionary between geometric and number theoretic notions is presented.
 
 An important
 feature of a punctured surface is that it admits \textit{uniform
-cusp regions} that is there is a neighborhood of each puncture, or more properly cusp, isometric to 
-$$\{z\in \mathbb{H}, \mathrm{Re}z \geq 1\}/\langle z \mapsto z+2 \rangle$$  
+cusp regions} (see \cite{Shimizu}) that is there is a neighborhood of each puncture, or more properly cusp, isometric to 
+$$\{z\in \mathbb{H}, \mathrm{Re}z \geq 1\}/\langle z \mapsto z+1
+\rangle.$$  
 The  torus $\mathbb{H}/\Gamma'$ can
 be obtained from a pair of ideal triangles by "gluing" and the sides
 of the ideal triangles form a triple of complete simple geodesics on
@@ -194,7 +196,7 @@ is a loop of $\lambda$-length 2, and the other has $\lambda$-length 1.}
 \label{3sphere}
 \end{figure}
 
-The surface is $\xx$ is not compact and has three cusps which, as we
+The surface  $\xx$ is not compact and has three cusps which, as we
 shall see, are naturally associated with $0,1,\infty \in \partial \mathbb{H}$.
 This is a manifestation of the fact that $\g2$ acts on the extended
 rationals $\mathbb{Q} \cup \{\infty\}$.
@@ -205,7 +207,8 @@ where, by convention, $\infty = \frac{1}{0}$.
 Actually $\xx$ is a degree 6 cover of the modular surface
 $\mathbb{H}/\Gamma$. 
 Unfortunately this covering is ramified at 2 points and
-the projection of an arc on $\xx$ may or may not be an arc.
+the projection of an arc on $\xx$ may or may not be an arc in the
+quotient.
 The problem lies in that an arc may be invariant by some involution
 in the covering group and as a consequence connects the cusp on
 $\mathbb{H}/\Gamma$ to a ramification point.
@@ -233,12 +236,12 @@ In fact
 
 As we shall see in Section \ref{}, this result is indeed equivalent to Theorem \ref{main}. 
 
-Computing the $\lamda$-length of an arc $\alpha$ on $\xx$ 
+Computing the $\lambda$-length of an arc $\alpha$ on $\xx$ 
 is relatively simple.
 One considers a lift $\hat{\alpha}$ of the arc.
 This is a Poincaré geodesic joining a pair of distinct rationals
 $a/c,b/d \in \mathbb{Q}$ and the $\lambda$-length is just
-the determinant of the matrix
+the absolute value of the determinant of the matrix
 $$ 
  \begin{pmatrix} a & b \\ c & d \end{pmatrix}.
 $$
@@ -247,9 +250,9 @@ Evidently the arcs on $\xx$ fall into two families:
 	\item arcs that join distinct cusps. 
 	\item arcs that have both ends at the same cusp
 \end{itemize}
-We will refer to the second kind of arc as a \textit{loops}
+We will refer to the second kind of arc as a \textit{loop}
 (see Figure \ref{3sphere}).
-Amusingly one can characterise loops using $\lambda$-lengthis.
+Amusingly one can characterise loops using $\lambda$-length.
 \begin{lem}
 	An arc on $\xx$ is a loop if and only if its
 	$\lambda$-length is even.
@@ -715,7 +718,6 @@ and each of these has $\lambda$-length $p$ for our choice of cusp regions.
 M. Aigner
 \textit{Markov's Theorem and 100 Years of the Uniqueness Conjecture}, Springer( 2013)
 
-
 \bibitem{aigner2}
 Aigner M., Ziegler G.M.  
 \textit{Representing numbers as sums of two squares.} In: Proofs from the book. Springer, Berlin, Heidelberg. (2010)
@@ -815,6 +817,11 @@ J-P. Serre,
 Graduate Texts in Mathematics,
 Springer-Verlag New York
 1973
+
+\bibitem{Shimizu}
+H. Shimizu, 
+\textit{On discontinuous groups operating on the product of half spaces}, Ann. of Math. (2)77(1963), 33-71.
+
 
 \bibitem{springborn1}
 

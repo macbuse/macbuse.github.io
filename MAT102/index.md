@@ -35,19 +35,21 @@ And [here is the result](./story.md).
 
 <!-- --- -->
 
-<!-- [F5](./Fiche5-integrales.pdf) -->
+[F5](./Fiche5-integrales.pdf)
 
-<!-- - [exo 5](./Fiche5Ex5.pdf) -->
-<!-- - [exo 6](./Fiche5Ex6.pdf) -->
-<!-- - [exo 7](./Fiche5Ex7.pdf) -->
-<!-- - [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29) -->
-<!-- - [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29) -->
-<!-- - [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29) -->
-<!-- - [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29) -->
-<!-- - [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29) -->
-<!-- - [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29) -->
+- [exo 5](./Fiche5Ex5.pdf)
+- [exo 6](./Fiche5Ex6.pdf)
+- [exo 7](./Fiche5Ex7.pdf)
+- [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29)
+- [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29)
+- [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29)
+- [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29)
+- [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29)
+- [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29)
 
 <!-- --- -->
+
+---
 
 [F4](./Fiche4-fonctions.pdf)
 
