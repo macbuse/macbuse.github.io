@@ -29,7 +29,10 @@ les notations
 <!-- - [2021 TD archived page](./MAT305_index.md) -->
 <!-- - [mes calculs](./uniqueness.pdf) -->
 
----
+
+- [CC2 2023](CC2_2023.pdf)
+
+--
 
 - [Feuille diagonalisation](./diag.pdf)
 
