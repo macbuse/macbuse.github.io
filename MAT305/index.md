@@ -35,6 +35,7 @@ les notations
 --
 
 - [Feuille diagonalisation](./diag.pdf)
+- [solutions](./sols.md)
 
 ---
 
