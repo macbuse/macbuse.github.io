@@ -34,6 +34,9 @@ les notations
 
 --
 
+
+- [ET
+2021](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/ET-01.2022.pdf)
 - [Feuille diagonalisation](./diag.pdf)
 - [solutions](./sols.md)
 
