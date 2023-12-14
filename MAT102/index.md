@@ -35,6 +35,11 @@ And [here is the result](./story.md).
 
 <!-- --- -->
 
+-[exam 1](./MAT102_Examen_Session1_2020-2021.pdf)
+-[exam 1](./MAT102_Examen_Session1_2021-2022.pdf
+
+---
+
 [F5](./Fiche5-integrales.pdf)
 
 - [exo 5](./Fiche5Ex5.pdf)
