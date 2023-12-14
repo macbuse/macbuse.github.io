@@ -35,8 +35,8 @@ And [here is the result](./story.md).
 
 <!-- --- -->
 
--[exam 1](./MAT102_Examen_Session1_2020-2021.pdf)
--[exam 1](./MAT102_Examen_Session1_2021-2022.pdf
+- [exam 2020](./MAT102_Examen_Session1_2020-2021.pdf)
+- [exam 2021](./MAT102_Examen_Session1_2021-2022.pdf)
 
 ---
 
