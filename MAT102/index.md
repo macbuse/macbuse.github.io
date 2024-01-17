@@ -27,6 +27,11 @@ by buying a hot chocolate for him
 
 And [here is the result](./story.md).
 
+ <!-- 16-17 -->
+
+<!-- 15.5 /16 -->
+
+
 <!-- **nombres complexes** -->
 
 <!-- - [ensemble de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia) -->

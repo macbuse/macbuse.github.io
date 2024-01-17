@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  10 DEC 2023 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  17 JAN 2024 10:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -394,24 +394,37 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 <hecke_fund_dom.png, id=135, 696.0742pt x 368.19662pt>
 File: hecke_fund_dom.png Graphic file (type png)
 <use hecke_fund_dom.png>
-Package pdftex.def Info: hecke_fund_dom.png  used on input line 557.
+Package pdftex.def Info: hecke_fund_dom.png  used on input line 574.
 (pdftex.def)             Requested size: 348.03624pt x 184.09785pt.
  [7]
 <Ford-circles.png, id=142, 463.7325pt x 137.51375pt>
 File: Ford-circles.png Graphic file (type png)
 <use Ford-circles.png>
-Package pdftex.def Info: Ford-circles.png  used on input line 604.
+Package pdftex.def Info: Ford-circles.png  used on input line 620.
 (pdftex.def)             Requested size: 370.9865pt x 110.01114pt.
 
-Overfull \hbox (10.9865pt too wide) in paragraph at lines 604--605
+Overfull \hbox (10.9865pt too wide) in paragraph at lines 620--621
  [] 
  []
 
 [8 <./hecke_fund_dom.png>]
+
+./x2.tex:645: Package inputenc Error: Unicode character ∞ (U+221E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.645 $A'$ is $∞
+                  $ and the image of $b/d$ is $b'/\det A$.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
 <hecke_cover.png, id=149, 717.37485pt x 376.56474pt>
 File: hecke_cover.png Graphic file (type png)
 <use hecke_cover.png>
-Package pdftex.def Info: hecke_cover.png  used on input line 638.
+Package pdftex.def Info: hecke_cover.png  used on input line 654.
 (pdftex.def)             Requested size: 358.68654pt x 188.2819pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -419,59 +432,66 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [9 <./Ford-circles.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 646.
+(hyperref)                removing `math shift' on input line 662.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 646.
+(hyperref)                removing `\Gamma' on input line 662.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 646.
+(hyperref)                removing `subscript' on input line 662.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 646.
+(hyperref)                removing `superscript' on input line 662.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 646.
+(hyperref)                removing `math shift' on input line 662.
 
 <farey_mod.png, id=159, 443.50958pt x 157.47252pt>
 File: farey_mod.png Graphic file (type png)
 <use farey_mod.png>
-Package pdftex.def Info: farey_mod.png  used on input line 683.
+Package pdftex.def Info: farey_mod.png  used on input line 703.
 (pdftex.def)             Requested size: 443.5085pt x 157.47212pt.
 
-Overfull \hbox (83.5085pt too wide) in paragraph at lines 683--684
+Overfull \hbox (83.5085pt too wide) in paragraph at lines 703--704
  [] 
  []
 
-
-Underfull \vbox (badness 3646) has occurred while \output is active []
-
- [10 <./hecke_cover.png>]
+[10 <./hecke_cover.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 691.
+(hyperref)                removing `math shift' on input line 711.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 691.
+(hyperref)                removing `\Gamma' on input line 711.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 691.
+(hyperref)                removing `subscript' on input line 711.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 691.
+(hyperref)                removing `superscript' on input line 711.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 691.
+(hyperref)                removing `math shift' on input line 711.
 
-[11 <./farey_mod.png>] [12] (./x2.aux)
+./x2.tex:763: Misplaced alignment tab character &.
+l.763 is too and $g$ fixes an arc.&
+                                   
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[11 <./farey_mod.png>] [12] [13] (./x2.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -482,18 +502,18 @@ Package rerunfilecheck Info: File `x2.out' has not changed.
 (rerunfilecheck)             Checksum: 0DC25D26E2A8A4F9D0B4826AE6F554AC;933.
  ) 
 Here is how much of TeX's memory you used:
- 8385 strings out of 481252
- 127299 string characters out of 5915889
- 434540 words of memory out of 5000000
- 24964 multiletter control sequences out of 15000+600000
+ 8394 strings out of 481252
+ 127380 string characters out of 5915889
+ 434588 words of memory out of 5000000
+ 24968 multiletter control sequences out of 15000+600000
  411843 words of font info for 60 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
  82i,9n,88p,342b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on x2.pdf (12 pages, 399719 bytes).
+Output written on x2.pdf (13 pages, 403417 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 236 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 248 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
  138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
