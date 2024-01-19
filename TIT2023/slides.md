@@ -11,7 +11,6 @@
 - Can I prove these with one figure ?
 
 
-
 #
 
 Markov numbers are integers that appear in triples which are solutions of

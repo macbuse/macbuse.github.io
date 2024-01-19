@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  17 JAN 2024 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  18 JAN 2024 10:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -495,16 +495,13 @@ might try typing `S' now just to see what is salvageable.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `x2.out' has not changed.
 (rerunfilecheck)             Checksum: 0DC25D26E2A8A4F9D0B4826AE6F554AC;933.
  ) 
 Here is how much of TeX's memory you used:
  8394 strings out of 481252
  127380 string characters out of 5915889
- 434588 words of memory out of 5000000
+ 434617 words of memory out of 5000000
  24968 multiletter control sequences out of 15000+600000
  411843 words of font info for 60 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
