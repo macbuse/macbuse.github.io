@@ -768,7 +768,6 @@ z &\mapsto& -1/z
 - $\mathbb{H}/\Gamma(2)$  three punctured sphere 
 * standard fundamental domain 
 * = pair of ideal triangles
-* all edges $\lambda$-length 1
 
 
 
@@ -797,7 +796,7 @@ z &\mapsto& -1/z
 
 #
 <!-- _transition: slide -->
-Subgroup of automorphisms 
+What is the subgroup of automorphisms 
 fixing the cusp labeled $\infty$?
 
  $\simeq \mathbb{Z}/2\mathbb{Z} \oplus \mathbb{Z}/2\mathbb{Z}$
