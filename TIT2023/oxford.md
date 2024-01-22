@@ -63,6 +63,8 @@ greg mc shane
 - elementary number theory 
 - hyperbolic geometry
 - try not to talk about continued fractions
+- some is joint work with V. Sergiescu
+
 
 
 * $\Gamma = \mathrm{PSL}(2,\mathbb{Z})$ two index 6 subgroups
@@ -160,8 +162,8 @@ The largest integer in a triple determines the two other numbers.
 
 <!-- **Theorem (Fermat)** -->
 
- If $p$ be a prime and $p − 1$ is a multiple of 4then 
-$p=c^2 + d^2$ has a solution over $\mathbb{Z}$ 
+ If $p$ a prime and 4 divides $p − 1$ then 
+$p=c^2 + d^2$ for coprime integers $c,d$.
 
 <!-- * Button's theorem follows from "unicity" of $c,d$ -->
 <!-- * unique factorisation $p = (ci+d)(-ci+d)\in \mathbb{Z}[i]$ -->
@@ -170,10 +172,10 @@ $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
 ## References etc
 
 
-- First proof Euler
+- First proof Euler (reciprocity, descent)
 - Heath-Brown, Fermat’s two squares theorem. Invariant (1984) 
 - Zagier, A one-sentence proof that every prime p = 1 (mod 4) is a sum of two squares, 1990
-- Dolan (2021)
+- Dolan, S.,  The Mathematical Gazette, 106(564). (2021)
 - Elsholtz, Combinatorial Approach to Sums of Two Squares and Related Problems.  (2010) 
 
 #
@@ -192,6 +194,7 @@ $p=c^2 + d^2$ has a solution over $\mathbb{Z}$
 ![bg left](./Martin_Aigner.jpg)
 
 * [Proofs from THE BOOK](https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem)
+* 100 years of uniqueness
 * [Convexity and Aigner's Conjectures](https://arxiv.org/abs/2101.03316)
 * Prove his conjectures with one figure?
 
@@ -803,14 +806,14 @@ $0 \leq k < m-1$ coprime to $m$ which meet $\Gamma.\{i\}$
 #
 <!-- _transition: slide -->
 subgroup of automorphisms 
-fixing the cusp labeled $\infty$?
+fixing the cusp labeled $\infty$:
 
- $\simeq \mathbb{Z}/2\mathbb{Z} \oplus \mathbb{Z}/2\mathbb{Z}$
+ <!-- $\simeq \mathbb{Z}/2\mathbb{Z} \oplus \mathbb{Z}/2\mathbb{Z}$ -->
 
-* one reflection $V$ that 
+* a reflection $V$ that 
 swaps $0,\infty$ 
 fixes the arc of $\lambda$-length = 2
-* other reflection $U$ that 
+* another reflection $U$ that 
 fixes $0,\infty$ 
 fixes the arc of $\lambda$-length = 1
 * both fix the midpoint $i$
@@ -859,7 +862,7 @@ First the automorphism $U$
 The automorphism $V$ induced by $V'$ 
 fixes two and exactly two arcs in $X$.
 
-- can then apply Burnside Lemma to prove Theorem F2
+- can thencan then  apply Burnside Lemma to prove Theorem F2
 - $4 |X/G| = (p-1) + 2 + |X^{U\circ V}|$
 
 * **Proof:**
@@ -869,16 +872,19 @@ fixes two and exactly two arcs in $X$.
 * $p$ prime $\Rightarrow$ two solution $a-b= \pm 1, a+b= \pm p$
 
 
-# Question
+# Questions/Remarks
 <!-- _transition: glow -->
 
- Can other elementary results for quadratic forms 
- be interpreted in a similar way?
+ Can other elementary results for quadratic forms?
 * $x^2  + xy + y^2= p$ if $p − 1$ is a multiple of 6.
-*  $x^2 + 2y^2 = p$ if $p = 1, 3 \mod 8$
+using immersed "equilateral" ideal triangles.
+*  (Elsholtz) $x^2 + 2y^2 = p$ if $p =  3 \mod 8$ 
  using arcs $\mathbb{H}/\Gamma_0(2)$ where $\Gamma_0(n) := \left\{\begin{pmatrix} 1 & * \\ 0 & 1 \end{pmatrix} \mod n \right\}$
 
 * Baragar ? [m, 3m - 2, 3m + 2 prime](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88B0E426FFCBEA8B3A345C1074B8CC59/S0008439500018828a.pdf/on-the-unicity-conjecture-for-markoff-numbers.pdf)
+* More detailed analysis of the spectrum of $\lambda$-lengths?
+**Orthotree, orthoshapes and ortho-integral surfaces**
+Nhat Minh Doan
 
 
 
