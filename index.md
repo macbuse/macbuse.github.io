@@ -8,7 +8,9 @@ title: Home
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
+This week I am in Oxford 
 
+- [Oxford talk](./TIT2023/oxford.html)
 
 <!-- - I am currently in confinement with COVID -->
 <!-- - This week I'm sad :( because Copilot is out of beta preview. -->
