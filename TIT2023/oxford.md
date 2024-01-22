@@ -587,7 +587,7 @@ $5 = 2^2 + 1^2= 1^2 + 2^2$
 
 #
 <!-- _transition: slide -->
-## Lemma C
+## Lemma C'
 
 The number of  ways of writing $m$  as a  sum of squares
 $$m = c^2 + d^2$$
@@ -606,23 +606,22 @@ exactly 6 simple arcs of $\lambda$-length $m$ on $\mathbb{H}/\Gamma'$
 <!-- _transition: slide -->
  every Markoff number $m$ is the sum of two squares
 * if $m$ is prime then there are two ways of doing this
-* there are $\leq 12$ oriented simple arcs of $\lambda$ length $m$ on $\mathbb{H}/\Gamma'$
-* the multiplicity of $m$ in the Markoff tree is at most 6
+* $\Rightarrow$ there are $\leq 12$ oriented simple arcs of $\lambda$ length $m$ on $\mathbb{H}/\Gamma'$
+* $\Rightarrow$ multiplicity of $m$ in the Markoff tree $\leq 6$
 
-# In fact....
+<!-- # In fact.... -->
 
-<!-- _transition: glow -->
 
- <p style = "text-align: left"> 
-if m is a Markoff number and 
-</p>
+ <!-- <p style = "text-align: left"> --> 
+<!-- if m is a Markoff number and --> 
+<!-- </p> -->
 
-- $m = p^k$
-- or $m = 2p^k$
+<!-- - $m = p^k$ -->
+<!-- - or $m = 2p^k$ -->
 
- <p style = "text-align: left"> 
-then m satisfies the uniqueness conjecture
-</p>
+ <!-- <p style = "text-align: left"> --> 
+<!-- then m satisfies the uniqueness conjecture -->
+<!-- </p> -->
 
 # Sums of squares
 <!-- _transition: cube -->
@@ -698,23 +697,20 @@ z &\mapsto& 1/\bar{z}
 * **proposition** 
 If $p$ is a prime of the form $4k+1$ 
 then $x^2 = -1$ has a solution over $\mathbb{F}_p$ 
+* Follows from Wilson's Theorem
 
 #
 <!-- _transition: slide -->
-### Proof
+**"Geometric" proof:** Group acting on $X = \mathbb{F}_p^*$:
 
-Group acting on $X = \mathbb{F}_p^*$:
-
-$\begin{array}{lll}
-x &\mapsto& x \\
+$\begin{array}{ll}
+x &\mapsto& x &&
 x &\mapsto& -x \\
-x &\mapsto& 1/x \\
+x &\mapsto& 1/x &&
 x &\mapsto& -1/x
 \end{array}$
 
-#
-<!-- _transition: slide -->
-### Counting fixed points
+* **Count fixed points**
 
 * identity $|X^g| = p-1$ 
 * $x \mapsto -x, |X^g| = 0$  
@@ -738,15 +734,16 @@ x &\mapsto& -1/x
 #
 ### Theorem F2: sum of 2 squares
 
-Acting on $\mathbb{H}$ or the Farey diagram
 
-$\begin{array}{lll}
-z &\mapsto& z \\
+$\begin{array}{ll}
+z &\mapsto& z &&
 z &\mapsto& -\bar{z} \\
-z &\mapsto& 1/\bar{z}\\
+z &\mapsto& 1/\bar{z}&&
 z &\mapsto& -1/z
 \end{array}$
 
+Acting on $\mathbb{H}$ or the Farey diagram
+or on the arcs of $\mathbb{H}/\Gamma(2)$
 
 
 <!-- # -->
@@ -788,16 +785,24 @@ z &\mapsto& -1/z
 
 #
 <!-- _transition: cube -->
-## Lemma A
+## Lemma C'
 
-- Let $n$ be a positive integer.
-- The number of  ways of writing $n$  as a  sum of squares $n = c^2 + d^2$ with $c,d$ coprime integers
-- is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$.
+Let $m$ be a positive integer. 
+The "number of  ways" of writing $m$  as a  sum of squares
+$$m = c^2 + d^2$$
+with $c,d>0$ coprime integers is equal to the number of arcs 
+$\{  k/m + i t,\, t>0  \}$
+$0 \leq k < m-1$ coprime to $m$ which meet $\Gamma.\{i\}$
+
+
+<!-- - Let $n$ be a positive integer. -->
+<!-- - The number of  ways of writing $n$  as a  sum of squares $n = c^2 + d^2$ with $c,d$ coprime integers -->
+<!-- - is equal to the number of  integers $0 \leq k < n-1$ coprime to $n$ such that the line $\{  k/n + i t,\, t>0  \}$ contains  a point in the $\Gamma$  orbit of $i$. -->
 
 
 #
 <!-- _transition: slide -->
-Subgroup of automorphisms 
+subgroup of automorphisms 
 fixing the cusp labeled $\infty$?
 
  $\simeq \mathbb{Z}/2\mathbb{Z} \oplus \mathbb{Z}/2\mathbb{Z}$
@@ -850,18 +855,19 @@ First the automorphism $U$
 
 #
 <!-- _transition: cube -->
-## Fixed points II
 
 The automorphism $V$ induced by $V'$ 
 fixes two and exactly two arcs in $X$.
 
+- can then apply Burnside Lemma to prove Theorem F2
+- $4 |X/G| = (p-1) + 2 + |X^{U\circ V}|$
+
+* **Proof:**
 * suppose that there is an invariant arc that starts at $a/b$
 * then it must end at $V'(a/b) = b/a$ 
 * its $\lambda$- length is $|a^2 - b^2| = p$
 * $p$ prime $\Rightarrow$ two solution $a-b= \pm 1, a+b= \pm p$
 
-- apply Burnside Lemma to prove Theorem F2
-- $4 |X/G| = (p-1) + 2 + |X^{U\circ V}|$
 
 # Question
 <!-- _transition: glow -->
