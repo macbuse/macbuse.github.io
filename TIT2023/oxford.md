@@ -63,15 +63,19 @@ greg mc shane
 - elementary number theory 
 - hyperbolic geometry
 - try not to talk about continued fractions
-- some is joint work with V. Sergiescu
 
 
 
+* some is joint work with V. Sergiescu
 * $\Gamma = \mathrm{PSL}(2,\mathbb{Z})$ two index 6 subgroups
 * $\Gamma(2) = \ker (\Gamma →\mathrm{PSL}(2,\mathbb{Z}/2\mathbb{Z})) \simeq \mathbb{Z}*\mathbb{Z}$
 * $\Gamma' = [\Gamma,\Gamma] = \ker (\Gamma →\mathbb{Z}/6\mathbb{Z})\simeq \mathbb{Z}*\mathbb{Z}$ 
 * $\mathbb{H}/\Gamma(2) =$ three punctured sphere, automorphisms $\simeq \mathfrak{S}_3$
 * $\mathbb{H}/\Gamma' =$ modular torus, automorphisms $\simeq \mathbb{Z}/6\mathbb{Z}$ 
+
+# Problem 0
+
+![w:330](../shoulder.jpg)
 
 # Problem 1
 <!-- _transition: slide -->
