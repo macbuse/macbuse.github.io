@@ -4,6 +4,8 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 
+\usepackage[all,cmtip]{xy}
+
 \usepackage{hyperref}
 
 \usepackage{float}
@@ -39,6 +41,7 @@
 \def\im{\mathrm{Im}\,}
 \def\re{\mathrm{Re}\,}
 \def\oo{\HH / \Gamma_0(2)} 
+\def\ooo{\HH / \Gamma_0(3)} 
 \def\g2{\Gamma(2)}
 \def\go2{\Gamma_0(2)}
 \def\ah{\Gamma_0^t(2)}
@@ -141,7 +144,7 @@ proof \cite{dolan}.
 The starting point for this work was a series of observations
 concerning $\lambda$-lengths of simple arcs on a once punctured
 torus equipped with a hyperbolic structure for example $\HH/\Gamma'$
-where $\Gamma' < \sl2$ is the commutator subgroup. 
+where $\Gamma' < \Gamma = \sl2$ is the commutator subgroup. 
 The reader, unfamiliar with the relationship between hyperbolic
 geometry and number theory,
 should consult Springborn's articles \cite{springborn1, springborn2}
@@ -258,6 +261,23 @@ Amusingly one can characterise loops using $\lambda$-length.
 	$\lambda$-length is even.
 \end{lem}
 
+\subsection{Philosophy}
+
+In some sense we adopt the same approach to (positive definite) integer quadratic forms as
+Penner in \cite{} (see also \cite{springborn1}.)
+Such a
+quadratic form is associated to an involution of the upper half
+space $\mathbb{H}$: 
+\begin{itemize}
+	\item if the form is (positive) definite then the involution is orientation preserving 
+	\item if the form is indefinite then the involution is
+		orientation reversing 
+\end{itemize}
+
+What will be of interest to us is the automorphism 
+that an involution induces on a surface $\mathbb{H}/G$
+where $G$ is some group that it normalises.
+
 
 \section{Klein four group and the Burnside Lemma}
 
@@ -348,18 +368,18 @@ $x^2 - 2y^2$ never takes the value $3 \mod 8$.
 The first real case of interest in understanding 
 $x\mapsto -2/x$ is that of $\mathbb{F}_{11}^*$.
 Evidently, $11 = 3^2 + 2\times 1^2$ so that 
-$\bar{3}$ and $-\bar{3} = \bar{8}$ rare the fixed points of the involution.
+$\bar{3}$ and $-\bar{3} = \bar{8}$ are the fixed points of the involution.
 
 
 The reduction homomorphism $x\mapsto \bar{x}$
 allows one to identify the elements of $\fp$
 with the equivalence classes that constitute
  the quotient $\mathbb{Z}/p \mathbb{Z} $.
-It is the usual  
+It is usual  
 to choose the integers $0,1, 2\ldots p-1&$ as representatives for the
 latter, 
 however, we shall find it convenient to work with
-another set of representatives, the even integers 
+another set of representatives, namely the even integers 
 $0, 2, 4 \ldots 2p -2$.
 Using the euclidean algorithm to compute $\bar{x}^{-1} \in \mathbb{F}_{11}$
 we have the following table:
@@ -425,10 +445,10 @@ $$w = \frac{ai + b}{ci + d},\,
 \text{ for some } \begin{pmatrix} a&b\\c&d
 \end{pmatrix} \in \Gamma.$$
 Then one has:
-
-$$\im w = \im  \left (\frac{ai +b}{ci+d } \right)
-= \frac{\im i} {c^2 + d^2},$$
-
+\begin{equation}\label{imaginary height}
+\im w = \im  \left (\fracai +b}{ci+d } \right)
+= \frac{\im i} {c^2 + d^2},
+\end{equation}
 so $n = c^2 + d^2$ as claimed.
 
 Conversely if $c,d$ are coprime integers
@@ -451,7 +471,7 @@ one can choose $w$ such that $0 \leq \text{Re\,} w < 1$.
 
 By exactly the same argument one has a slightly more general result:
 
-\begin{lem} \label{quadratic form}
+\begin{lem} \label{counting quadratic form}
 Let $n\geq2$ be an integer and $m < n$ a square free integer.
 The number of  ways of writing $n$  as a  sum of squares
 $$n = mc^2 + d^2$$
@@ -465,7 +485,7 @@ in the fundamental strip at euclidean height $\frac{\sqrt m}{n}$.
 
 \subsection{From $\Gamma$ orbits to arcs}
 
-Suppose that $n$ is can be written as a sum of squares $c^2 +d^2$
+Suppose that $n$ can be written as a sum of squares $c^2 +d^2$
 and $w$ is the corresponding point in the fundamental strip then we
 can associate a Poincaré geodesic to $w$ in a natural way, 
 we simply take the vertical line that passes through $w$.
@@ -478,6 +498,158 @@ If $n$ is not even then this arc is not a loop
 and so joins a pair of distinct cusps $\infty$ to $1$ say.
 
 
+\subsection{Real part and reduction modulo $p$}
+
+We saw
+above how the imaginary part of
+$\left (\frac{ai\sqrt{m} +b}{ci\sqrt{m}+d } \right)$
+arises naturally in relation to counting the number of ways of
+representing a number as $mc^2 + d^2$.
+In this paragraph we explain what part the real part of this quantity
+plays.
+Explicitly the real part is:
+$$\frac{mac +bd}{mc^2+d^2 } .$$
+Suppose that $a,b,c,d,m\in \fp$ and that they satisfy the relations
+
+To prove this begin by noting that:
+\begin{eqnarray}
+	mc^2 + d^2 &=& 0\\
+	ad -bc &=& 1 \label{determinant}
+\end{eqnarray}
+then
+% \begin{equation}
+$$	(mac + bd)^2 = m.$$
+% \end{equation}
+
+\begin{eqnarray*}
+	(mac + bd)^2 &=& (ma^2)(mc^2) + b^2d^2 + 2m(abcd) \\
+	m(ad-bc)^2 &=& (ma^2)d^2
+	+ b^2(mc^2)  - 2m(abcd)
+\end{eqnarray*}
+using (\ref{determinant}) and adding these:
+$$
+	(mac + bd)^2 + m = (ma^2)(mc^2+d^2) + b^2(mc^2 + d^2
+	) = m.
+$$
+
+
+\section{Comparing actions}
+
+
+Let $XX$ denote the set of $p-1$ arcs joining $\infty$ and $\frac{mk}{p}$
+where $1\leq k < p$.
+These arcs project to pairwise distinct arcs
+of $\lambda$-length $p$ on the surface
+$\mathbb{H}/\Gamma_0(m)$.
+We wish to show that the involutions
+$z\mapsto \frac{m}{\bar{z}}$ 
+and 
+$z\mapsto \frac{-m}{z}$ 
+\begin{itemize}
+	\item 
+induce involutions of $XX$,
+\item that the action of these maps coincides with the corresponding
+	actions on $\fp$ (see Lemma \ref{actions agree}
+	below).
+\end{itemize}
+
+
+Since $k$ and $p$ are coprime there is a Bezout identity,
+that is there are integers $k',p'$ such that,
+$$k'k + p'p = 1$$
+Note that we may replace the pair $k',p'$
+by another pair $k'+ rp, p' -rk$ for any integer $r$
+and, by chosing $r$ suitably,
+may assume that $k'$ is divisible by $m$.
+This observation allows us to define maps on $XX$ as follows.
+The map 
+$z\mapsto \frac{m}{\bar{z}}$ is an inversion in the half circle
+with end points $\pm\sqrt{m}$  and is 
+is represented by the matrix
+$$
+\begin{pmatrix}
+	0 & m \\ 1 & 0
+\end{pmatrix}
+$$
+The image of the arc $\infty,\frac{mk}{p}$
+under this map is $0, \frac{p}{k}$
+and we have the equation
+\begin{equation}
+\begin{pmatrix}
+	0 & m \\ 1 & 0
+\end{pmatrix}
+\begin{pmatrix}
+mk & 1 \\
+p & 0
+\end{pmatrix}
+= 
+\begin{pmatrix}
+mp & 0 \\
+mk  & 1
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+p & 0 \\
+k & 1
+\end{pmatrix}
+
+\end{equation}
+
+Consider the matrix identity
+\begin{equation}
+\begin{pmatrix}
+p' & k' \\
+-k & p
+\end{pmatrix}
+\begin{pmatrix}
+p & 0 \\
+k & 1
+\end{pmatrix}
+= 
+\begin{pmatrix}
+1 & k' \\
+0  & p
+\end{pmatrix}
+\end{equation}
+This last matrix represents 
+the arc joining $\infty$ to $k'/p$ 
+and, since $k'$ is divisible $m$,
+this is an element of $XX$.
+Thus we may define a map $XX  \rightarrow XX $ that takes the arc $\infty, \frac{mk}{p}$ to $\infty,
+	\frac{k'}{p}$.
+Note further that 
+$$
+\begin{pmatrix}
+p' & k' \\
+-k & p
+\end{pmatrix}
+\in \Gamma^t _0(m)$$
+so this map induces a map on the arcs on the quotient surface
+$\mathbb{H}/\Gamma^t_0(m)$.
+
+
+Now there is a natural bijection
+\begin{eqnarray*}
+	X& \rightarrow & \fp \\
+	mk : & \mapsto& \overline{mk}.
+\end{eqnarray*}
+and it is natural to compute the map induced by $F$ 
+under this identification:
+
+
+\begin{lem} \label{actions agree}
+	
+Let $f$ denote the involution on $\fp $ defined by $ x \mapsto mx^{-1}$ 
+and $F$ the map described above then 
+$$ f(\overline{mk}) = \overline{F(mk)}.$$
+\end{lem}
+
+\proof
+This follows from the observation that on reducing the Bezout
+identity modulo $p$ one has
+$$\bar{1} = \overline{k'k} + \overline{p'p}=  \overline{k'}\overline{k} $$
+so that $\overline{k}^{-1} = \overline{k'}.
+\hfill $\Box$
 
 \section{Inversions}
 
