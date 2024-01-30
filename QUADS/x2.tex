@@ -278,6 +278,15 @@ What will be of interest to us is the automorphism
 that an involution induces on a surface $\mathbb{H}/G$
 where $G$ is some group that it normalises.
 
+We will show that the questions concerning the values of the quadratic form $x^2
++ m y^2$ can be interpreted of terms of arcs on the surface
+$\mathbb{H}/\Gamma^t_0(m)$ where
+$\ah$ is the 
+\textit{anti Hecke congruenc egroup}:
+$$ \Gamma^t_0(m) := \left \{ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = 
+\begin{pmatrix} 1 & 0 \\ * & 1 \end{pmatrix} \mod m \right \} < \g2.$$
+This group is normalised by the involution $z\mapsto -\frac{m}{z}$
+which fixes $i\sqrt{m}$.
 
 \section{Klein four group and the Burnside Lemma}
 
@@ -518,7 +527,7 @@ To prove this begin by noting that:
 \end{eqnarray}
 then
 % \begin{equation}
-$$	(mac + bd)^2 = m.$$
+$$	(mac + bd)^2 = -m.$$
 % \end{equation}
 
 \begin{eqnarray*}
@@ -529,7 +538,7 @@ $$	(mac + bd)^2 = m.$$
 using (\ref{determinant}) and adding these:
 $$
 	(mac + bd)^2 + m = (ma^2)(mc^2+d^2) + b^2(mc^2 + d^2
-	) = m.
+	) = 0.
 $$
 
 
@@ -552,6 +561,7 @@ induce involutions of $XX$,
 	actions on $\fp$ (see Lemma \ref{actions agree}
 	below).
 \end{itemize}
+This second point extends the calculation in the previous section.
 
 
 Since $k$ and $p$ are coprime there is a Bezout identity,
