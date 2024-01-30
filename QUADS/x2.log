@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  30 JAN 2024 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  30 JAN 2024 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -426,252 +426,135 @@ LaTeX Warning: Reference `' on page 3 undefined on input line 240.
 [3] [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 377.
+(hyperref)                removing `math shift' on input line 396.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 377.
-
-./x2.tex:388: Misplaced alignment tab character &.
-l.388 to choose the integers $0,1, 2\ldots p-1&
-                                               $ as representatives for the
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 430.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 430.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 430.
+(hyperref)                removing `math shift' on input line 396.
 
 [5]
-./x2.tex:458: Undefined control sequence.
-l.458 \im w = \im  \left (\fracai
-                                  +b}{ci+d } \right)
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-./x2.tex:458: Extra }, or forgotten \right.
-l.458 \im w = \im  \left (\fracai +b}
-                                     {ci+d } \right)
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 449.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 497.
+(hyperref)                removing `\Gamma' on input line 449.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 497.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 497.
+(hyperref)                removing `math shift' on input line 449.
 
 [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 512.
+(hyperref)                removing `math shift' on input line 516.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 512.
-
-[7]
-./x2.tex:605: Missing $ inserted.
-<inserted text> 
-                $
-l.605 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./x2.tex:605: Missing } inserted.
-<inserted text> 
-                }
-l.605 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./x2.tex:605: Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.605 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./x2.tex:605: Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.605 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+(hyperref)                removing `\Gamma' on input line 516.
 
 
-./x2.tex:606: LaTeX Error: Bad math environment delimiter.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 516.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.606 \end{equation}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
-./x2.tex:606: You can't use `\leqno' in vertical mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.606 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 532.
 
-./x2.tex:606: Missing $ inserted.
-<inserted text> 
-                $
-l.606 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-./x2.tex:606: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.606 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 532.
 
-./x2.tex:662: Missing $ inserted.
-<inserted text> 
-                $
-l.662 \hfill $\Box
-                  $
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[8] [9]
-<hecke_fund_dom.png, id=171, 696.0742pt x 368.19662pt>
+[7] [8]
+<hecke_fund_dom.png, id=164, 696.0742pt x 368.19662pt>
 File: hecke_fund_dom.png Graphic file (type png)
 <use hecke_fund_dom.png>
-Package pdftex.def Info: hecke_fund_dom.png  used on input line 756.
+Package pdftex.def Info: hecke_fund_dom.png  used on input line 666.
 (pdftex.def)             Requested size: 348.03624pt x 184.09785pt.
- [10 <./hecke_fund_dom.png>]
-<Ford-circles.png, id=178, 463.7325pt x 137.51375pt>
+ [9 <./hecke_fund_dom.png>]
+<Ford-circles.png, id=171, 463.7325pt x 137.51375pt>
 File: Ford-circles.png Graphic file (type png)
 <use Ford-circles.png>
-Package pdftex.def Info: Ford-circles.png  used on input line 802.
+Package pdftex.def Info: Ford-circles.png  used on input line 712.
 (pdftex.def)             Requested size: 370.9865pt x 110.01114pt.
 
-Overfull \hbox (10.9865pt too wide) in paragraph at lines 802--803
+Overfull \hbox (10.9865pt too wide) in paragraph at lines 712--713
  [] 
  []
 
 
-./x2.tex:827: Package inputenc Error: Unicode character ∞ (U+221E)
+./x2.tex:737: Package inputenc Error: Unicode character ∞ (U+221E)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.827 $A'$ is $∞
+l.737 $A'$ is $∞
                   $ and the image of $b/d$ is $b'/\det A$.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<hecke_cover.png, id=179, 717.37485pt x 376.56474pt>
+<hecke_cover.png, id=172, 717.37485pt x 376.56474pt>
 File: hecke_cover.png Graphic file (type png)
 <use hecke_cover.png>
-Package pdftex.def Info: hecke_cover.png  used on input line 836.
+Package pdftex.def Info: hecke_cover.png  used on input line 746.
 (pdftex.def)             Requested size: 358.68654pt x 188.2819pt.
-[11 <./Ford-circles.png>]
+[10 <./Ford-circles.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 844.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 844.
+(hyperref)                removing `math shift' on input line 754.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 844.
+(hyperref)                removing `\Gamma' on input line 754.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 844.
+(hyperref)                removing `subscript' on input line 754.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 844.
+(hyperref)                removing `superscript' on input line 754.
 
-<farey_mod.png, id=189, 443.50958pt x 157.47252pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 754.
+
+<farey_mod.png, id=182, 443.50958pt x 157.47252pt>
 File: farey_mod.png Graphic file (type png)
 <use farey_mod.png>
-Package pdftex.def Info: farey_mod.png  used on input line 885.
+Package pdftex.def Info: farey_mod.png  used on input line 795.
 (pdftex.def)             Requested size: 443.5085pt x 157.47212pt.
 
-Overfull \hbox (83.5085pt too wide) in paragraph at lines 885--886
+Overfull \hbox (83.5085pt too wide) in paragraph at lines 795--796
  [] 
  []
 
-[12 <./hecke_cover.png>]
+[11 <./hecke_cover.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 893.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 893.
+(hyperref)                removing `math shift' on input line 803.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 893.
+(hyperref)                removing `\Gamma' on input line 803.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 893.
+(hyperref)                removing `subscript' on input line 803.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 893.
+(hyperref)                removing `superscript' on input line 803.
 
-./x2.tex:945: Misplaced alignment tab character &.
-l.945 is too and $g$ fixes an arc.&
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 803.
+
+./x2.tex:855: Misplaced alignment tab character &.
+l.855 is too and $g$ fixes an arc.&
                                    
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -680,26 +563,110 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[13 <./farey_mod.png>] [14] [15] (./x2.aux)
+[12 <./farey_mod.png>]
+
+LaTeX Warning: Reference `comparing actions' on page 13 undefined on input line 879.
+
+./x2.tex:920: Missing $ inserted.
+<inserted text> 
+                $
+l.920 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./x2.tex:920: Missing } inserted.
+<inserted text> 
+                }
+l.920 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./x2.tex:920: Display math should end with $$.
+<to be read again> 
+                   \@@par 
+l.920 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./x2.tex:920: Extra }, or forgotten \endgroup.
+\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.920 
+      
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./x2.tex:921: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.921 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./x2.tex:921: You can't use `\leqno' in vertical mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.921 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./x2.tex:921: Missing $ inserted.
+<inserted text> 
+                $
+l.921 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./x2.tex:921: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.921 \end{equation}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+[13] [14] [15] (./x2.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `x2.out' has not changed.
-(rerunfilecheck)             Checksum: AD108A9F9B0F3FCB8E12CCC92259B479;1141.
+(rerunfilecheck)             Checksum: B7DAD36AC576AB0EDCA83BEEB3864151;1143.
  ) 
 Here is how much of TeX's memory you used:
- 11066 strings out of 481252
- 160318 string characters out of 5915889
- 515221 words of memory out of 5000000
- 27557 multiletter control sequences out of 15000+600000
+ 11072 strings out of 481252
+ 160390 string characters out of 5915889
+ 514303 words of memory out of 5000000
+ 27561 multiletter control sequences out of 15000+600000
  413292 words of font info for 69 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
- 82i,11n,88p,3213b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,11n,88p,3213b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on x2.pdf (15 pages, 418859 bytes).
+Output written on x2.pdf (15 pages, 421571 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
+ 85 named destinations out of 1000 (max. 500000)
  162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

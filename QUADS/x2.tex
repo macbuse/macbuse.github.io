@@ -205,7 +205,7 @@ This is a manifestation of the fact that $\g2$ acts on the extended
 rationals $\mathbb{Q} \cup \{\infty\}$.
 By \textit{parity} we mean one
 of the three classes one obtains by taking the 
-numerator and denominator of $\frac{p}{q}$ modulo 2
+numerator and denominator of  a fraction $\frac{p}{q}$ modulo 2
 where, by convention, $\infty = \frac{1}{0}$.
 Actually $\xx$ is a degree 6 cover of the modular surface
 $\mathbb{H}/\Gamma$. 
@@ -248,6 +248,25 @@ the absolute value of the determinant of the matrix
 $$ 
  \begin{pmatrix} a & b \\ c & d \end{pmatrix}.
 $$
+In what follows we will use represent matrices over $\mathbb{Z}$,
+up to an equivalence relation denoted $\sim$,
+to represent arcs.
+Explicitly  for non degenerate matrices 
+$$ 
+ \begin{pmatrix} a & b \\ c & d \end{pmatrix} \sim
+ \begin{pmatrix} a' & b' \\ c' & d' \end{pmatrix}.
+$$
+iff $\{\frac{a}{c}, \frac{b}{d}\} = \{\frac{a'}{c'}, \frac{b'}{d'}\}
+\subset \mathbb{Q}\cup \{\infty\}  
+. 
+$
+This matrix representation will prove very convenient when later we
+have to check that two arcs are in the same $G$-orbit for some $G <
+\sl2$.
+It is easy to see that $\lambda$-length is well defined for a
+equivalence class of matrices.
+
+
 Evidently the arcs on $\xx$ fall into two families:
 \begin{itemize}
 	\item arcs that join distinct cusps. 
@@ -282,7 +301,7 @@ We will show that the questions concerning the values of the quadratic form $x^2
 + m y^2$ can be interpreted of terms of arcs on the surface
 $\mathbb{H}/\Gamma^t_0(m)$ where
 $\ah$ is the 
-\textit{anti Hecke congruenc egroup}:
+\textit{anti Hecke congruence group}:
 $$ \Gamma^t_0(m) := \left \{ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = 
 \begin{pmatrix} 1 & 0 \\ * & 1 \end{pmatrix} \mod m \right \} < \g2.$$
 This group is normalised by the involution $z\mapsto -\frac{m}{z}$
@@ -385,7 +404,7 @@ allows one to identify the elements of $\fp$
 with the equivalence classes that constitute
  the quotient $\mathbb{Z}/p \mathbb{Z} $.
 It is usual  
-to choose the integers $0,1, 2\ldots p-1&$ as representatives for the
+to choose the integers $0,1, 2\ldots p-1$ as representatives for the
 latter, 
 however, we shall find it convenient to work with
 another set of representatives, namely the even integers 
@@ -455,7 +474,7 @@ $$w = \frac{ai + b}{ci + d},\,
 \end{pmatrix} \in \Gamma.$$
 Then one has:
 \begin{equation}\label{imaginary height}
-\im w = \im  \left (\fracai +b}{ci+d } \right)
+\frac{1}{n}= \im w = \im  \left (\frac{ai +b}{ci+d } \right)
 = \frac{\im i} {c^2 + d^2},
 \end{equation}
 so $n = c^2 + d^2$ as claimed.
@@ -492,11 +511,11 @@ in the fundamental strip at euclidean height $\frac{\sqrt m}{n}$.
 \end{lem}
 
 
-\subsection{From $\Gamma$ orbits to arcs}
+\subsection{From $\Gamma(2)$ orbits to arcs}
 
 Suppose that $n$ can be written as a sum of squares $c^2 +d^2$
 and $w$ is the corresponding point in the fundamental strip then we
-can associate a Poincaré geodesic to $w$ in a natural way, 
+can associate a Poincaré geodesic to $w$ in a natural way: 
 we simply take the vertical line that passes through $w$.
 This geodesic joins two points in the ideal boundary of $\mathbb{H}$
 namely $\infty$ and $\frac{ac + bd}{n}\in \mathbb{Q}$.
@@ -508,6 +527,7 @@ and so joins a pair of distinct cusps $\infty$ to $1$ say.
 
 
 \subsection{Real part and reduction modulo $p$}
+\label{real part}
 
 We saw
 above how the imaginary part of
@@ -518,147 +538,37 @@ In this paragraph we explain what part the real part of this quantity
 plays.
 Explicitly the real part is:
 $$\frac{mac +bd}{mc^2+d^2 } .$$
-Suppose that $a,b,c,d,m\in \fp$ and that they satisfy the relations
+If the denominator is $p$ as before then in fact the numerator is nothing other than a square root of $-m$ in
+$\fp$.
 
-To prove this begin by noting that:
+\begin{lem}\label{square root -m}
+Let $a,b,c,d,m\in \fp$ and suppose that they satisfy
+the relations
+
 \begin{eqnarray}
 	mc^2 + d^2 &=& 0\\
-	ad -bc &=& 1 \label{determinant}
+	ad -bc &=& 1 \label{determinant}.
 \end{eqnarray}
-then
+Then
 % \begin{equation}
 $$	(mac + bd)^2 = -m.$$
 % \end{equation}
 
+\end{lem}
+
+\proof 
+
+To prove this begin by noting that:
 \begin{eqnarray*}
 	(mac + bd)^2 &=& (ma^2)(mc^2) + b^2d^2 + 2m(abcd) \\
 	m(ad-bc)^2 &=& (ma^2)d^2
-	+ b^2(mc^2)  - 2m(abcd)
+	+ b^2(mc^2)  - 2m(abcd) = m
 \end{eqnarray*}
 using (\ref{determinant}) and adding these:
 $$
 	(mac + bd)^2 + m = (ma^2)(mc^2+d^2) + b^2(mc^2 + d^2
 	) = 0.
 $$
-
-
-\section{Comparing actions}
-
-
-Let $XX$ denote the set of $p-1$ arcs joining $\infty$ and $\frac{mk}{p}$
-where $1\leq k < p$.
-These arcs project to pairwise distinct arcs
-of $\lambda$-length $p$ on the surface
-$\mathbb{H}/\Gamma_0(m)$.
-We wish to show that the involutions
-$z\mapsto \frac{m}{\bar{z}}$ 
-and 
-$z\mapsto \frac{-m}{z}$ 
-\begin{itemize}
-	\item 
-induce involutions of $XX$,
-\item that the action of these maps coincides with the corresponding
-	actions on $\fp$ (see Lemma \ref{actions agree}
-	below).
-\end{itemize}
-This second point extends the calculation in the previous section.
-
-
-Since $k$ and $p$ are coprime there is a Bezout identity,
-that is there are integers $k',p'$ such that,
-$$k'k + p'p = 1$$
-Note that we may replace the pair $k',p'$
-by another pair $k'+ rp, p' -rk$ for any integer $r$
-and, by chosing $r$ suitably,
-may assume that $k'$ is divisible by $m$.
-This observation allows us to define maps on $XX$ as follows.
-The map 
-$z\mapsto \frac{m}{\bar{z}}$ is an inversion in the half circle
-with end points $\pm\sqrt{m}$  and is 
-is represented by the matrix
-$$
-\begin{pmatrix}
-	0 & m \\ 1 & 0
-\end{pmatrix}
-$$
-The image of the arc $\infty,\frac{mk}{p}$
-under this map is $0, \frac{p}{k}$
-and we have the equation
-\begin{equation}
-\begin{pmatrix}
-	0 & m \\ 1 & 0
-\end{pmatrix}
-\begin{pmatrix}
-mk & 1 \\
-p & 0
-\end{pmatrix}
-= 
-\begin{pmatrix}
-mp & 0 \\
-mk  & 1
-\end{pmatrix}
-\sim
-\begin{pmatrix}
-p & 0 \\
-k & 1
-\end{pmatrix}
-
-\end{equation}
-
-Consider the matrix identity
-\begin{equation}
-\begin{pmatrix}
-p' & k' \\
--k & p
-\end{pmatrix}
-\begin{pmatrix}
-p & 0 \\
-k & 1
-\end{pmatrix}
-= 
-\begin{pmatrix}
-1 & k' \\
-0  & p
-\end{pmatrix}
-\end{equation}
-This last matrix represents 
-the arc joining $\infty$ to $k'/p$ 
-and, since $k'$ is divisible $m$,
-this is an element of $XX$.
-Thus we may define a map $XX  \rightarrow XX $ that takes the arc $\infty, \frac{mk}{p}$ to $\infty,
-	\frac{k'}{p}$.
-Note further that 
-$$
-\begin{pmatrix}
-p' & k' \\
--k & p
-\end{pmatrix}
-\in \Gamma^t _0(m)$$
-so this map induces a map on the arcs on the quotient surface
-$\mathbb{H}/\Gamma^t_0(m)$.
-
-
-Now there is a natural bijection
-\begin{eqnarray*}
-	X& \rightarrow & \fp \\
-	mk : & \mapsto& \overline{mk}.
-\end{eqnarray*}
-and it is natural to compute the map induced by $F$ 
-under this identification:
-
-
-\begin{lem} \label{actions agree}
-	
-Let $f$ denote the involution on $\fp $ defined by $ x \mapsto mx^{-1}$ 
-and $F$ the map described above then 
-$$ f(\overline{mk}) = \overline{F(mk)}.$$
-\end{lem}
-
-\proof
-This follows from the observation that on reducing the Bezout
-identity modulo $p$ one has
-$$\bar{1} = \overline{k'k} + \overline{p'p}=  \overline{k'}\overline{k} $$
-so that $\overline{k}^{-1} = \overline{k'}.
 \hfill $\Box$
 
 \section{Inversions}
@@ -946,9 +856,129 @@ is too and $g$ fixes an arc.&
 
 \hfill $\Box$
 
+\section{Comparing actions}
+
+
+Let $XX$ denote the set of $p-1$ arcs joining $\infty$ and $\frac{mk}{p}$
+where $1\leq k < p$.
+These arcs project to pairwise distinct arcs
+of $\lambda$-length $p$ on the surface
+$\mathbb{H}/\Gamma_0(m)$.
+We wish to show that the involutions
+$z\mapsto \frac{m}{\bar{z}}$ 
+and 
+$z\mapsto \frac{-m}{z}$ 
+\begin{itemize}
+	\item 
+induce involutions of $XX$,
+\item that the action of these maps coincides with the corresponding
+	actions on $\fp$ (see Lemma \ref{actions agree}
+	below).
+\end{itemize}
+This second point extends the calculation in the previous section
+\ref{comparing actions}.
+
+
+Since $k$ and $p$ are coprime there is a Bezout identity,
+that is there are integers $k',p'$ such that,
+$$k'k + p'p = 1$$
+Note that we may replace the pair $k',p'$
+by another pair $k'+ rp, p' -rk$ for any integer $r$
+and, by chosing $r$ suitably,
+may assume that $k'$ is divisible by $m$.
+This observation allows us to define maps on $XX$ as follows.
+The map 
+$z\mapsto \frac{m}{\bar{z}}$ is an inversion in the half circle
+with end points $\pm\sqrt{m}$  and is 
+is represented by the matrix
+$$
+\begin{pmatrix}
+	0 & m \\ 1 & 0
+\end{pmatrix}
+$$
+The image of the arc $\infty,\frac{mk}{p}$
+under this map is $0, \frac{p}{k}$
+and we have the equation
+\begin{equation}
+\begin{pmatrix}
+	0 & m \\ 1 & 0
+\end{pmatrix}
+\begin{pmatrix}
+mk & 1 \\
+p & 0
+\end{pmatrix}
+= 
+\begin{pmatrix}
+mp & 0 \\
+mk  & 1
+\end{pmatrix}
+\sim
+\begin{pmatrix}
+p & 0 \\
+k & 1
+\end{pmatrix}
+
+\end{equation}
+
+Consider the matrix identity
+\begin{equation}
+\begin{pmatrix}
+p' & k' \\
+-k & p
+\end{pmatrix}
+\begin{pmatrix}
+p & 0 \\
+k & 1
+\end{pmatrix}
+= 
+\begin{pmatrix}
+1 & k' \\
+0  & p
+\end{pmatrix}
+\end{equation}
+This last matrix represents 
+the arc joining $\infty$ to $k'/p$ 
+and, since $k'$ is divisible $m$,
+this is an element of $XX$.
+Thus we may define a map $XX  \rightarrow XX $ that takes the arc $\infty, \frac{mk}{p}$ to $\infty,
+	\frac{k'}{p}$.
+Note further that 
+$$
+\begin{pmatrix}
+p' & k' \\
+-k & p
+\end{pmatrix}
+\in \Gamma^t _0(m)$$
+so this map induces a map on the arcs on the quotient surface
+$\mathbb{H}/\Gamma^t_0(m)$.
+
+
+Now there is a natural bijection
+\begin{eqnarray*}
+	X& \rightarrow & \fp \\
+	mk : & \mapsto& \overline{mk}.
+\end{eqnarray*}
+and it is natural to compute the map induced by $F$ 
+under this identification:
+
+
+\begin{thm} \label{actions agree}
+	
+Let $f$ denote the involution on $\fp $ defined by $ x \mapsto mx^{-1}$ 
+and $F$ the map described above then 
+$$ f(\overline{mk}) = \overline{F(mk)}.$$
+\end{thm}
+
+\proof
+This follows from the observation that on reducing the Bezout
+identity modulo $p$ one has
+$$\bar{1} = \overline{k'k} + \overline{p'p}=  \overline{k'}\overline{k} $$
+so that $\overline{k}^{-1} = \overline{k'}.$
+\hfill $\Box$
+
+
 
 \thebibliography{99}
-
 \bibitem{aigner}
 M. Aigner
 \textit{Markov's Theorem and 100 Years of the Uniqueness Conjecture}, Springer( 2013)
@@ -1084,6 +1114,12 @@ D. Zagier,
  \textit{A one-sentence proof that every prime p = 1 (mod 4) is a sum of two squares}, 
  American Mathematical Monthly, 97 (2): 144
  
+\bibitem{zhang3}
+Ying Zhang
+\textit{Representing Primes as $x^2 + 5y^2$: An Inductive Proof that Euler Missed}
+\url{https://arxiv.org/abs/math/0606547}
+
+
  % \bibitem{zhang}
  % Y. Zhang,
  % \textit{ An elementary proof of uniqueness of Markoff numbers}
