@@ -33,6 +33,7 @@
 \def\rv{\phi_v}
 
 \def\HH{\mathbb{H}}
+\def\GG{\mathbb{G}}
 \def\dHH{\partial \mathbb{H}}
 \def\hd{\hat{\delta}}
 \def\ha{\hat{\alpha}}
@@ -120,6 +121,7 @@ combinatorics, we work in an explicitly geometric context.
 As such we refer the reader to Elsholtz for historical perspective
 and the like.
 
+
 \subsection{Involutions}
 
 The essential ingredients in the Heath-Brown paper are:
@@ -141,9 +143,14 @@ proof \cite{dolan}.
 
 \subsection{Arcs on a punctured surface}
 
-The starting point for this work was a series of observations
+What drew us was the possibility of understanding other quadratic
+forms from a geometric point of view, in particular, $x^2 + ny^2$
+(see Cox's book \cite{cox} for the classical approach).
+
+The actual starting point was a series of observations
 concerning $\lambda$-lengths of simple arcs on a once punctured
-torus equipped with a hyperbolic structure for example $\HH/\Gamma'$
+torus equipped with a hyperbolic structure.
+The canonical  example of such a surface is the quotient $\HH/\Gamma'$
 where $\Gamma' < \Gamma = \sl2$ is the commutator subgroup. 
 The reader, unfamiliar with the relationship between hyperbolic
 geometry and number theory,
@@ -170,6 +177,14 @@ Whilst this definition works well for simple arcs, since the portion of
 the arc
 outside the uniform cusp region is connected, more care is needed if
 the arc is not simple.
+It is a remarkable fact that for any embedded ideal triangle the
+triple of $\lambda$-lengths $(x,y,z)$ satisfy the Markoff cubic:
+\begin{equation}
+	x^2 + y^2 + z^2 - xyz = 0.
+\end{equation}
+Suppose now that $p$ is a prime that divides $z$ 
+then reducing modulo $p$ one has $\bar{x}^2 + \bar{y}^2 = 0$ which
+leads naturally to considering Fermat's theorem above.
 
 Since Penner first defined $\lambda$-length 
 there has been much work on their applications
@@ -179,7 +194,7 @@ there has been much work on their applications
 	\item cluster algebras \cite{Fomin}.
 	\item Conway-Coxeter frieze patterns \cite{frieze}.
 \end{itemize}
-Our approach depends on determining the number of arcs on a surface
+Our approach to Fermat's theorem depends on determining the number of arcs on a surface
 of $\lambda$-length p.
 Probably the easiest surface to count arcs on is $\xx$.
 
@@ -263,8 +278,8 @@ $
 This matrix representation will prove very convenient when later we
 have to check that two arcs are in the same $G$-orbit for some $G <
 \sl2$.
-It is easy to see that $\lambda$-length is well defined for a
-equivalence class of matrices.
+% It is easy to see that $\lambda$-length is well defined for a
+% equivalence class of matrices.
 
 
 Evidently the arcs on $\xx$ fall into two families:
@@ -297,7 +312,7 @@ What will be of interest to us is the automorphism
 that an involution induces on a surface $\mathbb{H}/G$
 where $G$ is some group that it normalises.
 
-We will show that the questions concerning the values of the quadratic form $x^2
+We will show that questions concerning the values of the quadratic form $x^2
 + m y^2$ can be interpreted of terms of arcs on the surface
 $\mathbb{H}/\Gamma^t_0(m)$ where
 $\ah$ is the 
@@ -523,7 +538,7 @@ Penner's $\lambda$-length
 This geodesic projects to an arc on the surface $\xx$
 and, using the definition above, its $\lambda$-length is $n$.
 If $n$ is not even then this arc is not a loop
-and so joins a pair of distinct cusps $\infty$ to $1$ say.
+and so joins a pair of distinct cusps $\infty$ and $1$ say.
 
 
 \subsection{Real part and reduction modulo $p$}
@@ -564,7 +579,8 @@ To prove this begin by noting that:
 	m(ad-bc)^2 &=& (ma^2)d^2
 	+ b^2(mc^2)  - 2m(abcd) = m
 \end{eqnarray*}
-using (\ref{determinant}) and adding these:
+% using (\ref{determinant})
+and adding these:
 $$
 	(mac + bd)^2 + m = (ma^2)(mc^2+d^2) + b^2(mc^2 + d^2
 	) = 0.
@@ -628,13 +644,13 @@ $\frac{1}{2}(p\pm1)$.
 \hfill $\Box$
 
 Later we will need to consider arcs invariant under the invesrion
-$z\mapsto \frac{n}{\bar{z}}$ for $n=2,3$.
-This is an inversion in a semi circle with endpoints $\pm \sqrt{n}
+$z\mapsto \frac{m}{\bar{z}}$ for $m=2,3$.
+This is an inversion in a semi circle with endpoints $\pm \sqrt{m}
 \in \mathbb{R}$ .
 If $\frac{a}{b}\in \mathbb{Q}$ then it is the endpoint of exactly
 one  arc is invariant under this involution and the
-of this arc is $\lambda$-length $|a^2 - n b^2|$.
-For $n=2$ one can show 
+of this arc is $\lambda$-length $|a^2 - m b^2|$.
+For $m=2$ one can show 
 % using congruences modulo $8$ 
 that no invariant arc has $\lambda$-length congruent to $3$ or $5$
 $\mod 8$.
@@ -645,7 +661,7 @@ $\mod 8$.
 
 The Hecke congruence subgroup $\Gamma_0(N)$ of level $N$ is the subgroup of
 $\Gamma = \mathrm{SL}(2,\ZZ)$ 
-is the set of matrices:
+consisting of the matrices satisfying:
 $$ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = 
 \begin{pmatrix} 1 & * \\ 0 & 1 \end{pmatrix} \mod N.$$
 
@@ -858,8 +874,11 @@ is too and $g$ fixes an arc.&
 
 \section{Comparing actions}
 
+In order to simplify the  exposition we suppose that $p$ is a prime
+and $m<p$ a square free integer such that $p-1$ is divisible by $m$.
 
-Let $XX$ denote the set of $p-1$ arcs joining $\infty$ and $\frac{mk}{p}$
+
+Let $\GG$ denote the set of $p-1$ arcs joining $\infty$ and $\frac{mk}{p}$
 where $1\leq k < p$.
 These arcs project to pairwise distinct arcs
 of $\lambda$-length $p$ on the surface
@@ -870,13 +889,13 @@ and
 $z\mapsto \frac{-m}{z}$ 
 \begin{itemize}
 	\item 
-induce involutions of $XX$,
+induce involutions of $\GG$,
 \item that the action of these maps coincides with the corresponding
 	actions on $\fp$ (see Lemma \ref{actions agree}
 	below).
 \end{itemize}
 This second point extends the calculation in the previous section
-\ref{comparing actions}.
+\ref{real part}.
 
 
 Since $k$ and $p$ are coprime there is a Bezout identity,
@@ -886,7 +905,7 @@ Note that we may replace the pair $k',p'$
 by another pair $k'+ rp, p' -rk$ for any integer $r$
 and, by chosing $r$ suitably,
 may assume that $k'$ is divisible by $m$.
-This observation allows us to define maps on $XX$ as follows.
+This observation allows us to define maps on $\GG$ as follows.
 The map 
 $z\mapsto \frac{m}{\bar{z}}$ is an inversion in the half circle
 with end points $\pm\sqrt{m}$  and is 
@@ -939,10 +958,11 @@ k & 1
 This last matrix represents 
 the arc joining $\infty$ to $k'/p$ 
 and, since $k'$ is divisible $m$,
-this is an element of $XX$.
-Thus we may define a map $XX  \rightarrow XX $ that takes the arc $\infty, \frac{mk}{p}$ to $\infty,
+this is an element of $\GG$.
+Thus we may define a map $\GG  \rightarrow \GG $ that takes the arc $\infty, \frac{mk}{p}$ to $\infty,
 	\frac{k'}{p}$.
-Note further that 
+Note further that, 
+since $ p =  1 \mod m$,
 $$
 \begin{pmatrix}
 p' & k' \\
@@ -1008,6 +1028,11 @@ Proceedings of the Formal Power Series and Algebraic Combinatorics 2022 - Sémin
 % European Journal of Combinatorics
 % Volume 86, May 2020, 103081
 
+\bibitem{cox}
+ D. A. Cox, Primes of the Forms $x^2 + ny^2$
+: Fermat, Class Field Theory, and
+Complex Multiplication, John Wiley, New York, 1989.
+
 \bibitem{dolan}
 Dolan, S., A very simple proof of the two-squares theorem. The Mathematical Gazette, 106(564), 511-511. (2021) doi:10.1017/mag.2021.120
 % https://www.cambridge.org/core/journals/mathematical-gazette/article/abs/10538-a-very-simple-proof-of-the-twosquares-theorem/D0CB1CB39CBA0E98905401EA21DCB743
@@ -1046,6 +1071,7 @@ Neil Herriot, Communication with Jim Propp
 \bibitem{jackson}
 Jackson, Terence H.. “A Short Proof That Every Prime $p = 3 (\mod 8)$
 Is of the Form $x^2 + 2y^2$.” The American Mathematical Monthly 107 (2000): 447 - 447.
+
 
 \bibitem{mong}
 M.L. Lang, S.P Tan,
