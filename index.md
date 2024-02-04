@@ -11,6 +11,7 @@ title: Home
 This week I am in Oxford 
 
 - [Oxford talk](./TIT2023/oxford.html)
+- [draft](./QUADS/x2.pdf)
 
 <!-- - I am currently in confinement with COVID -->
 <!-- - This week I'm sad :( because Copilot is out of beta preview. -->

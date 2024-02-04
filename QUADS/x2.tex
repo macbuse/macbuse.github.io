@@ -96,7 +96,12 @@
 
 \section{Introduction}
 
-	
+% \[
+% \xymatrix{
+% \GG \ar[r]^{F} \ar[d]_{gg} & \GG \ar[d]^{gg} \\
+% \fp \ar[r]^{f} & \fp
+% }
+% \]	
 
 \begin{thm}\label{triv}
 Let $p$ be a prime then the equation
@@ -140,6 +145,23 @@ and so that any involution has a fixed point.
 
 Probably the most elegant incarnation of this method is Dolan's
 proof \cite{dolan}.
+
+Generalov \cite{generalov} has given a proof (see also Elsholtz \cite{elsholtz}) in the style of Zagier of one part of
+another result conjectured by Fermat:
+
+\begin{thm}\label{case m equals 2}
+Let $p$ be a prime then the equation
+$$x^2 + 2y^2 = p $$
+has a solution in integers  
+iff  $p =2$ or $p$ is congruent to $1$ or $3$ mod $8$.
+\end{thm}
+
+Obviously the case $p=2$ is trivial,
+of the other two cases 
+both Generalov and Elsholtz give proofs for $p = 3 \mod 8$ 
+though $p=1 \mod 8$ resists.
+
+
 
 \subsection{Arcs on a punctured surface}
 
@@ -308,9 +330,9 @@ space $\mathbb{H}$:
 		orientation reversing 
 \end{itemize}
 
-What will be of interest to us is the automorphism 
+What will be of interest to us here is the automorphism 
 that an involution induces on a surface $\mathbb{H}/G$
-where $G$ is some group that it normalises.
+where $G$ is some group that our involution normalises.
 
 We will show that questions concerning the values of the quadratic form $x^2
 + m y^2$ can be interpreted of terms of arcs on the surface
@@ -321,6 +343,18 @@ $$ \Gamma^t_0(m) := \left \{ \begin{pmatrix} a & b \\ c & d \end{pmatrix} =
 \begin{pmatrix} 1 & 0 \\ * & 1 \end{pmatrix} \mod m \right \} < \g2.$$
 This group is normalised by the involution $z\mapsto -\frac{m}{z}$
 which fixes $i\sqrt{m}$.
+
+For $\Gamma^t_0(2)$  we will work through all the calculations and
+the geometry in detail.
+This will allow us to give a geometric proof of the fact thatany
+prime congruent to $3$ modulo 8 is represented by $x^2 + 2y^2$.
+Of course, it is also true that any
+prime congruent to $1$ modulo 8 is represented by $x^2 + 2y^2$ but
+unfortunately we are unable to give a purely geometric proof of
+this.
+
+
+
 
 \section{Klein four group and the Burnside Lemma}
 
@@ -459,7 +493,7 @@ two ways:
 \end{itemize}
 
 
-\subsection{From solutions to $\Gamma$ orbits}
+\subsection{From solutions to $\Gamma$-orbits}
 
 The transformation $z \mapsto z + 1$ generates an infinite cyclic
 group acting on $\mathbb{H}$.
@@ -750,7 +784,7 @@ is an upper triangular matrix:
 	$$A'A= \begin{pmatrix} 1& b'\\0& \det A
 	\end{pmatrix}.$$
 The image of $a/c$ under the Mobius transformation associated to
-$A'$ is $∞$ and the image of $b/d$ is $b'/\det A$.
+$A'$ is $\infty$ and the image of $b/d$ is $b'/\det A$.
 The Ford circle at $\infty$ is $F$ and the 
 diameter of the circle tangent at $b'/\det A$ is $(\det A)^2$.
 
@@ -868,11 +902,11 @@ fix no elements of $X$ so the Burnside formula gives:
 $$4 |X/G|   = (p-1) +  |X^g|,$$
 where $g$ denotes the orientation preserving involution.
 Now $p-1$ is congruent to $2$ modulo $4$ so $|X^g|$ 
-is too and $g$ fixes an arc.&
+is too and $g$ fixes an arc.
 
 \hfill $\Box$
 
-\section{Comparing actions}
+\section{Lifting involutions}
 
 In order to simplify the  exposition we suppose that $p$ is a prime
 and $m<p$ a square free integer such that $p-1$ is divisible by $m$.
@@ -883,20 +917,74 @@ where $1\leq k < p$.
 These arcs project to pairwise distinct arcs
 of $\lambda$-length $p$ on the surface
 $\mathbb{H}/\Gamma_0(m)$.
-We wish to show that the involutions
-$z\mapsto \frac{m}{\bar{z}}$ 
-and 
-$z\mapsto \frac{-m}{z}$ 
+There is a natural bijection
+taking an arc to the congruence class of the denominator modulo $p$:
+\begin{eqnarray*}
+	\pi:\GG& \rightarrow & \fp \\
+	mk : & \mapsto& \overline{mk}.
+\end{eqnarray*}
+Evidently, since $\pi$ is a bijection any map $f:\fp\rightarrow	\fp$
+lifts to a map of $\GG$
+\[
+\xymatrix{
+\GG \ar[r]^{F} \ar[d]_{\pi} & \GG \ar[d]^{\pi} \\
+\fp \ar[r]^{f} & \fp
+}
+\]	
+and an obvious question is:
+when does an automorphism $f$ of $\fp$
+lift to an automorphism of the quotient surface?
+
+% To make this precise let us represent each arc as a matrix,
+% an involution of $\mathbb{H}$ $\frac{az+b}{cz+d}$
+% induces a map of $\GG$ if there is an element $\frac{a'z+b'}{c'z+d'}$ of $\Gamma^t_0(m)$
+% such that:
+
+% $$
+% \begin{pmatrix}
+% a'& b' \\
+% c' & d'
+% \end{pmatrix}
+% \begin{pmatrix}
+% a& b \\
+% c & d
+% \end{pmatrix}
+% \begin{pmatrix}
+% mk& 1 \\
+% p & 0
+% \end{pmatrix} \sim 
+% \begin{pmatrix}
+% 1& mk' \\
+% 0 & p
+% \end{pmatrix}
+% $$
+
+
+In particular we wish to show that the 
+three involutions
 \begin{itemize}
-	\item 
-induce involutions of $\GG$,
-\item that the action of these maps coincides with the corresponding
-	actions on $\fp$ (see Lemma \ref{actions agree}
-	below).
+	\item $z\mapsto - \bar{z}$ 
+	\item $z\mapsto \frac{m}{\bar{z}}$ 
+	\item $z\mapsto \frac{-m}{z}$ 
 \end{itemize}
+satisfy
+\begin{enumerate}
+
+	\item induce involutions of $\GG$,
+	\item these maps lift the corresponding
+	involutions on $\fp$ (see Lemma \ref{actions agree}
+	below).
+
+\end{enumerate}
 This second point extends the calculation in the previous section
 \ref{real part}.
+The first of our involutions $z\mapsto\bar{z}$ 
+is easily dealt with since $-(mk) = m(-k)$.
+The third is the composition of the first and the second,
+so it suffices to prove (1) and (2) for $z\mapsto \frac{m}{\bar{z}}$
+.
 
+\subsection{Some matrix algebra}
 
 Since $k$ and $p$ are coprime there is a Bezout identity,
 that is there are integers $k',p'$ such that,
@@ -918,6 +1006,7 @@ $$
 The image of the arc $\infty,\frac{mk}{p}$
 under this map is $0, \frac{p}{k}$
 and we have the equation
+
 \begin{equation}
 \begin{pmatrix}
 	0 & m \\ 1 & 0
@@ -936,7 +1025,6 @@ mk  & 1
 p & 0 \\
 k & 1
 \end{pmatrix}
-
 \end{equation}
 
 Consider the matrix identity
@@ -973,13 +1061,6 @@ so this map induces a map on the arcs on the quotient surface
 $\mathbb{H}/\Gamma^t_0(m)$.
 
 
-Now there is a natural bijection
-\begin{eqnarray*}
-	X& \rightarrow & \fp \\
-	mk : & \mapsto& \overline{mk}.
-\end{eqnarray*}
-and it is natural to compute the map induced by $F$ 
-under this identification:
 
 
 \begin{thm} \label{actions agree}
@@ -996,7 +1077,10 @@ $$\bar{1} = \overline{k'k} + \overline{p'p}=  \overline{k'}\overline{k} $$
 so that $\overline{k}^{-1} = \overline{k'}.$
 \hfill $\Box$
 
-
+\begin{coro}
+There is an involution of $\GG$ that lifts the involution 
+$\bar{x} \mapsto -m\bar{x}^{-1}$ on $\fp$.
+\end{coro}
 
 \thebibliography{99}
 \bibitem{aigner}

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1706959715 "x2.tex" "x2.pdf" "x2" 1706959715
+["pdflatex"] 1707045792 "x2.tex" "x2.pdf" "x2" 1707045794
   "/etc/texmf/web2c/texmf.cnf" 1676666735 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -55,6 +55,8 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1248133631 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/xypic/xycmat10.pfb" 1381187214 17442 a492245d942af2cc4c65197bb428d65e ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/xypic/xycmbt10.pfb" 1381187214 17084 89c3546ee426179761f124b92f40158d ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -140,11 +142,11 @@
   "farey_mod.png" 1700676363 19420 2875e43aa21d3c7fd4903c1b9d112b84 ""
   "hecke_cover.png" 1700562227 64430 665a0acc96041f29617c9696e36549a4 ""
   "hecke_fund_dom.png" 1700427114 52781 b83fda82112e9475f8df29481c05ed3b ""
-  "x2.aux" 1706959516 6597 45fc46aa127039699905976a84b6b154 "pdflatex"
-  "x2.out" 1706959516 1143 b7dad36ac576ab0edca83beeb3864151 "pdflatex"
-  "x2.tex" 1706959714 36690 ec83c80f9a54c1709241e30701d41c80 ""
+  "x2.aux" 1707045794 6826 ffc69fa83feb21904760322b07685f1a "pdflatex"
+  "x2.out" 1707045794 1216 4263a5efe96895ac0d3c324095d82858 "pdflatex"
+  "x2.tex" 1707045790 38906 ce55f07937bf61d7a596d50551387e78 ""
   (generated)
-  "x2.out"
   "x2.aux"
   "x2.pdf"
   "x2.log"
+  "x2.out"
