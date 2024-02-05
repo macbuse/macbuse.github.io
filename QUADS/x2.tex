@@ -156,10 +156,13 @@ has a solution in integers
 iff  $p =2$ or $p$ is congruent to $1$ or $3$ mod $8$.
 \end{thm}
 
-Obviously the case $p=2$ is trivial,
-of the other two cases 
+\noindent
+Obviously the case $p=2$ is trivial.
+Of the other two cases 
 both Generalov and Elsholtz give proofs for $p = 3 \mod 8$ 
-though $p=1 \mod 8$ resists.
+though $p=1 \mod 8$ resisted them.
+We will give an entirely geometric proof of this result and a
+"hybrid" proof of the other case.
 
 
 
@@ -340,10 +343,13 @@ $\mathbb{H}/\Gamma^t_0(m)$ where
 $\ah$ is the 
 \textit{anti Hecke congruence group}:
 $$ \Gamma^t_0(m) := \left \{ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = 
-\begin{pmatrix} 1 & 0 \\ * & 1 \end{pmatrix} \mod m \right \} < \g2.$$
-This group is normalised by the involution $z\mapsto -\frac{m}{z}$
+\begin{pmatrix} 1 & 0 \\ * & 1 \end{pmatrix} \mod m \right \} <
+\Gamma(m).$$
+This group is 
+% the inverse image under the reduction morphism
+% of the lower triangular matrices
+normalised by the involution $z\mapsto -\frac{m}{z}$
 which fixes $i\sqrt{m}$.
-
 For $\Gamma^t_0(2)$  we will work through all the calculations and
 the geometry in detail.
 This will allow us to give a geometric proof of the fact thatany
@@ -1081,6 +1087,29 @@ so that $\overline{k}^{-1} = \overline{k'}.$
 There is an involution of $\GG$ that lifts the involution 
 $\bar{x} \mapsto -m\bar{x}^{-1}$ on $\fp$.
 \end{coro}
+\proof The involution in question is the composition of a pair of
+involutions that lift. 
+One obtains the required lift $G$ as the composition of the lifts of
+these involutions. 
+\hfill $\Box$
+
+\subsection{Explicit formulas for square roots in $\fp$}
+
+In many cases one can find a formula for the square root of a
+quadratic residue modulo $p$.
+\begin{itemize}
+	\item If $p = 1 \mod 4$ then, by Wilson's theorem
+		$\left(\frac{p-1}{2}\right)!$ is a square root of $-1$
+	\item If $p = 1 \mod 4$ and $x$ is a solution of the
+		equation
+		$X^4+1 = 0$ then $x^2 + x^{-2}=0$
+		and $(x\pm x^{-1})^2 = \pm 2$
+	
+	\item If $p = 3 \mod 4$ and $x$ a quadratic residue
+		then $x^\frac{p+1}{2}$ is a square root of
+		$x$.
+		
+\end{itemize}
 
 \thebibliography{99}
 \bibitem{aigner}
