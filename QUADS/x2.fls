@@ -650,10 +650,10 @@ INPUT ./x2.out
 INPUT x2.out
 INPUT ./x2.out
 INPUT x2.out
+OUTPUT x2.pdf
 INPUT ./x2.out
 INPUT ./x2.out
 OUTPUT x2.out
-OUTPUT x2.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
