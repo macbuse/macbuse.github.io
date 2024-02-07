@@ -143,7 +143,7 @@ So there are two parts to Euler's proof:
 
 There are myriad proofs of these theorems but the approach initiated
 by Heath-Brown in \cite{heath} has inspired many admirers if not 
-imitators, probably the most elegant is Dolan's proof \cite{dolan},
+imitators \cite{generalov, jackson,northshield, dubach} , probably the most elegant is Dolan's proof \cite{dolan},
 but see for example the very nice account of Elsholtz \cite{elsholtz}.
 In some sense this manuscript is a companion 
 to Elsholtz's where, instead of looking at the number theory as
@@ -199,7 +199,6 @@ iff  $p$ is congruent to $1$ or $3$ mod $8$.
 \end{lem}
 
 
-
 \subsection{Arcs on a punctured surface}
 
 What inspired us was the insistence of V Sergesciu that one could understand quadratic forms from a geometric point of view, in particular, $x^2 + my^2$
@@ -250,12 +249,12 @@ Suppose now that $p$ is a prime that divides $z$
 then reducing modulo $p$ one has $\bar{x}^2 + \bar{y}^2 = 0$ which
 leads naturally to considering Fermat's theorem above.
 
-Since Penner first defined $\lambda$-length 
+Since Penner \cite{bob} first defined $\lambda$-length 
 there has been much work on their applications
 
 \begin{itemize}
 	\item Weil-Peterson volume of moduli space \cite{bob}
-	\item cluster algebras \cite{Fomin}.
+	\item cluster algebras \cite{fomin}.
 	\item Conway-Coxeter frieze patterns \cite{frieze}.
 \end{itemize}
 Our approach (see Section \ref{inversions} for a sketch) to Fermat's theorem \cite{vlad} depended on determining the number of arcs on a surface
@@ -294,7 +293,7 @@ where, by convention, $\infty = \frac{1}{0}$.
 The proof of Theorem \ref{g2 arcs} is basically the observation that the Poincaré geodesics
 of $\mathbb{H}$ (vertical lines) ending at $2k / p,\, 1\leq k \leq
 p-1$ is a set of lifts for the arcs joining the cusps labeled $0$ and
-$\infty$ in Figure \ref{3sphere}.
+$\infty$ on $\xx$ (see Figure \ref{3sphere}.)
 
 Actually $\xx$ is a degree 6 cover of the modular surface
 $\mathbb{H}/\Gamma$. 
@@ -333,14 +332,16 @@ Evidently the arcs on $\xx$ fall into two families:
 We will refer to the second kind of arc as a \textit{loop}
 (see Figure \ref{3sphere}).
 Amusingly one can characterise loops using $\lambda$-length.
-\begin{lem}
+\begin{lem}\label{length parity}
 	An arc on $\xx$ is a loop if and only if its
 	$\lambda$-length is even.
 \end{lem}
 
 
 \subsection{Representing arcs as matrices}
-Computing the $\lambda$-length of an arc $\alpha$ on $\xx$
+To give a proof of Lemma \ref{length parity}
+we clearly need an algebraic characterisation of $\lambda$-lengths.
+It is fortunate then that computing the $\lambda$-length of an arc $\alpha$ on $\xx$
 with respect to the canonical choice of cusp regions
 is relatively simple.
 One considers a lift $\hat{\alpha}\subset \mathbb{H}$ of the arc.
@@ -350,6 +351,16 @@ the absolute value of the determinant of the matrix
 $$ 
  \begin{pmatrix} a & b \\ c & d \end{pmatrix}.
 $$
+Now Lemma \ref{length parity}
+is immediate, for if $\frac{a}{c}$ and $\frac{b}{d}$
+have the same parity then reducing modulo the 
+matrix modulo $2$ then both columns are the same
+and so the parity of the determinant is $0$.
+Conversely, if the parity of the determinant is $0$
+then columns  modulo 2 are linearly dependent over
+$\mathbb{Z}/2\mathbb{Z}$ and this means they have the same parity
+and so represent the same cusp on $\xx$.
+
 In what follows we use matrices over $\mathbb{Z}$,
 up to an equivalence relation denoted $\sim$,
 to represent unoriented arcs.
@@ -507,7 +518,7 @@ $x^2 - 2y^2$ never takes the value $3 \mod 8$.
 
 \subsection{The case $p=11$}
 
-The first real case of interest in understanding 
+The first case of genuine interest in understanding 
 $x\mapsto -2/x$ is that of $\mathbb{F}_{11}^*$.
 Evidently, $11 = 3^2 + 2\times 1^2$ so that 
 $\bar{3}$ and $-\bar{3} = \bar{8}$ are the fixed points of the involution.
@@ -548,14 +559,16 @@ One notes that there are two fixed points of $-\bar{x} \mapsto
 
 \section{Counting sums of squares}
 
-We count solutions for the diophantine problem $n = mc^2 + d^2$ in
-two ways:
+We count solutions for the diophantine problem $n = c^2 + d^2$ in two ways:
 \begin{itemize}
 	\item Firstly by showing that solutions are
 		naturally associated to the  $\Gamma$
-		orbit of $i\sqrt m$;
+		orbit of $i$;
 	\item Secondly by counting arcs of $\lambda$-length n.
 \end{itemize}
+
+We extend these results to counting solutions of $n = mc^2 + d^2$
+using the $\Gamma$-orbit of $i\sqrt{m}$.
 
 
 \subsection{From solutions to $\Gamma$-orbits}
@@ -720,7 +733,7 @@ Note that if $a,b$ are coprime integers then:
 \begin{itemize}
 	\item
 The image of $\frac{a}{b}$ under $\rh$ is $-\frac{a}{b}$
-and the $\lambda$-length of the geodesic joining them is $2ab$.
+and the $\lambda$-length of the geodesic joining them is $2|ab|$.
 
 	\item
 The image of $\frac{a}{b}$ under $\rv$ is $\frac{b}{a}$
@@ -1214,10 +1227,10 @@ M. Aigner
 Aigner M., Ziegler G.M.  
 \textit{Representing numbers as sums of two squares.} In: Proofs from the book. Springer, Berlin, Heidelberg. (2010)
 
-\bibitem{barag}
-A. Baragar,
-\textit{On the Unicity Conjecture for Markoff Numbers}
-Canadian Mathematical Bulletin , Volume 39 , Issue 1 , 01 March 1996 , pp. 3 - 9
+% \bibitem{barag}
+% A. Baragar,
+% \textit{On the Unicity Conjecture for Markoff Numbers}
+% Canadian Mathematical Bulletin , Volume 39 , Issue 1 , 01 March 1996 , pp. 3 - 9
 
 \bibitem{button}
 J. O. Button, 
@@ -1229,6 +1242,7 @@ J. O. Button,
 Ilke Canakci, Anna Felikson, Ana Garcia Elsener, Pavel Tumarkin,
 \textit{Friezes for a pair of pants}a,
 Proceedings of the Formal Power Series and Algebraic Combinatorics 2022 - Séminaire Lotharingien de Combinatoire
+
 % \bibitem{cana}
 % Ilke Canakci, Ralf Schiffler
 % \textit{Snake graphs and continued fractions}
@@ -1255,7 +1269,7 @@ Elsholtz C.A
  In: Chudnovsky D., Chudnovsky G. (eds) Additive Number Theory. Springer, New York, NY.
  (2010) 
 
-\bibitem{Fomin}
+\bibitem{fomin}
 S. Fomin and D. Thurston,
 \textit{Cluster algebras and triangulated surfaces}
 Part II: Lambda lengths, \url{arXiv:1210.5569v1.}
@@ -1280,10 +1294,10 @@ Jackson, Terence H.. “A Short Proof That Every Prime $p = 3 (\mod 8)$
 Is of the Form $x^2 + 2y^2$.” The American Mathematical Monthly 107 (2000): 447 - 447.
 
 
-\bibitem{mong}
-M.L. Lang, S.P Tan,
-\textit{A simple proof of the Markoff conjecture for prime powers}
-Geometriae Dedicata volume 129, pages15–22 (2007)
+% \bibitem{mong}
+% M.L. Lang, S.P Tan,
+% \textit{A simple proof of the Markoff conjecture for prime powers}
+% Geometriae Dedicata volume 129, pages15–22 (2007)
 
 
 \bibitem{thesis}
@@ -1296,7 +1310,7 @@ Invent. Math. (1998)
 Greg McShane, Vlad Sergiescu
 \textit{Geometry of Fermat's sum of squares}
 
-\bibitem{north}
+\bibitem{northshield}
 Northshield, Sam. 
 \textit{A Short Proof of Fermat’s Two-square Theorem.} The American Mathematical Monthly. 127. 638-638. (2020). 
 
