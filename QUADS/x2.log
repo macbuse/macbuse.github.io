@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  6 FEB 2024 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  7 FEB 2024 14:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -414,166 +414,165 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<3sphere.png, id=132, 669.2503pt x 509.65407pt>
+<3sphere.png, id=141, 669.2503pt x 509.65407pt>
 File: 3sphere.png Graphic file (type png)
 <use 3sphere.png>
-Package pdftex.def Info: 3sphere.png  used on input line 247.
+Package pdftex.def Info: 3sphere.png  used on input line 279.
 (pdftex.def)             Requested size: 200.77664pt x 152.8974pt.
-
-
-LaTeX Warning: Reference `' on page 3 undefined on input line 292.
-
-[3 <./3sphere.png>] [4] [5]
+ [3] [4 <./3sphere.png>] [5]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 475.
+(hyperref)                removing `math shift' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 475.
+(hyperref)                removing `math shift' on input line 510.
 
 [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 528.
+(hyperref)                removing `math shift' on input line 563.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 528.
+(hyperref)                removing `\Gamma' on input line 563.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 528.
+(hyperref)                removing `math shift' on input line 563.
 
 [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 595.
+(hyperref)                removing `math shift' on input line 616.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 595.
+(hyperref)                removing `\Gamma' on input line 616.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 595.
+(hyperref)                removing `math shift' on input line 616.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 611.
+(hyperref)                removing `math shift' on input line 632.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 611.
+(hyperref)                removing `math shift' on input line 632.
 
 [8] [9]
-<hecke_fund_dom.png, id=192, 696.0742pt x 368.19662pt>
+<hecke_fund_dom.png, id=210, 696.0742pt x 368.19662pt>
 File: hecke_fund_dom.png Graphic file (type png)
 <use hecke_fund_dom.png>
-Package pdftex.def Info: hecke_fund_dom.png  used on input line 752.
+Package pdftex.def Info: hecke_fund_dom.png  used on input line 806.
 (pdftex.def)             Requested size: 348.03624pt x 184.09785pt.
- [10 <./hecke_fund_dom.png>]
-<Ford-circles.png, id=199, 463.7325pt x 137.51375pt>
+
+Underfull \vbox (badness 1024) has occurred while \output is active []
+
+ [10]
+<Ford-circles.png, id=215, 463.7325pt x 137.51375pt>
 File: Ford-circles.png Graphic file (type png)
 <use Ford-circles.png>
-Package pdftex.def Info: Ford-circles.png  used on input line 798.
+Package pdftex.def Info: Ford-circles.png  used on input line 853.
 (pdftex.def)             Requested size: 370.9865pt x 110.01114pt.
 
-Overfull \hbox (10.9865pt too wide) in paragraph at lines 798--799
+Overfull \hbox (10.9865pt too wide) in paragraph at lines 853--854
  [] 
  []
 
-[11 <./Ford-circles.png>]
-<hecke_cover.png, id=208, 717.37485pt x 376.56474pt>
+[11 <./hecke_fund_dom.png>]
+<hecke_cover.png, id=222, 717.37485pt x 376.56474pt>
 File: hecke_cover.png Graphic file (type png)
 <use hecke_cover.png>
-Package pdftex.def Info: hecke_cover.png  used on input line 832.
+Package pdftex.def Info: hecke_cover.png  used on input line 887.
 (pdftex.def)             Requested size: 358.68654pt x 188.2819pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./Ford-circles.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 840.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 840.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 840.
+(hyperref)                removing `math shift' on input line 895.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 840.
+(hyperref)                removing `\Gamma' on input line 895.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 840.
+(hyperref)                removing `subscript' on input line 895.
 
-[12 <./hecke_cover.png>]
-<farey_mod.png, id=216, 443.50958pt x 157.47252pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 895.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 895.
+
+<farey_mod.png, id=232, 443.50958pt x 157.47252pt>
 File: farey_mod.png Graphic file (type png)
 <use farey_mod.png>
-Package pdftex.def Info: farey_mod.png  used on input line 881.
+Package pdftex.def Info: farey_mod.png  used on input line 936.
 (pdftex.def)             Requested size: 443.5085pt x 157.47212pt.
 
-Overfull \hbox (83.5085pt too wide) in paragraph at lines 881--882
+Overfull \hbox (83.5085pt too wide) in paragraph at lines 936--937
  [] 
  []
 
+[13 <./hecke_cover.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 889.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 889.
+(hyperref)                removing `math shift' on input line 944.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 889.
+(hyperref)                removing `\Gamma' on input line 944.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 889.
+(hyperref)                removing `subscript' on input line 944.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 889.
-
-[13 <./farey_mod.png>] <xymatrix 2x2 182> [14] [15]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1129.
+(hyperref)                removing `superscript' on input line 944.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1129.
+(hyperref)                removing `math shift' on input line 944.
+
+[14 <./farey_mod.png>] <xymatrix 2x2 182> [15]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1186.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1129.
+(hyperref)                removing `subscript' on input line 1186.
 
-[16] [17] (./x2.aux)
 
-LaTeX Warning: There were undefined references.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1186.
 
+[16] [17] [18] (./x2.aux)
 Package rerunfilecheck Info: File `x2.out' has not changed.
-(rerunfilecheck)             Checksum: BBEC37F377FC0BA6795C97039910052D;1395.
+(rerunfilecheck)             Checksum: 02F67DF1AB0D64D205FC538EC6EBBA7B;1501.
  ) 
 Here is how much of TeX's memory you used:
- 11109 strings out of 481252
- 160705 string characters out of 5915889
- 514491 words of memory out of 5000000
- 27586 multiletter control sequences out of 15000+600000
+ 11116 strings out of 481252
+ 160806 string characters out of 5915889
+ 515638 words of memory out of 5000000
+ 27589 multiletter control sequences out of 15000+600000
  413292 words of font info for 69 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
- 82i,13n,88p,3213b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,13n,88p,3213b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xypic/xycmat10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xypic/xycmbt10.pfb>
-Output written on x2.pdf (17 pages, 443174 bytes).
+Output written on x2.pdf (18 pages, 447180 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
- 326 compressed objects within 4 object streams
- 97 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

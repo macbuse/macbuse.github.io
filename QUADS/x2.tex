@@ -103,32 +103,59 @@
 % }
 % \]	
 
+Recall
+that $\bar{m}\in \fp$ is a \textit{quadratic residue} iff
+there is $\bar{x}\in \fp $ such that $\bar{x}^2 = \bar{m}$.
+The first results concerning quadratic residues were stated by
+Fermat. 
+
+Determining the primes $p$ for which a particular $m$ is a quadratic
+residue is a fundamental problem, studied by Fermat, Euler, Legendre
+and Gauss. The case of $-1$ is particularly famous:
+
 \begin{thm}\label{triv}
 Let $p$ be a prime then the equation
-$$x^2 = -1$$
+$$\bar{x}^2 = -1$$
 admits a solution in $\fp$ iff 
 $p =2$ or $p-1$ is a multiple of $4$.
 \end{thm}
 
+Classically, as observed by Euler this result is the first step in proving an a priori stronger result:
 
-\begin{thm}[Fermat]\label{main}
+
+\begin{thm}[Euler]\label{main}
 Let $p$ be a prime then the equation
 $$x^2 + y^2 = p $$
 has a solution in integers  iff  $p =2$ or $p-1$ is a multiple of $4$.
 \end{thm}
 
+\noindent
+So there are two parts to Euler's proof:
+\begin{enumerate}
+	\item the \textit{reciprocity step} which consists of
+		proving Theorem \ref{triv}. This tells us
+		that there are $a,k \in \mathbb{N}$ with $kp = a^2 +1^2$.
+	\item the {descent step} which consists of showing
+		there is a  monotonically decreasing sequence
+		$k_i \in \mathbb{N}$ with $k_ip = a_i^2 +b_i^2$
+		that terminates with some $k_i=1$.
+\end{enumerate}
+
 There are myriad proofs of these theorems but the approach initiated
 by Heath-Brown in \cite{heath} has inspired many admirers if not 
-imitators see for example the very nice account of Elsholtz \cite{elsholtz}.
+imitators, probably the most elegant is Dolan's proof \cite{dolan},
+but see for example the very nice account of Elsholtz \cite{elsholtz}.
 In some sense this manuscript is a companion 
 to Elsholtz's where, instead of looking at the number theory as
 combinatorics, we work in an explicitly geometric context.
 As such we refer the reader to Elsholtz for historical perspective
-and the like.
+and the like. 
 
 
 \subsection{Involutions}
 
+The Heath-Brown proof is intriguing as it appears so different from
+Euler's method in that it avoids both reciprocity and descent.
 The essential ingredients in the Heath-Brown paper are:
 a finite set $X$ equipped with a pair of involutions such that:
 
@@ -143,8 +170,6 @@ The existence of the unique fixed point of the second involution
 allows one to conclude that the set $X$ has an odd number of elements
 and so that any involution has a fixed point.
 
-Probably the most elegant incarnation of this method is Dolan's
-proof \cite{dolan}.
 
 Generalov \cite{generalov} has given a proof (see also Elsholtz \cite{elsholtz}) in the style of Zagier of one part of
 another result conjectured by Fermat:
@@ -169,19 +194,22 @@ the discussion in Section \ref{extending} for details):
 
 \begin{lem}\label{analogue for -2}
 Let $p$ be a prime then 
-$2$ is a quadratic residue, 
-that is the equation $\bar{x}^2 = -2$
-iff  $p$
-is congruent to $1$ or $3$ mod $8$.
+$-2$ is a quadratic residue, 
+iff  $p$ is congruent to $1$ or $3$ mod $8$.
 \end{lem}
 
 
 
 \subsection{Arcs on a punctured surface}
 
-What drew us was the possibility of understanding other quadratic
-forms from a geometric point of view, in particular, $x^2 + ny^2$
+What inspired us was the insistence of V Sergesciu that one could understand quadratic forms from a geometric point of view, in particular, $x^2 + my^2$
 (see Cox's book \cite{cox} for the classical approach).
+Whilst the finite set $X$ is readily described in terms of solutions
+in positive integers to some equation in say Dolan \cite{dolan} our
+the geometric interpretation of our set $X$ requires some back
+ground in the theory of Fuchsian groups acting on $\mathbb{H}$ and
+its ideal boundary which we will now sketch.
+
 
 The actual starting point was a series of observations
 concerning $\lambda$-lengths of simple arcs on a once punctured
@@ -230,7 +258,7 @@ there has been much work on their applications
 	\item cluster algebras \cite{Fomin}.
 	\item Conway-Coxeter frieze patterns \cite{frieze}.
 \end{itemize}
-Our approach to Fermat's theorem depended on determining the number of arcs on a surface
+Our approach (see Section \ref{inversions} for a sketch) to Fermat's theorem \cite{vlad} depended on determining the number of arcs on a surface
 of $\lambda$-length p.
 Fortunately, the surface $\xx$ we were lead to study is  probably
 the easiest surface to count arcs on.
@@ -242,7 +270,11 @@ the easiest surface to count arcs on.
 \end{thm}
 
 
- \begin{figure}[H]
+% \noindent
+% As we shall see in Section \ref{}, this result essentially implies
+% Theorem \ref{main}.
+
+ \begin{figure}[ht]
 \begin{center}
 \includegraphics[scale=.3]{3sphere.png} 
 \end{center}
@@ -251,45 +283,47 @@ is a loop of $\lambda$-length 2, and the other has $\lambda$-length 1.}
 \label{3sphere}
 \end{figure}
 
-The surface  $\xx$ is not compact and has three cusps which, as we
-shall see, are naturally associated with $0,1,\infty \in \partial \mathbb{H}$.
+The surface  $\xx$ is not compact and has three cusps which
+are naturally associated with $0,1,\infty \in \partial \mathbb{H}$.
 This is a manifestation of the fact that $\g2$ acts on the extended
-rationals $\mathbb{Q} \cup \{\infty\}$.
+rationals $\mathbb{Q} \cup \{\infty\}$ preserving parity.
 By \textit{parity} we mean one
-of the three classes one obtains by taking the 
-numerator and denominator of  a fraction $\frac{p}{q}$ modulo 2
+of the three classes obtained by taking the 
+numerator and denominator  of  a fraction $\frac{a}{c}$ modulo 2
 where, by convention, $\infty = \frac{1}{0}$.
+The proof of Theorem \ref{g2 arcs} is basically the observation that the Poincaré geodesics
+of $\mathbb{H}$ (vertical lines) ending at $2k / p,\, 1\leq k \leq
+p-1$ is a set of lifts for the arcs joining the cusps labeled $0$ and
+$\infty$ in Figure \ref{3sphere}.
+
 Actually $\xx$ is a degree 6 cover of the modular surface
 $\mathbb{H}/\Gamma$. 
 Unfortunately this covering is ramified at 2 points and
 the projection of an arc on $\xx$ may or may not be an arc in the
 quotient.
-The problem lies is that an arc may be invariant by some involution
-in the covering group and as a consequence connects the cusp on
+One problem is that an arc may be invariant by some involution
+in the covering group $\Gamma / \Gamma(2)$ and as a consequence connects the cusp on
 $\mathbb{H}/\Gamma$ to a ramification point.
-In fact 
 
 
-\begin{thm}\label{modular arcs}
-	Let $p$ be a prime number then the number of arcs of
-	$\lambda$-length p on the modular surface
-	$\mathbb{H}/\Gamma$ is 
+% 	Let $p$ be a prime number then the number of arcs of
+% 	$\lambda$-length p on the modular surface
+% 	$\mathbb{H}/\Gamma$ is 
 	
-	\begin{itemize}
-		\item p-1 if 4 does not divide p-1,
-		\item p-2 if p=2 or 4 divides p-1.
-	\end{itemize}
+% 	\begin{itemize}
+% 		\item p-1 if 4 does not divide p-1,
+% 		\item p-2 if p=2 or 4 divides p-1.
+% 	\end{itemize}
 
-	% \begin{itemize}
-	% 	\item p-1 if p-1 and  12 are coprime
-	% 	\item p-3 if p is of the form $12k +1$
-	% 	\item p-2 if p is of the form $12k+7$, $12k
-	% 		+5$ or $12k + 9$
-	% \end{itemize}
+% 	% \begin{itemize}
+% 	% 	\item p-1 if p-1 and  12 are coprime
+% 	% 	\item p-3 if p is of the form $12k +1$
+% 	% 	\item p-2 if p is of the form $12k+7$, $12k
+% 	% 		+5$ or $12k + 9$
+% 	% \end{itemize}
 
-\end{thm}
+% \end{thm}
 
-As we shall see in Section \ref{}, this result is indeed equivalent to Theorem \ref{main}. 
 
 Evidently the arcs on $\xx$ fall into two families:
 \begin{itemize}
@@ -306,7 +340,8 @@ Amusingly one can characterise loops using $\lambda$-length.
 
 
 \subsection{Representing arcs as matrices}
-Computing the $\lambda$-length of an arc $\alpha$ on $\xx$ 
+Computing the $\lambda$-length of an arc $\alpha$ on $\xx$
+with respect to the canonical choice of cusp regions
 is relatively simple.
 One considers a lift $\hat{\alpha}\subset \mathbb{H}$ of the arc.
 This is a Poincaré geodesic joining a pair of distinct rationals
@@ -532,7 +567,7 @@ which we will refer to as the \textit{fundamental strip},
 consisting of all the $z\in \CC$ such that 
 the real part is between $0$ and $1$.
 
-\begin{lem} \label{squares}
+\begin{lem} \label{counting squares}
 Let $n\geq2$ be an integer.
 The number of  ways of writing $n$  as a  sum of squares
 $$n = c^2 + d^2$$
@@ -576,20 +611,6 @@ one can choose $w$ such that $0 \leq \text{Re\,} w < 1$.
 
 \hfill $\Box$
 
-By exactly the same argument one has a slightly more general result:
-
-\begin{lem} \label{counting quadratic form}
-Let $n\geq2$ be an integer and $m < n$ a square free integer.
-The number of  ways of writing $n$  as a  sum of squares
-$$n = mc^2 + d^2$$
-with $c,d$ coprime integers
-is equal to the number of points
-of $\Gamma.\{i\sqrt m\}  $
-the $\sl2$  orbit of $i\sqrt m$,
-in the fundamental strip at euclidean height $\frac{\sqrt m}{n}$.
-\end{lem}
-
-
 \subsection{From $\Gamma(2)$ orbits to arcs}
 
 Suppose that $n$ can be written as a sum of squares $c^2 +d^2$
@@ -608,23 +629,36 @@ and so joins a pair of distinct cusps $\infty$ and $1$ say.
 \subsection{Real part and reduction modulo $n$}
 \label{real part}
 
-We saw
-above how the imaginary part of
-$\left (\frac{ai\sqrt{m} +b}{ci\sqrt{m}+d } \right)$
+By a similar argument as for Lemma \ref{counting squares}
+one has a slightly more general result:
+
+\begin{lem} \label{counting quadratic form}
+Let $n\geq2$ be an integer and $m < n$ a square free integer.
+The number of  ways of writing $n$  as a  sum of squares
+$$n = mc^2 + d^2$$
+with $c,d$ coprime integers
+is equal to the number of points
+of $\Gamma.\{i\sqrt m\}  $
+the $\sl2$  orbit of $i\sqrt m$,
+in the fundamental strip at euclidean height $\frac{\sqrt m}{n}$.
+\end{lem}
+\noindent
+Thus the imaginary part of
+$w = \left (\frac{ai\sqrt{m} +b}{ci\sqrt{m}+d } \right)$
 arises naturally in relation to counting the number of ways of
-representing a number as $mc^2 + d^2$.
-In this paragraph we explain what part the real part of this quantity
-plays: it is a fraction whose denominator is nothing other than a
+representing an integer $n$ as $mc^2 + d^2$.
+Now the real part of $w$ is
+$$\frac{mac +bd}{mc^2+d^2 } ,$$
+% and if the denominator is $n$ as before
+% $mc^2 + d^2 = 0 \in \mathbb{Z} / n \mathbb{Z}$.
+and it also plays and important role: 
+it is a fraction whose denominator is $n$ and whose numeratoris nothing other than a
 square root of $-\bar{m}$ in $\mathbb{Z} / n\mathbb{Z}$.
 In Section \ref{lifting involutions}
 we will give a converse to this result in certain cases,
-showing how to "lift" a square root in $\mathbb{Z}/n \mathbb{Z}$ to a solution of $mc^2
+showing how to ``lift" a square root in $\mathbb{Z}/n \mathbb{Z}$ to a solution of $mc^2
 + d^2 = n$.
 
-Let us begin by writing down the real part:
-$$\frac{mac +bd}{mc^2+d^2 } .$$
-we suppose that  the denominator is $p$ as before
-so that $mc^2 + d^2 = 0 \in \fp$.
 
 \begin{lem}\label{square root -m}
 Let $a,b,c,d,m\in \mathbb{Z} / n\mathbb{Z}$ and suppose that they satisfy
@@ -657,7 +691,11 @@ $$
 $$
 \hfill $\Box$
 
-\section{Inversions}
+\section{Inversions and the proof of Theorem
+\ref{main}}\label{inversions}
+
+We present a sketch of the geometric proof given in our previous
+work  with Sergiescu\cite{vlad}.
 
 We denote by $\mathbb{H}$ the Poincaré upper half plane and $\dHH$
 its ideal boundary ie $\mathbb{R}\cup \{\infty\}$.
@@ -673,7 +711,7 @@ $\rh: z\mapsto -\bar{z}$ fixes $0$ and $\infty$
 and so the geodesic joining them.
 The group of isometries acts transitively on pairs of distinct
 points $a,b \in \partial \mathbb{H}$ and so
-there is an inversion that fixes the geodesic joining $a,b$which is
+there is an inversion that fixes the geodesic joining $a,b$ which is
 in fact conjugate to $\rh$.
 The inversion fixing $1,-1$ is easily seen to be
 $\rv:z\mapsto \frac{1}{\bar{z}}$. 
@@ -691,7 +729,7 @@ is $|a^2 - b^2|$.
 
 \end{itemize}
 It follows from these remarks that:
-\begin{lem}
+\begin{lem}\label{counting fixed points}
 	Let $p>2$ be a prime then:
 	
 \begin{itemize} 
@@ -712,6 +750,22 @@ so up to permutation and change of sign $a,b$ are the integers
 $\frac{1}{2}(p\pm1)$.
 
 \hfill $\Box$
+
+Our proof  of Theorem \ref{main} consists in noting that the above involutions normalise $\g2$
+and so induce involutions of the quotient surface $\xx$.
+We take $X$ to be the set of arcs of $\lambda$-length $p$ joining
+the cusps marked $0$ and $\infty$ (see Figure \ref{g2 arcs})
+and using Lemma \ref{counting fixed points} compute the terms in the
+Burnside formula:
+$$
+4 |X/G|   = (p-1) + 2 + |X^g|,$$
+	where $g$ is the involution induced by $z\mapsto -1 /
+	z.$
+We conclude that there is an arc that meets $\Gamma.\{i\}$ and obtain
+$p$ as a sum of squares by Lemma \ref{counting squares}.
+
+
+
 
 Later we will need to consider arcs invariant under the invesrion
 $z\mapsto \frac{m}{\bar{z}}$ for $m=2,3$.
@@ -782,6 +836,7 @@ We can determine the orbits of this group on $\QQ$ using this
 conjugation and we have:
 $$\ah \{\infty\} =   \Gamma(2) \{\infty\} \cup \Gamma(2) \{1\}.$$
 
+\subsection{Canonical cusp regions}\label{canonical cusp}
 
 We denote by $F$ the set  $\{ z, \im z > 1\}$
 this is a \textit{horoball in $\HH$} centered at $\infty$.
@@ -972,6 +1027,8 @@ and an obvious question is:
 when does an automorphism $f$ of $\fp$
 lift to an automorphism of the quotient surface?
 
+% Equivalently, given an involution of $\mathbb{H}/\Gamma_0(m)$ does it induce an
+
 % To make this precise let us represent each arc as a matrix,
 % an involution of $\mathbb{H}$ $\frac{az+b}{cz+d}$
 % induces a map of $\GG$ if there is an element $\frac{a'z+b'}{c'z+d'}$ of $\Gamma^t_0(m)$
@@ -1136,6 +1193,12 @@ quadratic residue modulo $p$.
 		$X^4+1 = 0$ then $x^2 + x^{-2}=0$
 		and $(x\pm x^{-1})^2 = \pm 2$
 	
+	\item If $p = 1 \mod 6$ and $x$ is a solution of the
+		equation
+		$X^6+1 = 0$ then $x^3 + x^{-3}=0$
+		and, expanding  $(x\pm x^{-1})^3$
+		using the binomial formula, one has
+		$(x\pm x^{-1})^2 = \pm 3$
 	\item If $p = 3 \mod 4$ and $x$ a quadratic residue
 		then $x^\frac{p+1}{2}$ is a square root of
 		$x$.
@@ -1228,6 +1291,10 @@ G. McShane,
 \textit{Simple geodesics and a series constant over Teichmuller space}
 Invent. Math. (1998)
 
+
+\bibitem{vlad}
+Greg McShane, Vlad Sergiescu
+\textit{Geometry of Fermat's sum of squares}
 
 \bibitem{north}
 Northshield, Sam. 

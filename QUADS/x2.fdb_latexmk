@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1707222056 "x2.tex" "x2.pdf" "x2" 1707222057
+["pdflatex"] 1707314722 "x2.tex" "x2.pdf" "x2" 1707314723
   "/etc/texmf/web2c/texmf.cnf" 1676666735 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -143,11 +143,11 @@
   "farey_mod.png" 1700676363 19420 2875e43aa21d3c7fd4903c1b9d112b84 ""
   "hecke_cover.png" 1700562227 64430 665a0acc96041f29617c9696e36549a4 ""
   "hecke_fund_dom.png" 1700427114 52781 b83fda82112e9475f8df29481c05ed3b ""
-  "x2.aux" 1707222057 7379 8013726f321103a597afc7cc53c5de20 "pdflatex"
-  "x2.out" 1707222057 1395 bbec37f377fc0ba6795c97039910052d "pdflatex"
-  "x2.tex" 1707222053 41037 a899706baedeb48f29d5df3e18df03e3 ""
+  "x2.aux" 1707314723 7812 0c32aacd22b4b119aaab39ebe386c628 "pdflatex"
+  "x2.out" 1707314723 1501 02f67df1ab0d64d205fc538ec6ebba7b "pdflatex"
+  "x2.tex" 1707314721 43997 98ef4e9a6446a9c114ad2789a416d342 ""
   (generated)
-  "x2.pdf"
   "x2.aux"
-  "x2.log"
+  "x2.pdf"
   "x2.out"
+  "x2.log"
