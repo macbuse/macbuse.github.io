@@ -56,6 +56,8 @@
 \def\QQ{\mathbb{Q}}
 \def\NN{\mathbb{N}}
 
+\def\qqq{\mathbb{Q} \cup \{\infty\}}
+
 \def\tt{\Sigma_{1,1}}
 
 \def\fp{\mathbb{F}_p}
@@ -86,8 +88,6 @@
  % \author[Vlad]{Vlad Sergesciu}
 \address{Institut Fourier 100 rue des maths, BP 74, 38402 St Martin d'H\`eres cedex, France}
 \email{mcshane at univ-grenoble-alpes.fr}
-
-
 
 
 \begin{document}
@@ -199,7 +199,7 @@ iff  $p$ is congruent to $1$ or $3$ mod $8$.
 \end{lem}
 
 
-\subsection{Arcs on a punctured surface}
+\subsection{Arcs on a surface with cusps}
 
 What inspired us was the insistence of V Sergesciu that one could
 understand quadratic forms like $x^2 +y^2$ and more generally $x^2 + my^2$
@@ -209,7 +209,7 @@ the values of a quadratic form using what he calls the
 \textit{topograph of a quadratic form}
 (see Hatcher's book \cite{hatcher} for a complete account with back
 ground)
-he is in the main concerned with indefinite forms.
+but he is in the main concerned with indefinite forms.
 
 Our approach, like Conway's, is based on properties of $\Gamma$ acting on $\mathbb{H}$.
 Whilst the finite set $X$ employed in the variations of
@@ -227,20 +227,19 @@ Let $\Gamma = \sl2$ then it admits a action on $\mathbb{H}\cup \dHH$ via
 $$
 \begin{pmatrix} a&b\\c&d \end{pmatrix} \in \Gamma,
 z \mapsto \frac{az + b}{cz + d}.
-
 $$
 
 The restriction of this action to $\mathbb{H}$ is properly
 discontinuous but not free and the quotient is a non compact singular surface
 called the \textit{modular surface} $\mathbb{H}/\Gamma$.
-The $\Gamma$-orbit of $\inty$ is exactly the extended rationals $\mathbb{Q}\cup \{\infty\}$.
+The $\Gamma$-orbit of $\infty$ is exactly the extended rationals $\mathbb{Q}\cup \{\infty\}$.
 Let $G<\Gamma$ be a finite index subgroup, we will be concerned with involutions of the cover
 $\mathbb{H}/G\rightarrow \mathbb{H}/\Gamma$ and their actions on the arcs on the cover.
 Evidently $\mathbb{H}/G$ is non compact and has a finite number of
 ends called \textit{cusps} which are in 1-1 correspondence 
 with  $G$-orbits of $\mathbb{Q}$.
 We call \textit{arc} the image on $\mathbb{H}/G$ of any Poincaré geodesic joining  a pair of distinct rationals.
-As such an arc is a complete geodesic on a $\mathbb{H}/G$ with both
+As such an arc is a complete geodesic on  $\mathbb{H}/G$ with both
 of its ends ``terminating" at cusps, 
 so it has infinite length but if we only consider the portion outside some
 family of sufficiently small uniform neighbors of the cusps then
@@ -285,27 +284,28 @@ which joins cusps labelled $0$ and $1$, has $\lambda$-length 1.}
 \label{3sphere}
 \end{figure}
 
-The surface  $\xx$ is not compact and has three cusps which
-are naturally associated with $0,1,\infty \in \partial \mathbb{H}$.
-This is a manifestation of the fact that $\g2$ acts on the extended
-rationals $\mathbb{Q} \cup \{\infty\}$ preserving parity.
+The surface  $\xx$ is has three cusps 
+since the extended rationals  splits as three $\g2$-orbits
+$$\qqq = \g2.\{0\} \sqcup  \g2. \{1\} \sqcup \g2. \{\infty\}.$$
+This is a manifestation of the fact that the $\g2$ action 
+preseres parity.
 By \textit{parity} we mean one
 of the three classes obtained by taking the 
 numerator and denominator  of  a fraction $\frac{a}{c}$ modulo 2
 where, by convention, $\infty = \frac{1}{0}$.
 The proof of Theorem \ref{g2 arcs} is basically the observation that the Poincaré geodesics
-of $\mathbb{H}$ (vertical lines) ending at $2k / p\n \mathbb{Q},\, 1\leq k \leq
+of $\mathbb{H}$ (vertical lines) ending at $2k / p \in \mathbb{Q},\, 1\leq k \leq
 p-1$ is a set of lifts for the arcs joining the cusps labeled $0$ and
 $\infty$ on $\xx$ (see Figure \ref{3sphere}.)
 
-Actually $\xx$ is a degree 6 cover of the modular surface
-$\mathbb{H}/\Gamma$. 
-Unfortunately this covering is ramified at 2 points and
-the projection of an arc on $\xx$ may or may not be an arc in the
-quotient.
-One problem is that an arc may be invariant by some involution
-in the covering group $\Gamma / \Gamma(2)$ and as a consequence connects the cusp on
-$\mathbb{H}/\Gamma$ to a ramification point.
+% Actually $\xx$ is a degree 6 cover of the modular surface
+% $\mathbb{H}/\Gamma$. 
+% Unfortunately this covering is ramified at 2 points and
+% the projection of an arc on $\xx$ may or may not be an arc in the
+% quotient.
+% One problem is that an arc may be invariant by some involution
+% in the covering group $\Gamma / \Gamma(2)$ and as a consequence connects the cusp on
+% $\mathbb{H}/\Gamma$ to a ramification point.
 
 
 % 	Let $p$ be a prime number then the number of arcs of
@@ -327,14 +327,14 @@ $\mathbb{H}/\Gamma$ to a ramification point.
 % \end{thm}
 
 
-Evidently the arcs on $\xx$ fall into two families:
+From a topological point of view the arcs on $\xx$ evidently fall into two families:
 \begin{itemize}
 	\item arcs that join distinct cusps. 
-	\item arcs that have both ends at the same cusp
+	\item arcs with both ends terminating at the same cusp
 \end{itemize}
 We will refer to the second kind of arc as a \textit{loop}
 (see Figure \ref{3sphere}).
-Amusingly one can characterise loops using $\lambda$-length.
+Amusingly one can characterise loops (algebraically) using $\lambda$-length.
 \begin{lem}\label{length parity}
 	An arc on $\xx$ is a loop if and only if its
 	$\lambda$-length is even.
@@ -397,7 +397,6 @@ Let $\Gamma = \sl2$ then it admits a action on $\mathbb{H}\cup \dHH$ via
 $$
 \begin{pmatrix} a&b\\c&d \end{pmatrix} \in \Gamma,
 z \mapsto \frac{az + b}{cz + d}.
-
 $$
 
 The action decomposes into two quite different pieces:
@@ -707,7 +706,7 @@ one can choose $w$ such that $0 \leq \text{Re\,} w < 1$.
 
 \hfill $\Box$
 
-\subsection{From $\Gamma(2)$ orbits to arcs}
+\subsection{From $\Gamma(2)$-orbits to arcs}
 
 Suppose that $n$ can be written as a sum of squares $c^2 +d^2$
 and $w$ is the corresponding point in the fundamental strip then we
@@ -715,11 +714,10 @@ can associate a Poincaré geodesic to $w$ in a natural way:
 we simply take the vertical line that passes through $w$.
 This geodesic joins two points in the ideal boundary of $\mathbb{H}$
 namely $\infty$ and $\frac{ac + bd}{n}\in \mathbb{Q}$.
-Penner's $\lambda$-length
 This geodesic projects to an arc on the surface $\xx$
 and, using the definition above, its $\lambda$-length is $n$.
-If $n$ is not even then this arc is not a loop
-and so joins a pair of distinct cusps $\infty$ and $1$ say.
+% If $n$ is not even then this arc is not a loop
+% and so joins a pair of distinct cusps.
 
 
 \subsection{Real part and reduction modulo $n$}
@@ -1149,23 +1147,24 @@ lift to an automorphism of the quotient surface?
 % $$
 
 
-In particular we wish to show that the 
+In particular 
+for our  
 three involutions
 \begin{itemize}
 	\item $z\mapsto - \bar{z}$ 
 	\item $z\mapsto \frac{m}{\bar{z}}$ 
 	\item $z\mapsto \frac{-m}{z}$ 
 \end{itemize}
-satisfy
+wish to show that each of them
 \begin{enumerate}
 
-	\item induce involutions of $\GG$,
-	\item these maps lift the corresponding
+	\item induces an involution of $\GG$,
+	\item the map lifts the corresponding
 	involutions on $\fp$ (see Lemma \ref{actions agree}
 	below).
 
 \end{enumerate}
-This second point extends the calculation in the previous section
+We think of this second point as extending the calculation in the previous section
 \ref{real part}.
 The first of our involutions $z\mapsto\bar{z}$ 
 is easily dealt with since $-(mk) = m(-k)$.

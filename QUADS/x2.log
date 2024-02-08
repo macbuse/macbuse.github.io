@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  8 FEB 2024 14:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  8 FEB 2024 15:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -413,244 +413,159 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-./x2.tex:230: Missing $ inserted.
-<inserted text> 
-                $
-l.230 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./x2.tex:230: Display math should end with $$.
-<to be read again> 
-                   \par 
-l.230 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[2]
-./x2.tex:232: Missing $ inserted.
-<inserted text> 
-                $
-l.232 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./x2.tex:232: Display math should end with $$.
-<to be read again> 
-                   \par 
-l.232 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./x2.tex:236: Undefined control sequence.
-<recently read> \inty 
-                      
-l.236 The $\Gamma$-orbit of $\inty
-                                  $ is exactly the extended rationals $\math...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 <3sphere.png, id=150, 669.2503pt x 509.65407pt>
 File: 3sphere.png Graphic file (type png)
 <use 3sphere.png>
-Package pdftex.def Info: 3sphere.png  used on input line 279.
+Package pdftex.def Info: 3sphere.png  used on input line 278.
 (pdftex.def)             Requested size: 200.77664pt x 152.8974pt.
-./x2.tex:297: Undefined control sequence.
-l.297 ...{H}$ (vertical lines) ending at $2k / p\n
-                                                   \mathbb{Q},\, 1\leq k \leq
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[3] [4 <./3sphere.png>]
-./x2.tex:400: Missing $ inserted.
-<inserted text> 
-                $
-l.400 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./x2.tex:400: Display math should end with $$.
-<to be read again> 
-                   \par 
-l.400 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./x2.tex:402: Missing $ inserted.
-<inserted text> 
-                $
-l.402 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./x2.tex:402: Display math should end with $$.
-<to be read again> 
-                   \par 
-l.402 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[5] [6] [7]
+ [3] [4 <./3sphere.png>] [5] [6] [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 604.
+(hyperref)                removing `math shift' on input line 603.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 604.
+(hyperref)                removing `math shift' on input line 603.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 659.
+(hyperref)                removing `math shift' on input line 658.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 659.
+(hyperref)                removing `\Gamma' on input line 658.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 659.
+(hyperref)                removing `math shift' on input line 658.
 
 [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 712.
+(hyperref)                removing `math shift' on input line 711.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 712.
+(hyperref)                removing `\Gamma' on input line 711.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 712.
+(hyperref)                removing `math shift' on input line 711.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 728.
+(hyperref)                removing `math shift' on input line 726.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 728.
+(hyperref)                removing `math shift' on input line 726.
 
-[9] [10] [11]
-<hecke_fund_dom.png, id=244, 696.0742pt x 368.19662pt>
+[9] [10]
+<hecke_fund_dom.png, id=240, 696.0742pt x 368.19662pt>
 File: hecke_fund_dom.png Graphic file (type png)
 <use hecke_fund_dom.png>
-Package pdftex.def Info: hecke_fund_dom.png  used on input line 901.
+Package pdftex.def Info: hecke_fund_dom.png  used on input line 899.
 (pdftex.def)             Requested size: 348.03624pt x 184.09785pt.
- [12 <./hecke_fund_dom.png>]
-<Ford-circles.png, id=251, 463.7325pt x 137.51375pt>
+ [11]
+<Ford-circles.png, id=245, 463.7325pt x 137.51375pt>
 File: Ford-circles.png Graphic file (type png)
 <use Ford-circles.png>
-Package pdftex.def Info: Ford-circles.png  used on input line 948.
+Package pdftex.def Info: Ford-circles.png  used on input line 946.
 (pdftex.def)             Requested size: 370.9865pt x 110.01114pt.
 
-Overfull \hbox (10.9865pt too wide) in paragraph at lines 948--949
+Overfull \hbox (10.9865pt too wide) in paragraph at lines 946--947
  [] 
  []
 
+[12 <./hecke_fund_dom.png>]
 <hecke_cover.png, id=252, 717.37485pt x 376.56474pt>
 File: hecke_cover.png Graphic file (type png)
 <use hecke_cover.png>
-Package pdftex.def Info: hecke_cover.png  used on input line 982.
+Package pdftex.def Info: hecke_cover.png  used on input line 980.
 (pdftex.def)             Requested size: 358.68654pt x 188.2819pt.
 
-Underfull \vbox (badness 3568) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <./Ford-circles.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 990.
+(hyperref)                removing `math shift' on input line 988.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 990.
+(hyperref)                removing `\Gamma' on input line 988.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 990.
+(hyperref)                removing `subscript' on input line 988.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 990.
+(hyperref)                removing `superscript' on input line 988.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 990.
+(hyperref)                removing `math shift' on input line 988.
 
 <farey_mod.png, id=263, 443.50958pt x 157.47252pt>
 File: farey_mod.png Graphic file (type png)
 <use farey_mod.png>
-Package pdftex.def Info: farey_mod.png  used on input line 1031.
+Package pdftex.def Info: farey_mod.png  used on input line 1029.
 (pdftex.def)             Requested size: 443.5085pt x 157.47212pt.
 
-Overfull \hbox (83.5085pt too wide) in paragraph at lines 1031--1032
+Overfull \hbox (83.5085pt too wide) in paragraph at lines 1029--1030
  [] 
  []
 
 [14 <./hecke_cover.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1039.
+(hyperref)                removing `math shift' on input line 1037.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Gamma' on input line 1039.
+(hyperref)                removing `\Gamma' on input line 1037.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1039.
+(hyperref)                removing `subscript' on input line 1037.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1039.
+(hyperref)                removing `superscript' on input line 1037.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1039.
+(hyperref)                removing `math shift' on input line 1037.
 
 [15 <./farey_mod.png>] <xymatrix 2x2 182> [16]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1281.
+(hyperref)                removing `math shift' on input line 1280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 1281.
+(hyperref)                removing `subscript' on input line 1280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1281.
+(hyperref)                removing `math shift' on input line 1280.
 
 [17] [18] [19] (./x2.aux)
 Package rerunfilecheck Info: File `x2.out' has not changed.
-(rerunfilecheck)             Checksum: 02F67DF1AB0D64D205FC538EC6EBBA7B;1501.
+(rerunfilecheck)             Checksum: 0353DCAFB5D7A7953E3465E28F0927F7;1502.
  ) 
 Here is how much of TeX's memory you used:
  11122 strings out of 481252
- 160863 string characters out of 5915889
- 514687 words of memory out of 5000000
+ 160862 string characters out of 5915889
+ 514698 words of memory out of 5000000
  27590 multiletter control sequences out of 15000+600000
  413292 words of font info for 69 fonts, out of 8000000 for 9000
  175 hyphenation exceptions out of 8191
- 82i,13n,88p,3213b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,13n,88p,3213b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xypic/xycmat10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xypic/xycmbt10.pfb>
-Output written on x2.pdf (19 pages, 452155 bytes).
+Output written on x2.pdf (19 pages, 452170 bytes).
 PDF statistics:
  430 PDF objects out of 1000 (max. 8388607)
  372 compressed objects within 4 object streams
