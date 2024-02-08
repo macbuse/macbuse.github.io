@@ -142,21 +142,21 @@ So there are two parts to Euler's proof:
 \end{enumerate}
 
 There are myriad proofs of these theorems but the approach initiated
-by Heath-Brown in \cite{heath} has inspired many admirers if not 
-imitators \cite{generalov, jackson,northshield, dubach} , probably the most elegant is Dolan's proof \cite{dolan},
-but see for example the very nice account of Elsholtz \cite{elsholtz}.
-In some sense this manuscript is a companion 
-to Elsholtz's where, instead of looking at the number theory as
-combinatorics, we work in an explicitly geometric context.
-As such we refer the reader to Elsholtz for historical perspective
-and the like. 
+by Heath-Brown in \cite{heath} has inspired many admirers if not
+imitators \cite{generalov, jackson,northshield, dubach}, probably
+The most elegant of these is probably Dolan's proof \cite{dolan}.
+but see Elsholtz's very nice account \cite{elsholtz} of the methd in
+general. In some sense this manuscript is a companion to Elsholtz's
+where, instead of looking at the number theory as combinatorics, we
+work in an explicitly geometric context. As such we refer the reader
+to Elsholtz for historical perspective and the like. 
 
 
 \subsection{Involutions}
 
 The Heath-Brown proof is intriguing as it appears so different from
 Euler's method in that it avoids both reciprocity and descent.
-The essential ingredients in the Heath-Brown paper are:
+The essential ingredients in the Heath-Brown paper are
 a finite set $X$ equipped with a pair of involutions such that:
 
 
@@ -201,36 +201,47 @@ iff  $p$ is congruent to $1$ or $3$ mod $8$.
 
 \subsection{Arcs on a punctured surface}
 
-What inspired us was the insistence of V Sergesciu that one could understand quadratic forms from a geometric point of view, in particular, $x^2 + my^2$
-(see Cox's book \cite{cox} for the classical approach).
-Whilst the finite set $X$ is readily described in terms of solutions
-in positive integers to some equation in say Dolan \cite{dolan} our
-the geometric interpretation of our set $X$ requires some back
-ground in the theory of Fuchsian groups acting on $\mathbb{H}$ and
-its ideal boundary which we will now sketch.
+What inspired us was the insistence of V Sergesciu that one could
+understand quadratic forms like $x^2 +y^2$ and more generally $x^2 + my^2$
+from a geometric point of view (see Cox's book \cite{cox} for the classical approach).
+Certainly Conway \cite{conway} has developed a geometric theory of 
+the values of a quadratic form using what he calls the
+\textit{topograph of a quadratic form}
+(see Hatcher's book \cite{hatcher} for a complete account with back
+ground)
+he is in the main concerned with indefinite forms.
 
-
-The actual starting point was a series of observations
-concerning $\lambda$-lengths of simple arcs on a once punctured
-torus equipped with a hyperbolic structure.
-The canonical  example of such a surface is the quotient $\HH/\Gamma'$
-where $\Gamma' < \Gamma = \sl2$ is the commutator subgroup. 
+Our approach, like Conway's, is based on properties of $\Gamma$ acting on $\mathbb{H}$.
+Whilst the finite set $X$ employed in the variations of
+Heath-Brown's method is readily described in terms of solutions
+in positive integers to some equation (see  Dolan \cite{dolan}) 
+the geometric interpretation of our set $X$ requires some knowledge
+of the elementary theory of Fuchsian groups acting on $\mathbb{H}$ and
+its ideal boundary $\partial \mathbb{H}$ which we will now sketch.
 The reader, unfamiliar with the relationship between hyperbolic
 geometry and number theory,
 should consult Springborn's articles \cite{springborn1, springborn2}
 where a dictionary between geometric and number theoretic notions is presented.
 
-An important
-feature of a punctured surface is that it admits \textit{uniform
-cusp regions} (see \cite{Shimizu}) that is there is a neighborhood of each puncture, or more properly cusp, isometric to 
-$$\{z\in \mathbb{H}, \mathrm{Re}z \geq 1\}/\langle z \mapsto z+1
-\rangle.$$  
-The  torus $\mathbb{H}/\Gamma'$ can
-be obtained from a pair of ideal triangles by "gluing" and the sides
-of the ideal triangles form a triple of complete simple geodesics on
-the surface. The corners of the triangles glue up to a neighborhood
-of the puncture. We define an \textit{arc} to
-be any complete geodesic on a punctured surface with both of its
+Let $\Gamma = \sl2$ then it admits a action on $\mathbb{H}\cup \dHH$ via
+$$
+\begin{pmatrix} a&b\\c&d \end{pmatrix} \in \Gamma,
+z \mapsto \frac{az + b}{cz + d}.
+
+$$
+
+The restriction of this action to $\mathbb{H}$ is properly
+discontinuous but not free and the quotient is a non compact singular surface
+called the \textit{modular surface} $\mathbb{H}/\Gamma$.
+The $\Gamma$-orbit of $\inty$ is exactly the extended rationals
+$\mathbb{Q}\cup \{\infty\}$.
+
+Let $G<\Gamma$, we will be concerned with involutions of the cover
+$\mathbb{H}/G\rightarrow \mathbb{H}/\Gamma$ and their actions on the
+arcs on the cover.
+We call \textit{arc} the image on $\mathbb{H}/G$ of any Poincaré geodesic joining  a pair of distinct rationals.
+
+complete geodesic on a punctured surface with both of its
 ends terminating at cusps. The three sides of the ideal triangle(s)
 above form a triple of disjoint simple arcs. Each of these arcs has
 infinite length but if we only consider the portion outside the
@@ -247,7 +258,9 @@ triple of $\lambda$-lengths $(x,y,z)$ satisfy the Markoff cubic:
 \end{equation}
 Suppose now that $p$ is a prime that divides $z$ 
 then reducing modulo $p$ one has $\bar{x}^2 + \bar{y}^2 = 0$ which
-leads naturally to considering Fermat's theorem above.
+leads naturally to considering Fermat's theorem above
+and in particular Button's results on the Frobenius unicity
+conjecture \cite{button}.
 
 Since Penner \cite{bob} first defined $\lambda$-length 
 there has been much work on their applications
@@ -278,7 +291,9 @@ the easiest surface to count arcs on.
 \includegraphics[scale=.3]{3sphere.png} 
 \end{center}
 \caption{The surface $\xx$. The dotted lines are arcs one of which
-is a loop of $\lambda$-length 2, and the other has $\lambda$-length 1.}
+is a loop of $\lambda$-length 2, 
+and the other,
+which joins cusps labelled $0$ and $1$, has $\lambda$-length 1.}
 \label{3sphere}
 \end{figure}
 
@@ -291,7 +306,7 @@ of the three classes obtained by taking the
 numerator and denominator  of  a fraction $\frac{a}{c}$ modulo 2
 where, by convention, $\infty = \frac{1}{0}$.
 The proof of Theorem \ref{g2 arcs} is basically the observation that the Poincaré geodesics
-of $\mathbb{H}$ (vertical lines) ending at $2k / p,\, 1\leq k \leq
+of $\mathbb{H}$ (vertical lines) ending at $2k / p\n \mathbb{Q},\, 1\leq k \leq
 p-1$ is a set of lifts for the arcs joining the cusps labeled $0$ and
 $\infty$ on $\xx$ (see Figure \ref{3sphere}.)
 
@@ -380,7 +395,8 @@ $$
 as representing an arc joining $\infty$ to $k/p$
 but with opposite orientations.
 
-This matrix representation will prove very convenient when later we
+This matrix representation will prove very convenient when later
+(see Section \ref{actions agree})
 have to check that two arcs are in the same $G$-orbit for some $G <
 \sl2$ and so project to the same arc on the quotient surface
 $\mathbb{H}/G$.
@@ -389,8 +405,87 @@ $\mathbb{H}/G$.
 
 \subsection{Philosophy}
 
+Let $\Gamma = \sl2$ then it admits a action on $\mathbb{H}\cup \dHH$ via
+$$
+\begin{pmatrix} a&b\\c&d \end{pmatrix} \in \Gamma,
+z \mapsto \frac{az + b}{cz + d}.
+
+$$
+
+The action decomposes into two quite different pieces:
+\begin{enumerate}
+	\item the restriction of this action to $\mathbb{H}$
+		is properly discontinuous but not free and the quotient is
+		a singular surface called the \textit{modular
+		surface} $\mathbb{H}/\Gamma$
+	\item	the stabiliser of $i\in \mathbb{H}$ is non
+		trivial and is generated by $z\mapsto -1 / z$
+	\item the action on $\dHH$ admits dense orbits for
+		example the orbit of $\infty$ is exactly
+		$\mathbb{Q}\cup \{\infty\}$
+	\item the stabiliser of $\infty \in \dHH$ is the
+		infinite cyclic group generated by $z\mapsto
+		z+1$
+
+	\item $F = \{z\in \mathbb{H}, \mathrm{Im}\,z > 1\}$ is
+		invariant under the group $\langle z \mapsto
+		z+1 \rangle$  and embeds in
+		$\mathbb{H}/\Gamma$ as a \textit{cusp region}.
+
+\end{enumerate}
+
+Let $G<\Gamma$,
+we will be concerned with involutions of the cover 
+$\mathbb{H}/G\rightarrow \mathbb{H}/\Gamma$.
+The actual starting point for our interest in this was a series of observations
+concerning $\lambda$-lengths of simple arcs on a once punctured
+torus equipped with a hyperbolic structure.
+The canonical  example of such a surface is the quotient $\HH/\Gamma'$
+where $\Gamma' < \Gamma = \sl2$ is the commutator subgroup. 
+
+% An important
+% feature of a punctured surface is that it admits \textit{uniform
+% cusp regions} (see \cite{Shimizu}) that is there is a neighborhood of each puncture, or more properly cusp, isometric to 
+% $\{z\in \mathbb{H}, \mathrm{Im}\,z > 1\}/\langle z \mapsto z+1 \rangle.$  
+
+
+The  torus $\mathbb{H}/\Gamma'$ can
+be obtained from a pair of ideal triangles by "gluing" and the sides
+of the ideal triangles form a triple of complete simple geodesics on
+the surface. The corners of the triangles glue up to a neighborhood
+of the puncture. We define an \textit{arc} to
+be any complete geodesic on a punctured surface with both of its
+ends terminating at cusps. The three sides of the ideal triangle(s)
+above form a triple of disjoint simple arcs. Each of these arcs has
+infinite length but if we only consider the portion outside the
+uniform cusp region then its length is finite. The $\lambda$-length
+of the arc is exponential of half the length of this finite portion.
+Whilst this definition works well for simple arcs, since the portion of
+the arc
+outside the uniform cusp region is connected, more care is needed if
+the arc is not simple.
+It is a remarkable fact that for any embedded ideal triangle the
+triple of $\lambda$-lengths $(x,y,z)$ satisfy the Markoff cubic:
+\begin{equation}
+	x^2 + y^2 + z^2 - xyz = 0.
+\end{equation}
+Suppose now that $p$ is a prime that divides $z$ 
+then reducing modulo $p$ one has $\bar{x}^2 + \bar{y}^2 = 0$ which
+leads naturally to considering Fermat's theorem above
+and in particular Button's results on the Frobenius unicity
+conjecture \cite{button}.
+
+Since Penner \cite{bob} first defined $\lambda$-length 
+there has been much work on their applications
+
+\begin{itemize}
+	\item Weil-Peterson volume of moduli space \cite{bob}
+	\item cluster algebras \cite{fomin}.
+	\item Conway-Coxeter frieze patterns \cite{frieze}.
+\end{itemize}
+O
 In some sense we adopt the same approach to (positive definite) integer quadratic forms as
-Penner in \cite{} (see also \cite{springborn1}.)
+Penner in \cite{bob} (see also \cite{springborn1}.)
 Such a
 quadratic form is associated to an involution of the upper half
 space $\mathbb{H}$: 
@@ -710,7 +805,7 @@ $$
 We present a sketch of the geometric proof given in our previous
 work  with Sergiescu\cite{vlad}.
 
-We denote by $\mathbb{H}$ the Poincaré upper half plane and $\dHH$
+Let $\mathbb{H}$ denote the Poincaré upper half plane and $\dHH$
 its ideal boundary ie $\mathbb{R}\cup \{\infty\}$.
 Recall that an \textit{inversion} is an orientation reversing
 isometry of $\mathbb{H}\cup \dHH$. 
@@ -780,7 +875,7 @@ $p$ as a sum of squares by Lemma \ref{counting squares}.
 
 
 
-Later we will need to consider arcs invariant under the invesrion
+Later we will need to consider arcs invariant under the inversion
 $z\mapsto \frac{m}{\bar{z}}$ for $m=2,3$.
 This is an inversion in a semi circle with endpoints $\pm \sqrt{m}
 \in \mathbb{R}$ .
@@ -789,8 +884,7 @@ one  arc is invariant under this involution and the
 of this arc is $\lambda$-length $|a^2 - m b^2|$.
 For $m=2$ one can show 
 % using congruences modulo $8$ 
-that no invariant arc has $\lambda$-length congruent to $3$ or $5$
-$\mod 8$.
+that no invariant arc has $\lambda$-length congruent to $3$ or $5 \mod 8$.
 
 
 
@@ -1219,9 +1313,10 @@ quadratic residue modulo $p$.
 \end{itemize}
 
 \thebibliography{99}
-\bibitem{aigner}
-M. Aigner
-\textit{Markov's Theorem and 100 Years of the Uniqueness Conjecture}, Springer( 2013)
+
+% \bibitem{aigner}
+% M. Aigner
+% \textit{Markov's Theorem and 100 Years of the Uniqueness Conjecture}, Springer( 2013)
 
 \bibitem{aigner2}
 Aigner M., Ziegler G.M.  
@@ -1240,7 +1335,7 @@ J. O. Button,
 
 \bibitem{frieze}
 Ilke Canakci, Anna Felikson, Ana Garcia Elsener, Pavel Tumarkin,
-\textit{Friezes for a pair of pants}a,
+\textit{Friezes for a pair of pants},
 Proceedings of the Formal Power Series and Algebraic Combinatorics 2022 - Séminaire Lotharingien de Combinatoire
 
 % \bibitem{cana}
@@ -1248,6 +1343,12 @@ Proceedings of the Formal Power Series and Algebraic Combinatorics 2022 - Sémin
 % \textit{Snake graphs and continued fractions}
 % European Journal of Combinatorics
 % Volume 86, May 2020, 103081
+\bibitem{conway}
+John Horton Conway
+\textit{The Sensual Quadratic Form}
+Carus Mathematical Monographs
+Volume: 26
+1997
 
 \bibitem{cox}
  D. A. Cox, Primes of the Forms $x^2 + ny^2$
@@ -1255,7 +1356,9 @@ Proceedings of the Formal Power Series and Algebraic Combinatorics 2022 - Sémin
 Complex Multiplication, John Wiley, New York, 1989.
 
 \bibitem{dolan}
-Dolan, S., A very simple proof of the two-squares theorem. The Mathematical Gazette, 106(564), 511-511. (2021) doi:10.1017/mag.2021.120
+Dolan, S., 
+\textit{A very simple proof of the two-squares theorem.}
+The Mathematical Gazette, 106(564), 511-511. (2021) doi:10.1017/mag.2021.120
 % https://www.cambridge.org/core/journals/mathematical-gazette/article/abs/10538-a-very-simple-proof-of-the-twosquares-theorem/D0CB1CB39CBA0E98905401EA21DCB743
 
 \bibitem{dubach}
@@ -1279,7 +1382,19 @@ Lester R Ford,
 \textit{Automorphic Functions}
 
 \bibitem{generalov}
-Generalov, A.I. A combinatorial proof of Euler-Fermat’s theorem on the representation of the primes p=8k+3 by the quadratic form $x^2 + 2y^2$. J Math Sci 140, 690–691 (2007). https://doi.org/10.1007/s10958-007-0008-6
+Generalov, A.I. 
+\textit{A combinatorial proof of Euler-Fermat’s theorem on the representation of the primes p=8k+3 by the quadratic
+form $x^2 + 2y^2$. }
+J Math Sci 140, 690–691 (2007). https://doi.org/10.1007/s10958-007-0008-6
+
+\bibitem{hatcher}
+
+Allen Hatcher, 
+\textit{Topology of Numbers} 
+American Mathematical Society.
+2022
+\url{https://pi.math.cornell.edu/~hatcher/TN/TNbook.pdf}
+
 
 \bibitem{heath}
 Heath-Brown, Roger. 
@@ -1290,8 +1405,7 @@ Neil Herriot, Communication with Jim Propp
 \url{https://faculty.uml.edu/jpropp/reach/Herriot/ptolemywriteup.html}
 
 \bibitem{jackson}
-Jackson, Terence H.. “A Short Proof That Every Prime $p = 3 (\mod 8)$
-Is of the Form $x^2 + 2y^2$.” The American Mathematical Monthly 107 (2000): 447 - 447.
+Jackson, Terence H.. “A Short Proof That Every Prime $p = 3 \mod 8$ Is of the Form $x^2 + 2y^2$.” The American Mathematical Monthly 107 (2000): 447 - 447.
 
 
 % \bibitem{mong}
@@ -1305,9 +1419,8 @@ G. McShane,
 \textit{Simple geodesics and a series constant over Teichmuller space}
 Invent. Math. (1998)
 
-
 \bibitem{vlad}
-Greg McShane, Vlad Sergiescu
+Greg McShane, Vlad Sergiescu,
 \textit{Geometry of Fermat's sum of squares}
 
 \bibitem{northshield}
