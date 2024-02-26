@@ -117,7 +117,7 @@ and Gauss. The case of $-1$ is particularly famous:
 Let $p$ be a prime then the equation
 $$\bar{x}^2 = -1$$
 admits a solution in $\fp$ iff 
-$p =2$ or $p-1$ is a multiple of $4$.
+$p =2$ or $p$ is of the form $4k+1$.
 \end{thm}
 
 Classically, as observed by Euler this result is the first step in proving an a priori stronger result:
@@ -126,7 +126,8 @@ Classically, as observed by Euler this result is the first step in proving an a 
 \begin{thm}[Euler]\label{main}
 Let $p$ be a prime then the equation
 $$x^2 + y^2 = p $$
-has a solution in integers  iff  $p =2$ or $p-1$ is a multiple of $4$.
+has a solution in integers  
+iff  $p =2$ or $p-1$ is a multiple of $4$.
 \end{thm}
 
 \noindent
@@ -165,7 +166,7 @@ a finite set $X$ equipped with a pair of involutions such that:
 		should it exist, is a solution of the equation;
 	\item The other involution has a unique fixed point which is easy to compute.
 \end{itemize}
-
+\noindent
 The existence of the unique fixed point of the second involution
 allows one to conclude that the set $X$ has an odd number of elements
 and so that any involution has a fixed point.
@@ -189,10 +190,10 @@ In contrast here we will give a geometric proof of the following, compare Elshol
 \begin{thm}\label{case m equals 2}
 Let $p$ be a prime then: 
 \begin{enumerate}
-	\item For p = 8k +3 there is a solution of 
+	\item For $p =8k+1$  or $p=8k+3$ there is a solution of 
 $x^2 + 2y^2 = p $
 in positive integers;
-	\item For p = 8k +7 there is a solution of $x^2 - 2y^2 = p $
+	\item For $p = 8k +7$ there is a solution of $x^2 - 2y^2 = p $
 in positive integers.
 \end{enumerate}
 \end{thm}
@@ -201,19 +202,32 @@ in positive integers.
 % Obviously the case $p=2$ is trivial.
 % Of the other two cases 
 Both Generalov \cite{generalov} and  Elsholtz give proofs in the
-style of Zagier for$p = 8k + 3 $ 
+style of Zagier for $p = 8k + 3 $ 
 though $p=8k+ 1$ resisted them.
-We will give an entirely geometric proof of this result and a
-"hybrid" proof of the other case.
-
+We will give an entirely geometric proof of this result
+in which the quantities 
+$x^2 \pm 2y^2  $ appear naturally as $\lambda$-lengths
+(see next paragraph for a discussion),
+and a
+``hybrid" proof of the  case $p=8k+1$.
 Our hybrid proof is based on an analogue of Theorem \ref{triv} (see
-the discussion in Section \ref{extending} for details):
+the discussion in Section \ref{extending} for details)
+as well as a simple ``lifting" argument:
 
 \begin{lem}\label{analogue for -2}
 Let $p$ be a prime then 
 $-2$ is a quadratic residue, 
-iff  $p$ is congruent to $1$ or $3$ mod $8$.
+iff  $p$ is of the form $8k+1$ or $8k+3$.
 \end{lem}
+
+The case $8k+3$ can be proven using 
+a counting argument similar to the one we give in Section
+\ref{burnside for triv}
+for Theorem \ref{triv}.
+For the case $8k+1$ we give an explicit formula
+for the square root of $-2$ in Section \ref{explicit formulas}.
+
+
 
 
 \subsection{Arcs on a surface with cusps}
@@ -469,18 +483,24 @@ normalised by the involution $z\mapsto -m / \bar{z}$
 which fixes $i\sqrt{m}$.
 For $\Gamma^t_0(2)$  we will work through all the calculations and
 the geometry in detail.
-This will allow us to give a geometric proof of the fact thatany
-prime congruent to $3$ modulo 8 is represented by $x^2 + 2y^2$.
-Of course, it is also true (see Lemma \ref{analogue for -2})
-	any
-prime congruent to $1$ modulo 8 is represented by $x^2 + 2y^2$ but
-unfortunately we are unable to give a purely geometric proof of
-this.
 
+% This will allow us to give a geometric proof of the fact thatany
+% prime congruent to $3$ modulo 8 is represented by $x^2 + 2y^2$.
+% Of course, it is also true (see Lemma \ref{analogue for -2})
+% 	any
+% prime congruent to $1$ modulo 8 is represented by $x^2 + 2y^2$ but
+% unfortunately we are unable to give a purely geometric proof of
+% this.
 
+\subsection{Acknowledgements}
+
+It pleasure to thank Vlad Sergiescu and Louis Funar for their
+encouragement as well as Hidetoshi Masai, Jean-Pierre Otal and
+Sadayoshi Kojima for comments on various versions of this work.
 
 
 \section{Klein four group and the Burnside Lemma}
+\label{burnside for triv}
 
 We give a proof of Theorem \ref{triv} using the Burnside Lemma.
 In fact, this result is also known as the Cauchy–Frobenius Lemma and should not be attributed to Burnside as it was
@@ -1208,9 +1228,14 @@ these involutions.
 \hfill $\Box$
 
 \subsection{Explicit formulas for square roots in $\fp$}
+\label{explicit formulas}
 
 In many cases one can find a formula for the square root of a
-quadratic residue modulo $p$.
+quadratic residue modulo $p$ and,
+in particular one may prove Lemma \ref{analogue for -2}
+using one such  formula.
+
+
 \begin{itemize}
 	\item If $p = 1 \mod 4$ then, by Wilson's theorem
 		$\left(\frac{p-1}{2}\right)!$ is a square root of $-1$
