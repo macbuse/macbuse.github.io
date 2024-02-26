@@ -171,21 +171,38 @@ allows one to conclude that the set $X$ has an odd number of elements
 and so that any involution has a fixed point.
 
 
-Generalov \cite{generalov} has given a proof (see also Elsholtz \cite{elsholtz}) in the style of Zagier of one part of
-another result conjectured by Fermat:
+% Generalov \cite{generalov} and Elsholtz \cite{elsholtz} have given a
+% proofs  in the style of Zagier of one part of
+% another result conjectured by Fermat.
+Esholtz in his article gives a clear account of the details of this
+method, and how it can be applied more generally, in a purely
+combinatorial context.
+In contrast here we will give a geometric proof of the following, compare Elsholtz \cite{elsholtz} Theorem 3:
+
+% \begin{thm}\label{case m equals 2}
+% Let $p$ be a prime then the equation
+% $$x^2 + 2y^2 = p $$
+% has a solution in integers  
+% iff  $p =2$ or $p$ is congruent to $1$ or $3$ mod $8$.
+% \end{thm}
 
 \begin{thm}\label{case m equals 2}
-Let $p$ be a prime then the equation
-$$x^2 + 2y^2 = p $$
-has a solution in integers  
-iff  $p =2$ or $p$ is congruent to $1$ or $3$ mod $8$.
+Let $p$ be a prime then: 
+\begin{enumerate}
+	\item For p = 8k +3 there is a solution of 
+$x^2 + 2y^2 = p $
+in positive integers;
+	\item For p = 8k +7 there is a solution of $x^2 - 2y^2 = p $
+in positive integers.
+\end{enumerate}
 \end{thm}
 
 \noindent
-Obviously the case $p=2$ is trivial.
-Of the other two cases 
-both Generalov and Elsholtz give proofs for $p = 3 \mod 8$ 
-though $p=1 \mod 8$ resisted them.
+% Obviously the case $p=2$ is trivial.
+% Of the other two cases 
+Both Generalov \cite{generalov} and  Elsholtz give proofs in the
+style of Zagier for$p = 8k + 3 $ 
+though $p=8k+ 1$ resisted them.
 We will give an entirely geometric proof of this result and a
 "hybrid" proof of the other case.
 
@@ -211,7 +228,8 @@ the values of a quadratic form using what he calls the
 ground)
 but he is in the main concerned with indefinite forms.
 
-Our approach, like Conway's, is based on properties of $\Gamma$ acting on $\mathbb{H}$.
+Our approach, like Conway's, is based on properties of  the group
+$\Gamma=\sl2$ acting on the hyperbolic plane $\mathbb{H}$.
 Whilst the finite set $X$ employed in the variations of
 Heath-Brown's method is readily described in terms of solutions
 in positive integers to some equation (see  Dolan \cite{dolan}) 
@@ -220,7 +238,7 @@ of the elementary theory of Fuchsian groups acting on $\mathbb{H}$ and
 its ideal boundary $\partial \mathbb{H}$ which we will now sketch.
 The reader, unfamiliar with the relationship between hyperbolic
 geometry and number theory,
-should consult Springborn's articles \cite{springborn1, springborn2}
+should consult our appendix or better still Springborn's articles \cite{springborn1, springborn2}
 where a dictionary between geometric and number theoretic notions is presented.
 
 Let $\Gamma = \sl2$ and recall  that it admits an action on $\mathbb{H}\cup \dHH$ via
@@ -248,7 +266,7 @@ In fact $\Gamma$ possesses many subgroups of interest amongst which:
 \end{itemize}
 In \cite{vlad} we studied $\Gamma(2)$ and the geometry of arcs on its quotient surface $\xx$
 to give a proof of Theorem \ref{main}.
-We define an \textit{arc} to be the image on $\mathbb{H}/G$ of any
+We define an \textit{arc} to be the image on $\mathbb{H}/G$ of some
 Poincaré geodesic joining  a pair of distinct elemements of $\qqq$.
 As such an arc is a complete geodesic on  $\mathbb{H}/G$ with both
 of its ends ``terminating" at cusps, 
@@ -465,6 +483,8 @@ this.
 \section{Klein four group and the Burnside Lemma}
 
 We give a proof of Theorem \ref{triv} using the Burnside Lemma.
+In fact, this result is also known as the Cauchy–Frobenius Lemma and should not be attributed to Burnside as it was
+apparently discovered by Cauchy.
 
 
 Recall that if $G$ is  a group acting on a finite set $X$ then the Burnside Lemma says
@@ -878,50 +898,14 @@ We can determine the orbits of this group on $\QQ$ using this
 conjugation and we have:
 $$\ah \{\infty\} =   \Gamma(2) \{\infty\} \cup \Gamma(2) \{1\}.$$
 
-\subsection{Canonical cusp regions}\label{canonical cusp}
+\subsection{Cusp regions  on $\oot$}
 
-We denote by $F$ the set  $\{ z, \im z > 1\}$
-this is a \textit{horoball in $\HH$} centered at $\infty$.
-The image of $F$ under the $\sl2$ action consists of
-$F$ and infinitely many disjoint circles, the so-called \textit{Ford circles}, 
-each tangent to the real line at some rational $m/n$.
-We adopt the convention that $F$ is also a Ford circle of infinite radius.
 If $G < \sl2$ is any finite index subgroup then 
-each Ford circle projects to a cusp region on $\mathbb{H}/G$ and we
-call this system  the \textit{canonical system of cusp regions}.
+$\mathbb{H}/G$ inherits a 
+the \textit{canonical system of cusp regions}
+by projection of the Ford circles in $\mathbb{H}$
+(see the appendix for a discussion).
 
-\begin{figure}[H]
-\begin{center}
-\includegraphics[scale=.8]{Ford-circles.png} 
-\end{center}
-\caption{Ford circles with tangent points and curvatures.
-Recall that the curvature of a euclidean circle is the reciprocal of its radius.}
-\end{figure}
-
-The following is well known and is easily checked:
-
-\begin{lem}\label{ford}
-The Ford circle tangent to the real line at $m/n$
-has Euclidean diameter $1/n^2$.
-\end{lem}
-
-\begin{coro}
-	The $\lambda$-length of the arc joining 
-	$a/c, b/d \in \mathbb{Q}$ is the absolute value of
-	the determinant of the associated matrix 
-	$$A= \begin{pmatrix} a& b\\c&d \end{pmatrix}.$$
-\end{coro}
-
-\proof There exists  $b'\in \mathbb{Z}$ and  a matrix $A' \in \sl2$ such that the product $A'A$
-is an upper triangular matrix:
-	$$A'A= \begin{pmatrix} 1& b'\\0& \det A
-	\end{pmatrix}.$$
-The image of $a/c$ under the Mobius transformation associated to
-$A'$ is $\infty$ and the image of $b/d$ is $b'/\det A$.
-The Ford circle at $\infty$ is $F$ and the 
-diameter of the circle tangent at $b'/\det A$ is $(\det A)^2$.
-
-\hfill $\Box$
 
   \begin{figure}[H]
 	  \label{cusp regions}
@@ -932,7 +916,6 @@ diameter of the circle tangent at $b'/\det A$ is $(\det A)^2$.
 Ford circles  $\mathbb{H}$.
 On the right $\oot$ with the unmodified cusp regions.}
 \end{figure}
-\subsection{Cusp regions  on $\oot$}
 
 The canonical system on $\xx$ consists of three cusp regions 
 one for each of the three cusps $0,1,\infty$.
@@ -1279,6 +1262,55 @@ The action decomposes into two quite different pieces:
 
 \end{enumerate}
 
+\subsection{Ford circles and cusp regions}
+
+The set  $F= \{ z, \im z > 1\}$
+is a \textit{horoball in $\HH$} centered at $\infty$.
+The image of $F$ under the $\sl2$ action consists of
+$F$ and infinitely many disjoint discs, 
+which we will refer to as  \textit{Ford circles}, 
+each tangent to the real line at some rational $m/n$.
+We adopt the convention that $F$ is also a Ford circle of infinite radius.
+If $G < \sl2$ is any finite index subgroup then 
+each Ford circle projects to a cusp region on $\mathbb{H}/G$ and we
+call this system  the \textit{canonical system of cusp regions}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.8]{Ford-circles.png} 
+\end{center}
+\caption{Ford circles with tangent points and curvatures.
+Recall that the curvature of a euclidean circle is the reciprocal of its radius.}
+\end{figure}
+
+The following is well known and is easily checked:
+
+\begin{lem}\label{ford}
+The Ford circle tangent to the real line at $m/n$
+has Euclidean diameter $1/n^2$.
+\end{lem}
+
+\begin{coro}
+	The $\lambda$-length of the arc joining 
+	$a/c, b/d \in \mathbb{Q}$ is the absolute value of
+	the determinant of the associated matrix 
+	$$A= \begin{pmatrix} a& b\\c&d \end{pmatrix}.$$
+\end{coro}
+
+\proof There exists  $b'\in \mathbb{Z}$ and  a matrix $A' \in \sl2$ such that the product $A'A$
+is an upper triangular matrix:
+	$$A'A= \begin{pmatrix} 1& b'\\0& \det A
+	\end{pmatrix}.$$
+The image of $a/c$ under the Mobius transformation associated to
+$A'$ is $\infty$ and the image of $b/d$ is $b'/\det A$.
+The Ford circle at $\infty$ is $F$ and the 
+diameter of the circle tangent at $b'/\det A$ is $(\det A)^2$.
+
+\hfill $\Box$
+
+\subsection{Subgroups of $\Gamma$}
+
+
 The \textit{principal congruence subgroup of level $N$} is:
 $$ \Gamma(N) := \left \{ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = 
 \pm \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} \mod N \right \} 
@@ -1406,6 +1438,7 @@ Elsholtz C.A
 \textit{Combinatorial Approach to Sums of Two Squares and Related Problems.}
  In: Chudnovsky D., Chudnovsky G. (eds) Additive Number Theory. Springer, New York, NY.
  (2010) 
+ \url{https://www.math.tugraz.at/~elsholtz/WWW/papers/papers30nathanson-new-address3.pdf}
 
 \bibitem{fomin}
 S. Fomin and D. Thurston,
@@ -1531,7 +1564,11 @@ Ying Zhang
   % \bibitem{zhang2}
   %  Y. Zhang,
  % \textit{Congruence and uniqueness of certain Markoff numbers}
+
+
  % Acta Arithmetica, Volume: 128, Issue: 3, page 295-301
 % https://cr.yp.to/papers/sqroot-20011123-retypeset20220327.pdf
+
+% https://www.ias.ac.in/article/fulltext/reso/004/07/0059-0067
 
 \end{document}
