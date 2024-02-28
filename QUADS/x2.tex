@@ -475,12 +475,12 @@ $\mathbb{H}/\Gamma^t_0(m)$ where
 $\ah$ is the 
 \textit{anti Hecke congruence group}:
 $$ \Gamma^t_0(m) := \left \{ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = 
-\begin{pmatrix} 1 & 0 \\ * & 1 \end{pmatrix} \mod m \right \} <
+\begin{pmatrix} * & 0 \\ * & * \end{pmatrix} \mod m \right \} <
 \Gamma(m).$$
 This group is 
 % the inverse image under the reduction morphism
 % of the lower triangular matrices
-normalised by the involution $z\mapsto -m / \bar{z}$
+normalised by a Fricke involution $z\mapsto -m / \bar{z}$
 which fixes $i\sqrt{m}$.
 For $\Gamma^t_0(2)$  we will work through all the calculations and
 the geometry in detail.
@@ -1103,11 +1103,14 @@ lift to an automorphism of the quotient surface?
 In particular 
 for our  
 three involutions
-\begin{itemize}
-	\item $z\mapsto - \bar{z}$ 
-	\item $z\mapsto \frac{m}{\bar{z}}$ 
-	\item $z\mapsto \frac{-m}{z}$ 
-\end{itemize}
+	$$z\mapsto - \bar{z}, z\mapsto \frac{m}{\bar{z}} ,z\mapsto \frac{-m}{z}$$
+
+% \begin{itemize}
+% 	\item $z\mapsto - \bar{z}$ 
+% 	\item $z\mapsto \frac{m}{\bar{z}}$ 
+% 	\item $z\mapsto \frac{-m}{z}$ 
+% \end{itemize}
+
 wish to show that each of them
 \begin{enumerate}
 
@@ -1122,7 +1125,8 @@ We think of this second point as extending the calculation in the previous secti
 The first of our involutions $z\mapsto\bar{z}$ 
 is easily dealt with since $-(mk) = m(-k)$.
 The third is the composition of the first and the second,
-so it suffices to prove (1) and (2) for $z\mapsto \frac{m}{\bar{z}}$
+so it suffices to prove (1) and (2) for 
+$z\mapsto m  / \bar{z}$
 .
 
 \subsection{Some matrix algebra}
@@ -1288,14 +1292,14 @@ The action decomposes into two quite different pieces:
 
 \end{enumerate}
 
-\subsection{Ford circles and cusp regions}
+\subsection{Ford circles, cusp regions and $\lambda$-lengths}
 
-The set  $F= \{ z, \im z > 1\}$
-is a \textit{horoball in $\HH$} centered at $\infty$.
+The subset of $\mathbb{H}$  $F= \{ z, \im z > 1\}$
+is a \textit{horoball in $\HH$} tangent to $\dHH$ at $\infty$.
 The image of $F$ under the $\sl2$ action consists of
 $F$ and infinitely many disjoint discs, 
-which we will refer to as  \textit{Ford circles}, 
-each tangent to the real line at some rational $m/n$.
+which we will refer to as  \textit{Ford circles}. 
+Each of these discs is tangent to the real line at some rational $m/n$.
 We adopt the convention that $F$ is also a Ford circle of infinite radius.
 If $G < \sl2$ is any finite index subgroup then 
 each Ford circle projects to a cusp region on $\mathbb{H}/G$ and we
@@ -1354,14 +1358,24 @@ $$gGg^{-1} = G.$$
 The \textit{Hecke congruence subgroup of level $N$} is:
 
 
-$$ \Gamma_0(N) := \left \{ \begin{pmatrix} a & b \\ c & d \end{pmatrix} = 
-\pm \begin{pmatrix} 1 & * \\ 0 & 1 \end{pmatrix} \mod N \right \}.$$
+$$ \Gamma_0(N) := \left \{ \begin{pmatrix} a & b \\ c & d \end{pmatrix},\, c = 0 \mod N 
+$$
+and we will also consider its normal subgroup
 
+$$ \Gamma_1(N) := \left \{ \begin{pmatrix} a & b \\ c & d
+	\end{pmatrix},\, a,d = 1 \mod N,\,c = 0 \mod N $$
 
-Evidently $\Gamma(N) < \Gamma_0(N) \trianglelefteq \Gamma$  
+Evidently  one has
+$$\Gamma(N) < \Gamma_1(N) < \Gamma_0(N) \trianglelefteq \Gamma$$
 and in fact $\Gamma$ is the normaliser of the principal congruence
 subgroup but the normaliser $\Gamma_0^+(N)$ of the Hecke group  is
-considerably more difficult to compute.
+considerably more difficult to compute
+(see Conway \cite{conway2} and Zemel \cite{zemel}).
+There is however a particular element of this
+normaliser that is relevant to our work, namely the 
+\textit{Fricke involution}
+$$z\mapsto -\frac{1}{Nz}.$$
+
 
 % the inverse image under the reduction morphism
 
@@ -1442,6 +1456,10 @@ John Horton Conway
 Carus Mathematical Monographs
 Volume: 26
 1997
+
+\bibitem{conway2}
+J. H. Conway, Understanding groups like $Γ_0(N)$
+, in Groups, Difference Sets, and the Monster, Columbus, OH, 1993, Ohio State University Mathematical Research Institute Publication, Vol. 4 (de Gruyter, Berlin, 1996), pp. 327–343.
 
 \bibitem{cox}
  D. A. Cox, Primes of the Forms $x^2 + ny^2$
@@ -1580,6 +1598,12 @@ D. Zagier,
 Ying Zhang
 \textit{Representing Primes as $x^2 + 5y^2$: An Inductive Proof that Euler Missed}
 \url{https://arxiv.org/abs/math/0606547}
+
+\bibitem{zemel}
+S. Zemel,
+Normalizers of congruence groups in $SL2(\RR)$ and automorphisms of
+lattices,
+International Journal of Number Theory Vol. 13, No. 05, pp. 1275-1300 (2017)
 
 
  % \bibitem{zhang}
