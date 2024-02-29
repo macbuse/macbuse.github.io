@@ -265,7 +265,8 @@ discontinuous but not free and the quotient $\mathbb{H}/\Gamma$ is a non compact
 called the \textit{modular surface}.
 The $\Gamma$-orbit of $\infty$ is exactly the extended rationals $\mathbb{Q}\cup \{\infty\}$.
 Let $G<\Gamma$ be a finite index subgroup, we will be concerned with involutions of the cover
-$\mathbb{H}/G\rightarrow \mathbb{H}/\Gamma$ and their actions on the arcs on the cover.
+$\mathbb{H}/G\rightarrow \mathbb{H}/\Gamma$ and their actions on the
+geodesics of the cover.
 Evidently $\mathbb{H}/G$ is non compact and has a finite number of
 ends called \textit{cusps} which are in 1-1 correspondence 
 with  $G$-orbits of $\qqq$.
@@ -278,7 +279,10 @@ In fact $\Gamma$ possesses many subgroups of interest amongst which:
 		 denoted $\Gamma_0(N)$ and their normalisers
 		 $\Gamma_0^+(N)$.
 \end{itemize}
-In \cite{vlad} we studied $\Gamma(2)$ and the geometry of arcs on its quotient surface $\xx$
+In \cite{thesis} we a subset of embedded geodesics called arcs on
+$\mathbb{H}/\Gamma'$ (and its deformations)
+then in
+\cite{vlad} we studied $\Gamma(2)$ and the geometry of arcs on its quotient surface $\xx$
 to give a proof of Theorem \ref{main}.
 We define an \textit{arc} to be the image on $\mathbb{H}/G$ of some
 Poincaré geodesic joining  a pair of distinct elemements of $\qqq$.
@@ -1358,12 +1362,14 @@ $$gGg^{-1} = G.$$
 The \textit{Hecke congruence subgroup of level $N$} is:
 
 
-$$ \Gamma_0(N) := \left \{ \begin{pmatrix} a & b \\ c & d \end{pmatrix},\, c = 0 \mod N 
+$$ \Gamma_0(N) := \left \{ \begin{pmatrix} a & b \\ c & d
+\end{pmatrix},\, c = 0 \mod N \right \}
 $$
 and we will also consider its normal subgroup
 
 $$ \Gamma_1(N) := \left \{ \begin{pmatrix} a & b \\ c & d
-	\end{pmatrix},\, a,d = 1 \mod N,\,c = 0 \mod N $$
+	\end{pmatrix},\, a,d = 1 \mod N,\,c = 0 \mod N \right
+\}$$
 
 Evidently  one has
 $$\Gamma(N) < \Gamma_1(N) < \Gamma_0(N) \trianglelefteq \Gamma$$
@@ -1375,6 +1381,12 @@ There is however a particular element of this
 normaliser that is relevant to our work, namely the 
 \textit{Fricke involution}
 $$z\mapsto -\frac{1}{Nz}.$$
+This is an elliptic element and fixes $\frac{i}{\sqrt{N}}\in \mathbb{H}$.
+To avoid fractions in certain of our calculations we prefer to work
+with what we have called the anti-Hecke group which is normalised by a
+conjugate of the Fricke involution, namely
+$$z\mapsto -\frac{N}{z}.$$
+ which fixes $i\sqrt{N}\in \mathbb{H}$.
 
 
 % the inverse image under the reduction morphism
