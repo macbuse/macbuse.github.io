@@ -8,7 +8,7 @@ title: Home
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
-This week I am in Oxford 
+ I am back in France after a trip to  Oxford 
 
 - [Oxford talk](./TIT2023/oxford.html)
 - [draft](./QUADS/x2.pdf)
@@ -432,4 +432,4 @@ After being abused by [ed](https://www.gnu.org/software/ed/) as a teenager I've 
 
 [why ?](church)
 
-[this](./CC1_mat305.pdf)
+[this](./38120230823100546969248-courrierAccompagnementPermisTitre.pdf)
