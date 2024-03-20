@@ -68,7 +68,7 @@
 \def\pn{P_n}
 
 \def\im{\mathrm{Im}\,}
-\def\SL{\mathrm{SL}(2,\CC)}
+\def\SL{\mathrm{PSL}(2,\CC)}
 
 \def\xx{\HH/g2}
 
@@ -84,8 +84,8 @@
 \def\fp{\mathbb{F}_p}
 \def\aut{\text{Aut}(\F2)}
 \def\gl2{\mathrm{GL}(2, \ZZ)}
-\def\sl2{\mathrm{SL}(2, \ZZ)}
-\def\slr{\mathrm{SL}(2, \RR)}
+\def\sl2{\mathrm{PSL}(2, \ZZ)}
+\def\slr{\mathrm{PSL}(2, \RR)}
 \def\g2{\Gamma(2)}
 \def\slc{\mathrm{SL}(2, \CC)}
 
@@ -136,22 +136,23 @@ those primes which can be written as the sum of two squares
 \begin{thm}[Fermat]\label{main}
 Let $p$ be a prime then the equation
 $$x^2 + y^2 = p $$
-has a solution in integers  iff  $p =2$ or $p-1$ is a multiple of $4$.
+has a solution in integers  iff  $p =2$ or $p$ is of the form $4k + 1$.
 \end{thm}
 
 An alternative formulation of this result is that
 a prime $p$ is the norm of a Gaussian integer
 if and only if $p =2$ or $p$ is of the form $4k + 1$.
 
-There are many proofs of this result.
+There are many proofs of this result see for example Elsholtz
+\cite{elsholtz} for a survey of some.
 In particular, about  1984 Heath-Brown published a proof of Theorem \ref{main} 
   in the journal of the Oxford University undergraduate mathematics society. 
 His proof arose from a study of the account of Liouville’s papers on
 identities for parity functions. Zagier's celebrated one line proof
 \cite{zagier} is a clever reformulation of this argument but
-probably the most elegant formulation is the recent proof given by
-Dolan \cite{dolan}. Heath-Brown studies the action of a Klein four group  on a finite set and uses considerations of parity to show that there 
-is a fixed point for one of the group elements which is a solution 
+probably the most elegant incarnation is the recent proof given by
+Dolan \cite{dolan}. 
+Heath-Brown studies the action of a pair of involutions on a finite set and uses considerations of parity to show that there is a fixed point for one of the group elements which is a solution 
 to $x^2 + y^2 = p$.
 In a previous work \cite{vlad} 
 we gave a geometric proof which, in some sense,
@@ -190,7 +191,7 @@ cubic root of $-1$ ie an element of order 6 in the group of units
 $\fp^*$
 and it follows that 6 divides 
 the order of $\fp^*$  
-that is $p-1$.
+which is of course equal to $p-1$.
 
 In this note we show that this  condition is sufficient.
 As before our  proof uses the action  
@@ -200,7 +201,7 @@ arcs of $\lambda$-length $p$.
 
 \subsection{Farey tessalation and $\lambda$-lengths}
 
-The  \textit{Farey tessalation} is a fundamental object in the theory of Fuchsian groups. It is a tessalation of hyperbolic space by \textit{ideal triangles}.
+The  \textit{Farey tessalation} (see Figure \ref{farey}) is a fundamental object in the theory of Fuchsian groups. It is a tessalation of hyperbolic space by \textit{ideal triangles}.
 
 \begin{figure}[hb]
 \begin{center}
@@ -210,13 +211,14 @@ The  \textit{Farey tessalation} is a fundamental object in the theory of Fuchsia
 \label{farey diagram}
 \end{figure}
 
-The tessalation is invariant under the action of the modular group $\Gamma = \mathrm{P}\sl2$.
+The tessalation is invariant under the action of the modular group
+$\Gamma = \sl2< \slr = \mathrm{SL}(2, \RR)/\{ \pm I\}$.
 The quotient  of the upper half space by the modular group 
 is the \textit{modular orbifold}. This is a non compact singular
 surface with a single cusp and two cone points. 
 One of the cone points lifts to the orbit of $i$  under $\Gamma$ 
 and the other to the orbit of $\omega$.
-The principal congruence subgroup $\g2$
+The principal congruence subgroup $\g2<\Gamma$
  is a torsion free, normal subgroups of index 6
 and the modular orbifold admits a degree 6 cover
 corresponding to $\g2$
@@ -240,16 +242,18 @@ as two spikes meet at the cusp $\infty$.}
 \end{figure}
 
 We will see (Lemma \ref{cubes}) that the reciprocal direction in 
-Theorem \ref{eisenstein} can be stated in terms  of  lengths
+Theorem \ref{eisenstein} can be stated in terms  of  $\lambda$-lengths
  of arcs on  this surface.
  For the purposes of this paper
- an \textit{arc} geodesic 
+ an \textit{arc}  
  is the projection to $\xx$ of a 
  Poincar\'e geodesic with both  endpoints in the 
  extended rationals $\QQ \cup \{ \infty\}$.
 The geodesic edges of the Farey tessalation yield a set of three such geodesic, 
- in fact the shortest arcs,  on the quotient surfaces.
-The geodesics obtained from projecting the Farey tessalation 
+ in fact the shortest arcs
+ in terms of $\lambda$-length,  on the quotient surfaces.
+The geodesics obtained from projecting the edges of the Farey
+tessalation to $\xx$
 are \textit{simple}, that is they have no self intersections, 
 and their complement consists of a pair of (ideal) triangles.
 Of course, a arc $\alpha$ has infinite length with respect to the Poincar\'e metric  but one can define a useful geometric quantity   by truncating the geodesic ie removing a portion of infinite length  inside the cusp regions of the surface.
@@ -273,39 +277,46 @@ of a triple of distinct points in $a,b,c \in \partial \HH = \RR \cup \{ \infty \
 We say that $a,b,c$ are the \textit{vertices of the triangle}
 and that the triangle has \textit{spikes} at $a,b,c$.
 We identify the  group of orientation preserving automorphisms of $\HH$
- with $P\slr$ acting by linear fractional transformations.
+ with $\slr$ acting by linear fractional transformations.
 This action is simply transitive  on
 triples of distinct points in $(a,b,c) \in (\partial \HH)^3$
 so there is only one ideal triangle up to isometry.
 
-Any  ideal triangles in the Farey tesselation, 
-for example the one with vertices $0,1,\infty$
+Any  ideal triangle in the Farey tesselation, 
+for example the one with vertices $0,-1,\infty$
 projects to an embedded ideal triangle in $\xx$.
 We will see later that each of the edges
 of this triangle has $\lambda$-length $1$
 so it is \textit{equilateral} for this notion of length.
-It is also invariant by the group generated by the map
-$$ \psi: z \mapsto \frac{1}{-z + 1 }.$$
+Our triangle is also invariant by the group generated by the
+hyperbolic isometry
+$$ \psi: z \mapsto \frac{z+1}{-z  }.$$
 The fixed points in $\CC$ of this map satisfy
-$$z^2  - z + 1 = 0,$$
+$$z^2 + z + 1 = 0,$$
 and there is exactly one in $\HH$ 
-namely $\omega$.
-By a standard argument $\omega$ is the \textit{barycenter} 
-of the ideal triangle $0,1,\infty$.
+namely the cube root of unity $\omega= \exp(2\pi i/3)$.
+The {barycenter} 
+of the ideal triangle $0,-1,\infty$
+is unique so it must be fixed by $\psi$ 
+and so coincides with $\omega$.
 Since there is a unique ideal triangle up to isometry 
-the notion of barycenter is well defined for any ideal triangle.
+the notion of barycenter is well defined for any ideal triangle and
+it is the image of $\omega$ by some isometry taking $0,-1,\infty$ to
+the vertices of the ideal triangle in question.
 
 
-Each edge of the  ideal triangle $0,1/3,2/3$
+Each edge of the ideal triangle $0,1/3,2/3$
 has $\lambda$-length $3$ 
 so again it is equilateral.
 However, it does not project to  an embedded triangle
-but its image is an immersed triangle on $\xx$
+but its image is instead an immersed triangle on $\xx$
+(see Figure \ref{immersed triangle}).
 and further each of its spikes ends at a different cusp on 
 $\xx$.
-We say that the ideal triangle with vertices 
- $a,b,c$ is \textit{properly immersed}
-iff each of its spikes ends at a different cusp.
+We say that such an ideal triangle,
+that is one for which 
+each of its spikes ends at a different cusp,
+is \textit{properly immersed}.
 
 
 \subsection{Sketch of proof}
@@ -313,8 +324,8 @@ iff each of its spikes ends at a different cusp.
 We are interested in the action of a cyclic subgroup of the 
 automorphisms of $\xx$ induced by $\psi$.
 More precisely we consider its action on the
-set of immersed equilateral ideal triangles in $\xx$
-whose sides have $\lambda$-length $p$.
+set of properly immersed equilateral ideal triangles in $\xx$
+all of whose sides have $\lambda$-length $p$.
 Let $F$ denote the cardinal of this set.
 By counting incidences  (see Section \ref{counting arcs etc}) between  
 arcs of $\lambda$-length $p$
@@ -330,7 +341,7 @@ and the LHS follows from our Lemma \ref{counting}
 which also  appeared in our work \cite{vlad}.
 So $F = 2(p-2)$ and  if $p= 3k + 1$ then $F = 2(3k -1)$
 which is not a multiple of $3$.
-It follows that there is are two $\psi$-orbits of length $1$
+It follows that there are two $\psi$-orbits of length $1$
 that is $\psi$ leaves two ideal triangles of this family invariant.
 
 
@@ -375,22 +386,28 @@ Let us compute the barycenter of $0,1/3,2/3$ explicitly to check this.
 One has
 $$3 = 2^2 - 2 + 1 = | 2\omega + 1 |^2.$$
 Let
-$$f :  z \mapsto \frac{1}{2z+1}$$
+$$f :  z \mapsto \frac{z}{2z+1}$$
 then the map
-$$ f \circ \psi \circ f^{-1} :  z \mapsto \frac{2z - 1}{3z -1}$$
-is conjugate to $\psi$ and permutes the vertices of the ideal triangle
-$$ \infty \mapsto 2/3 \mapsto 1/3 \mapsto \infty.$$
+$$ f \circ \psi \circ f^{-1} :  z \mapsto \frac{-z+ 1}{-3z+2}$$
+is conjugate to $\psi$ and permutes the vertices of our ideal
+triangle as per:
+$$ \infty \mapsto 1/3 \mapsto 2/3 \mapsto \infty.$$
 so it leaves our ideal triangle invariant.
-One also sees from this  that the barycenter of $0,1/3,2/3$
-is the fixed point of $ f \circ \psi \circ f^{-1}$ 
-which is just
-$$ \frac{\omega}{2\omega+1} 
-= \frac{3/ 2+ \sqrt{3}i/2 }{| 2\omega + 1 |^2}
-= \frac{3+ \sqrt{3}i }{2| 2\omega + 1 |^2}
-= \frac12 +  \frac{\sqrt{3}}{6} i.  $$
+One also sees from this that the barycenter of $0,1/3,2/3$
+is the fixed point of $f \circ \psi \circ f^{-1}$ 
+(compare with equation (\ref{eisen integers}) below)
+which is just the image of $\omega$ under $f$:
+$$ f(\omega) = \frac{\omega}{2\omega+1} 
+= \frac{3/ 2+ \sqrt{3}i/2 }{|2 \omega + 1 |^2}
+= \frac{3/ 2+ \sqrt{3}i/2 }{3}
+% = \frac{3+ \sqrt{3}i }{2|2 \omega + 1 |^2}
+% = \frac12 +  \frac{\sqrt{3}}{2}\frac13 i.  
+$$
 
+So we have exhibited $3$ as the norm of an Eisenstein integer namely
+$2\omega + 1$. 
 
-
+% In fact this is the $\lambda$-length of the arc 
 
 \begin{figure}[ht]
 \begin{center}
@@ -398,6 +415,7 @@ $$ \frac{\omega}{2\omega+1}
 \end{center}
 \caption{Projection of  the ideal triangle $1/3, 2/3,\infty$
 to $\xx$.}
+	\label{immersed triangle}
 \end{figure}
 
  
@@ -422,8 +440,102 @@ to representations of a number as a sum of squares
 and then discuss the analogous result for 
 $\sl2$-orbits of $ \omega$.
 
+\subsection{Ford circles, $\lambda$-lengths} 
+\label{lengths}
+
+%Lemma \ref{squares} illustrates the connexion between sums of squares,
+%the orbit $\sl2.i$ and Poincare geodesics. 
+We now recall some standard ideas from hyperbolic geometry
+necessary to define $\lambda$-length.
+We define an \textit{arc} to be a Poincare geodesic
+with endpoints in $\partial \HH$ a pair of extended rationals, 
+that is elements of $\QQ \cup \infty$.
+
+We denote by $F$ the set  $\{ z, \im z > 1\}$
+this is a \textit{horoball in $\HH$} centered at $\infty$.
+The image of $F$ under the $\sl2$ action consists of
+$F$ and infinitely many disjoint discs, 
+which we will refer to as \textit{Ford circles}, 
+each tangent to the real line at some rational $m/n$.
+We adopt the convention that $F$ is also a Ford circle of infinite radius
+tangent to the extended real line at $\infty = 1/0$.
+
+
+  \begin{figure}[ht]
+\begin{center}
+\includegraphics[scale=.8]{Ford-circles.png} 
+\end{center}
+\caption{Ford circles with tangent points and curvatures.
+Recall that the 
+curvature of a euclidean circle is the reciprocal of the square of its radius.}%needs checking
+\end{figure}
+
+The following is well known and is easily checked:
+
+\begin{lem}\label{ford}.
+
+The Ford circle tangent to the real line at $m/n$
+has Euclidean diameter $1/n^2$.
+\end{lem}
+
+%Two Ford circles are adjacent iff their closures meet in a point
+%and this point is invariably a point of the orbits $\sl2.i$
+
+
+
+
+\subsubsection{$\lambda$-length}
+
+Let $a/c, b/d$ be a pair of distinct rationals.
+We define the \textit{length} of the arc 
+joining these rationals 
+to be half the length, with respect to the Poincaré metric on $\HH$, 
+of the portion  outside of the Ford circles tangent at $a/c, b/d$ .
+
+
+Following Penner \cite{bob} we define the
+$\lambda$-length of an arc to be the exponential of this 
+length.
+ It is a consequence  of Lemma \ref{calcul} below  that the arcs of $\lambda$-length 1 are the edges in the 
+\textit{Farey diagram} (see Figure \ref{farey diagram}).
+The lemma  is a simple exercise left to the reader:
+
+\begin{lem}\label{calcul}
+Let $a/c, b/d$ be a pair of distinct extended rationals.
+Then the  $\lambda$-length of the arc joining them
+ is the determinant of the matrix
+$$\begin{pmatrix}
+a & b \\ c & d
+\end{pmatrix}.$$
+
+Further if $a/b = 1/0$ then the arc is a vertical line 
+ whose midpoint has imaginary part equal to $1/d$ .
+\end{lem}
+
+% It is important to note that whilst the trace of an element of
+% $\slr$ is not well defined its determinant is.
+
+\proof 
+By transivity of $\slr$ on the extended rationals we may assume 
+$a/c = 1/0$ and so the determinant of the matrix is $d$.
+The Ford circle at $1/0$  is $F= \{ z, \im z > 1\}$ and
+at $b/d$ it is a circle of euclidean diameter $1/d^2$.
+The top of this circle is tangent to the line $\{ z, \im z = 1/d^2\}$
+and the $z \mapsto d^2 z $ maps this to the boundary 
+of the Ford circle $\{ z, \im z \geq 1\}$.
+It is easy to see that the distance between these sets,
+and so the length of the segment outside the Ford circles
+is $2\log d$. Thus the $\lambda$-length is equal to the 
+determinant (ie $d$) as required.
+\hfill $\Box$
+
+
 
 \subsection{Gaussian integers}
+
+We begin by presenting a calculation from \cite{vlad}
+which relates the number of ways of writing a number as a sum of
+squares that is as the norm of a Gaussian integer.
 
 The group of integer matrices $\sl2$  acts on $\HH$ by linear fractional transformations
 that is:
@@ -492,7 +604,7 @@ We replace $i$ by $\omega$ in (\ref{gaussian integers}) above:
 
 \begin{equation}
 \label{eisen  integers}
-= \im  \frac{a \omega +b}{c \omega+d }
+ \im  \frac{a \omega +b}{c \omega+d }
 = \frac{\im \omega} {c^2  - cd  + d^2} 
 = \frac{\sqrt{3}/2} {c^2  - cd  + d^2}.
 \end{equation}
@@ -535,93 +647,6 @@ The  first part follows from the discussion above and the
 second part is a corollary of  Lemma \ref{calcul} below. 
 
 
-
-\subsection{Ford circles, lengths} 
-\label{lengths}
-
-%Lemma \ref{squares} illustrates the connexion between sums of squares,
-%the orbit $\sl2.i$ and Poincare geodesics. 
-We now recall some standard ideas from hyperbolic geometry
-necessary to define $\lambda$-length.
-We define an \textit{arc} to be a Poincare geodesic
-with endpoints in $\partial \HH$ a pair of extended rationals, 
-that is elements of $\QQ \cup \infty$.
-
-We denote by $F$ the set  $\{ z, \im z > 1\}$
-this is a \textit{horoball in $\HH$} centered at $\infty$.
-The image of $F$ under the $\sl2$ action consists of
-$F$ and infinitely many disjoint discs, 
-which we will refer to as \textit{Ford circles}, 
-each tangent to the real line at some rational $m/n$.
-We adopt the convention that $F$ is also a Ford circle of infinite radius
-tangent to the extended real line at $\infty = 1/0$.
-
-
-  \begin{figure}[ht]
-\begin{center}
-\includegraphics[scale=.8]{Ford-circles.png} 
-\end{center}
-\caption{Ford circles with tangent points and curvatures.
-Recall that the 
-curvature of a euclidean circle is the reciprocal of the square of its radius.}%needs checking
-\end{figure}
-
-The following is well known and is easily checked:
-
-\begin{lem}\label{ford}.
-
-The Ford circle tangent to the real line at $m/n$
-has Euclidean diameter $1/n^2$.
-\end{lem}
-
-%Two Ford circles are adjacent iff their closures meet in a point
-%and this point is invariably a point of the orbits $\sl2.i$
-
-
-
-
-\subsubsection{$\lambda$-length}
-
-Let $a/c, b/d$ be a pair of distinct rationals.
-We define the \textit{length} of the arc 
-joining these rationals 
-to be half the length, with respect to the Poinacre metric on $\HH$, 
-of the portion  outside of the Ford circles tangent at $a/c, b/d$ .
-
-
-Following Penner \cite{bob} we define the
-$\lambda$-length of an arc to be the exponential of this 
-length.
- It is a consequence  of Lemma \ref{calcul} below  that the arcs of $\lambda$-length 1 are the edges in the so-called 
-\textit{Farey diagram} (see Figure \ref{farey diagram}).
-The lemma  is a simple exercise left to the reader:
-
-\begin{lem}\label{calcul}
-Let $a/c, b/d$ be a pair of distinct extended rationals.
-Then the  $\lambda$-length of the arc joining them
- is the determinant of the matrix
-$$\begin{pmatrix}
-a & b \\ c & d
-\end{pmatrix}.$$
-
-Further if $a/b = 1/0$ then the arc is a vertical line 
- whose midpoint has imaginary part equal to $1/d$ .
-\end{lem}
-
-\proof 
-By transivity of $P\slr$ on the extended rationals we may assume 
-$a/c = 1/0$ and so the determinant of the matrix is $d$.
-The Ford circle at $1/0$  is $\{ z, \im z > 1\}$ and
-at $b/d$ it is a circle of euclidean diameter $1/d^2$.
-The top of this circle is tangent to the line $\{ z, \im z = 1/d^2\}$
-and the $z \mapsto d^2 z $ maps this to the boundary 
-of the Ford circle $\{ z, \im z \geq 1\}$.
-It is easy to see that the distance between these sets,
-and so the length of the segment outside the Ford circles
-is $2\log d$. Thus the $\lambda$-length is equal to the 
-determinant as required.
-
-\hfill $\Box$
 
 \section{The three punctured sphere}
 
@@ -690,8 +715,8 @@ is  the action of a
 cyclic group of order 3
 generated by
 $$ \begin{pmatrix}
-1 & -1 \\
-1 & 0
+1 & 1 \\
+-1 & 0
 \end{pmatrix} .$$
 
 This automorphism:
@@ -738,7 +763,7 @@ form $z \mapsto z + 2n$ we may assume this lift has finite endpoint $\alpha^- \i
 By hypothesis $\alpha$ has  $\lambda$-length $p$ 
 so that $\alpha^- = k/p$ for some $k$ co prime with $p$
 and we have that
-$$ k \in \{1,2,\ldots p-1, p+ 1, \ldots 2p -1 \}$$.
+$$ k \in \{1,2,\ldots p-1, p+ 1, \ldots 2p -1 \}.$$
 This proves the first point.
 
 For the second point, begin by  noting that consecutive elements of this set of lifts
@@ -746,7 +771,7 @@ that is those ending at $k/p, (k+1)/p$ respectively, are sides of
 an equilateral ideal triangle since
 $$\det \begin{pmatrix}
 k + 1 & k \\ p & p 
-\end{pmatrix} = p$$.
+\end{pmatrix} = p.$$
 It is easy to see that this is the only way to construct such
 an  equilateral ideal triangle incident at $\infty$.
 Thus there are $2(p-2)$ such triangles on $\xx$
@@ -773,21 +798,20 @@ so that $k/p, (k+1)/p$ are in different $\Gamma(2)$ orbits.
 
 We have proved Theorem \ref{eisenstein} by counting properly
 immersed equilateral ideal triangles on the three punctured sphere.
-Our proof is a simple application of the theory of hyperbolic surfaces and the action of the modular group on them.
+Our proof is a simple application of the theory of hyperbolic
+surfaces and the the fixed points of their automorphisms.
 It is interesting to note that whilst our proof has similarities
 with the proof of Theorem \ref{main} it is also quite different from
 Heath-Brown's proof of Fermat's two squares theorem \cite{heath} as
 it uses a different group of automorphisms and a different trick not
 based on parity.
 
+
 In further work in preparation we will investigate the relation  between values of
 binary quadratic forms and $\lambda$-lengths of arcs
 on other hyperbolic surfaces.
- 
-
 
 \thebibliography{99}
-
 
 \bibitem{aigner2}
 Aigner M., Ziegler G.M.  
@@ -825,7 +849,8 @@ Elsholtz C.A
 
 \bibitem{ford}
 Lester R Ford,
-\textit{Automorphic Functions}
+\textit{Automorphic Functions},
+Chelsea Publishing Company, New York, 1929
 
 
 %\bibitem{haas1}
@@ -906,7 +931,7 @@ D. Zagier,
  Github Copilot \url{https://copilot.github.com/}
 
  \bibitem{vim_copilot}
-copilot.vim \url{https://github.com/github/copilot.vim}
+Tim Pope, copilot.vim \url{https://github.com/github/copilot.vim}
  
 %\bibitem{Gui}
 %L. Guillop\'e, Laurent(F-GREN-F)
