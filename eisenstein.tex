@@ -390,7 +390,7 @@ $$f :  z \mapsto \frac{z}{2z+1}$$
 then the map
 $$ f \circ \psi \circ f^{-1} :  z \mapsto \frac{-z+ 1}{-3z+2}$$
 is conjugate to $\psi$ and permutes the vertices of our ideal
-triangle as per:
+triangle as follows:
 $$ \infty \mapsto 1/3 \mapsto 2/3 \mapsto \infty.$$
 so it leaves our ideal triangle invariant.
 One also sees from this that the barycenter of $0,1/3,2/3$
@@ -439,6 +439,13 @@ which relates $\sl2$-orbits of $i \in \CC$
 to representations of a number as a sum of squares
 and then discuss the analogous result for 
 $\sl2$-orbits of $ \omega$.
+
+Geometrically, we think of $p$ in Theorem \ref{main}
+as the $\lambda$-length of an arc on the surface $\xx$
+and the midpoint of this arc will be the projection 
+of a point in the $\sl2$-orbit of $i$.
+So we will begin by recalling some basic facts about
+$\lambda$-lengths.
 
 \subsection{Ford circles, $\lambda$-lengths} 
 \label{lengths}
@@ -496,9 +503,8 @@ of the portion  outside of the Ford circles tangent at $a/c, b/d$ .
 Following Penner \cite{bob} we define the
 $\lambda$-length of an arc to be the exponential of this 
 length.
- It is a consequence  of Lemma \ref{calcul} below  that the arcs of $\lambda$-length 1 are the edges in the 
-\textit{Farey diagram} (see Figure \ref{farey diagram}).
-The lemma  is a simple exercise left to the reader:
+ % It is a consequence  of Lemma \ref{calcul} below  that the arcs of $\lambda$-length 1 are the edges in the 
+% \textit{Farey diagram} (see Figure \ref{farey diagram}).
 
 \begin{lem}\label{calcul}
 Let $a/c, b/d$ be a pair of distinct extended rationals.
@@ -509,7 +515,7 @@ a & b \\ c & d
 \end{pmatrix}.$$
 
 Further if $a/b = 1/0$ then the arc is a vertical line 
- whose midpoint has imaginary part equal to $1/d$ .
+ whose midpoint has imaginary part equal to $1/|d|$ .
 \end{lem}
 
 % It is important to note that whilst the trace of an element of
@@ -526,8 +532,14 @@ of the Ford circle $\{ z, \im z \geq 1\}$.
 It is easy to see that the distance between these sets,
 and so the length of the segment outside the Ford circles
 is $2\log d$. Thus the $\lambda$-length is equal to the 
-determinant (ie $d$) as required.
+determinant (ie $|d|$) as required.
 \hfill $\Box$
+
+Note that for any edge of the Farey diagram the determinant is $\pm
+1$ so the $\lambda$-length of the arc is 1. In particular any ideal
+triangle in the Farey tesselation, for example the one with vertices
+$0,-1,\infty$ considered above is equilateral with sides of
+$\lambda$-length $1$.
 
 
 
