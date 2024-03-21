@@ -139,21 +139,27 @@ $$x^2 + y^2 = p $$
 has a solution in integers  iff  $p =2$ or $p$ is of the form $4k + 1$.
 \end{thm}
 
-An alternative formulation of this result is that
+An alternative formulation of this  is that
 a prime $p$ is the norm of a Gaussian integer
 if and only if $p =2$ or $p$ is of the form $4k + 1$.
 
 There are many proofs of this result see for example Elsholtz
-\cite{elsholtz} for a survey of some.
-In particular, about  1984 Heath-Brown published a proof of Theorem \ref{main} 
+\cite{elsholtz} for a survey of some of them.
+In particular, about  1984 Heath-Brown published a proof of Theorem
+\ref{main} (see also \cite{aigner2})
   in the journal of the Oxford University undergraduate mathematics society. 
 His proof arose from a study of the account of Liouville’s papers on
 identities for parity functions. Zagier's celebrated one line proof
 \cite{zagier} is a clever reformulation of this argument but
 probably the most elegant incarnation is the recent proof given by
 Dolan \cite{dolan}. 
-Heath-Brown studies the action of a pair of involutions on a finite set and uses considerations of parity to show that there is a fixed point for one of the group elements which is a solution 
-to $x^2 + y^2 = p$.
+Heath-Brown studies the action of a pair of involutions on a finite
+set.  
+Any fixed point of one of the involutions is a solution 
+to $x^2 + y^2 = p$,
+the other has a single fixed point which he gives explicitly
+this means that the set has an odd number of points so the first
+involution must fix at least one of them.
 In a previous work \cite{vlad} 
 we gave a geometric proof which, in some sense,
 mimics Heath-Browns proof.
@@ -187,9 +193,9 @@ if we make a reduction modulo $p$ then  in $\fp$
 the  equation  becomes
 $$\bar{a}^2 -  \bar{a}\bar{b} +\bar{ b}^2 = 0$$
 and so , for $p> 3$,  $\bar{a}/\bar{b}$ is a
-cubic root of $-1$ ie an element of order 6 in the group of units
-$\fp^*$
-and it follows that 6 divides 
+cubic root of $-1$ ie an element of order 6 in the group 
+$\fp^*$.
+It follows that 6 divides 
 the order of $\fp^*$  
 which is of course equal to $p-1$.
 
@@ -199,9 +205,9 @@ of a group of automorphisms of  the surface $\xx$ on
 arcs of $\lambda$-length $p$.
 
 
-\subsection{Farey tessalation and $\lambda$-lengths}
+\subsection{Farey diagram and $\lambda$-lengths}
 
-The  \textit{Farey tessalation} (see Figure \ref{farey}) is a fundamental object in the theory of Fuchsian groups. It is a tessalation of hyperbolic space by \textit{ideal triangles}.
+The  \textit{Farey diagram} (see Figure \ref{farey diagram}) is a fundamental object in the theory of Fuchsian groups. It is a tessalation of hyperbolic space by \textit{ideal triangles}.
 
 \begin{figure}[hb]
 \begin{center}
@@ -211,8 +217,8 @@ The  \textit{Farey tessalation} (see Figure \ref{farey}) is a fundamental object
 \label{farey diagram}
 \end{figure}
 
-The tessalation is invariant under the action of the modular group
-$\Gamma = \sl2< \slr = \mathrm{SL}(2, \RR)/\{ \pm I\}$.
+The tessellation is invariant under the action of the modular group
+$$\Gamma = \sl2< \slr = \mathrm{SL}(2, \RR)/\{ \pm I\}.$$
 The quotient  of the upper half space by the modular group 
 is the \textit{modular orbifold}. This is a non compact singular
 surface with a single cusp and two cone points. 
@@ -222,7 +228,7 @@ The principal congruence subgroup $\g2<\Gamma$
  is a torsion free, normal subgroups of index 6
 and the modular orbifold admits a degree 6 cover
 corresponding to $\g2$
-namely, the \textit{three punctured sphere} $\HH/\g2$.
+namely, the \textit{three punctured sphere} $\HH/\g2$ (see Figure \ref{3punctured}).
 Whilst this surface is non compact it has finite hyperbolic area
 equal to $2\pi$. The non compactness is due to the presence of
 \textit{cusps} and in fact  $\HH/\g2$ has exactly three cusps one for each orbit of $\g2$ on the extended rationals $\QQ \cup \{ \infty \}$.
@@ -249,16 +255,15 @@ Theorem \ref{eisenstein} can be stated in terms  of  $\lambda$-lengths
  is the projection to $\xx$ of a 
  Poincar\'e geodesic with both  endpoints in the 
  extended rationals $\QQ \cup \{ \infty\}$.
-The geodesic edges of the Farey tessalation yield a set of three such geodesic, 
+The geodesic edges of the Farey diagram yield a set of three such geodesic, 
  in fact the shortest arcs
  in terms of $\lambda$-length,  on the quotient surfaces.
 The geodesics obtained from projecting the edges of the Farey
-tessalation to $\xx$
+diagram to $\xx$
 are \textit{simple}, that is they have no self intersections, 
 and their complement consists of a pair of (ideal) triangles.
-Of course, a arc $\alpha$ has infinite length with respect to the Poincar\'e metric  but one can define a useful geometric quantity   by truncating the geodesic ie removing a portion of infinite length  inside the cusp regions of the surface.
-This idea of associating a finite length to an \textit{arc},
-that is a simple arc,
+Of course, an arc $\alpha$ has infinite length with respect to the Poincar\'e metric  but one can define a useful geometric quantity   by truncating the geodesic ie removing a portion of infinite length  inside the cusp regions of the surface.
+This idea of associating a finite length to a simple arc,
 appears in Penner's work on moduli \cite{bob}
  (see paragraph \ref{lengths}.) 
 on a punctured
@@ -282,7 +287,7 @@ This action is simply transitive  on
 triples of distinct points in $(a,b,c) \in (\partial \HH)^3$
 so there is only one ideal triangle up to isometry.
 
-Any  ideal triangle in the Farey tesselation, 
+Any  ideal triangle in the Farey diagram, 
 for example the one with vertices $0,-1,\infty$
 projects to an embedded ideal triangle in $\xx$.
 We will see later that each of the edges
@@ -351,15 +356,18 @@ we obtain $p$ as the norm of an element of $\ZZ[\omega]$.
 
 \subsection{The case $p=3$}
 
-%  \begin{figure}[b]
-%\begin{center}
-%\includegraphics[scale=.5]{three.png} 
-%\end{center}
-%\caption{Lift of an immersed  ideal triangle in grey
-%with 4 triangles from the Farey tesselation.
-%Its barycenter is  $1/3(1 + \omega)$ which 
-%coincides with the barycenter of $0,1/2,1$ from the Farey tesselation.}
-%\end{figure}
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[scale=.5]{three2.png} 
+\end{center}
+\caption{Three intersecting  lifts  of an equilateral ideal triangle.
+The dotted lines intersect in two points the lower of which 
+is the barycenter of $1/3, 2/3,\infty$
+which coincides with the barycenter of $0, 1/2,1$.
+The upper point is the barycenter of $0,1,\infty$
+that is $1+\omega$.}
+\end{figure}
 
 In fact it is not difficult to show that there
 are exactly two immersed equilateral 
@@ -371,17 +379,7 @@ automorphism induced by $\psi$
 so their barycenters are in the $\sl2$ orbit 
 of $\omega$.
 
-  \begin{figure}[hb]
-\begin{center}
-\includegraphics[scale=.5]{three2.png} 
-\end{center}
-\caption{Three intersecting  lifts  of an equilateral ideal triangle.
-The dotted lines intersect in two points the lower of which 
-is the barycenter of $1/3, 2/3,\infty$
-which coincides with the barycenter of $0, 1/2,1$.
-The upper point is the barycenter of $0,1,\infty$
-that is $1+\omega$.}
-\end{figure}
+
 Let us compute the barycenter of $0,1/3,2/3$ explicitly to check this. 
 One has
 $$3 = 2^2 - 2 + 1 = | 2\omega + 1 |^2.$$
@@ -409,7 +407,7 @@ $2\omega + 1$.
 
 % In fact this is the $\lambda$-length of the arc 
 
-\begin{figure}[ht]
+\begin{figure}[h]
 \begin{center}
 \includegraphics[scale=.4]{immersed.png} 
 \end{center}
@@ -466,18 +464,21 @@ which we will refer to as \textit{Ford circles},
 each tangent to the real line at some rational $m/n$.
 We adopt the convention that $F$ is also a Ford circle of infinite radius
 tangent to the extended real line at $\infty = 1/0$.
+Since the interiors of the Ford circles are $\Gamma(2)$-invariant
+and disjoint they project to disjoint non compact regions on $\xx$
+which we will refer to as \textit{canonical cusp regions}.
 
 
-  \begin{figure}[ht]
+\begin{figure}[ht]
 \begin{center}
 \includegraphics[scale=.8]{Ford-circles.png} 
 \end{center}
 \caption{Ford circles with tangent points and curvatures.
 Recall that the 
-curvature of a euclidean circle is the reciprocal of the square of its radius.}%needs checking
+curvature of a euclidean circle is twice the reciprocal of the square of its radius.}%needs checking
 \end{figure}
 
-The following is well known and is easily checked:
+The following is well known \cite{ford,conway} and in any case is easily checked:
 
 \begin{lem}\label{ford}.
 
@@ -513,7 +514,6 @@ Then the  $\lambda$-length of the arc joining them
 $$\begin{pmatrix}
 a & b \\ c & d
 \end{pmatrix}.$$
-
 Further if $a/b = 1/0$ then the arc is a vertical line 
  whose midpoint has imaginary part equal to $1/|d|$ .
 \end{lem}
@@ -522,7 +522,7 @@ Further if $a/b = 1/0$ then the arc is a vertical line
 % $\slr$ is not well defined its determinant is.
 
 \proof 
-By transivity of $\slr$ on the extended rationals we may assume 
+By transitivity of $\slr$ on the extended rationals we may assume 
 $a/c = 1/0$ and so the determinant of the matrix is $d$.
 The Ford circle at $1/0$  is $F= \{ z, \im z > 1\}$ and
 at $b/d$ it is a circle of euclidean diameter $1/d^2$.
@@ -537,10 +537,9 @@ determinant (ie $|d|$) as required.
 
 Note that for any edge of the Farey diagram the determinant is $\pm
 1$ so the $\lambda$-length of the arc is 1. In particular any ideal
-triangle in the Farey tesselation, for example the one with vertices
+triangle in the Farey diagram, for example the one with vertices
 $0,-1,\infty$ considered above is equilateral with sides of
 $\lambda$-length $1$.
-
 
 
 \subsection{Gaussian integers}
@@ -829,6 +828,9 @@ on other hyperbolic surfaces.
 Aigner M., Ziegler G.M.  
 \textit{Representing numbers as sums of two squares.} In: Proofs from THE BOOK. Springer, Berlin, Heidelberg. (2010)
 
+\bibitem{conway}
+Conway, J. H. and Guy, R. K. \textit{Farey Fractions and Ford
+Circles.} The Book of Numbers. New York: Springer-Verlag, pp. 152-154, 1996.
 
 \bibitem{dolan}
 Dolan, S., 
@@ -860,9 +862,11 @@ Elsholtz C.A
 
 
 \bibitem{ford}
-Lester R Ford,
-\textit{Automorphic Functions},
-Chelsea Publishing Company, New York, 1929
+Ford, L. R., 1938. \textit{Fractions.} Amer. Math. Monthly, 45, (9), 586–601.
+
+% Lester R Ford,
+% \textit{Automorphic Functions},
+% Chelsea Publishing Company, New York, 1929
 
 
 %\bibitem{haas1}
