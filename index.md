@@ -211,8 +211,13 @@ I embedded this in a [script with pygame too](./PROG/epidemic_sim.py)
 
 - Editor [Annales de l'Institut Fourier](http://aif.cedram.org/?lang=fr)
 - Principal investigator l'equipe action ```ToFu``` [persyval-lab](https://persyval-lab.org/)
-- Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
+- member of the [IRGA](https://www.univ-grenoble-alpes.fr/universite/ambition-et-strategie/l-initiative-d-excellence-idex/les-appels-a-projets/appel-a-projets-initiatives-de-recherche-a-grenoble-alpes-irga-2024-1298254.kjsp) committee pole MSTIC
+
 - Member of the Conseil de l'UFR IMAG2
+    - member of the commission de la recherche de l'UFR IMAG2
+
+- Local coordinator [federation RAA](http://frmraa.math.cnrs.fr/)
+
 - Ex directeur de [GDR TRESSES](http://tresses.math.cnrs.fr)
 - [CV](./CV.pdf)
 - [research statement](https://www-fourier.ujf-grenoble.fr/~mcshane/TEXTS/research%20statement.pdf)
@@ -270,7 +275,7 @@ IHP 2012 : La Maison des Maths
 
 - I am principal investigator [ToFu](https://persyval-lab.org/en/ToFu)
 - I am an associate member of <a href="http://gear.math.illinois.edu">GEAR</a>
-- I was <strong>director</strong> of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
+- I was **director** of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
 
  <!-- <a href="https://github.com/macbuse/MATH/blob/master/conferences.md">Meetings in low dimensional topology and dynamics</a> -->
 

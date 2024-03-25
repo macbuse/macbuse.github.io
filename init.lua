@@ -402,4 +402,4 @@ vim.api.nvim_set_keymap("n", "U", "<C-r>",{expr = false, noremap = true})
 vim.api.nvim_set_keymap("n", "<C-v>", '"+p',{expr = false, noremap = true})
 
 vim.api.nvim_set_keymap("n", "<leader>FF", 'gqip',{expr = false, noremap = true})
-vim.o.textwidth = 68
+vim.o.textwidth = 80
