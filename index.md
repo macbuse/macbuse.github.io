@@ -157,8 +157,9 @@ list)
 
 ---
 
+#### This is what I look like 
+
 <center>
-<p> This is what I look like <br>
 
 <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/IHP.png" alt="IHP 2012 : La Maison des Maths" />
 
@@ -173,9 +174,9 @@ list)
 
 ### Research Networks
 
-- I am principal investigator [ToFu](https://persyval-lab.org/en/ToFu)
-- I am an associate member of <a href="http://gear.math.illinois.edu">GEAR</a>
-- I was **director** of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
+- principal investigator [ToFu](https://persyval-lab.org/en/ToFu)
+- am an associate member of <a href="http://gear.math.illinois.edu">GEAR</a>
+-  **ex director** of the <a href="http://tresses.math.cnrs.fr">GDR des Tresses</a>
 
  <!-- <a href="https://github.com/macbuse/MATH/blob/master/conferences.md">Meetings in low dimensional topology and dynamics</a> -->
 
