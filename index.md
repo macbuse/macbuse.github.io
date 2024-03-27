@@ -162,9 +162,9 @@ list)
 
 <img src="https://www-fourier.ujf-grenoble.fr/~mcshane/IMAGES/IHP.png" alt="IHP 2012 : La Maison des Maths" />
 
-**IHP 2012 : La Maison des Maths**
 </center>
 
+**IHP 2012 : La Maison des Maths**
 
 <p><a href="https://www-fourier.ujf-grenoble.fr/~mcshane/bestblackboards2015.html">More real math on blackboards</a></p>
 
