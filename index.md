@@ -13,6 +13,7 @@ But if you need a CV for some reason (grant applications,
 invitations etc) then here is a [CV](./CV.pdf).
 Just in case you are wondering why this page is on GitHub
 [read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/) and here are  [my github repos](https://github.com/macbuse)
+I've just added a [new repo](https://github.com/macbuse/FAREY_DIAGRAM/tree/main) for a project I'm working on with a student.
 
 
  I am back in France after a trip to  Oxford 
