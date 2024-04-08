@@ -28,7 +28,6 @@ I've just added a [new repo](https://github.com/macbuse/FAREY_DIAGRAM/tree/main)
 <!-- - I did a [stage ](./STAGE/web.html) high school students. -->
 <!-- - this page wasn't getting updated over Xmas due to a problem with a copy of the [reveal.js repo](https://revealjs.com/) that I had (stupidly) uploaded. -->
 
-
 ---
 
 ## Teaching 2023-24

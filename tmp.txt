@@ -1,6 +1,8 @@
 To give three medals at once to representatives of the French mathematical school, and all three'of them noted for the art of manipulation of inequalities, is hardly a help to the international prestige of French mathematics 2- particularly coming at a time when the president of the International Mathematical Union (the organization naming the Fields Committee) was a well-known French analyst. It is hard to affirm a causal relation between these circumstances; that would imply a quite unlikely degree of corruption. 
 
-
+$$
 A={\begin{bmatrix}1& -2& 2\\2& -1& 2\\2& -2& 3\end{bmatrix}}&
  B={\begin{bmatrix}1& 2& 2\\2& 1& 2\\2& 2& 3\end{bmatrix}}&
  C={\begin{bmatrix}-1& 2& 2\\-2& 1& 2\\-2& 2& 3\end{bmatrix}}\end{array}}}">
+$$
+
