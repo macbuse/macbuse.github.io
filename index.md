@@ -8,6 +8,8 @@ title: Home
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
+[CV french](./CV2024.pdf
+
 You should be able to find out about my research and teaching here.
 But if you need a CV for some reason (grant applications,
 invitations etc) then here is a [CV](./CV.pdf).
