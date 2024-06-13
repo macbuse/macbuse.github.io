@@ -499,7 +499,8 @@ Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$ iff
 <!-- _transition: cube -->
 ## Ford circles
 
-![w:700](./ford_circles_again.png)
+![w:600](./ford_circles_again.png)
+  $\mathrm{SL}(2,\mathbb{Z})$ orbit of $F := \{ z, \mathrm{Im}\, z > 1\}$ are the Ford circles
 
 
 <!-- <!-1- # Definitions -1-> -->
@@ -537,15 +538,19 @@ Let $p$ be a prime then $p=c^2 + d^2$ has a solution over $\mathbb{Z}$ iff
 
 - **arc** joining $a/c, b/d$ has **$\lambda$-length** $= |ad - bc|$ 
 - **$2 \log \lambda$-length** = length of the portion outside Ford circles tangent to the real line at its endpoints
-## Corollary
 
+## Corollary
 If one of the Ford circles is $F$ then 
 the **midpoint** of the arc is at Euclidean height $1/(\lambda-\text{length})$
 
 
-<!-- # -->
-<!-- <!-1- _transition: cube -1-> -->
-<!-- ![bg left 100%](./lambda.svg) -->
+#
+<!-- _transition: cube -->
+![bg left 100%](./lambda.svg)
+## Corollary
+One of the Ford circles is $F$ then 
+the **midpoint** of the arc is at Euclidean height $1/(\lambda-\text{length})$
+
 <!--  $\mathrm{SL}(2,\mathbb{Z})$  transitive on $\mathbb{P}(\mathbb{Q}^2)$, --> 
 <!-- * can suppose $a/c= \infty=1/0$ and $b/d = k/(ad - bc)$ -->
 <!-- * joins Ford circle  $F$  tangent at $\infty$ and another of diameter $1/(ad - bc)^2$ -->
@@ -632,6 +637,22 @@ is equal to the number of arcs on the modular surface
 1. of $\lambda$-length $m$ 
 1. which pass through the cone point of of order 2.
 
+# 
+## Recursion
+
+
+  (Ptolemy) $z^+  z^- = x^2 + y^2$ 
+
+In fact the Ptolemy relation factorises over $\mathbb{C}$
+$$z^+ z^- = (x + i y)(x - i y) = x^2 + y^2 $$
+yields a recursion for a set of Gaussian integers $\{\hat{m}\}$
+such that each Markoff number $m$ is the norm of $\hat{m}$
+
+$$\hat{z}^+ \hat{z}^- = |\hat{x}|^2 + i|\hat{y}|^2$$
+
+* Fibonacci numbers $F_{2n+3}F_{2n-1} = F_{2n-1}^2 + 1$
+
+
 #
 <!-- _transition: cube -->
 <iframe src="./button.html" height="600" width="700"></iframe>
@@ -716,9 +737,9 @@ z &\mapsto& 1/\bar{z}
 <!-- _transition: glow -->
 ![w:1200](./zagier.png) 
 
-#
-<!-- _transition: cube -->
-## Let's begin then...
+<!-- # -->
+<!-- <!-1- _transition: cube -1-> -->
+<!-- ## Let's begin then... -->
 
 #
 <!-- _transition: slide -->
@@ -762,11 +783,12 @@ x &\mapsto& -1/x
 * $4 |X/G| = (p-1) + 2 + |X^{(x\mapsto -1/x)}|$
 * $\Rightarrow  |X^{(x\mapsto -1/x)}| = 2,\, \text{if }4 \not \mid (p+1)$
 * $\Rightarrow  \exists x,\, x^2 = -1,\, \text{if }4 \not \mid (p+1)$
+* $\Box$
 
 
-#
-<!-- _transition: cube -->
-## QED
+<!-- # -->
+<!-- <!-1- _transition: cube -1-> -->
+<!-- ## QED -->
 
 #
 ### Theorem F2: sum of 2 squares
@@ -800,7 +822,7 @@ or on the arcs of $\mathbb{H}/\Gamma(2)$
 
 - $\Gamma(2) = \ker (\mathrm{SL}(2,\mathbb{Z})\rightarrow  \mathrm{SL}(2,\mathbb{F}_2))$
 - $\mathbb{H}/\Gamma(2)$  three punctured sphere 
-* standard fundamental domain 
+- standard fundamental domain 
 * = pair of ideal triangles
 * all edges $\lambda$-length 1
 
