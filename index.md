@@ -17,7 +17,11 @@ Just in case you are wondering why this page is on GitHub
 [read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/) and here are  [my github repos](https://github.com/macbuse)
 I've just added a [new repo](https://github.com/macbuse/FAREY_DIAGRAM/tree/main) for a project I'm working on with a student.
 
-I'm in Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024.
+I'm in Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024. On Friday 14/6 I'll be giving a talk 
+
+- [Slides: Geodesics and elementary number theory](./TIT2023/singapore.html).
+
+---
 
 
  I went to Oxford in January to give a talk in the topology seminar and I was supposed to go to San Francisco in January to give a talk in a special session on Markoff numbers at the AMS meeting but this got cancelled because of **Notilus**.
