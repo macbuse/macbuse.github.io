@@ -959,8 +959,8 @@ fixes the arc of $\lambda$-length = 1
 <!-- _transition: cube -->
 ### The set $X$
 
-- arcs joining cusps $0, \infty$ with $\lambda$-length $p$
-- "lift to vertical lines" with endpoints $k/p$ with $k$ odd
+- arcs joining cusps $0/1, \infty = 1/0$ with $\lambda$-length $p$
+- "lift to vertical lines" with endpoints $2k/p\in \Gamma(2).\{0/1\}$ 
 - $|X| = p - 1$ as before
 
 <!-- - whose fixed point is $i+1$. -->

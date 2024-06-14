@@ -19,7 +19,7 @@ I've just added a [new repo](https://github.com/macbuse/FAREY_DIAGRAM/tree/main)
 
 I'm in Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024. On Friday 14/6 I'll be giving a talk 
 
-- [Slides: Geodesics and elementary number theory](./TIT2023/singapore.html).
+- [Slides: Automorphisms and elementary number theory](./TIT2023/singapore.html).
 
 ---
 
