@@ -605,25 +605,16 @@ $0 \leq k < m-1$ coprime to $m$ which meet $\Gamma.\{i\}$
 
 # Counting solutions
 <!-- _transition: slide -->
-The "number of  ways" of writing $m$  as 
-$$m = c^2 + d^2$$
+The "number of  ways" of writing $m$  as $m = c^2 + d^2$.
 
-* eight solutions
 * four choices for the signs $\pm c, \pm d$ 
-* swap $c$ and $d$
-* only swapping $c,d$ "counts" 
+* swap $c$ and $d$, only swapping $c,d$ "counts" 
 
-# Example
-
+<!-- # Example -->
 <!-- _transition: cube -->
 
-$5 = 2^2 + 1^2= 1^2 + 2^2$
-
- $$\begin{pmatrix} 1& 0 \\ 2& 1 \end{pmatrix}.i
-= \frac{i}{2i+1} = \frac25 + \frac{i}{5}$$
-
- $$\begin{pmatrix} 1& 1 \\ 1& 2 \end{pmatrix}.i
-= \frac{i+1}{i+2} = \frac35 + \frac{i}{5}$$
+* **Example:** $5 = 2^2 + 1^2= 1^2 + 2^2$
+* $$\begin{pmatrix} 1& 0 \\ 2& 1 \end{pmatrix}.i = \frac{i}{2i+1} = \frac25 + \frac{i}{5},\,\,\, \begin{pmatrix} 1& 1 \\ 1& 2 \end{pmatrix}.i = \frac{i+1}{i+2} = \frac35 + \frac{i}{5}$$
 
 <!-- text_align: top -->
 
@@ -638,7 +629,7 @@ is equal to the number of arcs on the modular surface
 1. which pass through the cone point of of order 2.
 
 # 
-## Recursion
+## Recursion for (complex) Markoff numbers
 
 
   (Ptolemy) $z^+  z^- = x^2 + y^2$ 
@@ -646,18 +637,38 @@ is equal to the number of arcs on the modular surface
 In fact the Ptolemy relation factorises over $\mathbb{C}$
 $$z^+ z^- = (x + i y)(x - i y) = x^2 + y^2 $$
 yields a recursion for a set of Gaussian integers $\{\hat{m}\}$
-such that each Markoff number $m$ is the norm of $\hat{m}$
+such that each Markoff number $m$ is the **norm** of $\hat{m}$
 
-$$\hat{z}^+ \hat{z}^- = |\hat{x}|^2 + i|\hat{y}|^2$$
+$$\hat{z}^+ \hat{z}^- = x^2 + y^2 = |\hat{x}|^2 + i|\hat{y}|^2$$
 
-* Fibonacci numbers $F_{2n+3}F_{2n-1} = F_{2n-1}^2 + 1$
+* **Example:** Fibonacci numbers $F_{2n+3}F_{2n-1} = 1 + F_{2n-1}^2$
+
+
+# 
+
+ Fibonacci numbers $F_{2n+3}F_{2n-1} = F_{2n-1}^2 + 1$
+```
+x, y = 1 + 0J, 1 + 1J
+
+fib = []
+for k in range(10):
+    z = y*y.conjugate() + 1J
+    u = x*z/ (x*x.conjugate())
+    fib.append(f'{u}')
+    x, y = y, u
+    
+' '.join(fib)
+```
+$$2+1i, 2+3i, 5+3i, 5+8i, 13+8i, 13+21i, 34+21i, 34+55i, 89+55i, 89+144i$$
+
+* Just showing that $F_{2n+1} = F_{n+1}^2 + F_n^2$. 
 
 
 #
 <!-- _transition: cube -->
 <iframe src="./button.html" height="600" width="700"></iframe>
 
-exactly 6 simple arcs of $\lambda$-length $m$ on $\mathbb{H}/\Gamma'$ 
+**Back to Button** exactly 6 simple arcs of $\lambda$-length $m$ on $\mathbb{H}/\Gamma'$ 
 
 # Proof of Button
 
