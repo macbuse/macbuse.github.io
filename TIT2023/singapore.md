@@ -774,6 +774,11 @@ if $p = 1,3 \mod 8$.
 * immersed ideal triangles of $\lambda$-length $p$ on $\mathbb{H}/\Gamma(2)$
 * $x^2 + 2y^2= p\rightarrow$ arcs of $\lambda$-length $p$ on $\mathbb{H}/\Gamma_0(2)$
 
+#
+
+An immersed ideal triangles with sides of $\lambda$-length $3$ on $\mathbb{H}/\Gamma(2)$
+
+![w:600](./immersed.png)
 
 #
 <!-- _transition: slide -->
@@ -980,14 +985,16 @@ First the automorphism $U$
 The automorphism $V$ induced by $V'$ 
 fixes two and exactly two arcs in $X$.
 
-- can thencan then  apply Burnside Lemma to prove Theorem F2
-- $4 |X/G| = (p-1) + 2 + |X^{U\circ V}|$
+ Can then apply Burnside Lemma to prove Theorem F2
+
+ $4 |X/G| = (p-1) + 2 + |X^{U\circ V}|$
 
 * **Proof:**
 * suppose that there is an invariant arc that starts at $a/b$
 * then it must end at $V'(a/b) = b/a$ 
 * its $\lambda$- length is $|a^2 - b^2| = p$
-* $p$ prime $\Rightarrow$ two solution $a-b= \pm 1, a+b= \pm p$
+* $p$ prime $\Rightarrow$ two solution $a-b= \pm 1, a+b= \pm p$ 
+$\Box$
 
 
 # Questions/Remarks
@@ -1011,5 +1018,7 @@ Nhat Minh Doan
 # 
 <!-- _transition: cube -->
 ![w:800](./thatsallfolks.png)
+
+#
 
 
