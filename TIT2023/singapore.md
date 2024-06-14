@@ -215,7 +215,7 @@ $$\frac{1}{m} = \mathrm{Im} \frac{ai +b}{ci+d}  = \frac{1}{c^2 + d^2}$$
 * [Proofs from THE BOOK](https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem)
 * 100 years of uniqueness
 * [Convexity and Aigner's Conjectures](https://arxiv.org/abs/2101.03316)
-* Prove his conjectures with one figure?
+<!-- * Prove his conjectures with one figure? -->
 
 
 #
@@ -225,6 +225,19 @@ There is a natural map (we'll see why shortly)
 $\mathbb{Q}\cup \infty \rightarrow \text{Markoff numbers},\,\, p/q \mapsto m_{p,q}$
 
 ![w:1000](./aigner_mono.png)
+
+
+#
+### Aigner's monotonicity conjectures
+
+- M. Rabideaua, R. Schiffler, Continued fractions and orderings on the Markov numbers, Advances in Mathematics Vol 370,  2020.
+- C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markov numbers: fixed numerator, denominator, and sum conjectures.
+- Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler, On the ordering of the Markov numbers [arxiv 2010.13010](https://arxiv.org/abs/2010.13010)
+
+
+
+
+
 
 #
 <!-- _transition: wipe -->
@@ -260,7 +273,6 @@ $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 
 # Labeling Markoff numbers
 <!-- _transition: cube -->
-## A tale of  trees
 
 
 * Markoff number = $m_{p/q}$
@@ -270,21 +282,30 @@ $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 * Mapping class group of the torus $\simeq PSL(2,\mathbb{Z}) \simeq \mathbb{Z}/2 * \mathbb{Z}/3$
 
 # 
+### Tree structure for triples
+
+comes from Bass-Serre tree of
+ $PSL(2,\mathbb{Z})$ 
+
+![bg left 100%](./Markoff_tree_full.svg)
+
+
+# 
 <!-- _transition: slide -->
-## coprime integers $p,q$
+## arcs 
 
 
 ![bg left 55%](./ptorusx.svg)
 
-* closed geodesic 
-* arc on a punctured torus(disjoint from the closed geodesic)
-* $\lambda$-lengths of arcs
+* $\gamma$ simple closed geodesic 
+* $\gamma^*$ arc  on a punctured torus(disjoint from the closed geodesic)
+* $\lambda$-lengths of arc
 <!-- * snake graph and its perfect matchings -->
 <!-- * "lengths" that verify a Ptolemy inequality -->
 
 # Farey diagram
 
-<!-- _transition: glow -->
+<!-- _transition: slide -->
 <!-- $\mathbb{Q}\cup \infty \subset$ circle/projective line -->
 
 ![bg left](./sami.jpg)
@@ -307,12 +328,22 @@ $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 * $\lambda$-length of arc on $\mathbb{H}/\Gamma'$ 
 or $\mathbb{H}/\Gamma(n)$ is the length of a lift to $\mathbb{H}$
 
+#
 
-# Ptolemy identity
+## Ptolemy identity
 
 <!-- _transition: slide -->
 
 ![w:800](./ptolemy.svg)
+
+#
+
+## Ptolemy identity is homogeneous
+
+- (Ptolemy) $z^+  z^- = x^2 + y^2$ 
+- $\lambda$-lengths only defined up to a multiplicative constant
+* ie a choice of horoballs based at the parabolic points $p/q$
+
 
 #
 <!-- _transition: fade -->
@@ -342,10 +373,10 @@ or $\mathbb{H}/\Gamma(n)$ is the length of a lift to $\mathbb{H}$
 # 
 ### Tree structure
 
+<!-- _transition: cube -->
 comes from Bass-Serre tree of
  $PSL(2,\mathbb{Z})$ 
 
-<!-- ![w:500px](./Markoff_tree_full.svg) -->
 ![bg left 100%](./Markoff_tree_full.svg)
 
 
@@ -429,7 +460,7 @@ $\ell_{\gamma^*} = 2\cosh(\ell_\gamma/2)$
 
 -  (trace) $z^+ + z^- = xy$ 
 -  (Ptolemy) $z^+  z^- = x^2 + y^2$ 
-* normalise so that $\lambda$-lengths are $(3,3,3)$ then do an induction.
+* normalise so that $\lambda$-lengths are $(3,3,3)$ then do an induction $\Box$
 
 #
 <!-- _transition: fade -->
@@ -593,15 +624,17 @@ $$\text{height } = \frac{1}{m} = \mathrm{Im} \frac{ai +b}{ci+d}  = \frac{1}{c^2 
 
 
 # by the same argument.... 
-<!-- _transition: slide -->
-## Lemma C
+<!-- _transition: cube -->
 
-Let $m$ be a positive integer. 
-The "number of  ways" of writing $m$  as a  sum of squares
-$$m = c^2 + d^2$$
-with $c,d>0$ coprime integers is equal to the number of arcs 
-$\{  k/m + i t,\, t>0  \}$
-$0 \leq k < m-1$ coprime to $m$ which meet $\Gamma.\{i\}$
+
+**Lemma C** Let $m$ be a positive integer. 
+The "number of  ways" of writing $m$  as 
+$m = c^2 + d^2$ with $c,d$ coprime,
+is equal to the number of arcs satisfying:
+
+joins $\infty$ to $0<  k/m < 1$ 
+integers $k$ and $m$   coprime
+arc meets the orbit  $\Gamma.\{i\}$
 
 # Counting solutions
 <!-- _transition: slide -->
@@ -611,7 +644,7 @@ The "number of  ways" of writing $m$  as $m = c^2 + d^2$.
 * swap $c$ and $d$, only swapping $c,d$ "counts" 
 
 <!-- # Example -->
-<!-- _transition: cube -->
+<!-- _transition: slide -->
 
 * **Example:** $5 = 2^2 + 1^2= 1^2 + 2^2$
 * $$\begin{pmatrix} 1& 0 \\ 2& 1 \end{pmatrix}.i = \frac{i}{2i+1} = \frac25 + \frac{i}{5},\,\,\, \begin{pmatrix} 1& 1 \\ 1& 2 \end{pmatrix}.i = \frac{i+1}{i+2} = \frac35 + \frac{i}{5}$$
@@ -619,14 +652,21 @@ The "number of  ways" of writing $m$  as $m = c^2 + d^2$.
 <!-- text_align: top -->
 
 #
-<!-- _transition: slide -->
-## Lemma C'
+<!-- _transition: cube -->
+**Lemma C'** Let $m$ be a positive integer. 
+The "number of  ways" of writing $m$  as 
+$m = c^2 + d^2$ with $c,d$ coprime,
+is equal to the number of arcs 
 
-The number of  ways of writing $m$  as a  sum of squares
-$$m = c^2 + d^2$$
-is equal to the number of arcs on the modular surface 
+1. on the modular surface 
 1. of $\lambda$-length $m$ 
 1. which pass through the cone point of of order 2.
+
+#
+
+<!-- _transition: slide -->
+### Corollary B
+Every Markoff number $m$ is a sum of squares ie $m=c^2 + d^2$
 
 # 
 ## Recursion for (complex) Markoff numbers
@@ -711,17 +751,28 @@ then there is a unique triple $z > y > x$
 
 
 **Theorem F1:** Let $p$ be a prime then
-$$x^2 + y^2= p$$
+$x^2 + y^2= p$
 has a solution over $\mathbb{Z}$
-iff $p = 2$ or $p − 1$ is a multiple of 4.
-
+if $p = 2$ or $p − 1$ is a multiple of 4.
 
 
 **Theorem F2:** Let $p$ be a prime then
-$$x^2  + xy + y^2= p$$
+$x^2  + xy + y^2= p$
 has a solution over $\mathbb{Z}$ 
 iff $p = 3$ or $p − 1$ is a multiple of 6.
 
+**Theorem F3:** Let $p$ be a prime then
+$x^2 + 2y^2= p$
+has a solution over $\mathbb{Z}$
+if $p = 1,3 \mod 8$.
+
+#
+
+* $x^2 + y^2= p \rightarrow$ 
+* arcs of $\lambda$-length $p$ on $\mathbb{H}/\Gamma(2)$
+* $x^2  + xy + y^2= p \rightarrow$ 
+* immersed ideal triangles of $\lambda$-length $p$ on $\mathbb{H}/\Gamma(2)$
+* $x^2 + 2y^2= p\rightarrow$ arcs of $\lambda$-length $p$ on $\mathbb{H}/\Gamma_0(2)$
 
 
 #
