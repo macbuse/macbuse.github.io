@@ -166,7 +166,7 @@ The largest integer in a triple determines the two other numbers.
 
 <!-- **Theorem (Fermat)** -->
 
- If $p$ a prime and 4 divides $p − 1$ then 
+ If $p$ an odd prime and 4 divides $p − 1$ then 
 $p=c^2 + d^2$ for coprime integers $c,d$.
 
 <!-- * Button's theorem follows from "unicity" of $c,d$ -->
@@ -847,9 +847,12 @@ x &\mapsto& -1/x
 ### Apply Burnside
 
 - $|G| |X/G| = \sum_{g} |X^g|$
-* $4 |X/G| = (p-1) + 2 + |X^{(x\mapsto -1/x)}|$
-* $\Rightarrow  |X^{(x\mapsto -1/x)}| = 2,\, \text{if }4 \not \mid (p+1)$
-* $\Rightarrow  \exists x,\, x^2 = -1,\, \text{if }4 \not \mid (p+1)$
+- $4 |X/G| = (p-1) + 2 + |X^{(x\mapsto -1/x)}|$
+
+* if p=1 mod 4, then
+* $0 =0+2+|X^{(x\mapsto -1/x)}| \mod 4$ 
+* $\Rightarrow  |X^{(x\mapsto -1/x)}| \neq 2$
+* $\Rightarrow  \exists x,\, x^2 = -1$
 * $\Box$
 
 
