@@ -851,7 +851,7 @@ x &\mapsto& -1/x
 
 * if p=1 mod 4, then
 * $0 =0+2+|X^{(x\mapsto -1/x)}| \mod 4$ 
-* $\Rightarrow  |X^{(x\mapsto -1/x)}| \neq 2$
+* $\Rightarrow  |X^{(x\mapsto -1/x)}| \neq 0$
 * $\Rightarrow  \exists x,\, x^2 = -1$
 * $\Box$
 
