@@ -112,14 +112,20 @@ $(1,1,1),(1,2,1),(2,5,1),(5,13,1),(13,34,1),(34,89,1)$
 <!-- $0, 1, 2, 5, 12, 29, 70, 169, 408, 985, 2378, 5741, 13860,\ldots$ -->
 
 <!-- $(1,5,2), (5,29,2),(29,169,2)\ldots$ -->
+
 #
 
-<!-- ### Odd index Fibonacci numbers are sums of squares -->
+### Odd index Fibonacci numbers are sums of squares
+
+<!-- _transition: cube -->
+<!-- https://oeis.org/A000057 -->
+
+ $F_{2n+1} = F_{n+1}^2 + F_n^2$
+
 
 <!-- and satisfy divisibility relations -->
 
-<!-- 1. $F_{2n+1} = F_{n+1}^2 + F_n^2$ -->
-<!-- 1. $F_{2n} = (F_{n+1} + F_{n-1})F_n \Rightarrow F_n | F_{2n}$ -->
+ <!-- $F_{2n} = (F_{n+1} + F_{n-1})F_n \Rightarrow F_n | F_{2n}$ -->
 
 <!-- $\begin{pmatrix} -->
 <!-- F_{n+1} & F_{n} \\ -->
@@ -179,7 +185,7 @@ $p=c^2 + d^2$ for coprime integers $c,d$.
 - First proof Euler (reciprocity, descent)
 - Heath-Brown, Fermat’s two squares theorem. Invariant (1984) 
 - Zagier, A one-sentence proof that every prime p = 1 (mod 4) is a sum of two squares, 1990
-- Dolan, S.,  The Mathematical Gazette, 106(564). (2021)
+- Dolan, S.,  A very simple proof of the two-squares theorem, Math Gaz, 106(564). (2021) [text](https://www.cambridge.org/core/journals/mathematical-gazette/article/abs/10538-a-very-simple-proof-of-the-twosquares-theorem/D0CB1CB39CBA0E98905401EA21DCB743)
 - Elsholtz, Combinatorial Approach to Sums of Two Squares and Related Problems.  (2010) 
 
 #
@@ -230,8 +236,8 @@ $\mathbb{Q}\cup \infty \rightarrow \text{Markoff numbers},\,\, p/q \mapsto m_{p,
 #
 ### Aigner's monotonicity conjectures
 
-- M. Rabideaua, R. Schiffler, Continued fractions and orderings on the Markov numbers, Advances in Mathematics Vol 370,  2020.
-- C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markov numbers: fixed numerator, denominator, and sum conjectures.
+- M. Rabideaua, R. Schiffler, Continued fractions and orderings on the Markov numbers, Advances in Mathematics Vol 370,  2020. [arxiv 1801.07155](https://arxiv.org/abs/1801.07155)
+- C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markov numbers: fixed numerator, denominator, and sum conjectures. Advances in Applied Mathematics Volume 130, September 2021 [arxiv 2010.10335](https://arxiv.org/abs/2010.10335)
 - Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler, On the ordering of the Markov numbers [arxiv 2010.13010](https://arxiv.org/abs/2010.13010)
 
 
@@ -852,7 +858,7 @@ x &\mapsto& -1/x
 * if p=1 mod 4, then
 * $0 =0+2+|X^{(x\mapsto -1/x)}| \mod 4$ 
 * $\Rightarrow  |X^{(x\mapsto -1/x)}| \neq 0$
-* $\Rightarrow  \exists x,\, x^2 = -1$
+* $\Rightarrow  \exists x\in\mathbb{F}_p^*,\, x^2 = -1$
 * $\Box$
 
 
