@@ -10,7 +10,11 @@ title: Home
 
 [CV french](./CV2024.pdf)
 
-You should be able to find out about my research and teaching here.
+
+
+
+
+You [should](./bourses.md) be able to find out about my research and teaching here.
 But if you need a CV for some reason (grant applications,
 invitations etc) then here is a [CV](./CV.pdf).
 Just in case you are wondering why this page is on GitHub
@@ -27,7 +31,7 @@ I'm in Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/
  I went to Oxford in January to give a talk in the topology seminar and I was supposed to go to San Francisco in January to give a talk in a special session on Markoff numbers at the AMS meeting but this got cancelled because of **Notilus**.
 
 - [Oxford talk slides ](./TIT2023/oxford.html)
-- then I otganised  Zhang Yibo's [thesis defence](https://www-fourier.ujf-grenoble.fr/?q=fr/content/4-manifolds-admitting-fibrations) 5/4/2024.
+- then I organised  Zhang Yibo's [thesis defence](https://www-fourier.ujf-grenoble.fr/?q=fr/content/4-manifolds-admitting-fibrations) 5/4/2024.
 - I was president of Andrea Seppi's [HDR jury](https://www-fourier.univ-grenoble-alpes.fr/?q=fr/content/probl%C3%A8mes-de-plateau-asymptotiques-leurs-g%C3%A9n%C3%A9ralisations-et-applications-aux-structures) 25/4/2024.
 - working on a [draft of work in progress](./QUADS/x2.pdf)
 
