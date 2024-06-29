@@ -1,15 +1,15 @@
 #
 
 1. ANTONETTI LJK/TIMC
-1. BELLOURAK LJK/Gipsa-lab
-1. BONNEL LIG/TIMC avis favorable Lazarus 
+1. BELLOURAK LJK/Gipsa-lab avis favorable Lazarus 
+1. BONNEL LIG/TIMC 
 1. CHEVAUX LJK/Inria
 1. FERRAGU IF/Verimag   
 1. NOHRA Gipsa-lab/LIG
 1. QUAN TIMC/LIG
 1. TRUONG LCIS/Gipsa-lab
-1. VILLUENDAS LIG/LJK
-1. ZOPPIS LJK/LIG avis favorable Lazarus 
+1. VILLUENDAS LIG/LJK avis favorable Lazarus 
+1. ZOPPIS LJK/LIG 
 
 
 
@@ -30,18 +30,30 @@ Axe de recherche : MFA
 - Florence FORBES ( DR avec HDR - LJK )
 - Co-encadrants : Sihem AMER-YAHIA ( DR avec HDR - LIG )
 
+**premier sur la liste supplentaire à l'ED MSTII**
+
 
 ### Context and objectives
 
 Large Language Models (LLMs) have shown impressive capabilities in natural language tasks and are now being used to create Multi-Agent systems (LLM-MA) for complex planning and decision-making tasks. LLM-MA utilizes a team of specialized LLM agents that collaborate to solve problems efficiently, offering advanced capabilities over single LLM agents but with more complex interactions and potential biases. Controlling interactions within LLM-MA is crucial to prevent deviations from tasks, and reinforcement learning (RL) is seen as a promising approach for creating more controlled and explainable systems. The DRL4LLM project aims to explore Distributional Reinforcement Learning (DRL) to enhance the reliability and risk management of LLM-MA systems by considering the complete probability distribution of rewards.
 
 ### un mot sur le candidat
-https://github.com/mathisantonetti
+
+**en stage longue durée à l'INRIA**
+
+[github](https://github.com/mathisantonetti)
 
 
- élève-ingénieur de l’ENPC en double-diplôme à l’ENS Paris-Saclay et 
-j’obtiendrai mon diplôme de master du MVA (Mathématiques-Vision-Apprentissage), master 
-recherche de l’ENS Paris-Saclay, fin octobre 2024.
+- élève-ingénieur de l’ENPC 
+- en double-diplôme à l’ENS Paris-Saclay et 
+- mon diplôme de master du MVA (Mathématiques-Vision-Apprentissage), master recherche de l’ENS Paris-Saclay, fin octobre 2024.
+
+Moyenne de première année 0,00 15,82
+Moyenne de deuxième année 0,00 15,72
+Moyenne de langues 1A 0,00 15,00
+Moyenne de langues 2A 0,00 16,60
+Moyenne de la scolarité 0,00 15,77
+Moyenne de langues 0,00 15,80
 
 ### lettre de recommandation
 
@@ -91,6 +103,8 @@ Axe de recherche : MFA
 - Co-encadrants : Sylvain MEIGNEN ( MCF-HC avec HDR - LJK )
 - Co-encadrants : Max LANGER ( CR sans HDR - TIMC )
 
+**deuxieme sur la liste supplentaire à l'ED MSTII**
+
 
 ### Context and objectives
 This thesis aims at dealing with interferences appearing in different contexts, in particular
@@ -101,14 +115,21 @@ Multicomponent signals (MCSs), found in various real-life applications like audi
 
 ### un mot sur le candidat
 
+**dossier manque de relevé de notes**
 
+- F´evrier 2024 - Aout 2024 Stage R&D `a SERCEL - Grenoble
+D´eveloppement et caract´erisation des m´ethodes d’optimisation au sein des jumeaux num´eriques
+**Sercel** is a leading international provider of seismic data acquisition technology for land, marine, and transition zone environments. The company designs, manufactures, and sells seismic equipment and software with operations in more than 100 countries worldwide.
+- Mai 2023 - Juillet 2023 Stage de recherche (LJK) - Grenoble
+Optimisation de la transform´ee de Fourier fractionnaire
 
 M2-MSIAM MSc in Industrial and Applied Mathematics a l’UGA
 • Calcul diff´erentiel, ondelettes et applications en traitement d’image
 • Fondements math´ematiques de machine learning
-• Concepts du machine learning et deep learning: Applications a la vision, a l’audio
-et au texte
+• Concepts du machine learning et deep learning: Applications a la vision, a l’audio et au texte
 • Traitement naturel des langues (NLP) and information retrieval
+
+
 ### Lettre de recommandation de [Meignen]
 
 ### un mot sur les Co-encadrants
@@ -140,18 +161,27 @@ Axe de recherche : MFA
 
 Cette thèse vise à proposer de nouveaux résultats prédictifs basés sur des critères analytiques pour une meilleure compréhension de la régulation des gènes. Elle se concentre sur la robustesse des mécanismes de régulation en fonction des vitesses de croissance des cellules et leur influence sur l'expression des gènes. Les méthodes actuelles ne permettent pas encore d'obtenir des conclusions satisfaisantes sur la population totale des cellules, nécessitant le développement de nouvelles méthodes mathématiques. Des approches comme l'approximation des fonctions propres du générateur du processus ou l'utilisation des arguments de renouvellement des processus de Lévy seront explorées pour améliorer les estimations des trajectoires du système.
 
+---
+
 ### un mot sur le candidat
 
 
+**j'ai pas compris le parcours du candidat**
+- pas de lettre de motivation
+- integré l'ENS Paris-Saclay en 2019 (donc actuellement BAC +7)
+- M2R 2021/2022, agregation ??
+- stage à Shanghai
+- stage à Grenoble avec Smadi et Marguet
+
 Préparation du Diplôme de l’École Normale
 Supérieure à Paris 09.2019 - .2024
+
+
 - Département de rattachement : Mathématiques & Applications
 - Admission par concours Informatique & Mathématiques Promotion 2019
-Master 2 Mathématiques de l’Aléatoire
+- Master 2 Mathématiques de l’Aléatoire
 à l’Université Paris-Saclays 09.2021 - 09.2022
-- Section Probabilités & Statistiques
-- Mention assez bien obtenue
-Classe Préparatoire MPSI/MP*
+- Section Probabilités & Statistiques Mention assez bien obtenue Classe Préparatoire MPSI/MP*
 
 
 ### un mot sur les Co-encadrants
@@ -194,25 +224,26 @@ sur des coupes ou in´egalit´es valides lin´eaires ou coniques.
 
 
 ### un mot sur le candidat
+
+
+
 - Moyenne générale de 17.05/20 mais 2019/2020
-- Master parcours Mathématiques Fondamentales - M1 Mathématiques Générales & M2 Research in
-Number Theory and Algebraic Geometry - mention Bien 2021/2022
+- Master parcours Mathématiques Fondamentales 
+- M1 Mathématiques Générales & M2 Research in Number Theory and Algebraic Geometry - mention Bien 2021/2022
 
 
-Master 2 ORCO (Operations Research, Combinatorics and Optimization) 2023 - 2024
-IM2AG, Université Grenoble Alpes
+- Master 2 ORCO (Operations Research, Combinatorics and Optimization) 2023 - 2024
+IM2AG
 Cours suivis :
 Optimization under Uncertainty, Advanced Method in Operations Research, Efficient Methods in Optimization, Constraint Programming, Graphs
 and discrete Structures, Combinatorial Optimization and Graph Theory
-Stage de M2 :
-"Mixed-integer semidefinite and conic optimization for sparse statistical estimations and combinatorial problems", travail de recherche encadré par
-Mathieu Besançon, Laboratoire d’Informatique de Grenoble, équipe Polaris
+- Stage de M2 : "Mixed-integer semidefinite and conic optimization for sparse statistical estimations and combinatorial problems", travail de recherche encadré par
+Mathieu Besançon, LIG, équipe Polaris
 
 ### un mot sur les Co-encadrants
 
 - [Besançon](https://github.com/matbesancon)
 - [Malick](https://www.academie-sciences.fr/fr/Laureats/laureat-2023-du-prix-jean-jacques-moreau-jerome-malick.html)
-
 
 
 Profils des encadrants.
