@@ -7485,7 +7485,7 @@ a.anchor-link {
 <h1 id="bits-and-pieces-of-code">bits and pieces of code<a class="anchor-link" href="#bits-and-pieces-of-code">¶</a></h1><p>But is this all just "point pushing"
 so that the group you get should be
 just the uniformizing group(oid) of the surface</p>
-<h3 id="References">References<a class="anchor-link" href="#References">¶</a></h3><ul>
+$$Q = -9(x+y)^2 + 45(y-x)^2 + 10(x-z)^2$$<h3 id="References">References<a class="anchor-link" href="#References">¶</a></h3><ul>
 <li>thesis : <a href="https://orbilu.uni.lu/bitstream/10993/50710/1/thesis-merged.pdf">https://orbilu.uni.lu/bitstream/10993/50710/1/thesis-merged.pdf</a></li>
 <li>orthotrees : <a href="https://arxiv.org/abs/2112.10694">https://arxiv.org/abs/2112.10694</a></li>
 </ul>
@@ -7510,10 +7510,21 @@ just the uniformizing group(oid) of the surface</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<hr/>
+<h3 id="The-flip">The flip<a class="anchor-link" href="#The-flip">¶</a></h3><p>$X^+ + X^- = \frac{y + z}{x - 1}(Y + Z)$</p>
+<h3 id="Coeffs-in-flips">Coeffs in flips<a class="anchor-link" href="#Coeffs-in-flips">¶</a></h3><p>$(x,y,z) = ( 3,17, 21)$</p>
 <ol>
-<li>$X^+ + X^- = \frac{3}{2}(Y + Z)$</li>
-<li>$X^+ + X^- = 19(Y + Z)$</li>
+<li>38/2 = 19</li>
+<li>24/16 = 3/2</li>
+<li>20/20 = 1</li>
 </ol>
+<hr/>
+<ol>
+<li>$X^+ + X^- = 19(Y + Z)$</li>
+<li>$X^+ + X^- = \frac{3}{2}(Y + Z)$</li>
+<li>$X^+ + X^- = (Y + Z)$</li>
+</ol>
+<hr/>
 </div>
 </div>
 </div>
@@ -7535,8 +7546,12 @@ just the uniformizing group(oid) of the surface</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Objective">Objective<a class="anchor-link" href="#Objective">¶</a></h1><p>calculate the hyperbolic distance between the fixed points $a,b$
-of the involutions that generate Doan's group.</p>
+<h1 id="Objective">Objective<a class="anchor-link" href="#Objective">¶</a></h1><p>Calculate the hyperbolic distance between the fixed points</p>
+<pre><code>fp_x = [19,1,1]
+fp_y = [1,1.5,1]
+fp_z = [1,1,1]
+</code></pre>
+<p>of the involutions <code>gx,gy,gz</code> that generate Doan's group:</p>
 <p>one can do this using the inner product $B$ associated to the quadatic form :</p>
 <p>$\cosh( d(u,v)) = B(u,v)$</p>
 <p>$d(u,v) = 1/2 \ell_\gamma$ where $\gamma$ 
@@ -7547,17 +7562,40 @@ inversions in $a$ and $b$.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f9d63980-2720-4230-a89e-3740141c1857">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=16d37424-a2c6-43be-a651-f4848dfc1c5a">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [384]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">v</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[384]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>array([17,  3, -1])</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=1da2b633-3f71-4e40-acd2-516be991c7a4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><img alt="tt" src="./doan_fig.png"/></p>
 </div>
 </div>
 </div>
@@ -7591,7 +7629,7 @@ inversions in $a$ and $b$.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [160]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [385]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">Q</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
@@ -7599,7 +7637,7 @@ inversions in $a$ and $b$.</p>
     <span class="k">return</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">36</span><span class="o">*</span><span class="n">y</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">55</span><span class="o">*</span><span class="n">z</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">18</span><span class="o">*</span><span class="n">x</span><span class="o">*</span><span class="n">y</span> <span class="o">-</span> <span class="mi">20</span><span class="o">*</span><span class="n">x</span><span class="o">*</span><span class="n">z</span> <span class="o">-</span> <span class="mi">90</span><span class="o">*</span><span class="n">y</span><span class="o">*</span><span class="n">z</span>
 
 <span class="k">def</span> <span class="nf">ip</span><span class="p">(</span><span class="n">u</span><span class="p">,</span><span class="n">v</span><span class="p">):</span>
-    <span class="c1"># stanadard way to get the inner product from a q-form</span>
+    <span class="c1"># standard way to get the inner product from a q-form</span>
     <span class="n">uu</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">u</span><span class="p">)</span>
     <span class="n">vv</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
 
@@ -7656,29 +7694,15 @@ inversions in $a$ and $b$.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=97454a0c-0e94-4725-bcbd-24b2933606a7">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9645300f-6a53-43cb-a6ae-6913c32c8829">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [317]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">values</span><span class="p">,</span><span class="n">vectors</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">eig</span><span class="p">(</span><span class="n">QM</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=84ffbfa9-d75d-472b-a25a-10b2dc25ce01">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">vectors</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">Q</span><span class="p">([</span><span class="mi">17</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">]),</span> <span class="n">DD</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">17</span><span class="p">,</span><span class="mi">21</span><span class="p">])</span><span class="o">/</span><span class="mi">8</span><span class="p">,</span> <span class="p">[</span><span class="mi">17</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">@</span> <span class="n">QM</span> <span class="o">@</span> <span class="p">[</span><span class="mi">17</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -7689,81 +7713,9 @@ inversions in $a$ and $b$.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[317]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>array([[-0.68751521, -0.72578408, -0.02367096],
-       [-0.55523217,  0.54640603, -0.62702288],
-       [-0.46801718,  0.41794489,  0.77864112]])</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=9a87894c-697a-402f-9bec-34c1b391b153">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">P</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span> <span class="n">v</span><span class="o">/</span><span class="n">x</span> <span class="k">for</span>  <span class="n">x</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">values</span><span class="p">)),</span> <span class="n">vectors</span><span class="o">.</span><span class="n">T</span><span class="p">)</span> <span class="p">])</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=dcdd6746-04bd-499f-8e94-ef36f08a772f">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">P</span><span class="nd">@QM@P</span><span class="o">.</span><span class="n">T</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>array([[-1.00000000e+00,  8.32667268e-17,  2.77555756e-17],
-       [ 2.77555756e-17,  1.00000000e+00,  2.77555756e-17],
-       [-1.11022302e-16,  0.00000000e+00,  1.00000000e+00]])</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bec5ddb3-4462-46e2-86b0-2c3a5b212d09">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [308]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">P</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[308]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>array([[-0.19012961, -0.15354726, -0.1294283 ],
-       [-0.19728387,  0.14852502,  0.11360649],
-       [-0.00247404, -0.06553515,  0.08138198]])</pre>
+<pre>(360, 360.0, 360)</pre>
 </div>
 </div>
 </div>
@@ -7775,34 +7727,7 @@ inversions in $a$ and $b$.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<hr/>
 <h2 id="Playing-with-Doan's-generators">Playing with Doan's generators<a class="anchor-link" href="#Playing-with-Doan's-generators">¶</a></h2>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2f227901-3848-4fa2-a96a-0b28294d9415">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">Q</span><span class="p">([</span><span class="mi">17</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">]),</span> <span class="n">DD</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">17</span><span class="p">,</span><span class="mi">21</span><span class="p">])</span><span class="o">/</span><span class="mi">8</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>(360, 360.0)</pre>
-</div>
 </div>
 </div>
 </div>
@@ -7886,6 +7811,79 @@ inversions in $a$ and $b$.</p>
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=13817303-53bb-4839-89c3-3cf4b2e10f5f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="so-this-is-important!">so this is important!<a class="anchor-link" href="#so-this-is-important!">¶</a></h1><p>the root vector is invariant under the "commutator"
+it's actually represented as a cycle in Doan's figure above</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=05904df8-ad54-44ca-b944-8396bd8b3de6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [359]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">gy</span><span class="nd">@gz@gx@v</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[359]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>array([17.,  3., -1.])</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=22931c7c-7834-4a30-836a-ab3daa12e4a6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [373]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">loxo</span> <span class="o">=</span> <span class="n">gy</span><span class="nd">@gz@gx</span>
+<span class="c1"># find the eigenvectors on the light cone</span>
+<span class="n">fs</span><span class="p">,</span><span class="n">fu</span>  <span class="o">=</span> <span class="p">[</span><span class="n">_</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">eig</span><span class="p">(</span><span class="n">loxo</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">T</span> <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">Q</span><span class="p">(</span><span class="n">_</span><span class="p">))</span> <span class="o">&lt;</span> <span class="mf">.00001</span><span class="p">]</span>
+<span class="c1"># randomly pick points in the plane</span>
+<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">fs</span> <span class="o">+</span> <span class="n">fu</span><span class="p">,</span> <span class="n">fs</span> <span class="o">-</span> <span class="n">fu</span>
+<span class="n">nn</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="n">fs</span><span class="p">,</span><span class="n">fu</span><span class="p">)</span>
+<span class="c1"># find which one is on the axis of loxo in the plane</span>
+<span class="n">pt</span> <span class="o">=</span> <span class="p">[</span><span class="n">_</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">]</span> <span class="k">if</span> <span class="n">Q</span><span class="p">(</span><span class="n">_</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+<span class="c1"># calculate the translation length</span>
+<span class="n">ip</span><span class="p">(</span><span class="n">loxo</span><span class="nd">@pt</span><span class="p">,</span><span class="n">pt</span><span class="p">)</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">Q</span><span class="p">(</span><span class="n">pt</span><span class="p">)</span> <span class="o">*</span> <span class="n">Q</span><span class="p">(</span><span class="n">loxo</span><span class="nd">@pt</span><span class="p">)</span> <span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[373]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>-3.5000000000000147</pre>
+</div>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ab091d6d-608d-4753-82ba-39d30d2cfb51">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7916,6 +7914,221 @@ inversions in $a$ and $b$.</p>
  array([[0, 0, 0],
         [0, 0, 0],
         [0, 0, 0]]))</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9ab996d5-a1f1-4b92-8cde-ec3e6df42abc">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="fixed-points-of-the-elliptics">fixed points of the elliptics<a class="anchor-link" href="#fixed-points-of-the-elliptics">¶</a></h2><ul>
+<li>gx,gy,gz are diagonalisable</li>
+<li>1 is an eigenvalue, the  eigenvector v satisfies Q(v) &lt; 0</li>
+<li>-1 is an eigenvalue of multiplicity 2 eigenvectors v satisfy Q(v) &gt; 0</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=f4b5ee25-7811-4894-8657-1a249323d0a4">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [321]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">fp_x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">19</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">fp_y</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mf">1.5</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">fp_z</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=bf708b8c-f867-4a97-b96f-786216605d5c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="calculate">calculate<a class="anchor-link" href="#calculate">¶</a></h2><p>the distances between the fixed points</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c3be171d-90aa-47b2-8794-326614ed08d7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [322]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">L</span> <span class="o">=</span> <span class="p">[</span><span class="n">fp_x</span><span class="p">,</span> <span class="n">fp_y</span><span class="p">,</span> <span class="n">fp_z</span><span class="p">,</span> <span class="n">fp_x</span><span class="p">]</span>
+
+<span class="n">traces</span> <span class="o">=</span> <span class="p">[</span> <span class="mi">2</span><span class="o">*</span><span class="n">ip</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">Q</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">*</span> <span class="n">Q</span><span class="p">(</span><span class="n">y</span><span class="p">)</span> <span class="p">)</span> <span class="k">for</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">L</span><span class="p">,</span><span class="n">L</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span> <span class="p">]</span>
+<span class="k">for</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">L</span><span class="p">,</span><span class="n">L</span><span class="p">[</span><span class="mi">1</span><span class="p">:]):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+    <span class="n">cosh</span> <span class="o">=</span> <span class="n">ip</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">Q</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">*</span> <span class="n">Q</span><span class="p">(</span><span class="n">y</span><span class="p">)</span> <span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span> <span class="mi">2</span><span class="o">*</span><span class="n">cosh</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">1</span> <span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>[19, 1, 1] [1, 1.5, 1]
+23.999999999999996
+[1, 1.5, 1] [1, 1, 1]
+1.5000000000000004
+[1, 1, 1] [19, 1, 1]
+18.999999999999996
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=74fca7f3-8640-4f6d-99ba-7a581a7241e1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="consistent-with-the-commutator-calculation-below">consistent with the commutator calculation below<a class="anchor-link" href="#consistent-with-the-commutator-calculation-below">¶</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ee7460ba-ce6f-4d89-8f4d-6ad73c440970">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [344]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="n">traces</span>
+<span class="p">[</span><span class="n">_</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">2</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">traces</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[344]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>[47.99999999999999, 3.000000000000001, 37.99999999999999]</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a23904f8-ff33-4316-8b08-5a9487ca25f0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=13147e28-40fc-460b-bf6f-e3fcec47f618">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>there is a problem with the signs</strong>
+so it's $+xyz$ and not $-xyz$</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b5df3a9e-54bb-40c3-acfe-21f9930b83c2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [345]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">y</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">z</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span>  <span class="n">x</span><span class="o">*</span><span class="n">y</span><span class="o">*</span><span class="n">z</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[345]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>-5.0</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=891899d2-44a3-4b11-9c52-06e3ebe91e5c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="this-is-all-we-really-need">this is all we really need<a class="anchor-link" href="#this-is-all-we-really-need">¶</a></h2><p>to calculate to determine what the group is SO(2,1) = SL(2,R)</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d6bd3deb-7533-42fb-bca7-cb9845650dd5">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [348]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">loxos</span> <span class="o">=</span> <span class="p">[</span><span class="n">gx</span><span class="nd">@gy</span><span class="p">,</span> <span class="n">gx</span><span class="nd">@gz</span><span class="p">,</span> <span class="n">gy</span><span class="nd">@gz</span><span class="p">]</span>
+<span class="n">pts</span> <span class="o">=</span> <span class="p">[</span><span class="n">fp_y</span><span class="p">,</span><span class="n">fp_z</span><span class="p">,</span><span class="n">fp_z</span><span class="p">]</span>
+
+
+<span class="p">[</span><span class="n">ip</span><span class="p">(</span><span class="n">pt</span><span class="p">,(</span><span class="n">loxo</span><span class="p">)</span><span class="nd">@pt</span><span class="p">)</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">Q</span><span class="p">(</span><span class="n">pt</span><span class="p">)</span> <span class="o">*</span> <span class="n">Q</span><span class="p">((</span><span class="n">loxo</span><span class="p">)</span><span class="nd">@pt</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">loxo</span><span class="p">,</span> <span class="n">pt</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">loxos</span><span class="p">,</span><span class="n">pts</span><span class="p">)]</span>
+    
+
+<span class="c1">#5**2 - 1</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[348]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>[-24.0, -19.0, -1.5]</pre>
 </div>
 </div>
 </div>
@@ -8305,7 +8518,7 @@ of the boundary geodesics from this.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [140]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [367]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">comm1</span>
@@ -8319,11 +8532,11 @@ of the boundary geodesics from this.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[140]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[367]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>array([[  1. ,   0. ,   0. ],
-       [ 57.5,  26. , -27.5],
-       [ 38. ,  18. , -19. ]])</pre>
+<pre>array([[  8.5,  75. , -27.5],
+       [  0. ,   1. ,   0. ],
+       [  0.5,   3. ,  -1.5]])</pre>
 </div>
 </div>
 </div>
@@ -8344,7 +8557,7 @@ of the boundary geodesics from this.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [149]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [368]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">fp_s</span><span class="p">,</span><span class="n">fp_u</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">eig</span><span class="p">(</span><span class="n">comm1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">[:</span><span class="mi">2</span><span class="p">]</span>
@@ -8372,7 +8585,7 @@ of the boundary geodesics from this.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [158]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [369]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="o">=</span> <span class="n">fp_s</span> <span class="o">+</span> <span class="n">fp_u</span><span class="p">,</span> <span class="n">fp_s</span> <span class="o">-</span> <span class="n">fp_u</span>
@@ -8388,7 +8601,7 @@ of the boundary geodesics from this.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[158]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[369]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(-3.125829202412346, 3.1258292024123473)</pre>
 </div>
@@ -8411,7 +8624,7 @@ of the boundary geodesics from this.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [156]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [370]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">normal</span><span class="nd">@a</span><span class="p">,</span> <span class="n">normal</span><span class="o">@</span><span class="p">(</span><span class="n">comm1</span><span class="nd">@a</span><span class="p">)</span>
@@ -8425,7 +8638,7 @@ of the boundary geodesics from this.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[156]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[370]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>(0.0, 0.0)</pre>
 </div>
@@ -8451,7 +8664,7 @@ of the boundary geodesics from this.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [153]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [371]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">ip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">comm1</span><span class="nd">@a</span><span class="p">)</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">Q</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="o">*</span><span class="n">Q</span><span class="p">(</span><span class="n">comm1</span><span class="nd">@a</span><span class="p">))</span>
@@ -8465,9 +8678,35 @@ of the boundary geodesics from this.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[153]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[371]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>-3.4999999999999982</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c353857e-9046-4813-b5f7-25b9b0bd03e3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [303]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="mf">3.5</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[303]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>7.0</pre>
 </div>
 </div>
 </div>
@@ -8610,7 +8849,7 @@ of the boundary geodesics from this.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="calculation-with-the-loxodromics">calculation with the loxodromics<a class="anchor-link" href="#calculation-with-the-loxodromics">¶</a></h2><p>gx@gy etc</p>
+<h2 id="calculation-with-the-loxodromics">calculation with the loxodromics<a class="anchor-link" href="#calculation-with-the-loxodromics">¶</a></h2><p>gx@gy</p>
 <p>This is the same calculation that we did for the boundary holonomy</p>
 </div>
 </div>
@@ -8620,7 +8859,7 @@ of the boundary geodesics from this.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [222]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [250]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">loxo</span> <span class="o">=</span> <span class="n">gx</span><span class="nd">@gy</span>
@@ -8631,7 +8870,7 @@ of the boundary geodesics from this.</p>
 <span class="n">nn</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">cross</span><span class="p">(</span><span class="n">fs</span><span class="p">,</span><span class="n">fu</span><span class="p">)</span>
 <span class="c1"># find which one is on the axis of loxo in the plane</span>
 <span class="n">pt</span> <span class="o">=</span> <span class="p">[</span><span class="n">_</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">]</span> <span class="k">if</span> <span class="n">Q</span><span class="p">(</span><span class="n">_</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
-<span class="c1"># pt = gx_fp we could have done this</span>
+<span class="n">pt</span> <span class="o">=</span> <span class="n">gy_fp</span> <span class="c1">#we could have done this</span>
 <span class="c1"># calculate the translation length</span>
 <span class="n">ip</span><span class="p">(</span><span class="n">loxo</span><span class="nd">@pt</span><span class="p">,</span><span class="n">pt</span><span class="p">)</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">Q</span><span class="p">(</span><span class="n">pt</span><span class="p">)</span> <span class="o">*</span> <span class="n">Q</span><span class="p">(</span><span class="n">loxo</span><span class="nd">@pt</span><span class="p">)</span> <span class="p">)</span>
 </pre></div>
@@ -8644,9 +8883,9 @@ of the boundary geodesics from this.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[222]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[250]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>-24.000000000004604</pre>
+<pre>-24.0</pre>
 </div>
 </div>
 </div>
@@ -8656,10 +8895,10 @@ of the boundary geodesics from this.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [215]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [261]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="mi">24</span><span class="p">,</span><span class="mi">19</span><span class="p">,</span> <span class="mf">1.5</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">eig</span><span class="p">(</span><span class="n">gx</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">/</span><span class="mf">0.05248639</span> 
 </pre></div>
 </div>
 </div>
@@ -8670,9 +8909,9 @@ of the boundary geodesics from this.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[215]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[261]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>(24, 19, 1.5)</pre>
+<pre>array([18.99999932,  0.99999996,  0.99999996])</pre>
 </div>
 </div>
 </div>
@@ -8682,10 +8921,10 @@ of the boundary geodesics from this.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [216]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [264]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="mi">48</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">38</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">3</span><span class="o">*</span><span class="mi">48</span><span class="o">*</span><span class="mi">38</span><span class="o">*</span><span class="mi">3</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">gx</span><span class="nd">@fp_x</span> <span class="o">+</span> <span class="n">fp_x</span>
 </pre></div>
 </div>
 </div>
@@ -8696,9 +8935,9 @@ of the boundary geodesics from this.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[216]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[264]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>-12659</pre>
+<pre>array([0, 0, 0])</pre>
 </div>
 </div>
 </div>
@@ -8723,10 +8962,11 @@ of the boundary geodesics from this.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [194]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [335]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">17</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8737,9 +8977,43 @@ of the boundary geodesics from this.</p>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[194]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[335]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>360</pre>
+<pre>1.000000000000004</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f139b1ce-4dfb-438c-8bb0-31e8328bd5a2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [332]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">t</span><span class="p">,</span> <span class="n">t</span><span class="o">*</span><span class="p">(</span><span class="mi">19</span><span class="o">-</span><span class="n">t</span><span class="p">)</span><span class="o">-</span> <span class="mi">1</span> <span class="p">)</span><span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[332]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>[(1, 17),
+ (2, 33),
+ (3, 47),
+ (4, 59),
+ (5, 69),
+ (6, 77),
+ (7, 83),
+ (8, 87),
+ (9, 89)]</pre>
 </div>
 </div>
 </div>
