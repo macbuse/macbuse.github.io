@@ -12,6 +12,91 @@
 1. ZOPPIS LJK/LIG 
 
 
+---
+
+
+# Encadrement
+
+
+
+#### Forbes
+
+1. Yuchen Bai, 25%, until December 2024
+2. Jacopo Iollo, 34%, until December 2024
+3. Geoffroy Oudoumanessah, 34%, until September 2025
+4. Brice Marc, 34%, until September 2025
+5. Theo Sylvestre, 40%, until September 2025
+6. Pierre-Louis Ruhlmann, 34%, until September 2026
+
+
+#### AMER-YAHIA
+
+PhDs since 2022 (3): 
+1. S. Eleftheraki on adaptive recommendations, 
+1. A. Mandamadiotis on data exploration (ATHENA Institute, Greece),
+1. A. Rio on long-term fairness (Huawei Paris, France).
+
+
+PhDs 2019-2023 (2):
+1. N. Bouarour, funded by the Multidisciplinary Institute for Artificial Intelligence (MIAI) on recommendations,
+1. T. Kletti, funded by Naver Labs Europe, on fairness.
+
+---
+
+#### Sylvain Meignen
+
+1. Basile Dubois-Bonnaire,”Techniques d’optimisation pour la s´eparation des modes dans le plan temps fr´equence”,
+october 2023-, co-supervision Kevin Polisano
+1. Nils Laurent, ”Time-frequency analysis of non-stationnary multicomponent signals”,
+october 2019-october 2022 (co-supervision Bertrand Rivet and Julie Fontecave, bourse IRS,Idex),
+now post-doc at ENS Lyon, with Nelly Pustelnik.
+Quentin Legros,”Bayesian approaches to Lidar Imaging”,
+
+#### Max Langer
+
+
+1. R Dupraz, “Deep learning phase retrieval methods for modulation-based phase contrast imaging,” 2023- 
+1. C Ninham, “Spectral X-ray phase contrast imaging using modulation masks,” 2 conference 
+contributions, 2021-2024.
+1. E Pietersoone, “Monte Carlo simulation of X-ray phase contrast and dark-field imaging for medical 
+imaging and microscopy,” 2 journal articles, 3 conference contributions 2022-2025.
+
+---
+
+
+#### Charline smadi
+
+1. 2021 - . : Charles Medous, Institut Fourier et INRIA. Coencadrement avec Aline Marguet (INRIA, 
+Grenoble) et Loren Coquille (IF, Grenoble)
+1. 2023 - . : Chloé Mian, Institut Fourier. Coencadrement avec Sylvain Billiard (Univ. Lille) et Violaine 
+Llaurens (Collège de France, Paris)
+
+
+#### Aline MARGUET
+
+
+1. 2021 - . : Charles Medous, Institut Fourier et INRIA.
+   Coencadrement avec Charline Smadi (IF, Grenoble)
+1. 2020 - . : Emrys Reginato, Inria. Co-encadrement avec Eugenio Cinquemani (Inria,
+Grenoble)
+
+
+---
+
+#### Mathieu BESANÇont
+
+1. Supervised Ph.D. student, Deborah Hendrych (2023-2027), TU Berlin, co￾supervised with Sebastian Pokutta, funding by the MATH+ Berlin Cluster
+
+
+#### Jérôme MALICK
+
+Current 4 PhD students :
+
+1. Florian Vincent (2023-) codirected with V. Acary (LJK)
+1. Pierre-Louis Cauvin (2023-) codirected with P. Mertikopoulos (LIG)
+1. Waiss Azizian (2021-) codirected F. Iutzeler (Toulouse) and P. Mertikopoulos (LIG)
+1. Selim Chraibi (2019-2024) codirected with F. Iutzeler (Toulouse)
+(long thesis due to health issues ; defense planned in october)
 
 ---
 
@@ -130,6 +215,15 @@ M2-MSIAM MSc in Industrial and Applied Mathematics a l’UGA
 • Traitement naturel des langues (NLP) and information retrieval
 
 
+Les points forts de Charaf sont sa curiosité et sa capacité à
+apprendre rapidement. Il a une bonne connaissance des mathématiques
+et de l’informatique, et il a déjà une expérience en traitement du
+signal. Il a également une bonne capacité à travailler en équipe et
+à communiquer ses résultats. Il a déjà travaillé sur des projets
+de recherche et de développement, et il a une bonne capacité    
+d’adaptation. 
+
+
 ### Lettre de recommandation de [Meignen]
 
 ### un mot sur les Co-encadrants
@@ -182,6 +276,11 @@ Supérieure à Paris 09.2019 - .2024
 - Master 2 Mathématiques de l’Aléatoire
 à l’Université Paris-Saclays 09.2021 - 09.2022
 - Section Probabilités & Statistiques Mention assez bien obtenue Classe Préparatoire MPSI/MP*
+
+les points faibles du dossier sont l'absence de lettre de motivation
+et de relevé de notes.
+
+
 
 
 ### un mot sur les Co-encadrants
