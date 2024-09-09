@@ -59,8 +59,8 @@ $$2y^2 = \sqrt{2} - 1 \Rightarrow y^2 = \frac{\sqrt{2} - 1}{2}
 $$
 On a que $xy>0$ donc $x$ et $y$ ont le même signe. Les solutions
 sont donc :
-$$Z_1 = x + iy = \sqrt{\frac{1}{2} + \frac{\sqrt{2}}{2}} +
-\sqrt{\frac{\sqrt{2} - 1}{2}}i$$
+$$Z_1 = x + iy = \sqrt{\left(\frac{1}{2} + \frac{\sqrt{2}}{2}\right)} +
+\sqrt{\left(\frac{\sqrt{2} - 1}{2}\right)}i$$
 
 
 ### Conclusion :
