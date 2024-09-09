@@ -28,7 +28,8 @@ by buying a hot chocolate for him
 
 ```
 
-And [here is the result](./story.md).
+And [here is the result](./story.md)
+et en français [ici](./story_french.md).
 
 ### Plus serieusement 
 
@@ -42,8 +43,8 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 1. [Correction
 WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
-1. [Correction ChatGPT](./chatgpt.md)
-1. [Correction ChatGPT](./chatgpt.pdf)
+1. [Correction ChatGPT texte](./chatgpt.md)
+1. [Correction ChatGPT pdf](./chatgpt.pdf)
 
  <!-- 16-17 -->
 
