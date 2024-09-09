@@ -43,27 +43,26 @@ Nous avons :
 $$Z^2 = (x + iy)^2 = x^2 - y^2 + 2ixy$$
 Cela doit être égal à $1 + i$. En identifiant la partie réelle et la partie imaginaire, on obtient deux équations :
 
-- Partie réelle :
-$$x^2 - y^2 = 1
-$$
-- Partie imaginaire :
+1. Partie réelle :
+$$x^2 - y^2 = 1$$
+2. Partie imaginaire :
 $$2xy = 1
 $$
+3. Module
+$$x^2 + y^2 = \sqrt{2}$$
+
 - **Étape 2 : Résolution du système**.
 
-De $2xy = 1$, on trouve :
-$$xy = \frac{1}{2}$$
-Remplaçons $y$ par $\frac{1}{2x}$ dans la première équation :
-$$x^2 - \left(\frac{1}{2x}\right)^2 = 1$$
-Cela donne :
-$$x^4 - 1 = \frac{1}{4x^2}$$
-En multipliant par $4x^2$ de chaque côté :
-$$4x^6 - 4x^2 = 1$$
-qui est une équation en $x^2$. Posons $u = x^2$, on obtient :
-$$4u^3 - 4u - 1 = 0
+De (1),(3), on trouve :
+$$2x^2 = \sqrt{2} + 1 \Rightarrow x^2 = \frac{\sqrt{2} + 1}{2} = \frac{1}{2} + \frac{\sqrt{2}}{2}$$
+$$2y^2 = \sqrt{2} - 1 \Rightarrow y^2 = \frac{\sqrt{2} - 1}{2}
 $$
-Cette équation doit être résolue numériquement ou à l'aide de méthodes algébriques spécifiques. Les solutions de ce système donneraient les valeurs de $x$ et $y$, puis les deux solutions pour $Z$.
+On a que $xy>0$ donc $x$ et $y$ ont le même signe. Les solutions
+sont donc :
+$$Z_1 = x + iy = \sqrt{\frac{1}{2} + \frac{\sqrt{2}}{2}} +
+\sqrt{\frac{\sqrt{2} - 1}{2}}i$$
+
 
 ### Conclusion :
-- La forme exponentielle permet d'obtenir les solutions $Z_1 = 2^{1/4} \cdot e^{i \frac{\pi}{8}}$ et $Z_2 = 2^{1/4} \cdot e^{i \frac{9\pi}{8}}$.
-- En forme algébrique, la résolution d'un système d'équations différentielles donne les solutions pour $x$ et $y$.
+
+ChatGPT  ne sait pas tout.
