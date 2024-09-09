@@ -105,11 +105,11 @@ WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
 ---
 
 [F1](./Fiche1-complexes.pdf)
-- [quick test Octobre 2022](./quick_test.pdf)
+<!-- - [quick test Octobre 2022](./quick_test.pdf) -->
 
 ---
 
-**Preparer** Exos 16,18
+<!-- **Preparer** Exos 16,18 -->
 
 **Preparer** Exos 9,10
 
