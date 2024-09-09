@@ -33,7 +33,7 @@ et en français [ici](./story_french.md).
 
 ### Plus serieusement 
 
-Obtenir une correction avec Chatgpt
+Obtenir une correction avec Chatgpt :
 
 Feuille 1 : [complexes](./Fiche1-complexes.pdf)
 Exo 33. 1
@@ -41,11 +41,11 @@ Exo 33. 1
 Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique et forme exponentielle.
 
 
-1. [Correction
+- [Correction
 WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
-1. [Correction ChatGPT](./chatgpt.html)
-1. [Correction ChatGPT pdf](./chatgpt.pdf)
-1. [ChatGPT corrigé par Copilot et Prof](./chatgpt_corrected.html)
+- [Correction ChatGPT html](./chatgpt.html)
+- [Correction ChatGPT pdf](./chatgpt.pdf)
+- [ChatGPT corrigé par Copilot et Prof](./chatgpt_corrected.html)
 
  <!-- 16-17 -->
 
