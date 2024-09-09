@@ -21,7 +21,7 @@ Just in case you are wondering why this page is on GitHub
 [read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/) and here are  [my github repos](https://github.com/macbuse)
 I've just added a [new repo](https://github.com/macbuse/FAREY_DIAGRAM/tree/main) for a project I'm working on with a student.
 
-I'm in Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024. On Friday 14/6 I'll be giving a talk 
+Went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024. On Friday 14/6 I'll be giving a talk 
 
 - [Slides: Automorphisms and elementary number theory](./TIT2023/singapore.html).
 
@@ -51,21 +51,22 @@ I'm in Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/
 
 #### MAT 102
 
-<!-- - First class: 13/9 -->
-<!-- - Wednesdays 15h15, Thursday 8h -->
+- First class: 11/9
+- Wednesdays 11h30, Friday 13h30
 - [web page for class](./MAT102/index.md)
 
 
 #### MAT305
 
-<!-- - First class: 12/9 -->
-<!-- - Tuesdays 8:00 Wednesdays 9:45 -->
+- First class: 10/9
+- Tuesdays 8:00 Wednesdays 9:45
 - [web page for class](./MAT305/index.md)
 
 
 ### Second semester
 
-- delegation CNRS
+- Magistère Algebraic Topology 
+- L3 Differential Geometry
 
 
 ---

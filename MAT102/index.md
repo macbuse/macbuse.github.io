@@ -1,19 +1,22 @@
 # MAT 102
 
-- First class: 13/9
-- Wednesdays 15h15, Thursday 8h
+- First class: 11/9
+- Wednesdays 11h30 D004
+-  Friday 13h30 E207
 
+<!-- **IMPORTANT Quick test 1 le 5/10** -->
 
-**IMPORTANT Quick test 1 le 5/10**
-
-- [quick test Octobre 2022](./quick_test.pdf)
+## Résources 
 
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
 - [poly](./polyMAT102-main.pdf) 
+- [quick test Octobre 2022](./quick_test.pdf)
+- [exam 2020](./MAT102_Examen_Session1_2020-2021.pdf)
+- [exam 2021](./MAT102_Examen_Session1_2021-2022.pdf)
 
 <!-- --- -->
 
-<!-- - Last class 15/12 : bonnes vacances --> 
+#### Last class 15/12/2022 : bonnes vacances 
 - My [new friend the ChatGPT](https://chat.openai.com/chat) wrote a story for us.
 
 ```
@@ -26,6 +29,20 @@ by buying a hot chocolate for him
 ```
 
 And [here is the result](./story.md).
+
+### Plus serieusement 
+
+Obtenir une correction avec Chatgpt
+
+Feuille 1 : [complexes](./Fiche1-complexes.pdf)
+Exo 33. 1
+
+Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique et forme exponentielle.
+
+
+1. [Correction
+WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
+1. [Correction ChatGPT](./chatgpt.md)
 
  <!-- 16-17 -->
 
@@ -40,44 +57,42 @@ And [here is the result](./story.md).
 
 <!-- --- -->
 
-- [exam 2020](./MAT102_Examen_Session1_2020-2021.pdf)
-- [exam 2021](./MAT102_Examen_Session1_2021-2022.pdf)
 
----
+<!-- --- -->
 
-[F5](./Fiche5-integrales.pdf)
+<!-- [F5](./Fiche5-integrales.pdf) -->
 
-- [exo 5](./Fiche5Ex5.pdf)
-- [exo 6](./Fiche5Ex6.pdf)
-- [exo 7](./Fiche5Ex7.pdf)
-- [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29)
-- [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29)
-- [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29)
-- [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29)
-- [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29)
-- [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29)
+<!-- - [exo 5](./Fiche5Ex5.pdf) -->
+<!-- - [exo 6](./Fiche5Ex6.pdf) -->
+<!-- - [exo 7](./Fiche5Ex7.pdf) -->
+<!-- - [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29) -->
+<!-- - [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29) -->
+<!-- - [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29) -->
+<!-- - [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29) -->
+<!-- - [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29) -->
+<!-- - [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29) -->
 
 <!-- --- -->
 
 ---
 
-[F4](./Fiche4-fonctions.pdf)
+<!-- [F4](./Fiche4-fonctions.pdf) -->
 
 
 ---
 
 <!-- --- -->
 
-[F3](./Fiche3-geometrie.pdf)
+<!-- [F3](./Fiche3-geometrie.pdf) -->
 
-[quick test géométrie 2022](./qt3.pdf)
+<!-- [quick test géométrie 2022](./qt3.pdf) -->
 
 
 
 ---
 
-[F2](./Fiche2-sommes-produits.pdf)
-- [quick test](./qt2.pdf)
+<!-- [F2](./Fiche2-sommes-produits.pdf) -->
+<!-- - [quick test](./qt2.pdf) -->
 
 <!-- - [Suite arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique) -->
 <!-- - [Suite géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique) -->
@@ -103,40 +118,37 @@ And [here is the result](./story.md).
 ---
 
 
-### exos avec commentaires
+<!-- ### exos avec commentaires -->
 
-**Exo 4**
+<!-- **Exo 4** -->
 
-1. pas de solution
+<!-- 1. pas de solution -->
+<!-- 1. [solve −5x^2−9x+2 = 0](https://www.wolframalpha.com/input?i=solve++%E2%88%925x%5E2%E2%88%929x%2B2) -->
+<!-- 1. [solve  1/3 x^2−2x+3 = 0](https://www.wolframalpha.com/input?i=solve++1%2F3+x%5E2%E2%88%922x%2B3+%3D+0) -->
+<!-- 1. [ −4x+3x^2+1 = 0](https://www.wolframalpha.com/input?i=solve+++%E2%88%924x%2B3x%5E2%2B1+%3D+0) -->
 
-1. [solve −5x^2−9x+2 = 0](https://www.wolframalpha.com/input?i=solve++%E2%88%925x%5E2%E2%88%929x%2B2)
-1. [solve  1/3 x^2−2x+3 = 0](https://www.wolframalpha.com/input?i=solve++1%2F3+x%5E2%E2%88%922x%2B3+%3D+0)
-1. [ −4x+3x^2+1 = 0](https://www.wolframalpha.com/input?i=solve+++%E2%88%924x%2B3x%5E2%2B1+%3D+0)
 
-**Exo 6**
+<!-- Distance AB = longueur du vecteur A - B (et du B - A) -->
 
-Distance AB = longueur du vecteur A - B (et du B - A)
-
-1. [(2, 1)  - (−1, 2)](https://www.wolframalpha.com/input?i=%282%2C+1%29++-+%28%E2%88%921%2C+2%29)
-
-1. [(5, −3)  - (3,
-1)](https://www.wolframalpha.com/input?i=%285%2C+%E2%88%923%29++-+%283%2C+1%29)
+<!-- 1. [(2, 1)  - (−1, 2)](https://www.wolframalpha.com/input?i=%282%2C+1%29++-+%28%E2%88%921%2C+2%29) -->
+<!-- 1. [(5, −3)  - (3, -->
+<!-- 1)](https://www.wolframalpha.com/input?i=%285%2C+%E2%88%923%29++-+%283%2C+1%29) -->
 
 ---
 
 
-**1.3.1.2 Calcul des racines carrées via la forme algébrique**
+<!-- **1.3.1.2 Calcul des racines carrées via la forme algébrique** -->
 
-- [11 e](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D+8+%E2%88%92+6i)
-- [11 f](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%E2%88%923+%2B+4i)
-- [11 g](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+7+%2B+24i)
-- [11 h](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+9+%2B40+i)
+<!-- - [11 e](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D+8+%E2%88%92+6i) -->
+<!-- - [11 f](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%E2%88%923+%2B+4i) -->
+<!-- - [11 g](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+7+%2B+24i) -->
+<!-- - [11 h](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+9+%2B40+i) -->
 
-**1.3.2 Résolution d’une équation du second degré dans C**
+<!-- **1.3.2 Résolution d’une équation du second degré dans C** -->
 
-- [12 a](https://www.wolframalpha.com/input?i=solve+z%5E2+%2B+%281+%E2%88%92+5i%29z+%2B+2i+%E2%88%92+6+%3D+0)
-- [12 b](https://www.wolframalpha.com/input?i=solve++z%5E2+%E2%88%92+%283+%2B+4i%29z+%2B+7i+%E2%88%92+1+%3D)
-- [12 c](https://www.wolframalpha.com/input?i=solve++2z%5E2+%2B+%285+%2B+i%29z+%2B+2+%2B+2i+%3D+0)
+<!-- - [12 a](https://www.wolframalpha.com/input?i=solve+z%5E2+%2B+%281+%E2%88%92+5i%29z+%2B+2i+%E2%88%92+6+%3D+0) -->
+<!-- - [12 b](https://www.wolframalpha.com/input?i=solve++z%5E2+%E2%88%92+%283+%2B+4i%29z+%2B+7i+%E2%88%92+1+%3D) -->
+<!-- - [12 c](https://www.wolframalpha.com/input?i=solve++2z%5E2+%2B+%285+%2B+i%29z+%2B+2+%2B+2i+%3D+0) -->
 
 
 
