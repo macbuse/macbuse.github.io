@@ -43,7 +43,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 1. [Correction
 WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
-1. [Correction ChatGPT texte](./chatgpt.md)
+1. [Correction ChatGPT](./chatgpt.html)
 1. [Correction ChatGPT pdf](./chatgpt.pdf)
 
  <!-- 16-17 -->
