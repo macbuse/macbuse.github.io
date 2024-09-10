@@ -28,8 +28,14 @@ Comme les racines sont $x_1 = 1$ et $x_2 = \frac{1}{3}$, le polynôme peut être
 $$P(x) = 3(x - 1)\left(x - \frac{1}{3}\right)$$
 
 Pour simplifier davantage la factorisation :
+$$P(x) = (x - 1)\left(3x - 1\right)$$
+
+---
+
+**ChatGPT got this wrong:**
 $$P(x) = 3(x - 1)\left(3x - 1\right)$$
 
+---
 ### Conclusion
 L'équation $3x^2 - 4x + 1 = 0$ a deux solutions réelles distinctes : $x_1 = 1$ et $x_2 = \frac{1}{3}$.
 
