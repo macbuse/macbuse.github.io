@@ -1,3 +1,8 @@
+
+<title>Exercice 4</title>
+
+
+
 Pour la fonction $f(x) = \frac{x - 1}{x + 1}$, voici les étapes demandées :
 
 ### 1. Déterminer le domaine de définition
@@ -11,8 +16,16 @@ $$D_f = \mathbb{R} \setminus \{-1\}$$
 
 ### 2. Calculer la dérivée
 Pour calculer la dérivée de $f(x) = \frac{x - 1}{x + 1}$, nous utilisons la formule de la dérivée d'un quotient :
-$$f'(x) = \frac{(u/v)' = u'v - uv'}{v^2}$$
+$$f'(x) = (u/v)' = \frac{u'v - uv'}{v^2}$$
 où $u(x) = x - 1$ et $v(x) = x + 1$.
+
+---
+
+**ChatGPT made an error in the LaTeX code:**
+
+$$f'(x) = \frac{(u/v)' = u'v - uv'}{v^2}$$
+
+---
 
 - La dérivée de $u(x) = x - 1$ est $u'(x) = 1$,
 - La dérivée de $v(x) = x + 1$ est $v'(x) = 1$.
