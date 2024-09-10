@@ -129,6 +129,12 @@ WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
     - [indication
     3](https://www.wolframalpha.com/input?i=simplify+4%2F%282+-+sqrt%282%29%29)
 
+- exo 4
+    - [4.1 graphe](https://www.wolframalpha.com/input?i=plot+3x%5E2%E2%88%92x%2B2+)
+    - [4.2 graphe](https://www.wolframalpha.com/input?i=plot+-5x%5E2%E2%88%929x%2B2+)
+    - [4.3 graphe](https://www.wolframalpha.com/input?i=plot++3x%5E2%E2%88%924x%2B1)
+    - [4.4 correction](./sol_1_4.html)
+
 ---
 
 
