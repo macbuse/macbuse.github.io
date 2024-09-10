@@ -212,12 +212,14 @@ A titre d'info   :
 
 [Pat Brans journaliste](https://www.cio.com/profile/pat-brans/)
 
-- 1.2.1 [solution](./sol_model.pdf)
+- 1.2.1 [graphe](https://www.wolframalpha.com/input?i=plot+x%5E2+-2x+%2B1)
+    - [correction](./sol_model.pdf)
 - 1.2.2 [derivative](https://www.wolframalpha.com/input?i=derivative+sqrt%283+-+2x%29)
 - 2.3 [derivative](https://www.wolframalpha.com/input?i=derivative+1%2F%28x%5E2%2B1%29)
 - 2.4 [graph](https://www.wolframalpha.com/input?i=plot+%28x-1%29%2F%28x%2B1%29)
     - [correction](./sol_2_4.html)
 - 2.6 [graph](https://www.wolframalpha.com/input?i=plot+exp%28-x%5E2%29)
+    - [correction](./sol_2_6.html)
 - 2.7 [graph](https://www.wolframalpha.com/input?i=plot+cos%281%2Fx%29+for+x+from+0+to+pi)
 
 ---

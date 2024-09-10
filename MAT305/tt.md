@@ -1,65 +1,46 @@
-
-<title>Exercice 4</title>
-
-
-
-Pour la fonction $f(x) = \frac{x - 1}{x + 1}$, voici les étapes demandées :
+Pour la fonction $f(x) = \exp(-x^2)$, voici les étapes demandées :
 
 ### 1. Déterminer le domaine de définition
-La fonction $f(x) = \frac{x - 1}{x + 1}$ est une fonction rationnelle. Elle est définie tant que le dénominateur n'est pas nul.  
-Il faut donc résoudre :
-$$x + 1 \neq 0$$
-$$x \neq -1$$
+La fonction exponentielle $\exp(x)$ est définie pour tout réel, et comme $-x^2$ est un polynôme défini pour tout réel, la fonction $f(x) = \exp(-x^2)$ est également définie sur tout $\mathbb{R}$.
 
-Le domaine de définition est donc :  
-$$D_f = \mathbb{R} \setminus \{-1\}$$
+Le domaine de définition est donc :
+$$D_f = \mathbb{R}$$
 
 ### 2. Calculer la dérivée
-Pour calculer la dérivée de $f(x) = \frac{x - 1}{x + 1}$, nous utilisons la formule de la dérivée d'un quotient :
-$$f'(x) = (u/v)' = \frac{u'v - uv'}{v^2}$$
-où $u(x) = x - 1$ et $v(x) = x + 1$.
+Pour calculer la dérivée de $f(x) = \exp(-x^2)$, nous devons appliquer la règle de la dérivée d'une fonction composée. Si $f(x) = \exp(g(x))$, alors la dérivée est :
+$$f'(x) = \exp(g(x)) \cdot g'(x)$$
+Ici, $g(x) = -x^2$, donc sa dérivée est $g'(x) = -2x$.
 
----
-
-**ChatGPT made an error in the LaTeX code:**
-
-$$f'(x) = \frac{(u/v)' = u'v - uv'}{v^2}$$
-
----
-
-- La dérivée de $u(x) = x - 1$ est $u'(x) = 1$,
-- La dérivée de $v(x) = x + 1$ est $v'(x) = 1$.
-
-En appliquant la formule, nous avons :
-$$f'(x) = \frac{(1)(x+1) - (x-1)(1)}{(x+1)^2}$$
-Simplifions l'expression :
-$$f'(x) = \frac{x + 1 - x + 1}{(x+1)^2} = \frac{2}{(x+1)^2}$$
+Ainsi, la dérivée de $f(x) = \exp(-x^2)$ est :
+$$f'(x) = \exp(-x^2) \cdot (-2x)$$
+Simplifions :
+$$f'(x) = -2x \exp(-x^2)$$
 
 ### 3. Tableau de variations
-La dérivée $f'(x) = \frac{2}{(x+1)^2}$ est toujours positive pour $x \neq -1$, car le carré est toujours positif et $2$ est un nombre positif. Cela signifie que la fonction est **strictement croissante** sur chacun des intervalles $]-\infty, -1[$ et $]-1, +\infty[$.
 
-Il existe une asymptote verticale en $x = -1$, car la fonction n'est pas définie en ce point et tend vers $\pm \infty$ à proximité de cette valeur.
+Pour déterminer le tableau de variations, analysons le signe de la dérivée $f'(x) = -2x \exp(-x^2)$. Notons que $\exp(-x^2)$ est toujours strictement positif pour tout $x \in \mathbb{R}$.
 
-### Asymptote horizontale
-Il est utile de calculer la limite de la fonction lorsque $x$ tend vers $\pm \infty$ :
-$$\lim_{x \to +\infty} \frac{x - 1}{x + 1} = 1 \quad \text{et} \quad \lim_{x \to -\infty} \frac{x - 1}{x + 1} = 1$$
-La fonction admet donc une asymptote horizontale en $y = 1$.
+Le signe de $f'(x)$ dépend donc uniquement de $-2x$ :
+- Si $x > 0$, alors $-2x < 0$, donc $f'(x) < 0$ (la fonction est décroissante).
+- Si $x < 0$, alors $-2x > 0$, donc $f'(x) > 0$ (la fonction est croissante).
+- Si $x = 0$, alors $f'(0) = 0$.
+
+La fonction présente un maximum local en $x = 0$. Calculons la valeur de la fonction à ce point :
+$$f(0) = \exp(0) = 1$$
 
 ### Tableau de variations
 
-Le tableau de variations est donc :
+Le tableau de variations de la fonction est :
 
 $$\begin{array}{c|ccccc}
-x & -\infty & & -1 & & +\infty \\
+x & -\infty & & 0 & & +\infty \\
 \hline
-f'(x) & & + & \text{ND} & + & \\
+f'(x) & & + & 0 & - & \\
 \hline
-f(x) & \nearrow & & \text{asymptote verticale} & & \nearrow \\
-& & & & & \\
-& & & & & \\
+f(x) & \nearrow & & 1 & & \searrow \\
 \end{array}$$
 
 ### Conclusion
-- Domaine de définition : $\mathbb{R} \setminus \{-1\}$
-- Dérivée : $f'(x) = \frac{2}{(x+1)^2}$, toujours positive sauf en $x = -1$.
-- La fonction est strictement croissante et présente une asymptote verticale en $x = -1$ ainsi qu'une asymptote horizontale en $y = 1$.
+- Domaine de définition : $\mathbb{R}$
+- Dérivée : $f'(x) = -2x \exp(-x^2)$
+- Tableau de variations : la fonction est croissante sur $]-\infty, 0[$, décroissante sur $]0, +\infty[$, et atteint un maximum en $x = 0$ où $f(0) = 1$.
