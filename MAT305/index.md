@@ -210,6 +210,8 @@ A titre d'info   :
 
 ---
 
+[Pat Brans journaliste](https://www.cio.com/profile/pat-brans/)
+
 - 1.2.1 [solution](./sol_model.pdf)
 - 1.2.2 [derivative](https://www.wolframalpha.com/input?i=derivative+sqrt%283+-+2x%29)
 <!-- - 2.3 [derivative](https://www.wolframalpha.com/input?i=derivative+1%2F%28x%5E2%2B1%29) -->
