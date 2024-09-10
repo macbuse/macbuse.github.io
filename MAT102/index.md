@@ -118,6 +118,17 @@ WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
 - [question 10 a](https://www.wolframalpha.com/input?i=simplify+%281+%2B+i%29%5E2)
 - [question 10 e](https://www.wolframalpha.com/input?i=simplify+%281+%2B+2i%29%283+%2B+4i%29+)
 
+
+---
+
+- exo 3.2
+    - [indication
+    1](https://www.wolframalpha.com/input?i=simplify+2%2F%285+-+sqrt%282%29%29)
+    - [indication
+    2](https://www.wolframalpha.com/input?i=simplify+5%2F%283+%2B+sqrt%282%29%29)
+    - [indication
+    3](https://www.wolframalpha.com/input?i=simplify+4%2F%282+-+sqrt%282%29%29)
+
 ---
 
 
