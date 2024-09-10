@@ -11,11 +11,18 @@ def open_file_in_read_mode():
     try:
         with open(filename, 'r') as file:
             contents = file.read()
-            print(contents)
+            return contents
     except FileNotFoundError:
         print(f"Error: The file '{filename}' was not found.")
     except Exception as e:
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    open_file_in_read_mode()
+    ss = open_file_in_read_mode()
+    tt = re.sub(r'\\\( ',r'$',ss)
+    tt = re.sub(r' \\\)',r'$',tt)
+    tt = re.sub(r'\s*\\\]',r'$$',tt)
+    tt = re.sub(r'\\\[\s*',r'$$',tt)
+    with open("tt.md","w") as fp:
+        fp.write(tt)
+

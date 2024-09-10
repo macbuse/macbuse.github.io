@@ -42,7 +42,7 @@ f'(x) & & - & 0 & + & \\
 f(x) & \searrow & & 0 & & \nearrow \\
 \end{array}$$
 
-**ChatGPT got the variations wrong.**
+**ATTENTION : ChatGPT got the variations wrong.**
 <!-- f(x) & \nearrow & & 0 & & \searrow \\ -->
 
 ### Conclusion
