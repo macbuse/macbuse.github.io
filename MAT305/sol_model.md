@@ -39,8 +39,11 @@ x & -\infty & & 1 & & +\infty \\
 \hline
 f'(x) & & - & 0 & + & \\
 \hline
-f(x) & \nearrow & & 0 & & \searrow \\
+f(x) & \searrow & & 0 & & \nearrow \\
 \end{array}$$
+
+**ChatGPT got the variations wrong.**
+<!-- f(x) & \nearrow & & 0 & & \searrow \\ -->
 
 ### Conclusion
 - Domaine de définition : $\mathbb{R}$

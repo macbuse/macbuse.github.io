@@ -6,9 +6,9 @@ title: MAT305
 # Mat 305
 
 
-- Tuesdays 8:00
-- Wednesdays 9:45 E204
-- First class: 10/9 E202
+- Tuesdays 8:00 E204
+- Wednesdays 9:45 E202
+- First class: 10/9
 
 
 
