@@ -204,13 +204,14 @@ A titre d'info   :
 **Exos**
 
 
-- [1.2 graph](https://www.wolframalpha.com/input?i=plot+-2x+%2B+3)
-- [1.3 graph](https://www.wolframalpha.com/input?i=plot++1+%2B+1%2F%28x+%2B+2%29)
-- [1.4 graph](https://www.wolframalpha.com/input?i=plot++%7C2x+-3%7C)
+- [1.1.2 graph](https://www.wolframalpha.com/input?i=plot+-2x+%2B+3)
+- [1.1.3 graph](https://www.wolframalpha.com/input?i=plot++1+%2B+1%2F%28x+%2B+2%29)
+- [1.1.4 graph](https://www.wolframalpha.com/input?i=plot++%7C2x+-3%7C)
 
 ---
 
-<!-- - 2.2 [derivative](https://www.wolframalpha.com/input?i=derivative+sqrt%283+-+2x%29) -->
+- 1.2.1 [solution](./sol_model.pdf)
+- 1.2.2 [derivative](https://www.wolframalpha.com/input?i=derivative+sqrt%283+-+2x%29)
 <!-- - 2.3 [derivative](https://www.wolframalpha.com/input?i=derivative+1%2F%28x%5E2%2B1%29) -->
 <!-- - 2.4 [graph](https://www.wolframalpha.com/input?i=plot+%28x-1%29%2F%28x%2B1%29) -->
 <!-- - 2.6 [graph](https://www.wolframalpha.com/input?i=plot+exp%28-x%5E2%29) -->
