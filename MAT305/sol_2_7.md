@@ -5,7 +5,8 @@ Lorsque \(x\) s'approche de \(0^+\), \(\frac{1}{x}\) devient de plus en plus gra
 
 Cela signifie que, à mesure que \(x\) se rapproche de zéro par des valeurs positives, \(\frac{1}{x}\) devient extrêmement grand et la fonction \(\cos\left(\frac{1}{x}\right)\) oscille de plus en plus vite entre \(-1\) et \(1\). Il n'y a pas de tendance unique vers une valeur fixe, car la fonction prend des valeurs dans cet intervalle de manière répétée et chaotique.
 
-Effectivement
+### Effectivement :
 
-$$\cos(1/(1/(2n\pi))) = \cos(2n\pi) =  1$$
-$$\cos(1/(1/(2n\pi + \pi/2))) = \cos(2n\pi + \pi/2) =  0$$
+- n paire $\cos(1/(1/(n\pi))) = \cos(n\pi) =  1$
+- n impaire $\cos(1/(1/(n\pi))) = \cos(n\pi) =  -1$
+<!-- $$\cos(1/(1/(2n\pi + \pi/2))) = \cos(2n\pi + \pi/2) =  0$$ -->
