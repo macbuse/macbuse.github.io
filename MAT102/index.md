@@ -18,7 +18,12 @@
 - [exam 2020](./MAT102_Examen_Session1_2020-2021.pdf)
 - [exam 2021](./MAT102_Examen_Session1_2021-2022.pdf)
 
-<!-- --- -->
+---
+
+## Discussion utils 
+
+- WolframAlpha
+- ChatGPT
 
 #### Last class 15/12/2022 : bonnes vacances 
 - My [new friend the ChatGPT](https://chat.openai.com/chat) wrote a story for us.
@@ -45,10 +50,10 @@ Exo 33. 1
 Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique et forme exponentielle.
 
 
-- [Correction
-WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
-- [Correction ChatGPT html](./chatgpt.html)
-- [Correction ChatGPT pdf](./chatgpt.pdf)
+- [Solution WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
+- [Solution ChatGPT html](./chatgpt.html)
+    - [python script](./clean_gpt.py)
+- [Solution ChatGPT pdf](./chatgpt.pdf)
 - [ChatGPT corrigé par Copilot et Prof](./chatgpt_corrected.html)
 
 

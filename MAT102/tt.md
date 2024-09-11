@@ -40,4 +40,4 @@ $$P(x) = 3(x - 1)\left(3x - 1\right)$$
 L'équation $3x^2 - 4x + 1 = 0$ a deux solutions réelles distinctes : $x_1 = 1$ et $x_2 = \frac{1}{3}$.
 
 La factorisation de $P(x)$ est :
-$$P(x) = 3(x - 1)(3x - 1)$$
+$$P(x) = (x - 1)(3x - 1)$$

@@ -59,5 +59,5 @@ L'équation \( 3x^2 - 4x + 1 = 0 \) a deux solutions réelles distinctes : \( x_
 
 La factorisation de \( P(x) \) est :
 \[
-P(x) = 3(x - 1)(3x - 1)
+P(x) = (x - 1)(3x - 1)
 \]
