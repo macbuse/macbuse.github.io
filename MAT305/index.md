@@ -224,8 +224,8 @@ A titre d'info   :
 
 ---
 
-<!-- - 3.3 [solve  x + ln(y)>0](https://www.wolframalpha.com/input?i=solve++x+%2B+ln%28y%29%3E0) -->
-<!-- - 3.5 [y sin(x) graph and contour plot](https://www.wolframalpha.com/input?i=plot+y+sin%28x%29++for+x+from+-2pi+to+2pi+and++y+from+-1+to+1) -->
+- 3.3 [solve  x + ln(y)>0](https://www.wolframalpha.com/input?i=solve++x+%2B+ln%28y%29%3E0)
+- 3.5 [y sin(x) graph and contour plot](https://www.wolframalpha.com/input?i=plot+y+sin%28x%29++for+x+from+-2pi+to+2pi+and++y+from+-1+to+1)
 
 <!-- - [1.4.1 3D interactive](./cone.html) -->
 <!-- - [1.4.2 3D interactive](./half_pipe.html) -->
