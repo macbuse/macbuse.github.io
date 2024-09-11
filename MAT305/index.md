@@ -182,9 +182,8 @@ A titre d'info   :
 
 **Exos à Preparer** 
 
-<!-- - pour 3/10 Exercice 1.3. f_1, f_2 -->
-<!--     * g_{1,c}(t) = (c cos(t), c sin(t)) -->
-<!--     * g_{2,c}(t) = (-2 + \sqrt(c-3),t) -->
+Pour 17/9 : 1.4.6, 1.6.1, 1.6.2, 1.6.3, 1.6.4
+
 
 <!-- <br> -->
 
@@ -226,14 +225,18 @@ A titre d'info   :
 
 - 3.3 [solve  x + ln(y)>0](https://www.wolframalpha.com/input?i=solve++x+%2B+ln%28y%29%3E0)
 - 3.5 [y sin(x) graph and contour plot](https://www.wolframalpha.com/input?i=plot+y+sin%28x%29++for+x+from+-2pi+to+2pi+and++y+from+-1+to+1)
+---
 
 - [1.4.1 3D interactive](./cone.html)
 - [1.4.2 3D interactive](./half_pipe.html)
 - [1.4.6 3D interactive](./plane_x.html)
 
+---
+
 - [1.6 Loi de
-Boyle-Mariotte](https://fr.wikipedia.org/wiki/Loi_de_Boyle-Mariotte)
+Loi_des_gaz_parfaits](https://fr.wikipedia.org/wiki/Loi_des_gaz_parfaits)
 ![graph](./ideal_gas.png)
+
 
 ---
 
