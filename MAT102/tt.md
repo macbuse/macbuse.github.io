@@ -1,16 +1,16 @@
-Pour résoudre l'équation $P(x) = 0$ où $P(x) = 3x^2 - 4x + 1$ dans \(\mathbb{R}\), nous allons calculer le discriminant \(\Delta\) et ensuite factoriser $P(x)$, si possible.
+Pour résoudre l'équation $P(x) = 0$ où $P(x) = 3x^2 - 4x + 1$ dans $\mathbb{R}$, nous allons calculer le discriminant $\Delta$ et ensuite factoriser $P(x)$, si possible.
 
 ### Discriminant
 L'équation quadratique générale est de la forme $ax^2 + bx + c = 0$, avec $a = 3$, $b = -4$, et $c = 1$.
 
-Le discriminant \(\Delta\) est donné par la formule :
+Le discriminant $\Delta$ est donné par la formule :
 $$\Delta = b^2 - 4ac$$
 
-Calculons \(\Delta\) :
+Calculons $\Delta$ :
 $$\Delta = (-4)^2 - 4(3)(1) = 16 - 12 = 4$$
 
 ### Analyse du discriminant
-Le discriminant \(\Delta = 4\) est positif et parfait, ce qui signifie que l'équation a **deux racines réelles distinctes et rationnelles**.
+Le discriminant $\Delta = 4$ est positif et parfait, ce qui signifie que l'équation a **deux racines réelles distinctes et rationnelles**.
 
 ### Calcul des racines
 Les racines d'une équation quadratique sont données par la formule :

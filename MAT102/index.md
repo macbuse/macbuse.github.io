@@ -2,15 +2,19 @@
 
 - First class: 11/9
 - Wednesdays 11h30 D004
--  Friday 13h30 E207
+- Friday 13h30 E207
 
 <!-- **IMPORTANT Quick test 1 le 5/10** -->
+
+
 
 ## Résources 
 
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
 - [poly](./polyMAT102-main.pdf) 
-- [quick test Octobre 2022](./quick_test.pdf)
+    - [quick test Octobre 2022](./quick_test.pdf)
+    - [quick test 2](qt2.pdf)
+    - [quick test 3](qt3.pdf)
 - [exam 2020](./MAT102_Examen_Session1_2020-2021.pdf)
 - [exam 2021](./MAT102_Examen_Session1_2021-2022.pdf)
 
@@ -46,6 +50,17 @@ WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
 - [Correction ChatGPT html](./chatgpt.html)
 - [Correction ChatGPT pdf](./chatgpt.pdf)
 - [ChatGPT corrigé par Copilot et Prof](./chatgpt_corrected.html)
+
+
+---
+
+### Feuilles de TD avec commentaires
+
+1. Nombres complexes
+1. Sommes et sommes-produits
+1. Géométrie geometrie
+1. Fonctions fonctions
+1. Intégrales integrales
 
  <!-- 16-17 -->
 

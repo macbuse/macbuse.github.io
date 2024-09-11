@@ -25,21 +25,21 @@ if __name__ == "__main__":
     if not ss:
         sys.exit(1)
 
-    tt = re.sub(r'\\\( ',r'$',ss)
-    tt = re.sub(r' \\\)',r'$',tt)
+    tt = re.sub(r'\\\(\s*',r'$',ss)
+    tt = re.sub(r'\s*\\\)',r'$',tt)
     tt = re.sub(r'\s*\\\]',r'$$',tt)
     tt = re.sub(r'\\\[\s*',r'$$',tt)
 
 
     fn = sys.argv[1]
     fn = fn.split(".")[0]
-
     
     with open("./tt.md","w") as fp:
         fp.write(tt)
 
     #remember to split before passing to subprocess
-    pandoc_it = f'pandoc -s tt.md -o {fn}.html --mathml --metadata title=Correction'.split()
+    pandoc_it = f'pandoc -s tt.md -o {fn}.html'.split()
+    pandoc_it.extend('--mathml --metadata title=Correction'.split())
     subprocess.call(pandoc_it)
     print("Done")
 
