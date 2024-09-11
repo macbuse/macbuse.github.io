@@ -231,6 +231,11 @@ A titre d'info   :
 <!-- - [1.4.2 3D interactive](./half_pipe.html) -->
 <!-- - [1.4.6 3D interactive](./plane_x.html) -->
 
+- [1.6 Loi de
+Boyle-Mariotte](https://fr.wikipedia.org/wiki/Loi_de_Boyle-Mariotte)
+![graph](./ideal_gas.png)
+
+---
 
 - [1.6 3D interactive](./cos_cone.html)
 

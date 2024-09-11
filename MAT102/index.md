@@ -62,10 +62,10 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 ### Feuilles de TD avec commentaires
 
 1. Nombres complexes
-1. Sommes et sommes-produits
-1. Géométrie geometrie
-1. Fonctions fonctions
-1. Intégrales integrales
+1. Sommes et produits
+1. Géométrie 
+1. Fonctions 
+1. Intégrales 
 
  <!-- 16-17 -->
 
@@ -74,7 +74,6 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 <!-- **nombres complexes** -->
 
-<!-- - [ensemble de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia) -->
 <!-- - [lapin de Douady](https://youtu.be/JttLtB0Gkdk ) -->
 <!-- <!-1- - [mandelbrottle](https://github.com/macbuse/Mandelbrottle/blob/master/mandelbrotlle_coke.ipynb) -1-> -->
 
@@ -125,6 +124,10 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 ---
 
 [F1](./Fiche1-complexes.pdf)
+
+- Recherche sur les complexes [ensemble de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia)
+- Permettent de résoudre des équations quadratiques
+
 <!-- - [quick test Octobre 2022](./quick_test.pdf) -->
 
 ---
