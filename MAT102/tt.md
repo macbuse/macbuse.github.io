@@ -14,9 +14,10 @@ $$\sin \frac{3\pi}{2} = -1 \quad \text{et} \quad \cos \frac{3\pi}{2} = 0$$
 Substituons ces valeurs dans l'expression :
 
 \begin{align*}
-\sin\left(\frac{3\pi}{2} + \frac{\pi}{5}\right) &=& (-1) \cdot \cos \frac{\pi}{5} + 0 \cdot \sin \frac{\pi}{5} \\
-&=& -\cos \frac{\pi}{5}
+&\sin\left(\frac{3\pi}{2} + \frac{\pi}{5}\right) = (-1) \cdot \cos \frac{\pi}{5} + 0 \cdot \sin \frac{\pi}{5} \\
+&= -\cos \frac{\pi}{5}
 \end{align*}
+
 
 ### 2. Formule pour le cosinus d'une somme d'angles :
 
@@ -29,8 +30,8 @@ $$\cos\left(\frac{3\pi}{2} + \frac{\pi}{5}\right) = \cos\frac{3\pi}{2} \cos\frac
 En utilisant à nouveau les valeurs $\cos \frac{3\pi}{2} = 0$ et $\sin \frac{3\pi}{2} = -1$, nous obtenons :
 
 \begin{align*}
-\cos\left(\frac{3\pi}{2} + \frac{\pi}{5}\right) &=& 0 \cdot \cos \frac{\pi}{5} - (-1) \cdot \sin \frac{\pi}{5} \\
-&=& \sin \frac{\pi}{5}
+& \cos\left(\frac{3\pi}{2} + \frac{\pi}{5}\right) = 0 \cdot \cos \frac{\pi}{5} - (-1) \cdot \sin \frac{\pi}{5} \\
+& =  \sin \frac{\pi}{5}
 \end{align*}
 
 ### Conclusion :
