@@ -1,45 +1,35 @@
-Pour exprimer $\sin$ et $\cos$ de l'angle $\frac{3\pi}{2} + \frac{\pi}{5}$ en fonction de $\sin \frac{\pi}{5}$ et $\cos \frac{\pi}{5}$, nous allons utiliser les formules de somme d'angles.
+Pour simplifier $(a + ib)^2 + (a - ib)^2$ en utilisant le fait que $a - ib$ est le conjugué de $a + ib$ et que $z + \bar{z} = 2 \times \text{Re}(z)$, procédons comme suit :
 
-### 1. Formule pour le sinus d'une somme d'angles :
+### Étape 1 : Introduction des notations
 
-$$\sin(a + b) = \sin a \cos b + \cos a \sin b$$
+Soit $z = (a + ib)$ et $\bar{z} = (a - ib)$, qui est le conjugué de $z$.
 
-En appliquant cette formule pour $a = \frac{3\pi}{2}$ et $b = \frac{\pi}{5}$, nous obtenons :
+L'expression donnée est :
+$$z^2 + \bar{z}^2$$
 
-$$\sin\left(\frac{3\pi}{2} + \frac{\pi}{5}\right) = \sin\frac{3\pi}{2} \cos\frac{\pi}{5} + \cos\frac{3\pi}{2} \sin\frac{\pi}{5}$$
+### Étape 2 : Propriété de la somme d'un nombre complexe et de son conjugué
 
-Nous connaissons les valeurs des fonctions trigonométriques pour $\frac{3\pi}{2}$ :
-$$\sin \frac{3\pi}{2} = -1 \quad \text{et} \quad \cos \frac{3\pi}{2} = 0$$
+On sait que pour tout nombre complexe $z$, la somme de $z$ et de son conjugué $\bar{z}$ est égale à deux fois la partie réelle de $z$, c'est-à-dire :
+$$z + \bar{z} = 2 \times \text{Re}(z)$$
 
-Substituons ces valeurs dans l'expression :
+Cela est aussi vrai pour les carrés des nombres complexes. Ainsi, nous avons :
+$$z^2 + \bar{z}^2 = 2 \times \text{Re}(z^2)$$
 
-\begin{align*}
-&\sin\left(\frac{3\pi}{2} + \frac{\pi}{5}\right) = (-1) \cdot \cos \frac{\pi}{5} + 0 \cdot \sin \frac{\pi}{5} \\
-&= -\cos \frac{\pi}{5}
-\end{align*}
+### Étape 3 : Calcul de la partie réelle de $z^2$
 
+Nous avons $z = a + ib$. Calculons $z^2$ :
+$$z^2 = (a + ib)^2 = a^2 + 2aib + (ib)^2 = a^2 - b^2 + 2aib$$
 
-### 2. Formule pour le cosinus d'une somme d'angles :
+La partie réelle de $z^2$ est donc :
+$$\text{Re}(z^2) = a^2 - b^2$$
 
-$$\cos(a + b) = \cos a \cos b - \sin a \sin b$$
+### Étape 4 : Appliquer la formule $z^2 + \bar{z}^2$
 
-En appliquant cette formule pour $a = \frac{3\pi}{2}$ et $b = \frac{\pi}{5}$, nous obtenons :
+En utilisant la formule $z^2 + \bar{z}^2 = 2 \times \text{Re}(z^2)$, nous obtenons :
+$$z^2 + \bar{z}^2 = 2 \times (a^2 - b^2)$$
 
-$$\cos\left(\frac{3\pi}{2} + \frac{\pi}{5}\right) = \cos\frac{3\pi}{2} \cos\frac{\pi}{5} - \sin\frac{3\pi}{2} \sin\frac{\pi}{5}$$
+### Conclusion
 
-En utilisant à nouveau les valeurs $\cos \frac{3\pi}{2} = 0$ et $\sin \frac{3\pi}{2} = -1$, nous obtenons :
+En utilisant le fait que $z^2 + \bar{z}^2$ est deux fois la partie réelle de $z^2$, l'expression se simplifie en :
 
-\begin{align*}
-& \cos\left(\frac{3\pi}{2} + \frac{\pi}{5}\right) = 0 \cdot \cos \frac{\pi}{5} - (-1) \cdot \sin \frac{\pi}{5} \\
-& =  \sin \frac{\pi}{5}
-\end{align*}
-
-### Conclusion :
-
-Les expressions en fonction de $\sin \frac{\pi}{5}$ et $\cos \frac{\pi}{5}$ sont :
-
-\begin{align*}
-\sin\left(\frac{3\pi}{2} + \frac{\pi}{5}\right) &=& -\cos \frac{\pi}{5} \\
-\cos\left(\frac{3\pi}{2} + \frac{\pi}{5}\right) &=& \sin \frac{\pi}{5}
-\end{align*}
-
+$$(a + ib)^2 + (a - ib)^2 = 2(a^2 - b^2)$$

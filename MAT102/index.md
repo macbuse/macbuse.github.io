@@ -181,6 +181,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
     - [10.f](https://www.wolframalpha.com/input?i=simplify+%281-3i%29%285-2i%29)
     - [10.h](https://www.wolframalpha.com/input?i=simplify+%283%2Bi%29%5E3)
     - [10.h solution complète](./sol_1_10_h.html)
+    - [10.l solution complète](./sol_1_10_l.html)
 
 
 <!-- ### exos avec commentaires -->
