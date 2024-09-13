@@ -11,15 +11,12 @@ Pour développer \((1 + i)^3\), on peut utiliser le binôme de Newton ou multipl
 
 En développant, on obtient :
 
-- \(
-= 1^2 + 2 \cdot 1 \cdot i + i^2
-\)
-- \(
-= 1 + 2i + (-1) \quad \text{(puisque \( i^2 = -1 \))}
-\)
-- \(
-= 2i
-\)
+\begin{align*}
+&=& 1^2 + 2 \cdot 1 \cdot i + i^2 \\
+&=& 1 + 2i + (-1) \quad \text{(puisque $i^2 = -1)$} \\
+&=& 2i
+\end{align*}
+
 
 ### Étape 2 : Multiplier le résultat par \( (1 + i) \)
 
@@ -29,18 +26,12 @@ En développant, on obtient :
 
 Développons à nouveau :
 
-- \(
-= 1 \cdot 2i + i \cdot 2i
-\)
-\(
-- = 2i + 2i^2
-\)
-- \(
-= 2i + 2(-1) \quad \text{(puisque \( i^2 = -1 \))}
-\)
-- \(
-= 2i - 2
-\)
+\begin{align*}
+&=& 1 \cdot 2i + i \cdot 2i \\
+&=& 2i + 2i^2 \\
+&=& 2i + 2(-1) \quad \text{(puisque \( i^2 = -1 \))} \\
+&=& 2i - 2
+\end{align*}
 
 ### Conclusion :
 
@@ -118,12 +109,11 @@ Substituons dans l'expression :
 
 Simplifions :
 
-- \(
-(1 + i)^3 = 2\sqrt{2} \times \left( -\frac{1}{\sqrt{2}} \right) + 2\sqrt{2} \times \left( i \frac{1}{\sqrt{2}} \right)
-\)
-- \(
-(1 + i)^3 = -2 + 2i
-\)
+
+\begin{align*}
+(1 + i)^3 &=& 2\sqrt{2} \times \left( -\frac{1}{\sqrt{2}} \right) + 2\sqrt{2} \times \left( i \frac{1}{\sqrt{2}} \right) \\
+&=& -2 + 2i
+\end{align*}
 
 ### Conclusion :
 

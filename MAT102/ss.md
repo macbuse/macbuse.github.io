@@ -10,11 +10,10 @@ $$(1 + i)^2 = (1 + i)(1 + i)$$
 En développant, on obtient :
 
 \begin{align*}
-&=& 1^2 + 2 \cdot 1 \cdot i + i^2 \\
+ 1^2 + 2 \cdot 1 \cdot i + i^2 
 &=& 1 + 2i + (-1) \quad \text{(puisque $i^2 = -1)$} \\
 &=& 2i
 \end{align*}
-
 
 ### Étape 2 : Multiplier le résultat par $(1 + i)$
 
@@ -22,12 +21,10 @@ $$(1 + i)^3 = (1 + i) \cdot (2i)$$
 
 Développons à nouveau :
 
-\begin{align*}
-&=& 1 \cdot 2i + i \cdot 2i \\
-&=& 2i + 2i^2 \\
-&=& 2i + 2(-1) \quad \text{(puisque $i^2 = -1$)} \\
-&=& 2i - 2
-\end{align*}
+- $= 1 \cdot 2i + i \cdot 2i$
+$- = 2i + 2i^2$
+- $= 2i + 2(-1) \quad \text{(puisque $i^2 = -1$)}$
+- $= 2i - 2$
 
 ### Conclusion :
 
@@ -85,11 +82,8 @@ $$(1 + i)^3 = 2\sqrt{2} \left( -\frac{1}{\sqrt{2}} + i \frac{1}{\sqrt{2}} \right
 
 Simplifions :
 
-
-\begin{align*}
-(1 + i)^3 &=& 2\sqrt{2} \times \left( -\frac{1}{\sqrt{2}} \right) + 2\sqrt{2} \times \left( i \frac{1}{\sqrt{2}} \right) \\
-&=& -2 + 2i
-\end{align*}
+- $(1 + i)^3 = 2\sqrt{2} \times \left( -\frac{1}{\sqrt{2}} \right) + 2\sqrt{2} \times \left( i \frac{1}{\sqrt{2}} \right)$
+- $(1 + i)^3 = -2 + 2i$
 
 ### Conclusion :
 
