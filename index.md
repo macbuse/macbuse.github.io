@@ -8,18 +8,11 @@ title: Home
 ### Bureau 328, Institut Fourier.
 ### mcshane@univ-grenoble-alpes.fr
 
-[CV french](./CV2024.pdf)
+- [CV french](./CV2024.pdf)
 
 
 
-
-
-You [should](./bourses.md) be able to find out about my research and teaching here.
-But if you need a CV for some reason (grant applications,
-invitations etc) then here is a [CV](./CV.pdf).
-Just in case you are wondering why this page is on GitHub
-[read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/) and here are  [my github repos](https://github.com/macbuse)
-I've just added a [new repo](https://github.com/macbuse/FAREY_DIAGRAM/tree/main) for a project I'm working on with a student.
+You [should](./bourses.md) be able to find out about my research and teaching here. But if you need a CV for some reason (grant applications, invitations etc) then here is a [CV](./CV.pdf). Just in case you are wondering why this page is on GitHub [read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/) and here are  [my github repos](https://github.com/macbuse) I've just added a [new repo](https://github.com/macbuse/FAREY_DIAGRAM/tree/main) for a project I'm working on with a student.
 
 Went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024. On Friday 14/6 I'll be giving a talk 
 
@@ -43,7 +36,7 @@ Went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/event
 
 ---
 
-## Teaching 2023-24
+<h1 id="teaching">Teaching 2024-25</h1>
 
 ### First semester
 
@@ -51,16 +44,17 @@ Went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/event
 
 #### MAT 102
 
-- First class: 11/9
-- Wednesdays 11h30, Friday 13h30
 - [web page for class](./MAT102/index.md)
-
+- First class: 11/9
+    - Wednesdays 11h30
+    - Friday 13h30
 
 #### MAT305
 
-- First class: 10/9
-- Tuesdays 8:00 Wednesdays 9:45
 - [web page for class](./MAT305/index.md)
+- First class: 10/9
+    - Tuesdays 8:00 
+    - Wednesdays 9:45
 
 
 ### Second semester

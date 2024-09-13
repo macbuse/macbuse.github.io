@@ -158,6 +158,18 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
     - [4.3 graphe](https://www.wolframalpha.com/input?i=plot++3x%5E2%E2%88%924x%2B1)
     - [4.4 correction](./sol_1_4.html)
 
+- exo 6
+    - [6.c solution](./sol_1_6_c.html)
+
+- exo 7
+    - [7.2 solution](./sol_1_7_2.html)
+
+- exo 8
+    - [cercle
+    trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique)
+![cercle trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique#/media/Fichier:Unit_circle_angles_color.svg)
+
+
 ---
 
 

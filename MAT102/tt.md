@@ -1,43 +1,30 @@
-Pour résoudre l'équation $P(x) = 0$ où $P(x) = 3x^2 - 4x + 1$ dans $\mathbb{R}$, nous allons calculer le discriminant $\Delta$ et ensuite factoriser $P(x)$, si possible.
+L'équation donnée est :
 
-### Discriminant
-L'équation quadratique générale est de la forme $ax^2 + bx + c = 0$, avec $a = 3$, $b = -4$, et $c = 1$.
+$$x^2 + y^2 - 4 - 4x + 2y = 0$$
 
-Le discriminant $\Delta$ est donné par la formule :
-$$\Delta = b^2 - 4ac$$
+On va la réécrire sous une forme plus familière en complétant les carrés pour obtenir l'équation d'un cercle.
 
-Calculons $\Delta$ :
-$$\Delta = (-4)^2 - 4(3)(1) = 16 - 12 = 4$$
+1. **Réarrangeons les termes :**
 
-### Analyse du discriminant
-Le discriminant $\Delta = 4$ est positif et parfait, ce qui signifie que l'équation a **deux racines réelles distinctes et rationnelles**.
+$$x^2 - 4x + y^2 + 2y = 4$$
 
-### Calcul des racines
-Les racines d'une équation quadratique sont données par la formule :
-$$x = \frac{-b \pm \sqrt{\Delta}}{2a}$$
+2. **Complétons les carrés :**
+   - Pour $x^2 - 4x$, on ajoute et on soustrait $4$ (puisque $\left(\frac{-4}{2}\right)^2 = 4$) :  
+     $$x^2 - 4x = (x - 2)^2 - 4$$
+   - Pour $y^2 + 2y$, on ajoute et on soustrait $1$ (puisque $\left(\frac{2}{2}\right)^2 = 1$) :  
+     $$y^2 + 2y = (y + 1)^2 - 1$$
 
-Substituons les valeurs de $b$, $a$, et $\Delta$ :
-$$x = \frac{-(-4) \pm \sqrt{4}}{2(3)} = \frac{4 \pm 2}{6}$$
+3. **Remplaçons dans l'équation :**
 
-Cela donne deux solutions :
-$$x_1 = \frac{4 + 2}{6} = \frac{6}{6} = 1$$
-$$x_2 = \frac{4 - 2}{6} = \frac{2}{6} = \frac{1}{3}$$
+$$(x - 2)^2 - 4 + (y + 1)^2 - 1 = 4$$
 
-### Factorisation de $P(x)$
-Comme les racines sont $x_1 = 1$ et $x_2 = \frac{1}{3}$, le polynôme peut être factorisé de la manière suivante :
-$$P(x) = 3(x - 1)\left(x - \frac{1}{3}\right)$$
+4. **Simplifions :**
 
-Pour simplifier davantage la factorisation :
-$$P(x) = (x - 1)\left(3x - 1\right)$$
+$$(x - 2)^2 + (y + 1)^2 - 5 = 4$$
+$$(x - 2)^2 + (y + 1)^2 = 9$$
 
----
+5. **Conclusion :**
 
-**ChatGPT got this wrong:**
-$$P(x) = 3(x - 1)\left(3x - 1\right)$$
+L'équation obtenue est celle d'un cercle de centre $(2, -1)$ et de rayon $3$ (car $\sqrt{9} = 3$).
 
----
-### Conclusion
-L'équation $3x^2 - 4x + 1 = 0$ a deux solutions réelles distinctes : $x_1 = 1$ et $x_2 = \frac{1}{3}$.
-
-La factorisation de $P(x)$ est :
-$$P(x) = (x - 1)(3x - 1)$$
+L'ensemble des points $(x, y)$ qui vérifient l'équation initiale est donc le cercle de centre $(2, -1)$ et de rayon $3$.
