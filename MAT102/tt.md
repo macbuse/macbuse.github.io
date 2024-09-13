@@ -1,35 +1,14 @@
-Pour simplifier $(a + ib)^2 + (a - ib)^2$ en utilisant le fait que $a - ib$ est le conjugué de $a + ib$ et que $z + \bar{z} = 2 \times \text{Re}(z)$, procédons comme suit :
+Pour calculer la distance entre deux points $A(x_1, y_1)$ et $B(x_2, y_2)$ dans un plan, on utilise la formule de la distance :
 
-### Étape 1 : Introduction des notations
+$$d(A, B) = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 
-Soit $z = (a + ib)$ et $\bar{z} = (a - ib)$, qui est le conjugué de $z$.
+Avec les coordonnées des points $A(-1, 3)$ et $B(2, -1)$, on applique la formule :
+\begin{align*}
+d(A, B) &=& \sqrt{(2 - (-1))^2 + (-1 - 3)^2}\\
+&=& \sqrt{(2 + 1)^2 + (-1 - 3)^2}\\
+&=& \sqrt{3^2 + (-4)^2}\\
+&=& \sqrt{9 + 16}\\
+&=& \sqrt{25} = 5
+\end{align*}
 
-L'expression donnée est :
-$$z^2 + \bar{z}^2$$
-
-### Étape 2 : Propriété de la somme d'un nombre complexe et de son conjugué
-
-On sait que pour tout nombre complexe $z$, la somme de $z$ et de son conjugué $\bar{z}$ est égale à deux fois la partie réelle de $z$, c'est-à-dire :
-$$z + \bar{z} = 2 \times \text{Re}(z)$$
-
-Cela est aussi vrai pour les carrés des nombres complexes. Ainsi, nous avons :
-$$z^2 + \bar{z}^2 = 2 \times \text{Re}(z^2)$$
-
-### Étape 3 : Calcul de la partie réelle de $z^2$
-
-Nous avons $z = a + ib$. Calculons $z^2$ :
-$$z^2 = (a + ib)^2 = a^2 + 2aib + (ib)^2 = a^2 - b^2 + 2aib$$
-
-La partie réelle de $z^2$ est donc :
-$$\text{Re}(z^2) = a^2 - b^2$$
-
-### Étape 4 : Appliquer la formule $z^2 + \bar{z}^2$
-
-En utilisant la formule $z^2 + \bar{z}^2 = 2 \times \text{Re}(z^2)$, nous obtenons :
-$$z^2 + \bar{z}^2 = 2 \times (a^2 - b^2)$$
-
-### Conclusion
-
-En utilisant le fait que $z^2 + \bar{z}^2$ est deux fois la partie réelle de $z^2$, l'expression se simplifie en :
-
-$$(a + ib)^2 + (a - ib)^2 = 2(a^2 - b^2)$$
+Donc, la distance entre les points $A$ et $B$ est $5$.
