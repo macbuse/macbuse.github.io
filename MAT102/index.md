@@ -167,10 +167,19 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 - exo 8
     - [cercle
     trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique)
+---
+
 ![cercle trigonométrique](./Unit_circle_angles_color.svg)
 
 
 ---
+
+- exo 10
+    - [10.b](https://www.wolframalpha.com/input?i=simplify+%282-i%29%5E2)
+    - [10.d](https://www.wolframalpha.com/input?i=simplify+%281-+i%29%282%2Bi%29)
+    - [10.f](https://www.wolframalpha.com/input?i=simplify+%281-3i%29%285-2i%29)
+    - [10.h](https://www.wolframalpha.com/input?i=simplify+%283%2Bi%29%5E3)
+    - [10.h solution complète](./sol_1_10_h.html)
 
 
 <!-- ### exos avec commentaires -->
