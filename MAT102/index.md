@@ -165,8 +165,9 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
     - [7.2 solution](./sol_1_7_2.html)
 
 - exo 8
-    - [cercle
-    trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique)
+    - [cercle trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique)
+    - [8.2 solution modèle](./sol_1_8_2.html)
+
 ---
 
 ![cercle trigonométrique](./Unit_circle_angles_color.svg)
