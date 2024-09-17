@@ -133,7 +133,7 @@ A titre d'info   :
 
 ---
 
-<!-- [F2](./F2_2023exos.pdf) -->
+[F2](./F2_2023exos.pdf)
 
 <!-- **PREPARER** --> 
 
@@ -142,8 +142,8 @@ A titre d'info   :
 <!-- Pour 27/9 : 1.3. Problème 1.1 (Équation des ondes). -->
 
 
-<!-- **RAPPEL** --> 
-<!-- -  [derivatives : poly mat102 pages 49-50](./mat102_functions.pdf) -->
+**RAPPEL** 
+-  [derivatives : poly mat102 pages 49-50](./mat102_functions.pdf)
 
 ---
 
