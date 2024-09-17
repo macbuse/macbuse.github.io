@@ -27,6 +27,7 @@ Went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/event
 - then I organised  Zhang Yibo's [thesis defence](https://www-fourier.ujf-grenoble.fr/?q=fr/content/4-manifolds-admitting-fibrations) 5/4/2024.
 - I was president of Andrea Seppi's [HDR jury](https://www-fourier.univ-grenoble-alpes.fr/?q=fr/content/probl%C3%A8mes-de-plateau-asymptotiques-leurs-g%C3%A9n%C3%A9ralisations-et-applications-aux-structures) 25/4/2024.
 - working on a [draft of work in progress](./QUADS/x2.pdf)
+- working on a [thinking about Diophantine triples](./triples.pdf)
 
 <!-- - I am currently in confinement with COVID -->
 <!-- - This week I'm sad :( because Copilot is out of beta preview. -->
