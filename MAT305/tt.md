@@ -1,12 +1,26 @@
-La limite $\lim_{x \to 0^+} \cos\left(\frac{1}{x}\right)$ n'existe pas en raison du comportement oscillatoire de la fonction $\cos\left(\frac{1}{x}\right)$ à l'approche de $x = 0$.
+Pour calculer la dérivée de la fonction $\arctan(x)$, nous devons utiliser les propriétés des fonctions trigonométriques inverses. Voici le processus détaillé :
 
-### Explication :
-Lorsque $x$ s'approche de $0^+$, $\frac{1}{x}$ devient de plus en plus grand. Ainsi, l'argument de la fonction cosinus, $\frac{1}{x}$, augmente rapidement à l'infini. Or, la fonction $\cos(t)$ oscille entre $-1$ et $1$ pour tout $t$ réel.
+### Étape 1 : Poser l'équation
+On commence par poser :
+$$y = \arctan(x)$$
+Cela signifie que :
+$$\tan(y) = x$$
+Notre objectif est de dériver cette équation par rapport à $x$.
 
-Cela signifie que, à mesure que $x$ se rapproche de zéro par des valeurs positives, $\frac{1}{x}$ devient extrêmement grand et la fonction $\cos\left(\frac{1}{x}\right)$ oscille de plus en plus vite entre $-1$ et $1$. Il n'y a pas de tendance unique vers une valeur fixe, car la fonction prend des valeurs dans cet intervalle de manière répétée et chaotique.
+### Étape 2 : Dériver implicitement
+En dérivant $\tan(y) = x$ par rapport à $x$, on utilise la règle de la dérivation implicite. La dérivée de $\tan(y)$ est $\sec^2(y) \cdot \frac{dy}{dx}$, et la dérivée de $x$ est simplement 1. Donc, on obtient :
+$$\sec^2(y) \cdot \frac{dy}{dx} = 1$$
 
-### Effectivement :
+### Étape 3 : Isoler $\frac{dy}{dx}$
+On résout pour $\frac{dy}{dx}$ :
+$$\frac{dy}{dx} = \frac{1}{\sec^2(y)}$$
 
-- n paire $\cos(1/(1/(n\pi))) = \cos(n\pi) =  1$
-- n impaire $\cos(1/(1/(n\pi))) = \cos(n\pi) =  -1$
-<!-- $$\cos(1/(1/(2n\pi + \pi/2))) = \cos(2n\pi + \pi/2) =  0$$ -->
+### Étape 4 : Utiliser l'identité trigonométrique
+On sait que $\sec^2(y) = 1 + \tan^2(y)$. Puisque $\tan(y) = x$, on a donc :
+$$\sec^2(y) = 1 + x^2$$
+En substituant cela dans l'équation précédente, on obtient :
+$$\frac{dy}{dx} = \frac{1}{1 + x^2}$$
+
+### Conclusion
+La dérivée de $\arctan(x)$ est donc :
+$$\frac{d}{dx} \arctan(x) = \frac{1}{1 + x^2}$$

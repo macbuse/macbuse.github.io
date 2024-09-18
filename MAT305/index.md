@@ -135,7 +135,12 @@ A titre d'info   :
 
 [F2](./F2_2023exos.pdf)
 
-<!-- **PREPARER** --> 
+**Exos à Preparer**
+
+**PREPARER** 
+1.1, 1.2
+
+[solution 1.3](./sol_2_1_3.html)
 
 <!-- Pour 26/9 : 1.2. Dérivées partielles, gradient --> 
 
@@ -143,8 +148,8 @@ A titre d'info   :
 
 
 **RAPPEL** 
--  [Derivatives : poly mat102 pages 49-50](./mat102_functions.pdf)
-- [Feuille](../MAT102/Fiche4-fonctions.pdf)
+-  [derivatives : poly mat102 pages 49-50](./mat102_functions.pdf)
+- [Feuille de mat102 pour révisier](../MAT102/Fiche4-fonctions.pdf)
 
 ---
 

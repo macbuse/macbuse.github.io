@@ -92,7 +92,7 @@
      inkscape:cx="399.79473"
      inkscape:cy="563.03848"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1181"
@@ -132,7 +132,9 @@
     <g
        inkscape:label="GridCartesian:X6:Y6"
        transform="matrix(0.43879614,0.04465761,-0.10814955,0.18111475,3.2550962,115.278)"
-       id="g2802">
+       id="g2802"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          inkscape:label="MajorXGridlines"
          id="g2786"
@@ -211,17 +213,23 @@
          style="fill:none;stroke:#000000;stroke-width:0.921905;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
          d="M 103.15688,217.2588 103.391,53.834711"
          id="path3177"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.921905;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3497)"
          d="M 36.537988,114.51281 179.46184,193.76096"
          id="path3493"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.921905;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3555)"
          d="M 39.319561,200.58211 168.81855,100.89499"
          id="path3551"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
       <g
          transform="matrix(1.3009089,0,0,1.3009089,168.75143,194.25902)"
          ns6:version="1.3.0"
@@ -233,7 +241,9 @@
          ns6:alignment="middle center"
          ns6:inkscapeversion="1.0.2"
          ns6:jacobian_sqrt="1.41111"
-         id="g3690">
+         id="g3690"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
         <defs
            id="id-38dfa5bb-6aaa-4a69-b1da-42bd541deed8">
           <g
@@ -284,7 +294,9 @@
          ns6:alignment="middle center"
          ns6:inkscapeversion="1.0.2"
          ns6:jacobian_sqrt="1.41111"
-         id="g3726">
+         id="g3726"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
         <defs
            id="id-f6f62c82-5b58-4f44-9e73-df7449601c85">
           <g
@@ -335,7 +347,9 @@
          ns6:alignment="middle center"
          ns6:inkscapeversion="1.0.2"
          ns6:jacobian_sqrt="1.41111"
-         id="g3811">
+         id="g3811"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
         <defs
            id="id-bd7f4d91-19a7-4fae-ba29-00e9d5b68680">
           <g
@@ -385,22 +399,30 @@
          style="fill:none;stroke:#000000;stroke-width:0.921905;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.921905, 3.68762;stroke-dashoffset:0;stroke-opacity:1"
          d="M 189.16211,244.5198 189.39622,81.095662"
          id="path3177-7"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.921905;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.921905, 3.68762;stroke-dashoffset:0;stroke-opacity:1"
          d="M 67.20174,181.1004 67.435857,17.676299"
          id="path4055"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.921905;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.921905, 3.68762;stroke-dashoffset:0;stroke-opacity:1"
          d="M 13.539201,220.12773 13.773319,56.703599"
          id="path4057"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.921905;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.921905, 3.68762;stroke-dashoffset:0;stroke-opacity:1"
          d="m 135.49954,283.54713 0.23412,-163.42417"
          id="path4059"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
     </g>
     <g
        inkscape:groupmode="layer"
@@ -417,7 +439,9 @@
          ns6:alignment="middle center"
          ns6:inkscapeversion="1.0.2"
          ns6:jacobian_sqrt="0.705555"
-         id="g3726-5">
+         id="g3726-5"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
         <defs
            id="id-f053e53d-c6c3-4d3d-8a1f-7000875e5895">
           <g
@@ -572,7 +596,9 @@
          ns6:alignment="middle center"
          ns6:inkscapeversion="1.0.2"
          ns6:jacobian_sqrt="0.705555"
-         id="g4548">
+         id="g4548"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
         <defs
            id="id-134cc29e-3c03-485c-bbd6-4acb86ad45f7">
           <g
@@ -759,7 +785,9 @@
          ns6:alignment="middle center"
          ns6:inkscapeversion="1.0.2"
          ns6:jacobian_sqrt="0.705555"
-         id="g4846">
+         id="g4846"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
         <defs
            id="id-1dc77dde-4c7a-4c51-81c1-a443302f3825">
           <g
@@ -938,7 +966,9 @@
          id="use5099"
          transform="translate(-121.70835,-58.208336)"
          width="100%"
-         height="100%" />
+         height="100%"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
     </g>
   </g>
 </svg>
