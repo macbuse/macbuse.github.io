@@ -1,26 +1,55 @@
-Pour calculer la dérivée de la fonction $\arctan(x)$, nous devons utiliser les propriétés des fonctions trigonométriques inverses. Voici le processus détaillé :
+Pour calculer les dérivées partielles de la fonction $f(x, y) = \frac{x^2}{x + 2y}$, nous allons d'abord calculer les dérivées par rapport à $x$ et $y$, puis examiner le domaine de définition.
 
-### Étape 1 : Poser l'équation
-On commence par poser :
-$$y = \arctan(x)$$
-Cela signifie que :
-$$\tan(y) = x$$
-Notre objectif est de dériver cette équation par rapport à $x$.
+### 1. Dérivée partielle par rapport à $x$ ($\frac{\partial f}{\partial x}$)
 
-### Étape 2 : Dériver implicitement
-En dérivant $\tan(y) = x$ par rapport à $x$, on utilise la règle de la dérivation implicite. La dérivée de $\tan(y)$ est $\sec^2(y) \cdot \frac{dy}{dx}$, et la dérivée de $x$ est simplement 1. Donc, on obtient :
-$$\sec^2(y) \cdot \frac{dy}{dx} = 1$$
+La fonction $f(x, y) = \frac{x^2}{x + 2y}$ est une fraction avec $x^2$ comme numérateur et $x + 2y$ comme dénominateur. Nous utiliserons ici la règle de dérivation d'un quotient :
 
-### Étape 3 : Isoler $\frac{dy}{dx}$
-On résout pour $\frac{dy}{dx}$ :
-$$\frac{dy}{dx} = \frac{1}{\sec^2(y)}$$
+$$\frac{\partial}{\partial x} \frac{u}{v} = \frac{v \cdot u_x - u \cdot v_x}{v^2}$$
+où $u(x) = x^2$ et $v(x,y) = x + 2y$.
 
-### Étape 4 : Utiliser l'identité trigonométrique
-On sait que $\sec^2(y) = 1 + \tan^2(y)$. Puisque $\tan(y) = x$, on a donc :
-$$\sec^2(y) = 1 + x^2$$
-En substituant cela dans l'équation précédente, on obtient :
-$$\frac{dy}{dx} = \frac{1}{1 + x^2}$$
+- Dérivée de $u(x) = x^2$ par rapport à $x$ : 
+$2x$
 
-### Conclusion
-La dérivée de $\arctan(x)$ est donc :
-$$\frac{d}{dx} \arctan(x) = \frac{1}{1 + x^2}$$
+- Dérivée de $v(x) = x + 2y$ par rapport à $x$ : $1$
+
+En appliquant la règle du quotient, nous avons :
+$$\frac{\partial f}{\partial x} = \frac{(x + 2y) \cdot 2x - x^2 \cdot 1}{(x + 2y)^2}$$
+Cela donne :
+$$\frac{\partial f}{\partial x} = \frac{2x(x + 2y) - x^2}{(x + 2y)^2}$$
+
+En simplifiant :
+$$\frac{\partial f}{\partial x} = \frac{2x^2 + 4xy - x^2}{(x + 2y)^2}$$
+$$\frac{\partial f}{\partial x} = \frac{x^2 + 4xy}{(x + 2y)^2}$$
+
+### 2. Dérivée partielle par rapport à $y$ ($\frac{\partial f}{\partial y}$)
+
+Maintenant, nous dérivons $f(x, y) = \frac{x^2}{x + 2y}$ par rapport à $y$. Ici, seul le dénominateur dépend de $y$, donc nous utiliserons la meme règle.
+
+
+- Dérivée de $u(x) = x^2$ par rapport à $y$ :  $0$
+
+- Dérivée de $v(x, y) = x + 2y$ par rapport à $y$ : $2$
+
+En appliquant la règle du quotient, nous obtenons :
+$$\frac{\partial f}{\partial y} = \frac{(x + 2y) \cdot 0 - x^2 \cdot 2}{(x + 2y)^2}$$
+Cela donne :
+$$\frac{\partial f}{\partial y} = \frac{-2x^2}{(x + 2y)^2}$$
+
+### Domaine de définition
+
+Le domaine de définition de la fonction $f(x, y) = \frac{x^2}{x + 2y}$ est déterminé par le fait que le dénominateur $x + 2y$ ne doit pas être nul, sinon la fonction ne serait pas définie.
+
+Donc, le domaine de définition de $f(x, y)$ est :
+$$x + 2y \neq 0$$
+ou encore :
+$$y \neq -\frac{x}{2}$$
+
+### Résumé
+
+- La dérivée partielle par rapport à $x$ est :
+$$\frac{\partial f}{\partial x} = \frac{x^2 + 4xy}{(x + 2y)^2}$$
+
+- La dérivée partielle par rapport à $y$ est :
+$$\frac{\partial f}{\partial y} = \frac{-2x^2}{(x + 2y)^2}$$
+
+- Le domaine de définition est $y \neq -\frac{x}{2}$.

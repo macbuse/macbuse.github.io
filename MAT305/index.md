@@ -138,9 +138,11 @@ A titre d'info   :
 **Exos à Preparer**
 
 **PREPARER** 
-1.1, 1.2
+1.1, 1.2, 2.1,2.2,2.3
 
 [solution 1.3](./sol_2_1_3.html)
+
+[solution 2.4](./sol_2_2_4.html)
 
 <!-- Pour 26/9 : 1.2. Dérivées partielles, gradient --> 
 
