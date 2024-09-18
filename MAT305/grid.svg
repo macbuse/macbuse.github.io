@@ -92,7 +92,7 @@
      inkscape:cx="399.79473"
      inkscape:cy="563.03848"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer5"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1181"
@@ -119,15 +119,14 @@
     <g
        inkscape:groupmode="layer"
        id="layer5"
-       inkscape:label="rectangle"
-       sodipodi:insensitive="true">
+       inkscape:label="rectangle">
       <rect
-         style="fill:#ffffff;stroke:#808080;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:1, 4;stroke-dashoffset:0;stop-color:#000000"
+         style="fill:#ffffff;stroke:none;stroke-width:1.05321;stroke-miterlimit:4;stroke-dasharray:1.05321, 4.21281999999999979;stroke-dashoffset:0;stop-color:#000000"
          id="rect5102"
          width="200.10596"
-         height="259.82233"
+         height="288.2056"
          x="5.8669839"
-         y="34.567554" />
+         y="6.1842923" />
     </g>
     <g
        inkscape:label="GridCartesian:X6:Y6"
