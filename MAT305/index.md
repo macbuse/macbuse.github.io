@@ -143,7 +143,8 @@ A titre d'info   :
 
 
 **RAPPEL** 
--  [derivatives : poly mat102 pages 49-50](./mat102_functions.pdf)
+-  [Derivatives : poly mat102 pages 49-50](./mat102_functions.pdf)
+- [Feuille](../MAT102/Fiche4-fonctions.pdf)
 
 ---
 
