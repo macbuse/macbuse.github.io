@@ -235,6 +235,9 @@ Pour 17/9 : 1.4.6, 1.6.1, 1.6.2, 1.6.3, 1.6.4
 - [1.4.2 3D interactive](./half_pipe.html)
 - [1.4.6 3D interactive](./plane_x.html)
 
+
+![pic](./grid.png)
+
 ---
 
 - [1.6 Loi de
