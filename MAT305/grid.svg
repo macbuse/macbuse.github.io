@@ -92,7 +92,7 @@
      inkscape:cx="399.79473"
      inkscape:cy="563.03848"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1181"
@@ -126,7 +126,9 @@
          width="200.10596"
          height="288.2056"
          x="5.8669839"
-         y="6.1842923" />
+         y="6.1842923"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
     </g>
     <g
        inkscape:label="GridCartesian:X6:Y6"
