@@ -190,10 +190,15 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
     - d) médiatrice
     - 13.e ![fig](./1_13e.png)
 
+---
 
 - exo -17
     - [solution a](./sol_17_a.html)
     - [solution b](./sol_17_b.html)
+
+
+- exo 19
+    - [solution a)..e)](./sol_1_19.pdf)
 
 <!-- ### exos avec commentaires -->
 
