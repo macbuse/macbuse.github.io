@@ -9,8 +9,8 @@ où \( z = x + iy \), avec \( x \) et \( y \) les parties réelle et imaginaire 
 
 ### Étape 1 : Partie réelle de l'expression
 
-D'après les calculs pour la partie a) 
-a partie réelle de l'expression totale est :
+D'après les calculs pour la partie **a)**
+la partie réelle de l'expression totale est :
 
 \[
 \text{Re} \left( \frac{z + 2i}{z - 1} \right) = \frac{x(x - 1) - y^2 - 2y}{(x - 1)^2 + y^2}
@@ -60,4 +60,7 @@ Il s'agit de l'équation d'un cercle de centre \( \left( \frac{1}{2}, -1 \right)
 
 ### Conclusion
 
-Les solutions de l'équation \( \text{Re} \left( \frac{z + 2i}{z - 1} \right) = 0 \) forment un cercle dans le plan complexe, de centre \( \left( \frac{1}{2}, -1 \right) \) et de rayon \( \frac{1}{2} \).
+Les solutions de l'équation \( \text{Re} \left( \frac{z + 2i}{z - 1} \right) = 0 \) forment un cercle dans le plan complexe, 
+
+- de centre \( \left( \frac{1}{2}, -1 \right) \) 
+- de rayon \( \frac{1}{2} \).
