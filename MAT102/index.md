@@ -7,7 +7,6 @@
 <!-- **IMPORTANT Quick test 1 le 5/10** -->
 
 
-
 ## Résources 
 
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
@@ -183,6 +182,18 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
     - [10.h solution complète](./sol_1_10_h.html)
     - [10.l solution complète](./sol_1_10_l.html)
 
+
+- exo 13
+    - a) médiatrice
+    - b) cercle
+    - c) disque
+    - d) médiatrice
+    - 13.e ![fig](./1_13e.png)
+
+
+- exo -17
+    - [solution a](./sol_17_a.html)
+    - [solution b](./sol_17_b.html)
 
 <!-- ### exos avec commentaires -->
 
