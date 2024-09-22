@@ -4,6 +4,8 @@
 - Wednesdays 11h30 D004
 - Friday 13h30 E207
 
+- **IMPORTANT** quick test 1 **2/10**
+
 <!-- **IMPORTANT Quick test 1 le 5/10** -->
 
 
@@ -157,7 +159,7 @@ Exo 20 i) j)
     - [4.1 graphe](https://www.wolframalpha.com/input?i=plot+3x%5E2%E2%88%92x%2B2+)
     - [4.2 graphe](https://www.wolframalpha.com/input?i=plot+-5x%5E2%E2%88%929x%2B2+)
     - [4.3 graphe](https://www.wolframalpha.com/input?i=plot++3x%5E2%E2%88%924x%2B1)
-    - [4.4 correction](./sol_1_4.html)
+    - [4.4 solution ](./sol_1_4.html)
 
 - exo 6
     - [6.c solution](./sol_1_6_c.html)

@@ -35,9 +35,7 @@ $$4ac = 4 \cdot 2 \cdot (2 + 2i) = 8 \cdot (2 + 2i) = 16 + 16i$$
 
 Maintenant, nous pouvons calculer $\Delta$ :
 
-$$\Delta = (24 + 10i) - (16 + 16i)$$
-
-$$\Delta = (24 - 16) + (10i - 16i) = 8 - 6i$$
+$$\Delta = (24 + 10i) - (16 + 16i) = 8 - 6i$$
 
 
 ### Racine carré de $8 - 6i$
@@ -74,13 +72,13 @@ $$2Z^2 + (5 + i)Z + (2 + 2i) = 0$$
 
 
 
-Utilisons la formule quadratique :
-$$Z_1 = \frac{-(5 + i) + \sqrt{8 - 6i}}{4}, \quad Z_2 = \frac{-(5 + i) - \sqrt{8 - 6i}}{4}$$
+Les racines sont données par :
+$$Z = \frac{-(5 + i) + \sqrt{8 - 6i}}{4}$$
 
 Ainsi, les solutions sont données en fonction de $\sqrt{\Delta}$. Si nous remplaçons la racine carrée du discriminant par $3 - i$ dans l'équation quadratique 
 les solutions sont données par :
 
-$$Z = \frac{-(5 + i) \pm (3 - i)}{4}$$
+$$Z_1 = \frac{-(5 + i) + (3-i)}{4}, \quad Z_2 = \frac{-(5 + i) -(3-i)}{4}$$
 
 
 3. **Calcul des deux solutions**

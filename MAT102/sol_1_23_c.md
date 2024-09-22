@@ -46,11 +46,7 @@ b^2 = (5 + i)^2 = 5^2 + 2(5)(i) + i^2 = 25 + 10i + (-1) = 24 + 10i
 Maintenant, nous pouvons calculer \(\Delta\) :
 
 \[
-\Delta = (24 + 10i) - (16 + 16i)
-\]
-
-\[
-\Delta = (24 - 16) + (10i - 16i) = 8 - 6i
+\Delta = (24 + 10i) - (16 + 16i) = 8 - 6i
 \]
 
 
@@ -94,16 +90,16 @@ Pour l'équation quadratique :
 
 
 
-Utilisons la formule quadratique :
+Les racines sont données par :
 \[
-Z_1 = \frac{-(5 + i) + \sqrt{8 - 6i}}{4}, \quad Z_2 = \frac{-(5 + i) - \sqrt{8 - 6i}}{4}
+Z = \frac{-(5 + i) + \sqrt{8 - 6i}}{4}
 \]
 
 Ainsi, les solutions sont données en fonction de \(\sqrt{\Delta}\). Si nous remplaçons la racine carrée du discriminant par \(3 - i\) dans l'équation quadratique 
 les solutions sont données par :
 
 \[
-Z = \frac{-(5 + i) \pm (3 - i)}{4}
+Z_1 = \frac{-(5 + i) + (3-i)}{4}, \quad Z_2 = \frac{-(5 + i) -(3-i)}{4}
 \]
 
 
