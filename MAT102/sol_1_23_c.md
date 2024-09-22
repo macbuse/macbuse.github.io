@@ -107,7 +107,7 @@ Z = \frac{-(5 + i) \pm (3 - i)}{4}
 \]
 
 
-3. ** Calcul des deux solutions**
+3. **Calcul des deux solutions**
 
 #### a. Première solution \((+)\) :
 \[

@@ -83,7 +83,7 @@ les solutions sont données par :
 $$Z = \frac{-(5 + i) \pm (3 - i)}{4}$$
 
 
-3. ** Calcul des deux solutions**
+3. **Calcul des deux solutions**
 
 #### a. Première solution $(+)$ :
 $$Z_1 = \frac{-(5 + i) + (3 - i)}{4} = \frac{(-5 - i) + (3 - i)}{4} = \frac{-2 - 2i}{4} = \frac{-2}{4} + \frac{-2i}{4} = -\frac{1}{2} - \frac{i}{2}$$
