@@ -1,3 +1,4 @@
+```
 #!/usr/bin/python3.9 
 import sys, os
 import re
@@ -43,5 +44,5 @@ if __name__ == "__main__":
     subprocess.call(pandoc_it)
     print("Done")
 
-
+```
 

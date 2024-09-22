@@ -53,7 +53,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 - [Solution WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
 - [Solution ChatGPT html](./chatgpt.html)
-    - [python script](./clean_gpt.py)
+    - [python script](./clean_gpt.md)
 - [Solution ChatGPT pdf](./chatgpt.pdf)
 - [ChatGPT corrigé par Copilot et Prof](./chatgpt_corrected.html)
 
