@@ -112,8 +112,8 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 ---
 
-<!-- [F2](./Fiche2-sommes-produits.pdf) -->
-<!-- - [quick test](./qt2.pdf) -->
+[F2](./Fiche2-sommes-produits.pdf)
+- [quick test 2023](./qt2.pdf)
 
 <!-- - [Suite arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique) -->
 <!-- - [Suite géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique) -->
@@ -127,18 +127,20 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 - Recherche sur les complexes [ensemble de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia)
 - Permettent de résoudre des équations quadratiques
 
-<!-- - [quick test Octobre 2022](./quick_test.pdf) -->
+- [quick test Octobre 2022](./quick_test.pdf)
 
 ---
 
 <!-- **Preparer** Exos 16,18 -->
 
-**Preparer** Exos 9,10
+**Preparer** 
+Exo 19 m) n) o)
+Exo 20 i) j)
 
-**Verifier** vos réponses avec WolframAlpha :  exemples
+<!-- **Verifier** vos réponses avec WolframAlpha :  exemples -->
 
-- [question 10 a](https://www.wolframalpha.com/input?i=simplify+%281+%2B+i%29%5E2)
-- [question 10 e](https://www.wolframalpha.com/input?i=simplify+%281+%2B+2i%29%283+%2B+4i%29+)
+<!-- - [question 10 a](https://www.wolframalpha.com/input?i=simplify+%281+%2B+i%29%5E2) -->
+<!-- - [question 10 e](https://www.wolframalpha.com/input?i=simplify+%281+%2B+2i%29%283+%2B+4i%29+) -->
 
 
 ---
@@ -192,13 +194,16 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 ---
 
-- exo -17
+- exo 17
     - [solution a](./sol_17_a.html)
     - [solution b](./sol_17_b.html)
 
 
 - exo 19
     - [solution a)..e)](./sol_1_19.pdf)
+
+- exo 21
+    - [solution d)](./sol_1_21_d.html)
 
 <!-- ### exos avec commentaires -->
 
