@@ -205,6 +205,9 @@ Exo 20 i) j)
 - exo 21
     - [solution d)](./sol_1_21_d.html)
 
+- exo 23
+    - [solution c)](./sol_1_23_c.html)
+
 <!-- ### exos avec commentaires -->
 
 <!-- **Exo 4** -->
