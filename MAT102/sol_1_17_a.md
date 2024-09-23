@@ -31,22 +31,22 @@ Pour simplifier cette expression, multiplions le numérateur et le dénominateur
 Développons le numérateur :
 
 \[
-(x + i(y + 2))((x - 1) - iy) = x(x - 1) - xiy + i(y + 2)(x - 1) + i^2(y + 2)y
+(x + i(y + 2))((x - 1) - iy) = x(x - 1) - xiy + i(y + 2)(x - 1) - i^2(y + 2)y
 \]
 
 En simplifiant, rappelons que \( i^2 = -1 \) :
 
 \[
-= x(x - 1) - xiy + i(y + 2)(x - 1) - (y + 2)y
+= x(x - 1) - xiy + i(y + 2)(x - 1) + (y + 2)y
 \]
 \[
-= x(x - 1) - xiy + i(y + 2)(x - 1) - y^2 - 2y
+= x(x - 1) - xiy + i(y + 2)(x - 1) + y^2 + 2y
 \]
 
 Le numérateur est donc :
 
 \[
-= (x(x - 1) - y^2 - 2y) + i\left((y + 2)(x - 1) - xy \right)
+= (x(x - 1) + y^2 + 2y) + i\left((y + 2)(x - 1) - xy \right)
 \]
 
 ### Étape 3 : Partie imaginaire de l'expression

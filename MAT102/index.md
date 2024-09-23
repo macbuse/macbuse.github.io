@@ -13,7 +13,7 @@
 
 - [chamilo](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
 - [poly](./polyMAT102-main.pdf) 
-    - [quick test Octobre 2022](./quick_test.pdf)
+    - [quick test 1 2022](./quick_test.pdf)
     - [quick test 2](qt2.pdf)
     - [quick test 3](qt3.pdf)
 - [exam 2020](./MAT102_Examen_Session1_2020-2021.pdf)
@@ -21,12 +21,14 @@
 
 ---
 
-## Discussion utils 
+## Discussion 
+
+On a divers utils à notre disposition :
 
 - WolframAlpha
 - ChatGPT
 
-#### Last class 15/12/2022 : bonnes vacances 
+#### Exemple ChatGPT :Last class 15/12/2022 
 - My [new friend the ChatGPT](https://chat.openai.com/chat) wrote a story for us.
 
 ```
@@ -56,7 +58,6 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
     - [python script](./clean_gpt.md)
 - [Solution ChatGPT pdf](./chatgpt.pdf)
 - [ChatGPT corrigé par Copilot et Prof](./chatgpt_corrected.html)
-
 
 ---
 
@@ -129,7 +130,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 - Recherche sur les complexes [ensemble de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia)
 - Permettent de résoudre des équations quadratiques
 
-- [quick test Octobre 2022](./quick_test.pdf)
+- [quick test 2022](./quick_test.pdf)
 
 ---
 
