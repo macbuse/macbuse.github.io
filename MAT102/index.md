@@ -130,7 +130,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 - Recherche sur les complexes [ensemble de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia)
 - Permettent de résoudre des équations quadratiques
 
-- [quick test 2022](./quick_test.pdf)
+- [quick test 022](./quick_test.pdf)
 
 ---
 

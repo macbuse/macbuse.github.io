@@ -166,7 +166,7 @@ A titre d'info   :
 
 <!-- Exo 1.2 -->
 
-<!-- - [x ln(y^2 + 1)](https://www.wolframalpha.com/input?i=derivative+of+x+ln%28y%5E2+%2B+1%29) -->
+- [x ln(y^2 + 1)](https://www.wolframalpha.com/input?i=derivative+of+x+ln%28y%5E2+%2B+1%29)
 <!-- - [(x − y) ln(x^2 − y^2 )](https://www.wolframalpha.com/input?i=derivative+of+%28x+%E2%88%92+y%29+ln%28x%5E2+%E2%88%92+y%5E2+%29%3B) -->
 <!-- - [exp(x^2+y^3 ) − cos(xy)](https://www.wolframalpha.com/input?i=derivative+of+exp%28x%5E2%2By%5E3+%29+%E2%88%92+cos%28xy%29) -->
 
