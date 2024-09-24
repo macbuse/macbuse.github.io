@@ -157,18 +157,21 @@ A titre d'info   :
 
 <!-- [Exo supplementaire](./supp_exo.pdf) -->
 
-<!-- Exo 1.4 est difficile  la fonction ne verifie pas la relation de Schwarz en (0,0) -->
+fonction ne verifie pas la relation de Schwarz en (0,0) 
 
-<!-- - [voici le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29) -->
-<!-- - [3D interactive](./monkey.html) -->
+- [voici le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
+- [3D interactive](./monkey.html)
 
 <!-- - [calculs](./f6_corr_bis.pdf) -->
 
 <!-- Exo 1.2 -->
 
 - [x ln(y^2 + 1)](https://www.wolframalpha.com/input?i=derivative+of+x+ln%28y%5E2+%2B+1%29)
-<!-- - [(x − y) ln(x^2 − y^2 )](https://www.wolframalpha.com/input?i=derivative+of+%28x+%E2%88%92+y%29+ln%28x%5E2+%E2%88%92+y%5E2+%29%3B) -->
-<!-- - [exp(x^2+y^3 ) − cos(xy)](https://www.wolframalpha.com/input?i=derivative+of+exp%28x%5E2%2By%5E3+%29+%E2%88%92+cos%28xy%29) -->
+- [(x − y) ln(x^2 − y^2 )](https://www.wolframalpha.com/input?i=derivative+of+%28x+%E2%88%92+y%29+ln%28x%5E2+%E2%88%92+y%5E2+%29%3B)
+- [exp(x^2+y^3 ) − cos(xy)](https://www.wolframalpha.com/input?i=derivative+of+exp%28x%5E2%2By%5E3+%29+%E2%88%92+cos%28xy%29)
+- [x^2/(x+2y)](https://www.wolframalpha.com/input?i=gradient+of+x%5E2%2F%28x%2B2y%29)
+    - [f_yx](https://www.wolframalpha.com/input?i=derivate+by+y+of++%284xy+%2B+x%5E2%29%2F%28x%2B2y%29%5E2)
+    - [f_xy](https://www.wolframalpha.com/input?i=derivative+by+x+of+-2x%5E2%2F%28x%2B2y%29%5E2)
 
 <!-- **Problem** -->
 
