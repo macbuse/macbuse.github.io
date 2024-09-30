@@ -10,6 +10,8 @@ title: MAT305
 - Wednesdays 9:45 E202
 - First class: 10/9
 
+**Important :** CC1 9/10
+
 
 
 ---
@@ -26,7 +28,7 @@ A titre d'info   :
 - [CC2 du  9/12/22 sujet + bareme + correction](./CC2_MAT305.pdf)
 - [CC1 2022](./CC1_MAT305_2022.pdf)
 - [correction](./CC1_corr.pdf)
-
+- [CC1 2023](./MAT305.pdf)
 
 - [ET  2021](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/ET-01.2022.pdf) 
 
@@ -133,12 +135,15 @@ A titre d'info   :
 
 ---
 
-[F2](./F2_2023exos.pdf)
+[F2](./F2_2024exos.pdf)
 
 **Exos à Preparer**
 
 **PREPARER** 
-1.1, 1.2, 2.1,2.2,2.3
+<!-- 1.1, 1.2, 2.1,2.2,2.3 -->
+Calculer les dérivées partielles pour:
+
+![pic](./not_schwarz.png)
 
 [solution 1.3](./sol_2_1_3.html)
 
@@ -157,7 +162,9 @@ A titre d'info   :
 
 <!-- [Exo supplementaire](./supp_exo.pdf) -->
 
-fonction ne verifie pas la relation de Schwarz en (0,0) 
+Fonction ne verifie pas la relation de Schwarz en (0,0) 
+
+![pic](./not_schwarz.png)
 
 - [voici le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
 - [3D interactive](./monkey.html)
