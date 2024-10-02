@@ -152,9 +152,10 @@ Calculer les dérivées partielles pour:
 ![pic](./not_schwarz.png)
 
 [solution](https://www.wolframalpha.com/input?i=calcul+the+gradient+of+the+function+x*y*%28x%5E2+-y%5E2%29%2F%28x%5E2+%2B+y%5E2%29)
+
 Cette fonction ne verifie pas la relation de Schwarz en (0,0) 
 
-![pic](./not_schwarz.png)
+<!-- ![pic](./not_schwarz.png) -->
 
 - [voici le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
 - [3D interactive](./monkey.html)
