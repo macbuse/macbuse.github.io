@@ -26,6 +26,7 @@ A titre d'info   :
 
 - [CC2 2023](CC2_2023.pdf)
 - [CC1 2023](./CC1_mat305.pdf)
+- [correction CC1](./CC1_mat305_2023.pdf)
 - [CC2 du  9/12/22 sujet + bareme + correction](./CC2_MAT305.pdf)
 - [CC1 2022](./CC1_MAT305_2022.pdf)
 - [correction](./CC1_corr.pdf)
@@ -137,6 +138,11 @@ A titre d'info   :
 
 [F2](./F2_2024exos.pdf)
 
+**RAPPEL** 
+-  [derivatives : poly mat102 pages 49-50](./mat102_functions.pdf)
+- [Feuille de mat102 pour révisier](../MAT102/Fiche4-fonctions.pdf)
+
+
 **Exos à Preparer**
 
 **PREPARER** 
@@ -144,6 +150,18 @@ A titre d'info   :
 Calculer les dérivées partielles pour:
 
 ![pic](./not_schwarz.png)
+
+[solution](https://www.wolframalpha.com/input?i=calcul+the+gradient+of+the+function+x*y*%28x%5E2+-y%5E2%29%2F%28x%5E2+%2B+y%5E2%29)
+Cette fonction ne verifie pas la relation de Schwarz en (0,0) 
+
+![pic](./not_schwarz.png)
+
+- [voici le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
+- [3D interactive](./monkey.html)
+
+---
+
+### Solutions
 
 [solution 1.3](./sol_2_1_3.html)
 
@@ -154,20 +172,10 @@ Calculer les dérivées partielles pour:
 <!-- Pour 27/9 : 1.3. Problème 1.1 (Équation des ondes). -->
 
 
-**RAPPEL** 
--  [derivatives : poly mat102 pages 49-50](./mat102_functions.pdf)
-- [Feuille de mat102 pour révisier](../MAT102/Fiche4-fonctions.pdf)
-
 ---
 
 <!-- [Exo supplementaire](./supp_exo.pdf) -->
 
-Fonction ne verifie pas la relation de Schwarz en (0,0) 
-
-![pic](./not_schwarz.png)
-
-- [voici le graphe](https://www.wolframalpha.com/input/?i=derivative+of+xy%28x%5E2-y%5E2%29%2F%28x%5E2%2By%5E2%29)
-- [3D interactive](./monkey.html)
 
 <!-- - [calculs](./f6_corr_bis.pdf) -->
 

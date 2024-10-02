@@ -137,6 +137,29 @@ $f:\mathbb{R}^2 \rightarrow \mathbb{R}$  suivantes :
 
  \end{enumerate}
 
+ \begin{enumerate}
+	 \item	
+Si $f(x,y) = x^3y^2+ 5y^2-x+7$ alors $f_x = 3x^2y - 1$,
+$f_y = 2x^3y + 10y$ et $f_{xy} = 6xy$ et $f_{yx} = 6xy$.
+
+\item Si $f(x,y) = \cos(xy^2)+\sin x$ alors $f_x = -y^2\sin(xy^2) +
+	\cos x$, $f_y = -2xy\sin(xy^2)$, $f_{xy} = -2y\sin(xy^2) -
+	2xy^3\cos(xy^2)$ et $f_{yx} = -2y\sin(xy^2) -
+	2xy^3\cos(xy^2)$.
+\item Si $f(x,y) = e^{x^2 + y^3}\sqrt{x^2+1}$ alors $f_x = 2xe^{x^2 +
+	y^3}\sqrt{x^2+1} + \frac{xe^{x^2 + y^3}}{\sqrt{x^2+1}}$,
+	f_y = $3y^2e^{x^2 + y^3}\sqrt{x^2+1}$, $f_{xy} = 2ye^{x^2
+	+	y^3}\sqrt{x^2+1} + 3xy^2e^{x^2 + y^3}\sqrt{x^2+1}$
+	et $f_{yx} = 2ye^{x^2 + y^3}\sqrt{x^2+1} + 3xy^2e^{x^2 +
+	y^3}\sqrt{x^2+1}$.
+
+\item Si $f(x,y) = \frac{x^2 - y^2}{x^2 + 1}$ alors 
+	$$f_x = \frac{2x(x^2 + 1) - 2x(x^2 - y^2)}{(x^2 + 1)^2}
+= \frac{2 x (y^2 + 1)}{(x^2 + 1)^2}$$, 
+	$$f_y = \frac{-2y}{(x^2 + 1)^2}$$
+
+\end{enumerate}
+
 
 \hrulefill
 
@@ -157,6 +180,20 @@ Pour chacune des fonctions $f$ suivantes calculer $f_{xx} + f_{yy}$
 \end{enumerate}
 
 \hrulefill
+
+\begin{enumerate}
+	\item
+Si $f(x,y) =  x^2 - y^2$ alors $f_{xx} + f_{yy} = 2 - 2 = 0$.
+	\item
+Si $f(x,y) = e^x \sin(y) + e^y \cos(x)$ alors 
+$$f_{xx} + f_{yy} = e^x
+\sin(y) - e^y \cos(x) + e^y \cos(x) - e^x \sin(y) = 0.$$
+\item $f(x,y)=  \log(\sqrt{ x^2 + y^2})$ alors $f_{xx} + f_{yy} = 0$
+car $f_x = \frac{x}{x^2 + y^2}$ et $f_y = \frac{y}{x^2 + y^2}$
+donc $$f_{xx} = \frac{y^2 - x^2}{(x^2 + y^2)^2} 
+\text{ et }f_{yy} = \frac{x^2 - y^2}{(x^2 + y^2)^2}.$$
+\end{enumerate}
+
 
 \vspace{1cm}
 

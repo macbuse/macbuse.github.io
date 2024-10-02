@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  30 SEP 2024 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2023.8.5)  1 OCT 2024 10:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -142,22 +142,49 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 123.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+./CC1_mat305.tex:151: Missing $ inserted.
+<inserted text> 
+                $
+l.151 	f_
+         y = $3y^2e^{x^2 + y^3}\sqrt{x^2+1}$, $f_{xy} = 2ye^{x^2
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./CC1_mat305.aux) ) 
+./CC1_mat305.tex:151: Missing $ inserted.
+<inserted text> 
+                $
+l.151 	f_y = $3y^
+                 2e^{x^2 + y^3}\sqrt{x^2+1}$, $f_{xy} = 2ye^{x^2
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (39.70389pt too wide) in paragraph at lines 149--155
+[]\T1/cmr/m/n/12 Si $\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 e[][]$ \T1/cmr/m/n/12 alors $\OML/cmm/m/it/12 f[] \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/12 xe[][] \OT1/cmr/m/n/12 + []$\T1/cmr/m/n/12 , f$[] \OT1/cmr/m/n/12 =$\T1/cmr/m/n/12 3y$[]\OML/cmm/m/it/12 e[][]$\T1/cmr/m/n/12 ,
+ []
+
+
+Overfull \hbox (60.61763pt too wide) in paragraph at lines 149--155
+\OML/cmm/m/it/12 f[] \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/12 ye[][] \OT1/cmr/m/n/12 + 3\OML/cmm/m/it/12 xy[]e[][]$ \T1/cmr/m/n/12 et $\OML/cmm/m/it/12 f[] \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/12 ye[][] \OT1/cmr/m/n/12 + 3\OML/cmm/m/it/12 xy[]e[][]$\T1/cmr/m/n/12 . 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./CC1_mat305.aux) ) 
 Here is how much of TeX's memory you used:
- 1997 strings out of 481252
- 24543 string characters out of 5915889
- 298089 words of memory out of 5000000
- 18953 multiletter control sequences out of 15000+600000
- 411833 words of font info for 50 fonts, out of 8000000 for 9000
+ 2001 strings out of 481252
+ 24583 string characters out of 5915889
+ 302089 words of memory out of 5000000
+ 18955 multiletter control sequences out of 15000+600000
+ 413363 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 67i,4n,74p,227b,144s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/macbuse/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/macbuse/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/macbuse/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/macbuse/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CC1_mat305.pdf (1 page, 92302 bytes).
+ 67i,5n,74p,227b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/macbuse/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/macbuse/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/macbuse/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/macbuse/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on CC1_mat305.pdf (2 pages, 104257 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
