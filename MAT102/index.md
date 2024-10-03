@@ -3,6 +3,7 @@
 - First class: 11/9
 - Wednesdays 11h30 D004
 - Friday 13h30 E207
+    -  18 octobre, DLST D102.
 
 - **IMPORTANT** quick test 1 **2/10**
 
@@ -116,11 +117,17 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 ---
 
 [F2](./Fiche2-sommes-produits.pdf)
+
+**Preparer pour 5/10**
+
+
+
+
 - [quick test 2023](./qt2.pdf)
 
-<!-- - [Suite arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique) -->
-<!-- - [Suite géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique) -->
-<!-- - [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique) -->
+- [Suite arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique)
+- [Suite géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique)
+- [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique)
 
 
 ---
