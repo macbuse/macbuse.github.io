@@ -20,8 +20,11 @@ Went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/event
 
 ---
 
+Looking forward to going to Hanoi for the [Geometry and Dynamics in Low Dimensions](https://sites.google.com/view/gdldhanoi/home) next January.
 
- I went to Oxford in January to give a talk in the topology seminar and I was supposed to go to San Francisco in January to give a talk in a special session on Markoff numbers at the AMS meeting but this got cancelled because of **Notilus**.
+Reporting on the thesis of Pablo Montealegre (On the stable norm of flat surfaces, defense 12/12/2024) in Montpellier.
+
+ I went to Oxford in January 2024 to give a talk in the topology seminar and I was supposed to go to San Francisco in January to give a talk in a special session on Markoff numbers at the AMS meeting but this got cancelled because of **Notilus**.
 
 - [Oxford talk slides ](./TIT2023/oxford.html)
 - then I organised  Zhang Yibo's [thesis defence](https://www-fourier.ujf-grenoble.fr/?q=fr/content/4-manifolds-admitting-fibrations) 5/4/2024.

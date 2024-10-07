@@ -145,15 +145,24 @@ A titre d'info   :
 
 **Exos à Preparer**
 
-**PREPARER** 
-<!-- 1.1, 1.2, 2.1,2.2,2.3 -->
-Calculer les dérivées partielles pour:
+**8/10 PREPARER** [exos supplementaires](./mexican_hat.pdf)
+
+[1er exo](https://www.wolframalpha.com/input?i=plot+%281%E2%88%92x+%5E2++%E2%88%92y+%5E2++%29exp%28+%E2%88%92%28x%5E2++%2By%5E2++%29)
+[2eme
+exo](https://www.wolframalpha.com/input?i=plot+%28x-y%29%5E2+%2B+1)
+[3eme
+exo](https://www.wolframalpha.com/input?i=plot+%28x%2By%29%5E2+%2B+4%28x-y%29%5E2)
+
+
+
+
+
+La fonction qui ne verifie pas la relation de Schwarz en (0,0) 
 
 ![pic](./not_schwarz.png)
 
 [solution](https://www.wolframalpha.com/input?i=calcul+the+gradient+of+the+function+x*y*%28x%5E2+-y%5E2%29%2F%28x%5E2+%2B+y%5E2%29)
 
-Cette fonction ne verifie pas la relation de Schwarz en (0,0) 
 
 <!-- ![pic](./not_schwarz.png) -->
 
