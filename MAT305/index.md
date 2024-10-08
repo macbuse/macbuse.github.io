@@ -147,11 +147,22 @@ A titre d'info   :
 
 **8/10 PREPARER** [exos supplementaires](./mexican_hat.pdf)
 
-[1er exo](https://www.wolframalpha.com/input?i=plot+%281%E2%88%92x+%5E2++%E2%88%92y+%5E2++%29exp%28+%E2%88%92%28x%5E2++%2By%5E2++%29)
-[2eme
+- [1er exo](https://www.wolframalpha.com/input?i=plot+%281%E2%88%92x+%5E2++%E2%88%92y+%5E2++%29exp%28+%E2%88%92%28x%5E2++%2By%5E2++%29)
+- [2eme
 exo](https://www.wolframalpha.com/input?i=plot+%28x-y%29%5E2+%2B+1)
-[3eme
+- [3eme
 exo](https://www.wolframalpha.com/input?i=plot+%28x%2By%29%5E2+%2B+4%28x-y%29%5E2)
+
+---
+
+**Problème 1**
+
+- [demo interactif](https://demonstrations.wolfram.com/LaSuperpositionDeDeuxOndesFrench/)
+- [ANC headphones](https://en.wikipedia.org/wiki/Noise-cancelling_headphones)
+- [cos( x + y - 1) for x from -4*pi to 4*pi](https://www.wolframalpha.com/input?i=plot+cos%28+x+%2B+y+-1%29+for+x+from+-4*pi+to+4*pi+)
+- [cos( -x + y -1) for x from -4*pi to 4*pi](https://www.wolframalpha.com/input?i=plot+cos%28-+x+%2B+y+-1%29+for+x+from+-4*pi+to+4*pi+)
+- [superposition](https://www.wolframalpha.com/input?i=plot+cos%28+x+%2B+y+-1%29+%2B+cos%28+-x+%2B+y+-1%29+for+x+from+-2*pi+to+2*pi+)
+
 
 
 
@@ -197,17 +208,6 @@ La fonction qui ne verifie pas la relation de Schwarz en (0,0)
 - [x^2/(x+2y)](https://www.wolframalpha.com/input?i=gradient+of+x%5E2%2F%28x%2B2y%29)
     - [f_yx](https://www.wolframalpha.com/input?i=derivate+by+y+of++%284xy+%2B+x%5E2%29%2F%28x%2B2y%29%5E2)
     - [f_xy](https://www.wolframalpha.com/input?i=derivative+by+x+of+-2x%5E2%2F%28x%2B2y%29%5E2)
-
-<!-- **Problem** -->
-
-<!-- - [demo interactif](https://demonstrations.wolfram.com/LaSuperpositionDeDeuxOndesFrench/) -->
-<!-- - [ANC headphones](https://en.wikipedia.org/wiki/Noise-cancelling_headphones) -->
-
-
-<!-- - [cos( x + y -1) for x from -4*pi to 4*pi](https://www.wolframalpha.com/input?i=plot+cos%28+x+%2B+y+-1%29+for+x+from+-4*pi+to+4*pi+) -->
-<!-- - [cos( -x + y -1) for x from -4*pi to 4*pi](https://www.wolframalpha.com/input?i=plot+cos%28-+x+%2B+y+-1%29+for+x+from+-4*pi+to+4*pi+) -->
-<!-- - [superposition](https://www.wolframalpha.com/input?i=plot+cos%28+x+%2B+y+-1%29+%2B+cos%28+-x+%2B+y+-1%29+for+x+from+-2*pi+to+2*pi+) -->
-
 
 ---
 
