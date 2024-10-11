@@ -108,9 +108,9 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 <!-- --- -->
 
-<!-- [F3](./Fiche3-geometrie.pdf) -->
+[F3](./Fiche3-geometrie.pdf)
 
-<!-- [quick test géométrie 2022](./qt3.pdf) -->
+[quick test géométrie 2022](./qt3.pdf)
 
 
 
