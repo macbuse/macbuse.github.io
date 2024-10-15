@@ -103,31 +103,29 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 <!-- [F4](./Fiche4-fonctions.pdf) -->
 
-
 ---
 
 <!-- --- -->
 
 [F3](./Fiche3-geometrie.pdf)
 
+**Preparer pour 12/10** exos 7 et 9
+
 [quick test géométrie 2022](./qt3.pdf)
-
-
 
 ---
 
 [F2](./Fiche2-sommes-produits.pdf)
 
-**Preparer pour 5/10**
-
-
+<!-- **Preparer pour 5/10** -->
 
 
 - [quick test 2023](./qt2.pdf)
 
-- [Suite arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique)
-- [Suite géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique)
+- [Progression arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique)
+- [Progression géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique)
 - [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique)
+- [Somme telescopique](https://fr.wikipedia.org/wiki/Somme_t%C3%A9lescopique)
 
 
 ---

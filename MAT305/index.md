@@ -71,10 +71,9 @@ A titre d'info   :
 
 
 <!-- - [Multiplication etc.](./mult.pdf) -->
-<!-- - [F3 calcul matriciel](./F3_2023exos.pdf) -->
 
-
-<!-- - [Algebre lineaire](./polyMAT102-espace_vect.pdf) -->
+- [F3 calcul matriciel](./F3_2023exos.pdf)
+    - [Algebre lineaire cours mat 102](./polyMAT102-espace_vect.pdf)
 
 <!-- --- -->
 
@@ -133,7 +132,6 @@ A titre d'info   :
 
 <!-- --- -->
 
-
 ---
 
 [F2](./F2_2024exos.pdf)
@@ -144,6 +142,14 @@ A titre d'info   :
 
 
 **Exos à Preparer**
+
+**15/10** : 1.04, Problème 1.2
+
+- [coordonnées
+sphériques](https://fr.wikipedia.org/wiki/Coordonn%C3%A9es_polaires#Trois_dimensions)
+- [loi de kepler](https://fr.wikipedia.org/wiki/Lois_de_Kepler)
+
+![kepler](https://upload.wikimedia.org/wikipedia/commons/6/69/Kepler-second-law.gif)
 
 **8/10 PREPARER** [exos supplementaires](./mexican_hat.pdf)
 
