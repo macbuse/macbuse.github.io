@@ -20,8 +20,8 @@
 - [exam 2020](./MAT102_Examen_Session1_2020-2021.pdf)
 - [exam 2021](./MAT102_Examen_Session1_2021-2022.pdf)
 
-- [partiel 2022](./2022-novembre-V2.pdf
--  [partiel 2023](./2023-octobre.pdf
+- [partiel 2022](./2022-novembre-V2.pdf)
+-  [partiel 2023](./2023-octobre.pdf)
 
 ---
 
