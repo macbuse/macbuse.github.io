@@ -17,11 +17,19 @@
     - [quick test 1 2022](./quick_test.pdf)
     - [quick test 2](qt2.pdf)
     - [quick test 3](qt3.pdf)
+
+
+- [partiel 2022](./2022-novembre-V2.pdf)
+- [partiel 2023](./2023-octobre.pdf)
+
 - [exam 2020](./MAT102_Examen_Session1_2020-2021.pdf)
 - [exam 2021](./MAT102_Examen_Session1_2021-2022.pdf)
 
-- [partiel 2022](./2022-novembre-V2.pdf)
--  [partiel 2023](./2023-octobre.pdf)
+
+![fig1](./fig_2022.png)
+![fig1](./fig_2023.png)
+
+
 
 ---
 
