@@ -7476,6 +7476,88 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=a19c4f2d-d81a-489f-b63f-1d07a20c344c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="fusion">fusion<a class="anchor-link" href="#fusion">¶</a></h1><p>I'm confused as to what this <strong>really</strong> does
+as the comment</p>
+<p><code>#Intermediate function that fuses two dictionaries</code></p>
+<p>isn't very helpful. I took this to mean that it <strong>updates</strong>
+<strong>dict1</strong> from <strong>dict2</strong></p>
+<p><a href="https://python-reference.readthedocs.io/en/latest/docs/dict/update.html">https://python-reference.readthedocs.io/en/latest/docs/dict/update.html</a></p>
+<p>But it all depends on the fact that the <strong>values</strong> support <strong>+=</strong>
+but you don't say what the values are.</p>
+<p>You should really fill out the docstring following the 
+<a href="https://www.programiz.com/python-programming/docstrings#:~:text=Standard%20conventions%20to%20write%20single%2Dline%20docstrings%3A&amp;text=The%20closing%20quotes%20are%20on,structure%20ending%20with%20a%20period.">howto </a></p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=c3b67a30-ec50-4040-8ad4-a974dc84db4e">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fusion</span><span class="p">(</span><span class="n">dict1</span><span class="p">,</span><span class="n">dict2</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">''' fill out here '''</span>
+    
+    <span class="n">cles</span><span class="o">=</span><span class="n">dict2</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+    <span class="n">res</span><span class="o">=</span><span class="n">dict1</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">vec</span> <span class="ow">in</span> <span class="n">cles</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">vec</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">dict1</span><span class="p">:</span>
+            <span class="n">val</span><span class="o">=</span><span class="n">dict2</span><span class="p">[</span><span class="n">vec</span><span class="p">]</span>
+            <span class="n">res</span><span class="p">[</span><span class="n">vec</span><span class="p">]</span><span class="o">=</span><span class="n">val</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">res</span><span class="p">[</span><span class="n">vec</span><span class="p">]</span><span class="o">+=</span><span class="n">dict2</span><span class="p">[</span><span class="n">vec</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">res</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7756555f-acf6-4ccd-9fa4-18ea58a74c7b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">string</span> <span class="kn">import</span> <span class="n">ascii_lowercase</span>
+
+<span class="n">d1</span> <span class="o">=</span> <span class="p">{</span> <span class="n">c</span> <span class="p">:</span> <span class="n">k</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">c</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">ascii_lowercase</span><span class="p">[:</span><span class="mi">10</span><span class="p">])}</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>{'a': 0,
+ 'b': 1,
+ 'c': 2,
+ 'd': 3,
+ 'e': 4,
+ 'f': 5,
+ 'g': 6,
+ 'h': 7,
+ 'i': 8,
+ 'j': 9}</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cf6ada9d-5b82-43cb-8a10-2da2b8b61ef1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
