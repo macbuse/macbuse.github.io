@@ -73,13 +73,13 @@ A titre d'info   :
 
 <!-- - [Multiplication etc.](./mult.pdf) -->
 
-- [F3 calcul matriciel](./F3_2023exos.pdf)
-    - [Algebre lineaire cours mat 102](./polyMAT102-espace_vect.pdf)
+---
 
-<!-- --- -->
+- [F3 calcul matriciel](./exos_matrices.pdf)
+    - [Algebre lineaire cours mat 102](./polyMAT102-espace_vect.pdf)
+---
 
 <!-- - [revision](./extra.pdf) -->
-<!-- - [correction CC1](./CC1_mat305_2023.pdf) -->
 <!-- <!-1- - [CC2 du  9/11/22 sujet + bareme + correction](./CC2_MAT305.pdf) -1-> -->
 
 
