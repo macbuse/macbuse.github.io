@@ -77,6 +77,8 @@ A titre d'info   :
 
 - [F3 calcul matriciel](./exos_matrices.pdf)
     - [Algebre lineaire cours mat 102](./polyMAT102-espace_vect.pdf)
+    - [exemple correction](./f3_corr_2.pdf)
+
 ---
 
 <!-- - [revision](./extra.pdf) -->
