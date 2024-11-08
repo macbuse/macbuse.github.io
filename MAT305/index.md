@@ -13,7 +13,6 @@ title: MAT305
 **Important :** CC1 9/10
 
 
-
 ---
 
 ## Programme
@@ -79,7 +78,11 @@ A titre d'info   :
     - [Algebre lineaire cours mat 102](./polyMAT102-espace_vect.pdf)
     - [exemple correction](./f3_corr_2.pdf)
 
----
+
+- **Exos a preparer pour 12/11**
+    - 1.5.2
+    - 1.7.2
+
 
 <!-- - [revision](./extra.pdf) -->
 <!-- <!-1- - [CC2 du  9/11/22 sujet + bareme + correction](./CC2_MAT305.pdf) -1-> -->
