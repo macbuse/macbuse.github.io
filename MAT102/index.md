@@ -112,7 +112,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 ---
 
-<!-- [F4](./Fiche4-fonctions.pdf) -->
+[F4](./Fiche4-fonctions.pdf)
 
 ---
 
