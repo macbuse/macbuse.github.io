@@ -78,6 +78,9 @@ A titre d'info   :
     - [Algebre lineaire cours mat 102](./polyMAT102-espace_vect.pdf)
     - [exemple correction](./f3_corr_2.pdf)
 
+- **Exo 1.10**
+
+![](./newton_matrices.png)
 
 - **Exos a preparer pour 12/11**
     - 1.5.2
