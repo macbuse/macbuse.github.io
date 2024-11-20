@@ -10,7 +10,8 @@ title: MAT305
 - Wednesdays 9:45 E202
 - First class: 10/9
 
-**Important :** CC1 9/10
+**Important :** CC2 4/12
+<!-- **Important :** CC1 9/10 -->
 
 
 ---

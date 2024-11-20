@@ -3,9 +3,10 @@
 - First class: 11/9
 - Wednesdays 11h30 D004
 - Friday 13h30 E207
-    -  18 octobre, DLST D102.
+   <!-- -  18 octobre, DLST D102. -->
 
-- **IMPORTANT** quick test 1 **2/10**
+- **IMPORTANT quick test 2 27/11**
+<!-- - **IMPORTANT** quick test 1 **2/10** -->
 
 <!-- **IMPORTANT Quick test 1 le 5/10** -->
 
@@ -112,9 +113,13 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 ---
 
+### Fonctions d'une variable réelle
+
 [F4](./Fiche4-fonctions.pdf)
 
 ---
+
+### Géométrie 
 
 <!-- --- -->
 
