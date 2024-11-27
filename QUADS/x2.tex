@@ -1392,6 +1392,49 @@ $$z\mapsto -\frac{N}{z}.$$
  which fixes $i\sqrt{N}\in \mathbb{H}$.
 
 
+ \subsection{Sheingorn and A-A-C}
+
+ Consider the negative Pell's equation:
+ \begin{equation}
+	 x^2 - py^2 = -1,
+	\end{equation}
+where $p$ is a prime of the form $4k+1$.
+Ankey, Artin and Chowla conjectured
+that $p$ never divides $y$.
+In 1978 Sheingorn showed that this conjecture is equivalent to a
+geometric statement about the action of the group 
+$\Gamma*(p) := \Gamma(p) \cap \Gamma^0(p^2)$. 
+
+The Poincaré geodesic joining $\pm \sqrt 2$
+contains fixed points of certain involutions of $\Gamma(1)$
+namely the points $(x+i)/y$ where $x^2 - py^2 = -1$.
+
+There are a pair of distinguished such fixed points
+namely $(\pm x_0 +i)/y_0$ for $x_0,y_0$ the fundamental solution of Pell's equation.
+These are fixed by the involutions
+\begin{equation}
+	\sigma = \begin{pmatrix}
+		\pm x_0 & -y_0 p \\
+		-y_0 & \mp x_0
+	\end{pmatrix}
+\end{equation}
+(I think he made a mistake in the signs
+this matrix has determinant 1 and should be traceless)
+
+
+\begin{equation}
+	\sigma = \begin{pmatrix}
+		-x_0^2 - p y_0^2  & -2x_0y_0 p \\
+		-2x_0y_0 & -x_0^2 - p y_0^2  
+	\end{pmatrix}
+\end{equation}
+
+
+he then observes that A-A-C is false for $p$
+if and only if $\sigma \in \Gamma*(p)$.
+
+
+
 % the inverse image under the reduction morphism
 
 
@@ -1577,12 +1620,25 @@ P. Sarnak
 \textit{Class numbers of indfinite binary quadra tic forms}
 J. Number Theory, 15 (1982), pp. 229-247
 
+
+
 \bibitem{serre}
 J-P. Serre,
 \textit{A Course in Arithmetic},
 Graduate Texts in Mathematics,
 Springer-Verlag New York
 1973
+
+\bibitem{scheingorn}
+Mark Sheingorn,
+\textit{Hyperbolic reflections on Pell's equation,}
+Journal of Number Theory,
+Volume 33, Issue 3,
+1989,
+Pages 267-285,
+% ISSN 0022-314X,
+% https://doi.org/10.1016/0022-314X(89)90064-4.
+(\url{https://www.sciencedirect.com/science/article/pii/0022314X89900644})
 
 \bibitem{Shimizu}
 H. Shimizu, 

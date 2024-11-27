@@ -75,6 +75,7 @@ A titre d'info   :
 
 ---
 
+- [F4](./exos_esp_vec.pdf)
 - [F3 calcul matriciel](./exos_matrices.pdf)
     - [Algebre lineaire cours mat 102](./polyMAT102-espace_vect.pdf)
     - [exemple correction](./f3_corr_2.pdf)
@@ -149,7 +150,6 @@ A titre d'info   :
 **RAPPEL** 
 -  [derivatives : poly mat102 pages 49-50](./mat102_functions.pdf)
 - [Feuille de mat102 pour révisier](../MAT102/Fiche4-fonctions.pdf)
-
 
 **Exos à Preparer**
 
