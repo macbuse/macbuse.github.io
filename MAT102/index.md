@@ -3,6 +3,7 @@
 - First class: 11/9
 - Wednesdays 11h30 D004
 - Friday 13h30 E207
+- **Vendredi 13 décembre D004.**
    <!-- -  18 octobre, DLST D102. -->
 
 - **IMPORTANT quick test 2 27/11**
@@ -97,17 +98,17 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 <!-- --- -->
 
-<!-- [F5](./Fiche5-integrales.pdf) -->
+[F5](./Fiche5-integrales.pdf)
 
 <!-- - [exo 5](./Fiche5Ex5.pdf) -->
 <!-- - [exo 6](./Fiche5Ex6.pdf) -->
 <!-- - [exo 7](./Fiche5Ex7.pdf) -->
-<!-- - [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29) -->
-<!-- - [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29) -->
-<!-- - [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29) -->
-<!-- - [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29) -->
-<!-- - [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29) -->
-<!-- - [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29) -->
+- [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29)
+- [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29)
+- [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29)
+- [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29)
+- [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29)
+- [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29)
 
 <!-- --- -->
 
@@ -116,6 +117,9 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 ### Fonctions d'une variable réelle
 
 [F4](./Fiche4-fonctions.pdf)
+
+- [exo
+28](https://www.wolframalpha.com/input?i=x+from+-7+to+7+plot+1%2F2+x+%2B+2+%2B+%5Clog%28%28+x-1%29%2F%28x%2B1%29%29+)
 
 ---
 
