@@ -20,6 +20,7 @@
     - [quick test 2](qt2.pdf)
     - [quick test 3](qt3.pdf)
 
+    - [quick test 2 2024](./qt2_2024.pdf)
 
 - [partiel 2022](./2022-novembre-V2.pdf)
 - [partiel 2023](./2023-octobre.pdf)
@@ -118,8 +119,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 [F4](./Fiche4-fonctions.pdf)
 
-- [exo
-28](https://www.wolframalpha.com/input?i=x+from+-7+to+7+plot+1%2F2+x+%2B+2+%2B+%5Clog%28%28+x-1%29%2F%28x%2B1%29%29+)
+- [exo 28](https://www.wolframalpha.com/input?i=x+from+-7+to+7+plot+1%2F2+x+%2B+2+%2B+%5Clog%28%28+x-1%29%2F%28x%2B1%29%29+)
 
 ---
 
