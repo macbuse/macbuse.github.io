@@ -19,8 +19,7 @@
     - [quick test 1 2022](./quick_test.pdf)
     - [quick test 2](qt2.pdf)
     - [quick test 3](qt3.pdf)
-
-    - [quick test 2 2024](./qt2_2024.pdf)
+    - [quick test 3 2024](./qt2_2024.pdf)
 
 - [partiel 2022](./2022-novembre-V2.pdf)
 - [partiel 2023](./2023-octobre.pdf)
@@ -83,6 +82,9 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 1. Géométrie 
 1. Fonctions 
 1. Intégrales 
+
+
+---
 
  <!-- 16-17 -->
 

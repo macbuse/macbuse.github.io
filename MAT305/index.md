@@ -24,28 +24,32 @@ title: MAT305
 
 A titre d'info   : 
 
+- [CC2 2024](./CC2_2024.pdf)
 - [CC1 2024](./CC1_mat305_2024.pdf)
 - [CC2 2023](CC2_2023.pdf)
 - [CC1 2023](./CC1_mat305.pdf)
-- [correction CC1](./CC1_mat305_2023.pdf)
+    - [correction CC1](./CC1_mat305_2023.pdf)
 - [CC2 du  9/12/22 sujet + bareme + correction](./CC2_MAT305.pdf)
 - [CC1 2022](./CC1_MAT305_2022.pdf)
-- [correction](./CC1_corr.pdf)
+    - [correction](./CC1_corr.pdf)
 
 - [ET  2021](https://www-fourier.ujf-grenoble.fr/~eherscov/MAT305/ET-01.2022.pdf) 
 
-<!-- - [CC1 du 8/10](./CC1_MAT305.pdf) -->
 <!-- - [web page avec tous les documents](https://www-fourier.ujf-grenoble.fr/~eherscov/index-mat305-2022.php) -->
-<!-- - [2021 TD archived page](./MAT305_index.md) -->
-<!-- - [mes calculs](./uniqueness.pdf) -->
 
+
+---
+
+- [F4](./exos_esp_vec.pdf)
 
 <!-- <!-1- - [Feuille diagonalisation](./diag.pdf) -1-> -->
 <!-- <!-1- - [solutions](./sols.md) -1-> -->
 
-<!-- - [Feuille inverses](./inverse.pdf) -->
 
 ---
+
+- [exos sur le noyau](./noyau.pdf)
+- [exos sur les  inverses](./inverse.pdf)
 
 
 <!-- **solutions noyau/image** -->
@@ -73,9 +77,9 @@ A titre d'info   :
 
 <!-- - [Multiplication etc.](./mult.pdf) -->
 
+
 ---
 
-- [F4](./exos_esp_vec.pdf)
 - [F3 calcul matriciel](./exos_matrices.pdf)
     - [Algebre lineaire cours mat 102](./polyMAT102-espace_vect.pdf)
     - [exemple correction](./f3_corr_2.pdf)
