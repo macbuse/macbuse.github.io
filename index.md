@@ -9,7 +9,7 @@ title: Home
 ### mcshane@univ-grenoble-alpes.fr
 ### ORCID iD: 0009-0005-2197-2399
 
-- [CV french](./CV2024.PDF
+- [CV french](./CV2024.PDF)
 
 
 
