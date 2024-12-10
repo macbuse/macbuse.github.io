@@ -42,12 +42,13 @@ A titre d'info   :
 
 - [F4](./exos_esp_vec.pdf)
 
-<!-- <!-1- - [Feuille diagonalisation](./diag.pdf) -1-> -->
-<!-- <!-1- - [solutions](./sols.md) -1-> -->
+- [correction 1.30.1 + 1.29](./f5_corr.pdf)
 
 
 ---
 
+- [exos diagonalisation](./diag.pdf)
+    - [solutions](./sols.md)
 - [exos sur le noyau](./noyau.pdf)
 - [exos sur les  inverses](./inverse.pdf)
 
