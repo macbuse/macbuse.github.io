@@ -8,6 +8,7 @@
 \usepackage{amssymb,amsthm,amsmath,amsfonts}
 \usepackage{textcomp}
 %\usepackage{bbm}
+\usepackage{graphicx}
 
 \usepackage{framed}
 
@@ -94,7 +95,12 @@
 
 \begin{document}
 
-$$f(x,y) = (x^2 + y^2)^2  + 2(y^2 - x^2)$$
+\begin{eqnarray*}
+	f: \R^2 &\to& \R \\
+	f:(x,y) &\mapsto& (x^2 + y^2)^2  + 2(y^2 - x^2) 
+\end{eqnarray*}
+
+est une fonction de classe $C^2$ car elle est polynomiale. 
 
 
 \hrule
@@ -105,8 +111,10 @@ $$f(x,y) = (x^2 + y^2)^2  + 2(y^2 - x^2)$$
 y^2) - x, y(x^2 + y^2) + y)
 \end{eqnarray*}
 
+\hrule
+\vspace{1cm}
 
-les points critiques sont les solutions de 
+Les points critiques sont les solutions de 
 \begin{eqnarray*}
 x(x^2 + y^2) - x &=& 0 \\
 y(x^2 + y^2) + y &=& 0
@@ -114,25 +122,44 @@ y(x^2 + y^2) + y &=& 0
 
 \begin{itemize}
 	\item	
-Si $x = 0$, on a $y(y^2 + 1) = 0$, donc $y = 0$.
+Si $x = 0$, on a $y(y^2 + 1) = 0$, donc $y = 0$ car $y^2 + 1 \geq 1 >0$.
 \item
 Si $y = 0$, on a $x(x^2 - 1) = 0$, donc $x = 0$ ou $x= \pm 1$.
 \end{itemize}
 
+Il en résulte que les trois points critiques sont $(0,0)$, $(1,0)$ et
+$(-1,0)$.
 
-L'hessien est
-$$H = \begin{pmatrix} 4(x^2 + y^2) + 8x^2 - 4& 8xy \\ 
+\vspace{1cm}
+\hrule
+\vspace{1cm}
+
+
+L'hessien de $f$ est
+$$H = \begin{pmatrix} f_{xx} & f_{xy} \\ f_{yx} & f_{yy}
+\end{pmatrix} = 
+\begin{pmatrix} 4(x^2 + y^2) + 8x^2 - 4& 8xy \\ 
 \ 8xy  & 4(x^2 + y^2) + 8y^2 + 4 \end{pmatrix}$$
 
+\begin{itemize}
 
+\item
 	En $(0,0)$, on a $H = \begin{pmatrix} -4 & 0 \\ 0 & 4
 	\end{pmatrix}$, 
 	$\det H = -16 < 0$, donc $(0,0)$ est un point selle.
-
-	En $(\pm1,0)$, on a $H = \begin{pmatrix} 8 & 0 \\ 0 & 4
+\item
+	En $(\pm1,0)$, on a $H = \begin{pmatrix} 8 & 0 \\ 0 &
+		8
 	\end{pmatrix}$,
 	$\det H = 32 > 0$ et $\tr H = 12 > 0$, donc $(1,0)$
 	est un minimum local.
 
+\end{itemize}
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.3\textwidth]{./contour.png}
+	\end{center}
+\end{figure}
 
 \end{document}
