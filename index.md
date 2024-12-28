@@ -63,11 +63,14 @@ Reporting on the thesis of Pablo Montealegre (On the stable norm of flat surface
     - Tuesdays 8:00 
     - Wednesdays 9:45
 
-
 ### Second semester
 
 - Magistère Algebraic Topology 
-- L3 Differential Geometry
+    - [web page for class](./MAGIST/index.md)
+    
+    
+- L3 integration/probability
+    - [web page for class](./MAT366/index.md)
 
 
 ---

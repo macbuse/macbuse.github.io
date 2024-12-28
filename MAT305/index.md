@@ -43,6 +43,7 @@ A titre d'info   :
 - [F4](./exos_esp_vec.pdf)
 
 <img src="./contour.png" width="400">
+
 - [solution 1.31](./hesse.pdf)
 
 - [correction 1.30.1 + 1.29](./f5_corr_1.pdf)
