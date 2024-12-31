@@ -32,6 +32,8 @@ Reporting on the thesis of Pablo Montealegre (On the stable norm of flat surface
 - [Oxford talk slides ](./TIT2023/oxford.html)
 - then I organised  Zhang Yibo's [thesis defence](https://www-fourier.ujf-grenoble.fr/?q=fr/content/4-manifolds-admitting-fibrations) 5/4/2024.
 - I was president of Andrea Seppi's [HDR jury](https://www-fourier.univ-grenoble-alpes.fr/?q=fr/content/probl%C3%A8mes-de-plateau-asymptotiques-leurs-g%C3%A9n%C3%A9ralisations-et-applications-aux-structures) 25/4/2024.
+- I was president of Pablo Montealegre's [thesis jury](https://theses.fr/s303985)
+12/12/2024.
 - working on a [draft of work in progress](./QUADS/x2.pdf)
 - working on a [thinking about Diophantine triples](./triples.pdf)
 
@@ -44,6 +46,17 @@ Reporting on the thesis of Pablo Montealegre (On the stable norm of flat surface
 ---
 
 <h1 id="teaching">Teaching 2024-25</h1>
+
+
+### Second semester
+
+- Magistère Algebraic Topology 
+    - [web page for class](https://github.com/macbuse/ALG_TOP)
+    
+    
+- L3 integration/probability
+    - [web page for class](./MAT366/index.md)
+
 
 ### First semester
 
@@ -62,16 +75,6 @@ Reporting on the thesis of Pablo Montealegre (On the stable norm of flat surface
 - First class: 10/9
     - Tuesdays 8:00 
     - Wednesdays 9:45
-
-### Second semester
-
-- Magistère Algebraic Topology 
-    - [web page for class](https://github.com/macbuse/ALG_TOP)
-    
-    
-- L3 integration/probability
-    - [web page for class](./MAT366/index.md)
-
 
 ---
 
