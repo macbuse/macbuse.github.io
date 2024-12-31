@@ -66,7 +66,7 @@ Reporting on the thesis of Pablo Montealegre (On the stable norm of flat surface
 ### Second semester
 
 - Magistère Algebraic Topology 
-    - [web page for class](./MAGIST/index.md)
+    - [web page for class](https://github.com/macbuse/ALG_TOP)
     
     
 - L3 integration/probability
