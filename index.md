@@ -15,27 +15,32 @@ title: Home
 
 You [should](./bourses.md) be able to find out about my research and teaching here. But if you need a CV for some reason (grant applications, invitations etc) then here is a [CV](./CV.pdf). Just in case you are wondering why this page is on GitHub [read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/) and here are  [my github repos](https://github.com/macbuse) I've just added a [new repo](https://github.com/macbuse/FAREY_DIAGRAM/tree/main) for a project I'm working on with a student.
 
-Went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024. On Friday 14/6 I'll be giving a talk 
-
-- [Slides: Automorphisms and elementary number theory](./TIT2023/singapore.html).
 
 ---
 
-Judging for [SCUDEM IX](https://qubeshub.org/community/groups/simiode/File:/uploads/docs/SCUDEMIX2024/SCUDEM_IX_2024_Three_Problems.pdf)
+Spent most of October reporting on the thesis of Pablo Montealegre (On the stable norm of flat surfaces, defense 12/12/2024) in Montpellier.
 
-Looking forward to going to Hanoi for the [Geometry and Dynamics in Low Dimensions](https://sites.google.com/view/gdldhanoi/home) next January.
+Spent a weekend start of December judging for [SCUDEM IX](https://qubeshub.org/community/groups/simiode/File:/uploads/docs/SCUDEMIX2024/SCUDEM_IX_2024_Three_Problems.pdf)
+I was looking forward to going to Hanoi for the [Geometry and Dynamics in Low Dimensions](https://sites.google.com/view/gdldhanoi/home) in January 2025 but for administrative reasons didn't make it.
 
-Reporting on the thesis of Pablo Montealegre (On the stable norm of flat surfaces, defense 12/12/2024) in Montpellier.
+In June I went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024. On Friday 14/6 I gave a talk and we had dinner with Alan Reid and for his birthday.
 
- I went to Oxford in January 2024 to give a talk in the topology seminar and I was supposed to go to San Francisco in January to give a talk in a special session on Markoff numbers at the AMS meeting but this got cancelled because of **Notilus**.
+- [Slides: Automorphisms and elementary number theory](./TIT2023/singapore.html).
+
+ I did get to go to Oxford in January 2024 to give a talk in the topology seminar and I was supposed to go to San Francisco in January to give a talk in a special session on Markoff numbers at the AMS meeting but this got cancelled because of **Notilus**.
 
 - [Oxford talk slides ](./TIT2023/oxford.html)
 - then I organised  Zhang Yibo's [thesis defence](https://www-fourier.ujf-grenoble.fr/?q=fr/content/4-manifolds-admitting-fibrations) 5/4/2024.
 - I was president of Andrea Seppi's [HDR jury](https://www-fourier.univ-grenoble-alpes.fr/?q=fr/content/probl%C3%A8mes-de-plateau-asymptotiques-leurs-g%C3%A9n%C3%A9ralisations-et-applications-aux-structures) 25/4/2024.
 - I was president of Pablo Montealegre's [thesis jury](https://theses.fr/s303985)
 12/12/2024.
+
+
+- reading the [topologicon](https://permamath.e-monsite.com/medias/files/petit-jean-pierre-le-topologicon.pdf)
 - working on a [draft of work in progress](./QUADS/x2.pdf)
 - working on a [thinking about Diophantine triples](./triples.pdf)
+
+![topo](./topologicon_torus.png)
 
 <!-- - I am currently in confinement with COVID -->
 <!-- - This week I'm sad :( because Copilot is out of beta preview. -->
