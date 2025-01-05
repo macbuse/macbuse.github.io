@@ -9,36 +9,56 @@ title: Home
 ### mcshane@univ-grenoble-alpes.fr
 ### ORCID iD: 0009-0005-2197-2399
 
-- [CV french](./CV2024.PDF)
+ [CV french](./CV2024.PDF)
+
+- <a href="#teaching">Skip to teaching </a>
+- <a href="#research">Skip to research </a>
+- <a href="#preprints">Skip to preprints</a>
+- <a href="#talks">Skip to slides for talks</a>
+
+---
 
 
 
-You [should](./bourses.md) be able to find out about my research and teaching here. But if you need a CV for some reason (grant applications, invitations etc) then here is a [CV](./CV.pdf). Just in case you are wondering why this page is on GitHub [read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/) and here are  [my github repos](https://github.com/macbuse) I've just added a [new repo](https://github.com/macbuse/FAREY_DIAGRAM/tree/main) for a project I'm working on with a student.
+You [should](./bourses.md) be able to find out about my research and teaching here. But if you need a CV for some reason (grant applications, invitations etc) then here is  [one](./CV.pdf). 
+
+Just in case you are wondering why this page is on GitHub [read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/) and here are  [my github repos](https://github.com/macbuse) I've just added a [new repo](https://github.com/macbuse/FAREY_DIAGRAM/tree/main) for a project I'm working on with a student.
 
 
 ---
 
-Spent most of October reporting on the thesis of Pablo Montealegre (On the stable norm of flat surfaces, defense 12/12/2024) in Montpellier.
+### What I've been doing lately:
 
-Spent a weekend start of December judging for [SCUDEM IX](https://qubeshub.org/community/groups/simiode/File:/uploads/docs/SCUDEMIX2024/SCUDEM_IX_2024_Three_Problems.pdf)
 I was looking forward to going to Hanoi for the [Geometry and Dynamics in Low Dimensions](https://sites.google.com/view/gdldhanoi/home) in January 2025 but for administrative reasons didn't make it.
 
-In June I went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024. On Friday 14/6 I gave a talk and we had dinner with Alan Reid and for his birthday.
 
+**December** : 
+- judging for [SCUDEM IX](https://qubeshub.org/community/groups/simiode/File:/uploads/docs/SCUDEMIX2024/SCUDEM_IX_2024_Three_Problems.pdf)
+- I was president of Pablo Montealegre's [thesis jury](https://theses.fr/s303985) 12/12/2024.
+
+**October** : Reporting on the thesis of Pablo Montealegre (On the stable norm of flat surfaces, defense 12/12/2024) in Montpellier.
+
+**June** : I went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024. On Friday 14/6 I gave a talk and we had dinner with Alan Reid and for his birthday.
 - [Slides: Automorphisms and elementary number theory](./TIT2023/singapore.html).
 
- I did get to go to Oxford in January 2024 to give a talk in the topology seminar and I was supposed to go to San Francisco in January to give a talk in a special session on Markoff numbers at the AMS meeting but this got cancelled because of **Notilus**.
+**April** :
+- Organised  Zhang Yibo's [thesis defence](https://www-fourier.ujf-grenoble.fr/?q=fr/content/4-manifolds-admitting-fibrations) 5/4/2024.
+- President of Andrea Seppi's [HDR jury](https://www-fourier.univ-grenoble-alpes.fr/?q=fr/content/probl%C3%A8mes-de-plateau-asymptotiques-leurs-g%C3%A9n%C3%A9ralisations-et-applications-aux-structures) 25/4/2024.
 
+**January 2024** : Went to Oxford to give a talk in the topology seminar and I was supposed to go to San Francisco in January to give a talk in a special session on Markoff numbers at the AMS meeting but this got cancelled because of **Notilus**.
 - [Oxford talk slides ](./TIT2023/oxford.html)
-- then I organised  Zhang Yibo's [thesis defence](https://www-fourier.ujf-grenoble.fr/?q=fr/content/4-manifolds-admitting-fibrations) 5/4/2024.
-- I was president of Andrea Seppi's [HDR jury](https://www-fourier.univ-grenoble-alpes.fr/?q=fr/content/probl%C3%A8mes-de-plateau-asymptotiques-leurs-g%C3%A9n%C3%A9ralisations-et-applications-aux-structures) 25/4/2024.
-- I was president of Pablo Montealegre's [thesis jury](https://theses.fr/s303985)
-12/12/2024.
+
+---
+
+### What I'm doing this week:
 
 
 - reading the [topologicon](https://permamath.e-monsite.com/medias/files/petit-jean-pierre-le-topologicon.pdf)
+- collecting material for [this class](https://github.com/macbuse/ALG_TOP)
+- reading [working
+papers](https://collectif-maths-sciences.fr/author/melanie-guenais/) from the **Collectif Maths&Sciences**.
 - working on a [draft of work in progress](./QUADS/x2.pdf)
-- working on a [thinking about Diophantine triples](./triples.pdf)
+- thinking about [Diophantine triples](./triples.pdf)
 
 ![topo](./topologicon_torus.png)
 
@@ -99,21 +119,27 @@ In June I went to  Singapore for the [meeting on thin groups](https://ims.nus.ed
 
 #### What have I  been doing lately?
 
+#### 2024
+
+Speaker NUS Singapore 14/6/2024
+- [Slides: Automorphisms and elementary number theory](./TIT2023/singapore.html).
 
 - Speaker [Oxford topology seminar](https://www.maths.ox.ac.uk/node/66487) 22 January 2024.
 
-- Invited speaker special session on [Markoff
-Numbers](https://meetings.ams.org/math/jmm2024/meetingapp.cgi/Session/7957) at the AMS
-meeting San Francisco January 2024.
+- Invited speaker special session on [Markoff Numbers](https://meetings.ams.org/math/jmm2024/meetingapp.cgi/Session/7957) at the AMS meeting San Francisco January 2024.
 
 
-Last summer I was travelling in Japan visiting TiTech and Rims
+#### 2023
+Summer 2023 I was travelling in Japan visiting TiTech and Rims
 
 * [Serfest talk RIMS](./KYOTO/kyoto.html)
 * [TITECH talk 28 July](./TIT2023/tokyo.html)
 
+---
 
-I am always working on the geometry of surfaces and its relations with number theory here are some preprints.
+<h4 id="preprints">preprints</h4>
+
+I am (still) working on the geometry of surfaces and its relations with number theory here are some preprints.
 
 <!-- -  [Markov uniqueness, pants and the Bunyakovsky conjecture](./uniqueness.pdf) -->
 - [Isospectral configurations in Euclidean and Hyperbolic Geometry](./MC0726.pdf)
@@ -281,7 +307,7 @@ Geometry](./MC0726.pdf)
 
 ---
 
-## Talks
+<h1 id="talks">Talks</h1>
 
 Talks were [Reveal.js](https://revealjs.com/) slides till 2023
 but I've switched to [Marp](https://github.com/marp-team/marp) but
