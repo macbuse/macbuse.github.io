@@ -41,11 +41,11 @@ where $N(D)$ is the regular neighborhood of radius $D$ of the lift of $\gamma$ t
 The area of $N(D)$ is $\ell(\gamma) \cdot 2\sinh(D)$ (I think).
 
 This is just an adaptation of the same argument in Euclidean
-geometry. This is a picture of a billiard path (red curve) in the standard square torus. The fundamental domains are the squares and the ones with a cross meet the billiard path. They are contained in the blue rectangle which is a lift of the regular neighborhood in the annulus (cylinder) covering space.
+geometry. Below is a picture of a billiard path (red curve) in the standard square torus. The fundamental domains are the squares and the ones with a cross meet the billiard path. They are contained in the blue rectangle which is a lift of the regular neighborhood in the annulus (cylinder) covering space.
 
 The sides of the rectangle have lengths
 
-- $\ell(\gamma)$ path
+- $\ell(\gamma)$ 
 - and $2D = 2\sqrt{2}$, ie twice the diameter of the square and 
 
 
