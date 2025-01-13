@@ -59,6 +59,7 @@ I was looking forward to going to Hanoi for the [Geometry and Dynamics in Low Di
 papers](https://collectif-maths-sciences.fr/author/melanie-guenais/) from the **Collectif Maths&Sciences**.
 - working on a [draft of work in progress](./QUADS/x2.pdf)
 - thinking about [Diophantine triples](./triples.pdf)
+- [for amusement](https://mathwithbaddrawings.com/page/2/)
 
 ![topo](./topologicon_torus.png)
 
