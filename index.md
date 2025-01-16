@@ -76,11 +76,13 @@ papers](https://collectif-maths-sciences.fr/author/melanie-guenais/) from the **
 
 ### Second semester
 
-- Magistère Algebraic Topology 
-    - [web page for class](https://github.com/macbuse/ALG_TOP)
+#### Magistère Algebraic Topology 
+
+- [web page for class](https://github.com/macbuse/ALG_TOP)
     
     
-- L3 integration/probability
+#### L3 integration/probability
+
     - [web page for class](./MAT366/index.md)
 
 
