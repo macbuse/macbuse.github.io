@@ -31,6 +31,8 @@ Just in case you are wondering why this page is on GitHub [read this](https://ww
 
 I was looking forward to going to Hanoi for the [Geometry and Dynamics in Low Dimensions](https://sites.google.com/view/gdldhanoi/home) in January 2025 but for administrative reasons didn't make it.
 
+Instead I'm reading [this](./MAT366/poly.pdf)
+
 
 **December** : 
 - judging for [SCUDEM IX](https://qubeshub.org/community/groups/simiode/File:/uploads/docs/SCUDEMIX2024/SCUDEM_IX_2024_Three_Problems.pdf)
@@ -83,7 +85,7 @@ papers](https://collectif-maths-sciences.fr/author/melanie-guenais/) from the **
     
 #### L3 integration/probability
 
-    - [web page for class](./MAT366/index.md)
+- [web page for class](./MAT366/index.md)
 
 
 ### First semester
