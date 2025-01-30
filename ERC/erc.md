@@ -94,13 +94,27 @@ style: |
 
 ### Part B2: technical
 
+14 pages
+
+- context
 - state of art + objectives 
+    - PI production
+    - beyound state of art
 - methodology
 
 ### Part B1:  Strategic
 
 - extended synopsis
-- PI track record
+- CV for PI track record
+
+- context
+- state of art + objectives 
+    - PI production
+    - beyound state of art
+- methodology
+
+- 5 pages 
+- panel de 5 (generalist)
 
 # Organisation
 
@@ -121,8 +135,10 @@ style: |
 - research team
 
 - feasibility
+    - equipe/community
+    - pas collaboratif, absolument moi le PI
 
-# who is your audience
+# who is your audience ?
 
 # Goals of the ERC
 
@@ -132,13 +148,16 @@ style: |
 
 ## Ground breaking
 
-- address important challenges
+- addresses important challenges
 - ambitious novel concepts and approaches
 
-# eligibility criteria
+# Eligibility criteria
 
 * ambition risk/reward
 * ground breaking
+    - replies to a question (défi de la science)
+    - conjecture, hypothesis, theorem
+    - eventuellement une niche
 * feasibility
 
 # Mitigating risk
