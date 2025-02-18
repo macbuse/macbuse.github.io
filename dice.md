@@ -1,4 +1,4 @@
-# Roling dice
+# Rolling dice
 
 
 Here’s a table showing the possible outcomes when rolling two six-sided dice. The rows represent the result of the first die, and the columns represent the result of the second die. Each cell contains the sum of the two dice.
