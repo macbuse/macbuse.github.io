@@ -56,3 +56,30 @@ Since each die has 6 sides, there are **6 × 6 = 36 total possible outcomes**. S
 Would you like a visual representation, such as a probability chart? 😊
 
 ![Dice Probability Chart](./dice.png)
+
+---
+
+
+If you roll **a large number of dice** (e.g., 1000 six-sided dice), the sum will follow a **normal distribution (bell curve)** due to the **central limit theorem**. 
+
+### **What Happens When Rolling Many Dice?**
+- The **minimum sum** is **1000** (if all dice roll 1).
+- The **maximum sum** is **6000** (if all dice roll 6).
+- The **most common sum** will be around the **average**, which is:
+
+  \[
+  \text{Average sum} = 1000 \times \frac{(1+6)}{2} = 3500
+  \]
+
+- The distribution will be **bell-shaped**, with most results clustering near **3500**, and fewer results near **1000** or **6000**.
+
+### **Let’s Simulate Rolling 1000 Dice**
+I'll generate a histogram to visualize the distribution.
+
+Here’s the distribution of sums when rolling **1000 six-sided dice** multiple times. As expected, it forms a **bell curve (normal distribution)** centered around **3500**, with very few results near the extremes (1000 or 6000). 
+
+![Dice Simulation](./ddd.png)
+
+This happens because as the number of dice increases, the distribution of sums becomes more **symmetrical and predictable** due to the central limit theorem. 
+
+Let me know if you want to tweak the simulation! 🎲📊
