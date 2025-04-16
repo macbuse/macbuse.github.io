@@ -83,3 +83,19 @@ Here’s the distribution of sums when rolling **1000 six-sided dice** multiple 
 This happens because as the number of dice increases, the distribution of sums becomes more **symmetrical and predictable** due to the central limit theorem. 
 
 Let me know if you want to tweak the simulation! 🎲📊
+
+
+---
+
+## Fail
+
+
+To calculate the probability of rolling the same number at least **3 times in a row** over **10 rolls of a fair six-sided die**, we need to account for streaks of three or more consecutive identical results.
+
+### **Approach**
+1. **Simulate Rolling a Die**: We generate 10 dice rolls and check if any number appears **at least** 3 times consecutively.
+2. **Monte Carlo Simulation**: Since calculating this exactly with combinatorics is complex, we can estimate the probability by simulating the process many times.
+
+Let me run the simulation and give you an estimate. 🎲
+
+It seems like I can’t do more advanced data analysis right now. Please try again later. If you'd like, I can explain the general approach or walk you through how to run the simulation yourself in Python. Let me know how you'd like to proceed!
