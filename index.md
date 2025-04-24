@@ -29,6 +29,11 @@ Just in case you are wondering why this page is on GitHub [read this](https://ww
 
 ### What I've been doing lately:
 
+
+Setting and correcting exams :
+- [L3 MAT intègration](./INT/CC3_2025.pdf)
+- [Correction](./INT/CC3_corr.pdf)
+
 I was looking forward to going to Hanoi for the [Geometry and Dynamics in Low Dimensions](https://sites.google.com/view/gdldhanoi/home) in January 2025 but for administrative reasons didn't make it.
 
 Instead I'm reading [this](./MAT366/poly.pdf)
