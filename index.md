@@ -29,8 +29,7 @@ Just in case you are wondering why this page is on GitHub [read this](https://ww
 
 ### What I've been doing lately:
 
-- commission bourse co-enchée de thèse Persyval Lab 2
-
+- commission bourses de thèse co-encadrée Persyval Lab 2
 
 Setting and correcting exams :
 - [L3 MAT intègration](./INT/CC3_2025.pdf)
