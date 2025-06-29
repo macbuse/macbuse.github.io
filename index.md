@@ -6,7 +6,7 @@ title: Home
 # Greg McShane
 
 ### Bureau 328, Institut Fourier.
-### mcshane@univ-grenoble-alpes.fr
+### greg.mcshane@univ-grenoble-alpes.fr
 ### ORCID iD: 0009-0005-2197-2399
 
  [CV french](./CV2024.PDF)
@@ -28,6 +28,8 @@ Just in case you are wondering why this page is on GitHub [read this](https://ww
 ---
 
 ### What I've been doing lately:
+
+- commission bourse co-enchée de thèse Persyval Lab 2
 
 
 Setting and correcting exams :

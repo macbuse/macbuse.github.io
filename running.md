@@ -53,4 +53,32 @@ ordeal. My limbs ache, the air is heavy with pollution, and
 breathing is not so easy. I feel heavy, I feel slow, I feel
 lifeless.
 
+## Running by numbers
+
+[calculator](https://runalyze.com/tools/effective-vo2max?vo2max=60.00&units=km&paces=2)
+
+There are a few numbers that I keep track of
+- distance
+- time
+- average pace
+- stride length and frequency
+- average heart rate
+- recovery heart rate
+- resting heart rate
+- weight
+- hours of sleep
+- blood pressure
+
+Why do any of these matter? What is the fascination with measuring
+everything? I think it's because it gives me a sense of control. I can see how I'm improving, how I'm getting fitter, how I'm getting
+stronger. I can see the progress I'm making and that motivates me to
+keep going. It's also a way of keeping track of my health. I can see
+if I'm getting enough sleep, if my heart rate is too high, if my
+blood pressure is too high. It's a way of being proactive about my
+health and wellbeing.
+
+Dealing with aging body is a challenge. I have to be careful not to
+push myself too hard, not to overdo it. I have to listen to my body.
+Once, a long time ago, I had a friend who was a great runner. He was
+in his 60s and he could run a marathon in under 3 hours. He was an inspiration to me. But he pushed himself too hard and ended up with a heart attack on a beach run in Greece. I don't want that to happen to me. If you  want to keep running for as long as is reasonable, then you  have to be smart about it. My friend was lucky they fitted a pacemaker and he kept going for another 10 years. It feels like a defeat to me, a loss of control, surrendering to a little electronic device that governs your heart.
 
