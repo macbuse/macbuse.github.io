@@ -15,6 +15,7 @@ title: Home
 - <a href="#research">Skip to research </a>
 - <a href="#preprints">Skip to preprints</a>
 - <a href="#talks">Skip to slides for talks</a>
+- <a href="#fablab">Skip to slides for fablab</a>
 
 ---
 
@@ -374,7 +375,8 @@ it's  basically the same
 
 ---
 
-# FabLab
+
+<h1 id="fablab">Fablab</h1>
 
 [stages](https://www-fourier.ujf-grenoble.fr/~mcshane/stagiaresdetroisime.html)
 
