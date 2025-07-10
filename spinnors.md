@@ -96,3 +96,94 @@ is four-dimensional and may be conceptualized as
 - In this context the Pythagorean triples may be represented as traceless matrices, and Euclid’s parameterization map as a tensor product of spinors. 
 - This set-up allows us to build the spinor version of the Hall matrices. The Hall matrices acquire a geometric interpretation in a rather exotic context of the geometry of the **Apollonian window**.
 
+
+---
+
+### Magic Correspondence
+
+|                              | **Minkowski space** $\mathbb{R}^{2,1}$                          | **Traceless $2 \times 2$ matrices**                                                                               |
+| ---------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Main object**              | $\mathbf{v} = (x, y, z)$                                        | $\tilde{\mathbf{v}} = \sum v^i \sigma_i = \dfrac{1}{2} \begin{pmatrix} -y & x+z \\ x-z & y \end{pmatrix}$         |
+| **Norm**                     | $\|\mathbf{v}\| = -x^2 - y^2 + z^2$                              | $\|\mathbf{v}\| = 4 \det \tilde{\mathbf{v}}$                                                                       |
+| **Action**                   | $\mathbf{v}' = A\mathbf{v}$  <br> ($A \in O(2,1;\mathbb{Z})$) | $\tilde{\mathbf{v}}' = \tilde{A} \tilde{\mathbf{v}} \tilde{A}^*$ <br> ($\tilde{A} \in SL^{\pm}(2,\mathbb{Z})$) |
+| **Minkowski scalar product** | $\mathbf{v} \cdot \mathbf{w} = \mathbf{v}^T G \mathbf{w}$       | $\mathbf{v} \cdot \mathbf{w} = -2 ,\mathrm{Tr}(\tilde{\mathbf{v}} \tilde{\mathbf{w}})$                            |
+
+
+### Springborn's table
+
+$2 \log \left| \det \begin{pmatrix} p_1 & p_2 \\ q_1 & q_2 \end{pmatrix} \right|$        
+
+| **Hyperbolic Geometry**                         | **Algebra/Number Theory**                                                                 |
+|--------------------------------------------------|--------------------------------------------------------------------------------------------|
+| horocycle                                        | nonzero vector $(p, q) \in \mathbb{R}^2$                                                  |
+| geodesic                                         | indefinite binary quadratic form $f$                                                     |
+| point                                            | definite binary quadratic form $f$                                                       |
+| signed distance between horocycles              | 
+$2 \log \left| \det \begin{pmatrix} p_1 & p_2 \\ q_1 & q_2 \end{pmatrix} \right|$        
+|
+| signed distance between horocycle and geodesic/point | $\log \left( \dfrac{f(p,q)}{\sqrt{|\det f|}} \right)$       |
+| ideal triangulation of the modular torus        | Markov triple                                                                             |
+
+
+---
+
+
+
+<!-- \begin{document} -->
+<!-- \begin{table}[h!] -->
+<!-- \centering -->
+<!-- \renewcommand{\arraystretch}{2} -->
+<!-- \begin{tabular}{|c|>{\centering\arraybackslash}m{6cm}|>{\centering\arraybackslash}m{6cm}|} -->
+<!-- \hline -->
+<!-- \multicolumn{3}{|c|}{\textbf{Magic Correspondence}} \\ -->
+<!-- \hline -->
+<!--  & Minkowski space $\mathbb{R}^{2,1}$ & Traceless $2 \times 2$ matrices \\ -->
+<!-- \hline -->
+<!-- Main object & --> 
+<!-- $\mathbf{v} = (x, y, z)$ & --> 
+<!-- $\tilde{\mathbf{v}} = \sum v^i \sigma_i = \frac{1}{2} \begin{bmatrix} -y & x+z \\ x-z & y \end{bmatrix}$ \\ -->
+<!-- \hline -->
+<!-- Norm & --> 
+<!-- $\|\mathbf{v}\| = -x^2 - y^2 + z^2$ & --> 
+<!-- $\|\mathbf{v}\| = 4 \det \tilde{\mathbf{v}}$ \\ -->
+<!-- \hline -->
+<!-- Action & --> 
+<!-- $\mathbf{v}' = A\mathbf{v}$ \newline ($A \in O(2,1;\mathbb{Z})$) & --> 
+<!-- $\tilde{\mathbf{v}}' = \tilde{A} \tilde{\mathbf{v}} \tilde{A}^*$ \newline ($\tilde{A} \in SL^{\pm}(2,\mathbb{Z})$) \\ -->
+<!-- \hline -->
+<!-- Minkowski scalar product & --> 
+<!-- $\mathbf{v} \cdot \mathbf{w} = \mathbf{v}^T G \mathbf{w}$ & --> 
+<!-- $\mathbf{v} \cdot \mathbf{w} = -2 \mathrm{Tr}\,\tilde{\mathbf{v}} \tilde{\mathbf{w}}$ \\ -->
+<!-- \hline -->
+<!-- The $i$th coefficient & --> 
+<!-- $v^i = \mathbf{v} \cdot \mathbf{e}_i$ & --> 
+<!-- $v^i = -\det \sigma_i \cdot \mathrm{Tr}(\tilde{\mathbf{v}} \sigma_1)$ \\ -->
+<!-- \hline -->
+<!-- \end{tabular} -->
+<!-- \caption{Correspondence between Minkowski space and traceless $2 \times 2$ matrices.} -->
+<!-- \end{table} -->
+
+
+
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{ll}
+\toprule
+\textbf{Hyperbolic Geometry} & \textbf{Algebra/Number Theory} \\
+\midrule
+horocycle & nonzero vector $(p,q) \in \mathbb{R}^2$ \\
+geodesic & indefinite binary quadratic form $f$ \\
+point & definite binary quadratic form $f$ \\
+signed distance between horocycles & $2 \log \left| \det \begin{pmatrix} p_1 & p_2 \\ q_1 & q_2 \end{pmatrix} \right|$ \\
+signed distance between horocycle & $\log \left( \dfrac{f(p,q)}{\sqrt{|\det f|}} \right)$ \\
+and geodesic/point & \\
+ideal triangulation of the modular torus & Markov triple \\
+\bottomrule
+\end{tabular}
+\caption{Correspondence between hyperbolic geometry and algebra/number theory.}
+\end{table}
+
+
+
