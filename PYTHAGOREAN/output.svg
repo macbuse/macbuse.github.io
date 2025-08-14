@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="785" height="353">
+	<line x1="131" y1="146" x2="134" y2="146" stroke="black"/>
+	<line x1="514" y1="41" x2="514" y2="43" stroke="black"/>
+	<line x1="291" y1="41" x2="291" y2="43" stroke="black"/>
+	<line x1="244" y1="41" x2="244" y2="42" stroke="black"/>
+	<line x1="514" y1="38" x2="514" y2="39" stroke="black"/>
+	<line x1="291" y1="38" x2="291" y2="39" stroke="black"/>
+	<line x1="243" y1="37" x2="244" y2="37" stroke="black"/>
+	<line x1="164" y1="37" x2="164" y2="41" stroke="black"/>
+	<line x1="513" y1="36" x2="514" y2="36" stroke="black"/>
+	<line x1="290" y1="36" x2="291" y2="36" stroke="black"/>
+	<text x="121" y="44" fill="black">91</text>
+	<text x="138" y="53" fill="black">60</text>
+	<text x="156" y="53" fill="black">109</text>
+	<text x="236" y="53" fill="black">187</text>
+	<text x="260" y="53" fill="black">84.205</text>
+	<text x="299" y="53" fill="black">209</text>
+	<text x="327" y="44" fill="black">120241</text>
+	<text x="411" y="53" fill="black">299</text>
+	<text x="440" y="44" fill="black">180</text>
+	<text x="462" y="53" fill="black">349</text>
+	<text x="488" y="53" fill="black">165</text>
+	<text x="509" y="44" fill="black">52.173</text>
+	<text x="602" y="53" fill="black">459</text>
+	<text x="626" y="44" fill="black">220</text>
+	<text x="649" y="53" fill="black">509</text>
+	<text x="356" y="84" fill="black">35</text>
+	<text x="382" y="84" fill="black">12</text>
+	<text x="405" y="84" fill="black">37</text>
+	<text x="178" y="85" fill="black">45</text>
+	<text x="203" y="85" fill="black">28</text>
+	<text x="228" y="85" fill="black">53</text>
+	<text x="113" y="148" fill="black">7</text>
+	<text x="128" y="157" fill="black">24225</text>
+	<text x="224" y="148" fill="black">55</text>
+	<text x="250" y="157" fill="black">48]73</text>
+	<text x="308" y="148" fill="black">33)5665</text>
+	<text x="384" y="157" fill="black">|</text>
+	<text x="407" y="148" fill="black">65</text>
+	<text x="455" y="148" fill="black">72)97</text>
+	<text x="490" y="157" fill="black">39/80</text>
+	<text x="540" y="148" fill="black">89</text>
+	<text x="603" y="148" fill="black">119]120</text>
+	<text x="671" y="148" fill="black">169</text>
+	<text x="489" y="258" fill="black">212029</text>
+	<text x="372" y="341" fill="black">345</text>
+</svg>

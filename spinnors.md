@@ -129,39 +129,39 @@ $2 \log \left| \det \begin{pmatrix} p_1 & p_2 \\ q_1 & q_2 \end{pmatrix} \right|
 
 
 
-<!-- \begin{document} -->
-<!-- \begin{table}[h!] -->
-<!-- \centering -->
-<!-- \renewcommand{\arraystretch}{2} -->
-<!-- \begin{tabular}{|c|>{\centering\arraybackslash}m{6cm}|>{\centering\arraybackslash}m{6cm}|} -->
-<!-- \hline -->
-<!-- \multicolumn{3}{|c|}{\textbf{Magic Correspondence}} \\ -->
-<!-- \hline -->
-<!--  & Minkowski space $\mathbb{R}^{2,1}$ & Traceless $2 \times 2$ matrices \\ -->
-<!-- \hline -->
-<!-- Main object & --> 
-<!-- $\mathbf{v} = (x, y, z)$ & --> 
-<!-- $\tilde{\mathbf{v}} = \sum v^i \sigma_i = \frac{1}{2} \begin{bmatrix} -y & x+z \\ x-z & y \end{bmatrix}$ \\ -->
-<!-- \hline -->
-<!-- Norm & --> 
-<!-- $\|\mathbf{v}\| = -x^2 - y^2 + z^2$ & --> 
-<!-- $\|\mathbf{v}\| = 4 \det \tilde{\mathbf{v}}$ \\ -->
-<!-- \hline -->
-<!-- Action & --> 
-<!-- $\mathbf{v}' = A\mathbf{v}$ \newline ($A \in O(2,1;\mathbb{Z})$) & --> 
-<!-- $\tilde{\mathbf{v}}' = \tilde{A} \tilde{\mathbf{v}} \tilde{A}^*$ \newline ($\tilde{A} \in SL^{\pm}(2,\mathbb{Z})$) \\ -->
-<!-- \hline -->
-<!-- Minkowski scalar product & --> 
-<!-- $\mathbf{v} \cdot \mathbf{w} = \mathbf{v}^T G \mathbf{w}$ & --> 
-<!-- $\mathbf{v} \cdot \mathbf{w} = -2 \mathrm{Tr}\,\tilde{\mathbf{v}} \tilde{\mathbf{w}}$ \\ -->
-<!-- \hline -->
-<!-- The $i$th coefficient & --> 
-<!-- $v^i = \mathbf{v} \cdot \mathbf{e}_i$ & --> 
-<!-- $v^i = -\det \sigma_i \cdot \mathrm{Tr}(\tilde{\mathbf{v}} \sigma_1)$ \\ -->
-<!-- \hline -->
-<!-- \end{tabular} -->
-<!-- \caption{Correspondence between Minkowski space and traceless $2 \times 2$ matrices.} -->
-<!-- \end{table} -->
+\begin{document}
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{2}
+\begin{tabular}{|c|>{\centering\arraybackslash}m{6cm}|>{\centering\arraybackslash}m{6cm}|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Magic Correspondence}} \\
+\hline
+ & Minkowski space $\mathbb{R}^{2,1}$ & Traceless $2 \times 2$ matrices \\
+\hline
+Main object & 
+$\mathbf{v} = (x, y, z)$ & 
+$\tilde{\mathbf{v}} = \sum v^i \sigma_i = \frac{1}{2} \begin{bmatrix} -y & x+z \\ x-z & y \end{bmatrix}$ \\
+\hline
+Norm & 
+$\|\mathbf{v}\| = -x^2 - y^2 + z^2$ & 
+$\|\mathbf{v}\| = 4 \det \tilde{\mathbf{v}}$ \\
+\hline
+Action & 
+$\mathbf{v}' = A\mathbf{v}$ \newline ($A \in O(2,1;\mathbb{Z})$) & 
+$\tilde{\mathbf{v}}' = \tilde{A} \tilde{\mathbf{v}} \tilde{A}^*$ \newline ($\tilde{A} \in SL^{\pm}(2,\mathbb{Z})$) \\
+\hline
+Minkowski scalar product & 
+$\mathbf{v} \cdot \mathbf{w} = \mathbf{v}^T G \mathbf{w}$ & 
+$\mathbf{v} \cdot \mathbf{w} = -2 \mathrm{Tr}\,\tilde{\mathbf{v}} \tilde{\mathbf{w}}$ \\
+\hline
+The $i$th coefficient & 
+$v^i = \mathbf{v} \cdot \mathbf{e}_i$ & 
+$v^i = -\det \sigma_i \cdot \mathrm{Tr}(\tilde{\mathbf{v}} \sigma_1)$ \\
+\hline
+\end{tabular}
+\caption{Correspondence between Minkowski space and traceless $2 \times 2$ matrices.}
+\end{table}
 
 
 
