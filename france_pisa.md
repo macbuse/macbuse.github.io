@@ -3,7 +3,7 @@
 
 Of course this is anecdotal but let's start with a relevant video that captures the current mood among French teachers:
 
-[Malaise dans l'Éducation : pourquoi les profs français sont à bout ? | RTS](https://www.youtube.com/watch?v=trdxrBVknXg&t=832s)
+[Malaise dans l'Éducation : pourquoi les profs français sont à bout ? | RTS ](https://www.youtube.com/watch?v=trdxrBVknXg&t=832s)
 
 ---
 
