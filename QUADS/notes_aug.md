@@ -94,6 +94,39 @@ and $k$ is a constant.
 The other Vieta identity is:
 $$Z_+ + Z_- = kXY.$$
 
+![](./ptolemy_rectangles.png)
+
+
+---
+
+## Quadratic forms
+
+The quadratic forms over $\mathbb{Z}$
+of a given discriminant $D$ form a group under the
+composition law discovered by Gauss. The identity element
+is 
+
+- if $D\equiv 0 \mod 4$ the class of the form 
+$$x^2 + \frac{D}{4}y^2$$
+
+- if $D\equiv 1 \mod 4$  the class of the form 
+$$x^2 + xy + \frac{1-D}{4}y^2$$ 
+
+
+The inverse of the class of the form $ax^2 + bxy + cy^2$ is the
+class of the form $ax^2 - bxy + cy^2$.
+
+The composition law can be described in terms of
+the bilinear matrix:
+$$B = \begin{pmatrix} 2a & b \\ b & 2c \end{pmatrix}.$$
+The composition of the forms $F(x,y) = (x,y)B(x,y)^T$ and
+$F'(x,y) = (x,y)B'(x,y)^T$ is the form
+$F''(x,y) = (x,y)B''(x,y)^T$ where
+$$B'' = \frac{1}{g} \begin{pmatrix} 2aa' & ab' + ba' \\ ab' + ba' &
+2cc' \end{pmatrix}$$
+
+
+
 ---
 
 ## Euler's four-square identity
@@ -123,3 +156,14 @@ $$|(a+bi+cj+dk)(p+qi+rj+sk)|^2 = |(ap+bq+cr+ds) + (aq-bp-ecs+edr)i +
 [cut the
 knot](https://www.cut-the-knot.org/m/Algebra/BrahmaguptaFibonacci.shtml)
 
+
+https://arxiv.org/pdf/1905.10704
+
+Continued Fractions and Factoring
+Michele Elia
+Legendre found that the continued fraction expansion of \sqrt N having odd period leads directly to an explicit representation of N as the sum of two squares. Similarly, it is shown here that the continued fraction expansion of \sqrt N having even period directly produces a factor of a composite N. Shanks' infrastructural method is then revisited, and some consequences of its application to factorization by means of the continued fraction expansion of \sqrt N are derived.
+https://arxiv.org/abs/1706.05919
+
+Rational Right Triangles of a Given Area
+Stephanie Chan
+Starting from any given rational-sided, right triangle, for example the -triangle with area , we use Euclidean geometry to show that there are infinitely many other rational-sided, right triangles of the same area. We show further that the set of all such triangles of a given area is finitely generated under our geometric construction. Such areas are known as "congruent numbers" and have a rich history in which all the results in this article have been proved and far more. Yet, as far as we can tell, this seems to be the first exploration using this kind of geometric technique.
