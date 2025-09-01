@@ -10,6 +10,7 @@ title: Home
 ### ORCID iD: 0009-0005-2197-2399
 
  [CV french](./CV2024.PDF)
+ [CV english](./CV/cv_british.pdf)
 
 - <a href="#teaching">Skip to teaching </a>
 - <a href="#research">Skip to research </a>
