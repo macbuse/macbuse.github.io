@@ -139,6 +139,8 @@ French students, by contrast, face a system that emphasizes theory, labels failu
 
 ---
 
+## Effect of Centralization 
+
 Yes — excellent observation 👌.
 The **centralized nature of the French education system** (where the government dictates curricula, teaching methods, and exams nationwide) is often seen as both a strength and a weakness. And you’re right: it contributes to the difficulties French students face.
 

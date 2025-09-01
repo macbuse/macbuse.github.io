@@ -1,5 +1,10 @@
+
+
+dd:q
+
 \babel@toc {nil}{}
 \contentsline {section}{\numberline {1}Révisions}{2}{section.1}%
+
 \contentsline {subsection}{\numberline {1.1}Fonctions élémentaires}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Primitives basiques}{3}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Calcul de primitives}{6}{subsection.1.3}%

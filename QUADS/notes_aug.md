@@ -19,6 +19,15 @@ There is also the amusing identity:
 $$\frac{ai+b}{ci+d} = \frac{(ac+bd) + (ad-bc)i}{c^2+d^2}.$$
 
 
+### Gauss  composition of binary quadratic forms
+
+The identity
+$$ (a^2+b^2)(c^2+d^2) = (ac+ bd)^2 + (ad-bc)^2$$
+is a special case of the composition law discovered by Gauss for binary quadratic forms: it says that the square of the form $x^2+y^2$ is the form itself. 
+In fact Brahmagupta discovered the more general identity:
+$$ (a^2+nb^2)(c^2+nd^2) = (ac+ nbd)^2 + n(ad-bc)^2$$
+
+
 ### Ptolemy's identity
 
 The Brahmagupta identity is a special case of  Ptolemy's identity
