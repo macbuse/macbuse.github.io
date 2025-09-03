@@ -21,7 +21,6 @@ title: Home
 ---
 
 
-
 You [should](./bourses.md) be able to find out about my research and teaching here. But if you need a CV for some reason (grant applications, invitations etc) then here is  [one](./CV.pdf). 
 
 Just in case you are wondering why this page is on GitHub [read this](https://www.netlify.com/blog/2021/08/31/how-git-can-power-an-exciting-future-for-content-management/) and here are  [my github repos](https://github.com/macbuse) I've just added a [new repo](https://github.com/macbuse/FAREY_DIAGRAM/tree/main) for a project I'm working on with a student.
@@ -84,16 +83,16 @@ papers](https://collectif-maths-sciences.fr/author/melanie-guenais/) from the **
 <h1 id="teaching">Teaching 2024-25</h1>
 
 
-### Second semester
+<!-- ### Second semester -->
 
-#### Magistère Algebraic Topology 
+<!-- #### Magistère Algebraic Topology --> 
 
-- [web page for class](https://github.com/macbuse/ALG_TOP)
+<!-- - [web page for class](https://github.com/macbuse/ALG_TOP) -->
     
     
-#### L3 integration/probability
+<!-- #### L3 integration/probability -->
 
-- [web page for class](./MAT366/index.md)
+<!-- - [web page for class](./MAT366/index.md) -->
 
 
 ### First semester
@@ -103,24 +102,25 @@ papers](https://collectif-maths-sciences.fr/author/melanie-guenais/) from the **
 #### MAT 102
 
 - [web page for class](./MAT102/index.md)
-- First class: 11/9
-    - Wednesdays 11h30
-    - Friday 13h30
 
-#### MAT305
+- CeB03
+    - First class: 8/9
+        - Mondays 13h30 D104
+        - Friday 9h30 D101
+- SPI03
+    - First class: 10/9
+        - Wednesdays 8h D004
+        - Fridays 13h30 E208
 
-- [web page for class](./MAT305/index.md)
-- First class: 10/9
-    - Tuesdays 8:00 
-    - Wednesdays 9:45
 
 ---
 
 
 <h1 id="research">Research</h1>
 
-- I am principal investigator [ToFu](https://persyval-lab.org/en/ToFu)
-- I am also co director of the thesis of [Zhang Yibo](https://sites.google.com/view/yibozhang) financed by ToFu/[Persyval Lab](https://persyval-lab.org/)
+- I was principal investigator [ToFu](https://persyval-lab.org/en/ToFu)
+<!-- - I am also co director of the thesis of [Zhang Yibo](https://sites.google.com/view/yibozhang) financed by ToFu/[Persyval Lab](https://persyval-lab.org/) -->
+
 - I organised a [special session](./schedule_amssmf.md) **AMS-EMS-SMF** Joint International Meeting in July also funded by ToFu/[Persyval Lab](https://persyval-lab.org/)
 	<!-- - [event programme](https://ams-ems-smf2022.inviteo.fr/index.php?langue=en&onglet=11&acces=&idUser=&emailUser=&messageConfirmation=) -->
 	<!-- - [special session schedule](./schedule_amssmf.md) -->
