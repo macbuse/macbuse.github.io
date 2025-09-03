@@ -15,18 +15,23 @@ Les infos
 
 - [CHAMILO](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
 - [poly](./polyMAT102-main.pdf) 
+
+### Sujets d'examens et partiels
+
+- Quick tests (en classe 30-40 minutes)
     - [quick test 1 2022](./quick_test.pdf)
     - [quick test 2](qt2.pdf)
     - [quick test 3](qt3.pdf)
     - [quick test 3 2024](./qt2_2024.pdf)
 
-### Sujets d'examens et partiels
 
-- [partiel  2023](./Annales/2023-octobre.pdf)
-- [partiel  2024](./Annales/2024-octobre-corr.pdf)
+- Exams : annales complèt sur CHAMILO
 
-- [examen 2023](./Annales/2023-final.pdf)
-- [examen 2024](./Annales/2024-final-corr.pdf)
+    - [partiel  2023](./Annales/2023-octobre.pdf)
+    - [partiel  2024](./Annales/2024-octobre-corr.pdf)
+
+    - [examen 2023](./Annales/2023-final.pdf)
+    - [examen 2024](./Annales/2024-final-corr.pdf)
 
 <!-- ![fig1](./fig_2022.png) -->
 <!-- ![fig1](./fig_2023.png) -->
