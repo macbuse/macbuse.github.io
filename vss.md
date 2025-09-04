@@ -60,4 +60,4 @@ Pour mettre en œuvre ce plan, il est possible de s'inspirer d'initiatives déj�
 
 * **Formation des enseignants** : Des ressources du Ministère de l'Éducation Nationale (Eduscol) et de l'UNESCO proposent des modules de formation pour une **pédagogie égalitaire**.
 * **Guides de communication** : Le **Haut Conseil à l’Égalité entre les femmes et les hommes** a publié un guide sur la communication non sexiste. Il fournit des outils concrets pour utiliser un langage et des visuels inclusifs.
-* **Valorisation des modèles** : Des entreprises et des associations comme **Bayer** ou **Women in STEM Europe** mènent des campagnes qui présentent des profils de femmes diversifiés pour casser les stéréotypes.
+* **Valorisation des modèles** : Des entreprises et des associations comme **[Bayer](https://www.bayer.com/fr/fr/actu-women-in-stem-carriere-scientifique)** ou **[Women in STEM Europe](https://www.sciencespo.fr/gender-studies/en/news/women-in-stem-progress-and-challenges/)** mènent des campagnes qui présentent des profils de femmes diversifiés pour casser les stéréotypes.
