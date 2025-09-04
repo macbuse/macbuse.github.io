@@ -61,3 +61,31 @@ Pour mettre en œuvre ce plan, il est possible de s'inspirer d'initiatives déj�
 * **Formation des enseignants** : Des ressources du Ministère de l'Éducation Nationale (Eduscol) et de l'UNESCO proposent des modules de formation pour une **pédagogie égalitaire**.
 * **Guides de communication** : Le **Haut Conseil à l’Égalité entre les femmes et les hommes** a publié un guide sur la communication non sexiste. Il fournit des outils concrets pour utiliser un langage et des visuels inclusifs.
 * **Valorisation des modèles** : Des entreprises et des associations comme **[Bayer](https://www.bayer.com/fr/fr/actu-women-in-stem-carriere-scientifique)** ou **[Women in STEM Europe](https://www.sciencespo.fr/gender-studies/en/news/women-in-stem-progress-and-challenges/)** mènent des campagnes qui présentent des profils de femmes diversifiés pour casser les stéréotypes.
+
+Bien sûr. Voici une annexe supplémentaire qui aborde les défis spécifiques liés à l'encouragement des filles en mathématiques, un point crucial dans le cadre de la promotion des STEM.
+
+***
+
+### **Annexe C : Les défis spécifiques des mathématiques et comment les surmonter**
+
+Les mathématiques représentent souvent le principal point de blocage dans l'orientation des jeunes filles vers les filières scientifiques. Les difficultés rencontrées ne sont pas liées à un manque de compétences, mais à des facteurs sociaux et psychologiques qu'il est essentiel de comprendre et de combattre.
+
+#### **1. Les défis particuliers aux mathématiques**
+
+* **L'autocensure et la baisse de confiance en soi** : Des études montrent que dès le collège, les filles ont tendance à se percevoir comme moins douées en mathématiques que les garçons, même quand leurs résultats sont meilleurs ou équivalents. Ce manque de confiance les pousse à se dévaloriser et à s'autocensurer, un phénomène particulièrement visible dans les disciplines perçues comme "masculines".
+* **Les stéréotypes de genre tenaces** : Le stéréotype du "génie solitaire" en mathématiques, souvent un homme, persiste et crée une image de la discipline inaccessible. On valorise la performance individuelle au détriment de l'entraide et de l'effort, des valeurs que l'on retrouve pourtant dans la réussite scientifique.
+* **La pédagogie** : Les méthodes d'enseignement traditionnelles axées sur la compétition, la vitesse et la mémorisation peuvent être moins adaptées à certains profils d'apprentissage. Cela peut décourager les élèves qui s'épanouissent davantage dans la résolution de problèmes en collaboration et l'exploration créative.
+
+#### **2. Actions concrètes pour surmonter ces défis**
+
+* **Repenser l'approche pédagogique** :
+    * **Mettre l'accent sur la résolution de problèmes concrets** : Montrer comment les mathématiques s'appliquent à des domaines passionnants comme l'art, le climat, la médecine ou le développement durable.
+    * **Valoriser la collaboration** : Encourager les travaux de groupe et les projets collectifs. Montrer que l'entraide est essentielle en mathématiques et que la diversité des approches mène à de meilleures solutions.
+
+* **Changer les modèles et la perception** :
+    * **Mettre en lumière les mathématiciennes** : Présenter le parcours de figures inspirantes comme Ada Lovelace, Maryam Mirzakhani ou Cécile Hérold.  Montrer qu'elles ont été reconnues pour leur créativité et leur persévérance, pas seulement leur génie.
+    * **Organiser des ateliers créatifs** : Lancer des ateliers qui utilisent les mathématiques comme un outil pour créer. Par exemple, des ateliers de codage de jeux vidéo, de modélisation 3D, de cryptographie ou de robotique, qui rendent la discipline ludique et moins abstraite.
+
+* **Agir sur la confiance en soi** :
+    * **Mentorat ciblé** : Mettre en place des sessions de mentorat spécifiques où des étudiantes en mathématiques expliquent leur passion et partagent leurs astuces pour surmonter les difficultés.
+    * **Célébrer la persévérance** : Dans les classes, valoriser la logique, la curiosité et l'effort autant que le résultat. Créer un environnement où l'erreur est perçue comme une étape normale du processus d'apprentissage.
