@@ -1,3 +1,47 @@
+[Mailys](https://www.linkedin.com/in/ma%C3%AFlys-derenemesnil-272324b3/?originalSubdomain=fr) 
+
+[12 arrondissements de
+Paris](https://mairie12.paris.fr/pages/mailys-derenemesnil-10614)
+
+[Matilda Josyln
+Gage](https://en.wikipedia.org/wiki/Matilda_Joslyn_Gage)
+[Matila effect](https://en.wikipedia.org/wiki/Matilda_effect)
+
+[Guardian Larry
+Summers](https://www.theguardian.com/science/2005/jan/18/educationsgendergap.genderissues#:~:text=The%20president%20of%20Harvard%20University,career%20barrier%20for%20female%20academics.)
+
+**Wikipedia:**
+
+In 2005, then Harvard President, Larry Summers, addressed the National Bureau of Economic Research Conference on the subject of gender diversity in the science and engineering professions, saying: "It does appear that on many, many different human attributes—height, weight, propensity for criminality, overall IQ, mathematical ability, scientific ability—there is relatively clear evidence that whatever the difference in means—which can be debated—there is a difference in the standard deviation, and variability of a male and a female population."[45][46] His remarks caused a backlash; Summers faced a no-confidence vote from the Harvard faculty, prompting his resignation as President.[47][48]
+
+
+[Bell
+curve](https://www.preposterousuniverse.com/blog/2005/09/22/bell-curves/)
+
+[What Larry Summers said and didn't say](https://www.swarthmore.edu/bulletin/archive/wp/january-2009_what-larry-summers-said-and-didnt-say.html)
+
+[Variability
+hypothesis](https://en.wikipedia.org/wiki/Variability_hypothesis#Modern_studies)
+
+[Random
+Blog](https://toxicfeminism.blog/2024/12/17/greater-male-variability/)
+
+**Modern studies**
+
+A 2021 study of 10 million AP calculus and statistics students from 1997 to 2019, found that although female participation in these courses has increased significantly, the proportion of males to females at the top scores in the AP math exams is still substantial, though the proportion of males to females at the top scores has been slowly decreasing.[37]
+
+A 2021 review investigating different hypotheses behind the discrepancy of sexes in STEM jobs summarizes the greater variability research with respect to this question. Given that research finds greater variability in males within quantitative and nonverbal reasoning,[38] they hold that this can explain some, but not all of the difference seen in STEM occupations.[39] With regard to the question of whether these results are due to societal influences or of biological origins, they hold that the results showing greater variance at a very young age (for instance IQ differences in variability between the sexes is visible from a young age on[40]) lend credence to the theory that biological factors might explain a large part of the observed data.
+
+---
+
+In a 1992 paper titled "[Variability: A Pernicious Hypothesis](https://journals.sagepub.com/doi/abs/10.3102/00346543062001085)", Stanford Professor Nel Noddings discussed the social history which she argued explains "the revulsion with which many feminists react to the variability hypothesis."[44]
+
+
+In 2017, a mathematics research paper by Theodore P. Hill and Sergei Tabachnikov, presenting a possible evolutionary explanation for the variability hypothesis, was peer-reviewed, accepted, and formally published in The New York Journal of Mathematics. Three days later, that article was removed and replaced by an unrelated article by different authors.[49] This caused debate within the scientific community and international publicity.[50][51][52] A revised version was subsequently peer-reviewed again and published in the Journal of Interdisciplinary Mathematics.[53]
+
+A study published in July of this year by Janet Hyde, a psychologist at the University of Wisconsin, partially vindicated Summer. Hyde and her colleagues compared the scores of girls and boys in grades two through 11 on the state mathematics tests mandated by the No Child Left Behind Act (NCLB). They found no meaningful differences in the average performance of boys and girls. But the variability of boys’ scores was 11 to 21 percent greater at all grade levels. Consequently, boys were indeed overrepresented in the top percentile, by a 2:1 ratio over girls
+
+---
 
 
 
