@@ -7,6 +7,23 @@ Paris](https://mairie12.paris.fr/pages/mailys-derenemesnil-10614)
 Gage](https://en.wikipedia.org/wiki/Matilda_Joslyn_Gage)
 [Matila effect](https://en.wikipedia.org/wiki/Matilda_effect)
 
+[Brain
+differences](https://stanmed.stanford.edu/how-mens-and-womens-brains-are-different/)
+
+At the time, this was not a universally popular idea. The neuroscience community had largely considered any observed sex-associated differences in cognition and behavior in humans to be due to the effects of cultural influences. Animal researchers, for their part, seldom even bothered to use female rodents in their experiments, figuring that the cyclical variations in their reproductive hormones would introduce confounding variability into the search for fundamental neurological insights.
+
+But over the past 15 years or so, there’s been a sea change as new technologies have generated a growing pile of evidence that there are inherent differences in how men’s and women’s brains are wired and how they work.
+
+Our differences don’t mean one sex or the other is better or smarter or more deserving. Some researchers have grappled with charges of “neuro­sexism”: falling prey to stereotypes or being too quick to interpret human sex differences as biological rather than cultural. They counter, however, that data from animal research, cross-cultural surveys, natural experiments and brain-imaging studies demonstrate real, if not always earthshaking, brain differences, and that these differences may contribute to differences in behavior and cognition.
+
+---
+
+[Diane Halpern](https://en.wikipedia.org/wiki/Diane_F._Halpern), PhD, past president of the American Psychological Association, began writing the first edition of her acclaimed academic text, Sex Differences in Cognitive Abilities.
+[wiki](https://en.wikipedia.org/wiki/Sex_differences_in_cognition))
+[survey](https://www.sciencedirect.com/science/article/abs/pii/S0149763423003020)
+
+---
+
 [Guardian Larry
 Summers](https://www.theguardian.com/science/2005/jan/18/educationsgendergap.genderissues#:~:text=The%20president%20of%20Harvard%20University,career%20barrier%20for%20female%20academics.)
 
@@ -31,6 +48,9 @@ Blog](https://toxicfeminism.blog/2024/12/17/greater-male-variability/)
 A 2021 study of 10 million AP calculus and statistics students from 1997 to 2019, found that although female participation in these courses has increased significantly, the proportion of males to females at the top scores in the AP math exams is still substantial, though the proportion of males to females at the top scores has been slowly decreasing.[37]
 
 A 2021 review investigating different hypotheses behind the discrepancy of sexes in STEM jobs summarizes the greater variability research with respect to this question. Given that research finds greater variability in males within quantitative and nonverbal reasoning,[38] they hold that this can explain some, but not all of the difference seen in STEM occupations.[39] With regard to the question of whether these results are due to societal influences or of biological origins, they hold that the results showing greater variance at a very young age (for instance IQ differences in variability between the sexes is visible from a young age on[40]) lend credence to the theory that biological factors might explain a large part of the observed data.
+
+- [Sex differences in variance of intelligence across childhood 2006](https://www.sciencedirect.com/science/article/abs/pii/S0191886906000420?via%3Dihub)
+- [ "Men, women and STEM: Why the differences and what should be done?"](https://osf.io/preprints/psyarxiv/ms524_v1)
 
 ---
 
