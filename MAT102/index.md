@@ -183,29 +183,32 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 
 <!-- --- -->
 
-<!-- - exo 3.2 -->
-<!--     - [indication -->
-<!--     1](https://www.wolframalpha.com/input?i=simplify+2%2F%285+-+sqrt%282%29%29) -->
-<!--     - [indication -->
-<!--     2](https://www.wolframalpha.com/input?i=simplify+5%2F%283+%2B+sqrt%282%29%29) -->
-<!--     - [indication -->
-<!--     3](https://www.wolframalpha.com/input?i=simplify+4%2F%282+-+sqrt%282%29%29) -->
+- exo 3.2
+    - [indication
+    1](https://www.wolframalpha.com/input?i=simplify+2%2F%285+-+sqrt%282%29%29)
+    - [indication
+    2](https://www.wolframalpha.com/input?i=simplify+5%2F%283+%2B+sqrt%282%29%29)
+    - [indication
+    3](https://www.wolframalpha.com/input?i=simplify+4%2F%282+-+sqrt%282%29%29)
 
-<!-- - exo 4 -->
-<!--     - [4.1 graphe](https://www.wolframalpha.com/input?i=plot+3x%5E2%E2%88%92x%2B2+) -->
-<!--     - [4.2 graphe](https://www.wolframalpha.com/input?i=plot+-5x%5E2%E2%88%929x%2B2+) -->
-<!--     - [4.3 graphe](https://www.wolframalpha.com/input?i=plot++3x%5E2%E2%88%924x%2B1) -->
-<!--     - [4.4 solution ](./sol_1_4.html) -->
+- exo 4
+    - [4.1 graphe](https://www.wolframalpha.com/input?i=plot+3x%5E2%E2%88%92x%2B2+)
+    - [4.2 graphe](https://www.wolframalpha.com/input?i=plot+-5x%5E2%E2%88%929x%2B2+)
+    - [4.3 graphe](https://www.wolframalpha.com/input?i=plot++3x%5E2%E2%88%924x%2B1)
+    - [4.4 solution ](./sol_1_4.html)
 
-<!-- - exo 6 -->
-<!--     - [6.c solution](./sol_1_6_c.html) -->
+- exo 6
+    - [6.c solution](./sol_1_6_c.html)
 
-<!-- - exo 7 -->
-<!--     - [7.2 solution](./sol_1_7_2.html) -->
+- exo 7
+    - [7.2 solution](./sol_1_7_2.html)
 
 <!-- - exo 8 -->
 <!--     - [cercle trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique) -->
 <!--     - [8.2 solution modèle](./sol_1_8_2.html) -->
+
+[chatGPT](./exo1.8.md)
+
 
 <!-- --- -->
 
