@@ -37,11 +37,11 @@ Ce sont des séances de type Cours/TD : il n’y a pas de cours magistral en amp
 * On ne donne pas systématiquement les corrigés des exercices de la feuille d'exercices (c'est sans fin, et il y a plein d'exos corrigés sur internet : notre valeur ajoutée n'est pas là). Par contre on répond à toutes leurs questions s'ils ont essayé un exercice et qu'ils bloquent dessus, ou s'ils souhaitent que l'on vérifie leur travail. 
 * On mettra au fur et à mesure sur Chamilo quelques exemples de correction d’exercices avec une rédaction complète 
 
-Les fiches de TD sont organisées en 4 parties : 
-        - des exos « pour réviser » au début de la fiche : ce sont normalement des pré-requis, mais tous les étudiant.e.s ne les ont pas. Adapter le temps qu’on y passe au niveau des étudiant.e.s. On peut aussi leur demander de travailler cela à la maison et n’y revenir que si nécessaire. 
-	- des exos « standard »  : l’objectif est que les étudiant.e.s sachent faire ces exos. On travaille en priorité sur ceux-là.
-	- des exos « pour s’entraîner » : a priori on n’y touche pas en séance, ce sont les mêmes exos types que ceux d'avant dans la fiche, et que les étudiant.e.s peuvent faire chez eux
-	- des exos « pour aller plus loin » : à chacun de nous de voir si on y touche ou pas, en fonction de comment avance le groupe. On peut aussi en donner à faire à des étudiant.e.s qui avancent plus vite que les autres.
+### Les fiches de TD sont organisées en 4 parties : 
+ - des exos « pour réviser » au début de la fiche : ce sont normalement des pré-requis, mais tous les étudiant.e.s ne les ont pas. Adapter le temps qu’on y passe au niveau des étudiant.e.s. On peut aussi leur demander de travailler cela à la maison et n’y revenir que si nécessaire. 
+- des exos « standard »  : l’objectif est que les étudiant.e.s sachent faire ces exos. On travaille en priorité sur ceux-là.
+- des exos « pour s’entraîner » : a priori on n’y touche pas en séance, ce sont les mêmes exos types que ceux d'avant dans la fiche, et que les étudiant.e.s peuvent faire chez eux
+- des exos « pour aller plus loin » : à chacun de nous de voir si on y touche ou pas, en fonction de comment avance le groupe. On peut aussi en donner à faire à des étudiant.e.s qui avancent plus vite que les autres.
 
 ## QCM en ligne :
 
