@@ -251,10 +251,15 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
     - [10.b](https://www.wolframalpha.com/input?i=simplify+%282-i%29%5E2)
     - [10.d](https://www.wolframalpha.com/input?i=simplify+%281-+i%29%282%2Bi%29)
     - [10.f](https://www.wolframalpha.com/input?i=simplify+%281-3i%29%285-2i%29)
+    - [10.g](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%282-3i%29)
     - [10.h](https://www.wolframalpha.com/input?i=simplify+%283%2Bi%29%5E3)
     - [10.h solution complète](./sol_1_10_h.html)
+    - [10.k solution ](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%2B%282-3i%29%5E2)
     - [10.l solution complète](./sol_1_10_l.html)
- [10.k solution ](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%2B%282-3i%29%5E2)
+
+
+- exo  24
+- [solutions a,c,e](./sol_1_24_ace.md)
 
 
 <!-- - exo 13 -->
