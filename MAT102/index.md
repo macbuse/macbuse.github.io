@@ -16,6 +16,20 @@ Les infos
 - [CHAMILO](https://chamilo.univ-grenoble-alpes.fr/courses/GBX1MT12/)
 - [poly](./polyMAT102-main.pdf) 
 
+## Planning
+
+36 séances :
+
+* 8-9 séances sur les chapitres 1 et 3
+* 6-7 sur les autres.
+
+1. Nombres complexes
+1. Sommes et produits
+1. Géométrie 
+1. Fonctions 
+1. Intégrales 
+
+
 ### Sujets d'examens et partiels
 
 - Quick tests (en classe 30-40 minutes)
@@ -203,16 +217,32 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 - exo 7
     - [7.2 solution](./sol_1_7_2.html)
 
-<!-- - exo 8 -->
+- exo 8
 <!--     - [cercle trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique) -->
-<!--     - [8.2 solution modèle](./sol_1_8_2.html) -->
-
-[chatGPT](./exo1.8.md)
+- [8.2 solution modèle](./sol_1_8_2.html)
+- [Solutions chatGPT](./exo1.8.md)
 
 
 <!-- --- -->
 
 ![cercle trigonométrique](./Unit_circle_angles_color.svg)
+
+
+- exo 9
+
+
+| Nombre complexe   | Partie réelle | Partie imaginaire | Module       | Argument (θ) |
+|-------------------|---------------|-------------------|--------------|--------------|
+| 1 + i             | 1             | 1                 | √2           | π/4          |
+| 2 - 2i            | 2             | -2                | 2√2          | -π/4         |
+| √3 + i            | √3            | 1                 | 2            | π/6          |
+<!-- | -i                | 0             | -1                | 1            | -π/2         | -->
+<!-- | -1 + i√3          | -1            | √3                | 2            | 2π/3         | -->
+<!-- | 1/(-1 + i)        | -1/2          | -1/2              | 1/√2         | -3π/4        | -->
+<!-- | -5                | -5            | 0                 | 5            | π            | -->
+<!-- | a + ia            | a             | a                 | |a|√2        | π/4 (a>0), -3π/4 (a<0) | -->
+
+
 
 
 <!-- --- -->
