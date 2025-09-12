@@ -236,24 +236,25 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 | 1 + i             | 1             | 1                 | √2           | π/4          |
 | 2 - 2i            | 2             | -2                | 2√2          | -π/4         |
 | √3 + i            | √3            | 1                 | 2            | π/6          |
-<!-- | -i                | 0             | -1                | 1            | -π/2         | -->
-<!-- | -1 + i√3          | -1            | √3                | 2            | 2π/3         | -->
-<!-- | 1/(-1 + i)        | -1/2          | -1/2              | 1/√2         | -3π/4        | -->
-<!-- | -5                | -5            | 0                 | 5            | π            | -->
-<!-- | a + ia            | a             | a                 | |a|√2        | π/4 (a>0), -3π/4 (a<0) | -->
+| -i                | 0             | -1                | 1            | -π/2         |
+| -1 + i√3          | -1            | √3                | 2            | 2π/3         |
+| 1/(-1 + i)        | -1/2          | -1/2              | 1/√2         | -3π/4        |
+| -5                | -5            | 0                 | 5            | π            |
+| a + ia            | a             | a                 | |a|√2        | π/4 (a>0), -3π/4 (a<0) |
 
 
 
 
-<!-- --- -->
+---
 
-<!-- - exo 10 -->
-<!--     - [10.b](https://www.wolframalpha.com/input?i=simplify+%282-i%29%5E2) -->
-<!--     - [10.d](https://www.wolframalpha.com/input?i=simplify+%281-+i%29%282%2Bi%29) -->
-<!--     - [10.f](https://www.wolframalpha.com/input?i=simplify+%281-3i%29%285-2i%29) -->
-<!--     - [10.h](https://www.wolframalpha.com/input?i=simplify+%283%2Bi%29%5E3) -->
-<!--     - [10.h solution complète](./sol_1_10_h.html) -->
-<!--     - [10.l solution complète](./sol_1_10_l.html) -->
+- exo 10
+    - [10.b](https://www.wolframalpha.com/input?i=simplify+%282-i%29%5E2)
+    - [10.d](https://www.wolframalpha.com/input?i=simplify+%281-+i%29%282%2Bi%29)
+    - [10.f](https://www.wolframalpha.com/input?i=simplify+%281-3i%29%285-2i%29)
+    - [10.h](https://www.wolframalpha.com/input?i=simplify+%283%2Bi%29%5E3)
+    - [10.h solution complète](./sol_1_10_h.html)
+    - [10.l solution complète](./sol_1_10_l.html)
+ [10.k solution ](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%2B%282-3i%29%5E2)
 
 
 <!-- - exo 13 -->
