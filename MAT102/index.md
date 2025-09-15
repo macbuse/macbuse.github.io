@@ -268,6 +268,8 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 <!--     - d) médiatrice -->
 <!--     - 13.e ![fig](./1_13e.png) -->
 
+[sols a) f)](/sol_1_13_af.html)
+
 <!-- --- -->
 
 <!-- - exo 17 -->
