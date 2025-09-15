@@ -60,22 +60,18 @@ On a divers utils à notre disposition :
 - WolframAlpha
 - ChatGPT
 
-#### Exemple ChatGPT :Last class 15/12/2022 
-- My [new friend the ChatGPT](https://chat.openai.com/chat) wrote a story for us.
+<!-- ``` -->
+<!-- Write a story about about Lynna --> 
+<!-- who is late for  her math class --> 
+<!-- but makes up to the teacher --> 
+<!-- by buying a hot chocolate for him -->
 
-```
+<!-- ``` -->
 
-Write a story about about Lynna 
-who is late for  her math class 
-but makes up to the teacher 
-by buying a hot chocolate for him
+<!-- And [here is the result](./story.md) -->
+<!-- et en français [ici](./story_french.md). -->
 
-```
-
-And [here is the result](./story.md)
-et en français [ici](./story_french.md).
-
-### Plus serieusement 
+<!-- ### Plus serieusement --> 
 
 Obtenir une correction avec Chatgpt :
 
@@ -256,6 +252,9 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
     - [10.h solution complète](./sol_1_10_h.html)
     - [10.k solution ](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%2B%282-3i%29%5E2)
     - [10.l solution complète](./sol_1_10_l.html)
+
+- exo 12
+- [12.2](./sol_1_12_3.html)
 
 
 - exo  24
