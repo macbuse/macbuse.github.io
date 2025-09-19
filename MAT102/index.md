@@ -273,7 +273,7 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 ---
 
 - exo 17
-    - [solution a](./sol_17_a.html)
+    - [solution a](./sol_1_17_a.html)
     - [solution b](./sol_17_b.html)
 
 
