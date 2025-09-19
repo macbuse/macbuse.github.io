@@ -261,20 +261,20 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 - [solutions a,c,e](./sol_1_24_ace.md)
 
 
-<!-- - exo 13 -->
-<!--     - a) médiatrice -->
-<!--     - b) cercle -->
-<!--     - c) disque -->
-<!--     - d) médiatrice -->
-<!--     - 13.e ![fig](./1_13e.png) -->
+- exo 13
+    - a) médiatrice
+    - b) cercle
+    - c) disque
+    - d) médiatrice
+    - 13.e ![fig](./1_13e.png)
 
-[sols a) f)](/sol_1_13_af.html)
+[13 sols a) f)](/sol_1_13_af.html)
 
 <!-- --- -->
 
-<!-- - exo 17 -->
-<!--     - [solution a](./sol_17_a.html) -->
-<!--     - [solution b](./sol_17_b.html) -->
+- exo 17
+    - [solution a](./sol_17_a.html)
+    - [solution b](./sol_17_b.html)
 
 
 <!-- - exo 19 -->
