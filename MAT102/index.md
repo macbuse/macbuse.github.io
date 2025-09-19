@@ -270,7 +270,7 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 
 [13 sols a) f)](/sol_1_13_af.html)
 
-<!-- --- -->
+---
 
 - exo 17
     - [solution a](./sol_17_a.html)
