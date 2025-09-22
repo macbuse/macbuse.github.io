@@ -1,14 +1,15 @@
 # MAT 102
 
-Les infos 
+### Les infos 
 - changements de salle
 - dates de CCs
 
     <!-- - **Vendredi 13/12/2024 D004.** -->
-       <!-- -  18 octobre, DLST D102. -->
+    <!--    -  18 octobre, DLST D102. -->
 
     <!-- - **IMPORTANT quick test 2 27/11/2024** -->
 
+---
 
 
 ## Résources 
