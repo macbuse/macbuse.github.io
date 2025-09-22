@@ -288,6 +288,7 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 
 - exo 23
     - [discriminants](./sol_1_23_disc.html)
+    - [solutions](./sol_1_23_all.html)
     - [solution c)](./sol_1_23_c.html)
 
 <!-- <!-1- ### exos avec commentaires -1-> -->
