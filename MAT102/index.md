@@ -1,14 +1,15 @@
 # MAT 102
 
-Les infos 
+### Les infos 
 - changements de salle
 - dates de CCs
 
-    - **Vendredi 13/12/2024 D004.**
-       <!-- -  18 octobre, DLST D102. -->
+    <!-- - **Vendredi 13/12/2024 D004.** -->
+    <!--    -  18 octobre, DLST D102. -->
 
-    - **IMPORTANT quick test 2 27/11/2024**
+    <!-- - **IMPORTANT quick test 2 27/11/2024** -->
 
+---
 
 
 ## Résources 
@@ -254,11 +255,11 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
     - [10.l solution complète](./sol_1_10_l.html)
 
 - exo 12
-- [12.2](./sol_1_12_3.html)
+    - [12.2](./sol_1_12_3.html)
 
 
-- exo  24
-- [solutions a,c,e](./sol_1_24_ace.md)
+<!-- - exo  24 -->
+<!-- - [solutions a,c,e](./sol_1_24_ace.md) -->
 
 
 - exo 13
@@ -277,14 +278,17 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
     - [solution b](./sol_17_b.html)
 
 
-<!-- - exo 19 -->
-<!--     - [solution a)..e)](./sol_1_19.pdf) -->
+- exo 19
+    - [solution a)..e)](./sol_1_19.pdf)
 
-<!-- - exo 21 -->
-<!--     - [solution d)](./sol_1_21_d.html) -->
+---
 
-<!-- - exo 23 -->
-<!--     - [solution c)](./sol_1_23_c.html) -->
+- exo 21
+    - [solution d)](./sol_1_21_d.html)
+
+- exo 23
+    - [discriminants](./sol_1_23_disc.html)
+    - [solution c)](./sol_1_23_c.html)
 
 <!-- <!-1- ### exos avec commentaires -1-> -->
 
@@ -305,12 +309,12 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 <!-- --- -->
 
 
-<!-- <!-1- **1.3.1.2 Calcul des racines carrées via la forme algébrique** -1-> -->
+<!-- **1.3.1.2 Calcul des racines carrées via la forme algébrique** -->
 
-<!-- <!-1- - [11 e](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D+8+%E2%88%92+6i) -1-> -->
-<!-- <!-1- - [11 f](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%E2%88%923+%2B+4i) -1-> -->
-<!-- <!-1- - [11 g](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+7+%2B+24i) -1-> -->
-<!-- <!-1- - [11 h](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+9+%2B40+i) -1-> -->
+<!-- - [11 e](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D+8+%E2%88%92+6i) -->
+<!-- - [11 f](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%E2%88%923+%2B+4i) -->
+<!-- - [11 g](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+7+%2B+24i) -->
+<!-- - [11 h](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+9+%2B40+i) -->
 
 <!-- <!-1- **1.3.2 Résolution d’une équation du second degré dans C** -1-> -->
 
