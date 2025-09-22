@@ -84,26 +84,12 @@ $$
 
 ### Final Table
 
-  <table>
-    <thead>
-      <tr>
-        <th>Equation</th>
-        <th>Discriminant <code>D = b² − 4ac</code></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><code>z<sup>2</sup> + (1 − 5i)z + 2i − 6 = 0</code></td>
-        <td><code>−18i</code></td>
-      </tr>
-      <tr>
-        <td><code>z<sup>2</sup> − (3 + 4i)z + 7i − 1 = 0</code></td>
-        <td><code>−3 − 4i</code></td>
-      </tr>
-      <tr>
-        <td><code>2z<sup>2</sup> + (5 + i)z + 2 + 2i = 0</code></td>
-        <td><code>8 − 6i</code></td>
-      </tr>
-    </tbody>
-  </table>
+| Equation                       | Discriminant $D = b^2 - 4ac$ |
+| ------------------------------ | ---------------------------- |
+| $z^2 + (1 - 5i)z + 2i - 6 = 0$ | $-18i$                       |
+| $z^2 - (3 + 4i)z + 7i - 1 = 0$ | $-3 - 4i$                    |
+| $2z^2 + (5 + i)z + 2 + 2i = 0$ | $8 - 6i$                     |
+
+---
+
 
