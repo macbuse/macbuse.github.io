@@ -2,7 +2,9 @@
 
 ### Les infos 
 - changements de salle
+    - 25/09/2025 : CeB03 D101
 - dates de CCs
+    - Quick test 1 : 03/10/2025
 
     <!-- - **Vendredi 13/12/2024 D004.** -->
     <!--    -  18 octobre, DLST D102. -->
@@ -150,19 +152,19 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 <!-- [quick test géométrie 2022](./qt3.pdf) -->
 
-<!-- --- -->
+---
 
-<!-- [F2](./Fiche2-sommes-produits.pdf) -->
+[F2](./Fiche2-sommes-produits.pdf)
 
 <!-- <!-1- **Preparer pour 5/10** -1-> -->
 
 
 <!-- - [quick test 2023](./qt2.pdf) -->
 
-<!-- - [Progression arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique) -->
-<!-- - [Progression géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique) -->
-<!-- - [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique) -->
-<!-- - [Somme telescopique](https://fr.wikipedia.org/wiki/Somme_t%C3%A9lescopique) -->
+- [Progression arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique)
+- [Progression géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique)
+- [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique)
+- [Somme telescopique](https://fr.wikipedia.org/wiki/Somme_t%C3%A9lescopique)
 
 
 ---
