@@ -154,7 +154,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 ---
 
-[F2](./Fiche2-sommes-produits.pdf)
+## [F2](./Fiche2-sommes-produits.pdf)
 
 <!-- <!-1- **Preparer pour 5/10** -1-> -->
 
