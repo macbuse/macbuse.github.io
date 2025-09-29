@@ -161,10 +161,12 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 <!-- - [quick test 2023](./qt2.pdf) -->
 
-- [Progression arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique)
-- [Progression géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique)
-- [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique)
-- [Somme telescopique](https://fr.wikipedia.org/wiki/Somme_t%C3%A9lescopique)
+- **Contenu**
+    - [Progression arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique)
+    - [Progression géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique)
+    - [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique)
+    - [Factorielle](https://fr.wikipedia.org/wiki/Factorielle)
+    - [Somme telescopique](https://fr.wikipedia.org/wiki/Somme_t%C3%A9lescopique)
 
 
 ---
