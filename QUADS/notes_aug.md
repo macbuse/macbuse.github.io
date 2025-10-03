@@ -176,3 +176,116 @@ https://arxiv.org/abs/1706.05919
 Rational Right Triangles of a Given Area
 Stephanie Chan
 Starting from any given rational-sided, right triangle, for example the -triangle with area , we use Euclidean geometry to show that there are infinitely many other rational-sided, right triangles of the same area. We show further that the set of all such triangles of a given area is finitely generated under our geometric construction. Such areas are known as "congruent numbers" and have a rich history in which all the results in this article have been proved and far more. Yet, as far as we can tell, this seems to be the first exploration using this kind of geometric technique.
+
+---
+
+[The development of the principal genus theorem](https://arxiv.org/pdf/math/0207306)
+
+see also
+- [Quadratic reciprocity](https://stacky.net/files/115/RousseauQR.pdf)
+- [Genus theory and convenient numbers](https://math.uchicago.edu/~may/REU2018/REUPapers/Dilmohamed.pdf)
+
+Euler's idoneal numbers (also called suitable numbers or convenient numbers) are the positive integers D such that any integer expressible in only one way as $x^2 \pm Dy^2$ (where $x^2$ is relatively prime to $Dy^2$) is a prime power or twice a prime power. In particular, a number that has two distinct representations as a sum of two squares is composite. Every idoneal number generates a set containing infinitely many primes and missing infinitely many other primes.
+[Idoneal number - Wikipedia](https://en.wikipedia.org/wiki/Idoneal_number)
+
+The latter is a very nice introduction to genus theory, composition of forms, and the principal genus theorem.
+
+**Theorem 2.8.** Let D ≡ 0, 1 mod 4 be a nonzero integer. There exists a unique
+homomorphism χ : $\mathbb{(Z}/D\mathbb{Z})^* \to \{\pm 1\}$
+such that 
+$\chi([p]) = (D/p)$ for odd primes p not dividing D.
+
+**Definition 4.1.** Two quadratic forms with discriminant D are in the same genus if they represent the same values in $(\mathbb{Z}/D\mathbb{Z})^*$
+. Similarly, the genus with respect to discriminant D of a set of numbers A consists of all quadratic forms with discriminant D that represent the values of A mod D.
+
+**Lemma 4.4.** Let D ≡ 0, 1 mod 4 be an integer and m be an odd integer coprime to D. 
+Then m is properly represented by a primitive form of discriminant D if and only if D is a quadratic residue mod m.
+
+**Lemma 4.6.** Given D ≡ 0, 1 mod 4 is a negative integer, 
+let χ : $\mathbb{(Z}/D\mathbb{Z})^*$
+be the homomorphism defined in Theorem 2.8, and let f(x, y) be a quadratic form of
+discriminant D. Then the following statements are true:
+
+- The values in $\mathbb{(Z}/D\mathbb{Z})^*$
+represented by the principal form of discriminant D form
+a subgroup $G\subset \ker(\chi)$.
+- The values in $\mathbb{(Z}/D\mathbb{Z})^*$
+represented by f(x, y) form a coset of G in $\ker(\chi)$.
+
+
+**Theorem 4.7.** Let D ≡ 0, 1 mod 4 be negative, and let 
+χ : $\mathbb{(Z}/D\mathbb{Z})^*$
+be the homomorphism defined in Theorem 2.8. Then for an odd prime p not dividing D,
+$[p] \in \ker \chi$ if and only if p is represented by a reduced form of discriminant D.
+
+---
+
+
+
+FRANZ LEMMERMEYER
+
+Introduction
+
+Genus theory belongs to algebraic number theory and, in very broad terms, deals
+with the part of the ideal class group of a number field that is ‘easy to compute’.
+Historically, the importance of genus theory stems from the fact that it was the
+essential algebraic ingredient in the derivation of the classical reciprocity laws –
+from Gauß’s second proof over Kummer’s contributions up to Takagi’s ‘general’
+reciprocity law for p-th power residues.
+
+## Principal Genus Theorem and the Inverse
+
+**Problem.** Given a binary form F = (A, B, C) of determinant D belonging to a principal genus: to find a binary form f from whose duplication
+we get the form F.
+
+
+$$x^2 + 5y^2 = (x + 2y)^2 - 3(x + 2y)(y) + 2(y)^2$$
+
+There are two forms of determinant -20:
+- $x^2 + 5y^2$ 
+- $2x^2 + 2xy + 3y^2$.
+
+---
+
+- $p =  1,9 \mod 20$
+- $p = 3,7 \mod 20$
+
+
+$x^2 + 30y^2$
+
+Four reduced forms of discriminant -120:
+- $x^2 + 30y^2$
+- $3x^2 + 10y^2$
+- $2x^2 + 15y^2$
+- $5x^2 + 6y^2$
+
+---
+
+1. If D is negative, F is reduced if 
+- $|b| \leq a \leq c$, 
+- and if 
+    - either $|b| < a < c$ 
+    - or $a < |b| = c$.
+1. If D is positive, F is reduced if 
+- $0 < b < \sqrt{D}$ 
+- and $\sqrt{D} - b < 2|a| < \sqrt{D} + b$.
+
+## Dirichlet
+
+If (A, B, C) is a form in the principal genus of determinant D, then the
+equation
+$$Az^2 + 2Bzy + Cy^2 = x^2$$
+has solutions in integers z, y, x such that x is coprime to 2D
+
+In §158 Dedekind gives a proof of the principal genus theorem based on Legendre’s theorem.
+
+# Epilogue
+
+To solve 
+$$ f(x,y) = ax^2 + bxy + cy^2= z$$
+Let $D= b^2 - 4ac>0$ be the discriminant of the form $f(x,y)$.
+
+There are two steps:
+- (reciprocity) solve the congruence $f(x,y) \equiv z \mod D$
+- (reduction) lift to an integer solution and reduce
+
