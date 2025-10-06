@@ -37,7 +37,8 @@
 
 - Quick tests (en classe 30-40 minutes)
 
-    - [quick test 1 2025 correction](./q1_2025.pdf)
+    - [CB quick test 1 2025 correction](./q1_2025.pdf)
+    - [SPI quick test 1 2025 correction](./q1_bis_2025.pdf)
     - [quick test 1 2022](./quick_test.pdf)
     - [quick test 2](qt2.pdf)
     - [quick test 3](qt3.pdf)
