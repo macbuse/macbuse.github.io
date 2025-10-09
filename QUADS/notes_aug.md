@@ -180,6 +180,75 @@ Starting from any given rational-sided, right triangle, for example the -triangl
 ---
 
 [The development of the principal genus theorem](https://arxiv.org/pdf/math/0207306)
+This is a survey of the principal genus theorem in number theory, which has been a major driving force for many important developments in algebraic number theory. 
+
+It's a curious text and I found it quite hard to read, but it
+contains a lot of historical information.
+
+The principal genus contains forms that represent squares
+modulo the discriminant.
+
+$$x^2 + 2y^2$$
+
+The set of squares modulo $p$ is a subgroup of index 2 of the
+multiplicative group $(\mathbb{Z}/p\mathbb{Z})^*$ and the latter group consists of exactly two cosets of the subgroup of squares.
+
+- $x^2 + 5y^2$ represents squares mod 20.
+- $2x^2 + 2xy + 3y^2$ does not.
+
+A very naive calculation shows that it represents the other coset of squares mod $5$:
+
+$$ 2x^2 + 2xy + 3y^2 = 2(x+y/2)^2 + 10(y/2)^2 = 2(u^2 + 5v^2)$$
+
+So modulo any odd prime $p$ the form is a multiple of the "principal form" $x^2 + 5y^2$ and one sees that, as claimed, it represents the other coset of squares mod $5$.
+
+## Lifting argument
+
+So if $p$ is an odd prime when will it be represented by the
+principal form $x^2 + 5y^2$?
+
+- If $p=1,9 \mod 20$ then $p$ is represented by $x^2 + 5y^2$.
+- If $p=3,7 \mod 20$ then $p$ is represented by $2x^2 + 2xy + 3y^2$.
+
+So $11 = 1 + 2\cdot 5$ is not represented by $x^2 + 5y^2$ 
+but it should be shouldn't it? Well it is represented by exactly
+those forms equivalent
+$$11x^2 + bxy + cy^2$$
+where $b,c$ are integers.
+The discriminant is 
+$$b^2 - 4\cdot 11 \cdot c$$
+and so the discriminant is a square mod $11$. Unfortunately 
+the squares modulo $11$ are just
+$$1,3, 4, 5, 9$$
+so $-20$ or $2$ is not a square mod $11$.
+Evidently it's inconvenient to check that $-20$ is a square modulo for all the odd primes $p$ and that's where quadratic reciprocity comes in.
+
+On the other hand for $41$
+this time $12^2 = 144 = -20 \mod 41$ so $-20$ is a square mod $41$ and 
+$$41 x^2 + 12 xy + y^2$$
+is a form of discriminant $-20$ that represents $41$.
+
+
+Finally, reduction of forms tells us that
+this form is equivalent to one of the two reduced forms
+above. It's easy to decide which one it is:
+$$41 x^2 + 12 xy + y^2 = x^2 + 2xy + y^2 \mod 5$$
+so this form only represents squares mod $5$ and so it must be
+equivalent to the principal form $x^2 + 5y^2$.
+
+
+---
+
+[ideal class groups](https://math.stanford.edu/~conrad/676Page/handouts/picgroup.pdf)
+
+- $x^2 + 82y^2$
+- $2x^2 + 41y^2$
+
+ are in the same genus but are not equivalent.
+
+
+---
+
 
 see also
 - [Quadratic reciprocity](https://stacky.net/files/115/RousseauQR.pdf)
