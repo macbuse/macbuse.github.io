@@ -1,0 +1,121 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath, amssymb}
+
+\begin{document}
+
+\section*{Sommes géométriques complexes}
+
+\subsection*{Formule générale}
+
+Pour tout \( q \neq 1 \) :
+\[
+\sum_{n=0}^{N} q^n = \frac{1 - q^{N+1}}{1 - q}
+\]
+
+---
+
+\subsection*{(d)}
+\[
+\sum_{l=0}^{7} (-1 + i)^l
+\]
+
+Ici :
+\[
+q = -1 + i, \quad N = 7
+\]
+
+Calculons \( q^8 \) :
+
+\[
+(-1 + i) = \sqrt{2}\, e^{i3\pi/4}
+\]
+\[
+q^8 = (\sqrt{2})^8 e^{i8(3\pi/4)} = 2^4 e^{i6\pi} = 16
+\]
+
+Ainsi :
+\[
+S_d = \frac{1 - q^{8}}{1 - q} = \frac{1 - 16}{1 - (-1 + i)} = \frac{-15}{2 - i}
+\]
+
+Multiplions par le conjugué \(2 + i\) :
+\[
+S_d = \frac{-15(2 + i)}{(2 - i)(2 + i)} = \frac{-15(2 + i)}{5} = -3(2 + i) = -6 - 3i
+\]
+
+\[
+\boxed{S_d = -6 - 3i}
+\]
+
+---
+
+\subsection*{(e)}
+\[
+\sum_{k=0}^{7} (1 + i)^k
+\]
+
+Ici :
+\[
+q = 1 + i, \quad N = 7
+\]
+
+\[
+(1 + i) = \sqrt{2}\, e^{i\pi/4} \quad \Rightarrow \quad q^8 = (\sqrt{2})^8 e^{i8(\pi/4)} = 2^4 e^{i2\pi} = 16
+\]
+
+Ainsi :
+\[
+S_e = \frac{1 - q^8}{1 - q} = \frac{1 - 16}{1 - (1 + i)} = \frac{-15}{-i} = -15i
+\]
+
+\[
+\boxed{S_e = -15i}
+\]
+
+---
+
+\subsection*{(f)}
+\[
+\sum_{m=0}^{12} e^{i(2\pi m / 3)}
+\]
+
+Ici :
+\[
+q = e^{i(2\pi/3)}
+\]
+
+C’est une racine cubique de l’unité :
+\[
+1 + q + q^2 = 0, \quad \text{et} \quad q^3 = 1
+\]
+
+Les termes se répètent tous les trois :
+\[
+(1, q, q^2, 1, q, q^2, \dots)
+\]
+
+Puisqu’il y a 12 termes, soit 4 cycles complets :
+\[
+\sum_{m=0}^{12} q^m = 4(1 + q + q^2) = 4 \times 0 = 0
+\]
+
+\[
+\boxed{S_f = 0}
+\]
+
+---
+
+\subsection*{Résultats finaux}
+
+\[
+\boxed{
+\begin{aligned}
+d) & = -6 - 3i \\
+e) & = -15i \\
+f) & = 0
+\end{aligned}
+}
+\]
+
+\end{document}
+

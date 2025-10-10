@@ -149,11 +149,11 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 <!-- <!-1- --- -1-> -->
 
-<!-- [F3](./Fiche3-geometrie.pdf) -->
+## [F3](./Fiche3-geometrie.pdf)
 
 <!-- **Preparer pour 12/10** exos 7 et 9 -->
 
-<!-- [quick test géométrie 2022](./qt3.pdf) -->
+[quick test géométrie 2022](./qt3.pdf)
 
 ---
 
