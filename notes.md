@@ -105,7 +105,7 @@ $$\frac{-2 \pm i }{5}$$
 So in theory if Bunyakovsky's conjecture is true for this form then there are infinitely many primes of the form $5k^2 + 4k + 1$ and
 the form $n^2 + 1$ represents $5q$ for infinitely many primes $q$.
 
-##
+## Curves in the hyperbolic plane
 
 There are essentially four types of  curves in the hyperbolic plane defined by a fixed distance from a given object
 
@@ -117,6 +117,29 @@ ideal point
 from a geodesic
 
 Horocycles are particular in that they are the limit of smilies of pheres  and of equidistant curves as the center or the geodesic respectively tends to an ideal point.
+
+## Counting problems
+
+Given a discrete group $\Gamma$ of isometries of the hyperbolic
+plane one can ask various counting questions:
+
+- counting the number of orbit points in a given region
+    - inside a circle of radius $r$
+    - inside a horosphere of given size
+- counting the number of closed geodesics of length less than a
+given bound
+
+
+The asymptotic behaviour of these counting functions is related to
+the geometry of the quotient space $\Gamma \backslash \mathbb{H}$.If
+the quotient has finite area then the counting functions grow
+exponentially with the exponent equal to $1$ whereas if the area is
+infinite then the growth rate is related to the Hausdorff dimension
+of the limit set of $\Gamma$.
+
+Here we are interested in the case where $\Gamma$ is the modular
+group $SL(2, \mathbb{Z})$ or one of its congruence subgroups.
+
 
 
 
