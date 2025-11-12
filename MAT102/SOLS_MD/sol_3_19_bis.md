@@ -42,4 +42,3 @@ La projection orthogonale est $\mathbf{P = \left(\frac{6}{5}, \frac{8}{5}\right)
 
 Cette méthode par minimisation du carré de la distance donne bien le même résultat que la méthode par orthogonalité ($\vec{MP} \cdot \vec{u} = 0$), confirmant que les deux approches sont équivalentes en géométrie euclidienne.
 
-Voulez-vous que j'utilise cette méthode de minimisation pour résoudre une autre partie de l'Exercice 19 (par exemple, la partie **f)** en $\mathbb{R}^3$) ?
