@@ -155,6 +155,8 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 * [exo 16](./sol_3_16.html)
 * [exos 17 & 18](./sol_3_17.html)
+* [exo 19](./sol_3_19.html)
+* [exo 19](./sol_3_19_bis.html)
 * [exos 36, 37](./sol_3_36.html)
 
 [quick test géométrie 2022](./qt3.pdf)

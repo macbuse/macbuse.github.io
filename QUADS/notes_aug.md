@@ -358,3 +358,48 @@ There are two steps:
 - (reciprocity) solve the congruence $f(x,y) \equiv z \mod D$
 - (reduction) lift to an integer solution and reduce
 
+
+---
+
+## Mordell-Niven
+
+
+$$\alpha x^2 + \beta xy + \gamma y^2$$
+
+is a sum of squares iff there are integers $a,b,c,d$ such that
+$$\alpha x^2 + \beta xy + \gamma y^2 = (ax + by)^2 + (cx + dy)^2.$$
+
+Expanding the right hand side we get the system: 
+
+$$\begin{cases} 
+\alpha = a^2 + c^2 \\ 
+\beta = 2(ab + cd) \\
+\gamma = b^2 + d^2
+\end{cases}$$
+
+So that necessary conditions are:
+- the coefficients $\alpha,\gamma$ are sums of square
+- the discriminant $-\Delta = 4(ad -bc)^2$ is a square.
+
+
+The matrix associated to the form its
+$$\begin{pmatrix} 
+\alpha & \beta \\ 
+\beta & \gamma
+\end{pmatrix}.$$
+So if the determinant is a square, $\delta^2$ say,
+then we have
+$$\alpha \gamma - \beta^2 = \delta^2$$
+that is 
+$$|a+ib|^2\cdot |c+id|^2 = \alpha\gamma = \beta^2 + \delta^2 =
+|\beta + i \delta|^2.$$
+
+Conversely if these conditions are satisfied then the form is a sum
+of squares. Consider
+$$\alpha z^2 + \beta z + \gamma = 0.$$
+This has two solution $z_+, z_-\in \mathbb{C}$
+and we may suppose that $z_+$ is in the upper half plane.
+Under the hypotheses the matrix
+$$\begin{pmatrix} a & b \\ c & d
+\end{pmatrix}$$
+has determinant $ad - bc \neq 0$.
