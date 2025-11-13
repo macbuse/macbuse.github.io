@@ -393,6 +393,7 @@ $$\alpha \gamma - \beta^2 = \delta^2$$
 that is 
 $$|a+ib|^2\cdot |c+id|^2 = \alpha\gamma = \beta^2 + \delta^2 =
 |\beta + i \delta|^2.$$
+So we are back to swapping factors in the Gaussian integers.
 
 Conversely if these conditions are satisfied then the form is a sum
 of squares. Consider
@@ -403,3 +404,34 @@ Under the hypotheses the matrix
 $$\begin{pmatrix} a & b \\ c & d
 \end{pmatrix}$$
 has determinant $ad - bc \neq 0$.
+
+---
+
+
+https://webhomes.maths.ed.ac.uk/~v1ranick/papers/sarnak.pdf
+
+https://arxiv.org/pdf/1610.07260
+
+Beyond Expansion III: Reciprocal Geodesics
+Jean Bourgain, Alex Kontorovich
+We prove the existence of infinitely many low-lying and fundamental closed geodesics on the modular surface which are reciprocal, that is, invariant under time reversal. The method combines ideas from Parts I and II of this series, namely the dispersion method in bilinear forms, as applied to thin semigroups coming from restricted continued fractions.
+
+
+Recall that a non-square discriminant D is called fundamental if it is the discriminant of the real quadratic field Q( √D).
+We call a closed geodesic fundamental if its discriminant is.
+
+
+Lemma 1.9 ([BK15a, Lemma 1.14]). A sufficient condition for a
+closed geodesic [γ] to be fundamental is that $tr(\gamma)^2 − 4$ is square-free. (1.10)
+
+Lemma 1.11 (See [Sar07]). A sufficient condition for a closed geodesic [γ1] to be reciprocal is that it is of the from $\gamma_1 = γ ^t \gamma$, for some γ ∈
+SL2(Z).
+
+Most likely there are infinitely many squarefree Fibonacci numbers. A simple way to construct them is to consider a subsequence Fp for prime p
+. Notice that if $q^2∣F_p$
+ for some prime q
+, then q
+ must be a [Wall-Sun-Sun prime](https://en.wikipedia.org/wiki/Wall%E2%80%93Sun%E2%80%93Sun_prime), whose existence is a big open question (and even if they exist, they would be very rare).
+
+
+Let  $p$ be a prime number. When each term in the sequence of Fibonacci numbers F n $F_{n}$ is reduced modulo p $p$, the result is a periodic sequence. The (minimal) period length of this sequence is called the Pisano period and denoted $\pi (p)$. Since  $F_0=0$, it follows that p divides  $F_\pi(p)$. A prime p such that $p^2$ divides $F_\pi (p)$ is called a **Wall–Sun–Sun prime.**
