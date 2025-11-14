@@ -5,6 +5,7 @@
     - 25/09/2025 : CeB03 D101
 - dates de CCs
     - Quick test 1 : 03/10/2025
+    - Quick test 2 : 21/11/2025
 
     <!-- - **Vendredi 13/12/2024 D004.** -->
     <!--    -  18 octobre, DLST D102. -->
