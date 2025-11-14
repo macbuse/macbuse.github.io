@@ -160,6 +160,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 * [exo 19.1](./sol_3_19_bis.html) en minimisant la distance
 * [exos 21, 22](./sol_3_21.html)
 * [exos 23](./sol_3_23.html)
+* [exos 26 & 27](./sol_3_26.html)
 * [exos 36, 37](./sol_3_36.html)
 
 [quick test géométrie 2022](./qt3.pdf)
