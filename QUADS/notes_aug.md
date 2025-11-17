@@ -435,3 +435,43 @@ Most likely there are infinitely many squarefree Fibonacci numbers. A simple way
 
 
 Let  $p$ be a prime number. When each term in the sequence of Fibonacci numbers F n $F_{n}$ is reduced modulo p $p$, the result is a periodic sequence. The (minimal) period length of this sequence is called the Pisano period and denoted $\pi (p)$. Since  $F_0=0$, it follows that p divides  $F_\pi(p)$. A prime p such that $p^2$ divides $F_\pi (p)$ is called a **Wall–Sun–Sun prime.**
+
+
+## Traces and Markoff numbers
+
+Consider the
+quadratic form
+$$f_a(x,y) = x^2 - 3axy + y^2.$$
+The fundamental automorph of this form is given by the matrix
+$$M_a = \begin{pmatrix} 3a & -1 \\ 1 & 0 \end{pmatrix}.$$
+For any choice of $(s,t) \in \mathbb{R}_+^2, (s,t) \neq (0,0)$, the matrix
+$$A := sI_2 + t M_a$$
+commutes with $M_a$ and hence is an automorph of the form $f_a$ iff its
+determinant is equal to 1. 
+
+The determinant and trace of $A$ are given by:
+
+$$\begin{align*}
+\det(A) & = \det(sI_2 + t M_a) = s^2 + 3a(st) + t^2\\
+\text{tr\,}(A) & = \text{tr\,}(sI_2 + t M_a) = 2s + 3a 
+\end{align*}$$
+
+
+Note that 
+$$\det(A) = f_a(s,-t) = f_a(s,-t).$$
+
+### Markoff quadruples
+
+Let $(m, a_-, a_, a_+)$ be a Markoff quadruple, that is,
+each of $m,a,a_+$ and $m,a_-, a_+$ 
+is a Markoff triple 
+and $m < a_-< a < a_+$.
+Then we have the identity:
+$$a_+a_- = m^2 + a^2.$$
+This is actually a Vieta relation for the roots
+$a_\pm$ of the quadratic polynomial
+$$x^2 - 3ma x + m^2.$$
+Suppose that $m < \alpha < a_-$ is a Markoff number:
+$$\alpha^2 - 3a \alpha + m^2 = -a^2.$$
+
+

@@ -43,7 +43,7 @@
     - [quick test 1 2022](./quick_test.pdf)
     - [quick test 2](qt2.pdf)
     - [quick test 3](qt3.pdf)
-    - [quick test 3 2024](./qt2_2024.pdf)
+    - [quick test 2 2024](./qt2_2024.pdf)
 
 
 - Exams : annales complèt sur CHAMILO
@@ -140,7 +140,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 ---
 
 
-<!-- [F4](./Fiche4-fonctions.pdf) -->
+[F4](./Fiche4-fonctions.pdf)
 
 <!-- - [exo 28](https://www.wolframalpha.com/input?i=x+from+-7+to+7+plot+1%2F2+x+%2B+2+%2B+%5Clog%28%28+x-1%29%2F%28x%2B1%29%29+) -->
 
@@ -150,6 +150,8 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 <!-- <!-1- --- -1-> -->
 
+---
+
 ## [F3](./Fiche3-geometrie.pdf)
 
 <!-- **Preparer pour 12/10** exos 7 et 9 -->
@@ -158,12 +160,14 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 * [exos 17 & 18](./sol_3_17.html)
 * [exo 19](./sol_3_19.html) 
 * [exo 19.1](./sol_3_19_bis.html) en minimisant la distance
+* [exo 20](./sol_3_20.html) 
 * [exos 21, 22](./sol_3_21.html)
 * [exos 23](./sol_3_23.html)
 * [exos 26 & 27](./sol_3_26.html)
 * [exos 36, 37](./sol_3_36.html)
 
-[quick test géométrie 2022](./qt3.pdf)
+- [quick test géométrie 2022](./qt3.pdf)
+- [quick test géométrie 2 2024](./qt2_2024.pdf)
 
 ---
 
