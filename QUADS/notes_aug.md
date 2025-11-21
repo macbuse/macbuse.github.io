@@ -475,3 +475,15 @@ Suppose that $m < \alpha < a_-$ is a Markoff number:
 $$\alpha^2 - 3a \alpha + m^2 = -a^2.$$
 
 
+## Geometry of the torus
+
+$$\begin{pmatrix} a_- & m \\ m & a_+ \end{pmatrix},$$
+
+The columns generate subgroup of index $a^2$ in $\mathbb{Z}^2$.
+If $m=1$ then $a_- < a < a_+$ are consecutive Fibonacci numbers.
+For large $a$ the fundamental domain is approximately a rectangle
+with aspect ration approximately $a_+/a_-$ very close to the square of the golden ratio.
+
+
+
+
