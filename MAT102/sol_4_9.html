@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>tt</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+</head>
+<body>
+<p>To write [ f(x)=|x+1|-|2x-1|] as a <strong>piecewise linear function</strong>, we split at the points where the absolute values change sign:</p>
+<ul>
+<li>(x+1=0 x=-1)</li>
+<li>(2x-1=0 x=)</li>
+</ul>
+<p>So we consider three intervals.</p>
+<hr />
+<h2 id="for-x--1"><strong>1. For (x &lt; -1)</strong></h2>
+<ul>
+<li>(x+1 &lt; 0 |x+1| = -(x+1))</li>
+<li>(2x-1 &lt; 0 |2x-1| = -(2x-1))</li>
+</ul>
+<p>[ f(x)=-(x+1)-(-(2x-1)) = -x -1 +2x -1 = x -2]</p>
+<hr />
+<h2 id="for--1-x"><strong>2. For (-1 x &lt; )</strong></h2>
+<ul>
+<li>(x+1  |x+1| = x+1)</li>
+<li>(2x-1 &lt; 0 |2x-1| = -(2x-1))</li>
+</ul>
+<p>[ f(x)= (x+1)-(-(2x-1)) = x+1 +2x -1 = 3x]</p>
+<hr />
+<h2 id="for-x"><strong>3. For (x )</strong></h2>
+<ul>
+<li>(x+1  |x+1| = x+1)</li>
+<li>(2x-1  |2x-1| = 2x-1)</li>
+</ul>
+<p>[ f(x)= (x+1)-(2x-1) = x+1 -2x +1 = -x+2]</p>
+<hr />
+<h2 id="final-piecewise-function"><strong>Final Piecewise Function</strong></h2>
+[ f(x)=
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="left"><mi>x</mi><mo>−</mo><mn>2</mn><mo>,</mo></mtd><mtd columnalign="left"><mi>x</mi><mo>&lt;</mo><mo>−</mo><mn>1</mn><mo>,</mo><mo stretchy="false" form="prefix">[</mo><mn>6</mn><mi>p</mi><mi>t</mi><mo stretchy="false" form="postfix">]</mo><mn>3</mn><mi>x</mi><mo>,</mo></mtd><mtd columnalign="left"><mo>−</mo><mn>1</mn><mo>≤</mo><mi>x</mi><mo>&lt;</mo><mstyle displaystyle="false"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mo>,</mo><mo stretchy="false" form="prefix">[</mo><mn>6</mn><mi>p</mi><mi>t</mi><mo stretchy="false" form="postfix">]</mo><mo>−</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>,</mo></mtd><mtd columnalign="left"><mi>x</mi><mo>≥</mo><mstyle displaystyle="false"><mfrac><mn>1</mn><mn>2</mn></mfrac></mstyle><mi>.</mi></mtd></mtr></mtable></mrow><annotation encoding="application/x-tex">\begin{cases}
+x-2, &amp; x &lt; -1,[6pt]
+3x, &amp; -1 \le x &lt; \tfrac12,[6pt]
+-x+2, &amp; x \ge \tfrac12 .
+\end{cases}</annotation></semantics></math>
+<p>]</p>
+</body>
+</html>
