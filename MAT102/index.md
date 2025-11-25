@@ -178,7 +178,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 - [quick test géométrie avec  correction  2024](./qt2_2024.pdf)
 - [quick test géométrie CB 2025](./cb_qt2_2025.pdf)
 - [quick test géométrie SPI  2025](./spi_qt2_2025.pdf)
-    - [correction](./corr_spi_CC2_2025.html
+    - [correction](./corr_spi_CC2_2025.html)
 
 ---
 
