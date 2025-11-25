@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>tt</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+</head>
+<body>
+<h2 id="exercice-17-continuité-des-fonctions">Exercice 17 : Continuité des fonctions</h2>
+<p>Pour que la fonction <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math> (qui peut être <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>f</mi><mn>1</mn></msub><annotation encoding="application/x-tex">f_1</annotation></semantics></math> ou <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>f</mi><mn>2</mn></msub><annotation encoding="application/x-tex">f_2</annotation></semantics></math>) soit continue sur <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{R}</annotation></semantics></math>, elle doit être continue sur les intervalles où elle est définie par une seule expression, et continue au point de raccordement.</p>
+<p>Comme les deux expressions sont des polynômes, elles sont continues sur leurs intervalles respectifs. La continuité sur tout <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{R}</annotation></semantics></math> dépend donc uniquement de la continuité en <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">x=1</annotation></semantics></math>.</p>
+<p>Pour qu’une fonction soit continue en <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">x=1</annotation></semantics></math>, il faut : <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><munder><mo>lim</mo><mrow><mi>x</mi><mo>→</mo><msup><mn>1</mn><mo>−</mo></msup></mrow></munder><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><munder><mo>lim</mo><mrow><mi>x</mi><mo>→</mo><msup><mn>1</mn><mo>+</mo></msup></mrow></munder><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">
+\lim_{x\to1^-} f(x) = \lim_{x\to1^+} f(x) = f(1)
+</annotation></semantics></math></p>
+<hr />
+<h3 id="a.-cas-de-la-fonction-f_1x">A. Cas de la fonction <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f_1(x)</annotation></semantics></math></h3>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="left"><mn>2</mn><mi>x</mi><mo>+</mo><mi>b</mi></mtd><mtd columnalign="left"><mrow><mtext mathvariant="normal">si </mtext><mspace width="0.333em"></mspace></mrow><mi>x</mi><mo>≥</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign="left"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>b</mi><mi>x</mi><mo>+</mo><mn>3</mn></mtd><mtd columnalign="left"><mrow><mtext mathvariant="normal">si </mtext><mspace width="0.333em"></mspace></mrow><mi>x</mi><mo>&lt;</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">
+f_1(x)=
+\begin{cases}
+2x+b &amp; \text{si } x\ge 1 \\
+x^2 - bx + 3 &amp; \text{si } x&lt;1
+\end{cases}
+</annotation></semantics></math></p>
+<ol type="1">
+<li><p><strong>Limite à gauche (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>→</mo><msup><mn>1</mn><mo>−</mo></msup></mrow><annotation encoding="application/x-tex">x\to 1^-</annotation></semantics></math>)</strong><br />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><munder><mo>lim</mo><mrow><mi>x</mi><mo>→</mo><msup><mn>1</mn><mo>−</mo></msup></mrow></munder><msub><mi>f</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mn>1</mn><mn>2</mn></msup><mo>−</mo><mi>b</mi><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mn>3</mn><mo>=</mo><mn>4</mn><mo>−</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">
+\lim_{x\to1^-} f_1(x) = 1^2 - b(1) + 3 = 4 - b
+</annotation></semantics></math></p></li>
+<li><p><strong>Limite à droite et valeur en <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">x=1</annotation></semantics></math></strong><br />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>2</mn><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>b</mi><mo>=</mo><mn>2</mn><mo>+</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">
+f_1(1) = 2(1) + b = 2 + b
+</annotation></semantics></math></p></li>
+<li><p><strong>Condition de continuité</strong><br />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4</mn><mo>−</mo><mi>b</mi><mo>=</mo><mn>2</mn><mo>+</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">
+4 - b = 2 + b
+</annotation></semantics></math> <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">
+b = 1
+</annotation></semantics></math></p></li>
+</ol>
+<hr />
+<h3 id="b.-cas-de-la-fonction-f_2x">B. Cas de la fonction <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>2</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f_2(x)</annotation></semantics></math></h3>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>2</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="left"><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>1</mn></mtd><mtd columnalign="left"><mrow><mtext mathvariant="normal">si </mtext><mspace width="0.333em"></mspace></mrow><mi>x</mi><mo>&gt;</mo><mn>1</mn></mtd></mtr><mtr><mtd columnalign="left"><mo>−</mo><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></mtd><mtd columnalign="left"><mrow><mtext mathvariant="normal">si </mtext><mspace width="0.333em"></mspace></mrow><mi>x</mi><mo>≤</mo><mn>1</mn></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">
+f_2(x)=
+\begin{cases}
+bx^2 - x + 1 &amp; \text{si } x&gt;1 \\
+-bx^2 + 3x + 1 &amp; \text{si } x\le 1
+\end{cases}
+</annotation></semantics></math></p>
+<ol type="1">
+<li><p><strong>Limite à gauche et valeur en <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">x=1</annotation></semantics></math></strong><br />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>2</mn></msub><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo>−</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>4</mn><mo>−</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">
+f_2(1) = -b + 3 + 1 = 4 - b
+</annotation></semantics></math></p></li>
+<li><p><strong>Limite à droite (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>→</mo><msup><mn>1</mn><mo>+</mo></msup></mrow><annotation encoding="application/x-tex">x\to 1^+</annotation></semantics></math>)</strong><br />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><munder><mo>lim</mo><mrow><mi>x</mi><mo>→</mo><msup><mn>1</mn><mo>+</mo></msup></mrow></munder><msub><mi>f</mi><mn>2</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">
+\lim_{x\to1^+} f_2(x) = b
+</annotation></semantics></math></p></li>
+<li><p><strong>Condition de continuité</strong><br />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4</mn><mo>−</mo><mi>b</mi><mo>=</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">
+4 - b = b
+</annotation></semantics></math> <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">
+b = 2
+</annotation></semantics></math></p></li>
+</ol>
+<hr />
+<p><strong>Résultats :</strong> - <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>f</mi><mn>1</mn></msub><annotation encoding="application/x-tex">f_1</annotation></semantics></math> est continue sur <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{R}</annotation></semantics></math> lorsque <strong><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">b = 1</annotation></semantics></math></strong>.<br />
+- <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>f</mi><mn>2</mn></msub><annotation encoding="application/x-tex">f_2</annotation></semantics></math> est continue sur <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{R}</annotation></semantics></math> lorsque <strong><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">b = 2</annotation></semantics></math></strong>.</p>
+<hr />
+<h2 id="exercice-18-dérivée-et-variations-de-la-fonction">Exercice 18 : Dérivée et variations de la fonction</h2>
+<p>On considère la fonction : <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>5</mn><mi>x</mi></mrow><annotation encoding="application/x-tex">
+f(x) = 3x^2 - 5x
+</annotation></semantics></math></p>
+<h3 id="calcul-de-la-dérivée">1. Calcul de la dérivée</h3>
+<p>La dérivée est : <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi>′</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>6</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow><annotation encoding="application/x-tex">
+f&#39;(x) = 6x - 5
+</annotation></semantics></math></p>
+<h3 id="étude-du-signe-de-fx">2. Étude du signe de <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi>′</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f&#39;(x)</annotation></semantics></math></h3>
+<p>On résout : <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi>′</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn><mspace width="1.0em"></mspace><mo>⇔</mo><mspace width="1.0em"></mspace><mn>6</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">
+f&#39;(x) = 0 \quad \Longleftrightarrow \quad 6x - 5 = 0
+</annotation></semantics></math> <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow><annotation encoding="application/x-tex">
+x = \frac{5}{6}
+</annotation></semantics></math></p>
+<ul>
+<li><p>Pour <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>&lt;</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow><annotation encoding="application/x-tex">x &lt; \frac{5}{6}</annotation></semantics></math> :<br />
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi>′</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&lt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f&#39;(x) &lt; 0</annotation></semantics></math> donc <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math> est <strong>décroissante</strong>.</p></li>
+<li><p>Pour <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>&gt;</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow><annotation encoding="application/x-tex">x &gt; \frac{5}{6}</annotation></semantics></math> :<br />
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi>′</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f&#39;(x) &gt; 0</annotation></semantics></math> donc <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math> est <strong>croissante</strong>.</p></li>
+</ul>
+<h3 id="valeur-du-minimum">3. Valeur du minimum</h3>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mspace width="-0.167em"></mspace><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mn>3</mn><msup><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>5</mn><mrow><mo stretchy="true" form="prefix">(</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mfrac><mn>25</mn><mn>12</mn></mfrac><mo>−</mo><mfrac><mn>50</mn><mn>12</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>25</mn><mn>12</mn></mfrac></mrow><annotation encoding="application/x-tex">
+f\!\left(\frac{5}{6}\right)
+= 3\left(\frac{5}{6}\right)^2 - 5\left(\frac{5}{6}\right)
+= \frac{25}{12} - \frac{50}{12}
+= -\frac{25}{12}
+</annotation></semantics></math></p>
+<h3 id="tableau-de-variation">4. Tableau de variation</h3>
+<p>La fonction :</p>
+<ul>
+<li>décroît sur <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mo>−</mo><mi>∞</mi><mo>,</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(-\infty, \frac{5}{6})</annotation></semantics></math><br />
+</li>
+<li>atteint un minimum égal à <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><mfrac><mn>25</mn><mn>12</mn></mfrac></mrow><annotation encoding="application/x-tex">-\frac{25}{12}</annotation></semantics></math> en <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow><annotation encoding="application/x-tex">x=\frac{5}{6}</annotation></semantics></math><br />
+</li>
+<li>croît sur <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>,</mo><mo>+</mo><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(\frac{5}{6}, +\infty)</annotation></semantics></math></li>
+</ul>
+</body>
+</html>
