@@ -1,128 +1,61 @@
-## Exercice 17 : Continuité des fonctions
+To write
+$
+f(x)=|x+1|-|2x-1|
+$
+as a **piecewise linear function**, we split at the points where the absolute values change sign:
 
-Pour que la fonction $f$ (qui peut être $f_1$ ou $f_2$) soit continue sur $\mathbb{R}$, elle doit être continue sur les intervalles où elle est définie par une seule expression, et continue au point de raccordement.
+* $x+1=0 \Rightarrow x=-1$
+* $2x-1=0 \Rightarrow x=\tfrac12$
 
-Comme les deux expressions sont des polynômes, elles sont continues sur leurs intervalles respectifs. La continuité sur tout $\mathbb{R}$ dépend donc uniquement de la continuité en $x=1$.
+So we consider three intervals.
 
-Pour qu’une fonction soit continue en $x=1$, il faut :
+---
+
+## **1. For (x < -1)**
+
+* $x+1 < 0 \Rightarrow |x+1| = -(x+1)$
+* $2x-1 < 0 \Rightarrow |2x-1| = -(2x-1)$
+
 $$
-\lim_{x\to1^-} f(x) = \lim_{x\to1^+} f(x) = f(1)
+f(x)=-(x+1)-\big(-(2x-1)\big)
+= -x -1 +2x -1 = x -2
 $$
 
 ---
 
-### A. Cas de la fonction $f_1(x)$
+## **2. For $-1 \le x < \frac12)$**
+
+* $x+1 \ge 0 \Rightarrow |x+1| = x+1$
+* $2x-1 < 0 \Rightarrow |2x-1| = -(2x-1)$
 
 $$
-f_1(x)=
+f(x)= (x+1)-\big(-(2x-1)\big)
+= x+1 +2x -1 = 3x
+$$
+
+---
+
+## **3. For $x \ge \tfrac12$**
+
+* $x+1 \ge 0 \Rightarrow |x+1| = x+1$
+* $2x-1 \ge 0 \Rightarrow |2x-1| = 2x-1$
+
+$$
+f(x)= (x+1)-(2x-1)
+= x+1 -2x +1 = -x+2
+$$
+
+---
+
+## **Final Piecewise Function**
+
+$$
+f(x)=
 \begin{cases}
-2x+b & \text{si } x\ge 1 \\
-x^2 - bx + 3 & \text{si } x<1
+x-2, & x < -1,\\
+3x, & -1 \le x < \tfrac12,\\
+-x+2, & x \ge \tfrac12 .
 \end{cases}
 $$
-
-1. **Limite à gauche ($x\to 1^-$)**  
-$$
-\lim_{x\to1^-} f_1(x) = 1^2 - b(1) + 3 = 4 - b
-$$
-
-2. **Limite à droite et valeur en $x=1$**  
-$$
-f_1(1) = 2(1) + b = 2 + b
-$$
-
-3. **Condition de continuité**  
-$$
-4 - b = 2 + b
-$$
-$$
-b = 1
-$$
-
----
-
-### B. Cas de la fonction $f_2(x)$
-
-$$
-f_2(x)=
-\begin{cases}
-bx^2 - x + 1 & \text{si } x>1 \\
--bx^2 + 3x + 1 & \text{si } x\le 1
-\end{cases}
-$$
-
-1. **Limite à gauche et valeur en $x=1$**  
-$$
-f_2(1) = -b + 3 + 1 = 4 - b
-$$
-
-2. **Limite à droite ($x\to 1^+$)**  
-$$
-\lim_{x\to1^+} f_2(x) = b
-$$
-
-3. **Condition de continuité**  
-$$
-4 - b = b
-$$
-$$
-b = 2
-$$
-
----
-
-**Résultats :**
-- $f_1$ est continue sur $\mathbb{R}$ lorsque **$b = 1$**.  
-- $f_2$ est continue sur $\mathbb{R}$ lorsque **$b = 2$**.
-
----
-
-
-## Exercice 18 : Dérivée et variations de la fonction
-
-On considère la fonction :
-$$
-f(x) = 3x^2 - 5x
-$$
-
-### 1. Calcul de la dérivée
-
-La dérivée est :
-$$
-f'(x) = 6x - 5
-$$
-
-### 2. Étude du signe de $f'(x)$
-
-On résout :
-$$
-f'(x) = 0 \quad \Longleftrightarrow \quad 6x - 5 = 0
-$$
-$$
-x = \frac{5}{6}
-$$
-
-- Pour $x < \frac{5}{6}$ :  
-  $f'(x) < 0$ donc $f$ est **décroissante**.
-
-- Pour $x > \frac{5}{6}$ :  
-  $f'(x) > 0$ donc $f$ est **croissante**.
-
-### 3. Valeur du minimum
-
-$$
-f\!\left(\frac{5}{6}\right)
-= 3\left(\frac{5}{6}\right)^2 - 5\left(\frac{5}{6}\right)
-= \frac{25}{12} - \frac{50}{12}
-= -\frac{25}{12}
-$$
-
-### 4. Tableau de variation
-
-La fonction :
-
-- décroît sur $(-\infty, \frac{5}{6})$  
-- atteint un minimum égal à $-\frac{25}{12}$ en $x=\frac{5}{6}$  
-- croît sur $(\frac{5}{6}, +\infty)$
 
 
