@@ -150,6 +150,12 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 - [exo 14](./sol_4_14.html)
 - [exo 17&18](./sol_4_17.html)
 
+- [exo 27](./sol_4_27.html)
+    - [graph](https://www.wolframalpha.com/input?i=plot+%5Cfrac%7Be%5Ex+-+1%7D%7Be%5Ex+%2B+1%7D+from+-10+to+10)
+- [exo 28](./sol_4_28.html)
+    - [graph](https://www.wolframalpha.com/input?i=plot+f%28x%29%3D%5Ctfrac12+x%2B2%2B%5Cln+%5Cfrac%7Bx-1%7D%7Bx%2B1%7D+from+-5+to+5)
+- 
+
 <!-- - [exo 28](https://www.wolframalpha.com/input?i=x+from+-7+to+7+plot+1%2F2+x+%2B+2+%2B+%5Clog%28%28+x-1%29%2F%28x%2B1%29%29+) -->
 
 <!-- --- -->
