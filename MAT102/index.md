@@ -150,6 +150,8 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 - [exo 14](./sol_4_14.html)
 - [exo 17&18](./sol_4_17.html)
 
+**Etude de fonctions**
+
 - [exo 27](./sol_4_27.html)
     - [graph](https://www.wolframalpha.com/input?i=plot+%5Cfrac%7Be%5Ex+-+1%7D%7Be%5Ex+%2B+1%7D+from+-10+to+10)
 - [exo 28](./sol_4_28.html)
@@ -184,6 +186,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 - [quick test géométrie 2022](./qt3.pdf)
 - [quick test géométrie avec  correction  2024](./qt2_2024.pdf)
 - [quick test géométrie CB 2025](./cb_qt2_2025.pdf)
+    - [correction](./cb_corr_CC2_2025.html)
 - [quick test géométrie SPI  2025](./spi_qt2_2025.pdf)
     - [correction](./corr_spi_CC2_2025.html)
 
