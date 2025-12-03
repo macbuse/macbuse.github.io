@@ -122,22 +122,19 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 <!-- --- -->
 
-<!-- [F5](./Fiche5-integrales.pdf) -->
+[F5](./Fiche5-integrales.pdf)
 
-<!-- - [exo 5](./Fiche5Ex5.pdf) -->
-<!-- - [exo 6](./Fiche5Ex6.pdf) -->
-<!-- - [exo 7](./Fiche5Ex7.pdf) -->
+- [exo 5](./Fiche5Ex5.pdf)
+- [exo 6](./Fiche5Ex6.pdf)
+- [exo 7](./Fiche5Ex7.pdf)
 
-<!-- - [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29) -->
-<!-- - [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29) -->
-<!-- - [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29) -->
-<!-- - [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29) -->
-<!-- - [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29) -->
-<!-- - [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29) -->
+- [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29)
+- [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29)
+- [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29)
+- [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29)
+- [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29)
+- [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29)
 
-<!-- --- -->
-
----
 
 
 ## [F4](./Fiche4-fonctions.pdf)
@@ -156,7 +153,6 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
     - [graph](https://www.wolframalpha.com/input?i=plot+%5Cfrac%7Be%5Ex+-+1%7D%7Be%5Ex+%2B+1%7D+from+-10+to+10)
 - [exo 28](./sol_4_28.html)
     - [graph](https://www.wolframalpha.com/input?i=plot+f%28x%29%3D%5Ctfrac12+x%2B2%2B%5Cln+%5Cfrac%7Bx-1%7D%7Bx%2B1%7D+from+-5+to+5)
-- 
 
 <!-- - [exo 28](https://www.wolframalpha.com/input?i=x+from+-7+to+7+plot+1%2F2+x+%2B+2+%2B+%5Clog%28%28+x-1%29%2F%28x%2B1%29%29+) -->
 
