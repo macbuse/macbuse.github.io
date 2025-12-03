@@ -2,6 +2,7 @@
 
 ### Les infos 
 - changements de salle
+    - 12/12/2025 : SPI03 D002
     - 25/09/2025 : CeB03 D101
 - dates de CCs
     - Quick test 1 : 03/10/2025
@@ -122,9 +123,9 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 <!-- --- -->
 
-[F5](./Fiche5-integrales.pdf)
+## [F5](./Fiche5-integrales.pdf)
 
-- [exo 5](./Fiche5Ex5.pdf)
+- [exo 5](./sol_5_5.html)
 - [exo 6](./Fiche5Ex6.pdf)
 - [exo 7](./Fiche5Ex7.pdf)
 
