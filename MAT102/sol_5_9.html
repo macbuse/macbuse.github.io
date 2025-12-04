@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>tt</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+</head>
+<body>
+<p><strong>Exercice 9.</strong> Calculer les primitives suivantes par intégration par parties :</p>
+<ul>
+<li><ol type="a">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int x e^x \, dx</annotation></semantics></math></li>
+</ol></li>
+<li><ol start="2" type="a">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>t</mi><mo>sin</mo><mi>t</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">\int t \sin t \, dt</annotation></semantics></math></li>
+</ol></li>
+<li><ol start="3" type="a">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>ln</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int \ln x \, dx</annotation></semantics></math></li>
+</ol></li>
+<li><ol start="4" type="a">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>ln</mo><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mi>s</mi><mo>+</mo><mn>3</mn><mo stretchy="false" form="postfix">)</mo><mspace width="0.167em"></mspace><mi>d</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">\int \ln(2s + 3) \, ds</annotation></semantics></math></li>
+</ol></li>
+<li><ol start="5" type="a">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>x</mi><mo>cos</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int x \cos x \, dx</annotation></semantics></math></li>
+</ol></li>
+<li><ol start="6" type="a">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>ln</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msup><mi>u</mi><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo><mspace width="0.167em"></mspace><mi>d</mi><mi>u</mi></mrow><annotation encoding="application/x-tex">\int \ln(1 + u^2) \, du</annotation></semantics></math></li>
+</ol></li>
+<li><ol start="7" type="a">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>arctan</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int \arctan x \, dx</annotation></semantics></math></li>
+</ol></li>
+<li><ol start="8" type="a">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><msup><mo>ln</mo><mn>2</mn></msup><mi>s</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">\int \ln^2 s \, ds</annotation></semantics></math></li>
+</ol></li>
+<li><ol type="i">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mfrac><mrow><mo>ln</mo><mi>x</mi></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int \frac{\ln x}{x^2} \, dx</annotation></semantics></math></li>
+</ol></li>
+<li><ol start="10" type="a">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>u</mi><mo>ln</mo><mi>u</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>u</mi></mrow><annotation encoding="application/x-tex">\int u \ln u \, du</annotation></semantics></math></li>
+</ol></li>
+<li><ol start="11" type="a">
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><msup><mi>e</mi><mi>x</mi></msup><mo>sin</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int e^x \sin x \, dx</annotation></semantics></math></li>
+</ol></li>
+</ul>
+<h2 id="a">a)</h2>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int x e^{x}\,dx</annotation></semantics></math> Posons <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>u</mi><mo>=</mo><mi>x</mi><mo>,</mo><mo>;</mo><mi>d</mi><mi>v</mi><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">u=x,;dv=e^{x}dx</annotation></semantics></math>. Alors <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mi>u</mi><mo>=</mo><mi>d</mi><mi>x</mi><mo>,</mo><mo>;</mo><mi>v</mi><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup></mrow><annotation encoding="application/x-tex">du=dx,;v=e^{x}</annotation></semantics></math>.</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi><mo>=</mo><mi>x</mi><msup><mi>e</mi><mi>x</mi></msup><mo>−</mo><mo>∫</mo><msup><mi>e</mi><mi>x</mi></msup><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi><mo>=</mo><msup><mi>e</mi><mi>x</mi></msup><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>C</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">\int x e^{x}\,dx = x e^{x} - \int e^{x}\,dx = e^{x}(x-1)+C.</annotation></semantics></math></p>
+<hr />
+<h2 id="b">b)</h2>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>t</mi><mo>sin</mo><mi>t</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">\int t\sin t\,dt</annotation></semantics></math> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>u</mi><mo>=</mo><mi>t</mi><mo>,</mo><mo>;</mo><mi>d</mi><mi>v</mi><mo>=</mo><mo>sin</mo><mi>t</mi><mo>,</mo><mi>d</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">u=t,;dv=\sin t,dt</annotation></semantics></math>.</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>t</mi><mo>sin</mo><mi>t</mi><mo>,</mo><mi>d</mi><mi>t</mi><mo>=</mo><mo>−</mo><mi>t</mi><mo>cos</mo><mi>t</mi><mo>+</mo><mo>sin</mo><mi>t</mi><mo>+</mo><mi>C</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">\int t\sin t,dt = -t\cos t + \sin t + C.</annotation></semantics></math></p>
+<hr />
+<h2 id="c">c)</h2>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>ln</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int \ln x\,dx</annotation></semantics></math> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>u</mi><mo>=</mo><mo>ln</mo><mi>x</mi><mo>,</mo><mo>;</mo><mi>d</mi><mi>v</mi><mo>=</mo><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">u=\ln x,;dv=dx</annotation></semantics></math>.</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>ln</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi><mo>=</mo><mi>x</mi><mo>ln</mo><mi>x</mi><mo>−</mo><mi>x</mi><mo>+</mo><mi>C</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">\int \ln x\,dx = x\ln x - x + C.</annotation></semantics></math></p>
+<hr />
+<h2 id="d">d)</h2>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>ln</mo><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mi>s</mi><mo>+</mo><mn>3</mn><mo stretchy="false" form="postfix">)</mo><mspace width="0.167em"></mspace><mi>d</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">\int \ln(2s+3)\,ds</annotation></semantics></math> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>u</mi><mo>=</mo><mo>ln</mo><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mi>s</mi><mo>+</mo><mn>3</mn><mo stretchy="false" form="postfix">)</mo><mo>,</mo><mo>;</mo><mi>d</mi><mi>v</mi><mo>=</mo><mi>d</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">u=\ln(2s+3),;dv=ds</annotation></semantics></math>.</p>
+<p>Après simplifications :</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>ln</mo><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mi>s</mi><mo>+</mo><mn>3</mn><mo stretchy="false" form="postfix">)</mo><mspace width="0.167em"></mspace><mi>d</mi><mi>s</mi><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>s</mi><mo>+</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo stretchy="true" form="postfix">)</mo></mrow><mo>ln</mo><mo stretchy="false" form="prefix">(</mo><mn>2</mn><mi>s</mi><mo>+</mo><mn>3</mn><mo stretchy="false" form="postfix">)</mo><mo>−</mo><mi>s</mi><mo>+</mo><mi>C</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">\int \ln(2s+3)\,ds = \left(s+\frac{3}{2}\right)\ln(2s+3) - s + C.</annotation></semantics></math></p>
+<hr />
+<h2 id="e">e)</h2>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>x</mi><mo>cos</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int x\cos x\,dx</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>x</mi><mo>cos</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi><mo>=</mo><mi>x</mi><mo>sin</mo><mi>x</mi><mo>+</mo><mo>cos</mo><mi>x</mi><mo>+</mo><mi>C</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">\int x\cos x\,dx = x\sin x + \cos x + C.</annotation></semantics></math></p>
+<hr />
+<h2 id="f">f)</h2>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>ln</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msup><mi>u</mi><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo><mspace width="0.167em"></mspace><mi>d</mi><mi>u</mi></mrow><annotation encoding="application/x-tex">\int \ln(1+u^{2})\,du</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>ln</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msup><mi>u</mi><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo><mspace width="0.167em"></mspace><mi>d</mi><mi>u</mi><mo>=</mo><mi>u</mi><mo>ln</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msup><mi>u</mi><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo><mo>−</mo><mn>2</mn><mi>u</mi><mo>+</mo><mn>2</mn><mo>arctan</mo><mi>u</mi><mo>+</mo><mi>C</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">\int \ln(1+u^{2})\,du = u\ln(1+u^{2}) - 2u + 2\arctan u + C.</annotation></semantics></math></p>
+<hr />
+<h2 id="g">g)</h2>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>arctan</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int \arctan x\,dx</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mo>arctan</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi><mo>=</mo><mi>x</mi><mo>arctan</mo><mi>x</mi><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>ln</mo><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>C</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">\int \arctan x\,dx = x\arctan x - \frac12\ln(1+x^{2}) + C.</annotation></semantics></math></p>
+<hr />
+<h2 id="h">h)</h2>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><msup><mo>ln</mo><mn>2</mn></msup><mi>s</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">\int \ln^{2}s\,ds</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><msup><mo>ln</mo><mn>2</mn></msup><mi>s</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>s</mi><mo>=</mo><mi>s</mi><mrow><mo stretchy="true" form="prefix">(</mo><msup><mo>ln</mo><mn>2</mn></msup><mi>s</mi><mo>−</mo><mn>2</mn><mo>ln</mo><mi>s</mi><mo>+</mo><mn>2</mn><mo stretchy="true" form="postfix">)</mo></mrow><mo>+</mo><mi>C</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">\int \ln^{2}s\,ds = s\left(\ln^{2}s - 2\ln s + 2\right) + C.</annotation></semantics></math></p>
+<hr />
+<h2 id="i">i)</h2>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mfrac><mrow><mo>ln</mo><mi>x</mi></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>,</mo><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int \frac{\ln x}{x^{2}},dx</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mfrac><mrow><mo>ln</mo><mi>x</mi></mrow><msup><mi>x</mi><mn>2</mn></msup></mfrac><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi><mo>=</mo><mo>−</mo><mfrac><mrow><mo>ln</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mi>x</mi></mfrac><mo>+</mo><mi>C</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">\int \frac{\ln x}{x^{2}}\,dx = -\frac{\ln x + 1}{x} + C.</annotation></semantics></math></p>
+<hr />
+<h2 id="j">j)</h2>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>u</mi><mo>ln</mo><mi>u</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>u</mi></mrow><annotation encoding="application/x-tex">\int u\ln u\,du</annotation></semantics></math></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><mi>u</mi><mo>ln</mo><mi>u</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>u</mi><mo>=</mo><mfrac><msup><mi>u</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>ln</mo><mi>u</mi><mo>−</mo><mfrac><msup><mi>u</mi><mn>2</mn></msup><mn>4</mn></mfrac><mo>+</mo><mi>C</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">\int u\ln u\,du = \frac{u^{2}}{2}\ln u - \frac{u^{2}}{4} + C.</annotation></semantics></math></p>
+<hr />
+<h2 id="k">k)</h2>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><msup><mi>e</mi><mi>x</mi></msup><mo>sin</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int e^{x}\sin x\,dx</annotation></semantics></math></p>
+<p>On trouve :</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∫</mo><msup><mi>e</mi><mi>x</mi></msup><mo>sin</mo><mi>x</mi><mspace width="0.167em"></mspace><mi>d</mi><mi>x</mi><mo>=</mo><mfrac><msup><mi>e</mi><mi>x</mi></msup><mn>2</mn></mfrac><mo stretchy="false" form="prefix">(</mo><mo>sin</mo><mi>x</mi><mo>−</mo><mo>cos</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>C</mi><mi>.</mi></mrow><annotation encoding="application/x-tex">\int e^{x}\sin x\,dx = \frac{e^{x}}{2}(\sin x - \cos x) + C.</annotation></semantics></math></p>
+<hr />
+</body>
+</html>
