@@ -13,7 +13,7 @@ $$\int u^{-2},du = -u^{-1}+C = -\frac{1}{y(s)}+C.$$
 
 $$\int \frac{v'(x)}{\sqrt{v(x)}},dx$$
 Let (u=v(x)).
-$$\int u^{-1/2},du = 2u^{1/2}+C = 2\sqrt{v(x)}+C.$$
+$$\int u^{-1/2},du = -2u^{1/2}+C = 2\sqrt{v(x)}+C.$$
 
 ---
 
