@@ -136,7 +136,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 - [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29)
 - [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29)
 
-**intégration par parties **
+**intégration par parties**
 
 - [exo 9](./sol_5_9.html)
 
