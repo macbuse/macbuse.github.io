@@ -135,6 +135,7 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 - [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29)
 - [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29)
+
 **intégration par parties **
 
 - [exo 9](./sol_5_9.html)
@@ -145,8 +146,8 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 - [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29)
 
 **miscellaneous**
-- [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29)
 
+- [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29)
 - [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29)
 - [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29)
 
