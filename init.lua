@@ -1,4 +1,4 @@
--- https://wikimatze.de/vimtex-the-perfect-tool-for-working-with-tex-and-vim/
+-- https://wikimatze.de/vimtex-the-perfect-tool-for-working-with-tex-and-vim/
 
 -- Install packer
 local install_path = vim.fn.stdpath 'data' .. '/site/pack/packer/start/packer.nvim'
@@ -19,48 +19,111 @@ vim.api.nvim_exec(
 
 local use = require('packer').use
 require('packer').startup(function()
-  use 'navarasu/onedark.nvim'
-  use 'wbthomason/packer.nvim' -- Package manager
-  -- use 'tpope/vim-fugitive' -- Git commands in nvim
-  -- use 'tpope/vim-rhubarb' -- Fugitive-companion to interact with github
-  use 'tpope/vim-commentary' -- "gc" to comment visual regions/lines
-  use 'ludovicchabant/vim-gutentags' -- Automatic tags management
-  -- UI to select things (files, grep results, open buffers...)
-  use { 'nvim-telescope/telescope.nvim', requires = { 'nvim-lua/plenary.nvim' } }
-  use 'joshdick/onedark.vim' -- Theme inspired by Atom
-  use 'itchyny/lightline.vim' -- Fancier statusline
-  -- Add indentation guides even on blank lines
-  use 'lukas-reineke/indent-blankline.nvim'
-  -- Add git related info in the signs columns and popups
-  use { 'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } }
-  -- Highlight, edit, and navigate code using a fast incremental parsing library
-  use 'nvim-treesitter/nvim-treesitter'
-  -- Additional textobjects for treesitter
-  use 'nvim-treesitter/nvim-treesitter-textobjects'
-  -- nvim-cmp' 
+	-- use 'navarasu/onedark.nvim'
+	use 'wbthomason/packer.nvim' -- Package manager
+	use 'folke/tokyonight.nvim'
+	use "folke/twilight.nvim"
+	use "folke/zen-mode.nvim"
+	use 'tpope/vim-fugitive' -- Git commands in nvim
+	-- use 'tpope/vim-rhubarb' -- Fugitive-companion to interact with github
+	use 'tpope/vim-commentary' -- "gc" to comment visual regions/lines
+	use 'tpope/vim-surround' -- 
+	use 'ludovicchabant/vim-gutentags' -- Automatic tags management
+	-- UI to select things (files, grep results, open buffers...)
+	-- use 'nvim-lua/popup.nvim'
+	use { 'nvim-telescope/telescope.nvim', requires = { 'nvim-lua/plenary.nvim','nvim-lua/popup.nvim' } }
+	use 'itchyny/lightline.vim' -- Fancier statusline
+	-- Add indentation guides even on blank lines
+	use 'lukas-reineke/indent-blankline.nvim'
+	-- Add git related info in the signs columns and popups
+	use { 'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } }
+	-- translate to french using google translate
+	use 'uga-rosa/translate.nvim'
+	use {
+	  "ahkohd/buffer-sticks.nvim",
+	  config = function()
+	    require("buffer-sticks").setup()
+	  end
+	}
+	-- Highlight, edit, and navigate code using a fast incremental parsing library
+	use 'nvim-treesitter/nvim-treesitter'
+	-- Additional textobjects for treesitter
+	use 'nvim-treesitter/nvim-treesitter-textobjects'
+	-- nvim-cmp'
 	--
-  use {
-    "hrsh7th/nvim-cmp",
-    requires = {
-      { "neovim/nvim-lspconfig" },
-      { "hrsh7th/cmp-nvim-lsp" },
-      { "hrsh7th/cmp-nvim-lua" },
-      { "hrsh7th/cmp-vsnip" },
-      { "hrsh7th/vim-vsnip" },
-      { "hrsh7th/cmp-path" },
-      { "hrsh7th/cmp-buffer" },
-      { "hrsh7th/cmp-cmdline" },
-	{"amarakon/nvim-cmp-lua-latex-symbols"},
-      -- vscode like pic on suggestion
-    },}
-  use 'neovim/nvim-lspconfig' -- Collection of configurations for built-in LSP client
+	--
+	-- use 'sirver/ultisnips'
+	-- use "quangnguyen30192/cmp-nvim-ultisnips"
+
+	use {
+		"hrsh7th/nvim-cmp",
+		requires = {
+			{ "neovim/nvim-lspconfig" },
+			{ "hrsh7th/cmp-nvim-lsp" },
+			{ "hrsh7th/cmp-nvim-lua" },
+			{ "hrsh7th/cmp-vsnip" },
+			{ "hrsh7th/vim-vsnip" },
+			{ "hrsh7th/cmp-path" },
+			{ "hrsh7th/cmp-buffer" },
+			{ "hrsh7th/cmp-cmdline" },
+			{ "amarakon/nvim-cmp-lua-latex-symbols" },
+			-- vscode like pic on suggestion
+			--
+			--{ "quangnguyen30192/cmp-nvim-ultisnips",
+			--	config = function()
+			--		-- optional call to setup (see customization section)
+			--		require("cmp_nvim_ultisnips").setup {}
+			--	end,
+			--	--
+			--	-- sources = { { name = "ultisnips" }}
+			--}
+
+		}
+	}
+
+-- use 'prabirshrestha/vim-lsp'
+-- use 'mattn/vim-lsp-settings'
+	--#region
+
+
+use 'neovim/nvim-lspconfig' -- Collection of configurations for built-in LSP client
+
   use 'saadparwaiz1/cmp_luasnip'
   use 'L3MON4D3/LuaSnip' -- Snippets plugin
+
+
+use { "iurimateus/luasnip-latex-snippets.nvim",
+  requires = { "L3MON4D3/LuaSnip", "lervag/vimtex" },
+  -- using treesitter.
+  -- requires = { "L3MON4D3/LuaSnip", "nvim-treesitter/nvim-treesitter" },
+  config = function()
+    require'luasnip-latex-snippets'.setup()
+  -- using treesitter.
+    -- require'luasnip-latex-snippets'.setup({ use_treesitter = true })
+    require("luasnip").config.setup { enable_autosnippets = true }
+
+  end,
+  -- treesitter is required for markdown
+  -- ft = { "tex", "markdown" },
+  ft = { "tex"}
+}
+
+vim.g.tex_flavor = 'latex'
+---
   -- Diverse
 --  use 'junegunn/goyo.vim'
-  use 'junegunn/limelight.vim'
+  -- use 'junegunn/limelight.vim'
   use 'reedes/vim-pencil'
-  use 'mhinz/vim-startify'
+  -- use 'mhinz/vim-startify'
+use {
+  "startup-nvim/startup.nvim",
+  requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim", "nvim-telescope/telescope-file-browser.nvim"},
+  config = function()
+    require"startup".setup()
+  end
+}
+
+use 'nvim-telescope/telescope-media-files.nvim'
 	--
 use {
  'iamcco/markdown-preview.nvim',
@@ -68,7 +131,40 @@ use {
  run = 'cd app && yarn install'
 }
 
+-- use {
+--     "Exafunction/codeium.nvim",
+--     requires = {
+--         "nvim-lua/plenary.nvim",
+--         "hrsh7th/nvim-cmp",
+--     },
+--     config = function()
+--         require("codeium").setup({
+--         })
+--     end
+-- }
+
 use {'github/copilot.vim', branch = 'release' }
+-- use {'benlubas/molten-nvim', version = "^1.0.0"}
+-- use { 'dccsillag/magma-nvim', run = ':UpdateRemotePlugins' }
+use{ "kiyoon/jupynium.nvim",
+    build = "pip3 install --user ."}
+
+-- use {
+--   "zbirenbaum/copilot.lua",
+--   cmd = "Copilot",
+--   event = "InsertEnter",
+--   config = function()
+--     require("copilot").setup({})
+--   end,
+-- }
+
+-- use {
+--   "zbirenbaum/copilot-cmp",
+--   after = { "copilot.lua" },
+--   config = function ()
+--     require("copilot_cmp").setup()
+--   end
+-- }
 
 use {'lervag/vimtex',
     config = function()
@@ -91,7 +187,8 @@ vim.o.inccommand = 'nosplit'
 vim.o.hlsearch = false
 
 --Make line numbers default
-vim.wo.number = true
+--<leader>nn to toggle
+vim.wo.number = false
 
 --Do not save when switching buffers (note: this is now a default on master)
 vim.o.hidden = true
@@ -118,13 +215,16 @@ vim.o.updatetime = 250
 vim.wo.signcolumn = 'yes'
 
 --Set colorscheme (order is important here)
-vim.o.termguicolors = true
- vim.g.onedark_terminal_italics = 2
- vim.cmd [[colorscheme onedark]]
+vim.o.termguicolors = false
+vim.g.background = 'dark'
+vim.g.t_Co = 256
+
+-- should match with tty theme
+ vim.cmd [[colorscheme tokyonight-storm]]
 
 --Set statusbar
 vim.g.lightline = {
-  colorscheme = 'onedark',
+  colorscheme = 'tokyonight',
   active = { left = { { 'mode', 'paste' }, { 'gitbranch', 'readonly', 'filename', 'modified' } } },
   component_function = { gitbranch = 'fugitive#head' },
 }
@@ -149,8 +249,6 @@ vim.api.nvim_exec(
   false
 )
 
--- Y yank until the end of line  (note: this is now a default on master)
-vim.api.nvim_set_keymap('n', 'Y', 'y$', { noremap = true })
 
 --Map blankline
 vim.g.indent_blankline_char = '┊'
@@ -160,20 +258,44 @@ vim.g.indent_blankline_char_highlight = 'LineNr'
 vim.g.indent_blankline_show_trailing_blankline_indent = false
 
 
--- Telescope
-require('telescope').setup {
-  defaults = {
-    mappings = {
-      i = {
-        ['<C-u>'] = false,
-        ['<C-d>'] = false,
-      },
-    },
-  },
-}
+---- Telescope
+----
+--require('telescope').setup {
+--  defaults = {
+--    mappings = {
+--      i = {
+--        ['<C-u>'] = false,
+--        ['<C-d>'] = false,
+--      },
+--    },
+--  },
+--}
+
+require("telescope").setup({
+	defaults = {
+		layout_config = {
+			horizontal = {
+				preview_cutoff = 0,
+			},
+		},
+	},
+	extensions = {
+		media_files = {
+			-- filetypes whitelist
+			-- defaults to {"png", "jpg", "mp4", "webm", "pdf"}
+			filetypes = { "png", "webp", "jpg", "jpeg" },
+			-- find command (defaults to `fd`)
+			find_cmd = "rg"
+		}
+	}
+
+})
+
+require('telescope').load_extension('media_files')
+
 --Add leader shortcuts
 vim.api.nvim_set_keymap('n', '<leader><space>', [[<cmd>lua require('telescope.builtin').buffers()<CR>]], { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>sf', [[<cmd>lua require('telescope.builtin').find_files({previewer = false})<CR>]], { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>sf', [[<cmd>lua require('telescope.builtin').find_files({previewer = true})<CR>]], { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>sb', [[<cmd>lua require('telescope.builtin').current_buffer_fuzzy_find()<CR>]], { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>sh', [[<cmd>lua require('telescope.builtin').help_tags()<CR>]], { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>st', [[<cmd>lua require('telescope.builtin').tags()<CR>]], { noremap = true, silent = true })
@@ -267,13 +389,23 @@ local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 -- Enable the following language servers
-local servers = { 'clangd', 'rust_analyzer', 'pyright', 'tsserver' }
+local servers = { 'clangd', 'rust_analyzer', 'pyright', 'texlab'}
+-- texlab has to be installed using cargo 
+-- so needs Rust to be installed first
+
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = on_attach,
     capabilities = capabilities,
   }
 end
+
+-- apparently this will never work
+-- require('lspconfig').texlab.setup {
+-- 	on_attach = on_attach,
+-- 	capabilities = capabilities,
+-- 	settings = {
+-- 		ft = { 'tex', 'md' } } }
 
 -- Example custom server
 local sumneko_root_path = vim.fn.getenv 'HOME' .. '/.local/bin/sumneko'
@@ -311,6 +443,8 @@ require('lspconfig').sumneko_lua.setup {
     },
   },
 }
+
+-- require("lspconfig.health").check()
 
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
@@ -362,28 +496,58 @@ cmp.setup {
 		{ name = 'path' },
 		{ name = 'buffer' },
 		{ name = 'luasnip' },
+		{ name = 'ultisnips' },
+		-- this doesn't appear to work with TS latex
 		{ name = "lua-latex-symbols", option = { cache = true } }
 	},
 }
 
 vim.o.spell = true
 -- https://stackoverflow.com/questions/25777205/how-to-make-z-look-like-ctrl-x-s-in-vim-spell-check#comment116976526_25777332
+
 vim.cmd[[
 nnoremap <leader>s :call search('\w\>', 'c')<CR>a<C-X><C-S>
 inoremap <expr> <leader><leader> pumvisible() ? "\<C-y><Esc>" : "\<CR>"
 ]]
 
--- Focus mode - goyo + limelight
--- goyo is a korean word which means silence
--- key binding
--- buf_set_keymap("n", "<leader>gy", ":Goyo<CR>", key_binding_options)
+-- vim.api.nvim_set_keymap('n', '<leader>s', ":call search('\w\>', 'c')<CR>a<C-X><C-S>", { noremap = true, silent = true })
 
--- Enable limelight when entering goyo mode
--- Disable limelight when leaving goyo mode
-vim.cmd [[
-autocmd! User GoyoEnter Limelight
-autocmd! User GoyoLeave Limelight!
-]]
+
+-- google search
+--
+vim.keymap.set("v", "<leader>g", function()
+
+	vim.cmd('normal! "vy') -- Yank selected text into register v
+	local selected_text = vim.fn.getreg('v') 
+	vim.fn.setreg('v', '') 
+	-- selected_text = vim.fn.escape(selected_text, "#?&+/ ")
+	local search_url = "https://www.google.com/search?q=" .. selected_text
+
+    -- Open in the default browser
+    local open_cmd
+    if vim.fn.has("mac") == 1 then
+        open_cmd = "open '" .. search_url .. "'"
+    elseif vim.fn.has("unix") == 1 then
+        open_cmd = "xdg-open '" .. search_url .. "'"
+    else
+        print("Unsupported OS")
+        return
+    end
+    -- Run the command 
+vim.fn.system(open_cmd)
+end, { desc = "Search selected text on Google", noremap = true, silent = true })
+
+-- vim.api.nvim_set_keymap('v', '<leader>g', ':lua google_search()<CR>', { noremap = true, silent = true })
+
+-- Chat interface
+require("CopilotChat").setup {
+  -- See Configuration section for options
+}
+
+vim.keymap.set("n", "<leader>cc",  ':CopilotChat ', { remap=false })
+vim.keymap.set("x", "<leader>cc",  ':CopilotChatVisual ', { remap=false })
+vim.keymap.set("n", "<leader>ccb",  ':CopilotChatBuffer ', { remap=false })
+vim.keymap.set("x", "<leader>ccx",  ':CopilotChatInPlace<CR>', { remap=false })
 
 -- https://stackoverflow.com/questions/4368690/how-to-increase-the-vertical-split-window-size-in-vim
 vim.cmd [[
@@ -398,8 +562,73 @@ nmap <M-Down> :resize +1<CR>
 nmap <M-Up> :resize -1<CR>
 ]]
 
+-- Y yank until the end of line  (note: this is now a default on master)
+vim.api.nvim_set_keymap('n', 'Y', 'y$', { noremap = true })
+
 vim.api.nvim_set_keymap("n", "U", "<C-r>",{expr = false, noremap = true})
 vim.api.nvim_set_keymap("n", "<C-v>", '"+p',{expr = false, noremap = true})
 
 vim.api.nvim_set_keymap("n", "<leader>FF", 'gqip',{expr = false, noremap = true})
-vim.o.textwidth = 80
+
+vim.o.textwidth = 68
+vim.g.netrw_browse_split = 2
+vim.g.netrw_winsize = 25
+
+-- Map <Leader>nn to toggle line numbers
+vim.api.nvim_set_keymap('n', '<Leader>nn', ':lua vim.wo.number = not vim.wo.number<CR>', { noremap = true, silent = true })
+-- Map <Leader>bb to switch to the next buffer
+-- vim.api.nvim_set_keymap('n', '<Leader>bb', ':bn<CR>', { noremap = true, silent = true })
+-- delete till the end of a file
+vim.api.nvim_set_keymap('n', '<Leader>de', ':.,$ d<CR>', { noremap = true, silent = true })
+--run the current file it should have a shebang
+vim.api.nvim_set_keymap('n', '<leader>pp', ':w<CR>:! ./%<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>mm', ':MarkdownPreview<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>ZZ', ':ZenMode<CR>', { noremap = true, silent = true })
+
+-- keybindings for translate
+vim.api.nvim_set_keymap('n', '<space>tw', 'viw:Translate FR<CR>', { noremap = true, silent = true })
+-- Normal mode mapping
+vim.api.nvim_set_keymap('n', 'vf', ':Translate FR<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', 'if', ':Translate FR -output=insert<CR>', { noremap = true, silent = true })
+
+-- Visual mode mapping
+vim.api.nvim_set_keymap('x', 'vf', ':Translate FR<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('x', 'if', ':Translate FR -output=insert<CR>', { noremap = true, silent = true })
+
+
+vim.api.nvim_set_keymap('x', '<leader>yy', '"+y', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>y', 'yc:<ctrl>R"<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>aa', ':Startup display<CR>', { noremap = true, silent = true })
+-- this replaces bn above
+vim.api.nvim_set_keymap('n', '<leader>bb', ':lua BufferSticks.list()<CR>', { noremap = true, silent = true })
+
+vim.g.clipboard = {
+      name = 'OSC 52',
+      copy = {
+        ['+'] = require('vim.ui.clipboard.osc52').copy('+'),
+        ['*'] = require('vim.ui.clipboard.osc52').copy('*'),
+      },
+      paste = {
+        ['+'] = require('vim.ui.clipboard.osc52').paste('+'),
+        ['*'] = require('vim.ui.clipboard.osc52').paste('*'),
+      },
+    }
+
+vim.keymap.set("v", "<leader>ee", function()
+    -- Get the start and end position of the visual selection
+    vim.cmd('normal! "vy')  -- Yank selected text into register v
+    local selected_text = vim.fn.getreg('v')  -- Get the yanked text
+    vim.fn.setreg('v', '')  -- Clear the register to prevent stale data
+ if #selected_text > 0 then
+        print(selected_text)
+end
+    
+    if selected_text and #selected_text > 0 then
+        -- Wrap the selected text with **
+        local wrapped_text = "**" .. selected_text .. "**"
+        
+        -- Replace the selection with the modified text
+        vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("gvc" .. wrapped_text .. "<Esc>", true, false, true), "x", false)
+    end
+end, { desc = "Surround selection with **", noremap = true, silent = true })
+
