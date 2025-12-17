@@ -1,5 +1,6 @@
 # Bits and pieces of projects
 
+- [euclidean vs hyperbolic geodesics](./torus_geodesics.html)
 - [notebook for Doan's paper](./Doan.ipynb)
 - [preview](./Doan.html)
 
