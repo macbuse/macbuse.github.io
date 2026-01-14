@@ -1,6 +1,6 @@
  # Probablity, Stats L3 2025
 
-- [sols](./F1_sols.pdf)
+- [sols](./F1_sol.pdf)
 - [notes](./notes.pdf)
 
 
