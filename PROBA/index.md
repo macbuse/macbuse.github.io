@@ -1,11 +1,11 @@
  # Probablity, Stats L3 2025
 
 - [sols](./F1_sol.pdf)
-- [notes](./notes.pdf)
+- [notes exo 1](./notes_1_1.md)
+- [notes exo 2](./notes_1_2.md)
 
 
 - [TD1](./F1_2026.pdf)
-
 
 - [TP1 LGN/TCL](./TP1.html)
     - [source](./TP1.ipynb)
