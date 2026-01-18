@@ -94,10 +94,17 @@ papers](https://collectif-maths-sciences.fr/author/melanie-guenais/) from the **
 
 <!-- - [web page for class](./MAT366/index.md) -->
 
-
 ### First semester
 
+### ENS-Lyon
+
+Groupe de lecture, Milnor Topology from the Differentiable Viewpoint
+
+- [web page for class](./ENS_2026/index.md)
+
 <!-- [More details](teaching.md) -->
+
+### First semester
 
 #### MAT 102
 
