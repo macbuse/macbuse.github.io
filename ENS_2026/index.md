@@ -45,6 +45,8 @@ This is a sophisticated result that laid the groundwork for modern surgery theor
 ---
 
 ### Key Summary Table
+
+
 | Concept | Significance |
 | :--- | :--- |
 | **Regular Values** | The tool used to "slice" manifolds and see their internal structure. |
