@@ -3,6 +3,7 @@
 - [sols](./F1_sol.pdf)
 - [notes exo 1](./notes_1_1.md)
 - [notes exo 2](./notes_1_2.md)
+- [notes exo 3](./notes_1_3.html)
 
 
 - [TD1](./F1_2026.pdf)

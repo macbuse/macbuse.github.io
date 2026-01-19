@@ -1,0 +1,78 @@
+<h2 id="exercice-3---urne-de-polya">Exercice 3 - Urne de Polya</h2>
+<hr />
+<h3 id="résumé-de-la-structure-logique">Résumé de la structure logique</h3>
+<p>La résolution de ce problème repose sur un enchaînement de propriétés qui permettent de passer d’un tirage local à une loi générale :</p>
+<ul>
+<li><strong>Initialisation (a) :</strong> On établit la loi pour les deux premiers tirages (<span class="math inline"><em>n</em> = 1</span> et <span class="math inline"><em>n</em> = 2</span>). On remarque déjà que <span class="math inline"><em>P</em>(<em>X</em><sub>1</sub> = 1) = <em>P</em>(<em>X</em><sub>2</sub> = 1)</span>, ce qui suggère la stationnarité du processus.</li>
+<li><strong>Analyse de l’état du système (b &amp; c) :</strong> On montre que la probabilité de succès au tirage <span class="math inline"><em>n</em> + 1</span> ne dépend pas de l’ordre des tirages précédents, mais uniquement du nombre cumulé de boules bleues obtenues (<span class="math inline"><em>S</em><sub><em>n</em></sub></span>). On établit la relation fondamentale : <br /><span class="math display">$$P(X_{n+1} = 1) = \frac{b + d \cdot E[S_n]}{b + r + nd}$$</span><br /></li>
+<li><strong>Dynamique de l’espérance (d) :</strong> On utilise la linéarité de l’espérance pour lier <span class="math inline"><em>E</em>[<em>S</em><sub><em>n</em></sub>]</span> au tirage précédent, créant ainsi une structure de récurrence.</li>
+<li><strong>Hérédité et Conclusion (e &amp; f) :</strong> Par substitution algébrique, on prouve que si la probabilité est constante jusqu’au rang <span class="math inline"><em>n</em></span>, elle l’est aussi au rang <span class="math inline"><em>n</em> + 1</span>. Par récurrence, on conclut que chaque tirage suit la même loi de Bernoulli : <br /><span class="math display">$$X_n \sim \mathcal{B}\left(\frac{b}{b+r}\right)$$</span><br /></li>
+</ul>
+<hr />
+<p>Une <strong>loi de Bernoulli</strong> est une loi de probabilité très simple qui modélise une expérience aléatoire avec <strong>seulement deux issues possibles</strong>.</p>
+<h2 id="définition">Définition</h2>
+<p>On parle de <strong>loi de Bernoulli de paramètre <span class="math inline"><em>p</em></span></strong> lorsque : - il y a un <strong>succès</strong> (noté 1) avec une probabilité <span class="math inline"><em>p</em></span>, - il y a un <strong>échec</strong> (noté 0) avec une probabilité <span class="math inline">1 − <em>p</em></span>,</p>
+<p>où <span class="math inline">0 ≤ <em>p</em> ≤ 1</span>.</p>
+<p>On note alors : <br /><span class="math display"><em>X</em> ∼ ℬ(<em>p</em>)</span><br /></p>
+<h2 id="exemple">Exemple</h2>
+<ul>
+<li>Lancer une pièce :
+<ul>
+<li><span class="math inline"><em>X</em> = 1</span> si on obtient <em>pile</em> (succès),</li>
+<li><span class="math inline"><em>X</em> = 0</span> si on obtient <em>face</em> (échec),</li>
+<li>si la pièce est équilibrée, <span class="math inline"><em>p</em> = 0, 5</span>.</li>
+</ul></li>
+<li>Test médical :
+<ul>
+<li><span class="math inline"><em>X</em> = 1</span> si le test est positif,</li>
+<li><span class="math inline"><em>X</em> = 0</span> s’il est négatif.</li>
+</ul></li>
+</ul>
+<h2 id="propriétés-importantes">Propriétés importantes</h2>
+<p>Pour une variable aléatoire <span class="math inline"><em>X</em></span> suivant une loi de Bernoulli de paramètre <span class="math inline"><em>p</em></span> : - <strong>Espérance</strong> : <br /><span class="math display">𝔼(<em>X</em>) = <em>p</em></span><br /> - <strong>Variance</strong> : <br /><span class="math display"><em>V</em><em>a</em><em>r</em>(<em>X</em>) = <em>p</em>(1 − <em>p</em>)</span><br /></p>
+<p><strong>Résumé :</strong> la loi de Bernoulli modélise une situation « oui / non », « succès / échec ».</p>
+<h3 id="analyse-du-problème">Analyse du problème</h3>
+<p>L’urne évolue à chaque tirage. Initialement, nous avons : * <span class="math inline"><em>b</em></span> : nombre de boules bleues. * <span class="math inline"><em>r</em></span> : nombre de boules rouges. * <span class="math inline"><em>N</em> = <em>b</em> + <em>r</em></span> : nombre total de boules.</p>
+<p>À chaque fois qu’on tire une boule d’une couleur, on la remet avec <span class="math inline"><em>d</em></span> boules supplémentaires de la <strong>même</strong> couleur.</p>
+<hr />
+<h3 id="loi-de-x_1">1. Loi de <span class="math inline"><em>X</em><sub>1</sub></span></h3>
+<p>Le premier tirage s’effectue dans l’urne initiale. La probabilité de tirer une boule bleue est simplement le ratio du nombre de boules bleues sur le total.</p>
+<ul>
+<li><span class="math inline">$P(X_1 = 1) = \frac{b}{b + r}$</span></li>
+<li><span class="math inline">$P(X_1 = 0) = \frac{r}{b + r}$</span></li>
+</ul>
+<p>La loi de <span class="math inline"><em>X</em><sub>1</sub></span> est une <strong>loi de Bernoulli</strong> de paramètre <span class="math inline">$p = \frac{b}{b + r}$</span>. On note : <br /><span class="math display">$$X_1 \sim \mathcal{B}\left(\frac{b}{b+r}\right)$$</span><br /></p>
+<hr />
+<h3 id="loi-de-x_2">2. Loi de <span class="math inline"><em>X</em><sub>2</sub></span></h3>
+<p>Pour calculer la probabilité que la deuxième boule soit bleue, nous devons utiliser la <strong>formule des probabilités totales</strong> en passant par le résultat du premier tirage (<span class="math inline"><em>X</em><sub>1</sub></span>).</p>
+<h4 id="cas-1-la-première-boule-était-bleue-x_1-1">Cas 1 : La première boule était bleue (<span class="math inline"><em>X</em><sub>1</sub> = 1</span>)</h4>
+<p>On a ajouté <span class="math inline"><em>d</em></span> boules bleues. L’urne contient maintenant <span class="math inline"><em>b</em> + <em>d</em></span> boules bleues et <span class="math inline"><em>r</em></span> boules rouges. Le total est <span class="math inline"><em>b</em> + <em>r</em> + <em>d</em></span>. <br /><span class="math display">$$P(X_2 = 1 \mid X_1 = 1) = \frac{b + d}{b + r + d}$$</span><br /></p>
+<h4 id="cas-2-la-première-boule-était-rouge-x_1-0">Cas 2 : La première boule était rouge (<span class="math inline"><em>X</em><sub>1</sub> = 0</span>)</h4>
+<p>On a ajouté <span class="math inline"><em>d</em></span> boules rouges. L’urne contient maintenant <span class="math inline"><em>b</em></span> boules bleues et <span class="math inline"><em>r</em> + <em>d</em></span> boules rouges. Le total est <span class="math inline"><em>b</em> + <em>r</em> + <em>d</em></span>. <br /><span class="math display">$$P(X_2 = 1 \mid X_1 = 0) = \frac{b}{b + r + d}$$</span><br /></p>
+<h4 id="calcul-final">Calcul final :</h4>
+<p><br /><span class="math display"><em>P</em>(<em>X</em><sub>2</sub> = 1) = <em>P</em>(<em>X</em><sub>2</sub> = 1 ∣ <em>X</em><sub>1</sub> = 1)<em>P</em>(<em>X</em><sub>1</sub> = 1) + <em>P</em>(<em>X</em><sub>2</sub> = 1 ∣ <em>X</em><sub>1</sub> = 0)<em>P</em>(<em>X</em><sub>1</sub> = 0)</span><br /></p>
+<p>Substituons les valeurs : <br /><span class="math display">$$P(X_2 = 1) = \left( \frac{b + d}{b + r + d} \cdot \frac{b}{b + r} \right) + \left( \frac{b}{b + r + d} \cdot \frac{r}{b + r} \right)$$</span><br /></p>
+<p>Factorisons par <span class="math inline">$\frac{b}{(b+r)(b+r+d)}$</span> : <br /><span class="math display">$$P(X_2 = 1) = \frac{b(b + d + r)}{(b + r)(b + r + d)}$$</span><br /></p>
+<p>En simplifiant par <span class="math inline">(<em>b</em> + <em>r</em> + <em>d</em>)</span> au numérateur et au dénominateur, on obtient : <br /><span class="math display">$$P(X_2 = 1) = \frac{b}{b + r}$$</span><br /></p>
+<p><strong>Conclusion :</strong> La loi de <span class="math inline"><em>X</em><sub>2</sub></span> est identique à celle de <span class="math inline"><em>X</em><sub>1</sub></span>. C’est une <strong>loi de Bernoulli</strong> de paramètre <span class="math inline">$\frac{b}{b + r}$</span>.</p>
+<h3 id="c-en-déduire-une-expression-pour-px_n1-1-en-termes-de-es_n">c) En déduire une expression pour <span class="math inline"><em>P</em>(<em>X</em><sub><em>n</em> + 1</sub> = 1)</span> en termes de <span class="math inline"><em>E</em>[<em>S</em><sub><em>n</em></sub>]</span></h3>
+<p>Pour calculer <span class="math inline"><em>P</em>(<em>X</em><sub><em>n</em> + 1</sub> = 1)</span>, on utilise la <strong>loi des probabilités totales</strong> en conditionnant par les valeurs possibles de <span class="math inline"><em>S</em><sub><em>n</em></sub></span> :</p>
+<p><br /><span class="math display">$$P(X_{n+1} = 1) = \sum_{k=0}^{n} P(X_{n+1} = 1 \mid S_n = k) \cdot P(S_n = k)$$</span><br /></p>
+<p>D’après le résultat de la question <strong>b)</strong>, nous savons que : <br /><span class="math display">$$P(X_{n+1} = 1 \mid S_n = k) = \frac{b + kd}{b + r + nd}$$</span><br /></p>
+<p>En injectant cette expression dans la somme : <br /><span class="math display">$$P(X_{n+1} = 1) = \sum_{k=0}^{n} \frac{b + kd}{b + r + nd} \cdot P(S_n = k)$$</span><br /></p>
+<p>Par linéarité de la somme : <br /><span class="math display">$$P(X_{n+1} = 1) = \frac{b}{b + r + nd} \sum_{k=0}^{n} P(S_n = k) + \frac{d}{b + r + nd} \sum_{k=0}^{n} k \cdot P(S_n = k)$$</span><br /></p>
+<p>Sachant que <span class="math inline">$\sum_{k=0}^{n} P(S_n = k) = 1$</span> et que <span class="math inline">$\sum_{k=0}^{n} k \cdot P(S_n = k) = E[S_n]$</span>, on obtient : <br /><span class="math display">$$P(X_{n+1} = 1) = \frac{b + d \cdot E[S_n]}{b + r + nd}$$</span><br /></p>
+<hr />
+<h3 id="d-exprimer-es_n-en-termes-de-es_n-1-et-px_n-1">d) Exprimer <span class="math inline"><em>E</em>[<em>S</em><sub><em>n</em></sub>]</span> en termes de <span class="math inline"><em>E</em>[<em>S</em><sub><em>n</em> − 1</sub>]</span> et <span class="math inline"><em>P</em>(<em>X</em><sub><em>n</em></sub> = 1)</span></h3>
+<p>Par définition, <span class="math inline"><em>S</em><sub><em>n</em></sub> = <em>S</em><sub><em>n</em> − 1</sub> + <em>X</em><sub><em>n</em></sub></span>. Par linéarité de l’espérance : <br /><span class="math display"><em>E</em>[<em>S</em><sub><em>n</em></sub>] = <em>E</em>[<em>S</em><sub><em>n</em> − 1</sub>] + <em>E</em>[<em>X</em><sub><em>n</em></sub>]</span><br /></p>
+<p>Puisque <span class="math inline"><em>X</em><sub><em>n</em></sub></span> est une variable de Bernoulli, <span class="math inline"><em>E</em>[<em>X</em><sub><em>n</em></sub>] = <em>P</em>(<em>X</em><sub><em>n</em></sub> = 1)</span>. On a donc : <br /><span class="math display"><em>E</em>[<em>S</em><sub><em>n</em></sub>] = <em>E</em>[<em>S</em><sub><em>n</em> − 1</sub>] + <em>P</em>(<em>X</em><sub><em>n</em></sub> = 1)</span><br /></p>
+<hr />
+<h3 id="e-en-déduire-que-px_n1-1-px_n-1">e) En déduire que <span class="math inline"><em>P</em>(<em>X</em><sub><em>n</em> + 1</sub> = 1) = <em>P</em>(<em>X</em><sub><em>n</em></sub> = 1)</span></h3>
+<p>Utilisons l’expression de la question <strong>c)</strong> au rang <span class="math inline"><em>n</em></span> : <br /><span class="math display">$$P(X_{n+1} = 1) = \frac{b + d \cdot E[S_n]}{b + r + nd}$$</span><br /></p>
+<p>Substituons <span class="math inline"><em>E</em>[<em>S</em><sub><em>n</em></sub>]</span> par l’expression trouvée en <strong>d)</strong> : <br /><span class="math display">$$P(X_{n+1} = 1) = \frac{b + d(E[S_{n-1}] + P(X_n = 1))}{b + r + nd}$$</span><br /> <br /><span class="math display">$$P(X_{n+1} = 1) = \frac{b + d \cdot E[S_{n-1}] + d \cdot P(X_n = 1)}{b + r + nd}$$</span><br /></p>
+<p>Or, d’après la formule de la question <strong>c)</strong> appliquée au tirage précédent : <br /><span class="math display">$$P(X_n = 1) = \frac{b + d \cdot E[S_{n-1}]}{b + r + (n-1)d}$$</span><br /> Ce qui implique : <span class="math inline"><em>b</em> + <em>d</em> ⋅ <em>E</em>[<em>S</em><sub><em>n</em> − 1</sub>] = <em>P</em>(<em>X</em><sub><em>n</em></sub> = 1) ⋅ (<em>b</em> + <em>r</em> + (<em>n</em> − 1)<em>d</em>)</span>.</p>
+<p>En remplaçant dans notre équation : <br /><span class="math display">$$P(X_{n+1} = 1) = \frac{P(X_n = 1)(b + r + (n-1)d) + d \cdot P(X_n = 1)}{b + r + nd}$$</span><br /> <br /><span class="math display">$$P(X_{n+1} = 1) = \frac{P(X_n = 1) [b + r + nd - d + d]}{b + r + nd}$$</span><br /> <br /><span class="math display">$$P(X_{n+1} = 1) = P(X_n = 1) \cdot \frac{b + r + nd}{b + r + nd} = P(X_n = 1)$$</span><br /></p>
+<hr />
+<h3 id="f-quelle-est-la-loi-de-x_n">f) Quelle est la loi de <span class="math inline"><em>X</em><sub><em>n</em></sub></span> ?</h3>
+<p>Nous avons montré par récurrence à la question précédente que <span class="math inline"><em>P</em>(<em>X</em><sub><em>n</em></sub> = 1)</span> est constant pour tout <span class="math inline"><em>n</em></span>. Comme <span class="math inline">$P(X_1 = 1) = \frac{b}{b+r}$</span>, alors pour tout <span class="math inline"><em>n</em> ∈ ℕ<sup>*</sup></span> : <br /><span class="math display">$$P(X_n = 1) = \frac{b}{b+r}$$</span><br /></p>
+<p>La variable <span class="math inline"><em>X</em><sub><em>n</em></sub></span> suit donc une <strong>loi de Bernoulli</strong> de paramètre <span class="math inline">$p = \frac{b}{b+r}$</span> : <br /><span class="math display">$$X_n \sim \mathcal{B}\left(\frac{b}{b+r}\right)$$</span><br /></p>

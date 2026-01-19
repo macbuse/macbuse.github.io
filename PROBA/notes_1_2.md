@@ -1,6 +1,23 @@
 # exercise 2
 
+
+
+
+* Soit $X$ et $Y$ deux variables aléatoires indépendantes suivant chacune la loi géométrique de paramètre $p \in $0,1$. 
+* Soit $U := \max\{X, Y\}$ et $V := \min\{X, Y\}$.
+
+- a Pour $u, v \in \mathbb{N}^*$, 
+calculer $\mathbb{P}(U \le u, V \ge v)$. En déduire les lois de $U$ et de $V$.
+
+- b Déterminer la loi de $D := |X - Y|$ et montrer que $D$ et $V$ sont indépendantes.
+
+---
+
+
 **Solution**
+
+
+
 
 On suppose que $X$ et $Y$ sont indépendantes et suivent la loi géométrique de paramètre $p \in (0,1)$, c’est-à-dire
 $$
@@ -13,7 +30,7 @@ $$
 
 On a
 $$
-\{U \le u, V \ge v\} = \{v \le X \le u, \; v \le Y \le u\}.
+\{U \le u, V \ge v\} = \{v \le X \le u\} \cap \{ v \le Y \le u\}.
 $$
 Par indépendance de $X$ et $Y$,
 $$
@@ -54,8 +71,8 @@ $$
 Donc
 $$
 \mathbb{P}(U = u)
-= \mathbb{P}(U \le u) - \mathbb{P}(U \le u-1)
-= (1-p)^{u-1}\bigl(2p - p^2(1-p)^{u-1}\bigr).
+= \mathbb{P}(U \le u) - \mathbb{P}(U \le u-1)$$
+$$= (1-p)^{u-1}\bigl(2p - p^2(1-p)^{u-1}\bigr).
 $$
 
 ---

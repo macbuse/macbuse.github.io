@@ -163,9 +163,7 @@ Nous avons montré par récurrence à la question précédente que $P(X_n = 1)$ 
 Comme $P(X_1 = 1) = \frac{b}{b+r}$, alors pour tout $n \in \mathbb{N}^*$ :
 $$P(X_n = 1) = \frac{b}{b+r}$$
 
-La variable $X_n$ suit donc une **loi de Bernoulli** de paramètre 
-
-$p = \frac{b}{b+r}$ :
+La variable $X_n$ suit donc une **loi de Bernoulli** de paramètre $p = \frac{b}{b+r}$ :
 
 $$X_n \sim \mathcal{B}\left(\frac{b}{b+r}\right)$$
 
