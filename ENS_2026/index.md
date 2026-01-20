@@ -9,11 +9,27 @@ Manifolds](https://www.cimat.mx/~gil/docencia/2013/topologia_variedades/spivak-c
 - [Comment on Hirsch's proof of Brouwer's
 theorem](https://www.ams.org/journals/proc/2000-128-05/S0002-9939-99-05205-3/S0002-9939-99-05205-3.pdf)
 
+| Date | Name | Title |
+| :--- | :--- | :--- |
+| January 20, 2026 | | introduction|
+| January 27, 2026 | | espace tangent, d'alembert gauss |
+| February 3, 2026 | | 1 manifolds |
+| February 10, 2026 | | sard |
+| February 17, 2026 | | sard |
+| February 24, 2026 | | vacances |
+| March 3, 2026 | | degree |
+| March 10, 2026 | | orientability |
+| March 17, 2026 | | orientability |
+| March 24, 2026 | | champs de vecteurs |
+| March 31, 2026 | | champs de vecteurs |
+
 ---
+## week 1 files
 
 - [Philosophy](./philosophy.html)
-- [Example](./sphere.html)
-- [big three](./big_three.html)
+- [Example: the 2 sphere](./sphere_manifold.html)
+- [big three theorems](./big_three.html)
+- [1-forms and the example the torus](./forms_torus.html)
 
 ---
 
@@ -24,7 +40,7 @@ The book's "highlight" is its ability to prove profound topological results—li
 
 --
 
-### Key Summary Table
+### Key Summary Tablea
 
 
 | Concept | Significance |
@@ -48,21 +64,6 @@ The book's "highlight" is its ability to prove profound topological results—li
 
 ---
 
-## Calendar
-
-| Date | Name | Title |
-| :--- | :--- | :--- |
-| January 20, 2026 | | |
-| January 27, 2026 | | |
-| February 3, 2026 | | |
-| February 10, 2026 | | |
-| February 17, 2026 | | |
-| February 24, 2026 | | |
-| March 3, 2026 | | |
-| March 10, 2026 | | |
-| March 17, 2026 | | |
-| March 24, 2026 | | |
-| March 31, 2026 | | |
 
 
 
