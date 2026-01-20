@@ -96,15 +96,17 @@ $$\frac{\partial f}{\partial \theta} = -(R + r \cos \phi) \sin \theta = 0$$
 Since $R > r$, the term $(R + r \cos \phi)$ is strictly positive. Therefore, $\sin \theta = 0$ (implying $\cos \theta = \pm 1$). Plugging this into the first equation, we find $\sin \phi = 0$. 
 
 The critical points occur at:
+
 - $\theta \in \{0, \pi\}$
 - $\phi \in \{0, \pi\}$
 
 ### 3. The Singular Values
 Evaluating $f$ at these four combinations yields the singular values:
-1. $f(0, 0) = R + r$
-2. $f(\pi, 0) = R - r$
-3. $f(\pi, \pi) = -(R - r) = r - R$
-4. $f(0, \pi) = -(R + r) = -R - r$
+
+- $f(0, 0) = R + r$
+- $f(\pi, 0) = R - r$
+- $f(\pi, \pi) = -(R - r) = r - R$
+- $f(0, \pi) = -(R + r) = -R - r$
 
 
 
