@@ -107,21 +107,3 @@ Milnor assumes you are a master of multivariable calculus. Spivak is where you g
 * **The Inverse Function Theorem:** This is the most important theorem in the book. If you don't understand the proof
 
 
-## Calendar
-
-| Date | Name | Title |
-| :--- | :--- | :--- |
-| January 20, 2026 | | |
-| January 27, 2026 | | |
-| February 3, 2026 | | |
-| February 10, 2026 | | |
-| February 17, 2026 | | |
-| February 24, 2026 | | |
-| March 3, 2026 | | |
-| March 10, 2026 | | |
-| March 17, 2026 | | |
-| March 24, 2026 | | |
-| March 31, 2026 | | |
-
-
-

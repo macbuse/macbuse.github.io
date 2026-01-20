@@ -1,13 +1,38 @@
 # Topology from a differential viewpoint
 
+### Summary
+
+The book's "highlight" is its ability to prove profound topological results -like the **Brouwer Fixed Point Theorem** - using almost nothing but the concept of **smooth maps** and **regular values**.
+
+---
+
+
+###  Bibliography the "Trio"
 
 - [text in pdf](https://math.uchicago.edu/~may/REU2017/MilnorDiff.pdf)
 - [Guilleman
 Spivak](https://www.cimat.mx/~gil/docencia/2020/topologia_diferencial/%5BGuillemin,Pollack%5DDifferential_Topology%281974%29.pdf)
 - [Spivak Calculus on
 Manifolds](https://www.cimat.mx/~gil/docencia/2013/topologia_variedades/spivak-calculus-on-manifolds.pdf)
+
+### Supplementary References
 - [Comment on Hirsch's proof of Brouwer's
 theorem](https://www.ams.org/journals/proc/2000-128-05/S0002-9939-99-05205-3/S0002-9939-99-05205-3.pdf)
+
+---
+
+### Summary of the "Trio"
+
+| Book | Role in your Study |
+| :--- | :--- |
+| **Milnor** | The **Vision:** Tells you the deep truths (What). |
+| **G&P** | The **Intuition:** Shows you the pictures and examples (How). |
+| **Spivak** | The **Rigors:** Proves the underlying calculus (Why). |
+
+---
+
+## Course Schedule
+
 
 | Date | Name | Title |
 | :--- | :--- | :--- |
@@ -24,7 +49,8 @@ theorem](https://www.ams.org/journals/proc/2000-128-05/S0002-9939-99-05205-3/S00
 | March 31, 2026 | | champs de vecteurs |
 
 ---
-## week 1 files
+
+## Week 1 files
 
 - [Philosophy](./philosophy.html)
 - [Example: the 2 sphere](./sphere_manifold.html)
@@ -33,14 +59,7 @@ theorem](https://www.ams.org/journals/proc/2000-128-05/S0002-9939-99-05205-3/S00
 
 ---
 
-## Summary
-
-
-The book's "highlight" is its ability to prove profound topological results—like the Brouwer Fixed Point Theorem—using almost nothing but the concept of **smooth maps** and **regular values**.
-
---
-
-### Key Summary Tablea
+### Key Summary Table
 
 | Concept | Significance |
 | :--- | :--- |
@@ -52,18 +71,4 @@ The book's "highlight" is its ability to prove profound topological results—li
 > **Pro Tip:** Because the book is so concise, it is often said that "every sentence is a theorem." It is best read with a pen and paper nearby to fill in the "straightforward" calculations Milnor leaves to the reader.
 
 ---
-
-### Summary of the "Trio"
-
-| Book | Role in your Study |
-| :--- | :--- |
-| **Milnor** | The **Vision:** Tells you the deep truths (What). |
-| **G&P** | The **Intuition:** Shows you the pictures and examples (How). |
-| **Spivak** | The **Rigors:** Proves the underlying calculus (Why). |
-
-
----
-
-
-
 
