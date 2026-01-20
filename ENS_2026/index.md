@@ -9,6 +9,7 @@ Manifolds](https://www.cimat.mx/~gil/docencia/2013/topologia_variedades/spivak-c
 - [Comment on Hirsch's proof of Brouwer's
 theorem](https://www.ams.org/journals/proc/2000-128-05/S0002-9939-99-05205-3/S0002-9939-99-05205-3.pdf)
 
+---
 
 - [Philosophy](./philosophy.html)
 - [Example](./sphere.html)
@@ -40,12 +41,12 @@ The book's "highlight" is its ability to prove profound topological results—li
 ### Summary of the "Trio"
 | Book | Role in your Study |
 | :--- | :--- |
-| **Milnor** | The **Vision:** Tells you the deep truths (The "What"). |
-| **G&P** | The **Intuition:** Shows you the pictures and examples (The "How"). |
-| **Spivak** | The **Rigors:** Proves the underlying calculus (The "Why"). |
+| **Milnor** | The **Vision:** Tells you the deep truths (What). |
+| **G&P** | The **Intuition:** Shows you the pictures and examples (How). |
+| **Spivak** | The **Rigors:** Proves the underlying calculus (Why). |
 
 
-
+---
 
 ## Calendar
 
