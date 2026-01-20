@@ -45,11 +45,13 @@ $$df_{(x,y,z)} = \begin{bmatrix} 2x & 2y & 2z \end{bmatrix}$$
 
 ### 3. Test for Surjectivity
 For $0$ to be a **regular value**, the linear map $df_{(x,y,z)}$ must be **surjective** for every point in the preimage.
+
 * Since the target space is $\mathbb{R}^1$, "surjective" simply means the linear map is not the zero map ($rank = 1$).
 * The only point in all of $\mathbb{R}^3$ where the derivative is the zero map $[0, 0, 0]$ is the origin $(0, 0, 0)$.
 
 ### 4. Check the Preimage Points
 Is the origin $(0, 0, 0)$ in our preimage $f^{-1}(0)$?
+
 * $0^2 + 0^2 + 0^2 = 0 \neq 1$.
 * The origin is **not** on the sphere.
 
@@ -60,12 +62,12 @@ Since the origin is the only critical point of the function, and it does not lie
 ### Comparison: When is a value NOT regular?
 If we chose the value $c = -1$, the preimage $f^{-1}(-1)$ would be:
 $$x^2 + y^2 + z^2 - 1 = -1 \implies x^2 + y^2 + z^2 = 0$$
-The
 
 ---
 
 
 ### Why these are the "Big Three" for Milnor
+
 * **Inverse Function Theorem:** Milnor uses this to define **local coordinates**. It ensures that if the derivative is non-singular, the manifold "looks like" Euclidean space locally.
 * **Implicit Function Theorem:** This is used to prove that the preimage of a **regular value** is a submanifold. For example, if $f(x,y,z) = x^2+y^2+z^2-1$, the regular value $0$ gives us the sphere.
 * **Change of Variables:** This is the heart of **Integration on Manifolds**. It proves that the integral of a differential form doesn't depend on which coordinate chart (like stereographic projection) you choose.
@@ -82,6 +84,7 @@ Here is the breakdown of why he chooses that notation and how it relates to the 
 
 ### 1. The "Calculus" Heritage
 Spivak titled the book *Calculus on Manifolds* because he wanted to generalize the $f'(x)$ you learned in high school. 
+
 * In 1D calculus, $f'(x)$ is a number. 
 * In Spivak's multivariable world, **$f'(a)$ is the unique linear transformation** that best approximates $f$ near $a$.
 * By keeping the "prime" notation, he emphasizes that this is exactly the same concept as the derivative of a single-variable function, just upgraded to higher dimensions.
@@ -97,7 +100,9 @@ In the mathematical community, there is a "notation war" for the derivative. Her
 | **$J_f(a)$** | **Applied Math** | The **Jacobian matrix** (the numerical representation of the linear map). |
 
 ### 3. The Geometric Shift in Milnor
+
 When you move from Spivak to Milnor, you will see the notation shift to $df_a$. 
+
 * **Spivak** stays in $\mathbb{R}^n$, so he doesn't need to worry about which "space" the derivative lives in; it's always $\mathbb{R}^n$.
 * **Milnor** is working on manifolds $M$ and $N$. He uses $df_a$ because he is thinking of the derivative as a **push-forward**—it takes a vector in the tangent space of the starting manifold and "pushes" it into the tangent space of the target manifold.
 
@@ -107,6 +112,7 @@ When you move from Spivak to Milnor, you will see the notation shift to $df_a$.
 
 ### Summary: How to read them
 When you are reading the "Big Three" theorems in Spivak:
+
 * Every time you see **$f'(a)$**, read it as **"The linear transformation that is the derivative."**
 * When you go back to **Milnor**, and he writes **$df_a$**, realize he is talking about the exact
 
