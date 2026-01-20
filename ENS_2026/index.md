@@ -42,7 +42,6 @@ The book's "highlight" is its ability to prove profound topological results—li
 
 ### Key Summary Tablea
 
-
 | Concept | Significance |
 | :--- | :--- |
 | **Regular Values** | The tool used to "slice" manifolds and see their internal structure. |
@@ -55,6 +54,7 @@ The book's "highlight" is its ability to prove profound topological results—li
 ---
 
 ### Summary of the "Trio"
+
 | Book | Role in your Study |
 | :--- | :--- |
 | **Milnor** | The **Vision:** Tells you the deep truths (What). |
