@@ -104,10 +104,10 @@ In the mathematical community, there is a "notation war" for the derivative. Her
 
 ### 3. The Geometric Shift in Milnor
 
-When you move from Spivak to Milnor, you will see the notation shift to $df_a$. 
+When you move from Spivak to Milnor, you will see the notation shift to $df_a$. <br>
 
-* **Spivak** stays in $\mathbb{R}^n$, so he doesn't need to worry about which "space" the derivative lives in; it's always $\mathbb{R}^n$.
-* **Milnor** is working on manifolds $M$ and $N$. He uses $df_a$ because he is thinking of the derivative as a **push-forward**—it takes a vector in the tangent space of the starting manifold and "pushes" it into the tangent space of the target manifold.
+- **Spivak** stays in $\mathbb{R}^n$, so he doesn't need to worry about which "space" the derivative lives in; it's always $\mathbb{R}^n$.
+- **Milnor** is working on manifolds $M$ and $N$. He uses $df_a$ because he is thinking of the derivative as a **push-forward**—it takes a vector in the tangent space of the starting manifold and "pushes" it into the tangent space of the target manifold.
 
 
 
