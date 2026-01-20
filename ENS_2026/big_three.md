@@ -44,22 +44,25 @@ $$df_{(x,y,z)} = \begin{bmatrix} 2x & 2y & 2z \end{bmatrix}$$
 
 
 ### 3. Test for Surjectivity
+
 For $0$ to be a **regular value**, the linear map $df_{(x,y,z)}$ must be **surjective** for every point in the preimage.
 
-* Since the target space is $\mathbb{R}^1$, "surjective" simply means the linear map is not the zero map ($rank = 1$).
-* The only point in all of $\mathbb{R}^3$ where the derivative is the zero map $[0, 0, 0]$ is the origin $(0, 0, 0)$.
+- Since the target space is $\mathbb{R}^1$, "surjective" simply means the linear map is not the zero map ($rank = 1$).
+- The only point in all of $\mathbb{R}^3$ where the derivative is the zero map $[0, 0, 0]$ is the origin $(0, 0, 0)$.
 
 ### 4. Check the Preimage Points
+
 Is the origin $(0, 0, 0)$ in our preimage $f^{-1}(0)$?
 
-* $0^2 + 0^2 + 0^2 = 0 \neq 1$.
-* The origin is **not** on the sphere.
+- $0^2 + 0^2 + 0^2 = 0 \neq 1$.
+- The origin is **not** on the sphere.
 
 Since the origin is the only critical point of the function, and it does not lie on the sphere, the derivative is surjective at every point on the sphere. Thus, $0$ is a **regular value**.
 
 ---
 
 ### Comparison: When is a value NOT regular?
+
 If we chose the value $c = -1$, the preimage $f^{-1}(-1)$ would be:
 $$x^2 + y^2 + z^2 - 1 = -1 \implies x^2 + y^2 + z^2 = 0$$
 
