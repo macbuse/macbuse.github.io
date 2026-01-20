@@ -7,25 +7,30 @@ The book's "highlight" is its ability to prove profound topological results—li
 
 ## 1. The Core Philosophy: Smoothness and Subsets
 Unlike modern texts that use abstract "atlases" and "charts," Milnor defines manifolds simply as **subsets of $\mathbb{R}^n$**. 
+
 * **Intuitive Approach:** By treating manifolds as "smooth surfaces" sitting in Euclidean space, he makes the concepts of tangent spaces and derivatives immediate and visual.
 * **Simplicity:** This allows the reader to get to "real" topology within the first 10 pages, rather than spending weeks on foundational definitions.
 
 ## 2. The Theorem of Sard
 Sard's Theorem is the "engine" that powers the entire book. It states that for a smooth map, almost every value in the target space is a **regular value**.
+
 * **Why it matters:** If $y$ is a regular value of a map $f: M \to N$, then the preimage $f^{-1}(y)$ is a nice, well-behaved submanifold. Milnor uses this to transform complex topological problems into counting problems (e.g., counting the number of points in a preimage).
 
 ## 3. Degree Theory (The Brouwer Degree)
 Milnor introduces the **degree of a map**, which intuitively measures how many times one manifold "wraps around" another.
+
 * **Modulo 2 Degree:** He first defines it for non-oriented manifolds, showing that the number of preimage points ($mod\ 2$) is invariant under homotopy.
 * **Brouwer Fixed Point Theorem:** One of the book's most famous moments is a one-page proof of this theorem using the fact that a "retraction" from a ball to its boundary sphere would have to have a derivative that violates Sard’s Theorem.
 
 ## 4. The Poincaré–Hopf Index Theorem
 The book culminates in a beautiful connection between local analysis and global topology. 
+
 * **The Concept:** If you have a vector field on a manifold, the sum of the "indices" (the behavior of the field at its zero points) must equal the **Euler characteristic** of the manifold.
 * **The "Hairy Ball" Theorem:** A famous corollary presented in the book is that you cannot "comb the hair" on a 2-sphere (like a tennis ball) without creating a cowlick or a bald spot.
 
 ## 5. The Pontryagin Construction
 In the final chapters, Milnor introduces the **Pontryagin-Thom construction**, which builds a bridge between:
+
 1.  **Maps** between spheres.
 2.  **Cobordism classes** of framed submanifolds.
 This is a sophisticated result that laid the groundwork for modern surgery theory and the classification of manifolds.

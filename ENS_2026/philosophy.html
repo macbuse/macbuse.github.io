@@ -22,15 +22,34 @@
 <p>The book’s “highlight” is its ability to prove profound topological results—like the Brouwer Fixed Point Theorem—using almost nothing but the concept of <strong>smooth maps</strong> and <strong>regular values</strong>.</p>
 <hr />
 <h2 id="the-core-philosophy-smoothness-and-subsets">1. The Core Philosophy: Smoothness and Subsets</h2>
-<p>Unlike modern texts that use abstract “atlases” and “charts,” Milnor defines manifolds simply as <strong>subsets of <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>n</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^n</annotation></semantics></math></strong>. * <strong>Intuitive Approach:</strong> By treating manifolds as “smooth surfaces” sitting in Euclidean space, he makes the concepts of tangent spaces and derivatives immediate and visual. * <strong>Simplicity:</strong> This allows the reader to get to “real” topology within the first 10 pages, rather than spending weeks on foundational definitions.</p>
+<p>Unlike modern texts that use abstract “atlases” and “charts,” Milnor defines manifolds simply as <strong>subsets of <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>n</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^n</annotation></semantics></math></strong>.</p>
+<ul>
+<li><strong>Intuitive Approach:</strong> By treating manifolds as “smooth surfaces” sitting in Euclidean space, he makes the concepts of tangent spaces and derivatives immediate and visual.</li>
+<li><strong>Simplicity:</strong> This allows the reader to get to “real” topology within the first 10 pages, rather than spending weeks on foundational definitions.</li>
+</ul>
 <h2 id="the-theorem-of-sard">2. The Theorem of Sard</h2>
-<p>Sard’s Theorem is the “engine” that powers the entire book. It states that for a smooth map, almost every value in the target space is a <strong>regular value</strong>. * <strong>Why it matters:</strong> If <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><annotation encoding="application/x-tex">y</annotation></semantics></math> is a regular value of a map <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>:</mo><mi>M</mi><mo>→</mo><mi>N</mi></mrow><annotation encoding="application/x-tex">f: M \to N</annotation></semantics></math>, then the preimage <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo stretchy="false" form="prefix">(</mo><mi>y</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f^{-1}(y)</annotation></semantics></math> is a nice, well-behaved submanifold. Milnor uses this to transform complex topological problems into counting problems (e.g., counting the number of points in a preimage).</p>
+<p>Sard’s Theorem is the “engine” that powers the entire book. It states that for a smooth map, almost every value in the target space is a <strong>regular value</strong>.</p>
+<ul>
+<li><strong>Why it matters:</strong> If <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><annotation encoding="application/x-tex">y</annotation></semantics></math> is a regular value of a map <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>:</mo><mi>M</mi><mo>→</mo><mi>N</mi></mrow><annotation encoding="application/x-tex">f: M \to N</annotation></semantics></math>, then the preimage <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo stretchy="false" form="prefix">(</mo><mi>y</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f^{-1}(y)</annotation></semantics></math> is a nice, well-behaved submanifold. Milnor uses this to transform complex topological problems into counting problems (e.g., counting the number of points in a preimage).</li>
+</ul>
 <h2 id="degree-theory-the-brouwer-degree">3. Degree Theory (The Brouwer Degree)</h2>
-<p>Milnor introduces the <strong>degree of a map</strong>, which intuitively measures how many times one manifold “wraps around” another. * <strong>Modulo 2 Degree:</strong> He first defines it for non-oriented manifolds, showing that the number of preimage points (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mi>o</mi><mi>d</mi><mspace width="0.222em"></mspace><mn>2</mn></mrow><annotation encoding="application/x-tex">mod\ 2</annotation></semantics></math>) is invariant under homotopy. * <strong>Brouwer Fixed Point Theorem:</strong> One of the book’s most famous moments is a one-page proof of this theorem using the fact that a “retraction” from a ball to its boundary sphere would have to have a derivative that violates Sard’s Theorem.</p>
+<p>Milnor introduces the <strong>degree of a map</strong>, which intuitively measures how many times one manifold “wraps around” another.</p>
+<ul>
+<li><strong>Modulo 2 Degree:</strong> He first defines it for non-oriented manifolds, showing that the number of preimage points (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mi>o</mi><mi>d</mi><mspace width="0.222em"></mspace><mn>2</mn></mrow><annotation encoding="application/x-tex">mod\ 2</annotation></semantics></math>) is invariant under homotopy.</li>
+<li><strong>Brouwer Fixed Point Theorem:</strong> One of the book’s most famous moments is a one-page proof of this theorem using the fact that a “retraction” from a ball to its boundary sphere would have to have a derivative that violates Sard’s Theorem.</li>
+</ul>
 <h2 id="the-poincaréhopf-index-theorem">4. The Poincaré–Hopf Index Theorem</h2>
-<p>The book culminates in a beautiful connection between local analysis and global topology. * <strong>The Concept:</strong> If you have a vector field on a manifold, the sum of the “indices” (the behavior of the field at its zero points) must equal the <strong>Euler characteristic</strong> of the manifold. * <strong>The “Hairy Ball” Theorem:</strong> A famous corollary presented in the book is that you cannot “comb the hair” on a 2-sphere (like a tennis ball) without creating a cowlick or a bald spot.</p>
+<p>The book culminates in a beautiful connection between local analysis and global topology.</p>
+<ul>
+<li><strong>The Concept:</strong> If you have a vector field on a manifold, the sum of the “indices” (the behavior of the field at its zero points) must equal the <strong>Euler characteristic</strong> of the manifold.</li>
+<li><strong>The “Hairy Ball” Theorem:</strong> A famous corollary presented in the book is that you cannot “comb the hair” on a 2-sphere (like a tennis ball) without creating a cowlick or a bald spot.</li>
+</ul>
 <h2 id="the-pontryagin-construction">5. The Pontryagin Construction</h2>
-<p>In the final chapters, Milnor introduces the <strong>Pontryagin-Thom construction</strong>, which builds a bridge between: 1. <strong>Maps</strong> between spheres. 2. <strong>Cobordism classes</strong> of framed submanifolds. This is a sophisticated result that laid the groundwork for modern surgery theory and the classification of manifolds.</p>
+<p>In the final chapters, Milnor introduces the <strong>Pontryagin-Thom construction</strong>, which builds a bridge between:</p>
+<ol type="1">
+<li><strong>Maps</strong> between spheres.</li>
+<li><strong>Cobordism classes</strong> of framed submanifolds. This is a sophisticated result that laid the groundwork for modern surgery theory and the classification of manifolds.</li>
+</ol>
 <hr />
 <h3 id="key-summary-table">Key Summary Table</h3>
 <table>
