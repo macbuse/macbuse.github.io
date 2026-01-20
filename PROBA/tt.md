@@ -1,169 +1,116 @@
-## Exercice 3 - Urne de Polya
+
+### Loi Géométrique $\mathcal{G}(p)$
+
+La **loi géométrique** modélise le rang du premier succès dans une suite d'épreuves de Bernoulli indépendantes de paramètre $p$.
+
+* **Support :** $k \in \{1, 2, 3, \dots\}$
+* **Probabilité :** $\mathbb{P}(X = k) = (1-p)^{k-1}p$
+* **Espérance :** $E(X) = \frac{1}{p}$
+* **Variance :** $V(X) = \frac{1-p}{p^2}$
+* **Absence de mémoire :** $\mathbb{P}(X > n+k \mid X > n) = \mathbb{P}(X > k)$
+
+---
+
+
+Une **épreuve de Bernoulli** est l'expérience aléatoire la plus simple en probabilités. Voici sa définition et ses caractéristiques fondamentales :
+
+### 1. Définition
+Une épreuve de Bernoulli est une expérience aléatoire qui ne comporte que **deux issues possibles**, généralement qualifiées de :
+* **Succès** (noté $S$ ou $1$) : l'événement que l'on étudie.
+* **Échec** (noté $E$ ou $0$) : l'événement contraire.
+
+
+
+### 2. Paramètre de l'épreuve
+Elle est caractérisée par un unique paramètre réel $p \in [0, 1]$, où :
+* $p$ est la probabilité du succès : $\mathbb{P}(S) = p$.
+* $q = 1 - p$ est la probabilité de l'échec : $\mathbb{P}(E) = 1 - p$.
+
+### 3. La Variable Aléatoire de Bernoulli
+On associe souvent à cette épreuve une variable aléatoire $X$ qui prend la valeur **1** en cas de succès et **0** en cas d'échec. Sa loi de probabilité est définie par :
+
+| $k$ | $0$ | $1$ |
+| :--- | :--- | :--- |
+| $\mathbb{P}(X=k)$ | $1-p$ | $p$ |
+
+### 4. Propriétés Mathématiques
+Pour une variable aléatoire $X$ suivant une loi de Bernoulli de paramètre $p$ (notée $X \sim \mathcal{B}(p)$) :
+* **Espérance :** $E(X) = p$
+* **Variance :** $V(X) = p(1-p)$
+
+---
+
+### Exemples classiques
+* **Lancer de pièce :** Si on cherche "Pile" (succès), alors $p = 0,5$.
+* **Lancer de dé :** Si on cherche à obtenir un "6" (succès), alors $p = 1/6$ et l'échec (ne pas avoir 6) a une probabilité $q = 5/6$.
+* **Contrôle qualité :** Vérifier si une pièce est défectueuse ou non.
+
+### Vers la Loi Binomiale
+Lorsqu'on répète $n$ fois la même épreuve de Bernoulli de manière **indépendante** et dans les mêmes conditions, on obtient un **schéma de Bernoulli**. La variable aléatoire qui compte le nombre total de succès obtenus suit alors une **loi binomiale** $\mathcal{B}(n, p)$.
 
 
 ---
 
-### Résumé de la structure logique
+## Exercice : Minimum de variables géométriques indépendantes
 
-La résolution de ce problème repose sur un enchaînement de propriétés qui permettent de passer d'un tirage local à une loi générale :
-
-* **Initialisation (a) :** On établit la loi pour les deux premiers tirages ($n=1$ et $n=2$). On remarque déjà que $P(X_1=1) = P(X_2=1)$, ce qui suggère la stationnarité du processus.
-* **Analyse de l'état du système (b & c) :** On montre que la probabilité de succès au tirage $n+1$ ne dépend pas de l'ordre des tirages précédents, mais uniquement du nombre cumulé de boules bleues obtenues ($S_n$). On établit la relation fondamentale : 
-    $$P(X_{n+1} = 1) = \frac{b + d \cdot E[S_n]}{b + r + nd}$$
-* **Dynamique de l'espérance (d) :** On utilise la linéarité de l'espérance pour lier $E[S_n]$ au tirage précédent, créant ainsi une structure de récurrence.
-* **Hérédité et Conclusion (e & f) :** Par substitution algébrique, on prouve que si la probabilité est constante jusqu'au rang $n$, elle l'est aussi au rang $n+1$. Par récurrence, on conclut que chaque tirage suit la même loi de Bernoulli :
-    $$X_n \sim \mathcal{B}\left(\frac{b}{b+r}\right)$$
+Soient $p_1, \dots, p_n \in (0,1)$ et $X_1, \dots, X_n$ des variables aléatoires indépendantes avec $X_i \sim \text{géom}(p_i)$.
+On définit $M := \min\{X_1, \dots, X_n\}$.
 
 ---
 
-Une **loi de Bernoulli** est une loi de probabilité très simple qui modélise une expérience aléatoire avec **seulement deux issues possibles**.
+### a) Détermination de $\mathbb{P}(X_i \ge k)$
 
-## Définition
-On parle de **loi de Bernoulli de paramètre $p$** lorsque :
-- il y a un **succès** (noté 1) avec une probabilité $p$,
-- il y a un **échec** (noté 0) avec une probabilité $1 - p$,
+Pour $k \in \mathbb{N}^*$, l'événement $\{X_i \ge k\}$ signifie que les $k-1$ premières épreuves ont été des échecs. La probabilité d'un échec pour la variable $i$ est $1 - p_i$. Par conséquent :
+$$\mathbb{P}(X_i \ge k) = (1 - p_i)^{k-1}$$
 
-où $0 \le p \le 1$.
+Voici le texte extrait de l’image :
 
-On note alors :
+---
+
+**Solution :** On peut soit procéder par un calcul direct,
+
 $$
-X \sim \mathcal{B}(p)
+\mathbb{P}(X_i \ge k)
+= p_i \sum_{\ell \ge k} (1 - p_i)^{\ell - 1}
+= p_i (1 - p_i)^{k-1} \sum_{\ell \ge 0} (1 - p_i)^{\ell}
+= (1 - p_i)^{k-1},
 $$
 
-## Exemple
-- Lancer une pièce :
-  - $X = 1$ si on obtient *pile* (succès),
-  - $X = 0$ si on obtient *face* (échec),
-  - si la pièce est équilibrée, $p = 0{,}5$.
-
-- Test médical :
-  - $X = 1$ si le test est positif,
-  - $X = 0$ s’il est négatif.
-
-## Propriétés importantes
-Pour une variable aléatoire $X$ suivant une loi de Bernoulli de paramètre $p$ :
-- **Espérance** :
-$$
-\mathbb{E}(X) = p
-$$
-- **Variance** :
-$$
-\mathrm{Var}(X) = p(1 - p)
-$$
-
-**Résumé :** la loi de Bernoulli modélise une situation « oui / non », « succès / échec ».
+soit observer que cette probabilité est la probabilité que (k - 1) épreuves de Bernoulli de paramètre (p_i) résultent toutes en un échec.
 
 
 
-
-
-### Analyse du problème
-L'urne évolue à chaque tirage. Initialement, nous avons :
-* $b$ : nombre de boules bleues.
-* $r$ : nombre de boules rouges.
-* $N = b + r$ : nombre total de boules.
-
-À chaque fois qu'on tire une boule d'une couleur, on la remet avec $d$ boules supplémentaires de la **même** couleur.
 
 ---
 
-### 1. Loi de $X_1$
-Le premier tirage s'effectue dans l'urne initiale. La probabilité de tirer une boule bleue est simplement le ratio du nombre de boules bleues sur le total.
+### b) Détermination de $\mathbb{P}(M \ge k)$
 
-* $P(X_1 = 1) = \frac{b}{b + r}$
-* $P(X_1 = 0) = \frac{r}{b + r}$
+Par définition du minimum, l'événement $\{M \ge k\}$ est réalisé si et seulement si toutes les variables $X_i$ sont simultanément supérieures ou égales à $k$ :
+$$\{M \ge k\} = \{X_1 \ge k\} \cap \{X_2 \ge k\} \cap \dots \cap \{X_n \ge k\}$$
 
-La loi de $X_1$ est une **loi de Bernoulli** de paramètre $p = \frac{b}{b + r}$. On note :
-$$X_1 \sim \mathcal{B}\left(\frac{b}{b+r}\right)$$
+Comme les variables $X_1, \dots, X_n$ sont indépendantes, la probabilité de l'intersection est le produit des probabilités individuelles :
+$$\mathbb{P}(M \ge k) = \prod_{i=1}^n \mathbb{P}(X_i \ge k) = \prod_{i=1}^n (1 - p_i)^{k-1}$$
+En utilisant les propriétés des puissances, on obtient :
+$$\mathbb{P}(M \ge k) = \left[ \prod_{i=1}^n (1 - p_i) \right]^{k-1}$$
 
----
+### c) Loi de $M$ et expression de $\rho$
 
-### 2. Loi de $X_2$
-Pour calculer la probabilité que la deuxième boule soit bleue, nous devons utiliser la **formule des probabilités totales** en passant par le résultat du premier tirage ($X_1$).
+On reconnaît dans l'expression précédente la fonction de survie d'une loi géométrique. En effet, si $M \sim \text{géom}(\rho)$, alors $\mathbb{P}(M \ge k) = (1 - \rho)^{k-1}$.
+Par identification :
+$$1 - \rho = \prod_{i=1}^n (1 - p_i) \implies \rho = 1 - \prod_{i=1}^n (1 - p_i)$$
+**Conclusion :** $M$ suit une loi géométrique de paramètre $\rho = 1 - (1-p_1)(1-p_2)\dots(1-p_n)$.
 
+### d) Preuve alternative par réinterprétation
 
-
-#### Cas 1 : La première boule était bleue ($X_1 = 1$)
-On a ajouté $d$ boules bleues. L'urne contient maintenant $b+d$ boules bleues et $r$ boules rouges. Le total est $b+r+d$.
-$$P(X_2 = 1 \mid X_1 = 1) = \frac{b + d}{b + r + d}$$
-
-#### Cas 2 : La première boule était rouge ($X_1 = 0$)
-On a ajouté $d$ boules rouges. L'urne contient maintenant $b$ boules bleues et $r+d$ boules rouges. Le total est $b+r+d$.
-$$P(X_2 = 1 \mid X_1 = 0) = \frac{b}{b + r + d}$$
-
-#### Calcul final :
-$$P(X_2 = 1) = P(X_2 = 1 \mid X_1 = 1)P(X_1 = 1) + P(X_2 = 1 \mid X_1 = 0)P(X_1 = 0)$$
-
-Substituons les valeurs :
-$$P(X_2 = 1) = \left( \frac{b + d}{b + r + d} \cdot \frac{b}{b + r} \right) + \left( \frac{b}{b + r + d} \cdot \frac{r}{b + r} \right)$$
-
-Factorisons par $\frac{b}{(b+r)(b+r+d)}$ :
-$$P(X_2 = 1) = \frac{b(b + d + r)}{(b + r)(b + r + d)}$$
-
-En simplifiant par $(b + r + d)$ au numérateur et au dénominateur, on obtient :
-$$P(X_2 = 1) = \frac{b}{b + r}$$
-
-**Conclusion :**
-La loi de $X_2$ est identique à celle de $X_1$. C'est une **loi de Bernoulli** de paramètre $\frac{b}{b + r}$.
+Considérons $n$ suites d'épreuves de Bernoulli menées en parallèle. À chaque instant $t \in \mathbb{N}^*$, on effectue $n$ lancers où la probabilité de succès pour la suite $i$ est $p_i$. $X_i$ est le temps du premier succès de la suite $i$.
 
 
-### c) En déduire une expression pour $P(X_{n+1} = 1)$ en termes de $E[S_n]$
 
-Pour calculer $P(X_{n+1} = 1)$, on utilise la **loi des probabilités totales** en conditionnant par les valeurs possibles de $S_n$ :
-
-$$P(X_{n+1} = 1) = \sum_{k=0}^{n} P(X_{n+1} = 1 \mid S_n = k) \cdot P(S_n = k)$$
-
-D'après le résultat de la question **b)**, nous savons que :
-$$P(X_{n+1} = 1 \mid S_n = k) = \frac{b + kd}{b + r + nd}$$
-
-En injectant cette expression dans la somme :
-$$P(X_{n+1} = 1) = \sum_{k=0}^{n} \frac{b + kd}{b + r + nd} \cdot P(S_n = k)$$
-
-Par linéarité de la somme :
-$$P(X_{n+1} = 1) = \frac{b}{b + r + nd} \sum_{k=0}^{n} P(S_n = k) + \frac{d}{b + r + nd} \sum_{k=0}^{n} k \cdot P(S_n = k)$$
-
-Sachant que $\sum_{k=0}^{n} P(S_n = k) = 1$ et que $\sum_{k=0}^{n} k \cdot P(S_n = k) = E[S_n]$, on obtient :
-$$P(X_{n+1} = 1) = \frac{b + d \cdot E[S_n]}{b + r + nd}$$
+Le minimum $M$ représente l'instant du **premier succès observé globalement** (toutes suites confondues). À chaque instant $t$, la probabilité qu'aucun succès ne survienne dans aucune des $n$ suites est :
+$$\mathbb{P}(\text{aucun succès à } t) = (1-p_1) \times (1-p_2) \times \dots \times (1-p_n)$$
+L'événement "avoir au moins un succès global" à l'instant $t$ est le complémentaire, de probabilité :
+$$\rho = 1 - (1-p_1)(1-p_2)\dots(1-p_n)$$
 
 ---
 
-### d) Exprimer $E[S_n]$ en termes de $E[S_{n-1}]$ et $P(X_n = 1)$
-
-Par définition, $S_n = S_{n-1} + X_n$. Par linéarité de l'espérance :
-$$E[S_n] = E[S_{n-1}] + E[X_n]$$
-
-Puisque $X_n$ est une variable de Bernoulli, $E[X_n] = P(X_n = 1)$. On a donc :
-$$E[S_n] = E[S_{n-1}] + P(X_n = 1)$$
-
----
-
-### e) En déduire que $P(X_{n+1} = 1) = P(X_n = 1)$
-
-Utilisons l'expression de la question **c)** au rang $n$ :
-$$P(X_{n+1} = 1) = \frac{b + d \cdot E[S_n]}{b + r + nd}$$
-
-Substituons $E[S_n]$ par l'expression trouvée en **d)** :
-$$P(X_{n+1} = 1) = \frac{b + d(E[S_{n-1}] + P(X_n = 1))}{b + r + nd}$$
-$$P(X_{n+1} = 1) = \frac{b + d \cdot E[S_{n-1}] + d \cdot P(X_n = 1)}{b + r + nd}$$
-
-Or, d'après la formule de la question **c)** appliquée au tirage précédent :
-$$P(X_n = 1) = \frac{b + d \cdot E[S_{n-1}]}{b + r + (n-1)d}$$
-Ce qui implique : $b + d \cdot E[S_{n-1}] = P(X_n = 1) \cdot (b + r + (n-1)d)$.
-
-En remplaçant dans notre équation :
-$$P(X_{n+1} = 1) = \frac{P(X_n = 1)(b + r + (n-1)d) + d \cdot P(X_n = 1)}{b + r + nd}$$
-$$P(X_{n+1} = 1) = \frac{P(X_n = 1) [b + r + nd - d + d]}{b + r + nd}$$
-$$P(X_{n+1} = 1) = P(X_n = 1) \cdot \frac{b + r + nd}{b + r + nd} = P(X_n = 1)$$
-
----
-
-### f) Quelle est la loi de $X_n$ ?
-
-Nous avons montré par récurrence à la question précédente que $P(X_n = 1)$ est constant pour tout $n$. 
-Comme $P(X_1 = 1) = \frac{b}{b+r}$, alors pour tout $n \in \mathbb{N}^*$ :
-$$P(X_n = 1) = \frac{b}{b+r}$$
-
-La variable $X_n$ suit donc une **loi de Bernoulli** de paramètre $p = \frac{b}{b+r}$ :
-
-$$X_n \sim \mathcal{B}\left(\frac{b}{b+r}\right)$$
-
+  
