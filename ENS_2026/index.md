@@ -68,7 +68,5 @@ theorem](https://www.ams.org/journals/proc/2000-128-05/S0002-9939-99-05205-3/S00
 | **Orientability** | How "left-handed" and "right-handed" systems affect the way we count preimages. |
 | **Euler Characteristic** | The single number that captures a manifold's most basic shape (holes, etc.). |
 
-> **Pro Tip:** Because the book is so concise, it is often said that "every sentence is a theorem." It is best read with a pen and paper nearby to fill in the "straightforward" calculations Milnor leaves to the reader.
 
----
 
