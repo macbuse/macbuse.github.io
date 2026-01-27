@@ -13,7 +13,7 @@
 Louve + Emanuel
 - [exposé](./expose1.pdf)
 - [SL(2,R) as a (sub)manifold](./sl2.html)
-- [Homotopy](https://htmlpreview.github.io/?https://github.com/macbuse/ALG_TOP/blob/master/homotop.html)
+- [D'Alembert Gauss via homotopy](https://htmlpreview.github.io/?https://github.com/macbuse/ALG_TOP/blob/master/gauss_dalembert.html)
 
 
 ---
