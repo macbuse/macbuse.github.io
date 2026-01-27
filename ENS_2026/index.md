@@ -11,11 +11,10 @@
 ## Week 2 files
 
 Louve + Emanuel
+- [exposé](./expose1.pdf)
+- [SL(2,R) as a (sub)manifold](./sl2.html)
+- [Homotopy](https://htmlpreview.github.io/?https://github.com/macbuse/ALG_TOP/blob/master/homotop.html)
 
-- [Week 2](./expose1.pdf)
-    - [SL(2,R) as a (sub)manifold](./sl2.html)
-    - [Tangent space definition](./tangent_space.html)
-    - [D'Alembert-Gauss theorem](https://htmlpreview.github.io/?https%3A%2F%2Fgithub.com%2Fmacbuse%2FALG_TOP%2Fblob%2Fmaster%2Fgauss_dalembert.html=#13)
 
 ---
 
