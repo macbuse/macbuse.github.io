@@ -1,4 +1,4 @@
-
+## exo 5
 
 
 Bien sûr — voici **exactement la même réponse**, mais avec **$ … $** pour les maths en ligne et **$$ … $$** pour les équations affichées.
@@ -177,7 +177,7 @@ $$
 
 ---
 
-
+## exo 7
 
 ## Énoncé
 

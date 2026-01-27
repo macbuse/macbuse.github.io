@@ -1,4 +1,41 @@
 # Topology from a differential viewpoint
+---
+
+## Week 1 files
+
+- [Philosophy](./philosophy.html)
+- [Example: the 2 sphere](./sphere_manifold.html)
+- [big three theorems](./big_three.html)
+- [1-forms and the example the torus](./forms_torus.html)
+
+## Week 2 files
+
+Louve + Emanuel
+
+- [Week 2](./expose1.pdf)
+    - [SL(2,R) as a (sub)manifold](./sl2.html)
+
+---
+
+## Course Schedule
+
+
+| Date | Name | Title |
+| :--- | :--- | :--- |
+| January 20, 2026 | Greg Mc| introduction|
+| January 27, 2026 | Louve + Emanuel | espace tangent, d'alembert gauss |
+| February 3, 2026 | | 1 manifolds |
+| February 10, 2026 | | sard |
+| February 17, 2026 | | sard |
+| February 24, 2026 | | vacances |
+| March 3, 2026 | | degree |
+| March 10, 2026 | | orientability |
+| March 17, 2026 | | orientability |
+| March 24, 2026 | | champs de vecteurs |
+| March 31, 2026 | | champs de vecteurs |
+
+---
+
 
 ### Summary
 
@@ -30,32 +67,6 @@ theorem](https://www.ams.org/journals/proc/2000-128-05/S0002-9939-99-05205-3/S00
 | **Spivak** | The **Rigors:** Proves the underlying calculus (Why). |
 
 ---
-
-## Course Schedule
-
-
-| Date | Name | Title |
-| :--- | :--- | :--- |
-| January 20, 2026 | | introduction|
-| January 27, 2026 | | espace tangent, d'alembert gauss |
-| February 3, 2026 | | 1 manifolds |
-| February 10, 2026 | | sard |
-| February 17, 2026 | | sard |
-| February 24, 2026 | | vacances |
-| March 3, 2026 | | degree |
-| March 10, 2026 | | orientability |
-| March 17, 2026 | | orientability |
-| March 24, 2026 | | champs de vecteurs |
-| March 31, 2026 | | champs de vecteurs |
-
----
-
-## Week 1 files
-
-- [Philosophy](./philosophy.html)
-- [Example: the 2 sphere](./sphere_manifold.html)
-- [big three theorems](./big_three.html)
-- [1-forms and the example the torus](./forms_torus.html)
 
 ---
 
