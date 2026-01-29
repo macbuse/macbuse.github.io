@@ -116,3 +116,226 @@ Define $f(t) = \det(e^{tX})$.
 - Solving the ODE $\frac{df}{dt} = \text{tr}(X) f$:
   $$f(t) = e^{t \cdot \text{tr}(X)}$$
 - Setting $t=1$ yields $\det(e^X) = e^{\text{tr}(X)}$.
+
+
+
+---
+
+## Annex topology of SL2    
+
+
+
+## 1. Iwasawa decomposition for $\mathrm{PSL}(2,\mathbb{R})$
+
+For $\mathrm{SL}(2,\mathbb{R})$, the Iwasawa decomposition says
+$$\mathrm{SL}(2,\mathbb{R}) = KAN$$
+where
+
+$\mathbf{K} = \begin{pmatrix} 
+\cos\theta & -\sin\theta \\ 
+\sin\theta & \cos\theta 
+\end{pmatrix}\cong \mathbb{S}^1$
+
+
+$A = \left\{ \begin{pmatrix} a & 0 \\ 0 & a^{-1} \end{pmatrix} : a > 0 \right\} \cong \mathbb{R}$
+
+
+$N = \left\{ \begin{pmatrix} 1 & x \\ 0 & 1 \end{pmatrix} : x \in \mathbb{R} \right\} \cong \mathbb{R}$
+
+Every element of $\mathrm{SL}(2,\mathbb{R})$ can be written **uniquely** as
+$$
+g = k a n,
+$$
+and the multiplication map
+$$
+K \times A \times N \longrightarrow \mathrm{SL}(2,\mathbb{R})
+$$
+is a homeomorphism.
+
+---
+
+## 2. Passing to $\mathrm{PSL}(2,\mathbb{R})$
+
+Recall that
+$$
+\mathrm{PSL}(2,\mathbb{R}) = \mathrm{SL}(2,\mathbb{R}) / {\pm I}.
+$$
+
+The subgroup ${\pm I}$ lies in $K$. Since
+$$
+K = \mathrm{SO}(2) \cong S^1,
+$$
+quotienting by ${\pm I}$ still gives a circle:
+$$
+K / {\pm I} \cong S^1.
+$$
+
+The $A$ and $N$ factors are unaffected by the quotient. Therefore, as a topological space,
+$$
+\mathrm{PSL}(2,\mathbb{R})
+\cong (K/{\pm I}) \times A \times N
+\cong S^1 \times \mathbb{R} \times \mathbb{R}.
+$$
+
+---
+
+## 3. Identifying $\mathbb{R}^2$ with the disk $D$
+
+Topologically,
+$$
+\mathbb{R}^2 \cong D,
+$$
+where $D$ is the open unit disk. For example, a homeomorphism is given by
+$$
+(x,y) \longmapsto \frac{(x,y)}{\sqrt{1 + x^2 + y^2}}.
+$$
+
+Hence,
+$$
+S^1 \times \mathbb{R}^2 \cong S^1 \times D.
+$$
+
+---
+
+## 4. Conclusion
+
+Putting everything together, we obtain
+$$
+\boxed{
+\mathrm{PSL}(2,\mathbb{R}) \cong S^1 \times D
+}
+$$
+as topological spaces.
+
+---
+
+If you want, I can also rewrite this emphasizing the solid-torus picture or connect it explicitly to the unit tangent bundle of $\mathbb{H}^2$.
+
+---
+
+## Annex Killing form
+
+We’ll do this concretely for
+$$
+\mathfrak{g} = \mathfrak{sl}(2,\mathbb{R}),
+$$
+since this is the Lie algebra of both $\mathrm{SL}(2,\mathbb{R})$ and $\mathrm{PSL}(2,\mathbb{R})$.
+
+---
+
+## 1. A convenient basis of $\mathfrak{sl}(2,\mathbb{R})$
+
+Take the standard basis
+$$
+H=\begin{pmatrix}1&0\\0&-1\end{pmatrix},\qquad
+E=\begin{pmatrix}0&1\\0&0\end{pmatrix},\qquad
+F=\begin{pmatrix}0&\\1&0\end{pmatrix}.
+$$
+
+The Lie brackets are
+$$
+[H,E]=2E,\qquad [H,F]=-2F,\qquad [E,F]=H.
+$$
+
+---
+
+## 2. Definition of the Killing form
+
+The Killing form is
+$$
+B(X,Y)=\mathrm{tr}(\mathrm{ad}_X\circ \mathrm{ad}_Y).
+$$
+
+So we compute $\mathrm{ad}_H$, $\mathrm{ad}_E$, and $\mathrm{ad}_F$ in the basis ${H,E,F}$.
+
+---
+
+## 3. Adjoint matrices
+
+From the brackets:
+
+* $\mathrm{ad}_H(H)=0$, $\mathrm{ad}_H(E)=2E$, $\mathrm{ad}_H(F)=-2F$
+  $$
+  \mathrm{ad}_H=
+  \begin{pmatrix}
+  0&0&0\\
+  0&2&0\\
+  0&0&-2
+  \end{pmatrix}
+  $$
+
+* $\mathrm{ad}_E(H)=-2E$, $\mathrm{ad}_E(E)=0$, $\mathrm{ad}_E(F)=H$
+  $$
+  \mathrm{ad}_E=
+  \begin{pmatrix}
+  0&0&1\\
+  -2&0&0\\
+  0&0&0
+  \end{pmatrix}
+  $$
+
+* $\mathrm{ad}_F(H)=2F$, $\mathrm{ad}_F(E)=-H$, $\mathrm{ad}_F(F)=0$
+  $$
+  \mathrm{ad}_F=
+  \begin{pmatrix}
+  0&-1&0\\
+  0&0&0\\
+  2&0&0
+  \end{pmatrix}
+  $$
+
+---
+
+## 4. Values of the Killing form
+
+Now compute traces:
+
+* $B(H,H)=\mathrm{tr}(\mathrm{ad}_H^2)=8$
+* $B(E,F)=\mathrm{tr}(\mathrm{ad}_E\mathrm{ad}_F)=4$
+* $B(F,E)=4$
+
+All other pairings vanish. Thus, in the basis ${H,E,F}$,
+$$
+B=
+\begin{pmatrix}
+8&0&0\
+0&0&4\
+0&4&0
+\end{pmatrix}.
+$$
+
+---
+
+## 5. Diagonalization and signature
+
+The $E,F$–block
+$$
+\begin{pmatrix}
+0&4\
+4&0
+\end{pmatrix}
+$$
+has eigenvalues $\pm 4$.
+
+Together with $B(H,H)=8$, the eigenvalues of $B$ are
+$$
+8,\quad 4,\quad -4.
+$$
+
+---
+
+## 6. Signature
+
+Therefore, the Killing form on $\mathfrak{sl}(2,\mathbb{R})$ has signature
+$$
+\boxed{(2,1)}
+$$
+(two positive directions and one negative direction).
+
+---
+
+### Geometric remark
+
+This Lorentzian signature is why $\mathfrak{sl}(2,\mathbb{R})$ can be identified (up to scale) with $\mathbb{R}^{2,1}$, and it underlies the appearance of $\mathrm{PSL}(2,\mathbb{R})$ as the isometry group of the hyperbolic plane.
+
+

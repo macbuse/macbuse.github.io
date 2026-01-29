@@ -148,4 +148,4 @@ commentisfree/2026/jan/26/the-guardian-view-on-keir-starmers-control-freakery-be
 commentisfree/2026/jan/26/ukraine-winter-power-freezing-cold-russia
 commentisfree/2026/jan/27/burnham-fiasco-right-labour-party-starmer
 commentisfree/2026/jan/27/grandfather-nazi-camp-museum-zone-of-interest-stutthof
-commentisfree/2026/jan/27/keir-starmer-visit-china-first-time-beijing-uk
+commentisfree/2026/jan/27/keir-starmer-visit-china-first-time-beijing-ukcommentisfree/2026/jan/25/council-homes-somerset-uk-glorious-proof-labour
