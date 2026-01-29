@@ -298,8 +298,8 @@ All other pairings vanish. Thus, in the basis ${H,E,F}$,
 $$
 B=
 \begin{pmatrix}
-8&0&0\
-0&0&4\
+8&0&0\\
+0&0&4\\
 0&4&0
 \end{pmatrix}.
 $$
@@ -311,7 +311,7 @@ $$
 The $E,F$–block
 $$
 \begin{pmatrix}
-0&4\
+0&4\\
 4&0
 \end{pmatrix}
 $$
