@@ -1,4 +1,30 @@
 # Topology from a differential viewpoint
+
+## Course Schedule
+
+
+| Date | Name | Title |
+| :--- | :--- | :--- |
+| January 20, 2026 | Greg Mc| introduction|
+| January 27, 2026 | Louve + Emanuel | espace tangent, d'alembert gauss |
+| February 3, 2026 | Louis et Théo | 1 manifolds |
+| February 10, 2026 |Emanuel et Maryam | Sard |
+| February 17, 2026 | | Vacances |
+
+<!-- | March 10, 2026 | | orientability | -->
+<!-- | March 17, 2026 | | orientability | -->
+<!-- | March 24, 2026 | | champs de vecteurs | -->
+<!-- | March 31, 2026 | | champs de vecteurs | -->
+
+--
+
+## Week 2 files
+
+Louve + Emanuel
+- [exposé](./expose1.pdf)
+- [SL(2,R) as a (sub)manifold](./sl2.html)
+- [S0(3) as a (sub)manifold](./so3.html)
+- [D'Alembert Gauss via homotopy](https://htmlpreview.github.io/?https://github.com/macbuse/ALG_TOP/blob/master/gauss_dalembert.html)
 ---
 
 ## Week 1 files
@@ -8,34 +34,10 @@
 - [big three theorems](./big_three.html)
 - [1-forms and the example the torus](./forms_torus.html)
 
-## Week 2 files
-
-Louve + Emanuel
-- [exposé](./expose1.pdf)
-- [SL(2,R) as a (sub)manifold](./sl2.html)
-- [D'Alembert Gauss via homotopy](https://htmlpreview.github.io/?https://github.com/macbuse/ALG_TOP/blob/master/gauss_dalembert.html)
 
 
 ---
 
-## Course Schedule
-
-
-| Date | Name | Title |
-| :--- | :--- | :--- |
-| January 20, 2026 | Greg Mc| introduction|
-| January 27, 2026 | Louve + Emanuel | espace tangent, d'alembert gauss |
-| February 3, 2026 | | 1 manifolds |
-| February 10, 2026 | | sard |
-| February 17, 2026 | | sard |
-| February 24, 2026 | | vacances |
-| March 3, 2026 | | degree |
-| March 10, 2026 | | orientability |
-| March 17, 2026 | | orientability |
-| March 24, 2026 | | champs de vecteurs |
-| March 31, 2026 | | champs de vecteurs |
-
----
 
 
 ### Summary
