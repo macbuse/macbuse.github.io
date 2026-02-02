@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>_</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">_</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#the-long-line-second-countability">The Long Line, Second Countability</a>
+<ul>
+<li><a href="#what-is-second-countability">1. What is Second Countability?</a></li>
+<li><a href="#the-long-line-mathbfl">2. The Long Line (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="bold"><mi>𝐋</mi></mstyle><annotation encoding="application/x-tex">\mathbf{L}</annotation></semantics></math>)</a>
+<ul>
+<li><a href="#key-properties">Key Properties:</a></li>
+</ul></li>
+<li><a href="#comparison-the-real-line-vs.-the-long-line">3. Comparison: The Real Line vs. The Long Line</a></li>
+<li><a href="#why-should-you-care">Why should you care?</a></li>
+<li><a href="#the-urysohn-metrization-theorem">1. The Urysohn Metrization Theorem</a></li>
+<li><a href="#the-bing-nagata-smirnov-theorem">2. The Bing-Nagata-Smirnov Theorem</a></li>
+<li><a href="#why-metrizability-matters">3. Why Metrizability Matters</a></li>
+<li><a href="#why-the-long-line-l-fails">4. Why the Long Line <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> Fails</a></li>
+<li><a href="#the-core-idea-manifolds-as-metric-spaces">1. The Core Idea: Manifolds as Metric Spaces</a></li>
+<li><a href="#embedding-into-euclidean-space-mathbbrn">2. Embedding into Euclidean Space <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>N</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^N</annotation></semantics></math></a></li>
+<li><a href="#the-mechanism-partition-of-unity">3. The Mechanism: Partition of Unity</a></li>
+<li><a href="#why-the-long-line-l-fails-1">4. Why the Long Line <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> Fails</a>
+<ul>
+<li><a href="#summary-table">Summary Table</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#references">References</a>
+<ul>
+<li><a href="#references-in-michael-spivak">1. References in Michael Spivak</a></li>
+<li><a href="#references-in-guillemin-pollack">2. References in Guillemin &amp; Pollack</a></li>
+<li><a href="#comparison-of-approach">3. Comparison of Approach</a></li>
+<li><a href="#why-this-matters-for-your-embedding">Why this matters for your Embedding</a></li>
+</ul></li>
+</ul>
+</nav>
+<!-- toc -->
+<ul>
+<li>second countability</li>
+<li>metrizability</li>
+<li>embedding theorems</li>
+<li>bump functions</li>
+</ul>
+<hr />
+<h1 id="the-long-line-second-countability">The Long Line, Second Countability</h1>
+<h2 id="what-is-second-countability">1. What is Second Countability?</h2>
+<p>A topological space is <strong>second-countable</strong> if its topology has a <strong>countable base</strong>.</p>
+<p>To put it simply: you can describe every open set in the space using a “construction kit” that contains only a countable number of basic shapes. For example, the standard real line is second-countable because every open interval can be built using intervals with rational endpoints, and the set of pairs of rational numbers is countable.</p>
+<p><strong>Why it matters:</strong></p>
+<ul>
+<li><strong>Metric Spaces:</strong> For a metric space, being second-countable is equivalent to being <strong>separable</strong> (having a countable dense subset).</li>
+<li><strong>Embeddings:</strong> Second-countable manifolds can be embedded into higher-dimensional Euclidean spaces.</li>
+<li><strong>Compactness:</strong> It helps ensure that concepts like “compactness” and “sequential compactness” behave predictably.</li>
+</ul>
+<hr />
+<h2 id="the-long-line-mathbfl">2. The Long Line (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="bold"><mi>𝐋</mi></mstyle><annotation encoding="application/x-tex">\mathbf{L}</annotation></semantics></math>)</h2>
+<p>The Long Line is a topological space that is “longer” than the real line <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><annotation encoding="application/x-tex">\mathbb{R}</annotation></semantics></math>. While the real line is built by placing unit intervals side-by-side indexed by the integers, the Long Line is built by placing unit intervals side-by-side indexed by the <strong>first uncountable ordinal</strong>, .</p>
+<h3 id="key-properties">Key Properties:</h3>
+<ul>
+<li><strong>Locally Euclidean:</strong> If you zoom in on any point, it looks exactly like a piece of the standard real line. It is a 1-dimensional manifold.</li>
+<li><strong>Not Second-Countable:</strong> Because there are uncountably many “units” glued together, you cannot describe its topology with a countable base.</li>
+<li><strong>Normal but not Metric:</strong> It is a normal space, but because it isn’t second-countable, it <strong>cannot be metrized</strong>. You can’t define a standard distance that works for the whole line.</li>
+<li><strong>Path Connected:</strong> You can draw a continuous path between any two points.</li>
+</ul>
+<hr />
+<h2 id="comparison-the-real-line-vs.-the-long-line">3. Comparison: The Real Line vs. The Long Line</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>Real Line ()</th>
+<th>Long Line ()</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Local Structure</strong></td>
+<td>1D Manifold</td>
+<td>1D Manifold</td>
+</tr>
+<tr class="even">
+<td><strong>Countability</strong></td>
+<td>Second-Countable</td>
+<td><strong>Not</strong> Second-Countable</td>
+</tr>
+<tr class="odd">
+<td><strong>Metrizability</strong></td>
+<td>Metrizable</td>
+<td>Not Metrizable</td>
+</tr>
+<tr class="even">
+<td><strong>Compactness</strong></td>
+<td>Not Compact</td>
+<td>Not Compact (but “Sequentially Compact”)</td>
+</tr>
+<tr class="odd">
+<td><strong>Size</strong></td>
+<td>“Countably” long</td>
+<td>“Uncountably” long</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="why-should-you-care">Why should you care?</h2>
+<p>The Long Line is the “Boogeyman” of topology. It warns mathematicians that <strong>local properties</strong> (looking like at every point) do not always dictate <strong>global properties</strong> (being able to measure the whole thing with a ruler). It proves that you can have a space that is perfectly smooth and continuous, yet so vast that it breaks the fundamental rules of distance.</p>
+<hr />
+<h2 id="the-urysohn-metrization-theorem">1. The Urysohn Metrization Theorem</h2>
+<p>Urysohn’s theorem provides a sufficient condition for a topological space to be metrizable. It is a “top-down” approach: if a space is small enough (second-countable) and separated enough (regular), it must be metrizable.</p>
+<p><strong>Theorem:</strong> Every second-countable, regular <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>T</mi><mn>2</mn></msub><annotation encoding="application/x-tex">T_2</annotation></semantics></math> space is metrizable.</p>
+<ul>
+<li><strong>Regular (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>T</mi><mn>3</mn></msub><annotation encoding="application/x-tex">T_3</annotation></semantics></math>):</strong> For every closed set <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo>⊂</mo><mi>X</mi></mrow><annotation encoding="application/x-tex">F \subset X</annotation></semantics></math> and point <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>∉</mo><mi>F</mi></mrow><annotation encoding="application/x-tex">x \notin F</annotation></semantics></math>, there exist disjoint open sets <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>U</mi><annotation encoding="application/x-tex">U</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>V</mi><annotation encoding="application/x-tex">V</annotation></semantics></math> such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>∈</mo><mi>U</mi></mrow><annotation encoding="application/x-tex">x \in U</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo>⊂</mo><mi>V</mi></mrow><annotation encoding="application/x-tex">F \subset V</annotation></semantics></math>.</li>
+<li><strong>Second-countable:</strong> The topology <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="script"><mi>𝒯</mi></mstyle><annotation encoding="application/x-tex">\mathcal{T}</annotation></semantics></math> has a countable base <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathvariant="script"><mi>ℬ</mi></mstyle><mo>=</mo><mo stretchy="false" form="prefix">{</mo><msub><mi>B</mi><mi>n</mi></msub><msub><mo stretchy="false" form="postfix">}</mo><mrow><mi>n</mi><mo>∈</mo><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle></mrow></msub></mrow><annotation encoding="application/x-tex">\mathcal{B} = \{B_n\}_{n \in \mathbb{N}}</annotation></semantics></math>.</li>
+</ul>
+<hr />
+<h2 id="the-bing-nagata-smirnov-theorem">2. The Bing-Nagata-Smirnov Theorem</h2>
+<p>This theorem provides the necessary and sufficient (if and only if) conditions for metrizability, covering spaces that Urysohn’s theorem might miss.</p>
+<p><strong>Theorem:</strong> A topological space <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math> is metrizable if and only if it is regular, Hausdorff, and has a <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>σ</mi><annotation encoding="application/x-tex">\sigma</annotation></semantics></math>-locally finite base.</p>
+<ul>
+<li><strong><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>σ</mi><annotation encoding="application/x-tex">\sigma</annotation></semantics></math>-locally finite base:</strong> A base <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="script"><mi>ℬ</mi></mstyle><annotation encoding="application/x-tex">\mathcal{B}</annotation></semantics></math> is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>σ</mi><annotation encoding="application/x-tex">\sigma</annotation></semantics></math>-locally finite if <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle mathvariant="script"><mi>ℬ</mi></mstyle><mo>=</mo><msub><mo>⋃</mo><mrow><mi>n</mi><mo>∈</mo><mstyle mathvariant="double-struck"><mi>ℕ</mi></mstyle></mrow></msub><msub><mstyle mathvariant="script"><mi>ℬ</mi></mstyle><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">\mathcal{B} = \bigcup_{n \in \mathbb{N}} \mathcal{B}_n</annotation></semantics></math>, where each collection <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mstyle mathvariant="script"><mi>ℬ</mi></mstyle><mi>n</mi></msub><annotation encoding="application/x-tex">\mathcal{B}_n</annotation></semantics></math> is locally finite.</li>
+<li><strong>Local Finiteness:</strong> Each point <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>∈</mo><mi>X</mi></mrow><annotation encoding="application/x-tex">x \in X</annotation></semantics></math> has a neighborhood <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>W</mi><annotation encoding="application/x-tex">W</annotation></semantics></math> such that the set <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">{</mo><mi>B</mi><mo>∈</mo><msub><mstyle mathvariant="script"><mi>ℬ</mi></mstyle><mi>n</mi></msub><mo>:</mo><mi>B</mi><mo>∩</mo><mi>W</mi><mo>≠</mo><mi>∅</mi><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\{B \in \mathcal{B}_n : B \cap W \neq \emptyset\}</annotation></semantics></math> is finite.</li>
+</ul>
+<hr />
+<h2 id="why-metrizability-matters">3. Why Metrizability Matters</h2>
+<p>In a metrizable space <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mi>X</mi><mo>,</mo><mi>d</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(X, d)</annotation></semantics></math>, the topology behaves with a specific “rigidity” that general spaces lack:</p>
+<ul>
+<li><strong>Sequences:</strong> A point <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>x</mi><annotation encoding="application/x-tex">x</annotation></semantics></math> is in the closure of <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>A</mi><annotation encoding="application/x-tex">A</annotation></semantics></math> if and only if there is a sequence <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><msub><mi>x</mi><mi>n</mi></msub><mo stretchy="false" form="postfix">)</mo><mo>⊆</mo><mi>A</mi></mrow><annotation encoding="application/x-tex">(x_n) \subseteq A</annotation></semantics></math> such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>x</mi><mi>n</mi></msub><mo>→</mo><mi>x</mi></mrow><annotation encoding="application/x-tex">x_n \to x</annotation></semantics></math>. In non-metrizable spaces, this is not always true, requiring the use of nets <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><msub><mi>x</mi><mi>α</mi></msub><msub><mo stretchy="false" form="postfix">)</mo><mrow><mi>α</mi><mo>∈</mo><mi>A</mi></mrow></msub></mrow><annotation encoding="application/x-tex">(x_\alpha)_{\alpha \in A}</annotation></semantics></math>.</li>
+<li><strong>Distance Function:</strong> We can define a function <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mo>:</mo><mi>X</mi><mo>×</mo><mi>X</mi><mo>→</mo><mo stretchy="false" form="prefix">[</mo><mn>0</mn><mo>,</mo><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">d: X \times X \to [0, \infty)</annotation></semantics></math> that satisfies the triangle inequality: <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo stretchy="false" form="postfix">)</mo><mo>≤</mo><mi>d</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false" form="postfix">)</mo><mo>+</mo><mi>d</mi><mo stretchy="false" form="prefix">(</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">d(x, z) \leq d(x, y) + d(y, z)</annotation></semantics></math></li>
+<li><strong>Compactness:</strong> In any metric space, <strong>Compactness</strong>, <strong>Sequential Compactness</strong>, and <strong>Countable Compactness</strong> are all equivalent.</li>
+</ul>
+<hr />
+<h2 id="why-the-long-line-l-fails">4. Why the Long Line <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> Fails</h2>
+<p>The Long Line is the quintessential example of a non-metrizable manifold.</p>
+<ul>
+<li><strong>Local Metrizability:</strong> Every point <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>∈</mo><mi>L</mi></mrow><annotation encoding="application/x-tex">p \in L</annotation></semantics></math> has a neighborhood <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>U</mi><annotation encoding="application/x-tex">U</annotation></semantics></math> such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>U</mi><mo>≅</mo><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">U \cong (0, 1)</annotation></semantics></math>. Since <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">(0, 1)</annotation></semantics></math> is metrizable, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> is locally metrizable.</li>
+<li><strong>Global Failure:</strong> The Long Line is constructed as <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mo>=</mo><msub><mi>ω</mi><mn>1</mn></msub><mo>×</mo><mo stretchy="false" form="prefix">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">L = \omega_1 \times [0, 1)</annotation></semantics></math> (where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\omega_1</annotation></semantics></math> is the first uncountable ordinal).</li>
+<li><strong>The Contradiction:</strong> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> is sequentially compact but <strong>not</strong> compact. In a metrizable space, these two properties must coincide. Therefore, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> cannot be metrized.</li>
+<li><strong>Size:</strong> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> is "</li>
+</ul>
+<h2 id="the-core-idea-manifolds-as-metric-spaces">1. The Core Idea: Manifolds as Metric Spaces</h2>
+<p>By definition, a manifold <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math> is <strong>locally Euclidean</strong>. This means every point <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>∈</mo><mi>M</mi></mrow><annotation encoding="application/x-tex">p \in M</annotation></semantics></math> has a neighborhood <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>U</mi><annotation encoding="application/x-tex">U</annotation></semantics></math> such that there exists a homeomorphism <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ϕ</mi><mo>:</mo><mi>U</mi><mo>→</mo><mi>V</mi></mrow><annotation encoding="application/x-tex">\phi: U \to V</annotation></semantics></math>, where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>V</mi><annotation encoding="application/x-tex">V</annotation></semantics></math> is an open subset of <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>n</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^n</annotation></semantics></math>.</p>
+<p>If a manifold is <strong>compact</strong>, several “niceness” properties converge: * It is automatically <strong>second-countable</strong>. * It is <strong>Hausdorff</strong> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>T</mi><mn>2</mn></msub><annotation encoding="application/x-tex">T_2</annotation></semantics></math>) and <strong>normal</strong> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>T</mi><mn>4</mn></msub><annotation encoding="application/x-tex">T_4</annotation></semantics></math>). * Because it is second-countable and regular, the <strong>Urysohn Metrization Theorem</strong> tells us that every compact manifold is metrizable.</p>
+<blockquote>
+<p><strong>The takeaway:</strong> Every compact manifold is a metric space, meaning there exists a metric <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi><mo>:</mo><mi>M</mi><mo>×</mo><mi>M</mi><mo>→</mo><mo stretchy="false" form="prefix">[</mo><mn>0</mn><mo>,</mo><mi>∞</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">d: M \times M \to [0, \infty)</annotation></semantics></math> that induces the manifold’s topology.</p>
+</blockquote>
+<hr />
+<h2 id="embedding-into-euclidean-space-mathbbrn">2. Embedding into Euclidean Space <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>N</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^N</annotation></semantics></math></h2>
+<p>The most common metric space target is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>N</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^N</annotation></semantics></math>. The <strong>Whitney Embedding Theorem</strong> provides the upper bound for the dimension <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>N</mi><annotation encoding="application/x-tex">N</annotation></semantics></math> required to fit an <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>-dimensional manifold.</p>
+<ul>
+<li><strong>Weak Whitney Theorem:</strong> Any smooth, compact <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>-dimensional manifold can be embedded in <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><annotation encoding="application/x-tex">\mathbb{R}^{2n+1}</annotation></semantics></math>.</li>
+<li><strong>Strong Whitney Theorem:</strong> Any smooth, compact <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>-dimensional manifold can be embedded in <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mrow><mn>2</mn><mi>n</mi></mrow></msup><annotation encoding="application/x-tex">\mathbb{R}^{2n}</annotation></semantics></math>.</li>
+</ul>
+<p>For example: * The circle <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>S</mi><mn>1</mn></msup><annotation encoding="application/x-tex">S^1</annotation></semantics></math> (where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">n=1</annotation></semantics></math>) embeds into <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mn>2</mn></msup><annotation encoding="application/x-tex">\mathbb{R}^2</annotation></semantics></math>. * The Klein Bottle (where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">n=2</annotation></semantics></math>) cannot embed into <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mn>3</mn></msup><annotation encoding="application/x-tex">\mathbb{R}^3</annotation></semantics></math> without self-intersection, but it embeds into <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mn>4</mn></msup><annotation encoding="application/x-tex">\mathbb{R}^4</annotation></semantics></math>.</p>
+<hr />
+<h2 id="the-mechanism-partition-of-unity">3. The Mechanism: Partition of Unity</h2>
+<p>To construct a global embedding, we use a <strong>partition of unity</strong>. This allows us to “glue” local coordinate maps together.</p>
+<ol type="1">
+<li>Cover <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math> with a finite collection of coordinate patches <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">{</mo><msub><mi>U</mi><mi>i</mi></msub><msubsup><mo stretchy="false" form="postfix">}</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>k</mi></msubsup></mrow><annotation encoding="application/x-tex">\{U_i\}_{i=1}^k</annotation></semantics></math> and homeomorphisms <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>ϕ</mi><mi>i</mi></msub><mo>:</mo><msub><mi>U</mi><mi>i</mi></msub><mo>→</mo><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">\phi_i: U_i \to \mathbb{R}^n</annotation></semantics></math>.</li>
+<li>Define a set of smooth “bump functions” <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>ψ</mi><mi>i</mi></msub><mo>:</mo><mi>M</mi><mo>→</mo><mo stretchy="false" form="prefix">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="false" form="postfix">]</mo></mrow><annotation encoding="application/x-tex">\psi_i: M \to [0, 1]</annotation></semantics></math> such that the support of <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ψ</mi><mi>i</mi></msub><annotation encoding="application/x-tex">\psi_i</annotation></semantics></math> is contained in <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>U</mi><mi>i</mi></msub><annotation encoding="application/x-tex">U_i</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∑</mo><msub><mi>ψ</mi><mi>i</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\sum \psi_i(x) = 1</annotation></semantics></math> for all <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>∈</mo><mi>M</mi></mrow><annotation encoding="application/x-tex">x \in M</annotation></semantics></math>.</li>
+<li>Construct the global map <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>:</mo><mi>M</mi><mo>→</mo><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mrow><mi>k</mi><mo stretchy="false" form="prefix">(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo stretchy="false" form="postfix">)</mo></mrow></msup></mrow><annotation encoding="application/x-tex">f: M \to \mathbb{R}^{k(n+1)}</annotation></semantics></math> by: <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mo stretchy="false" form="prefix">(</mo><msub><mi>ψ</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><msub><mi>ϕ</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>ψ</mi><mi>k</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><msub><mi>ϕ</mi><mi>k</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>,</mo><msub><mi>ψ</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>ψ</mi><mi>k</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f(x) = (\psi_1(x)\phi_1(x), \dots, \psi_k(x)\phi_k(x), \psi_1(x), \dots, \psi_k(x))</annotation></semantics></math></li>
+</ol>
+<p>Since <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math> is compact and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math> is a continuous injection into a Hausdorff space, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="application/x-tex">f</annotation></semantics></math> is a <strong>homeomorphism onto its image</strong>.</p>
+<hr />
+<h2 id="why-the-long-line-l-fails-1">4. Why the Long Line <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> Fails</h2>
+<p>The Long Line is a <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>1</mn><annotation encoding="application/x-tex">1</annotation></semantics></math>-dimensional manifold, but it cannot be embedded into any metric space <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>N</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^N</annotation></semantics></math>.</p>
+<ul>
+<li><strong>Dimension vs. Size:</strong> While <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> is locally <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>1</mn><annotation encoding="application/x-tex">1</annotation></semantics></math>-dimensional, it is not second-countable.</li>
+<li><strong>The Euclidean Barrier:</strong> Any subspace of <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>N</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^N</annotation></semantics></math> must be second-countable (because <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>N</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^N</annotation></semantics></math> has a countable base of rational balls).</li>
+<li>Since <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> is “too long” (its length is indexed by the first uncountable ordinal <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ω</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\omega_1</annotation></semantics></math>), it cannot be contained within the countable structure of Euclidean space.</li>
+</ul>
+<hr />
+<h3 id="summary-table">Summary Table</h3>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Manifold Type</th>
+<th style="text-align: left;">Metrizable?</th>
+<th style="text-align: left;">Embeddable in <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>N</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^N</annotation></semantics></math>?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Compact <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>-manifold</strong></td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Yes (in <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mrow><mn>2</mn><mi>n</mi></mrow></msup><annotation encoding="application/x-tex">\mathbb{R}^{2n}</annotation></semantics></math>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Non-compact <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mn>2</mn><mrow><mi>n</mi><mi>d</mi></mrow></msup><annotation encoding="application/x-tex">2^{nd}</annotation></semantics></math> countable</strong></td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">Yes (in <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mrow><mn>2</mn><mi>n</mi></mrow></msup><annotation encoding="application/x-tex">\mathbb{R}^{2n}</annotation></semantics></math>)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Long Line</strong></td>
+<td style="text-align: left;">No</td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="references">References</h1>
+<h2 id="references-in-michael-spivak">1. References in Michael Spivak</h2>
+<p><strong>Book:</strong> <em>Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus</em></p>
+<p>In this text, Spivak introduces bump functions specifically to build a <strong>Partition of Unity</strong>, which he then uses to define integration on manifolds.</p>
+<ul>
+<li><strong>Theorem 3-11 (The Existence of Bump Functions):</strong> Found in Chapter 3 (Integration). Spivak constructs a smooth function <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>:</mo><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>n</mi></msup><mo>→</mo><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle></mrow><annotation encoding="application/x-tex">f: \mathbb{R}^n \to \mathbb{R}</annotation></semantics></math> such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>&gt;</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f(x) &gt; 0</annotation></semantics></math> for <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">|</mo><mi>x</mi><mo stretchy="false" form="prefix">|</mo><mo>&lt;</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">|x| &lt; a</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">f(x) = 0</annotation></semantics></math> for <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">|</mo><mi>x</mi><mo stretchy="false" form="prefix">|</mo><mo>≥</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">|x| \geq a</annotation></semantics></math>.</li>
+<li><strong>Construction:</strong> He starts with the classic non-analytic smooth function: <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mrow><mo stretchy="true" form="prefix">{</mo><mtable><mtr><mtd columnalign="left"><msup><mi>e</mi><mrow><mo>−</mo><mn>1</mn><mi>/</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></msup></mtd><mtd columnalign="left"><mi>x</mi><mo>&gt;</mo><mn>0</mn></mtd></mtr><mtr><mtd columnalign="left"><mn>0</mn></mtd><mtd columnalign="left"><mi>x</mi><mo>≤</mo><mn>0</mn></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex"> \lambda(x) = 
+  \begin{cases} 
+  e^{-1/x^2} &amp; x &gt; 0 \\ 
+  0 &amp; x \leq 0 
+  \end{cases} </annotation></semantics></math></li>
+<li><strong>Partition of Unity:</strong> This is covered in the subsequent pages of Chapter 3. He proves that for any open cover <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mstyle mathvariant="script"><mi>𝒪</mi></mstyle><annotation encoding="application/x-tex">\mathcal{O}</annotation></semantics></math> of a closed rectangle <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>A</mi><annotation encoding="application/x-tex">A</annotation></semantics></math>, there exist smooth functions <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ϕ</mi><mi>i</mi></msub><annotation encoding="application/x-tex">\phi_i</annotation></semantics></math> subordinate to the cover such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∑</mo><msub><mi>ϕ</mi><mi>i</mi></msub><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\sum \phi_i = 1</annotation></semantics></math>.</li>
+</ul>
+<hr />
+<h2 id="references-in-guillemin-pollack">2. References in Guillemin &amp; Pollack</h2>
+<p><strong>Book:</strong> <em>Differential Topology</em> (Victor Guillemin and Alan Pollack)</p>
+<p>Guillemin and Pollack (often referred to as G&amp;P) use bump functions more explicitly for embeddings and the Whitney Embedding Theorem.</p>
+<ul>
+<li><strong>Chapter 1, Section 6 (Partition of Unity):</strong> G&amp;P introduce the “Bump Function” as a technical Lemma.</li>
+<li><strong>The Lemma:</strong> They prove that for any closed set <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>A</mi><annotation encoding="application/x-tex">A</annotation></semantics></math> and open set <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>U</mi><annotation encoding="application/x-tex">U</annotation></semantics></math> containing <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>A</mi><annotation encoding="application/x-tex">A</annotation></semantics></math> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>⊂</mo><mi>U</mi></mrow><annotation encoding="application/x-tex">A \subset U</annotation></semantics></math>), there exists a smooth function <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>ρ</mi><annotation encoding="application/x-tex">\rho</annotation></semantics></math> such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mo>≤</mo><mi>ρ</mi><mo>≤</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">0 \leq \rho \leq 1</annotation></semantics></math>, where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\rho = 1</annotation></semantics></math> on <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>A</mi><annotation encoding="application/x-tex">A</annotation></semantics></math> and <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="normal">support</mtext><mo stretchy="false" form="prefix">(</mo><mi>ρ</mi><mo stretchy="false" form="postfix">)</mo><mo>⊂</mo><mi>U</mi></mrow><annotation encoding="application/x-tex">\text{support}(\rho) \subset U</annotation></semantics></math>.</li>
+<li><strong>Applications:</strong> In the same section, they use these functions to:
+<ol type="1">
+<li>Extend local maps <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>:</mo><mi>U</mi><mo>→</mo><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">f: U \to \mathbb{R}^n</annotation></semantics></math> to global maps.</li>
+<li>Construct the embedding of a compact manifold <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>X</mi><annotation encoding="application/x-tex">X</annotation></semantics></math> into <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>N</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^N</annotation></semantics></math>.</li>
+</ol></li>
+</ul>
+<hr />
+<h2 id="comparison-of-approach">3. Comparison of Approach</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Feature</th>
+<th style="text-align: left;">Spivak (<em>Calculus on Manifolds</em>)</th>
+<th style="text-align: left;">Guillemin &amp; Pollack</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Primary Goal</strong></td>
+<td style="text-align: left;">Integration and Stokes’ Theorem</td>
+<td style="text-align: left;">Topology and Embeddings</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Construction</strong></td>
+<td style="text-align: left;">Explicit formula using <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>e</mi><mrow><mo>−</mo><mn>1</mn><mi>/</mi><mi>x</mi></mrow></msup><annotation encoding="application/x-tex">e^{-1/x}</annotation></semantics></math></td>
+<td style="text-align: left;">More axiomatic/lemma-based</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Locality</strong></td>
+<td style="text-align: left;">Usually defined on rectangles</td>
+<td style="text-align: left;">Defined on arbitrary closed sets <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>A</mi><annotation encoding="application/x-tex">A</annotation></semantics></math></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="why-this-matters-for-your-embedding">Why this matters for your Embedding</h2>
+<p>As mentioned in the previous sections, to embed a manifold into a metric space, you need a way to “turn off” a coordinate map <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ϕ</mi><mi>i</mi></msub><annotation encoding="application/x-tex">\phi_i</annotation></semantics></math> before you leave its domain <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>U</mi><mi>i</mi></msub><annotation encoding="application/x-tex">U_i</annotation></semantics></math>.</p>
+<p>If you have a map <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>ϕ</mi><mi>i</mi></msub><mo>:</mo><msub><mi>U</mi><mi>i</mi></msub><mo>→</mo><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">\phi_i: U_i \to \mathbb{R}^n</annotation></semantics></math>, the product <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>ψ</mi><mi>i</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo><msub><mi>ϕ</mi><mi>i</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>x</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\psi_i(x)\phi_i(x)</annotation></semantics></math> (where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>ψ</mi><mi>i</mi></msub><annotation encoding="application/x-tex">\psi_i</annotation></semantics></math> is a bump function) is well-defined on the <strong>entire</strong> manifold <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math>. Without the bump function, the map would “blow up” or be undefined outside of <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>U</mi><mi>i</mi></msub><annotation encoding="application/x-tex">U_i</annotation></semantics></math>.</p>
+</body>
+</html>

@@ -16,6 +16,14 @@
 <!-- | March 24, 2026 | | champs de vecteurs | -->
 <!-- | March 31, 2026 | | champs de vecteurs | -->
 
+---
+
+## Week 3 files
+
+- [exposé](./Classification des variétés de dimension 1.pdf))
+- [long line, second countablity](./long_line.html)
+
+
 --
 
 ## Week 2 files
