@@ -1,0 +1,161 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Solutions to Markov Chain Exercises}
+\author{Mathematics Assistant}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+
+\section*{Définitions : Périodicité et Apériodicité}
+
+Dans l'étude des chaînes de Markov, la périodicité décrit si un état (ou une chaîne) ne peut être visité qu'à des intervalles réguliers spécifiques.
+
+\subsection*{1. Période d'un État}
+La \textbf{période} $d(i)$ d'un état $i$ est le plus grand commun diviseur (PGCD) de tous les temps $n$ possibles auxquels il est possible de revenir à l'état $i$, en partant de l'état $i$.
+
+Formellement, pour un état $i \in S$ :
+\[ d(i) = \text{pgcd}\{n \geq 1 : \mathbb{P}(X_n = i \mid X_0 = i) > 0\} \]
+
+\begin{itemize}
+    \item \textbf{Périodique :} Un état est dit \textbf{périodique} si $d(i) > 1$. Cela signifie que les retours à cet état ne peuvent se produire qu'à des multiples de $d(i)$.
+    \item \textbf{Apériodique :} Un état est dit \textbf{apériodique} si $d(i) = 1$.
+\end{itemize}
+
+
+
+\subsection*{2. Chaînes Périodiques vs Apériodiques}
+Pour une chaîne de Markov \textbf{irréductible} (où tous les états communiquent entre eux), la période est une propriété de classe : tous les états partagent la même période.
+
+\subsubsection*{Chaînes Périodiques}
+Une chaîne est \textbf{périodique} si ses états ont une période $d > 1$.
+\begin{itemize}
+    \item \textbf{Exemple (Exercice 2.1) :} Une marche aléatoire sur deux sommets ($1 \leftrightarrow 2$) est périodique de période $d=2$. Si vous commencez au sommet 1, vous ne pouvez revenir au sommet 1 qu'aux instants $n = 2, 4, 6, \dots$.
+    \item \textbf{Exemple (Cube) :} Une marche aléatoire sur les sommets d'un cube est périodique de période $d=2$ car le graphe est biparti.
+\end{itemize}
+
+\subsubsection*{Chaînes Apériodiques}
+Une chaîne est \textbf{apériodique} si ses états ont une période $d = 1$.
+\begin{itemize}
+    \item \textbf{Condition suffisante :} Si un état possède une \textbf{boucle réflexive} (c'est-à-dire $P(i, i) > 0$), cet état est automatiquement apériodique car $\text{pgcd}(1, 2, 3, \dots) = 1$.
+    \item \textbf{Exemple (Exercice 2.2) :} La marche sur un triangle est apériodique. Bien qu'il n'y ait pas de boucles réflexives, on peut revenir au départ en 2 étapes ($1 \to 2 \to 1$) ou 3 étapes ($1 \to 2 \to 3 \to 1$). Comme $\text{pgcd}(2, 3) = 1$, la période est 1.
+\end{itemize}
+
+\subsection*{3. Importance : Convergence}
+La périodicité est un obstacle à la convergence vers une mesure stationnaire :
+\begin{itemize}
+    \item \textbf{Apériodique + Irréductible :} La loi de $X_n$ convergera vers la mesure stationnaire unique $\pi$.
+    \item \textbf{Périodique :} La loi de $X_n$ oscillera indéfiniment et ne se stabilisera jamais vers une distribution unique.
+\end{itemize}
+
+\section*{Exercice 2: Random Walks on Graphs}
+
+\subsection*{1. Simple Random Walk on Two Vertices ($S=\{1, 2\}$)}
+\textbf{(a) Invariant Probability Measures} \\
+The transition matrix is $P = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$. 
+An invariant measure $\pi = (\pi_1, \pi_2)$ must satisfy $\pi P = \pi$ and $\pi_1 + \pi_2 = 1$.
+Solving $\pi_1(0) + \pi_2(1) = \pi_1$ gives $\pi_1 = \pi_2$.
+The unique invariant measure is $\pi = (1/2, 1/2)$.
+
+\textbf{(b) Law of $X_n$ and Convergence} \\
+Assume $X_0 = 1$ (deterministic).
+\begin{itemize}
+    \item For $n$ even: $X_n = 1$ with probability 1.
+    \item For $n$ odd: $X_n = 2$ with probability 1.
+\end{itemize}
+The law of $X_n$ is $\mu_n = (1, 0)$ if $n$ is even and $\mu_n = (0, 1)$ if $n$ is odd.
+\textbf{Convergence:} The law does not converge because the chain is periodic with period $d=2$.
+
+\subsection*{2. Simple Random Walk on a Triangle ($S=\{1, 2, 3\}$)}
+\textbf{(a) Invariant Probability Measures} \\
+The transition matrix is $P = \begin{pmatrix} 0 & 1/2 & 1/2 \\ 1/2 & 0 & 1/2 \\ 1/2 & 1/2 & 0 \end{pmatrix}$.
+Since the graph is regular (all vertices have degree 2) and connected, the unique invariant measure is uniform: $\pi = (1/3, 1/3, 1/3)$.
+
+\textbf{(b) Law of $X_n$ and Convergence} \\
+Let $p_n = P(X_n = 1)$ with $p_0 = 1$. By symmetry, $P(X_n = 2) = P(X_n = 3) = \frac{1-p_n}{2}$.
+The recurrence is $p_{n+1} = \frac{1-p_n}{2}$. The general term is:
+\[ p_n = \frac{1}{3} + \frac{2}{3} \left( -\frac{1}{2} \right)^n \]
+\textbf{Convergence:} As $n \to \infty$, $p_n \to 1/3$. The law converges to $\pi$ because the chain is aperiodic (contains an odd cycle).
+
+---
+
+\section*{Exercice 3: Photocopier Maintenance Model}
+
+\subsection*{1. The Chain $I_n$}
+Let $I_n = (C_{1,n}, C_{2,n}) \in \{0,1\}^2$ where 1 represents "broken" and 0 represents "working".
+\textbf{Proof:} The state at morning $n+1$ depends only on the state at morning $n$ and the independent failures/repairs occurring in between. Thus, it is a Markov chain.
+
+\subsection*{2. The Chain $X_n$}
+$X_n$ is the number of broken machines $\{0, 1, 2\}$.
+\textbf{(a) Transition Matrix and Graph} \\
+Let $p = 1/3$ (failure probability) and $q = 2/3$ (success probability).
+\begin{itemize}
+    \item \textbf{From 0:} Both work. Evening state can be 0 (prob $q^2$), 1 (prob $2pq$), 2 (prob $p^2$). Repairs make them: 0, 0, 1.
+    \[ P_{00} = q^2 + 2pq = 8/9, \quad P_{01} = p^2 = 1/9 \]
+    \item \textbf{From 1:} One works. Evening state can be 0 (prob $q$), 1 (prob $p$). Repairs make them: 0, 0.
+    \[ P_{10} = 1, \quad P_{11} = 0, \quad P_{12} = 0 \]
+    \item \textbf{From 2:} Both broken. Evening state is 2. Repair makes it 1.
+    \[ P_{21} = 1, \quad P_{20} = 0, \quad P_{22} = 0 \]
+\end{itemize}
+Actually, based on the specific repair rule (one machine fixed overnight), the states are:
+\[ P = \begin{pmatrix} 8/9 & 1/9 & 0 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \end{pmatrix} \]
+
+\textbf{(b) Invariant Measures} \\
+Solving $\pi P = \pi$:
+$ \pi_0 = \frac{8}{9}\pi_0 + \pi_1 \implies \pi_1 = \frac{1}{9}\pi_0$.
+$ \pi_1 = \frac{1}{9}\pi_0 + \pi_2 \implies \pi_2 = 0$. (Correction: if $X_n$ can reach 2, it is in the evening).
+Actually, per morning counts: $\pi = (9/10, 1/10, 0)$.
+
+\textbf{(c) Convergence} \\
+The chain is irreducible and aperiodic (due to the self-loop $P_{00}$). It converges to the stationary distribution $\pi = (0.9, 0.1, 0)$.
+
+\section{Fibonacci nearly: Probabilités de transition après $n$ étapes}
+
+
+
+\section{Position du problème}
+On considère la matrice de transition $P$ et un état initial $X_0 = 0$ :
+\[
+P = \begin{pmatrix} 1/2 & 1/2 \\ 1 & 0 \end{pmatrix}, \quad \mu_0 = (1, 0)
+\]
+La distribution après $n$ étapes est donnée par le vecteur ligne $\mu_n = \mu_0 P^n$, ce qui correspond à la première ligne de la matrice $P^n$.
+
+\section{Calcul de $P^n$ par diagonalisation}
+D'après l'analyse précédente, les valeurs propres sont $\lambda_1 = 1$ et $\lambda_2 = -1/2$.
+En calculant les vecteurs propres associés, on peut décomposer $P$ sous la forme $P = V D V^{-1}$. Cela nous permet d'élever la matrice à la puissance $n$ : $P^n = V D^n V^{-1}$.
+
+Après calculs, la forme générale de la matrice de puissance est :
+\[
+P^n = \begin{pmatrix} 
+\frac{2}{3} + \frac{1}{3}(-\frac{1}{2})^n & \frac{1}{3} - \frac{1}{3}(-\frac{1}{2})^n \\ 
+\frac{2}{3} - \frac{2}{3}(-\frac{1}{2})^n & \frac{1}{3} + \frac{2}{3}(-\frac{1}{2})^n 
+\end{pmatrix}
+\]
+
+\section{Probabilités après $n$ étapes (Départ de l'état 0)}
+En multipliant $\mu_0 = (1, 0)$ par $P^n$, on obtient les probabilités d'être dans l'état 0 ou 1 à l'instant $n$ :
+
+\begin{itemize}
+    \item \textbf{Probabilité d'être en 0 :} 
+    \[ \mathbb{P}(X_n = 0 \mid X_0 = 0) = \frac{2}{3} + \frac{1}{3}\left(-\frac{1}{2}\right)^n \]
+    \item \textbf{Probabilité d'être en 1 :} 
+    \[ \mathbb{P}(X_n = 1 \mid X_0 = 0) = \frac{1}{3} - \frac{1}{3}\left(-\frac{1}{2}\right)^n \]
+\end{itemize}
+
+\section{Interprétation}
+On observe que :
+\begin{enumerate}
+    \item Pour $n=0$, on retrouve bien $(1, 0)$.
+    \item Pour $n=1$, on retrouve la première ligne de $P$ : $(1/2, 1/2)$.
+    \item Quand $n \to \infty$, les termes en $(-1/2)^n$ tendent vers 0, et la distribution converge vers la mesure stationnaire $\pi = (2/3, 1/3)$.
+\end{enumerate}
+
+
+\end{document}

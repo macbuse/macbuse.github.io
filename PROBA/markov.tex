@@ -1,0 +1,157 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Solutions to Markov Chain Exercises: From Die Rolls to Hypercubes}
+\author{Mathematics Assistant}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Exercise 1: Identification of Markov Chains}
+Let $(Y_i)_{i \geq 1}$ be i.i.d. variables uniform on $\{1, \dots, 6\}$.
+
+\subsection*{1. Running Maximum: $X_n = \max\{Y_1, \dots, Y_n\}$}
+\textbf{Markov Chain:} Yes. \\
+\textbf{Reasoning:} $X_{n+1} = \max(X_n, Y_{n+1})$. The future state depends only on the current maximum $X_n$ and the new independent roll $Y_{n+1}$. \\
+\textbf{Transition Matrix $P$:}
+\[
+P_{ij} = \begin{cases} 
+i/6 & \text{if } j = i \\
+1/6 & \text{if } j > i \\
+0 & \text{if } j < i
+\end{cases}
+\]
+
+\subsection*{2. Sliding Maximum: $X_n = \max\{Y_{n-1}, Y_n\}$}
+\textbf{Markov Chain:} No. \\
+\textbf{Reasoning:} The state $X_n$ does not capture enough information about the last roll $Y_n$. 
+\textit{Counter-example:} If $X_n=5$, it could be that $Y_n=1$ (making $X_{n+1} = \max(1, Y_{n+1})$) or $Y_n=5$ (making $X_{n+1} = \max(5, Y_{n+1})$). These lead to different transition probabilities.
+
+\subsection*{3. Counting Occurrences: $X_n = \sum_{i=1}^n \mathbf{1}_{Y_i=6}$}
+\textbf{Markov Chain:} Yes. \\
+\textbf{Reasoning:} $X_{n+1} = X_n + \mathbf{1}_{Y_{n+1}=6}$. The next value is determined solely by the current count and the independent result of the next roll.
+
+\subsection*{4. Index of Last Six: $X_n = \max\{k \leq n : Y_k = 6\}$}
+\textbf{Markov Chain:} Yes. \\
+\textbf{Reasoning:} $X_{n+1} = n+1$ if $Y_{n+1}=6$, and $X_{n+1} = X_n$ otherwise. The transition depends only on the current index $X_n$ and $Y_{n+1}$.
+
+\pagebreak
+
+\section*{Exercise 2: Random Walks on Graphs}
+
+\subsection*{1. The Segment (2 Vertices)}
+\textbf{Invariant Measure:} $P = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$. The unique invariant measure is $\pi = (1/2, 1/2)$. \\
+\textbf{Convergence:} The chain is periodic (period 2). The law $\mu_n$ oscillates between $\delta_1$ and $\delta_2$ and \textbf{does not converge}.
+
+\subsection*{2. The Triangle (3 Vertices)}
+\textbf{Invariant Measure:} The graph is regular; $\pi = (1/3, 1/3, 1/3)$. \\
+\textbf{Convergence:} $p_n = P(X_n=1) = \frac{1}{3} + \frac{2}{3}(-\frac{1}{2})^n$. As $n \to \infty$, $p_n \to 1/3$. The law \textbf{converges} because the graph is aperiodic (contains an odd cycle).
+
+\subsection*{3. The Cube (8 Vertices, Hypercube $Q_3$)}
+\textbf{Matrix Structure:} Although the cube is vertex-transitive, its transition matrix is \textbf{not circulant}. A circulant matrix requires a cyclic ordering that the 3D connectivity of a cube does not support. \\
+\textbf{Invariant Measure:} Since the graph is 3-regular, $\pi = (1/8, \dots, 1/8)$. \\
+\textbf{Convergence:} The cube is a \textbf{bipartite graph}. This implies the chain is periodic with period 2. Consequently, the law of $X_n$ \textbf{does not converge} to the stationary distribution; it oscillates between the two partitions of the bipartite set.
+
+\pagebreak
+
+\section{Exercise 1: Sequence Analysis}
+Let $(Y_i)_{i \geq 1}$ be i.i.d. random variables with law $\mathcal{U}(\{1, \dots, 6\})$.
+
+\subsection{Running Maximum: $X_n = \max\{Y_1, \dots, Y_n\}$}
+\textbf{Markov Property:} $X_{n+1} = \Phi(X_n, Y_{n+1})$ where $\Phi(x, y) = \max(x, y)$. Since $Y_{n+1}$ is independent of $\sigma(Y_1, \dots, Y_n)$, it is independent of $\sigma(X_1, \dots, X_n)$. Thus, $(X_n)$ is a Markov Chain.
+
+\textbf{Transition Matrix $P$:}
+For $i, j \in \{1, \dots, 6\}$:
+\[ P_{ij} = \mathbb{P}(X_{n+1}=j | X_n=i) = \begin{cases} 
+\mathbb{P}(Y_{n+1} \leq i) = \frac{i}{6} & \text{if } j = i \\
+\mathbb{P}(Y_{n+1} = j) = \frac{1}{6} & \text{if } j > i \\
+0 & \text{if } j < i
+\end{cases} \]
+
+\subsection{Sliding Maximum: $X_n = \max\{Y_{n-1}, Y_n\}$}
+\textbf{Proof of Non-Markovian Nature:}
+Consider $\mathbb{P}(X_3 = 1 | X_2 = 5)$. 
+\begin{itemize}
+    \item If $(Y_1, Y_2) = (5, 1)$, then $X_2 = 5$. Then $X_3 = \max(1, Y_3)$, so $\mathbb{P}(X_3=1) = \mathbb{P}(Y_3=1) = 1/6$.
+    \item If $(Y_1, Y_2) = (1, 5)$, then $X_2 = 5$. Then $X_3 = \max(5, Y_3)$, so $\mathbb{P}(X_3=1) = 0$.
+\end{itemize}
+Since $\mathbb{P}(X_3=1 | X_2=5, X_1=x)$ depends on the past (the value of $Y_1$ hidden in $X_1$), the Markov property fails.
+
+\subsection{Counting Sixes: $X_n = \sum_{i=1}^n \mathbf{1}_{Y_i=6}$}
+\textbf{Analysis:} This is a random walk on $\mathbb{N}$ with $X_{n+1} = X_n + \xi_{n+1}$ where $\xi \sim \text{Bernoulli}(1/6)$.
+\textbf{Transition Probabilities:} $P_{i,i} = 5/6$ and $P_{i,i+1} = 1/6$.
+
+\subsection{Last Occurrence Index: $X_n = \max\{k \in \{1,\dots,n\} : Y_k = 6\}$}
+\textbf{Recurrence:} $X_{n+1} = (n+1)\mathbf{1}_{Y_{n+1}=6} + X_n\mathbf{1}_{Y_{n+1} \neq 6}$. 
+\textbf{Transition:} $P(X_{n+1} = n+1 | X_n = i) = 1/6$ and $P(X_{n+1} = i | X_n = i) = 5/6$.
+
+\section{Exercise 2: Simple Random Walks on Graphs}
+
+\subsection{The Two-Vertex Graph ($K_2$)}
+\textbf{Matrix:} $P = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$. 
+\textbf{Invariant Measure:} $\pi = (1/2, 1/2)$ is the unique solution to $\pi P = \pi$.
+\textbf{Law of $X_n$:} $\mu_n = \mu_0 P^n$. If $\mu_0 = (1, 0)$, then $\mu_n = (1, 0)$ for $n$ even and $(0, 1)$ for $n$ odd. 
+\textbf{Non-convergence:} The eigenvalue $\lambda = -1$ (since $\det(P - \lambda I) = \lambda^2 - 1$) implies a period of 2.
+
+\subsection{The Triangle Graph ($K_3$)}
+\textbf{Matrix:} $P = \frac{1}{2}(J - I)$ where $J$ is the all-ones matrix.
+\textbf{General Law:} $p_n = \mathbb{P}(X_n = 1)$. By $p_{n+1} = \frac{1}{2}(1-p_n)$, we solve the characteristic equation to find:
+\[ p_n = \frac{1}{3} + (p_0 - \frac{1}{3})(-\frac{1}{2})^n \]
+\textbf{Convergence:} Since $|-1/2| < 1$, $p_n \to 1/3$. The chain is aperiodic (odd cycle).
+
+\subsection{The Cube Graph ($Q_3$)}
+\textbf{Adjacency:} Vertices $V = \{0,1\}^3$. $x \sim y$ if Hamming distance $d_H(x,y) = 1$.
+\textbf{Transition Matrix:} $P = \frac{1}{3}A$, where $A$ is the adjacency matrix. 
+\textbf{Bipartiteness:} Let $V_0$ be vertices with even bit-sum and $V_1$ with odd bit-sum. $P$ only allows transitions $V_0 \to V_1$ and $V_1 \to V_0$.
+\textbf{Spectrum:} The eigenvalues of the Cube random walk are $\{1, 1/3, -1/3, -1\}$. 
+\begin{itemize}
+    \item The eigenvalue $-1$ confirms the chain is bipartite (period 2).
+    \item Consequently, $\mu_n$ does not converge to $\pi = (1/8, \dots, 1/8)$ but oscillates between $V_0$ and $V_1$.
+\end{itemize}
+
+\section{The Markov Property: A Formal Definition via Conditional Independence}
+
+\section{Introduction}
+The Markov property is the mathematical formalization of the idea that the \textit{future} is independent of the \textit{past}, provided that the \textit{present} state is known. While it is often expressed using conditional probabilities, its most rigorous restatement is through the lens of conditional independence.
+
+\section{Formal Definition}
+Let $(\Omega, \mathcal{F}, \mathbb{P})$ be a probability space and $(X_n)_{n \in \mathbb{N}}$ be a stochastic process taking values in a countable state space $S$.
+
+\subsection{The Conditional Probability View}
+Traditionally, we state that for all $n \geq 0$ and all states $i_0, i_1, \dots, i_n, j \in S$:
+\[ \mathbb{P}(X_{n+1} = j \mid X_n = i_n, X_{n-1} = i_{n-1}, \dots, X_0 = i_0) = \mathbb{P}(X_{n+1} = j \mid X_n = i_n) \]
+
+\subsection{The Conditional Independence View}
+In terms of independence, $(X_n)$ is a Markov chain if for every $n$, the \textbf{future} is conditionally independent of the \textbf{past} given the \textbf{present}.
+
+Formally, let:
+\begin{itemize}
+    \item \textbf{Past:} $\mathcal{P}_n = \sigma(X_0, \dots, X_{n-1})$ (the $\sigma$-algebra generated by the history).
+    \item \textbf{Present:} $\sigma(X_n)$ (the information at the current time).
+    \item \textbf{Future:} $\mathcal{F}_n = \sigma(X_{n+1}, X_{n+2}, \dots)$ (the $\sigma$-algebra of all future events).
+\end{itemize}
+
+The Markov property holds if for any future event $B \in \mathcal{F}_n$ and any past event $A \in \mathcal{P}_n$:
+\[ \mathbb{P}(B \cap A \mid X_n) = \mathbb{P}(B \mid X_n) \mathbb{P}(A \mid X_n) \]
+
+This implies that once $X_n$ is fixed, no event in the history $A$ can provide any additional predictive power regarding the occurrence of the future event $B$.
+
+\section{Application and Violation}
+
+\subsection{Markovian Systems (Independence of Increments)}
+Most Markov chains are constructed as $X_{n+1} = f(X_n, \epsilon_{n+1})$, where $\epsilon_{n+1}$ is an "innovation" or "noise" term. If $\epsilon_{n+1}$ is independent of $(X_0, \dots, X_n)$, the sequence is Markovian. 
+\begin{itemize}
+    \item \textbf{Example:} In a random walk on a cube or $K_4$, the choice of the next neighbor is a random variable $\epsilon_{n+1}$ that is totally independent of the path taken to reach the current vertex.
+\end{itemize}
+
+\subsection{Non-Markovian Systems (Dependency Link)}
+The "Sliding Maximum" $X_n = \max(Y_{n-1}, Y_n)$ fails because the variable $Y_n$ is shared between the present $X_n$ and the future $X_{n+1} = \max(Y_n, Y_{n+1})$.
+Because $Y_n$ is also partially constrained by the past state $X_{n-1} = \max(Y_{n-2}, Y_{n-1})$, the past and future remain "linked" by $Y_n$. Knowing only the maximum $X_n$ does not fully decouple this link, thus violating the requirement for conditional independence.
+
+\end{document}

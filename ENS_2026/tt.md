@@ -54,6 +54,8 @@ The Long Line is the "Boogeyman" of topology. It warns mathematicians that **loc
 
 ---
 
+# Metrizability Theorems
+
 ## 1. The Urysohn Metrization Theorem
 Urysohn's theorem provides a sufficient condition for a topological space to be metrizable. It is a "top-down" approach: if a space is small enough (second-countable) and separated enough (regular), it must be metrizable.
 
@@ -93,6 +95,8 @@ The Long Line is the quintessential example of a non-metrizable manifold.
 * **Global Failure:** The Long Line is constructed as $L = \omega_1 \times [0, 1)$ (where $\omega_1$ is the first uncountable ordinal). 
 * **The Contradiction:** $L$ is sequentially compact but **not** compact. In a metrizable space, these two properties must coincide. Therefore, $L$ cannot be metrized.
 * **Size:** $L$ is "
+
+# Embedding Compact Manifolds into $\mathbb{R}^N$"
 
 
 ## 1. The Core Idea: Manifolds as Metric Spaces
@@ -153,7 +157,7 @@ The Long Line is a $1$-dimensional manifold, but it cannot be embedded into any 
 
 ---
 
-# References
+# Partition of unity with references
 
 ## 1. References in Michael Spivak
 **Book:** *Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus*

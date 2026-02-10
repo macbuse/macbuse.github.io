@@ -29,10 +29,16 @@
 </ul></li>
 <li><a href="#comparison-the-real-line-vs.-the-long-line">3. Comparison: The Real Line vs. The Long Line</a></li>
 <li><a href="#why-should-you-care">Why should you care?</a></li>
+</ul></li>
+<li><a href="#metrizability-theorems">Metrizability Theorems</a>
+<ul>
 <li><a href="#the-urysohn-metrization-theorem">1. The Urysohn Metrization Theorem</a></li>
 <li><a href="#the-bing-nagata-smirnov-theorem">2. The Bing-Nagata-Smirnov Theorem</a></li>
 <li><a href="#why-metrizability-matters">3. Why Metrizability Matters</a></li>
 <li><a href="#why-the-long-line-l-fails">4. Why the Long Line <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> Fails</a></li>
+</ul></li>
+<li><a href="#embedding-compact-manifolds-into-mathbbrn">Embedding Compact Manifolds into <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>N</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^N</annotation></semantics></math>"</a>
+<ul>
 <li><a href="#the-core-idea-manifolds-as-metric-spaces">1. The Core Idea: Manifolds as Metric Spaces</a></li>
 <li><a href="#embedding-into-euclidean-space-mathbbrn">2. Embedding into Euclidean Space <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>N</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^N</annotation></semantics></math></a></li>
 <li><a href="#the-mechanism-partition-of-unity">3. The Mechanism: Partition of Unity</a></li>
@@ -41,7 +47,7 @@
 <li><a href="#summary-table">Summary Table</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#references">References</a>
+<li><a href="#partition-of-unity-with-references">Partition of unity with references</a>
 <ul>
 <li><a href="#references-in-michael-spivak">1. References in Michael Spivak</a></li>
 <li><a href="#references-in-guillemin-pollack">2. References in Guillemin &amp; Pollack</a></li>
@@ -120,6 +126,7 @@
 <h2 id="why-should-you-care">Why should you care?</h2>
 <p>The Long Line is the “Boogeyman” of topology. It warns mathematicians that <strong>local properties</strong> (looking like at every point) do not always dictate <strong>global properties</strong> (being able to measure the whole thing with a ruler). It proves that you can have a space that is perfectly smooth and continuous, yet so vast that it breaks the fundamental rules of distance.</p>
 <hr />
+<h1 id="metrizability-theorems">Metrizability Theorems</h1>
 <h2 id="the-urysohn-metrization-theorem">1. The Urysohn Metrization Theorem</h2>
 <p>Urysohn’s theorem provides a sufficient condition for a topological space to be metrizable. It is a “top-down” approach: if a space is small enough (second-countable) and separated enough (regular), it must be metrizable.</p>
 <p><strong>Theorem:</strong> Every second-countable, regular <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>T</mi><mn>2</mn></msub><annotation encoding="application/x-tex">T_2</annotation></semantics></math> space is metrizable.</p>
@@ -152,6 +159,7 @@
 <li><strong>The Contradiction:</strong> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> is sequentially compact but <strong>not</strong> compact. In a metrizable space, these two properties must coincide. Therefore, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> cannot be metrized.</li>
 <li><strong>Size:</strong> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>L</mi><annotation encoding="application/x-tex">L</annotation></semantics></math> is "</li>
 </ul>
+<h1 id="embedding-compact-manifolds-into-mathbbrn">Embedding Compact Manifolds into <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>N</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^N</annotation></semantics></math>"</h1>
 <h2 id="the-core-idea-manifolds-as-metric-spaces">1. The Core Idea: Manifolds as Metric Spaces</h2>
 <p>By definition, a manifold <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>M</mi><annotation encoding="application/x-tex">M</annotation></semantics></math> is <strong>locally Euclidean</strong>. This means every point <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>∈</mo><mi>M</mi></mrow><annotation encoding="application/x-tex">p \in M</annotation></semantics></math> has a neighborhood <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>U</mi><annotation encoding="application/x-tex">U</annotation></semantics></math> such that there exists a homeomorphism <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ϕ</mi><mo>:</mo><mi>U</mi><mo>→</mo><mi>V</mi></mrow><annotation encoding="application/x-tex">\phi: U \to V</annotation></semantics></math>, where <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>V</mi><annotation encoding="application/x-tex">V</annotation></semantics></math> is an open subset of <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mstyle mathvariant="double-struck"><mi>ℝ</mi></mstyle><mi>n</mi></msup><annotation encoding="application/x-tex">\mathbb{R}^n</annotation></semantics></math>.</p>
 <p>If a manifold is <strong>compact</strong>, several “niceness” properties converge: * It is automatically <strong>second-countable</strong>. * It is <strong>Hausdorff</strong> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>T</mi><mn>2</mn></msub><annotation encoding="application/x-tex">T_2</annotation></semantics></math>) and <strong>normal</strong> (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>T</mi><mn>4</mn></msub><annotation encoding="application/x-tex">T_4</annotation></semantics></math>). * Because it is second-countable and regular, the <strong>Urysohn Metrization Theorem</strong> tells us that every compact manifold is metrizable.</p>
@@ -212,7 +220,7 @@
 </tbody>
 </table>
 <hr />
-<h1 id="references">References</h1>
+<h1 id="partition-of-unity-with-references">Partition of unity with references</h1>
 <h2 id="references-in-michael-spivak">1. References in Michael Spivak</h2>
 <p><strong>Book:</strong> <em>Calculus on Manifolds: A Modern Approach to Classical Theorems of Advanced Calculus</em></p>
 <p>In this text, Spivak introduces bump functions specifically to build a <strong>Partition of Unity</strong>, which he then uses to define integration on manifolds.</p>
