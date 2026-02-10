@@ -18,6 +18,13 @@
 
 ---
 
+## Week 4 files
+
+- [exposé](./week4_expose2.pdf)
+
+
+---
+
 ## Week 3 files
 
 - [exposé](./Classification des variétés de dimension 1.pdf))
