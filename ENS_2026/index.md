@@ -11,10 +11,18 @@
 | February 10, 2026 |Emanuel et Maryam | Sard |
 | February 17, 2026 | | Vacances |
 
-<!-- | March 10, 2026 | | orientability | -->
+<!-- | March 10, 2026 |   Louve Grosjean–Ducateau  | Brouwer | -->
 <!-- | March 17, 2026 | | orientability | -->
 <!-- | March 24, 2026 | | champs de vecteurs | -->
 <!-- | March 31, 2026 | | champs de vecteurs | -->
+
+---
+
+
+## Week 5 files
+
+
+- [exposé](./expose_5w_Topology_from_the_differentiable_viewpoint___Exposé_Sard_et_Brown.pdf)
 
 ---
 
@@ -98,4 +106,4 @@ theorem](https://www.ams.org/journals/proc/2000-128-05/S0002-9939-99-05205-3/S00
 | **Euler Characteristic** | The single number that captures a manifold's most basic shape (holes, etc.). |
 
 
-
+louis.bissay@ens-lyon.fr, louve.grosjean--ducateau@ens-lyon.fr, maryam.kouhkan@ens-lyon.fr, theo.feijoo@ens-lyon.fr
