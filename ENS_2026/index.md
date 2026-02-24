@@ -10,8 +10,9 @@
 | February 3, 2026 | Louis et Théo | 1 manifolds |
 | February 10, 2026 |Emanuel et Maryam | Sard |
 | February 17, 2026 | | Vacances |
+| February 24, 2026 | Louve Grosjean–Ducateau  | Brouwer |
 
-<!-- | March 10, 2026 |   Louve Grosjean–Ducateau  | Brouwer | -->
+<!-- | March 10, 2026 |   | Brouwer | -->
 <!-- | March 17, 2026 | | orientability | -->
 <!-- | March 24, 2026 | | champs de vecteurs | -->
 <!-- | March 31, 2026 | | champs de vecteurs | -->
