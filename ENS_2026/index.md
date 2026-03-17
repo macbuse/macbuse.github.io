@@ -11,11 +11,27 @@
 | February 10, 2026 |Emanuel et Maryam | Sard |
 | February 17, 2026 | | Vacances |
 | February 24, 2026 | Louve Grosjean–Ducateau  | Brouwer |
-
-<!-- | March 10, 2026 |   | Brouwer | -->
-<!-- | March 17, 2026 | | orientability | -->
-<!-- | March 24, 2026 | | champs de vecteurs | -->
+| March 3, 2026 |??   | ?? |
+| March 10, 2026 |   | Brouwer |
+| March 17, 2026 | | exercices |
+| March 24, 2026 | | champs de vecteurs |
 <!-- | March 31, 2026 | | champs de vecteurs | -->
+
+
+---
+
+## 17/03
+
+| | Exercise # | Topic | Key Hint / Strategy |
+| :--- | :--- | :--- | :--- |
+| **Theo** | **2** | Complex Polynomials | Use the **Fundamental Theorem of Algebra**. For a regular value $w$, $P(z) = w$ has $n$ roots. Since $P$ is holomorphic, the Jacobian determinant of the module of $P'(z)^2$ is always $\ge 0$, so each preimage counts as $+1$ toward the degree. |
+| **Theo** | **6** | Brouwer Fixed Point | Use **proof by contradiction**. If $f(x) \neq x$ for all $x$, then $f$ is homotopic to the antipodal map $a(x) = -x$. Since $\text{deg}(a) = (-1)^{n+1}$, any map with a different degree must have a fixed point. |
+| **Maryam** | **3** | Non-Antipodal Maps | The condition $\|f(x) - g(x)\| < 2$ means $f(x)$ and $g(x)$ are never opposite. Define a straight-line homotopy $H(t) = (1-t)f(x) + tg(x)$ and normalize it: $H/\|H\|$ to keep it on the sphere. |
+| **Louve** | **4** | Smooth Approximation | Extend $f$ to a neighborhood and use the **Stone-Weierstrass Theorem** to find a smooth map $g$ such that $\|f - g\| < \epsilon$. If $\epsilon$ is small, $g(x)/\|g(x)\|$ is a smooth map to $S^p$ homotopic to $f$. |
+| **Louve** | **9** | Graphs of Maps | Consider the map $\psi: M \to M \times N$ defined by $\psi(x) = (x, f(x))$. Show this is an embedding. The tangent space $T\Gamma$ is the image of the derivative $d\psi_x(v) = (v, df_x(v))$, which is exactly the graph of $df_x$. |
+| **Emanuel** | **7** | Odd Degree Maps | If $f(x)$ never equals $-f(-x)$, then $f$ is homotopic to an even map. Even maps $S^n \to S^n$ have even degree (specifically $0$ for even $n$), which contradicts the "odd degree" premise. |
+| **Louis** | **5** | Dimension Mismatch | By **Sard’s Theorem**, if $m < p$, the image $f(M)$ has measure zero in $S^p$. Therefore, $f$ is not surjective. A non-surjective map into $S^p$ maps into a contractible punctured sphere and is thus homotopic to a constant. |
+
 
 ---
 
