@@ -9,13 +9,14 @@
 | January 27, 2026 | Louve + Emanuel | espace tangent, d'alembert gauss |
 | February 3, 2026 | Louis et Théo | 1 manifolds |
 | February 10, 2026 |Emanuel et Maryam | Sard |
-| February 17, 2026 | | Vacances |
+| February 17, 2026 | **VACANCES**|  |
 | February 24, 2026 | Louve Grosjean–Ducateau  | Brouwer |
-| March 3, 2026 |??   | ?? |
-| March 10, 2026 |   | Brouwer |
+| March 3, 2026 | Maryam    | Brouwer  |
+| March 10, 2026 | **PARTIELS** | |
 | March 17, 2026 | | exercices |
-| March 24, 2026 | | champs de vecteurs |
-<!-- | March 31, 2026 | | champs de vecteurs | -->
+| March 24, 2026 |Théo  | Varieté orientable |
+| March 31, 2026 | Louis | Champs de vecteurs |
+| April 13, 2026 | Emmanuel | |
 
 
 ---
