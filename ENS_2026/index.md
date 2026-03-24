@@ -19,6 +19,14 @@
 | April 13, 2026 | Emmanuel | |
 
 
+
+---
+
+## 24/03
+
+
+[orientation and Brouwer degree](./var_orientable.pdf)
+
 ---
 
 ## 17/03
