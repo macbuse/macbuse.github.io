@@ -18,12 +18,15 @@
 | March 31, 2026 | Louis | Champs de vecteurs |
 | April 13, 2026 | Emmanuel | |
 
+---
 
+## 31/03
+
+[Vector fields](./Champs de vecteurs et nombre d'Euler.pdf)
 
 ---
 
 ## 24/03
-
 
 [orientation and Brouwer degree](./var_orientable.pdf)
 
