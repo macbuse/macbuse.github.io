@@ -12,6 +12,8 @@ title: Home
  [CV french](./CV/CV2024.PDF)
  [CV english](./CV/CV_british.pdf)
 
+Today I am giving [this talk in Hefei 9/4](./HEFEI/hefei.html)
+
 - <a href="#teaching">Skip to teaching </a>
 - <a href="#research">Skip to research </a>
 - <a href="#preprints">Skip to preprints</a>
@@ -337,6 +339,11 @@ it's  basically the same
 <!-- - esc-key foroverview -->
 - blue text is a link to a resource on the web
 
+---
+
+### 2026
+
+* [Hefei 9/4](./HEFEI/hefei.html)
 
 ---
 
