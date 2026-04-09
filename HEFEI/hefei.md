@@ -109,7 +109,7 @@ If $\gamma \subset \mathbb{H}$ projects to a simple closed curve in $\mathbb{H}/
 
 ---
 
-- rationals $p/q \in \mathbb{Q}$ 
+- rationals $p/q \in \mathbb{Q}\cup \infty$ 
     - $\leftrightarrow$ simple closed curves on the torus
 - irrationals
     - quadratic irrationals eg golden ratio $\phi =
@@ -208,7 +208,7 @@ $$1, \frac{3}{2}, \frac{7}{5}, \frac{17}{12}, \frac{41}{29}, \frac{99}{70}, \fra
 #
 
 - rational numbers are poorly approximated by rationals
-$$ \left| x - \frac{p}{q} \right| > \frac{1}{2 q}$$
+$$ \left| x - \frac{p}{q} \right| > \frac{C_x}{q}$$
 continued fraction is finite
 - quadratic irrationals are also poorly approximated by rationals
 $$ \left| x - \frac{p}{q} \right| > \frac{C_x}{q^2}$$
@@ -484,7 +484,8 @@ m = Markoff number then there are at most 6 triples containing m.
     * Zhang [An elementary proof...](https://arxiv.org/abs/math/0606283)
     * Lang, Tan [A simple proof....](https://arxiv.org/abs/math/0508443)
     * Baragar [m, 3m - 2, 3m + 2 prime](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88B0E426FFCBEA8B3A345C1074B8CC59/S0008439500018828a.pdf/on-the-unicity-conjecture-for-markoff-numbers.pdf)
-    * [ Bugeaud, Reutenauer, Siksek](https://core.ac.uk/download/pdf/82088222.pdf)
+    * [ Bugeaud, Reutenauer,
+    Siksek](https://www.sciencedirect.com/science/article/pii/S0304397509000930)
 
 * Odd index Fibonacci numbers $\bigcap$  odd index Pell numbers = $\{1, 5\}$
 <!-- * Conclusion too hard!!! -->
