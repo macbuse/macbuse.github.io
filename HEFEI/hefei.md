@@ -95,8 +95,8 @@ If $\gamma \subset \mathbb{H}$ projects to a simple closed curve in $\mathbb{H}/
 
 
 - **Lemma A** If $\gamma \subset \mathbb{H}$ projects to a simple closed geodesic in $\mathbb{H}/\Gamma'$ then it is either:
-    - a vertical line or 
-    - disjoint from the horoball with $r = 3$ (in grey).
+    - a vertical line 
+    - or disjoint from the horoball with $r = 3$ (in grey).
 
 ![w:1200](./simple_geodesic.png)
 
@@ -115,7 +115,7 @@ If $\gamma \subset \mathbb{H}$ projects to a simple closed curve in $\mathbb{H}/
     - quadratic irrationals eg golden ratio $\phi =
     \frac{1+\sqrt{5}}{2}$ 
     - other irrationals $\sqrt{2} + \sqrt{5}$
-
+    
 # Continued fraction of $x\in \mathbb{R}_+$
 
 $$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + \dots}}}$$
@@ -638,7 +638,7 @@ $$A^2B = \begin{pmatrix} -1 & 4 \\ -2 & 7 \end{pmatrix}, A^3B = \begin{pmatrix} 
 - Traces $6= 3\times 2,15=3\times 5,39=3\times 13,102= 3\times 34$
 
 
-- **Theorem**
+- **Theorem** (Penner)
 Let $\alpha$ be a simple closed geodesic on the punctured torus and $\alpha^*$ the unique arc disjoint from $\alpha$. and $\beta^*,\gamma^*$ a pair of arcs such that $\alpha^*,\beta^*,\gamma^*$ are the sides of an embedded ideal triangle. 
 Then 
     1.the  (normalised) $\lambda$-lengths of $\alpha^*,\beta^*,\gamma^*$ is a Markoff triple.
@@ -662,7 +662,7 @@ gives integer $\lambda$-lengths to the images of $\beta^*,\gamma^*$.
 <!-- transition: slide -->
 - This is equivalent to a statement like:
 
-- no "fractional" twist along one of the $A^nB,\,n\geq 2$
+- No "fractional" twist along one of the $A^nB,\,n\geq 2$
 takes the arc of $\lambda$ length $1$ that meets $\alpha$
 to an arc of $\lambda$-length $2$.
 

@@ -12,7 +12,8 @@ title: Home
  [CV french](./CV/CV2024.PDF)
  [CV english](./CV/CV_british.pdf)
 
-Today I am giving [this talk in Hefei 9/4](./HEFEI/hefei.html)
+- I gave [this talk in Hefei 9/4](./HEFEI/hefei.html)
+- I started thinking about [Fibonacci number](./golden.pdf)
 
 - <a href="#teaching">Skip to teaching </a>
 - <a href="#research">Skip to research </a>
