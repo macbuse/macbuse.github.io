@@ -1,0 +1,550 @@
+\documentclass[12pt,a4paper]{amsart}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\usepackage{hyperref}
+
+\usepackage{float}
+\usepackage{subfig}
+
+
+%\usepackage[dvipdfmx]{graphicx}
+\usepackage{graphicx}
+\usepackage{caption}
+%\usepackage[nobysame, alphabetic]{amsrefs}
+%\usepackage{here}
+%\usepackage{showkeys}
+\newcommand{\modif}{$\clubsuit$}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{coro}[thm]{Corollary}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{lem}[thm]{Lemma}
+%\theoremstyle{definition}
+\newtheorem{rmk}[thm]{Remark}
+\newtheorem{cond}[thm]{Condition}
+
+%CB defs
+\def\HH{\mathbb{H}}
+\def\dHH{\partial \mathbb{H}}
+\def\HHn{\HH^n}
+\def\hd{\hat{\delta}}
+\def\ha{\hat{\alpha}}
+\def\haa{\ha \cup \{\alpha^+,\alpha^-\}}
+
+\def\im{\mathrm{Im}\,}
+
+
+
+\def\SL{\mathrm{SL}(2,\CC)}
+
+\def\xx{\HH/\Gamma'}
+
+
+\def\ZZ{\mathbb{Z}}
+\def\CC{\mathbb{C}}
+\def\RR{\mathbb{R}}
+\def\QQ{\mathbb{Q}}
+\def\NN{\mathbb{N}}
+
+\def\tt{\Sigma_{1,1}}
+
+\def\fp{\mathbb{F}_p}
+\def\aut{\text{Aut}(\F2)}
+\def\gl2{\mathrm{GL}(2, \ZZ)}
+\def\sl2{\mathrm{SL}(2, \ZZ)}
+\def\g2{\Gamma(2)}
+\def\GG{G_m}
+\def\slc{\mathrm{SL}(2, \CC)}
+
+% \def\xx{\HH/\g2}
+\def\gg{\mathcal{G}_n}
+\def\ggp{\mathcal{G}_p}
+
+\def\isom{\mathrm{isom}(\HH)}
+
+\def\isomH{\text{isom}^+(\HH)}
+\def\tr{\text{tr\,}}
+
+
+\def\GI{\mathbb{Z}[i]}
+\def\hc{\CC \setminus \GI}
+
+
+
+\title{Fibonacci relations}
+
+ \author[McShane]{Greg McShane}
+\address{Institut Fourier 100 rue des maths, BP 74, 38402 Gieres. France}
+\email{mcshane at univ-grenoble-alpes.fr}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract} 
+
+
+	Following Melhain \cite{melhain} , Cheng and Mong \cite{mong}
+	give a list of 12 identities involving Fibonacci numbers,
+	which they attribute to various authors. We give a
+	diagramatic interpretation (Figure \ref{Fibonacci
+	numbers}) of these using $\lambda$-lengths of arcs on a
+	hyperbolic annulus  , and then we show how to derive them
+	using essentially Penner's Ptolemy relation \cite{bob}.
+
+As always we claim no originality, and we are sure that this is well
+known to experts. It's merely exercise in organisation and evaluating the limits of geometric intuition.
+
+\end{abstract} 
+
+\section{Introduction}
+
+The Fibonacci numbers are defined by the recurrence relation
+with the first two terms given by $F_0 = 0$ and $F_1 = 1$:
+$$0,1,1,2,3,5,8,13,21,34,55,89,144,\ldots$$
+There is a closed formula for $F_n$ called the Binet formula, which
+remarkable as it is we shall not need here:
+\begin{equation}
+F_n = \frac{1}{\sqrt{5}}\left(\left(\frac{1+\sqrt{5}}{2}\right)^n
+-
+\left(\frac{1-\sqrt{5}}{2}\right)^n\right).\label{binet}
+\end{equation}
+Integers are usually represented on a number line, but we will
+represent the Fibonacci numbers as vertices of a regular graph as in Figure
+\ref{Fibonacci numbers}. We will see how properties of the Fibonacci
+numbers are reflected in the geometry of this graph. 
+The graph naturally partitions the Fibonacci numbers into two sets, the even indexed Fibonacci numbers and the odd indexed Fibonacci
+numbers. 
+
+
+\begin{figure}[hb]
+\begin{center}
+\includegraphics[scale=1]{just_numbers.png} 
+\end{center}
+\caption{Fibonacci numbers as vertices of a graph: odd index Fibonacci numbers are above
+and even below.}
+\label{Fibonacci numbers}
+\end{figure}
+
+\subsection{Identities}
+
+\begin{equation}
+	F_{n+1} = F_{n} + F_{n-1}, \label{recurrence}
+\end{equation}
+but they also satisfy many other identities. We will be concerned
+with these and the relationship between them. In particular, we will be concerned with the following two identities:
+
+\begin{equation}
+	F_{n-1}F_{n+1} - F_{n}^2 = (-1)^n \label{cassini}
+\end{equation}
+
+and
+
+\begin{equation}
+	F_{n-2}F_{n-1}F_{n+1}F_{n+2} - F_{n}^4 = -1 \label{gelin}
+\end{equation}
+
+According to Dickson \cite{dickson}, pages 393 and 401, the first of these identities was proved by Robert Simson and the second was stated by E. Gelin and proved by E. Cesàro. Simson's identity and the Gelin-Cesàro identity have been generalized many times. 
+
+
+The identity (\ref{cassini})is an immediate consequence of the matrix identity:
+
+\begin{equation}
+	\begin{pmatrix}	F_{n+1} & F_n \\ F_n & F_{n-1}
+		\end{pmatrix} = \begin{pmatrix} 1 & 1 \\ 1 & 0
+	\end{pmatrix}^n \label{matrix}
+	\end{equation}
+and the fact that 
+$$\det \begin{pmatrix} 1 & 1 \\ 1 & 0
+	\end{pmatrix} = -1.$$
+In fact, all the $\lambda$-lengths we consider are simply
+determinants of $2 \times 2$ matrices whose entries are Fibonacci
+numbers. It will be convenient to extend the definition of Fibonacci numbers
+to negative integers by using the matrix identity (\ref{matrix})
+above.
+The $F_n$ will be the lower left (= upper right) hand entry of the $n$th power of our
+matrix on the left so that in particular $F_0 = 0$ and $F_{-1} = 1$
+and more generally 
+$$F_{-n} = (-1)^{n+1}F_n.$$
+
+\begin{figure}[hb]
+\begin{center}
+\includegraphics[scale=1]{fibonacci_triangles.png} 
+\end{center}
+\caption{Fibonacci fractions}
+\label{Fibonacci fractions}
+\end{figure}
+
+\subsection{History according to Hendel}
+
+Hendel gives a brief account of development of the identities
+(\ref{cassini}) and (\ref{gelin}) and their generalizations:
+\begin{eqnarray}
+F_{n+1}F_{n-1} &=& F_n^2 + (-1)^n, \\
+F_{n+a}F_{n-a} &=& F_n^2 + (-1)^{n+a+1} F_a^2, \\
+F_{n+a}F_{n+b} &=& F_n F_{n+a+b} + (-1)^n F_a F_b.
+\end{eqnarray}
+aredue to Cassini, Catalan and  Tagiuri respectively (see
+\cite{hendel} and \cite{koshy} for details).
+
+\subsection{Melhain new identity}
+
+They prove the following variant of the Gelin-Cesàro identity:
+
+\begin{equation}
+	F_{n+1}F_{n+2}F_{n+6} - F_{n+3}^3 = {-1}^{n} F_n
+	\label{melhain}
+\end{equation}
+In \cite{cheng} Cheng and Mong propose a method of proof for this kind of identity:
+\begin{itemize}
+	\item show both sides satisfy the same recurrence relation
+	\item check the identity for enough initial values to
+		guarantee the identity holds for all $n$.
+\end{itemize}
+
+\subsection{ChatGPT text conversion of Melhain and Shannon's
+introduction}
+
+One method of proof is to use the Cassini identity (\ref{cassini}) to substitute for $(-1)^n$, then express each of $F_{n-1}$, $F_n$, $F_{n+3}$, and $F_{n+6}$ in terms of $F_{n+1}$ and $F_{n+2}$, and expand both sides. We prefer this method of proof since it carries over nicely to our generalization of (3), which we give next.
+
+
+Our generalization is stated for the sequence $\{W_n\} = \{W_n(a, b; p, q)\}$ defined by
+
+\[
+W_n = pW_{n-1} - qW_{n-2}, \quad W_0 = a, \quad W_1 = b
+\]
+
+where $a$, $b$, $p$, $q$ are taken to be arbitrary complex numbers with $q \neq 0$. Since $q \neq 0$, $\{W_n\}$ is defined for all integers $n$. Put $e = pab - qa^2 - b^2$. Then
+
+\[
+W_{n+1}W_{n+2}W_{n+6} - W_{n+3}^3 = eq^{n+1} (p^3W_{n+2} - q^2W_{n+1}) \tag{4}
+\]
+
+
+\section{Chen and Mong's list}
+
+Chen and Mong give a list of identities having done a  search of the
+literature in particular they cite Long \cite{long}, and  Weisstein
+\cite{weis}. Below is an abridged list omitting those entries which
+involve Lucas numbers and those which are proven using induction.
+
+\begin{itemize}
+
+\item[(c1)] $$F_{n+a}F_{n+b} - F_n F_{n+a+b} = (-1)^n F_a F_b$$
+\item[(c4)] $$F_{n-1}F_{n+1} - F_n^2 = (-1)^{n-1}$$
+\item[(d4)] $$F_n^2 - F_{n-2}F_{n+2} = (-1)^n$$
+\item[(d6)] $$F_n^2 - F_{n-1}F_{n+1} = (-1)^{n-1}$$
+\item[(c11)] $$F_n^2 + (-1)^{n+r-1}F_r^2 = F_{n-r}F_{n+r}$$
+\item[(d8)] $$F_n^2 - F_{n-1}^2 = F_n F_{n-1} + (-1)^{n-1}$$
+% \item[(c3)] $$L_n^2 - 5F_n^2 = 4(-1)^n$$
+\item[(c7)] $$F_{n+m} = F_{n-1}F_m + F_n F_{m+1}$$
+\item[(d1)] $$F_{2n} = F_{n+1}^2 - F_{n-1}^2$$
+\item[(d2)] $$F_{2n+1} = F_{n+1}^2 + F_n^2$$
+\item[(d9)] $$F_{2n+1} + (-1)^n = F_{n-1}F_{n+1} + F_{n+1}^2$$
+\item[(d12)] $$F_{2n+1} = F_{n+3}F_n - F_{n+1}F_{n-1}$$
+
+\item[(d3)] $$F_{n+2}F_{n-1} = F_{n+1}^2 - F_n^2$$
+
+
+% \item[(c5)] $$F_m F_n = \frac{1}{5}\left(L_{m+n} - (-1)^n L_{m-n}\right)$$
+% \item[(d5)] $$\sum_{n=1}^{n} F_n^2 = F_n F_{n+1}$$
+
+% \item[(c6)] $$F_n^2 = \frac{1}{5}\left(L_{2n} - 2(-1)^n\right)$$
+
+\item[(d7)] $$F_n F_{n+3} = F_{n+1}F_{n+2} + (-1)^{n-1}$$
+
+% \item[(c8)] $$F_{m-n} = \frac{1}{2}(F_m L_n + L_m F_n)$$
+
+
+% \item[(c10)] $$L_{n+k+1}^2 + L_{n-k}^2 = 5L_{2k+1}L_{2n+1}$$
+% \item[(d10)] $$L_{2n+1} - F_{n+1}^2 - A = (-1)^{n-1}$$
+
+\item[(c11)] $$F_n^2 + (-1)^{n+r-1}F_r^2 = F_{n-r}F_{n+r}$$
+
+
+% \item[(d11)] $$L_{n-1}^2 - F_{n-4}F_n - F_n F_{n+1} = F_{n-2}^2$$
+
+\item[(c2)] $$F_{n+1}^2 = 4F_n F_{n-1} + F_{n-2}^2$$
+\item[(c9)] $$F_{2k+1}F_{2n+1}= F_{n+k+1}^2 + F_{n-k}^2 $$
+\item[(c12)] $$F_n^4 - F_{n-2}F_{n-1}F_{n+1}F_{n+2} = 1$$
+
+\end{itemize}
+
+
+
+\section{Proofs}
+
+We'll give proofs grouping identities as per the previous section.
+The identity (c12) is just a restatement of the Gelin-Cesàro
+identity (\ref{gelin}) and we'll leave this till the end.
+
+\begin{figure}[hb]
+	\begin{center}
+		\includegraphics[scale=1]{fibonacci_labelled.png} 
+	\end{center}
+	\caption{Fibonacci numbers}
+	\label{Fibonacci labelled}
+\end{figure}
+
+\subsection{Variations on Cassini: (c1), (c4), (d4), (d6),
+(c11),(d8)}
+
+Let's begin with the four identities.
+The first on the list (c1) is called Tagiuri’s identity
+see also discussion
+\url{https://math.stackexchange.com/questions/1356391/is-there-a-name-for-this-fibonacci-identity}
+for Vajda's identity.
+
+$$0=(a-b)(a+b)-(a-c)(a+c)+(b-c)(b+c)$$
+$$0=(a-b)(a+b)+(b-c)(b+c)+ (c-a)(c+a)$$
+
+Somos \url{https://grail.eecs.csuohio.edu/%7Esomos/ident04.gp}
+
+
+\begin{eqnarray*}
+	F_{n+a}F_{n+b} - F_n F_{n+a+b} &=& (-1)^n F_a F_b\\
+	F_{n-1}F_{n+1} - F_n^2 &=& (-1)^{n-1} \\
+	F_n^2 - F_{n-2}F_{n+2} &=& (-1)^n \\
+F_n^2 - F_{n-1}F_{n+1} &=& (-1)^{n-1}
+\end{eqnarray*}
+The last identity is just a restatement of the second (with a
+La dernière identité n'est qu'une reformulation de la seconde (avec un
+possible missprint).
+The the first is due to Tagiuri according to Hendel, the  second (Cassini's identity) and the third  are special cases of
+the first  where $a=1, b=-1$ and $a=2, b=-2$ respectively. 
+% provided $F_1= 1$ and $F_{-1} = -1$. 
+
+Another, perhaps more appropriate way is to say that (c4) is a generalization of Cassini's identity.
+
+Not also that, modulo a possible missprint, (c11) is of this form:
+
+$$ F_{n-r}F_{n+r} - F_n^2    = (-1)^{n+r-1}F_r^2$$
+$$ F_{n-r}F_{n+r} - F_n^2    = (-1)^{n}F_r^2$$
+Finally, (d8) which says: 
+$$F_n^2 - F_{n-1}^2 = F_n F_{n-1} + (-1)^{n-1}$$
+is a bit of a "joker" since rearranging one has:
+$$F_n^2 -  F_{n-1}(  F_{n-1} + F_n) =  
+F_n^2 -  F_{n-1}F_{n+1}  =  (-1)^{n-1}.$$
+
+\subsection{Matrix multiplication (c7), (d1), (d2)}
+
+\begin{eqnarray*}
+F_{n+m} &=& F_{n-1}F_m + F_n F_{m+1}\\
+F_{2n} &=& F_{n+1}^2 - F_{n-1}^2\\
+F_{2n+1} &=& F_{n+1}^2 + F_n^2
+\end{eqnarray*}
+Observe that the second is a consequence of the first by setting
+$m=n$ (and using the recurrence to replace for $F_n$). The third is also a  consequence of the second by setting $n$ to
+$n+1$ and using the recurrence relation twice:
+
+\begin{eqnarray*}
+F_{2n+1} &=& F_{n-1}F_{n+1} + F_n F_{n+2} \\
+	 &=& F_{n-1}F_{n+1} + F_n(F_{n+1} + F_n)\\
+	 &=& F_{n-1}F_{n+1} + F_n F_{n+1} + F_n^2\\
+	 &=& F_{n+1}^2 + F_n^2.
+\end{eqnarray*}
+
+In fact (C7) is a consequence of the matrix identity (\ref{matrix})
+since:
+\begin{equation*}
+	\begin{pmatrix}	F_{n+m+ 1} & F_{m+n} \\ F_{m+n} & F_{{m+n}-1}
+		\end{pmatrix} = \begin{pmatrix} 1 & 1 \\ 1 & 0
+	\end{pmatrix}^{m+n} 
+	= 
+	\begin{pmatrix}	F_{n+1} & F_n \\ F_n & F_{n-1} \end{pmatrix} 
+	\begin{pmatrix}	F_{m+1} & F_m \\ F_m & F_{m-1} \end{pmatrix} 
+\end{equation*}
+Clearly the value of the lower left hand coefficient is $F_{m+n}$
+and computing it on the right hand side gives the desired identity.
+
+\subsection{Norms in $\mathbb{Z}[i]$ and c9}
+
+$$F_{2k+1}F_{2n+1}= F_{n+k+1}^2 + F_{n-k}^2 $$
+
+
+$F_{2n+1} = F_{n+1}^2 + F_n^2 = |F_{n+1} + iF_n|^2$
+
+\subsection{Factorisation: Gelin-Cesàro (c12) }
+
+The identity (c12) is just a restatement of the Gelin-Cesàro
+identity:
+
+\begin{equation}
+	F_{n-2}F_{n-1}F_{n+1}F_{n+2} - F_{n}^4 = -1 
+\end{equation}
+Rearranging and factorising one has the more symmetric form:
+$$(F_{n-2}F_{n+2})(F_{n-1}F_{n+1)}) = F_n^4 - 1 = (F_n^2 - 1)(F_n^2 +
+1).$$
+Now  using the Cassini identity yields:
+\begin{eqnarray*}
+	F_{n-2}F_{n+2}&=& (F_n^2 +(-1)^n F_2)\\
+	F_{n-1}F_{n+1}&=& (F_n^2 +(-1)^n F_1)
+\end{eqnarray*}
+then note $F_1 = F_2 = 1$ so the result follows.
+
+\section{Recurrences for powers etc}
+
+An general rule of the theory of linear recurrences, 
+and this  is in some sense what Cheng and Mong are
+exploiting in \cite{cheng}, is that powers of a linear recurrence
+also satisfy a linear recurrence. For example, the Fibonacci numbers
+satisfy the recurrence (\ref{recurrence}) and their squares satisfy:
+
+\begin{equation}
+	F_{n+1}^2 = 2F_n^2 +  2F_{n-1}^2 - F_{n-2}^2
+	\label{recuurence square}
+\end{equation}
+
+More formally: if a sequence $x_n$ has a characteristic equation with roots $\alpha$ and $\beta$, then the sequence of its squares $x_n^2$ will have a characteristic equation whose roots are $\alpha^2$, $\beta^2$, and $\alpha\beta$.For the Fibonacci sequence, the roots of the characteristic equation ($x^2 - x - 1 = 0$) are:
+\begin{itemize}
+\item $\phi = \frac{1+\sqrt{5}}{2}$ (The Golden Ratio)
+\item $\psi = \frac{1-\sqrt{5}}{2}$ (The Conjugate of the Golden Ratio)
+\item $\Rightarrow \phi\psi = -1$ 
+\end{itemize}
+ans so one can compute the characteristic equation for the squares
+of the Fibonacci numbers as follows:
+$$(x - \phi^2)(x - \psi^2)(x - \phi\psi) = 
+% (x - (\phi+1))(x - (\psi+1))(x + 1) =  
+x^3 - 2x^2 - 2x - 1.$$
+The question is how to visualise this recurrence relation for the
+squares of the Fibonacci numbers. 
+
+$$ F_{n+1}^2 -  F_n^2 =  (F_n^2 + F_{n-1}^2) +(F_{n-1}^2 - F_{n-2}^2) $$
+
+
+\begin{eqnarray*}
+\text{LHS} &=& F_{n+1}^2 - F_n^2 \\
+&=& (F_{n+1} - F_n)(F_{n+1} + F_n) \\
+&=& F_{n-1}(F_{n+1} + F_n) \\
+&=& F_{n-1}F_{n+2} \tag{Identity A}\\
+&&\\
+\text{RHS} &=& (F_n^2 + F_{n-1}^2) + (F_{n-1}^2 - F_{n-2}^2) \\
+&=& F_{2n-1} + (F_{n-1} - F_{n-2})(F_{n-1} + F_{n-2}) \\
+&=& F_{2n-1} + F_{n-3}F_n \tag{Identity B}
+\end{eqnarray*}
+
+\thebibliography{99}
+
+\bibitem{cheng}
+Cheng Lien Lang AND Mong Lung Lang,
+Fibonacci numbers and identities,
+The Fibonacci Quarterly,
+Volume 51, 2013 - Issue 4
+\url{https://arxiv.org/pdf/1303.5162}
+
+\bibitem{dickson}
+L.E. Dickson. History of the Theory of Numbers,
+New York: Chelsea, 1966. 
+
+
+\bibitem{hendel}
+Hendel, R. J. (2017). Proof and Generalization of the Cassini-Catalan-Tagiuri-Gould Identities. The Fibonacci Quarterly, 55(5), 76–85. https://doi.org/10.1080/00150517.2017.12427738
+\url{https://www.fq.math.ca/Papers1/55-5/Hendel.pdf}
+
+\bibitem{koshy}
+ T. Koshy, Fibonacci and Lucas Numbers with Applications,
+John Wiley \& Sons, 2001 
+ ISBN:9780471399698 DOI:10.1002/9781118033067
+
+\bibitem{long}
+C. T. Long , Discover Fibonacci identities, The Fibonacci Quarterly 24.2 (1986), 160–167
+\url{https://www.fq.math.ca/Scanned/24-2/long.pdf}
+
+\bibitem{melhain2}
+ R.S Melham, A Fibonacci identity in the spirit of Simon and Gelin-Ces`aro, The Fibonacci Quarterly 41.2
+(2003), 142-143
+
+\bibitem{melhain}
+ S. Melhain and A, G. Shannon
+A generalization of the catalan identity and some consequences,
+Fibonacci Quarterly, 1995
+\url{https://opus.lib.uts.edu.au/bitstream/10453/17914/1/2011005583OK.pdf}
+
+\bibitem{bob}
+R. C. Penner, 
+\textit{The decorated Teichmueller space of punctured surfaces}, 
+Communications in Mathematical Physics 113 (1987), 299–339.
+
+\bibitem{spring}
+Boris Springborn, 
+\textit{The hyperbolic geometry of Markov’s theorem on Diophantine
+approximation and quadratic forms.} Enseign. Math. 63 (2017)
+
+\bibitem{weis}
+ E. W. Weisstein, Fibinacci numbers,\url{ http://
+ www.mathworld.wolfram.com/FibonacciNumbers.html}
+
+
+\bibitem{cana}
+Ilke Canakci, Ralf Schiffler
+\textit{Snake graphs and continued fractions}
+European Journal of Combinatorics
+Volume 86, May 2020, 103081
+
+\bibitem{squares}
+G. McShane, V. Sergesciu
+\textit{Geometry of fermat’s sum of squares}, 2021 
+\url{https://macbuse.github.io/squares.pdf}
+
+\bibitem{mong}
+M.L. Lang, S.P Tan,
+\textit{A simple proof of the Markoff conjecture for prime powers}
+Geometriae Dedicata volume 129, pages15–22 (2007)
+
+
+
+
+
+  \bibitem{copilot}
+  Tim Pope Copilot for vim
+   \url{https://github.com/github/copilot.vim}
+
+%
+
+%\bibitem{mcr}
+%Greg McShane, Igor Rivin
+%\textit{A norm on homology of surfaces and counting simple geodesics}
+%International Mathematics Research Notices, Volume 1995, Issue 2, 1995
+%
+%
+%
+%\bibitem{ra}
+%M. Rabideaua, R. Schiffler,
+%\textit{Continued fractions and orderings on the Markov numbers},
+%Advances in Mathematics Vol 370,  2020.
+%
+%
+%
+%\bibitem{vu}
+%C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon,
+%\textit{On the Markov numbers: fixed numerator, denominator, and sum conjectures.}
+%\url{https://arxiv.org/abs/2010.10335}
+%
+
+
+%\bibitem{Gui}
+%L. Guillop\'e, Laurent(F-GREN-F)
+%Sur la distribution des longueurs des g\'eod\'esiques ferm\'ees d'une surface compacte \`a bord totalement g\'eod\'esique. 
+%Duke Math. J. 53 (1986), no. 3, 827-848. 
+
+%\bibitem{MC}
+%C. L. Mallows and J. M. C. Clark. 
+%{\it Linear-intercept distributions do not characterize plane sets}
+% Journal of Applied Probability, 7(1):240-244, 1970.
+% 
+% \bibitem{Masai-McShane}
+% Masai, Hidetoshi and Greg McShane,
+% ``On systoles and ortho spectrum rigidity'', preprint.
+% \bibitem{MMc}
+% Masai, Hidetoshi, and Greg McShane. "Equidecomposability, volume formulae and ortho spectra." Algebraic \& Geometric Topology 13.6 (2013): 3135-3152.
+ 
+
+
+
+\end{document}
+
