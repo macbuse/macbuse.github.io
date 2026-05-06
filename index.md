@@ -18,6 +18,7 @@ Today I'm doing the last class of the year
 - [TP3 worksheet](./PROBA/TP3.pdf)
 - [support file](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/circ.txt)
 - [support file](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/h.txt)
+- [indications](./PROBA/TP3_explanation.md)
 
 - I gave [this talk in Hefei 9/4](./HEFEI/hefei.html)
 - I started thinking about [Fibonacci number](./golden.pdf)
