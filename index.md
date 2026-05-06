@@ -12,6 +12,10 @@ title: Home
  [CV french](./CV/CV2024.PDF)
  [CV english](./CV/CV_british.pdf)
 
+
+Today I'm doing the last class of the year
+- [TP3 worksheet](./PROBA/tp_L3M_2526.pdf)
+
 - I gave [this talk in Hefei 9/4](./HEFEI/hefei.html)
 - I started thinking about [Fibonacci number](./golden.pdf)
 
@@ -20,6 +24,7 @@ title: Home
 - <a href="#preprints">Skip to preprints</a>
 - <a href="#talks">Skip to slides for talks</a>
 - <a href="#fablab">Skip to slides for fablab</a>
+- [cheat sheet](./PROBA/tp3_L3M.py)
 
 ---
 
