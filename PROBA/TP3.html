@@ -7512,6 +7512,18 @@ a.anchor-link {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=32c90d32-3aa4-47e5-805c-18667a8da9a6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<hr/>
+<h1 id="Exo-1">Exo 1<a class="anchor-link" href="#Exo-1">¶</a></h1>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bf449359-6fe9-4f75-b06c-dead8ddbff8d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7585,7 +7597,7 @@ Angle en degrés entre y recentré et x recentré 28.772383472847874
 <div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">simport</span> <span class="n">numpy</span> <span class="k">as</span> <span class="n">np</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
 <span class="c1"># 1. Load Data</span>
@@ -7652,7 +7664,79 @@ Angle between centered vectors: 28.77°
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=dc413af8-7b00-4678-aba3-c340518733a9">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7bc52aa5-3f1d-4823-b75e-b9e4dceb75a1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<hr/>
+<h1 id="Exo-2">Exo 2<a class="anchor-link" href="#Exo-2">¶</a></h1><h3 id="Explication-des-m%C3%A9thodes-utilis%C3%A9es">Explication des méthodes utilisées<a class="anchor-link" href="#Explication-des-m%C3%A9thodes-utilis%C3%A9es">¶</a></h3><ul>
+<li><strong><code>stats.t.ppf(q, df)</code></strong> : La fonction <em>Percent Point Function</em> (inverse de la fonction de répartition). Elle permet de trouver la valeur critique $t$ pour un niveau de confiance donné et un nombre de degrés de liberté ($df$).</li>
+<li><strong><code>np.sqrt()</code></strong> : Calcule la racine carrée.</li>
+<li><strong>F-strings (<code>f"..."</code>)</strong> : Utilisées pour intégrer les variables directement dans le texte et arrondir les résultats (ex: <code>:.3f</code> pour 3 décimales), ce qui est beaucoup plus propre que les concaténations manuelles.</li>
+</ul>
+<h3 id="Ce-que-ce-calcul-repr%C3%A9sente">Ce que ce calcul représente<a class="anchor-link" href="#Ce-que-ce-calcul-repr%C3%A9sente">¶</a></h3><p>L'intervalle obtenu permet de déterminer si la différence entre les deux groupes (A et B) est statistiquement significative. Si l'intervalle ne contient pas la valeur <strong>0</strong>, 
+on peut généralement rejeter l'hypothèse d'égalité des moyennes au seuil $\alpha$.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=dc413af8-7b00-4678-aba3-c340518733a9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">stats</span>
+
+<span class="c1"># 1. Paramètres et données</span>
+<span class="n">n1</span><span class="p">,</span> <span class="n">n2</span> <span class="o">=</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span>
+<span class="n">n</span> <span class="o">=</span> <span class="n">n1</span> <span class="o">+</span> <span class="n">n2</span>
+<span class="n">alpha</span> <span class="o">=</span> <span class="mf">0.05</span>
+
+<span class="n">mean_a</span><span class="p">,</span> <span class="n">std_a</span> <span class="o">=</span> <span class="mf">4.8</span><span class="p">,</span> <span class="mf">0.36</span>
+<span class="n">mean_b</span><span class="p">,</span> <span class="n">std_b</span> <span class="o">=</span> <span class="mf">5.7</span><span class="p">,</span> <span class="mf">0.40</span>
+
+<span class="c1"># 2. Calcul de l'écart-type combiné (Pooled Standard Deviation)</span>
+<span class="c1"># Formule : sqrt( ((n1-1)*s1^2 + (n2-1)*s2^2) / (n1+n2-2) )</span>
+<span class="n">pooled_std</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(((</span><span class="n">n1</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">std_a</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="p">(</span><span class="n">n2</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">std_b</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">))</span>
+
+<span class="c1"># 3. Calcul de la marge d'erreur (Epsilon)</span>
+<span class="c1"># t_alpha/2 pour n-2 degrés de liberté</span>
+<span class="n">t_critique</span> <span class="o">=</span> <span class="n">stats</span><span class="o">.</span><span class="n">t</span><span class="o">.</span><span class="n">ppf</span><span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">alpha</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">erreur_type</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="n">n1</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">/</span> <span class="n">n2</span><span class="p">)</span> <span class="o">*</span> <span class="n">pooled_std</span>
+<span class="n">marge_erreur</span> <span class="o">=</span> <span class="n">t_critique</span> <span class="o">*</span> <span class="n">erreur_type</span>
+
+<span class="c1"># 4. Calcul de l'intervalle</span>
+<span class="n">diff_moyennes</span> <span class="o">=</span> <span class="n">mean_a</span> <span class="o">-</span> <span class="n">mean_b</span>
+<span class="n">borne_inf</span> <span class="o">=</span> <span class="n">diff_moyennes</span> <span class="o">-</span> <span class="n">marge_erreur</span>
+<span class="n">borne_sup</span> <span class="o">=</span> <span class="n">diff_moyennes</span> <span class="o">+</span> <span class="n">marge_erreur</span>
+
+<span class="c1"># 5. Affichage</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Intervalle de confiance à </span><span class="si">{</span><span class="mi">1</span><span class="o">-</span><span class="n">alpha</span><span class="si">:</span><span class="s2">.0%</span><span class="si">}</span><span class="s2"> : [</span><span class="si">{</span><span class="n">borne_inf</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2"> ; </span><span class="si">{</span><span class="n">borne_sup</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">]"</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Intervalle de confiance à 95% : [-1.222 ; -0.578]
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=5a485f06-ce0c-42ac-9fb1-1bfa6aaaf161">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>

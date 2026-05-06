@@ -3,10 +3,13 @@
 *   **`np.loadtxt(path)`** : Lit les données d'un fichier texte (comme `.txt` ou `.csv`). Chaque ligne est traitée comme une ligne et chaque valeur séparée par un espace ou une virgule comme une colonne, retournant un tableau NumPy.
 *   **`np.linspace(start, stop, num)`** : Génère un tableau de `num` nombres répartis uniformément sur un intervalle spécifié. C'est idéal pour créer des lignes lisses lors du traçage de fonctions.
 
-### Analyse statistique
+### Analyse statistique (numpy)
 *   **`np.polyfit(x, y, deg)`** : Ajuste un polynôme de degré `deg` aux données selon la méthode des moindres carrés. Utiliser `deg=1` renvoie la pente ($a$) et l'ordonnée à l'origine ($b$) pour une régression linéaire ($y = ax + b$).
 *   **`np.corrcoef(x, y)`** : Calcule les coefficients de corrélation de Pearson. Il renvoie une matrice où les valeurs hors diagonale représentent la corrélation entre $x$ et $y$.
 *   **`np.quantile(a, q)`** : Calcule le $q$-ième quantile des données. Par exemple, `0.5` est la médiane, tandis que `0.1` et `0.9` permettent d'identifier l'étalement ou les limites de la distribution.
+
+### Analyse statistique (SciPy)
+*   **`stats.t.ppf(q, df)`** : La *Percent Point Function* (inverse de la fonction de répartition) pour la distribution T de Student. Elle permet de trouver la **valeur critique** (le seuil) pour un niveau de probabilité `q` et un nombre de degrés de liberté `df`. C'est l'outil indispensable pour calculer les marges d'erreur des intervalles de confiance.
 
 ### Opérations mathématiques
 *   **`np.arccos(x)`** : Fonction arc cosinus (inverse du cosinus). Elle renvoie l'angle en radians pour une valeur de cosinus donnée.
