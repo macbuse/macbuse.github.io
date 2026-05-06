@@ -16,8 +16,8 @@ title: Home
 
 Today I'm doing the last class of the year
 - [TP3 worksheet](./PROBA/TP3.pdf)
-- [support](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/circ.txt)
-- [support](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/h.txt)
+- [support file](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/circ.txt)
+- [support file](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/h.txt)
 
 - I gave [this talk in Hefei 9/4](./HEFEI/hefei.html)
 - I started thinking about [Fibonacci number](./golden.pdf)
@@ -29,7 +29,7 @@ Today I'm doing the last class of the year
 - <a href="#preprints">Skip to preprints</a>
 - <a href="#talks">Skip to slides for talks</a>
 - <a href="#fablab">Skip to slides for fablab</a>
-- [cheat sheet](./PROBA/tp3_L3M.py)
+- [cheat sheet](./PROBA/TP3.html)
 
 ---
 
