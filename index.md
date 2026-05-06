@@ -14,7 +14,9 @@ title: Home
 
 
 Today I'm doing the last class of the year
-- [TP3 worksheet](./PROBA/tp_L3M_2526.pdf)
+- [TP3 worksheet](./PROBA/TP3.pdf)
+- [support](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/circ.txt)
+- [support](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/h.txt)
 
 - I gave [this talk in Hefei 9/4](./HEFEI/hefei.html)
 - I started thinking about [Fibonacci number](./golden.pdf)
