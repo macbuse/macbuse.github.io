@@ -1,5 +1,5 @@
-- [Mandarin Flash Cards]()
-- [Mandarin Quiz]()
+- [Mandarin Flash Cards](https://macbuse.github.io/CHINESE/)
+- [Mandarin Quiz](https://macbuse.github.io/CHINESE/quiz)
 
 
 

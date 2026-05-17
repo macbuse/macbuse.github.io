@@ -14,6 +14,11 @@ title: Home
 
 ---
 
+This weekend I started learning mandarin seriously.
+[This is how](./custom_learning.md)
+
+---
+
 Today **6/5** I'm doing the last class of the year
 - [TP3 worksheet](./PROBA/TP3.pdf)
     - [support file](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/circ.txt)
