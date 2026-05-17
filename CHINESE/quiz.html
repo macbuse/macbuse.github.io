@@ -121,6 +121,35 @@
         .hidden {
             display: none !important;
         }
+
+	/* Mobile Optimization Override */
+	@media (max-width: 480px) {
+	    #card-container {
+		min-width: 90% !important;
+		max-width: 90% !important;
+		padding: 1.5rem !important;
+		margin-bottom: 1rem;
+	    }
+
+	    #hanzi {
+		font-size: 3rem; /* Slightly scale down huge characters so they don't wrap */
+	    }
+
+	    #controls {
+		display: grid !important;
+		grid-template-columns: 1fr 1fr; /* Convert to a clean 2x2 grid */
+		gap: 0.8rem;
+		width: 90%;
+	    }
+
+	    button {
+		padding: 0.8rem 0.5rem; /* Reduce horizontal padding */
+		font-size: 1rem; /* Marginally smaller text for small screens */
+		text-align: center;
+		width: 100%; /* Force buttons to fill their grid cell equally */
+	    }
+	}
+
     </style>
 </head>
 <body>
