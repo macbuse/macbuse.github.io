@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandarin Vocab Quiz</title>
+    <style>
+        :root {
+            --bg-color: #1e1e2e;
+            --card-bg: #252538;
+            --text-main: #cdd6f4;
+            --text-pinyin: #f5e0dc;
+            --btn-bg: #45475a;
+            --btn-hover: #585b70;
+            --correct-color: #a6e3a1;
+            --wrong-color: #f38ba8;
+            --accent: #89b4fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #quiz-container {
+            background-color: var(--card-bg);
+            padding: 3rem;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            min-width: 500px;
+            max-width: 700px;
+        }
+
+        #progress {
+            font-size: 1.1rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        #pinyin-display {
+            font-size: 2.5rem;
+            color: var(--text-pinyin);
+            margin: 0 0 2rem 0;
+            min-height: 3.5rem;
+        }
+
+        #options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .option-btn {
+            background-color: var(--btn-bg);
+            color: var(--text-main);
+            border: 2px solid transparent;
+            padding: 1.2rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            border-radius: 8px;
+            cursor: pointer;
+            text-align: left;
+            padding-left: 2rem;
+            transition: all 0.2s ease;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            background-color: var(--btn-hover);
+            border-color: var(--accent);
+        }
+
+        /* Feedback States */
+        .option-btn.correct {
+            background-color: rgba(166, 227, 161, 0.2) !important;
+            border-color: var(--correct-color) !important;
+            color: var(--correct-color) !important;
+        }
+
+        .option-btn.wrong {
+            background-color: rgba(243, 139, 168, 0.2) !important;
+            border-color: var(--wrong-color) !important;
+            color: var(--wrong-color) !important;
+        }
+
+        #score-screen h2 {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+
+        #score-screen p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .action-btn {
+            background-color: var(--accent);
+            color: #11111b;
+            border: none;
+            padding: 0.8rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        
+        .action-btn:hover {
+            background-color: #b4befe;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="quiz-container" class="notranslate">
+        <div id="game-screen">
+            <div id="progress">Question 1 of 10</div>
+            <div id="pinyin-display">--</div>
+            
+            <button class="action-btn" id="btn-replay" style="margin-bottom: 1rem;">🔊 Replay Audio</button>
+
+            <div id="options-grid">
+                <button class="option-btn" data-index="0">1. Option One</button>
+                <button class="option-btn" data-index="1">2. Option Two</button>
+                <button class="option-btn" data-index="2">3. Option Three</button>
+                <button class="option-btn" data-index="3">4. Option Four</button>
+            </div>
+        </div>
+
+        <div id="score-screen" class="hidden">
+            <h2>Quiz Complete!</h2>
+            <p id="final-score">You scored: 0 / 10</p>
+            <button class="action-btn" onclick="location.reload()">Restart Quiz</button>
+        </div>
+    </div>
+
+    <audio id="audio-player"></audio>
+
+    <script>
+        let allCards = [];
+        let quizPool = [];
+        let currentIndex = 0;
+        let score = 0;
+        let canAnswer = true;
+
+        const pinyinEl = document.getElementById('pinyin-display');
+        const progressEl = document.getElementById('progress');
+        const optionsGrid = document.getElementById('options-grid');
+        const optionButtons = document.querySelectorAll('.option-btn');
+        const audioPlayer = document.getElementById('audio-player');
+        
+        const gameScreen = document.getElementById('game-screen');
+        const scoreScreen = document.getElementById('score-screen');
+        const finalScoreEl = document.getElementById('final-score');
+
+        // Fetch and initialize dataset
+        async function initQuiz() {
+            try {
+                const response = await fetch('data.json');
+                allCards = await response.json();
+                
+                if (allCards.length < 4) {
+                    pinyinEl.textContent = "Error: Need at least 4 items in JSON to generate choices.";
+                    return;
+                }
+
+                // Fisher-Yates Shuffle to pull 10 completely random elements
+                const shuffled = [...allCards].sort(() => 0.5 - Math.random());
+                quizPool = shuffled.slice(0, Math.random() * 10 ? 10 : allCards.length); 
+                // Cap at 10 or max available
+                quizPool = quizPool.slice(0, 10);
+
+                setupQuestion();
+            } catch (e) {
+                console.error(e);
+                pinyinEl.textContent = "Error loading data.";
+            }
+        }
+
+        function setupQuestion() {
+            canAnswer = true;
+            const currentCard = quizPool[currentIndex];
+            
+            // 1. Update UI Layout Elements
+            progressEl.textContent = `Question ${currentIndex + 1} of ${quizPool.length}`;
+            pinyinEl.textContent = currentCard.pinyin;
+
+            // 2. Clear class states from buttons
+            optionButtons.forEach(btn => {
+                btn.className = "option-btn";
+                btn.disabled = false;
+            });
+
+            // 3. Generate wrong options pool (excluding the correct answer)
+            const wrongOptions = allCards
+                .filter(card => card.translation !== currentCard.translation)
+                .map(card => card.translation);
+            
+            // Shuffle wrong options and take 3
+            const pickedWrong = wrongOptions.sort(() => 0.5 - Math.random()).slice(0, 3);
+            
+            // Mix correct answer back into the layout array
+            const finalChoices = [...pickedWrong, currentCard.translation].sort(() => 0.5 - Math.random());
+
+            // 4. Assign strings straight to buttons
+            optionButtons.forEach((btn, i) => {
+                // Prepend numbers 1-4 for quick visual layout reference
+                btn.textContent = `${i + 1}. ${finalChoices[i]}`;
+                // Keep target data tag matching raw string text
+                btn.dataset.translation = finalChoices[i];
+            });
+
+            // 5. Stream target sound asset immediately
+            audioPlayer.src = currentCard.mp3;
+            audioPlayer.play().catch(e => console.log("Audio contextual lock waiting for gesture."));
+        }
+
+        function handleAnswer(selectedBtn) {
+            if (!canAnswer) return;
+            canAnswer = false;
+
+            const correctAnswer = quizPool[currentIndex].translation;
+            const chosenAnswer = selectedBtn.dataset.translation;
+
+            // Lock down elements from rapid multi-clicking
+            optionButtons.forEach(btn => btn.disabled = true);
+
+            if (chosenAnswer === correctAnswer) {
+                selectedBtn.classList.add('correct');
+                score++;
+            } else {
+                selectedBtn.classList.add('wrong');
+                // Force reveal where the correct button was hiding
+                optionButtons.forEach(btn => {
+                    if (btn.dataset.translation === correctAnswer) {
+                        btn.classList.add('correct');
+                    }
+                });
+            }
+
+            // Short pause so you can see the feedback before stepping next
+            setTimeout(() => {
+                currentIndex++;
+                if (currentIndex < quizPool.length) {
+                    setupQuestion();
+                } else {
+                    showEndScreen();
+                }
+            }, 1500);
+        }
+
+        function showEndScreen() {
+            gameScreen.classList.add('hidden');
+            scoreScreen.classList.remove('hidden');
+            finalScoreEl.textContent = `You scored: ${score} / ${quizPool.length}`;
+        }
+
+        // Action Mapping Hooks
+        optionsGrid.addEventListener('click', (e) => {
+            const btn = e.target.closest('.option-btn');
+            if (btn) handleAnswer(btn);
+        });
+
+        document.getElementById('btn-replay').addEventListener('click', () => {
+            audioPlayer.currentTime = 0;
+            audioPlayer.play().catch(e => console.log(e));
+        });
+
+        // NATIVE KEYBOARD BINDINGS (Numbers 1-4 mapped to choices)
+        window.addEventListener('keydown', (e) => {
+            if (!canAnswer) return;
+            if (e.key >= '1' && e.key <= '4') {
+                const targetIdx = parseInt(e.key) - 1;
+                handleAnswer(optionButtons[targetIdx]);
+            }
+        });
+
+        window.addEventListener('DOMContentLoaded', initQuiz);
+    </script>
+</body>
+</html>

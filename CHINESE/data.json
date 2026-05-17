@@ -1,0 +1,620 @@
+[
+  {
+    "hanzi": "朋友",
+    "pinyin": "péng yǒu",
+    "mp3": "audio/peng_you.mp3",
+    "translation": "friend"
+  },
+  {
+    "hanzi": "鸡肉",
+    "pinyin": "jī ròu",
+    "mp3": "audio/ji_rou.mp3",
+    "translation": "chicken"
+  },
+  {
+    "hanzi": "小心",
+    "pinyin": "xiǎo xīn",
+    "mp3": "audio/xiao_xin.mp3",
+    "translation": "careful"
+  },
+  {
+    "hanzi": "治療",
+    "pinyin": "zhì liáo",
+    "mp3": "audio/zhi_liao.mp3",
+    "translation": "treatment"
+  },
+  {
+    "hanzi": "做手术",
+    "pinyin": "zuò shǒu shù",
+    "mp3": "audio/zuo_shou_shu.mp3",
+    "translation": "have surgery"
+  },
+  {
+    "hanzi": "不健康",
+    "pinyin": "bù jiàn kāng",
+    "mp3": "audio/bu_jian_kang.mp3",
+    "translation": "unhealthy"
+  },
+  {
+    "hanzi": "情况",
+    "pinyin": "qíng kuàng",
+    "mp3": "audio/qing_kuang.mp3",
+    "translation": "Condition"
+  },
+  {
+    "hanzi": "难过",
+    "pinyin": "nán guò",
+    "mp3": "audio/nan_guo.mp3",
+    "translation": "sad"
+  },
+  {
+    "hanzi": "太多",
+    "pinyin": "tài duō",
+    "mp3": "audio/tai_duo.mp3",
+    "translation": "too much"
+  },
+  {
+    "hanzi": "西红柿",
+    "pinyin": "xī hóng shì",
+    "mp3": "audio/xi_hong_shi.mp3",
+    "translation": "tomato"
+  },
+  {
+    "hanzi": "医生",
+    "pinyin": "yī shēng",
+    "mp3": "audio/yi_sheng.mp3",
+    "translation": "doctor"
+  },
+  {
+    "hanzi": "医院",
+    "pinyin": "yī yuàn",
+    "mp3": "audio/yi_yuan.mp3",
+    "translation": "Hospital"
+  },
+  {
+    "hanzi": "好转",
+    "pinyin": "hǎo zhuǎn",
+    "mp3": "audio/hao_zhuan.mp3",
+    "translation": "get better"
+  },
+  {
+    "hanzi": "多保重",
+    "pinyin": "duō bǎo zhòng",
+    "mp3": "audio/duo_bao_zhong.mp3",
+    "translation": "Take care"
+  },
+  {
+    "hanzi": "牛肉",
+    "pinyin": "niú ròu",
+    "mp3": "audio/niu_rou.mp3",
+    "translation": "beef"
+  },
+  {
+    "hanzi": "外科",
+    "pinyin": "wài kē",
+    "mp3": "audio/wai_ke.mp3",
+    "translation": "surgical"
+  },
+  {
+    "hanzi": "担心",
+    "pinyin": "dān xīn",
+    "mp3": "audio/dan_xin.mp3",
+    "translation": "Worry"
+  },
+  {
+    "hanzi": "对健康",
+    "pinyin": "duì jiàn kāng",
+    "mp3": "audio/dui_jian_kang.mp3",
+    "translation": "to health"
+  },
+  {
+    "hanzi": "重症监护室",
+    "pinyin": "zhòng zhèng jiān hù shì",
+    "mp3": "audio/zhong_zheng_jian_hu_shi.mp3",
+    "translation": "intensive care unit"
+  },
+  {
+    "hanzi": "小扁豆",
+    "pinyin": "xiǎo biǎn dòu",
+    "mp3": "audio/xiao_bian_dou.mp3",
+    "translation": "lentils"
+  },
+  {
+    "hanzi": "吃太多盐",
+    "pinyin": "chī tài duō yán",
+    "mp3": "audio/chi_tai_duo_yan.mp3",
+    "translation": "eat too much salt"
+  },
+  {
+    "hanzi": "入院",
+    "pinyin": "rù yuàn",
+    "mp3": "audio/ru_yuan.mp3",
+    "translation": "Admission"
+  },
+  {
+    "hanzi": "腿疼",
+    "pinyin": "tuǐ téng",
+    "mp3": "audio/tui_teng.mp3",
+    "translation": "Leg pain"
+  },
+  {
+    "hanzi": "住院部",
+    "pinyin": "zhù yuàn bù",
+    "mp3": "audio/zhu_yuan_bu.mp3",
+    "translation": "Inpatient department"
+  },
+  {
+    "hanzi": "姜和蒜",
+    "pinyin": "jiāng hé suàn",
+    "mp3": "audio/jiang_he_suan.mp3",
+    "translation": "ginger and garlic"
+  },
+  {
+    "hanzi": "打算",
+    "pinyin": "dǎ suàn",
+    "mp3": "audio/da_suan.mp3",
+    "translation": "Intend"
+  },
+  {
+    "hanzi": "休息",
+    "pinyin": "xiū xī",
+    "mp3": "audio/xiu_xi.mp3",
+    "translation": "rest"
+  },
+  {
+    "hanzi": "动手术",
+    "pinyin": "dòng shǒu shù",
+    "mp3": "audio/dong_shou_shu.mp3",
+    "translation": "surgery"
+  },
+  {
+    "hanzi": "点心",
+    "pinyin": "diǎn xīn",
+    "mp3": "audio/dian_xin.mp3",
+    "translation": "dessert"
+  },
+  {
+    "hanzi": "水果",
+    "pinyin": "shuǐ guǒ",
+    "mp3": "audio/shui_guo.mp3",
+    "translation": "fruit"
+  },
+  {
+    "hanzi": "治疗",
+    "pinyin": "zhì liáo",
+    "mp3": "audio/zhi_liao.mp3",
+    "translation": "treat"
+  },
+  {
+    "hanzi": "更喜欢",
+    "pinyin": "gèng xǐ huān",
+    "mp3": "audio/geng_xi_huan.mp3",
+    "translation": "prefer"
+  },
+  {
+    "hanzi": "住院",
+    "pinyin": "zhù yuàn",
+    "mp3": "audio/zhu_yuan.mp3",
+    "translation": "Hospitalized"
+  },
+  {
+    "hanzi": "探望",
+    "pinyin": "tàn wàng",
+    "mp3": "audio/tan_wang.mp3",
+    "translation": "visit"
+  },
+  {
+    "hanzi": "一点儿",
+    "pinyin": "yì diǎn ér",
+    "mp3": "audio/yi_dian_er.mp3",
+    "translation": "a little"
+  },
+  {
+    "hanzi": "好好休息",
+    "pinyin": "hǎo hǎo xiū xī",
+    "mp3": "audio/hao_hao_xiu_xi.mp3",
+    "translation": "have a good rest"
+  },
+  {
+    "hanzi": "我的",
+    "pinyin": "wǒ de",
+    "mp3": "audio/wo_de.mp3",
+    "translation": "mine"
+  },
+  {
+    "hanzi": "明天",
+    "pinyin": "míng tiān",
+    "mp3": "audio/ming_tian.mp3",
+    "translation": "tomorrow"
+  },
+  {
+    "hanzi": "我们",
+    "pinyin": "wǒ men",
+    "mp3": "audio/wo_men.mp3",
+    "translation": "us"
+  },
+  {
+    "hanzi": "两个",
+    "pinyin": "liǎng gè",
+    "mp3": "audio/liang_ge.mp3",
+    "translation": "two"
+  },
+  {
+    "hanzi": "很严重",
+    "pinyin": "hěn yán zhòng",
+    "mp3": "audio/hen_yan_zhong.mp3",
+    "translation": "very serious"
+  },
+  {
+    "hanzi": "康复",
+    "pinyin": "kāng fù",
+    "mp3": "audio/kang_fu.mp3",
+    "translation": "recovery"
+  },
+  {
+    "hanzi": "吃药",
+    "pinyin": "chī yào",
+    "mp3": "audio/chi_yao.mp3",
+    "translation": "take medicine"
+  },
+  {
+    "hanzi": "重病",
+    "pinyin": "zhòng bìng",
+    "mp3": "audio/zhong_bing.mp3",
+    "translation": "Serious illness"
+  },
+  {
+    "hanzi": "身体",
+    "pinyin": "shēn tǐ",
+    "mp3": "audio/shen_ti.mp3",
+    "translation": "Body"
+  },
+  {
+    "hanzi": "护士",
+    "pinyin": "hù shì",
+    "mp3": "audio/hu_shi.mp3",
+    "translation": "Nurse"
+  },
+  {
+    "hanzi": "内科",
+    "pinyin": "nèi kē",
+    "mp3": "audio/nei_ke.mp3",
+    "translation": "Internal Medicine"
+  },
+  {
+    "hanzi": "果物",
+    "pinyin": "guǒ wù",
+    "mp3": "audio/guo_wu.mp3",
+    "translation": "fruit"
+  },
+  {
+    "hanzi": "他们",
+    "pinyin": "tā men",
+    "mp3": "audio/ta_men.mp3",
+    "translation": "them"
+  },
+  {
+    "hanzi": "祝你早日康复",
+    "pinyin": "zhù nǐ zǎo rì kāng fù",
+    "mp3": "audio/zhu_ni_zao_ri_kang_fu.mp3",
+    "translation": "wish you a speedy recovery"
+  },
+  {
+    "hanzi": "但是",
+    "pinyin": "dàn shì",
+    "mp3": "audio/dan_shi.mp3",
+    "translation": "but"
+  },
+  {
+    "hanzi": "猪肉",
+    "pinyin": "zhū ròu",
+    "mp3": "audio/zhu_rou.mp3",
+    "translation": "pork"
+  },
+  {
+    "hanzi": "开心",
+    "pinyin": "kāi xīn",
+    "mp3": "audio/kai_xin.mp3",
+    "translation": "happy"
+  },
+  {
+    "hanzi": "算术",
+    "pinyin": "suàn shù",
+    "mp3": "audio/suan_shu.mp3",
+    "translation": "arithmetic"
+  },
+  {
+    "hanzi": "病院",
+    "pinyin": "bìng yuàn",
+    "mp3": "audio/bing_yuan.mp3",
+    "translation": "hospital"
+  },
+  {
+    "hanzi": "运动",
+    "pinyin": "yùn dòng",
+    "mp3": "audio/yun_dong.mp3",
+    "translation": "sports"
+  },
+  {
+    "hanzi": "很好",
+    "pinyin": "hěn hǎo",
+    "mp3": "audio/hen_hao.mp3",
+    "translation": "very good"
+  },
+  {
+    "hanzi": "法国",
+    "pinyin": "fǎ guó",
+    "mp3": "audio/fa_guo.mp3",
+    "translation": "France"
+  },
+  {
+    "hanzi": "跑步",
+    "pinyin": "pǎo bù",
+    "mp3": "audio/pao_bu.mp3",
+    "translation": "running"
+  },
+  {
+    "hanzi": "大葱",
+    "pinyin": "dà cōng",
+    "mp3": "audio/da_cong.mp3",
+    "translation": "green onions"
+  },
+  {
+    "hanzi": "菠菜",
+    "pinyin": "bō cài",
+    "mp3": "audio/bo_cai.mp3",
+    "translation": "spinach"
+  },
+  {
+    "hanzi": "大蒜",
+    "pinyin": "dà suàn",
+    "mp3": "audio/da_suan.mp3",
+    "translation": "garlic"
+  },
+  {
+    "hanzi": "手術",
+    "pinyin": "shǒu shù",
+    "mp3": "audio/shou_shu.mp3",
+    "translation": "Operation"
+  },
+  {
+    "hanzi": "洋葱",
+    "pinyin": "yáng cōng",
+    "mp3": "audio/yang_cong.mp3",
+    "translation": "onion"
+  },
+  {
+    "hanzi": "脚疼",
+    "pinyin": "jiǎo téng",
+    "mp3": "audio/jiao_teng.mp3",
+    "translation": "Feet hurt"
+  },
+  {
+    "hanzi": "健康",
+    "pinyin": "jiàn kāng",
+    "mp3": "audio/jian_kang.mp3",
+    "translation": "healthy"
+  },
+  {
+    "hanzi": "我吃素。",
+    "pinyin": "wǒ chī sù 。",
+    "mp3": "audio/wo_chi_su_.mp3",
+    "translation": "I am vegetarian."
+  },
+  {
+    "hanzi": "我不喜欢喝太甜的饮料。",
+    "pinyin": "wǒ bù xǐ huān hē tài tián de yǐn liào 。",
+    "mp3": "audio/wo_bu_xi_huan_he_tai_tian_de_yin_liao_.mp3",
+    "translation": "I don't like drinks that are too sweet."
+  },
+  {
+    "hanzi": "菜也好吃。",
+    "pinyin": "cài yě hǎo chī 。",
+    "mp3": "audio/cai_ye_hao_chi_.mp3",
+    "translation": "The food is also delicious."
+  },
+  {
+    "hanzi": "这个菜太辣了",
+    "pinyin": "zhè ge cài tài là le",
+    "mp3": "audio/zhe_ge_cai_tai_la_le.mp3",
+    "translation": "This dish is too spicy"
+  },
+  {
+    "hanzi": "我喜欢吃鸡肉和面条。",
+    "pinyin": "wǒ xǐ huān chī jī ròu huó miàn tiáo 。",
+    "mp3": "audio/wo_xi_huan_chi_ji_rou_huo_mian_tiao_.mp3",
+    "translation": "I like chicken and noodles."
+  },
+  {
+    "hanzi": "买单",
+    "pinyin": "mǎi dān",
+    "mp3": "audio/mai_dan.mp3",
+    "translation": "Pay the bill"
+  },
+  {
+    "hanzi": "请给我菜单。",
+    "pinyin": "qǐng gěi wǒ cài dān 。",
+    "mp3": "audio/qing_gei_wo_cai_dan_.mp3",
+    "translation": "Please give me the menu."
+  },
+  {
+    "hanzi": "我不吃肉",
+    "pinyin": "wǒ bù chī ròu",
+    "mp3": "audio/wo_bu_chi_rou.mp3",
+    "translation": "I don't eat meat"
+  },
+  {
+    "hanzi": "这个水果非常新鲜。",
+    "pinyin": "zhè ge shuǐ guǒ fēi cháng xīn xiān 。",
+    "mp3": "audio/zhe_ge_shui_guo_fei_chang_xin_xian_.mp3",
+    "translation": "This fruit is very fresh."
+  },
+  {
+    "hanzi": "服务员",
+    "pinyin": "fú wù yuán",
+    "mp3": "audio/fu_wu_yuan.mp3",
+    "translation": "waiter"
+  },
+  {
+    "hanzi": "你喜欢吃米饭还是面条",
+    "pinyin": "nǐ xǐ huān chī mǐ fàn hái shì miàn tiáo",
+    "mp3": "audio/ni_xi_huan_chi_mi_fan_hai_shi_mian_tiao.mp3",
+    "translation": "Do you like rice or noodles?"
+  },
+  {
+    "hanzi": "这里的服务员很热情",
+    "pinyin": "zhè lǐ de fú wù yuán hěn rè qíng",
+    "mp3": "audio/zhe_li_de_fu_wu_yuan_hen_re_qing.mp3",
+    "translation": "The waiters here are very enthusiastic"
+  },
+  {
+    "hanzi": "我需要一杯水。",
+    "pinyin": "wǒ xū yào yī bēi shuǐ 。",
+    "mp3": "audio/wo_xu_yao_yi_bei_shui_.mp3",
+    "translation": "I need a glass of water."
+  },
+  {
+    "hanzi": "一共多少钱",
+    "pinyin": "yī gòng duō shǎo qián",
+    "mp3": "audio/yi_gong_duo_shao_qian.mp3",
+    "translation": "How much is the total"
+  },
+  {
+    "hanzi": "我想点一个炒饭和一个汤。",
+    "pinyin": "wǒ xiǎng diǎn yí gè chǎo fàn hé yí gè tāng 。",
+    "mp3": "audio/wo_xiang_dian_yi_ge_chao_fan_he_yi_ge_tang_.mp3",
+    "translation": "I'd like to order a fried rice and a soup."
+  },
+  {
+    "hanzi": "下雪",
+    "pinyin": "xià xuě",
+    "mp3": "audio/xia_xue.mp3",
+    "translation": "snow"
+  },
+  {
+    "hanzi": "火车",
+    "pinyin": "huǒ chē",
+    "mp3": "audio/huo_che.mp3",
+    "translation": "train"
+  },
+  {
+    "hanzi": "明天会下大雨",
+    "pinyin": "míng tiān huì xià dà yǔ",
+    "mp3": "audio/ming_tian_hui_xia_da_yu.mp3",
+    "translation": "It will rain heavily tomorrow"
+  },
+  {
+    "hanzi": "昨天的风沙很大",
+    "pinyin": "zuó tiān de fēng shā hěn dà",
+    "mp3": "audio/zuo_tian_de_feng_sha_hen_da.mp3",
+    "translation": "There was a lot of wind and sand yesterday"
+  },
+  {
+    "hanzi": "刮风了",
+    "pinyin": "guā fēng le",
+    "mp3": "audio/gua_feng_le.mp3",
+    "translation": "It's windy"
+  },
+  {
+    "hanzi": "你需要穿一件大衣。",
+    "pinyin": "nǐ xū yào chuān yī jiàn dà yī 。",
+    "mp3": "audio/ni_xu_yao_chuan_yi_jian_da_yi_.mp3",
+    "translation": "You need to wear a coat."
+  },
+  {
+    "hanzi": "不冷也不热。",
+    "pinyin": "bù lěng yě bù rè 。",
+    "mp3": "audio/bu_leng_ye_bu_re_.mp3",
+    "translation": "Neither cold nor hot."
+  },
+  {
+    "hanzi": "外面太冷了",
+    "pinyin": "wài miàn tài lěng le",
+    "mp3": "audio/wai_mian_tai_leng_le.mp3",
+    "translation": "It's too cold outside"
+  },
+  {
+    "hanzi": "雾很大",
+    "pinyin": "wù hěn dà",
+    "mp3": "audio/wu_hen_da.mp3",
+    "translation": "It's very foggy"
+  },
+  {
+    "hanzi": "好像快要下雪了。",
+    "pinyin": "hǎo xiàng kuài yào xià xuě le 。",
+    "mp3": "audio/hao_xiang_kuai_yao_xia_xue_le_.mp3",
+    "translation": "It seems like it's going to snow."
+  },
+  {
+    "hanzi": "空气不太好。",
+    "pinyin": "kōng qì bù tài hǎo 。",
+    "mp3": "audio/kong_qi_bu_tai_hao_.mp3",
+    "translation": "The air is not very good."
+  },
+  {
+    "hanzi": "开车的时候要小心。",
+    "pinyin": "kāi chē de shí hòu yào xiǎo xīn 。",
+    "mp3": "audio/kai_che_de_shi_hou_yao_xiao_xin_.mp3",
+    "translation": "Be careful when driving."
+  },
+  {
+    "hanzi": "我不喜欢阴天",
+    "pinyin": "wǒ bù xǐ huān yīn tiān",
+    "mp3": "audio/wo_bu_xi_huan_yin_tian.mp3",
+    "translation": "I don't like cloudy days"
+  },
+  {
+    "hanzi": "让人觉得很累。",
+    "pinyin": "ràng rén jué de hěn lèi 。",
+    "mp3": "audio/rang_ren_jue_de_hen_lei_.mp3",
+    "translation": "It feels very tiring."
+  },
+  {
+    "hanzi": "听说下午天气会转晴。",
+    "pinyin": "tīng shuō xià wǔ tiān qì huì zhuǎn qíng 。",
+    "mp3": "audio/ting_shuo_xia_wu_tian_qi_hui_zhuan_qing_.mp3",
+    "translation": "I heard the weather will clear up in the afternoon."
+  },
+  {
+    "hanzi": "别忘了带伞。",
+    "pinyin": "bié wàng le dài sǎn 。",
+    "mp3": "audio/bie_wang_le_dai_san_.mp3",
+    "translation": "Don't forget to bring an umbrella."
+  },
+  {
+    "hanzi": "夏天非常热",
+    "pinyin": "xià tiān fēi cháng rè",
+    "mp3": "audio/xia_tian_fei_chang_re.mp3",
+    "translation": "very hot in summer"
+  },
+  {
+    "hanzi": "今天天气很好",
+    "pinyin": "jīn tiān tiān qì hěn hǎo",
+    "mp3": "audio/jin_tian_tian_qi_hen_hao.mp3",
+    "translation": "The weather is very good today"
+  },
+  {
+    "hanzi": "快要",
+    "pinyin": "kuài yào",
+    "mp3": "audio/kuai_yao.mp3",
+    "translation": "Almost"
+  },
+  {
+    "hanzi": "这里的秋天最舒服",
+    "pinyin": "zhè lǐ de qiū tiān zuì shū fú",
+    "mp3": "audio/zhe_li_de_qiu_tian_zui_shu_fu.mp3",
+    "translation": "Autumn here is the most comfortable"
+  },
+  {
+    "hanzi": "阳光明媚。",
+    "pinyin": "yáng guāng míng mèi 。",
+    "mp3": "audio/yang_guang_ming_mei_.mp3",
+    "translation": "The sun is shining brightly."
+  },
+  {
+    "hanzi": "我天天想游泳。",
+    "pinyin": "wǒ tiān tiān xiǎng yóu yǒng 。",
+    "mp3": "audio/wo_tian_tian_xiang_you_yong_.mp3",
+    "translation": "I want to swim every day."
+  }
+]

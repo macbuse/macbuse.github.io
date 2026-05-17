@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandarin Flashcard Automaton</title>
+    <style>
+        :root {
+            --bg-color: #1e1e2e;
+            --card-bg: #252538;
+            --text-main: #cdd6f4;
+            --text-pinyin: #f5e0dc;
+            --text-translation: #a6e3a1;
+            --btn-bg: #45475a;
+            --btn-hover: #585b70;
+            --btn-action: #89b4fa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #card-container {
+            background-color: var(--card-bg);
+            padding: 3rem;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            min-width: 450px;
+            max-width: 650px;
+            margin-bottom: 2rem;
+        }
+
+        #hanzi {
+            font-size: 4.5rem;
+            margin: 0 0 1rem 0;
+            font-weight: bold;
+        }
+
+        #pinyin {
+            font-size: 1.8rem;
+            color: var(--text-pinyin);
+            margin: 0 0 1.5rem 0;
+            min-height: 2.5rem;
+        }
+
+        #translation {
+            font-size: 1.5rem;
+            color: var(--text-translation);
+            margin: 1.5rem 0 0 0;
+            min-height: 2rem;
+            font-style: italic;
+            /* Using display state to eliminate layout collisions */
+            display: none; 
+        }
+
+        #controls {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        button {
+            background-color: var(--btn-bg);
+            color: var(--text-main);
+            border: none;
+            padding: 0.8rem 1.8rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        button:hover {
+            background-color: var(--btn-hover);
+        }
+
+        #btn-reveal {
+            background-color: var(--btn-action);
+            color: #11111b;
+        }
+        #btn-reveal:hover {
+            background-color: #b4befe;
+        }
+
+        #btn-exit {
+            background-color: #f38ba8;
+            color: #11111b;
+        }
+        #btn-exit:hover {
+            background-color: #eba0b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="card-container">
+        <h1 id="hanzi">--</h1>
+        <p id="pinyin">--</p>
+        <p id="translation">--</p>
+    </div>
+
+    <div id="controls">
+        <button id="btn-reveal">Show Meaning</button>
+        <button id="btn-repeat">Repeat Audio</button>
+        <button id="btn-next">Next Card</button>
+        <button id="btn-exit">Exit</button>
+    </div>
+
+    <audio id="audio-player"></audio>
+
+    <script>
+        let flashcards = [];
+        let currentCard = null;
+
+        // Strict Node Assignments
+        const hanziEl = document.getElementById('hanzi');
+        const pinyinEl = document.getElementById('pinyin');
+        const translationEl = document.getElementById('translation');
+        const audioPlayer = document.getElementById('audio-player');
+
+        async function loadFlashcards() {
+            try {
+                const response = await fetch('data.json');
+                flashcards = await response.json();
+                if (flashcards.length > 0) {
+                    triggerNextCard();
+                } else {
+                    hanziEl.textContent = "Empty Deck";
+                }
+            } catch (error) {
+                console.error("Error loading JSON dataset:", error);
+                hanziEl.textContent = "Error Loading Data";
+            }
+        }
+
+        function playCard(card) {
+            if (!card) return;
+            
+            // Map values directly to explicit DOM destinations
+            hanziEl.textContent = card.hanzi;
+            pinyinEl.textContent = card.pinyin;
+            translationEl.textContent = card.translation || "No translation found";
+            
+            // Physically pull the translation out of rendering flow on load
+            translationEl.style.display = 'none';
+            
+            // Run sound assets
+            audioPlayer.src = card.mp3;
+            audioPlayer.play().catch(e => console.log("Playback waiting for user gesture context."));
+        }
+
+        function triggerNextCard() {
+            if (flashcards.length === 0) return;
+            const randomIndex = Math.floor(Math.random() * flashcards.length);
+            currentCard = flashcards[randomIndex];
+            playCard(currentCard);
+        }
+
+        // Action Handlers
+        document.getElementById('btn-reveal').addEventListener('click', () => {
+            translationEl.style.display = 'block';
+        });
+
+        document.getElementById('btn-repeat').addEventListener('click', () => {
+            if (currentCard) {
+                audioPlayer.currentTime = 0;
+                audioPlayer.play().catch(e => console.log(e));
+            }
+        });
+
+        document.getElementById('btn-next').addEventListener('click', () => {
+            triggerNextCard();
+        });
+
+        document.getElementById('btn-exit').addEventListener('click', () => {
+            hanziEl.textContent = "Session Ended";
+            pinyinEl.textContent = "";
+            translationEl.textContent = "";
+            translationEl.style.display = 'none';
+            audioPlayer.src = "";
+        });
+
+        window.addEventListener('DOMContentLoaded', loadFlashcards);
+    </script>
+</body>
+</html>
