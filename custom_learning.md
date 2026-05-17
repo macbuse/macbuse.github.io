@@ -1,6 +1,7 @@
 - [Mandarin Flash Cards](https://macbuse.github.io/CHINESE/)
 - [Mandarin Quiz](https://macbuse.github.io/CHINESE/quiz)
 
+It all comes out of [this conversation](https://macbuse.github.io/CHINESE/mandarin)
 
 
 ## Prompt
