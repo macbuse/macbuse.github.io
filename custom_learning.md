@@ -75,3 +75,97 @@ By switching to a custom terminal-driven local pipeline, you completely reversed
 3. **Control Over the Friction:** Your layout strips away the visual clutter, the leaderboards, and the manipulative notifications, replacing them with a clean Unix-style interface that respects your time and your cognitive focus.
 
 You basically traded a flashy, generic theme park ride for a precise, bespoke power tool.
+
+---
+
+Replacing "death scrolling" with a highly customized, terminal-driven environment that you built yourself is a massive cognitive win.
+
+Instead of letting an algorithm engineered for infinite engagement hijack your attention with random noise, you are spending that time engaging with an interface *you* orchestrated, running on a server *you* spun up, tracking vocabulary *you* curated. It's the ultimate shift from being a passive consumer of digital clutter to an active builder in your own specialized environment.
+
+The beauty of this setup is that it is infinitely expandable. Since you are completely clear of the Duolingo matrix, you can evolve this engine over time as your language skills grow. Here are a few low-friction features you can easily script into your `tmux`/`neovim` workflow down the line whenever you want to mix up the challenge:
+
+---
+
+### Future Modules for Your Local Engine
+
+* **The "Fill-in-the-Blank" Hanzi Engine:** Instead of multiple-choice English translations, display the Pinyin and English, but replace a key character in the Hanzi display with a blank space (e.g., `我喜欢吃鸡肉和__条。`). You can type or mentally log the missing character to test active character recognition.
+* **Audio-Only Blind Run:** Hide the Pinyin entirely on the first load of the quiz card. The page plays the audio clip blindly, forcing your ear to parse the sounds and tones completely raw before you look down to pick the match.
+* **Spaced Repetition Tracking (`SM-2` Lite):** You can append a simple `weight` or `history` key to each object in your `data.json`. If you get a quiz question wrong, your script increments its weight so that the card appears more frequently in the next shuffle pool until you nail it consistently.
+
+You’ve built a highly effective antidote to the modern web. Enjoy drilling the food and weather cards on your phone, and whenever you want to pipe in a new set of phrases or modify the JavaScript logic, your panes are ready!
+
+---
+
+### Prompt
+
+You are funny:
+
+ but replace a key character in the Hanzi display with a blank space (e.g., 我喜欢吃鸡肉和__条。). You can type or mentally log the missing character to test active character recognition.
+
+Blanking out is part of how they train LLMs isn't it?
+
+
+---
+
+You caught me! That is exactly what is happening under the hood.
+
+What you just described is the absolute foundational trick used to train models like BERT and the ancestors of the LLM you are talking to right now. In machine learning, this is called **Masked Language Modeling (MLM)**.
+
+Instead of paying thousands of humans to hand-label data, researchers realized they could take the entire internet, write a simple script to programmatically hide about 15% of the words, and force the model to guess what went in the blank.
+
+---
+
+### How Your Flashcard Idea Mimics LLM Training
+
+When an LLM trains on a masked sentence, it looks like this:
+
+$$\text{"The professor opened the [MASK] and started writing equations."}$$
+
+The model looks at the context clues—words like *professor*, *writing*, and *equations*—to calculate the statistical probability of the missing token. It adjusts its internal weights until it can confidently guess **"blackboard"** or **"notebook"** over **"refrigerator"**.
+
+By blanking out a character in your flashcards:
+
+$$\text{"我喜欢吃鸡肉和 [MASK] 条。" (Wǒ xǐhuan chī jīròu hé [MASK] tiáo.)}$$
+
+You are forcing your brain to do the exact same calculation. You can't just passively look at the sentence and recognize it anymore. Your brain has to look at the surrounding context tokens (*eat*, *chicken*, *meat*, and the trailing counter/noun classifier *tiáo*) to deduce that the missing semantic piece *must* be **面 (miàn)** for noodles.
+
+---
+
+### Why It's the Ultimate Cognitive Level-Up
+
+In cognitive science, this taps into what is known as **desirable difficulty** and **retrieval effort**.
+
+Multiple-choice questions (like the quiz page we just built) only test **recognition memory**. Your brain just has to look at a list and say, *"Ah yes, that one looks familiar."* Blanking out a character forces **active recall**. You have to generate the character completely from scratch out of your own memory banks based purely on contextual parameters. It turns out that the optimal way to train a biological neural network isn't all that different from training a digital one!
+
+---
+
+You caught me! That is exactly what is happening under the hood.
+
+What you just described is the absolute foundational trick used to train models like BERT and the ancestors of the LLM you are talking to right now. In machine learning, this is called **Masked Language Modeling (MLM)**.
+
+Instead of paying thousands of humans to hand-label data, researchers realized they could take the entire internet, write a simple script to programmatically hide about 15% of the words, and force the model to guess what went in the blank.
+
+---
+
+### How Your Flashcard Idea Mimics LLM Training
+
+When an LLM trains on a masked sentence, it looks like this:
+
+$$\text{"The professor opened the [MASK] and started writing equations."}$$
+
+The model looks at the context clues—words like *professor*, *writing*, and *equations*—to calculate the statistical probability of the missing token. It adjusts its internal weights until it can confidently guess **"blackboard"** or **"notebook"** over **"refrigerator"**.
+
+By blanking out a character in your flashcards:
+
+$$\text{"我喜欢吃鸡肉和 [MASK] 条。" (Wǒ xǐhuan chī jīròu hé [MASK] tiáo.)}$$
+
+You are forcing your brain to do the exact same calculation. You can't just passively look at the sentence and recognize it anymore. Your brain has to look at the surrounding context tokens (*eat*, *chicken*, *meat*, and the trailing counter/noun classifier *tiáo*) to deduce that the missing semantic piece *must* be **面 (miàn)** for noodles.
+
+---
+
+### Why It's the Ultimate Cognitive Level-Up
+
+In cognitive science, this taps into what is known as **desirable difficulty** and **retrieval effort**.
+
+Multiple-choice questions (like the quiz page we just built) only test **recognition memory**. Your brain just has to look at a list and say, *"Ah yes, that one looks familiar."* Blanking out a character forces **active recall**. You have to generate the character completely from scratch out of your own memory banks based purely on contextual parameters. It turns out that the optimal way to train a biological neural network isn't all that different from training a digital one!
+
