@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mandarin Quiz</title>
-    
-    <link rel="stylesheet" href="quiz.css">
+
+    <script>
+        const cssLink = document.createElement('link');
+        cssLink.rel = 'stylesheet';
+        // If local, use standard relative path. If on GitHub, prepend the repo name.
+        cssLink.href = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost' 
+            ? './quiz.css?v=1' 
+            : '/CHINESE/quiz.css?v=1';
+        document.head.appendChild(cssLink);
+    </script>
 </head>
+
 <body>
 
     <div id="quiz-container" class="notranslate">
