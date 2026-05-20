@@ -1,0 +1,156 @@
+[
+  {
+    "hanzi": "几位？",
+    "pinyin": "Jǐ wèi?",
+    "english": "How many people in your party?",
+    "category": "eating",
+    "audio_src": "audio/几位.mp3"
+  },
+  {
+    "hanzi": "两位。",
+    "pinyin": "Liǎng wèi.",
+    "english": "Two people.",
+    "category": "eating",
+    "audio_src": "audio/两位.mp3"
+  },
+  {
+    "hanzi": "这边请。",
+    "pinyin": "Zhè biān qǐng.",
+    "english": "This way, please.",
+    "category": "eating",
+    "audio_src": "audio/这边请.mp3"
+  },
+  {
+    "hanzi": "服务员，点单！",
+    "pinyin": "Fúwùyuán, diǎndān!",
+    "english": "Waiter, we are ready to order!",
+    "category": "eating",
+    "audio_src": "audio/服务员，点单.mp3"
+  },
+  {
+    "hanzi": "可以点单了吗？",
+    "pinyin": "Kěyǐ diǎndān le ma?",
+    "english": "Can I take your order? (What you'll hear)",
+    "category": "eating",
+    "audio_src": "audio/可以点单了吗.mp3"
+  },
+  {
+    "hanzi": "有什么忌口吗？",
+    "pinyin": "Yǒu shénme jìkǒu ma?",
+    "english": "Do you have any dietary restrictions?",
+    "category": "eating",
+    "audio_src": "audio/有什么忌口吗.mp3"
+  },
+  {
+    "hanzi": "我不要放香菜。",
+    "pinyin": "Wǒ bú yào fàng xiāngcài.",
+    "english": "I don't want cilantro.",
+    "category": "eating",
+    "audio_src": "audio/我不要放香菜.mp3"
+  },
+  {
+    "hanzi": "不放味精。",
+    "pinyin": "Bú fàng wèijīng.",
+    "english": "No MSG.",
+    "category": "eating",
+    "audio_src": "audio/不放味精.mp3"
+  },
+  {
+    "hanzi": "这个不要太辣。",
+    "pinyin": "Zhège búyào tài là.",
+    "english": "Don't make this item too spicy.",
+    "category": "eating",
+    "audio_src": "audio/这个不要太辣.mp3"
+  },
+  {
+    "hanzi": "老板，结账！",
+    "pinyin": "Lǎobǎn, jiézhàng!",
+    "english": "Boss, the bill please!",
+    "category": "eating",
+    "audio_src": "audio/老板，结账.mp3"
+  },
+  {
+    "hanzi": "买单！",
+    "pinyin": "Mǎidān!",
+    "english": "Check, please!",
+    "category": "eating",
+    "audio_src": "audio/买单.mp3"
+  },
+  {
+    "hanzi": "想看点什么？",
+    "pinyin": "Xiǎng kàn diǎn shénme?",
+    "english": "What are you looking for?",
+    "category": "shopping",
+    "audio_src": "audio/想看点什么.mp3"
+  },
+  {
+    "hanzi": "我随便看看。",
+    "pinyin": "Wǒ suíbiàn kànkan.",
+    "english": "I'm just looking around / browsing.",
+    "category": "shopping",
+    "audio_src": "audio/我随便看看.mp3"
+  },
+  {
+    "hanzi": "这个怎么卖？",
+    "pinyin": "Zhège zěnme mài?",
+    "english": "How much is this? (lit: How is this sold?)",
+    "category": "shopping",
+    "audio_src": "audio/这个怎么卖.mp3"
+  },
+  {
+    "hanzi": "一斤多少钱？",
+    "pinyin": "Yī jīn duōshǎo qián?",
+    "english": "How much for half a kilogram? (Common for fruit/tea)",
+    "category": "shopping",
+    "audio_src": "audio/一斤多少钱.mp3"
+  },
+  {
+    "hanzi": "太贵了！",
+    "pinyin": "Tài guì le!",
+    "english": "Too expensive!",
+    "category": "shopping",
+    "audio_src": "audio/太贵了.mp3"
+  },
+  {
+    "hanzi": "还能便宜点吗？",
+    "pinyin": "Hái néng piányi diǎn ma?",
+    "english": "Can you make it a bit cheaper?",
+    "category": "shopping",
+    "audio_src": "audio/还能便宜点吗.mp3"
+  },
+  {
+    "hanzi": "最低多少钱？",
+    "pinyin": "Zuìdī duōshǎo qián?",
+    "english": "What's your lowest price?",
+    "category": "shopping",
+    "audio_src": "audio/最低多少钱.mp3"
+  },
+  {
+    "hanzi": "我要这个。",
+    "pinyin": "Wǒ yào zhège.",
+    "english": "I want this one.",
+    "category": "shopping",
+    "audio_src": "audio/我要这个.mp3"
+  },
+  {
+    "hanzi": "给你钱。",
+    "pinyin": "Gěi nǐ qián.",
+    "english": "Here is the money. (If using physical cash)",
+    "category": "shopping",
+    "audio_src": "audio/给你钱.mp3"
+  },
+  {
+    "hanzi": "你扫我，还是我扫你？",
+    "pinyin": "Nǐ sǎo wǒ, háishi wǒ sǎo nǐ?",
+    "english": "Will you scan my QR, or should I scan yours?",
+    "category": "shopping",
+    "audio_src": "audio/你扫我，还是我扫你.mp3"
+  },
+  {
+    "hanzi": "我扫你吧。",
+    "pinyin": "Wǒ sǎo nǐ ba.",
+    "english": "I'll scan you.",
+    "category": "shopping",
+    "audio_src": "audio/我扫你吧.mp3"
+  }
+]

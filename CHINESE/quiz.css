@@ -1,0 +1,168 @@
+<style>
+:root {
+    --bg-color: #1e1e2e;
+    --card-bg: #252538;
+    --text-main: #cdd6f4;
+    --text-pinyin: #f5e0dc;
+    --btn-bg: #45475a;
+    --btn-hover: #585b70;
+    --correct-color: #a6e3a1;
+    --wrong-color: #f38ba8;
+    --accent: #89b4fa;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#quiz-container {
+    background-color: var(--card-bg);
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    min-width: 500px;
+    max-width: 700px;
+}
+
+#progress {
+    font-size: 1.1rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+#pinyin-display {
+    font-size: 2.5rem;
+    color: var(--text-pinyin);
+    margin: 0 0 2rem 0;
+    min-height: 3.5rem;
+}
+
+#options-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.option-btn {
+    background-color: var(--btn-bg);
+    color: var(--text-main);
+    border: 2px solid transparent;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 2rem;
+    transition: all 0.2s ease;
+}
+
+.option-btn:hover:not(:disabled) {
+    background-color: var(--btn-hover);
+    border-color: var(--accent);
+}
+
+/* Feedback States */
+.option-btn.correct {
+    background-color: rgba(166, 227, 161, 0.2) !important;
+    border-color: var(--correct-color) !important;
+    color: var(--correct-color) !important;
+}
+
+.option-btn.wrong {
+    background-color: rgba(243, 139, 168, 0.2) !important;
+    border-color: var(--wrong-color) !important;
+    color: var(--wrong-color) !important;
+}
+
+#score-screen h2 {
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
+#score-screen p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.action-btn {
+    background-color: var(--accent);
+    color: #11111b;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: #b4befe;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* ======================================================== */
+/* BULLETPROOF MOBILE ENGINE (AT THE VERY BOTTOM)           */
+/* ======================================================== */
+@media (max-width: 600px) {
+    #quiz-container {
+	width: 92% !important;
+	min-width: 0 !important; /* Strips desktop min-width constraint completely */
+	max-width: 95% !important;
+	padding: 1.2rem 0.8rem !important; /* Maximum space for text */
+	box-sizing: border-box;
+    }
+
+    #pinyin-display {
+	font-size: 1.4rem; /* Safe compression for long Pinyin strings */
+	margin-bottom: 1rem;
+	min-height: auto;
+	line-height: 1.4;
+	white-space: normal !important; /* Forces standard text wrapping */
+	word-break: break-word; /* Prevents long tone combos from overflowing */
+    }
+
+    #options-grid {
+	display: flex !important;
+	flex-direction: column !important; /* Switches from grid to standard stack */
+	gap: 0.5rem;
+	margin-top: 1rem;
+	width: 100%;
+    }
+
+    .option-btn {
+	width: 100%;
+	padding: 0.6rem 0.8rem; /* Highly compact button footprint */
+	font-size: 0.9rem; /* Smaller text size for complex translations */
+	line-height: 1.3;
+	white-space: normal !important; /* CRUCIAL: Forces long translation sentences to wrap lines */
+	word-wrap: break-word;
+	text-align: center;
+	box-sizing: border-box;
+    }
+    
+    .action-btn {
+	width: 100%;
+	padding: 0.5rem 1rem;
+	font-size: 0.95rem;
+	box-sizing: border-box;
+    }
+}
+
+</style>
+<
