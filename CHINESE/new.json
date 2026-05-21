@@ -1,0 +1,75 @@
+const mandarinData = [
+  // --- EATING OUT ---
+  {
+    hanzi: "几位？",
+    pinyin: "Jǐ wèi?",
+    english: "How many people in your party?",
+    category: "eating",
+    note: "High-frequency welcome phrase used by hosts."
+  },
+  {
+    hanzi: "这边请。",
+    pinyin: "Zhè biān qǐng.",
+    english: "This way, please.",
+    category: "eating",
+    note: "Said while guiding you to your table."
+  },
+  {
+    hanzi: "有什么忌口吗？",
+    pinyin: "Yǒu shénme jìkǒu ma?",
+    english: "Do you have any dietary restrictions / ingredients you avoid?",
+    category: "eating",
+    note: "Crucial for avoiding specific ingredients like MSG or cilantro."
+  },
+  {
+    hanzi: "我不要放香菜。",
+    pinyin: "Wǒ bú yào fàng xiāngcài.",
+    english: "I don't want cilantro.",
+    category: "eating",
+    note: "Replace 'xiāngcài' with other ingredients as needed."
+  },
+  {
+    hanzi: "老板，结账。",
+    pinyin: "Lǎobǎn, jiézhàng.",
+    english: "Boss, the bill please.",
+    category: "eating",
+    note: "Natural way to call for the check in casual restaurants."
+  },
+  
+  // --- SHOPPING ---
+  {
+    hanzi: "想看点什么？",
+    pinyin: "Xiǎng kàn diǎn shénme?",
+    english: "What are you looking for?",
+    category: "shopping",
+    note: "Standard greeting from a shopkeeper."
+  },
+  {
+    hanzi: "我随便看看。",
+    pinyin: "Wǒ suíbiàn kànkan.",
+    english: "I'm just looking around.",
+    category: "shopping",
+    note: "Perfect polite brush-off for over-attentive staff."
+  },
+  {
+    hanzi: "这个怎么卖？",
+    pinyin: "Zhège zěnme mài?",
+    english: "How much is this? (lit: How is this sold?)",
+    category: "shopping",
+    note: "Much more authentic than 'duōshǎo qián'."
+  },
+  {
+    hanzi: "还能便宜点吗？",
+    pinyin: "Hái néng piányi diǎn ma?",
+    english: "Can you make it a bit cheaper?",
+    category: "shopping",
+    note: "The essential baseline phrase for negotiating prices."
+  },
+  {
+    hanzi: "你扫我，还是我扫你？",
+    pinyin: "Nǐ sǎo wǒ, háishi wǒ\ sǎo nǐ?",
+    english: "Will you scan my QR code, or should I scan yours?",
+    category: "shopping",
+    note: "Ubiquitous phrase for mobile payments (Alipay/WeChat)."
+  }
+];

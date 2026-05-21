@@ -4,194 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mandarin Flashcard Automaton</title>
-    <style>
-        :root {
-            --bg-color: #1e1e2e;
-            --card-bg: #252538;
-            --text-main: #cdd6f4;
-            --text-pinyin: #f5e0dc;
-            --text-translation: #a6e3a1;
-            --btn-bg: #45475a;
-            --btn-hover: #585b70;
-            --btn-action: #89b4fa;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        #card-container {
-            background-color: var(--card-bg);
-            padding: 3rem;
-            border-radius: 16px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-            text-align: center;
-            min-width: 450px;
-            max-width: 650px;
-            margin-bottom: 2rem;
-        }
-
-        #hanzi {
-            font-size: 4.5rem;
-            margin: 0 0 1rem 0;
-            font-weight: bold;
-        }
-
-        #pinyin {
-            font-size: 1.8rem;
-            color: var(--text-pinyin);
-            margin: 0 0 1.5rem 0;
-            min-height: 2.5rem;
-        }
-
-        #translation {
-            font-size: 1.5rem;
-            color: var(--text-translation);
-            margin: 1.5rem 0 0 0;
-            min-height: 2rem;
-            font-style: italic;
-            /* Using display state to eliminate layout collisions */
-            display: none; 
-        }
-
-        #controls {
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        button {
-            background-color: var(--btn-bg);
-            color: var(--text-main);
-            border: none;
-            padding: 0.8rem 1.8rem;
-            font-size: 1.1rem;
-            font-weight: 600;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: background 0.2s ease;
-        }
-
-        button:hover {
-            background-color: var(--btn-hover);
-        }
-
-        #btn-reveal {
-            background-color: var(--btn-action);
-            color: #11111b;
-        }
-        #btn-reveal:hover {
-            background-color: #b4befe;
-        }
-
-        #btn-exit {
-            background-color: #f38ba8;
-            color: #11111b;
-        }
-        #btn-exit:hover {
-            background-color: #eba0b3;
-        }
-    </style>
+        <script>
+        const cssLink = document.createElement('link');
+        cssLink.rel = 'stylesheet';
+        // If local, use standard relative path. If on GitHub, prepend the repo name.
+        cssLink.href = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost' 
+            ? './cards.css?v=1' 
+            : '/CHINESE/cards.css?v=1';
+        document.head.appendChild(cssLink);
+    </script>
 </head>
 <body>
 
-    <div id="card-container">
-        <h1 id="hanzi">--</h1>
-        <p id="pinyin">--</p>
-        <p id="translation">--</p>
-    </div>
+<div id="flashcard" class="card">
+    <!-- Front/Back structural components collapsed into a scannable uniform display -->
+    <h1 id="pinyin-text">--</h1>
+    <p id="hanzi-text">--</p>
+    <p id="english-text">--</p>
+</div>
 
-    <div id="controls">
-        <button id="btn-reveal">Show Meaning</button>
-        <button id="btn-repeat">Repeat Audio</button>
-        <button id="btn-next">Next Card</button>
-        <button id="btn-exit">Exit</button>
-    </div>
+<div id="controls">
+    <button id="btn-reveal">Show Meaning</button>
+    <button id="btn-repeat">Repeat Audio</button>
+    <button id="btn-next">Next Card</button>
+    <button id="btn-exit">Exit</button>
+</div>
 
-    <audio id="audio-player"></audio>
+<script>
+let flashcards = [];
+let currentIndex = 0;
+let currentAudio = null;
+let audioTimeout = null; // Tracks our delay timer
+const playbackSpeed = 0.7;
 
-    <script>
-        let flashcards = [];
-        let currentCard = null;
+async function initApp() {
+    try {
+        const response = await fetch('mandarin_flashcards.json');
+        flashcards = await response.json();
+        
+        if (flashcards.length > 0) {
+           // Shuffle the flashcards array randomly
+           for (let i = flashcards.length - 1; i > 0; i--) {
+               const j = Math.floor(Math.random() * (i + 1));
+               [flashcards[i], flashcards[j]] = [flashcards[j], flashcards[i]];
+           }
 
-        // Strict Node Assignments
-        const hanziEl = document.getElementById('hanzi');
-        const pinyinEl = document.getElementById('pinyin');
-        const translationEl = document.getElementById('translation');
-        const audioPlayer = document.getElementById('audio-player');
-
-        async function loadFlashcards() {
-            try {
-                const response = await fetch('data.json');
-                flashcards = await response.json();
-                if (flashcards.length > 0) {
-                    triggerNextCard();
-                } else {
-                    hanziEl.textContent = "Empty Deck";
-                }
-            } catch (error) {
-                console.error("Error loading JSON dataset:", error);
-                hanziEl.textContent = "Error Loading Data";
-            }
+            // Initial load executes immediately without delay
+            showCard(currentIndex, true); 
+        } else {
+            console.error("Flashcard deck is empty.");
         }
+    } catch (error) {
+        console.error("Failed to load flashcard data:", error);
+    }
+}
 
-        function playCard(card) {
-            if (!card) return;
-            
-            // Map values directly to explicit DOM destinations
-            hanziEl.textContent = card.hanzi;
-            pinyinEl.textContent = card.pinyin;
-            translationEl.textContent = card.translation || "No translation found";
-            
-            // Physically pull the translation out of rendering flow on load
-            translationEl.style.display = 'none';
-            
-            // Run sound assets
-            audioPlayer.src = card.mp3;
-            audioPlayer.play().catch(e => console.log("Playback waiting for user gesture context."));
+function showCard(index, autoPlayWithDelay = false) {
+    // Clear any pending audio timer from a previous card skip
+    if (audioTimeout) {
+        clearTimeout(audioTimeout);
+    }
+
+    const card = flashcards[index];
+    
+    document.getElementById('hanzi-text').innerText = card.hanzi;
+    document.getElementById('pinyin-text').innerText = card.pinyin;
+    document.getElementById('english-text').innerText = card.english;
+    
+    // Hide meaning components initially
+    document.getElementById('pinyin-text').style.visibility = 'hidden';
+    document.getElementById('english-text').style.visibility = 'hidden';
+    
+    if (card.audio_src) {
+        currentAudio = new Audio(card.audio_src);
+        document.getElementById('btn-repeat').disabled = false;
+        
+        // Trigger the delayed audio engine if coming from the 'Next' event
+        if (autoPlayWithDelay) {
+            audioTimeout = setTimeout(() => {
+                playAudio();
+            }, 500); // 500ms delay. Adjust this value to make it shorter or longer.
         }
+    } else {
+        currentAudio = null;
+        document.getElementById('btn-repeat').disabled = true;
+    }
+}
 
-        function triggerNextCard() {
-            if (flashcards.length === 0) return;
-            const randomIndex = Math.floor(Math.random() * flashcards.length);
-            currentCard = flashcards[randomIndex];
-            playCard(currentCard);
-        }
+function playAudio() {
+    if (currentAudio) {
+        currentAudio.currentTime = 0; 
+	currentAudio.playbackRate = playbackSpeed;
+        currentAudio.play().catch(err => console.log("Audio playback configuration note:", err));
+    }
+}
 
-        // Action Handlers
-        document.getElementById('btn-reveal').addEventListener('click', () => {
-            translationEl.style.display = 'block';
-        });
+// --- CONTROLS EVENT LISTENERS ---
 
-        document.getElementById('btn-repeat').addEventListener('click', () => {
-            if (currentCard) {
-                audioPlayer.currentTime = 0;
-                audioPlayer.play().catch(e => console.log(e));
-            }
-        });
+// Reveal Meaning Button
+document.getElementById('btn-reveal').addEventListener('click', () => {
+    document.getElementById('pinyin-text').style.visibility = 'visible';
+    document.getElementById('english-text').style.visibility = 'visible';
+    // If you already played it on 'Next', this safely re-plays it or plays it if missed
+    playAudio(); 
+});
 
-        document.getElementById('btn-next').addEventListener('click', () => {
-            triggerNextCard();
-        });
+// Repeat Audio Button
+document.getElementById('btn-repeat').addEventListener('click', () => {
+    playAudio();
+});
 
-        document.getElementById('btn-exit').addEventListener('click', () => {
-            hanziEl.textContent = "Session Ended";
-            pinyinEl.textContent = "";
-            translationEl.textContent = "";
-            translationEl.style.display = 'none';
-            audioPlayer.src = "";
-        });
+// Next Card Button
+document.getElementById('btn-next').addEventListener('click', () => {
+    if (flashcards.length === 0) return;
+    
+    currentIndex = (currentIndex + 1) % flashcards.length;
+    // Pass 'true' here to authorize the audio delay engine
+    showCard(currentIndex, true);
+});
 
-        window.addEventListener('DOMContentLoaded', loadFlashcards);
-    </script>
+// Exit Button
+document.getElementById('btn-exit').addEventListener('click', () => {
+    alert("Session completed! Great work.");
+    window.location.reload(); 
+});
+
+initApp();
+</script>
+
 </body>
 </html>
+
