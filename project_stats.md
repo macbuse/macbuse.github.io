@@ -71,6 +71,9 @@ You can use the graphic below to understand what your initial baseline looks lik
 
 * **The Challenge:** By comparing the distinct mathematical slopes ($\Delta^\circ\text{C} / 100\text{m}$) of the Vercors, Chartreuse, and Belledonne, you will physically interpret their microclimates. You will investigate how phenomena like daytime solar mixing, nocturnal radiative cooling, and valley thermal inversions cause specific massifs to deviate from the global average.
 
+![Example of Massif-Specific Lapse
+Rates](./romma_2026_05_22_10-37.png)
+
 ---
 
 ## Bibliography & Project Resources
