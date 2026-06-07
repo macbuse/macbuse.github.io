@@ -16,7 +16,7 @@
 | March 17, 2026 | | exercices |
 | March 24, 2026 |Théo  | Varieté orientable |
 | March 31, 2026 | Louis | Champs de vecteurs |
-| April 13, 2026 | Emmanuel | |
+| April 13, 2026 | Emmanuel | Suite et fin |
 
 ---
 

@@ -1,4 +1,9 @@
 
+- Morille Emanuel <emanuel.morille@ens-lyon.fr>
+- Bissay Louis <louis.bissay@ens-lyon.fr>,
+- Grosjean-Ducateau Louve <louve.grosjean--ducateau@ens-lyon.fr>,
+- Kouhkan Maryam <maryam.kouhkan@ens-lyon.fr>,
+- Feijoo Theo <theo.feijoo@ens-lyon.fr>
 
 ### **« Topology from the Differentiable Viewpoint »**
 
