@@ -1030,5 +1030,95 @@
     "pinyin": "gǎn ēn",
     "mp3": "audio/gan_en.mp3",
     "translation": "grateful"
+  },
+  {
+    "hanzi": "飞机",
+    "pinyin": "fēi jī",
+    "mp3": "audio/fei_ji.mp3",
+    "translation": "airplane"
+  },
+  {
+    "hanzi": "机场",
+    "pinyin": "jī chǎng",
+    "mp3": "audio/ji_chang.mp3",
+    "translation": "Airport"
+  },
+  {
+    "hanzi": "登机",
+    "pinyin": "dēng jī",
+    "mp3": "audio/deng_ji.mp3",
+    "translation": "boarding"
+  },
+  {
+    "hanzi": "机票",
+    "pinyin": "jī piào",
+    "mp3": "audio/ji_piao.mp3",
+    "translation": "air tickets"
+  },
+  {
+    "hanzi": "座位",
+    "pinyin": "zuò wèi",
+    "mp3": "audio/zuo_wei.mp3",
+    "translation": "seat"
+  },
+  {
+    "hanzi": "行李",
+    "pinyin": "xíng lǐ",
+    "mp3": "audio/xing_li.mp3",
+    "translation": "luggage"
+  },
+  {
+    "hanzi": "海关",
+    "pinyin": "hǎi guān",
+    "mp3": "audio/hai_guan.mp3",
+    "translation": "customs"
+  },
+  {
+    "hanzi": "护照",
+    "pinyin": "hù zhào",
+    "mp3": "audio/hu_zhao.mp3",
+    "translation": "passport"
+  },
+  {
+    "hanzi": "起飞",
+    "pinyin": "qǐ fēi",
+    "mp3": "audio/qi_fei.mp3",
+    "translation": "take off"
+  },
+  {
+    "hanzi": "降落",
+    "pinyin": "jiàng luò",
+    "mp3": "audio/jiang_luo.mp3",
+    "translation": "landing"
+  },
+  {
+    "hanzi": "准时",
+    "pinyin": "zhǔn shí",
+    "mp3": "audio/zhun_shi.mp3",
+    "translation": "on time"
+  },
+  {
+    "hanzi": "晚点",
+    "pinyin": "wǎn diǎn",
+    "mp3": "audio/wan_dian.mp3",
+    "translation": "late"
+  },
+  {
+    "hanzi": "换乘",
+    "pinyin": "huàn chéng",
+    "mp3": "audio/huan_cheng.mp3",
+    "translation": "transfer"
+  },
+  {
+    "hanzi": "乘务员",
+    "pinyin": "chéng wù yuán",
+    "mp3": "audio/cheng_wu_yuan.mp3",
+    "translation": "flight attendant"
+  },
+  {
+    "hanzi": "到达",
+    "pinyin": "dào dá",
+    "mp3": "audio/dao_da.mp3",
+    "translation": "arrive"
   }
 ]
