@@ -1,4 +1,3 @@
-Voici une version de la description textuelle du projet, traduite en français et parfaitement structurée pour votre étudiant.
 
 ---
 
