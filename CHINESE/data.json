@@ -1120,5 +1120,191 @@
     "pinyin": "dào dá",
     "mp3": "audio/dao_da.mp3",
     "translation": "arrive"
+  },
+  {
+    "hanzi": "配速",
+    "pinyin": "pèi sù",
+    "mp3": "audio/pei_su.mp3",
+    "translation": "Pace"
+  },
+  {
+    "hanzi": "距离",
+    "pinyin": "jù lí",
+    "mp3": "audio/ju_li.mp3",
+    "translation": "distance"
+  },
+  {
+    "hanzi": "心率",
+    "pinyin": "xīn lǜ",
+    "mp3": "audio/xin_lv.mp3",
+    "translation": "heart rate"
+  },
+  {
+    "hanzi": "坡道冲刺",
+    "pinyin": "pō dào chōng cì",
+    "mp3": "audio/po_dao_chong_ci.mp3",
+    "translation": "hill sprint"
+  },
+  {
+    "hanzi": "热身",
+    "pinyin": "rè shēn",
+    "mp3": "audio/re_shen.mp3",
+    "translation": "warm up"
+  },
+  {
+    "hanzi": "间歇训练",
+    "pinyin": "jiàn xiē xùn liàn",
+    "mp3": "audio/jian_xie_xun_lian.mp3",
+    "translation": "interval training"
+  },
+  {
+    "hanzi": "恢复",
+    "pinyin": "huī fù",
+    "mp3": "audio/hui_fu.mp3",
+    "translation": "recover"
+  },
+  {
+    "hanzi": "耐力",
+    "pinyin": "nài lì",
+    "mp3": "audio/nai_li.mp3",
+    "translation": "endurance"
+  },
+  {
+    "hanzi": "肌肉酸痛",
+    "pinyin": "jī ròu suān tòng",
+    "mp3": "audio/ji_rou_suan_tong.mp3",
+    "translation": "muscle soreness"
+  },
+  {
+    "hanzi": "过度使用",
+    "pinyin": "guò dù shǐ yòng",
+    "mp3": "audio/guo_du_shi_yong.mp3",
+    "translation": "overuse"
+  },
+  {
+    "hanzi": "身体指标",
+    "pinyin": "shēn tǐ zhǐ biāo",
+    "mp3": "audio/shen_ti_zhi_biao.mp3",
+    "translation": "body index"
+  },
+  {
+    "hanzi": "稳定性",
+    "pinyin": "wěn dìng xìng",
+    "mp3": "audio/wen_ding_xing.mp3",
+    "translation": "stability"
+  },
+  {
+    "hanzi": "大学城",
+    "pinyin": "dà xué chéng",
+    "mp3": "audio/da_xue_cheng.mp3",
+    "translation": "university town"
+  },
+  {
+    "hanzi": "校园",
+    "pinyin": "xiào yuán",
+    "mp3": "audio/xiao_yuan.mp3",
+    "translation": "campus"
+  },
+  {
+    "hanzi": "主校区",
+    "pinyin": "zhǔ xiào qū",
+    "mp3": "audio/zhu_xiao_qu.mp3",
+    "translation": "main campus"
+  },
+  {
+    "hanzi": "教学楼",
+    "pinyin": "jiào xué lóu",
+    "mp3": "audio/jiao_xue_lou.mp3",
+    "translation": "Teaching building"
+  },
+  {
+    "hanzi": "图书馆",
+    "pinyin": "tú shū guǎn",
+    "mp3": "audio/tu_shu_guan.mp3",
+    "translation": "library"
+  },
+  {
+    "hanzi": "实验室",
+    "pinyin": "shí yàn shì",
+    "mp3": "audio/shi_yan_shi.mp3",
+    "translation": "laboratory"
+  },
+  {
+    "hanzi": "学生宿舍",
+    "pinyin": "xué shēng sù shè",
+    "mp3": "audio/xue_sheng_su_she.mp3",
+    "translation": "student dormitory"
+  },
+  {
+    "hanzi": "食堂",
+    "pinyin": "shí táng",
+    "mp3": "audio/shi_tang.mp3",
+    "translation": "canteen"
+  },
+  {
+    "hanzi": "操场",
+    "pinyin": "cāo chǎng",
+    "mp3": "audio/cao_chang.mp3",
+    "translation": "playground"
+  },
+  {
+    "hanzi": "礼堂",
+    "pinyin": "lǐ táng",
+    "mp3": "audio/li_tang.mp3",
+    "translation": "hall"
+  },
+  {
+    "hanzi": "行政楼",
+    "pinyin": "xíng zhèng lóu",
+    "mp3": "audio/xing_zheng_lou.mp3",
+    "translation": "Administration Building"
+  },
+  {
+    "hanzi": "阶梯教室",
+    "pinyin": "jiē tī jiào shì",
+    "mp3": "audio/jie_ti_jiao_shi.mp3",
+    "translation": "lecture theater"
+  },
+  {
+    "hanzi": "校医院",
+    "pinyin": "xiào yī yuàn",
+    "mp3": "audio/xiao_yi_yuan.mp3",
+    "translation": "Campus hospital"
+  },
+  {
+    "hanzi": "绿化带",
+    "pinyin": "lǜ huà dài",
+    "mp3": "audio/lv_hua_dai.mp3",
+    "translation": "green belt"
+  },
+  {
+    "hanzi": "林荫道",
+    "pinyin": "lín yīn dào",
+    "mp3": "audio/lin_yin_dao.mp3",
+    "translation": "boulevard"
+  },
+  {
+    "hanzi": "校园网",
+    "pinyin": "xiào yuán wǎng",
+    "mp3": "audio/xiao_yuan_wang.mp3",
+    "translation": "Campus network"
+  },
+  {
+    "hanzi": "公告栏",
+    "pinyin": "gōng gào lán",
+    "mp3": "audio/gong_gao_lan.mp3",
+    "translation": "bulletin board"
+  },
+  {
+    "hanzi": "自习室",
+    "pinyin": "zì xí shì",
+    "mp3": "audio/zi_xi_shi.mp3",
+    "translation": "Study room"
+  },
+  {
+    "hanzi": "校门",
+    "pinyin": "xiào mén",
+    "mp3": "audio/xiao_men.mp3",
+    "translation": "school gate"
   }
 ]
