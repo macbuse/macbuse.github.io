@@ -1,4 +1,5 @@
-[{
+[
+  {
     "hanzi": "我们今天几点结束？",
     "pinyin": "Wǒmen jīntiān jǐ diǎn jiéshù?",
     "english": "What time will we finish today?",
@@ -235,6 +236,159 @@
     "english": "Can I send you the file by email?",
     "category": "work",
     "audio_src": "audio/我可以用邮件把文件发给你吗.mp3"
+  },
+  {
+    "hanzi": "* 我刚刚给你发了一封邮件。",
+    "pinyin": "Wǒ gānggāng gěi nǐ fāle yī fēng yóujiàn.",
+    "english": "I just sent you an email.",
+    "category": "work",
+    "audio_src": "audio/我刚刚给你发了一封邮件.mp3"
+  },
+  {
+    "hanzi": "* 请查收附件中的报告。",
+    "pinyin": "Qǐng cháshōu fùjiàn zhōng de bàogào.",
+    "english": "Please find the report in the attachment.",
+    "category": "work",
+    "audio_src": "audio/请查收附件中的报告.mp3"
+  },
+  {
+    "hanzi": "* 我晚一点回你的邮件。",
+    "pinyin": "Wǒ wǎn yīdiǎn huí nǐ de yóujiàn.",
+    "english": "I will reply to your email a bit later.",
+    "category": "work",
+    "audio_src": "audio/我晚一点回你的邮件.mp3"
+  },
+  {
+    "hanzi": "* 我收到你的邮件了。",
+    "pinyin": "Wǒ shōudào nǐ de yóujiàn le.",
+    "english": "I got your email. (Literally: I have received your email.)",
+    "category": "work",
+    "audio_src": "audio/我收到你的邮件了.mp3"
+  },
+  {
+    "hanzi": "* 我明天回你的邮件。",
+    "pinyin": "Wǒ míngtiān huí nǐ de yóujiàn.",
+    "english": "I'll answer your email tomorrow.",
+    "category": "work",
+    "audio_src": "audio/我明天回你的邮件.mp3"
+  },
+  {
+    "hanzi": "* 我可以用邮件把文件发给你吗？",
+    "pinyin": "Wǒ kěyǐ yòng yóujiàn bǎ wénjiàn fā gěi nǐ ma?",
+    "english": "Can I send you the file by email?",
+    "category": "work",
+    "audio_src": "audio/我可以用邮件把文件发给你吗.mp3"
+  },
+  {
+    "hanzi": "* 我们今天几点结束？",
+    "pinyin": "Wǒmen jīntiān jǐ diǎn jiéshù?",
+    "english": "What time will we finish today?",
+    "category": "work",
+    "audio_src": "audio/我们今天几点结束.mp3"
+  },
+  {
+    "hanzi": "* 我们明天几点开始？",
+    "pinyin": "Wǒmen míngtiān jǐ diǎn kāishǐ?",
+    "english": "What time will we start tomorrow?",
+    "category": "work",
+    "audio_src": "audio/我们明天几点开始.mp3"
+  },
+  {
+    "hanzi": "* 明天早上你想去喝杯咖啡吗？",
+    "pinyin": "Míngtiān zǎoshang nǐ xiǎng qù hē bēi kāfēi ma?",
+    "english": "Do you want to go for coffee tomorrow morning?",
+    "category": "work",
+    "audio_src": "audio/明天早上你想去喝杯咖啡吗.mp3"
+  },
+  {
+    "hanzi": "* 六月的合肥热得像个火炉。",
+    "pinyin": "Liùyuè de Héféi rè de xiàng gè huǒlú.",
+    "english": "June in Hefei is as hot as an oven/furnace.",
+    "category": "weather",
+    "audio_src": "audio/六月的合肥热得像个火炉.mp3"
+  },
+  {
+    "hanzi": "* 格勒诺布尔的夏天太闷热了。",
+    "pinyin": "Gélènuòbù'ěr de xiàtiān tài mēnrè le.",
+    "english": "Grenoble's summer is way too hot and muggy.",
+    "category": "weather",
+    "audio_src": "audio/格勒诺布尔的夏天太闷热了.mp3"
+  },
+  {
+    "hanzi": "* 明天会更热，气温要飙升。",
+    "pinyin": "Míngtiān huì gèng rè, qìwēn yào biāoshēng.",
+    "english": "Tomorrow will be even hotter; the temperature is going to soar.",
+    "category": "weather",
+    "audio_src": "audio/明天会更热气温要飙升.mp3"
+  },
+  {
+    "hanzi": "太小了",
+    "pinyin": "tài xiǎo le",
+    "english": "too small",
+    "category": "size",
+    "audio_src": "audio/太小了.mp3"
+  },
+  {
+    "hanzi": "太紧了",
+    "pinyin": "tài jǐn le",
+    "english": "too tight",
+    "category": "size",
+    "audio_src": "audio/太紧了.mp3"
+  },
+  {
+    "hanzi": "太大了",
+    "pinyin": "tài dà le",
+    "english": "too big",
+    "category": "size",
+    "audio_src": "audio/太大了.mp3"
+  },
+  {
+    "hanzi": "太松了",
+    "pinyin": "tài sōng le",
+    "english": "too loose",
+    "category": "size",
+    "audio_src": "audio/太松了.mp3"
+  },
+  {
+    "hanzi": "我不太喜欢这个颜色",
+    "pinyin": "wǒ bú tài xǐ huān zhè ge yán sè",
+    "english": "I don't like the color",
+    "category": "style",
+    "audio_src": "audio/我不太喜欢这个颜色.mp3"
+  },
+  {
+    "hanzi": "有点太贵了",
+    "pinyin": "yǒu diǎn tài guì le",
+    "english": "it's a bit too expensive",
+    "category": "price",
+    "audio_src": "audio/有点太贵了.mp3"
+  },
+  {
+    "hanzi": "有大一点的吗",
+    "pinyin": "yǒu dà yì diǎn de ma",
+    "english": "do you have a larger size",
+    "category": "size",
+    "audio_src": "audio/有大一点的吗.mp3"
+  },
+  {
+    "hanzi": "有小一点的吗",
+    "pinyin": "yǒu xiǎo yì diǎn de ma",
+    "english": "do you have a smaller size",
+    "category": "size",
+    "audio_src": "audio/有小一点的吗.mp3"
+  },
+  {
+    "hanzi": "可以试穿一下吗",
+    "pinyin": "kě yǐ shì chuān yí xià ma",
+    "english": "can I try this on",
+    "category": "shopping",
+    "audio_src": "audio/可以试穿一下吗.mp3"
+  },
+  {
+    "hanzi": "试衣间在哪里",
+    "pinyin": "shì yī jiān zài nǎ lǐ",
+    "english": "where is the fitting room",
+    "category": "shopping",
+    "audio_src": "audio/试衣间在哪里.mp3"
   }
-  
 ]

@@ -1,0 +1,62 @@
+[
+  {
+    "hanzi": "太小了",
+    "pinyin": "tài xiǎo le",
+    "mp3": "audio/tai_xiao_le.mp3",
+    "translation": "too small"
+  },
+  {
+    "hanzi": "太紧了",
+    "pinyin": "tài jǐn le",
+    "mp3": "audio/tai_jin_le.mp3",
+    "translation": "too tight"
+  },
+  {
+    "hanzi": "太大了",
+    "pinyin": "tài dà le",
+    "mp3": "audio/tai_da_le.mp3",
+    "translation": "too big"
+  },
+  {
+    "hanzi": "太松了",
+    "pinyin": "tài sōng le",
+    "mp3": "audio/tai_song_le.mp3",
+    "translation": "too loose"
+  },
+  {
+    "hanzi": "我不太喜欢这个颜色",
+    "pinyin": "wǒ bú tài xǐ huān zhè ge yán sè",
+    "mp3": "audio/wo_bu_tai_xi_huan_zhe_ge_yan_se.mp3",
+    "translation": "I don't like the color"
+  },
+  {
+    "hanzi": "有点太贵了",
+    "pinyin": "yǒu diǎn tài guì le",
+    "mp3": "audio/you_dian_tai_gui_le.mp3",
+    "translation": "it's a bit too expensive"
+  },
+  {
+    "hanzi": "有大一点的吗",
+    "pinyin": "yǒu dà yì diǎn de ma",
+    "mp3": "audio/you_da_yi_dian_de_ma.mp3",
+    "translation": "do you have a larger size"
+  },
+  {
+    "hanzi": "有小一点的吗",
+    "pinyin": "yǒu xiǎo yì diǎn de ma",
+    "mp3": "audio/you_xiao_yi_dian_de_ma.mp3",
+    "translation": "do you have a smaller size"
+  },
+  {
+    "hanzi": "可以试穿一下吗",
+    "pinyin": "kě yǐ shì chuān yí xià ma",
+    "mp3": "audio/ke_yi_shi_chuan_yi_xia_ma.mp3",
+    "translation": "can I try this on"
+  },
+  {
+    "hanzi": "试衣间在哪里",
+    "pinyin": "shì yī jiān zài nǎ lǐ",
+    "mp3": "audio/shi_yi_jian_zai_na_li.mp3",
+    "translation": "where is the fitting room"
+  }
+]
