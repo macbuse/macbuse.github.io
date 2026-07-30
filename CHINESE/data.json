@@ -1306,5 +1306,143 @@
     "pinyin": "xiào mén",
     "mp3": "audio/xiao_men.mp3",
     "translation": "school gate"
+  },
+  {
+    "hanzi": "我不太喜欢这个颜色",
+    "pinyin": "wǒ bù tài xǐ huān zhè ge yán sè",
+    "mp3": "audio/wo_bu_tai_xi_huan_zhe_ge_yan_se.mp3",
+    "translation": "I don't like this color very much"
+  },
+  {
+    "hanzi": "可以试穿一下吗",
+    "pinyin": "kě yǐ shì chuān yī xià ma",
+    "mp3": "audio/ke_yi_shi_chuan_yi_xia_ma.mp3",
+    "translation": "Can I try it on?"
+  },
+  {
+    "hanzi": "太松了",
+    "pinyin": "tài sōng le",
+    "mp3": "audio/tai_song_le.mp3",
+    "translation": "too loose"
+  },
+  {
+    "hanzi": "有点太贵了",
+    "pinyin": "yǒu diǎn tài guì le",
+    "mp3": "audio/you_dian_tai_gui_le.mp3",
+    "translation": "A bit too expensive"
+  },
+  {
+    "hanzi": "有小一点的吗",
+    "pinyin": "yǒu xiǎo yì diǎn de ma",
+    "mp3": "audio/you_xiao_yi_dian_de_ma.mp3",
+    "translation": "Is there a smaller one?"
+  },
+  {
+    "hanzi": "试衣间在哪里",
+    "pinyin": "shì yī jiān zài nǎ lǐ",
+    "mp3": "audio/shi_yi_jian_zai_na_li.mp3",
+    "translation": "where is the fitting room"
+  },
+  {
+    "hanzi": "太大了",
+    "pinyin": "tài dà le",
+    "mp3": "audio/tai_da_le.mp3",
+    "translation": "too big"
+  },
+  {
+    "hanzi": "太小了",
+    "pinyin": "tài xiǎo le",
+    "mp3": "audio/tai_xiao_le.mp3",
+    "translation": "too small"
+  },
+  {
+    "hanzi": "有大一点的吗",
+    "pinyin": "yǒu dà yī diǎn de ma",
+    "mp3": "audio/you_da_yi_dian_de_ma.mp3",
+    "translation": "Is there a bigger one?"
+  },
+  {
+    "hanzi": "太紧了",
+    "pinyin": "tài jǐn le",
+    "mp3": "audio/tai_jin_le.mp3",
+    "translation": "too tight"
+  },
+  {
+    "hanzi": "我不太",
+    "pinyin": "wǒ bù tài",
+    "mp3": "audio/wo_bu_tai.mp3",
+    "translation": "I don't quite"
+  },
+  {
+    "hanzi": "喜欢这",
+    "pinyin": "xǐ huān zhè",
+    "mp3": "audio/xi_huan_zhe.mp3",
+    "translation": "like this"
+  },
+  {
+    "hanzi": "个颜色",
+    "pinyin": "gè yán sè",
+    "mp3": "audio/ge_yan_se.mp3",
+    "translation": "colors"
+  },
+  {
+    "hanzi": "有点太",
+    "pinyin": "yǒu diǎn tài",
+    "mp3": "audio/you_dian_tai.mp3",
+    "translation": "a bit too"
+  },
+  {
+    "hanzi": "贵了",
+    "pinyin": "guì le",
+    "mp3": "audio/gui_le.mp3",
+    "translation": "Expensive"
+  },
+  {
+    "hanzi": "有大一",
+    "pinyin": "yǒu dà yī",
+    "mp3": "audio/you_da_yi.mp3",
+    "translation": "There is a freshman"
+  },
+  {
+    "hanzi": "点的吗",
+    "pinyin": "diǎn de ma",
+    "mp3": "audio/dian_de_ma.mp3",
+    "translation": "Did you order it?"
+  },
+  {
+    "hanzi": "有小一",
+    "pinyin": "yǒu xiǎo yī",
+    "mp3": "audio/you_xiao_yi.mp3",
+    "translation": "There is a primary school student"
+  },
+  {
+    "hanzi": "可以试",
+    "pinyin": "kě yǐ shì",
+    "mp3": "audio/ke_yi_shi.mp3",
+    "translation": "You can try"
+  },
+  {
+    "hanzi": "穿一下",
+    "pinyin": "chuān yī xià",
+    "mp3": "audio/chuan_yi_xia.mp3",
+    "translation": "Put it on"
+  },
+  {
+    "hanzi": "吗",
+    "pinyin": "ma",
+    "mp3": "audio/ma.mp3",
+    "translation": "?"
+  },
+  {
+    "hanzi": "试衣间",
+    "pinyin": "shì yī jiān",
+    "mp3": "audio/shi_yi_jian.mp3",
+    "translation": "fitting room"
+  },
+  {
+    "hanzi": "在哪里",
+    "pinyin": "zài nǎ lǐ",
+    "mp3": "audio/zai_na_li.mp3",
+    "translation": "Where"
   }
 ]
