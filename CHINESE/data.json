@@ -1444,5 +1444,119 @@
     "pinyin": "zài nǎ lǐ",
     "mp3": "audio/zai_na_li.mp3",
     "translation": "Where"
+  },
+  {
+    "hanzi": "其实",
+    "pinyin": "qí shí",
+    "mp3": "audio/qi_shi.mp3",
+    "translation": "actually"
+  },
+  {
+    "hanzi": "所以",
+    "pinyin": "suǒ yǐ",
+    "mp3": "audio/suo_yi.mp3",
+    "translation": "so"
+  },
+  {
+    "hanzi": "不过",
+    "pinyin": "bù guò",
+    "mp3": "audio/bu_guo.mp3",
+    "translation": "but"
+  },
+  {
+    "hanzi": "而且",
+    "pinyin": "ér qiě",
+    "mp3": "audio/er_qie.mp3",
+    "translation": "and"
+  },
+  {
+    "hanzi": "顺便",
+    "pinyin": "shùn biàn",
+    "mp3": "audio/shun_bian.mp3",
+    "translation": "By the way"
+  },
+  {
+    "hanzi": "最近",
+    "pinyin": "zuì jìn",
+    "mp3": "audio/zui_jin.mp3",
+    "translation": "recent"
+  },
+  {
+    "hanzi": "经常",
+    "pinyin": "jīng cháng",
+    "mp3": "audio/jing_chang.mp3",
+    "translation": "often"
+  },
+  {
+    "hanzi": "有时候",
+    "pinyin": "yǒu shí hòu",
+    "mp3": "audio/you_shi_hou.mp3",
+    "translation": "sometimes"
+  },
+  {
+    "hanzi": "马上",
+    "pinyin": "mǎ shàng",
+    "mp3": "audio/ma_shang.mp3",
+    "translation": "immediately"
+  },
+  {
+    "hanzi": "刚才",
+    "pinyin": "gāng cái",
+    "mp3": "audio/gang_cai.mp3",
+    "translation": "Just now"
+  },
+  {
+    "hanzi": "没问题",
+    "pinyin": "méi wèn tí",
+    "mp3": "audio/mei_wen_ti.mp3",
+    "translation": "no problem"
+  },
+  {
+    "hanzi": "确实",
+    "pinyin": "què shí",
+    "mp3": "audio/que_shi.mp3",
+    "translation": "really"
+  },
+  {
+    "hanzi": "无所谓",
+    "pinyin": "wú suǒ wèi",
+    "mp3": "audio/wu_suo_wei.mp3",
+    "translation": "It doesn't matter"
+  },
+  {
+    "hanzi": "不见得",
+    "pinyin": "bú jiàn de",
+    "mp3": "audio/bu_jian_de.mp3",
+    "translation": "not necessarily"
+  },
+  {
+    "hanzi": "都可以",
+    "pinyin": "dōu kě yǐ",
+    "mp3": "audio/dou_ke_yi.mp3",
+    "translation": "It will be all right"
+  },
+  {
+    "hanzi": "太棒了",
+    "pinyin": "tài bàng le",
+    "mp3": "audio/tai_bang_le.mp3",
+    "translation": "marvelous"
+  },
+  {
+    "hanzi": "算了吧",
+    "pinyin": "suàn le ba",
+    "mp3": "audio/suan_le_ba.mp3",
+    "translation": "Forget it"
+  },
+  {
+    "hanzi": "没办法",
+    "pinyin": "méi bàn fǎ",
+    "mp3": "audio/mei_ban_fa.mp3",
+    "translation": "no way"
+  },
+  {
+    "hanzi": "有可能",
+    "pinyin": "yǒu kě néng",
+    "mp3": "audio/you_ke_neng.mp3",
+    "translation": "possible"
   }
 ]
