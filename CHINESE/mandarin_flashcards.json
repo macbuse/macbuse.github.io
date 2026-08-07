@@ -390,5 +390,117 @@
     "english": "where is the fitting room",
     "category": "shopping",
     "audio_src": "audio/试衣间在哪里.mp3"
+  },
+  {
+    "hanzi": "我更喜欢吃水果",
+    "pinyin": "wǒ gèng xǐ huan chī shuǐ guǒ",
+    "english": "I like eating fruit",
+    "category": "eating fruit",
+    "audio_src": "audio/我更喜欢吃水果.mp3"
+  },
+  {
+    "hanzi": "我喜欢写代码",
+    "pinyin": "wǒ xǐ huan xiě dài mǎ",
+    "english": "I like writing code",
+    "category": "coding",
+    "audio_src": "audio/我喜欢写代码.mp3"
+  },
+  {
+    "hanzi": "我不喜欢写代码",
+    "pinyin": "wǒ bù xǐ huan xiě dài mǎ",
+    "english": "I don't like writing code",
+    "category": "coding",
+    "audio_src": "audio/我不喜欢写代码.mp3"
+  },
+  {
+    "hanzi": "我更喜欢写代码",
+    "pinyin": "wǒ gèng xǐ huan xiě dài mǎ",
+    "english": "I prefer writing code",
+    "category": "coding",
+    "audio_src": "audio/我更喜欢写代码.mp3"
+  },
+  {
+    "hanzi": "我喜欢做饭",
+    "pinyin": "wǒ xǐ huan zuò fàn",
+    "english": "I like cooking",
+    "category": "cooking",
+    "audio_src": "audio/我喜欢做饭.mp3"
+  },
+  {
+    "hanzi": "我不喜欢做饭",
+    "pinyin": "wǒ bù xǐ huan zuò fàn",
+    "english": "I don't like cooking",
+    "category": "cooking",
+    "audio_src": "audio/我不喜欢做饭.mp3"
+  },
+  {
+    "hanzi": "我更喜欢做饭",
+    "pinyin": "wǒ gèng xǐ huan zuò fàn",
+    "english": "I prefer cooking",
+    "category": "cooking",
+    "audio_src": "audio/我更喜欢做饭.mp3"
+  },
+  {
+    "hanzi": "我喜欢散步",
+    "pinyin": "wǒ xǐ huan sàn bù",
+    "english": "I like walking",
+    "category": "walking",
+    "audio_src": "audio/我喜欢散步.mp3"
+  },
+  {
+    "hanzi": "我不喜欢散步",
+    "pinyin": "wǒ bù xǐ huan sàn bù",
+    "english": "I don't like walking",
+    "category": "walking",
+    "audio_src": "audio/我不喜欢散步.mp3"
+  },
+  {
+    "hanzi": "我更喜欢散步",
+    "pinyin": "wǒ gèng xǐ huan sàn bù",
+    "english": "I prefer walking",
+    "category": "walking",
+    "audio_src": "audio/我更喜欢散步.mp3"
+  },
+  {
+    "hanzi": "我喜欢运动",
+    "pinyin": "wǒ xǐ huan yùn dòng",
+    "english": "I like sport",
+    "category": "sport",
+    "audio_src": "audio/我喜欢运动.mp3"
+  },
+  {
+    "hanzi": "我喜欢看电影",
+    "pinyin": "wǒ xǐ huan kàn diàn yǐng",
+    "english": "I like watching movies",
+    "category": "watching movies",
+    "audio_src": "audio/我喜欢看电影.mp3"
+  },
+  {
+    "hanzi": "我喜欢跑步",
+    "pinyin": "wǒ xǐ huan pǎo bù",
+    "english": "I like running",
+    "category": "running",
+    "audio_src": "audio/我喜欢跑步.mp3"
+  },
+  {
+    "hanzi": "我喜欢喝啤酒",
+    "pinyin": "wǒ xǐ huan hē pí jiǔ",
+    "english": "I like drinking beer",
+    "category": "drinking beer",
+    "audio_src": "audio/我喜欢喝啤酒.mp3"
+  },
+  {
+    "hanzi": "我喜欢吃中餐",
+    "pinyin": "wǒ xǐ huan chī zhōng cān",
+    "english": "I like eating Chinese food",
+    "category": "eating chinese food",
+    "audio_src": "audio/我喜欢吃中餐.mp3"
+  },
+  {
+    "hanzi": "我喜欢听音乐",
+    "pinyin": "wǒ xǐ huan tīng yīn yuè",
+    "english": "I like listening to music",
+    "category": "listening to music",
+    "audio_src": "audio/我喜欢听音乐.mp3"
   }
 ]
