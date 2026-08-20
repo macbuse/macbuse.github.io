@@ -1558,5 +1558,95 @@
     "pinyin": "yǒu kě néng",
     "mp3": "audio/you_ke_neng.mp3",
     "translation": "possible"
+  },
+  {
+    "hanzi": "早上",
+    "pinyin": "zǎo shàng",
+    "mp3": "audio/zao_shang.mp3",
+    "translation": "Morning"
+  },
+  {
+    "hanzi": "中午",
+    "pinyin": "zhōng wǔ",
+    "mp3": "audio/zhong_wu.mp3",
+    "translation": "noon"
+  },
+  {
+    "hanzi": "下午",
+    "pinyin": "xià wǔ",
+    "mp3": "audio/xia_wu.mp3",
+    "translation": "afternoon"
+  },
+  {
+    "hanzi": "晚上",
+    "pinyin": "wǎn shàng",
+    "mp3": "audio/wan_shang.mp3",
+    "translation": "night"
+  },
+  {
+    "hanzi": "星期一",
+    "pinyin": "xīng qī yī",
+    "mp3": "audio/xing_qi_yi.mp3",
+    "translation": "Monday"
+  },
+  {
+    "hanzi": "星期二",
+    "pinyin": "xīng qī èr",
+    "mp3": "audio/xing_qi_er.mp3",
+    "translation": "Tuesday"
+  },
+  {
+    "hanzi": "星期三",
+    "pinyin": "xīng qī sān",
+    "mp3": "audio/xing_qi_san.mp3",
+    "translation": "Wednesday"
+  },
+  {
+    "hanzi": "星期四",
+    "pinyin": "xīng qī sì",
+    "mp3": "audio/xing_qi_si.mp3",
+    "translation": "Thursday"
+  },
+  {
+    "hanzi": "星期五",
+    "pinyin": "xīng qī wǔ",
+    "mp3": "audio/xing_qi_wu.mp3",
+    "translation": "Friday"
+  },
+  {
+    "hanzi": "星期六",
+    "pinyin": "xīng qī liù",
+    "mp3": "audio/xing_qi_liu.mp3",
+    "translation": "Saturday"
+  },
+  {
+    "hanzi": "星期天",
+    "pinyin": "xīng qī tiān",
+    "mp3": "audio/xing_qi_tian.mp3",
+    "translation": "Sunday"
+  },
+  {
+    "hanzi": "春天",
+    "pinyin": "chūn tiān",
+    "mp3": "audio/chun_tian.mp3",
+    "translation": "spring"
+  },
+  {
+    "hanzi": "夏天",
+    "pinyin": "xià tiān",
+    "mp3": "audio/xia_tian.mp3",
+    "translation": "summer"
+  },
+  {
+    "hanzi": "秋天",
+    "pinyin": "qiū tiān",
+    "mp3": "audio/qiu_tian.mp3",
+    "translation": "autumn"
+  },
+  {
+    "hanzi": "冬天",
+    "pinyin": "dōng tiān",
+    "mp3": "audio/dong_tian.mp3",
+    "translation": "winter"
   }
 ]
