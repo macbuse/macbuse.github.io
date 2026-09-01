@@ -13,6 +13,10 @@
 
     <!-- - **IMPORTANT quick test 2 27/11/2024** -->
 
+
+- SPI-3 : mercredi 8h-9h30 + vendredi 13h30-16h45
+- CeB-1 : mardi 9h45-11h15, mercredi 15h15-16h45 et jeudi 8h-9h30
+
 ---
 
 
@@ -67,6 +71,7 @@ On a divers utils à notre disposition :
 
 - WolframAlpha
 - ChatGPT
+- Google Gemini
 
 <!-- ``` -->
 <!-- Write a story about about Lynna --> 
@@ -123,107 +128,107 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 <!-- --- -->
 
-## [F5](./Fiche5-integrales.pdf)
+<!-- ## [F5](./Fiche5-integrales.pdf) -->
 
 
-**changement de variables**
+<!-- **changement de variables** -->
 
-- [exo 5](./sol_5_5.html)
-- [exo 6](./Fiche5Ex6.pdf)
-- [exo 7](./Fiche5Ex7.pdf)
-- [exo 7](./sol_5_7.html)
+<!-- - [exo 5](./sol_5_5.html) -->
+<!-- - [exo 6](./Fiche5Ex6.pdf) -->
+<!-- - [exo 7](./Fiche5Ex7.pdf) -->
+<!-- - [exo 7](./sol_5_7.html) -->
 
-- [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29)
-- [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29)
+<!-- - [exo 8b](https://www.wolframalpha.com/input?i=primitive++sqrt%28t%5E2+-+4%29) -->
+<!-- - [exo 8c](https://www.wolframalpha.com/input?i=primitive++sqrt%289+-+4t%5E2%29) -->
 
-**intégration par parties**
+<!-- **intégration par parties** -->
 
-- [exo 9](./sol_5_9.html)
+<!-- - [exo 9](./sol_5_9.html) -->
 
-**décomposition en éléments simples**
+<!-- **décomposition en éléments simples** -->
 
-- [exo 11](./sol_5_11.html)
-- [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29)
+<!-- - [exo 11](./sol_5_11.html) -->
+<!-- - [exo 11d](https://www.wolframalpha.com/input?i=primitive+1%2F%28x%5E2+-+3x+%2B+2%29) -->
 
-**miscellaneous**
+<!-- **miscellaneous** -->
 
-- [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29)
-- [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29)
-- [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29)
+<!-- - [exo 12e](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+cos%28x%29) -->
+<!-- - [exo 12h](https://www.wolframalpha.com/input?i=primitive++exp%28x%29+%28x%5E2+%2B+x+%2B+1%29) -->
+<!-- - [exo 14](https://www.wolframalpha.com/input?i=primitive+sin%5E3%28x%29) -->
 
 
 
-## [F4](./Fiche4-fonctions.pdf)
+<!-- ## [F4](./Fiche4-fonctions.pdf) -->
 
-à faire pour le 28/11/2025 **12,13**
+<!-- à faire pour le 28/11/2025 **12,13** -->
 
-- [exo 7&8](./sol_4_6.html)
-- [exo 9](./sol_4_9.html)
-- [exo 11](./sol_4_11.html)
-- [exo 14](./sol_4_14.html)
-- [exo 17&18](./sol_4_17.html)
+<!-- - [exo 7&8](./sol_4_6.html) -->
+<!-- - [exo 9](./sol_4_9.html) -->
+<!-- - [exo 11](./sol_4_11.html) -->
+<!-- - [exo 14](./sol_4_14.html) -->
+<!-- - [exo 17&18](./sol_4_17.html) -->
 
-**Etude de fonctions**
+<!-- **Etude de fonctions** -->
 
-- [exo 27](./sol_4_27.html)
-    - [graph](https://www.wolframalpha.com/input?i=plot+%5Cfrac%7Be%5Ex+-+1%7D%7Be%5Ex+%2B+1%7D+from+-10+to+10)
-- [exo 28](./sol_4_28.html)
-    - [graph](https://www.wolframalpha.com/input?i=plot+f%28x%29%3D%5Ctfrac12+x%2B2%2B%5Cln+%5Cfrac%7Bx-1%7D%7Bx%2B1%7D+from+-5+to+5)
+<!-- - [exo 27](./sol_4_27.html) -->
+<!--     - [graph](https://www.wolframalpha.com/input?i=plot+%5Cfrac%7Be%5Ex+-+1%7D%7Be%5Ex+%2B+1%7D+from+-10+to+10) -->
+<!-- - [exo 28](./sol_4_28.html) -->
+<!--     - [graph](https://www.wolframalpha.com/input?i=plot+f%28x%29%3D%5Ctfrac12+x%2B2%2B%5Cln+%5Cfrac%7Bx-1%7D%7Bx%2B1%7D+from+-5+to+5) -->
 
-<!-- - [exo 28](https://www.wolframalpha.com/input?i=x+from+-7+to+7+plot+1%2F2+x+%2B+2+%2B+%5Clog%28%28+x-1%29%2F%28x%2B1%29%29+) -->
-
-<!-- --- -->
-
-<!-- ### Géométrie --> 
+<!-- <!-1- - [exo 28](https://www.wolframalpha.com/input?i=x+from+-7+to+7+plot+1%2F2+x+%2B+2+%2B+%5Clog%28%28+x-1%29%2F%28x%2B1%29%29+) -1-> -->
 
 <!-- <!-1- --- -1-> -->
 
----
+<!-- <!-1- ### Géométrie -1-> --> 
 
-## [F3](./Fiche3-geometrie.pdf)
+<!-- <!-1- <!-2- --- -2-> -1-> -->
 
-<!-- **Preparer pour 12/10** exos 7 et 9 -->
+<!-- --- -->
 
-* [exo 16](./sol_3_16.html)
-* [exos 17 & 18](./sol_3_17.html)
-* [exo 19](./sol_3_19.html) 
-* [exo 19.1](./sol_3_19_bis.html) en minimisant la distance
-* [exo 20](./sol_3_20.html) 
-* [exos 21, 22](./sol_3_21.html)
-* [exos 23](./sol_3_23.html)
-* [exos 26 & 27](./sol_3_26.html)
-* [exos 36, 37](./sol_3_36.html)
-* [exo 39](./sol_3_39.html)
+<!-- ## [F3](./Fiche3-geometrie.pdf) -->
 
-- [quick test géométrie 2022](./qt3.pdf)
-- [quick test géométrie avec  correction  2024](./qt2_2024.pdf)
-- [quick test géométrie CB 2025](./cb_qt2_2025.pdf)
-    - [correction](./cb_CC2_corr.html)
-- [quick test géométrie SPI  2025](./spi_qt2_2025.pdf)
-    - [correction](./corr_spi_CC2_2025.html)
+<!-- <!-1- **Preparer pour 12/10** exos 7 et 9 -1-> -->
 
----
+<!-- * [exo 16](./sol_3_16.html) -->
+<!-- * [exos 17 & 18](./sol_3_17.html) -->
+<!-- * [exo 19](./sol_3_19.html) --> 
+<!-- * [exo 19.1](./sol_3_19_bis.html) en minimisant la distance -->
+<!-- * [exo 20](./sol_3_20.html) --> 
+<!-- * [exos 21, 22](./sol_3_21.html) -->
+<!-- * [exos 23](./sol_3_23.html) -->
+<!-- * [exos 26 & 27](./sol_3_26.html) -->
+<!-- * [exos 36, 37](./sol_3_36.html) -->
+<!-- * [exo 39](./sol_3_39.html) -->
 
-## [F2](./Fiche2-sommes-produits.pdf)
+<!-- - [quick test géométrie 2022](./qt3.pdf) -->
+<!-- - [quick test géométrie avec  correction  2024](./qt2_2024.pdf) -->
+<!-- - [quick test géométrie CB 2025](./cb_qt2_2025.pdf) -->
+<!--     - [correction](./cb_CC2_corr.html) -->
+<!-- - [quick test géométrie SPI  2025](./spi_qt2_2025.pdf) -->
+<!--     - [correction](./corr_spi_CC2_2025.html) -->
 
-<!-- <!-1- **Preparer pour 5/10** -1-> -->
+<!-- --- -->
+
+<!-- ## [F2](./Fiche2-sommes-produits.pdf) -->
+
+<!-- <!-1- <!-2- **Preparer pour 5/10** -2-> -1-> -->
 
 
-<!-- - [quick test 2023](./qt2.pdf) -->
+<!-- <!-1- - [quick test 2023](./qt2.pdf) -1-> -->
 
-- **Contenu**
-    - [Progression arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique)
-    - [Progression géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique)
-    - [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique)
-    - [Factorielle](https://fr.wikipedia.org/wiki/Factorielle)
-    - [Somme telescopique](https://fr.wikipedia.org/wiki/Somme_t%C3%A9lescopique)
+<!-- - **Contenu** -->
+<!--     - [Progression arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique) -->
+<!--     - [Progression géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique) -->
+<!--     - [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique) -->
+<!--     - [Factorielle](https://fr.wikipedia.org/wiki/Factorielle) -->
+<!--     - [Somme telescopique](https://fr.wikipedia.org/wiki/Somme_t%C3%A9lescopique) -->
 
 
 ---
 
 ## [F1](./Fiche1-complexes.pdf)
 
-- Recherche sur les complexes [ensemble de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia)
+<!-- - Recherche sur les complexes [ensemble de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia) -->
 - Permettent de résoudre des [équations
 quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
     - [Formule quadratique](https://fr.wikipedia.org/wiki/Formule_quadratique)
@@ -234,11 +239,13 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 
 ---
 
-**Preparer** : Exos 16,18
+**Pour la prochaine séance preparer** : Exo 8, 9
 
 <!-- **Preparer** --> 
 <!-- Exo 19 m) n) o) -->
 <!-- Exo 20 i) j) -->
+
+---
 
 **Verifier** vos réponses avec WolframAlpha :  exemples
 
@@ -265,117 +272,116 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 - exo 6
     - [6.c solution](./sol_1_6_c.html)
 
-- exo 7
-    - [7.2 solution](./sol_1_7_2.html)
-
-- exo 8
-<!--     - [cercle trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique) -->
-- [8.2 solution modèle](./sol_1_8_2.html)
-- [Solutions chatGPT](./exo1.8.md)
 
 
-<!-- --- -->
-
-![cercle trigonométrique](./Unit_circle_angles_color.svg)
-
-
-- exo 9
+<!-- - exo 8 -->
+<!-- <!-1-     - [cercle trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique) -1-> -->
+<!-- - [8.2 solution modèle](./sol_1_8_2.html) -->
+<!-- - [Solutions chatGPT](./exo1.8.md) -->
 
 
-| Nombre complexe   | Partie réelle | Partie imaginaire | Module       | Argument (θ) |
-|-------------------|---------------|-------------------|--------------|--------------|
-| 1 + i             | 1             | 1                 | √2           | π/4          |
-| 2 - 2i            | 2             | -2                | 2√2          | -π/4         |
-| √3 + i            | √3            | 1                 | 2            | π/6          |
-| -i                | 0             | -1                | 1            | -π/2         |
-| -1 + i√3          | -1            | √3                | 2            | 2π/3         |
-| 1/(-1 + i)        | -1/2          | -1/2              | 1/√2         | -3π/4        |
-| -5                | -5            | 0                 | 5            | π            |
-| a + ia            | a             | a                 | |a|√2        | π/4 (a>0), -3π/4 (a<0) |
+<!-- <!-1- --- -1-> -->
 
+<!-- ![cercle trigonométrique](./Unit_circle_angles_color.svg) -->
+
+
+<!-- - exo 9 -->
+
+
+<!-- | Nombre complexe   | Partie réelle | Partie imaginaire | Module       | Argument (θ) | -->
+<!-- |-------------------|---------------|-------------------|--------------|--------------| -->
+<!-- | 1 + i             | 1             | 1                 | √2           | π/4          | -->
+<!-- | 2 - 2i            | 2             | -2                | 2√2          | -π/4         | -->
+<!-- | √3 + i            | √3            | 1                 | 2            | π/6          | -->
+<!-- | -i                | 0             | -1                | 1            | -π/2         | -->
+<!-- | -1 + i√3          | -1            | √3                | 2            | 2π/3         | -->
+<!-- | 1/(-1 + i)        | -1/2          | -1/2              | 1/√2         | -3π/4        | -->
+<!-- | -5                | -5            | 0                 | 5            | π            | -->
+<!-- | a + ia            | a             | a                 | |a|√2        | π/4 (a>0), -3π/4 (a<0) | -->
 
 
 
----
-
-- exo 10
-    - [10.b](https://www.wolframalpha.com/input?i=simplify+%282-i%29%5E2)
-    - [10.d](https://www.wolframalpha.com/input?i=simplify+%281-+i%29%282%2Bi%29)
-    - [10.f](https://www.wolframalpha.com/input?i=simplify+%281-3i%29%285-2i%29)
-    - [10.g](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%282-3i%29)
-    - [10.h](https://www.wolframalpha.com/input?i=simplify+%283%2Bi%29%5E3)
-    - [10.h solution complète](./sol_1_10_h.html)
-    - [10.k solution ](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%2B%282-3i%29%5E2)
-    - [10.l solution complète](./sol_1_10_l.html)
-
-- exo 12
-    - [12.2](./sol_1_12_3.html)
-
-
-<!-- - exo  24 -->
-<!-- - [solutions a,c,e](./sol_1_24_ace.md) -->
-
-
-- exo 13
-    - a) médiatrice
-    - b) cercle
-    - c) disque
-    - d) médiatrice
-    - 13.e ![fig](./1_13e.png)
-
-[13 sols a) f)](/sol_1_13_af.html)
-
----
-
-- exo 17
-    - [solution a](./sol_1_17_a.html)
-    - [solution b](./sol_17_b.html)
-
-
-- exo 19
-    - [solution a)..e)](./sol_1_19.pdf)
-
----
-
-- exo 21
-    - [solution d)](./sol_1_21_d.html)
-
-- exo 23
-    - [discriminants](./sol_1_23_disc.html)
-    - [solutions](./sol_1_23_all.html)
-    - [solution c)](./sol_1_23_c.html)
-
-<!-- <!-1- ### exos avec commentaires -1-> -->
-
-<!-- <!-1- **Exo 4** -1-> -->
-
-<!-- <!-1- 1. pas de solution -1-> -->
-<!-- <!-1- 1. [solve −5x^2−9x+2 = 0](https://www.wolframalpha.com/input?i=solve++%E2%88%925x%5E2%E2%88%929x%2B2) -1-> -->
-<!-- <!-1- 1. [solve  1/3 x^2−2x+3 = 0](https://www.wolframalpha.com/input?i=solve++1%2F3+x%5E2%E2%88%922x%2B3+%3D+0) -1-> -->
-<!-- <!-1- 1. [ −4x+3x^2+1 = 0](https://www.wolframalpha.com/input?i=solve+++%E2%88%924x%2B3x%5E2%2B1+%3D+0) -1-> -->
-
-
-<!-- <!-1- Distance AB = longueur du vecteur A - B (et du B - A) -1-> -->
-
-<!-- <!-1- 1. [(2, 1)  - (−1, 2)](https://www.wolframalpha.com/input?i=%282%2C+1%29++-+%28%E2%88%921%2C+2%29) -1-> -->
-<!-- <!-1- 1. [(5, −3)  - (3, -1-> -->
-<!-- <!-1- 1)](https://www.wolframalpha.com/input?i=%285%2C+%E2%88%923%29++-+%283%2C+1%29) -1-> -->
 
 <!-- --- -->
 
+<!-- - exo 10 -->
+<!--     - [10.b](https://www.wolframalpha.com/input?i=simplify+%282-i%29%5E2) -->
+<!--     - [10.d](https://www.wolframalpha.com/input?i=simplify+%281-+i%29%282%2Bi%29) -->
+<!--     - [10.f](https://www.wolframalpha.com/input?i=simplify+%281-3i%29%285-2i%29) -->
+<!--     - [10.g](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%282-3i%29) -->
+<!--     - [10.h](https://www.wolframalpha.com/input?i=simplify+%283%2Bi%29%5E3) -->
+<!--     - [10.h solution complète](./sol_1_10_h.html) -->
+<!--     - [10.k solution ](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%2B%282-3i%29%5E2) -->
+<!--     - [10.l solution complète](./sol_1_10_l.html) -->
 
-<!-- **1.3.1.2 Calcul des racines carrées via la forme algébrique** -->
+<!-- - exo 12 -->
+<!--     - [12.2](./sol_1_12_3.html) -->
 
-<!-- - [11 e](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D+8+%E2%88%92+6i) -->
-<!-- - [11 f](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%E2%88%923+%2B+4i) -->
-<!-- - [11 g](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+7+%2B+24i) -->
-<!-- - [11 h](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+9+%2B40+i) -->
 
-<!-- <!-1- **1.3.2 Résolution d’une équation du second degré dans C** -1-> -->
+<!-- <!-1- - exo  24 -1-> -->
+<!-- <!-1- - [solutions a,c,e](./sol_1_24_ace.md) -1-> -->
 
-<!-- - [23 a](https://www.wolframalpha.com/input?i=solve+z%5E2+%2B+%281+%E2%88%92+5i%29z+%2B+2i+%E2%88%92+6+%3D+0) -->
-<!-- - [23 b](https://www.wolframalpha.com/input?i=solve++z%5E2+%E2%88%92+%283+%2B+4i%29z+%2B+7i+%E2%88%92+1+%3D) -->
-<!-- - [23 c](https://www.wolframalpha.com/input?i=solve++2z%5E2+%2B+%285+%2B+i%29z+%2B+2+%2B+2i+%3D+0) -->
+
+<!-- - exo 13 -->
+<!--     - a) médiatrice -->
+<!--     - b) cercle -->
+<!--     - c) disque -->
+<!--     - d) médiatrice -->
+<!--     - 13.e ![fig](./1_13e.png) -->
+
+<!-- [13 sols a) f)](/sol_1_13_af.html) -->
+
+<!-- --- -->
+
+<!-- - exo 17 -->
+<!--     - [solution a](./sol_1_17_a.html) -->
+<!--     - [solution b](./sol_17_b.html) -->
+
+
+<!-- - exo 19 -->
+<!--     - [solution a)..e)](./sol_1_19.pdf) -->
+
+<!-- --- -->
+
+<!-- - exo 21 -->
+<!--     - [solution d)](./sol_1_21_d.html) -->
+
+<!-- - exo 23 -->
+<!--     - [discriminants](./sol_1_23_disc.html) -->
+<!--     - [solutions](./sol_1_23_all.html) -->
+<!--     - [solution c)](./sol_1_23_c.html) -->
+
+<!-- <!-1- <!-2- ### exos avec commentaires -2-> -1-> -->
+
+<!-- <!-1- <!-2- **Exo 4** -2-> -1-> -->
+
+<!-- <!-1- <!-2- 1. pas de solution -2-> -1-> -->
+<!-- <!-1- <!-2- 1. [solve −5x^2−9x+2 = 0](https://www.wolframalpha.com/input?i=solve++%E2%88%925x%5E2%E2%88%929x%2B2) -2-> -1-> -->
+<!-- <!-1- <!-2- 1. [solve  1/3 x^2−2x+3 = 0](https://www.wolframalpha.com/input?i=solve++1%2F3+x%5E2%E2%88%922x%2B3+%3D+0) -2-> -1-> -->
+<!-- <!-1- <!-2- 1. [ −4x+3x^2+1 = 0](https://www.wolframalpha.com/input?i=solve+++%E2%88%924x%2B3x%5E2%2B1+%3D+0) -2-> -1-> -->
+
+
+<!-- <!-1- <!-2- Distance AB = longueur du vecteur A - B (et du B - A) -2-> -1-> -->
+
+<!-- <!-1- <!-2- 1. [(2, 1)  - (−1, 2)](https://www.wolframalpha.com/input?i=%282%2C+1%29++-+%28%E2%88%921%2C+2%29) -2-> -1-> -->
+<!-- <!-1- <!-2- 1. [(5, −3)  - (3, -2-> -1-> -->
+<!-- <!-1- <!-2- 1)](https://www.wolframalpha.com/input?i=%285%2C+%E2%88%923%29++-+%283%2C+1%29) -2-> -1-> -->
+
+<!-- <!-1- --- -1-> -->
+
+
+<!-- <!-1- **1.3.1.2 Calcul des racines carrées via la forme algébrique** -1-> -->
+
+<!-- <!-1- - [11 e](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D+8+%E2%88%92+6i) -1-> -->
+<!-- <!-1- - [11 f](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%E2%88%923+%2B+4i) -1-> -->
+<!-- <!-1- - [11 g](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+7+%2B+24i) -1-> -->
+<!-- <!-1- - [11 h](https://www.wolframalpha.com/input?i=solve+++z%5E2+%3D++%3D+9+%2B40+i) -1-> -->
+
+<!-- <!-1- <!-2- **1.3.2 Résolution d’une équation du second degré dans C** -2-> -1-> -->
+
+<!-- <!-1- - [23 a](https://www.wolframalpha.com/input?i=solve+z%5E2+%2B+%281+%E2%88%92+5i%29z+%2B+2i+%E2%88%92+6+%3D+0) -1-> -->
+<!-- <!-1- - [23 b](https://www.wolframalpha.com/input?i=solve++z%5E2+%E2%88%92+%283+%2B+4i%29z+%2B+7i+%E2%88%92+1+%3D) -1-> -->
+<!-- <!-1- - [23 c](https://www.wolframalpha.com/input?i=solve++2z%5E2+%2B+%285+%2B+i%29z+%2B+2+%2B+2i+%3D+0) -1-> -->
 
 
 
