@@ -14,7 +14,21 @@ title: Home
 
 ---
 
-## Birthday Tour
+## Contents of this page
+
+- <a href="#teaching">Skip to teaching </a>
+- <a href="#research">Skip to research </a>
+- <a href="#preprints">Skip to preprints</a>
+- <a href="#talks">Skip to slides for talks</a>
+- <a href="#fablab">Skip to slides for fablab</a>
+---
+---
+
+## What I'm doing....
+
+Mostly visiting China as I have a  special talent visa (R-visa valid 2026-2036) issued to high-level foreign professionals and individuals with skills urgently needed.
+
+### 60th Birthday Tour
 
 - 31/8 - 5/9 Hebei Normal University, Shijiazhuang [Remarkable developments in the geometry of
 surfaces](https://shijiazhuang2024.sciencesconf.org/)
@@ -22,6 +36,10 @@ surfaces](https://shijiazhuang2024.sciencesconf.org/)
 
 - 24/9 - 25/9 Institut Fourier, Grenoble [Géométrie hyperbolique et
 surfaces](https://ghs-2026.sciencesconf.org/)
+- 3/4 - 10/4 Teichmuller Theory and Beyond [USTC,
+Hefei](https://shinpeibaba.com/Teichmueller2026/main.php)
+
+- 3/4 - 3/5 Invited professor [USTC](https://en.ustc.edu.cn/)
 
 ---
 
@@ -32,6 +50,7 @@ surfaces](https://ghs-2026.sciencesconf.org/)
 
 <!-- Today **6/5** I'm doing the last class of the year -->
 <!-- - [TP3 worksheet](./PROBA/TP3.pdf) -->
+ <!-- [cheat sheet](./PROBA/TP3.html) -->
 <!--     - [support file](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/circ.txt) -->
 <!--     - [support file](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/h.txt) -->
 <!--     - [indications](./PROBA/tp3_explanation.md) -->
@@ -39,14 +58,6 @@ surfaces](https://ghs-2026.sciencesconf.org/)
 <!-- - I gave [this talk in Hefei 9/4](./HEFEI/hefei.html) -->
 <!-- - I started thinking about [Fibonacci number](./golden.pdf) -->
 
----
-
-- <a href="#teaching">Skip to teaching </a>
-- <a href="#research">Skip to research </a>
-- <a href="#preprints">Skip to preprints</a>
-- <a href="#talks">Skip to slides for talks</a>
-- <a href="#fablab">Skip to slides for fablab</a>
-- [cheat sheet](./PROBA/TP3.html)
 
 ---
 
@@ -58,7 +69,7 @@ Just in case you are wondering why this page is on GitHub [read this](https://ww
 
 ---
 
-### What I've been doing lately:
+### Other stuff I do
 
 - commission bourses de thèse co-encadrée Persyval Lab 2
 
