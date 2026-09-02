@@ -19,10 +19,10 @@ presentations
 
 This reminds me that my favorite phrase is not in fact **keep it simple** but  a quote from Tao te jing, Chapter 57 by Laozi (this means the old guy) a very wise saying.
 
-- 天下多忌讳，而民弥贫
-Tiānxià duō jìhuì, ér mín mí pín
 ```
- 
+ 天下多忌讳，而民弥贫
+Tiānxià duō jìhuì, ér mín mí pín
+
 the more restrictions there are in the world,
 the poorer the people become
 ```
