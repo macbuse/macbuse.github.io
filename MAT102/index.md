@@ -1,5 +1,16 @@
 # MAT 102
 
+- SPI-3 : 
+    - mercredi 8h-9h30 **D004**
+    - vendredi 13h30-16h45
+- CeB-1 : 
+    - mardi 9h45-11h15 **D103**
+    - mercredi 15h15-16h45 
+    - jeudi 8h-9h30
+
+---
+
+
 ### Les infos (exemples de 2025)
 - changements de salle 
     - 12/12/2025 : SPI03 D002
@@ -11,8 +22,6 @@
 
 
 
-- SPI-3 : mercredi 8h-9h30 + vendredi 13h30-16h45
-- CeB-1 : mardi 9h45-11h15, mercredi 15h15-16h45 et jeudi 8h-9h30
 
 ---
 
