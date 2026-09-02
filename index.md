@@ -14,19 +14,30 @@ title: Home
 
 ---
 
-This weekend I started learning mandarin seriously.
-[This is how](./custom_learning.md)
+## Birthday Tour
+
+- 31/8 - 5/9 Hebei Normal University, Shijiazhuang [Remarkable developments in the geometry of
+surfaces](https://shijiazhuang2024.sciencesconf.org/)
+- 6/9 - 11/9 YMC, Sanya
+
+- 24/9 - 25/9 Institut Fourier, Grenoble [Géométrie hyperbolique et
+surfaces](https://ghs-2026.sciencesconf.org/)
 
 ---
 
-Today **6/5** I'm doing the last class of the year
-- [TP3 worksheet](./PROBA/TP3.pdf)
-    - [support file](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/circ.txt)
-    - [support file](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/h.txt)
-    - [indications](./PROBA/tp3_explanation.md)
+- 1/5 This weekend I started learning mandarin seriously.
+[This is how](./custom_learning.md)
 
-- I gave [this talk in Hefei 9/4](./HEFEI/hefei.html)
-- I started thinking about [Fibonacci number](./golden.pdf)
+<!-- --- -->
+
+<!-- Today **6/5** I'm doing the last class of the year -->
+<!-- - [TP3 worksheet](./PROBA/TP3.pdf) -->
+<!--     - [support file](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/circ.txt) -->
+<!--     - [support file](https://www-fourier.ujf-grenoble.fr/~rossigno/Enseignement/ens_files/h.txt) -->
+<!--     - [indications](./PROBA/tp3_explanation.md) -->
+
+<!-- - I gave [this talk in Hefei 9/4](./HEFEI/hefei.html) -->
+<!-- - I started thinking about [Fibonacci number](./golden.pdf) -->
 
 ---
 
@@ -113,15 +124,15 @@ papers](https://collectif-maths-sciences.fr/author/melanie-guenais/) from the **
 
 <!-- - [web page for class](./MAT366/index.md) -->
 
-### First semester
+<!-- ### Second semester -->
 
-### ENS-Lyon
+<!-- ### ENS-Lyon -->
 
-Groupe de lecture, Milnor Topology from the Differentiable Viewpoint
+<!-- Groupe de lecture, Milnor Topology from the Differentiable Viewpoint -->
 
-- [web page for class](./ENS_2026/index.md)
+<!-- - [web page for class](./ENS_2026/index.md) -->
 
-<!-- [More details](teaching.md) -->
+<!-- <!-1- [More details](teaching.md) -1-> -->
 
 ### First semester
 
@@ -137,7 +148,6 @@ Groupe de lecture, Milnor Topology from the Differentiable Viewpoint
     - First class: 10/9
         - Wednesdays 8h D004
         - Fridays 13h30 E208
-
 
 ---
 

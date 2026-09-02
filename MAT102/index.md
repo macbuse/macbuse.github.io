@@ -1,17 +1,14 @@
 # MAT 102
 
-### Les infos 
-- changements de salle
+### Les infos (exemples de 2025)
+- changements de salle 
     - 12/12/2025 : SPI03 D002
     - 25/09/2025 : CeB03 D101
 - dates de CCs
     - Quick test 1 : 03/10/2025
     - Quick test 2 : 21/11/2025
 
-    <!-- - **Vendredi 13/12/2024 D004.** -->
-    <!--    -  18 octobre, DLST D102. -->
 
-    <!-- - **IMPORTANT quick test 2 27/11/2024** -->
 
 
 - SPI-3 : mercredi 8h-9h30 + vendredi 13h30-16h45
