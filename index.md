@@ -74,13 +74,18 @@ Setting and correcting exams :
 - [L3 MAT intègration](./INT/CC3_2025.pdf)
 - [Correction](./INT/CC3_corr.pdf)
 
-I was looking forward to going to Hanoi for the [Geometry and Dynamics in Low Dimensions](https://sites.google.com/view/gdldhanoi/home) in January 2025 but for administrative reasons didn't make it.
+**January 2025:** 
+I was looking forward to going to 
+- Hanoi for the [Geometry and Dynamics in Low Dimensions](https://sites.google.com/view/gdldhanoi/home) 
+- Banff for the meeting on Markoff numbers
+
+but for administrative reasons didn't make it.
 
 Instead I'm reading [this](./MAT366/poly.pdf)
 
 
-**December 2024 and 2025** : 
-- judging for [SCUDEM IX](https://qubeshub.org/community/groups/simiode/File:/uploads/docs/SCUDEMIX2024/SCUDEM_IX_2024_Three_Problems.pdf)
+**December 2024** : 
+- judging for [SCUDEM IX](https://qubeshub.org/community/groups/simiode/File:/uploads/docs/SCUDEMIX2024/SCUDEM_IX_2024_Three_Problems.pdf) (and 2025 **SCUDEM X**)
 - I was president of Pablo Montealegre's [thesis jury](https://theses.fr/s303985) 12/12/2024.
 
 **October 2024** : Reporting on the thesis of Pablo Montealegre (On the stable norm of flat surfaces, defense 12/12/2024) in Montpellier.
