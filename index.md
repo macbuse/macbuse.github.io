@@ -32,7 +32,7 @@ Mostly visiting China as I have a  special talent visa (R-visa valid 2026-2036) 
 
 - 31/8 - 5/9 Hebei Normal University, Shijiazhuang [Remarkable developments in the geometry of
 surfaces](https://shijiazhuang2024.sciencesconf.org/)
-- 6/9 - 11/9 YMC, Sanya
+- 6/9 - 11/9 YMC, Sanya [slides](./SANYA/sanya.html)
 
 - 24/9 - 25/9 Institut Fourier, Grenoble [Géométrie hyperbolique et
 surfaces](https://ghs-2026.sciencesconf.org/)

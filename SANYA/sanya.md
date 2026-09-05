@@ -3,8 +3,8 @@ theme: gaia
 class: gaia lead
 headingDivider: 1
 paginate: true
-header: Serfest
-footer: Kyoto 2023
+header: Sanya 2026
+footer: 
 backgroundImage: linear-gradient(-20deg, rgba(0, 0, 0, 0.6), transparent)
 _paginate: false
 _header: ''
@@ -58,7 +58,7 @@ Greg Mc Shane
 
 <!-- _transition: cube -->
 - slides : google **greg mcshane github**
-- click on **serfest**
+- click on **sanya**
 
 #
 <!-- _transition: slide -->
@@ -164,37 +164,23 @@ $PSL(2,\mathbb{Z}) \simeq \mathbb{Z}/2 * \mathbb{Z}/3$
 # 
 <!-- _transition: slide -->
 ## coprime integers $p,q$
-* arc on a punctured torus
-* closed geodesic (disjoint from the arc)
-* snake graph and its perfect matchings
-* "lengths" that verify a Ptolemy inequality
+* $\gamma$ closed geodesic 
+* $\gamma^*$  arc on a punctured torus (disjoint from the geodesic)
+<!-- * snake graph and its perfect matchings -->
+<!-- * "lengths" that verify a Ptolemy inequality -->
 
-<!-- # --> 
-<!-- ## Story of involutions -->
-
-<!-- - Vieta jumping -->
-<!-- - diagonal exchanges -->
-<!-- - mutations -->
 
 
 <!-- # -->
 <!-- ## Group actions -->
 
-<!-- * $\mathbb{Z}^2$ acting by translation on $\mathbb{R}^2$. -->
-<!-- * infinitely many primitive elements --> 
-<!-- * $(a,b)$ primitive iff $a,b \in \mathbb{Z}$ coprime -->
+<!-- <!-1- _transition: glow -1-> -->
+<!-- $\mathbb{Q}\cup \infty \subset$ circle/projective line -->
 
-
-#
-## Group actions
-
-<!-- _transition: glow -->
-$\mathbb{Q}\cup \infty \subset$ circle/projective line
-
-* $(a,c)\text{ primitive } \mapsto a/c \in \mathbb{Q}\cup \infty$
-* $\begin{pmatrix} a & d \\ c & d \end{pmatrix} \mapsto$  arc joining $(a/c, b/d)$ 
-* $(a/b, c/d)$ are Farey neighbors iff $|ad - bc | =  1$
-* obvious transitive $SL(2,\mathbb{Z})$  action on Farey neighbors
+<!-- * $(a,c)\text{ primitive } \mapsto a/c \in \mathbb{Q}\cup \infty$ -->
+<!-- * $\begin{pmatrix} a & d \\ c & d \end{pmatrix} \mapsto$  arc joining $(a/c, b/d)$ --> 
+<!-- * $(a/b, c/d)$ are Farey neighbors iff $|ad - bc | =  1$ -->
+<!-- * obvious transitive $SL(2,\mathbb{Z})$  action on Farey neighbors -->
 
 
 #
@@ -220,19 +206,16 @@ $\mathbb{Q}\cup \infty \rightarrow$ Markoff numbers
 
 $p/q \mapsto m_{p,q}$
 
-* $SL(2, \mathbb{Z})$ action on $\mathbb{Q}\cup \infty$ 
-* $SL(2, \mathbb{Z})$ action on Markoff numbers/triples ?
-* [Vieta jumping](https://en.wikipedia.org/wiki/Vieta_jumping)
+- $SL(2, \mathbb{Z})$ action on $\mathbb{Q}\cup \infty$ 
+- $SL(2, \mathbb{Z})$ action on Markoff numbers/triples ?
+- [Vieta jumping](https://en.wikipedia.org/wiki/Vieta_jumping)
 
-#
-<!-- _transition: cube -->
-### Vieta jumps/flips/involutions
-$$x^2 + y^2 + z^2 - 3x y z = 0.$$
+
 $$x^2 - (3yz)x  + (y^2 + z^2) = 0.$$
 
 * quadratic in $x$,  two roots $x^\pm$
 * Vieta formula $x^+ + x^- = 3yz$ 
-* involution $(x^-,y,z) \mapsto (x^+, y,z) = (3yz - x^-, z,y)$
+<!-- * involution $(x^-,y,z) \mapsto (x^+, y,z) = (3yz - x^-, z,y)$ -->
 
 
 #
@@ -281,7 +264,7 @@ comes from Bass-Serre tree of
 
 Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 
-* modular torus = quotient of upper half plane $\mathbb{H}$ by  commutator subgroup of $\Gamma'< \text{PSL}(2, \mathbb{Z})$, acting by Mobius transformations
+- modular torus = quotient of upper half plane $\mathbb{H}$ by  commutator subgroup of $\Gamma'< \text{PSL}(2, \mathbb{Z})$, acting by Mobius transformations
 *  relates Markoff numbers to lengths of simple closed geodesics
 
 #
@@ -290,7 +273,7 @@ Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 
 * modular torus = quotient of upper half plane $\mathbb{H}$ by  commutator subgroup of $\Gamma'< \text{PSL}(2, \mathbb{Z})$
 * obtained from a pair of ideal triangles by identification
-* elliptic involution swaps triangles fixes midpoint of diagonal
+<!-- * elliptic involution swaps triangles fixes midpoint of diagonal -->
 
 #
 <!-- _transition: fade -->
@@ -298,39 +281,28 @@ Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 
  modular torus = $\mathbb{H}/\Gamma'$ 
 
-* $\Gamma'\simeq \mathbb{Z}*\mathbb{Z} \simeq$ fundamental group of the torus.
+- $\Gamma'\simeq \mathbb{Z}*\mathbb{Z} \simeq$ fundamental group of the torus.
 * any hyperbolic torus = $\mathbb{H}/ \rho(\mathbb{Z}*\mathbb{Z})$, 
 * $\rho:\mathbb{Z}*\mathbb{Z}\rightarrow\text{PSL}(2, \mathbb{R})$ discrete faithful representation
 * lifts to $\hat{\rho}:\mathbb{Z}*\mathbb{Z}\rightarrow\text{SL}(2, \mathbb{R})$ 
 * $a,b$ generators of $\mathbb{Z}*\mathbb{Z}$
 * **Definition** *character map* $\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
 
-#
 
 
-<!-- _transition: fade -->
- <p style = "text-align: left"> 
-Cohn (and others) shows that the 
-</p>
 
-- permutations 
-- the Vieta flips 
-<p style="text-align:left">
- used to construct Markoff's binary tree are induced by
- automorphisms of the fundamental group of the torus.
-</p>
 
-#### Exo
+<!-- #### Exo -->
 
-- Nielsen move $\rightarrow$ Vieta flip
-- $tr ab  + tr ab^{-1} = (tr a) (tr b)$
+<!-- - Nielsen move $\rightarrow$ Vieta flip -->
+<!-- - $tr\,ab  + tr\,ab^{-1} = (tr\,a) (tr\,b)$ -->
 
 #
 
 <!-- _transition: cube -->
-### Theorem
 
 
+### Theorem: Fricke, Cohn (and others) 
 <p style="text-align:left">
 The semi-algebraic set:
 </p>
@@ -339,6 +311,12 @@ $(x,y,z) \in \mathbb{R}_+,\,x^2 + y^2 + z^2 - x y z = 0.$
 
 can be identified with the Teichmueller space of the punctured torus.
 
+- permutations 
+- the Vieta flips 
+<p style="text-align:left">
+ used to construct Markoff's binary tree are induced by
+ automorphisms of the fundamental group of the torus.
+</p>
 
 #
 <!-- _transition: fade -->
@@ -387,7 +365,7 @@ Let $c$ be an essential closed curve $\ell_c$ its length.
 
 $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 
-* convexity/triangle inequality
+- convexity/triangle inequality
 * any pair of curves in linearly independent homology classes intersect
 * a curve with self intersections is never a minimizer
 
