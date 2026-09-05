@@ -119,7 +119,7 @@ m = Markoff number
 
 ![bg left](./Martin_Aigner.jpg)
 
-* [Proofs from THE BOOK](https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem)
+-  [Proofs from THE BOOK](https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem)
 * [Convexity and Aigner's Conjectures](https://arxiv.org/abs/2101.03316)
 * Prove his conjectures with one figure?
 
@@ -128,7 +128,7 @@ m = Markoff number
 <!-- _transition: cube -->
 ### Aigner's monotonicity conjectures
 
-* Markoff’s theorem and 100 years of the uniqueness conjecture. A mathematical journey from irrational numbers to perfect matchings.  2013.  
+- Markoff’s theorem and 100 years of the uniqueness conjecture. A mathematical journey from irrational numbers to perfect matchings.  2013.  
 * M. Rabideau, R. Schiffler,
 Continued fractions and orderings on the Markoff numbers,
 Advances in Mathematics Vol 370,  2020. [published](https://www.sciencedirect.com/science/article/abs/pii/S0001870820302577)
@@ -465,12 +465,36 @@ The proof uses a connection to cluster algebras. It was observed
 in [P, BBH] that the Markoff numbers can be obtained from the cluster variables in the cluster
 algebra of the once-punctured torus by specializing the initial cluster variables to 1. Moreover, the clusters in the cluster algebra then specialize to the Markoff triples. On the other hand, the cluster variables can be computed by a combinatorial formula given as a summation over the perfect matchings of a so-called snake graph.
 
-# Robert Hines
+
+# 
+
+### How do you draw the norm ball?
+
+![bg left 80%](./holed_torus.png)
+
+- Plot 
+$$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(\gamma(q,p))}$$
+* corners at rational directions
+* smoothness at irrational directions
+
+# Robert Hines' perimeter formula
 
 
 - [An infinite product](https://arxiv.org/pdf/2001.05557v3) on the Teichmüller space of the once-punctured torus
-$$\prod_{\gamma}\left(\frac{e^{l(\gamma)}+1}{e^{l(\gamma)}-1}\right)^{2h}=\exp\left(\frac{l_1+l_2+l_3}{2}\right),$$
-- the product is over all simple closed geodesics 
+$$\prod_{\gamma\, scg}\left(\frac{e^{l(\gamma)}+1}{e^{l(\gamma)}-1}\right)^{2h}=\exp\left(\frac{l_1+l_2+l_3}{2}\right),$$
 - $l(\gamma)$ is the length of the geodesic, 
-- $l_i (t_i)$ are the lengths (traces) of any triple of simple geodesics $\{\gamma_i\}$ intersecting at a single point. 
+- $l_1,l_2,l_3$ are the lengths of any triple of simple geodesics $\{\gamma_i\}$ **intersecting at a single point.** 
 - The exponent $h=h(\gamma;\{\gamma_i\})$ is a positive integer "height" 
+
+# 
+
+## Analysis of (the derivative of) F
+
+- $F$ is a continuous extension of
+
+
+$$(q,p) \in \mathbb{Z}^2,\,  \frac{\ell(\gamma(q,p))}{p} = \frac{\|(q,p)\|_s}{p}$$
+
+- "projection of the graph of the "inverse" of the norm ball
+coordinates
+- 

@@ -26,20 +26,17 @@ title: Home
 
 ## What I'm doing....
 
-Mostly visiting China as I have a  special talent visa (R-visa valid 2026-2036) issued to high-level foreign professionals and individuals with skills urgently needed.
+Mostly visiting China as I have a  special talent visa (R-visa valid 2026-2036) issued to high-level foreign professionals and individuals with skills **urgently needed**.
 
-### 60th Birthday Tour
+### 60th Birthday Tour 2026
 
+- 24/9 - 25/9 Institut Fourier, Grenoble [Géométrie hyperbolique et surfaces](https://ghs-2026.sciencesconf.org/)
+- 6/9 - 11/9 YMC, Sanya [slides](./SANYA/sanya.html)
 - 31/8 - 5/9 Hebei Normal University, Shijiazhuang [Remarkable developments in the geometry of
 surfaces](https://shijiazhuang2024.sciencesconf.org/)
-- 6/9 - 11/9 YMC, Sanya [slides](./SANYA/sanya.html)
-
-- 24/9 - 25/9 Institut Fourier, Grenoble [Géométrie hyperbolique et
-surfaces](https://ghs-2026.sciencesconf.org/)
+- 3/4 - 3/5 Invited professor [USTC](https://en.ustc.edu.cn/) Hefei, Anhui, China
 - 3/4 - 10/4 Teichmuller Theory and Beyond [USTC,
 Hefei](https://shinpeibaba.com/Teichmueller2026/main.php)
-
-- 3/4 - 3/5 Invited professor [USTC](https://en.ustc.edu.cn/)
 
 ---
 
@@ -82,25 +79,27 @@ I was looking forward to going to Hanoi for the [Geometry and Dynamics in Low Di
 Instead I'm reading [this](./MAT366/poly.pdf)
 
 
-**December** : 
+**December 2024 and 2025** : 
 - judging for [SCUDEM IX](https://qubeshub.org/community/groups/simiode/File:/uploads/docs/SCUDEMIX2024/SCUDEM_IX_2024_Three_Problems.pdf)
 - I was president of Pablo Montealegre's [thesis jury](https://theses.fr/s303985) 12/12/2024.
 
-**October** : Reporting on the thesis of Pablo Montealegre (On the stable norm of flat surfaces, defense 12/12/2024) in Montpellier.
+**October 2024** : Reporting on the thesis of Pablo Montealegre (On the stable norm of flat surfaces, defense 12/12/2024) in Montpellier.
 
-**June** : I went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024. On Friday 14/6 I gave a talk and we had dinner with Alan Reid and for his birthday.
+**June 2024** : I went to  Singapore for the [meeting on thin groups](https://ims.nus.edu.sg/events/computational-aspects-of-thin-groups/) 3/6/2024-14/6/2024. On Friday 14/6 I gave a talk and we had dinner with Alan Reid and for his birthday.
 - [Slides: Automorphisms and elementary number theory](./TIT2023/singapore.html).
 
-**April** :
+**April 2024** :
 - Organised  Zhang Yibo's [thesis defence](https://www-fourier.ujf-grenoble.fr/?q=fr/content/4-manifolds-admitting-fibrations) 5/4/2024.
 - President of Andrea Seppi's [HDR jury](https://www-fourier.univ-grenoble-alpes.fr/?q=fr/content/probl%C3%A8mes-de-plateau-asymptotiques-leurs-g%C3%A9n%C3%A9ralisations-et-applications-aux-structures) 25/4/2024.
 
 **January 2024** : Went to Oxford to give a talk in the topology seminar and I was supposed to go to San Francisco in January to give a talk in a special session on Markoff numbers at the AMS meeting but this got cancelled because of **Notilus**.
 - [Oxford talk slides ](./TIT2023/oxford.html)
 
+- Invited speaker special session on [Markoff Numbers](https://meetings.ams.org/math/jmm2024/meetingapp.cgi/Session/7957) at the AMS meeting San Francisco January 2024.
+
 ---
 
-### What I'm doing this week:
+### January 2025 I'm doing this week:
 
 
 - reading the [topologicon](https://permamath.e-monsite.com/medias/files/petit-jean-pierre-le-topologicon.pdf)
@@ -186,7 +185,6 @@ Speaker NUS Singapore 14/6/2024
 
 - Speaker [Oxford topology seminar](https://www.maths.ox.ac.uk/node/66487) 22 January 2024.
 
-- Invited speaker special session on [Markoff Numbers](https://meetings.ams.org/math/jmm2024/meetingapp.cgi/Session/7957) at the AMS meeting San Francisco January 2024.
 
 
 #### 2023
