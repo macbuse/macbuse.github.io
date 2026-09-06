@@ -31,7 +31,7 @@ Mostly visiting China as I have a  special talent visa (R-visa valid 2026-2036) 
 ### 60th Birthday Tour 2026
 
 - 24/9 - 25/9 Institut Fourier, Grenoble [Géométrie hyperbolique et surfaces](https://ghs-2026.sciencesconf.org/)
-- 6/9 - 11/9 YMC, Sanya [slides](./SANYA/sanya.html)
+- 6/9 - 11/9 Analysis, Geometry, Randomness,TSIMF, Sanya [slides](./SANYA/sanya.html)
 - 31/8 - 5/9 Hebei Normal University, Shijiazhuang [Remarkable developments in the geometry of
 surfaces](https://shijiazhuang2024.sciencesconf.org/)
 - 3/4 - 3/5 Invited professor [USTC](https://en.ustc.edu.cn/) Hefei, Anhui, China
