@@ -3,8 +3,8 @@ theme: gaia
 class: gaia lead
 headingDivider: 1
 paginate: true
-header: Serfest
-footer: Kyoto 2023
+header: Sanya 2026
+footer: 
 backgroundImage: linear-gradient(-20deg, rgba(0, 0, 0, 0.6), transparent)
 _paginate: false
 _header: ''
@@ -58,7 +58,7 @@ Greg Mc Shane
 
 <!-- _transition: cube -->
 - slides : google **greg mcshane github**
-- click on **serfest**
+- click on **sanya**
 
 #
 <!-- _transition: slide -->
@@ -119,7 +119,7 @@ m = Markoff number
 
 ![bg left](./Martin_Aigner.jpg)
 
-* [Proofs from THE BOOK](https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem)
+-  [Proofs from THE BOOK](https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem)
 * [Convexity and Aigner's Conjectures](https://arxiv.org/abs/2101.03316)
 * Prove his conjectures with one figure?
 
@@ -128,7 +128,7 @@ m = Markoff number
 <!-- _transition: cube -->
 ### Aigner's monotonicity conjectures
 
-* Markoff’s theorem and 100 years of the uniqueness conjecture. A mathematical journey from irrational numbers to perfect matchings.  2013.  
+- Markoff’s theorem and 100 years of the uniqueness conjecture. A mathematical journey from irrational numbers to perfect matchings.  2013.  
 * M. Rabideau, R. Schiffler,
 Continued fractions and orderings on the Markoff numbers,
 Advances in Mathematics Vol 370,  2020. [published](https://www.sciencedirect.com/science/article/abs/pii/S0001870820302577)
@@ -164,37 +164,23 @@ $PSL(2,\mathbb{Z}) \simeq \mathbb{Z}/2 * \mathbb{Z}/3$
 # 
 <!-- _transition: slide -->
 ## coprime integers $p,q$
-* arc on a punctured torus
-* closed geodesic (disjoint from the arc)
-* snake graph and its perfect matchings
-* "lengths" that verify a Ptolemy inequality
+* $\gamma$ closed geodesic 
+* $\gamma^*$  arc on a punctured torus (disjoint from the geodesic)
+<!-- * snake graph and its perfect matchings -->
+<!-- * "lengths" that verify a Ptolemy inequality -->
 
-<!-- # --> 
-<!-- ## Story of involutions -->
-
-<!-- - Vieta jumping -->
-<!-- - diagonal exchanges -->
-<!-- - mutations -->
 
 
 <!-- # -->
 <!-- ## Group actions -->
 
-<!-- * $\mathbb{Z}^2$ acting by translation on $\mathbb{R}^2$. -->
-<!-- * infinitely many primitive elements --> 
-<!-- * $(a,b)$ primitive iff $a,b \in \mathbb{Z}$ coprime -->
+<!-- <!-1- _transition: glow -1-> -->
+<!-- $\mathbb{Q}\cup \infty \subset$ circle/projective line -->
 
-
-#
-## Group actions
-
-<!-- _transition: glow -->
-$\mathbb{Q}\cup \infty \subset$ circle/projective line
-
-* $(a,c)\text{ primitive } \mapsto a/c \in \mathbb{Q}\cup \infty$
-* $\begin{pmatrix} a & d \\ c & d \end{pmatrix} \mapsto$  arc joining $(a/c, b/d)$ 
-* $(a/b, c/d)$ are Farey neighbors iff $|ad - bc | =  1$
-* obvious transitive $SL(2,\mathbb{Z})$  action on Farey neighbors
+<!-- * $(a,c)\text{ primitive } \mapsto a/c \in \mathbb{Q}\cup \infty$ -->
+<!-- * $\begin{pmatrix} a & d \\ c & d \end{pmatrix} \mapsto$  arc joining $(a/c, b/d)$ --> 
+<!-- * $(a/b, c/d)$ are Farey neighbors iff $|ad - bc | =  1$ -->
+<!-- * obvious transitive $SL(2,\mathbb{Z})$  action on Farey neighbors -->
 
 
 #
@@ -220,19 +206,16 @@ $\mathbb{Q}\cup \infty \rightarrow$ Markoff numbers
 
 $p/q \mapsto m_{p,q}$
 
-* $SL(2, \mathbb{Z})$ action on $\mathbb{Q}\cup \infty$ 
-* $SL(2, \mathbb{Z})$ action on Markoff numbers/triples ?
-* [Vieta jumping](https://en.wikipedia.org/wiki/Vieta_jumping)
+- $SL(2, \mathbb{Z})$ action on $\mathbb{Q}\cup \infty$ 
+- $SL(2, \mathbb{Z})$ action on Markoff numbers/triples ?
+- [Vieta jumping](https://en.wikipedia.org/wiki/Vieta_jumping)
 
-#
-<!-- _transition: cube -->
-### Vieta jumps/flips/involutions
-$$x^2 + y^2 + z^2 - 3x y z = 0.$$
+
 $$x^2 - (3yz)x  + (y^2 + z^2) = 0.$$
 
 * quadratic in $x$,  two roots $x^\pm$
 * Vieta formula $x^+ + x^- = 3yz$ 
-* involution $(x^-,y,z) \mapsto (x^+, y,z) = (3yz - x^-, z,y)$
+<!-- * involution $(x^-,y,z) \mapsto (x^+, y,z) = (3yz - x^-, z,y)$ -->
 
 
 #
@@ -281,7 +264,7 @@ comes from Bass-Serre tree of
 
 Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 
-* modular torus = quotient of upper half plane $\mathbb{H}$ by  commutator subgroup of $\Gamma'< \text{PSL}(2, \mathbb{Z})$, acting by Mobius transformations
+- modular torus = quotient of upper half plane $\mathbb{H}$ by  commutator subgroup of $\Gamma'< \text{PSL}(2, \mathbb{Z})$, acting by Mobius transformations
 *  relates Markoff numbers to lengths of simple closed geodesics
 
 #
@@ -290,7 +273,7 @@ Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 
 * modular torus = quotient of upper half plane $\mathbb{H}$ by  commutator subgroup of $\Gamma'< \text{PSL}(2, \mathbb{Z})$
 * obtained from a pair of ideal triangles by identification
-* elliptic involution swaps triangles fixes midpoint of diagonal
+<!-- * elliptic involution swaps triangles fixes midpoint of diagonal -->
 
 #
 <!-- _transition: fade -->
@@ -298,39 +281,28 @@ Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 
  modular torus = $\mathbb{H}/\Gamma'$ 
 
-* $\Gamma'\simeq \mathbb{Z}*\mathbb{Z} \simeq$ fundamental group of the torus.
+- $\Gamma'\simeq \mathbb{Z}*\mathbb{Z} \simeq$ fundamental group of the torus.
 * any hyperbolic torus = $\mathbb{H}/ \rho(\mathbb{Z}*\mathbb{Z})$, 
 * $\rho:\mathbb{Z}*\mathbb{Z}\rightarrow\text{PSL}(2, \mathbb{R})$ discrete faithful representation
 * lifts to $\hat{\rho}:\mathbb{Z}*\mathbb{Z}\rightarrow\text{SL}(2, \mathbb{R})$ 
 * $a,b$ generators of $\mathbb{Z}*\mathbb{Z}$
 * **Definition** *character map* $\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
 
-#
 
 
-<!-- _transition: fade -->
- <p style = "text-align: left"> 
-Cohn (and others) shows that the 
-</p>
 
-- permutations 
-- the Vieta flips 
-<p style="text-align:left">
- used to construct Markoff's binary tree are induced by
- automorphisms of the fundamental group of the torus.
-</p>
 
-#### Exo
+<!-- #### Exo -->
 
-- Nielsen move $\rightarrow$ Vieta flip
-- $tr ab  + tr ab^{-1} = (tr a) (tr b)$
+<!-- - Nielsen move $\rightarrow$ Vieta flip -->
+<!-- - $tr\,ab  + tr\,ab^{-1} = (tr\,a) (tr\,b)$ -->
 
 #
 
 <!-- _transition: cube -->
-### Theorem
 
 
+### Theorem: Fricke, Cohn (and others) 
 <p style="text-align:left">
 The semi-algebraic set:
 </p>
@@ -339,6 +311,12 @@ $(x,y,z) \in \mathbb{R}_+,\,x^2 + y^2 + z^2 - x y z = 0.$
 
 can be identified with the Teichmueller space of the punctured torus.
 
+- permutations 
+- the Vieta flips 
+<p style="text-align:left">
+ used to construct Markoff's binary tree are induced by
+ automorphisms of the fundamental group of the torus.
+</p>
 
 #
 <!-- _transition: fade -->
@@ -387,7 +365,7 @@ Let $c$ be an essential closed curve $\ell_c$ its length.
 
 $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 
-* convexity/triangle inequality
+- convexity/triangle inequality
 * any pair of curves in linearly independent homology classes intersect
 * a curve with self intersections is never a minimizer
 
@@ -487,12 +465,66 @@ The proof uses a connection to cluster algebras. It was observed
 in [P, BBH] that the Markoff numbers can be obtained from the cluster variables in the cluster
 algebra of the once-punctured torus by specializing the initial cluster variables to 1. Moreover, the clusters in the cluster algebra then specialize to the Markoff triples. On the other hand, the cluster variables can be computed by a combinatorial formula given as a summation over the perfect matchings of a so-called snake graph.
 
-# Robert Hines
+#
+### How do you draw the norm ball?
+
+![bg left 80%](./holed_torus.png)
+
+- Plot 
+$$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(\gamma(q,p))}$$
+* corners at rational directions
+* smoothness at irrational directions
+
+#
+
+
+![bg left 90%](./family_norms.png)
+
+Norm balls for different (singular) metrics on the punctured torus.
+
+$\kappa = a^2 + b^2 + c^2 - abc$
+
+
+| $\kappa$ | $\alpha\beta\alpha^{-1}\beta^{-1}$| monodromy |
+| --- | --- | --- |
+|  <0  | boundary  | hyperbolic  |
+|  =0  | puncture  | parabolic  |
+|  >0  | cone point  | elliptic  |
+
+
+
+
+# 
+
+### How do you draw the norm ball?
+
+![bg left 80%](./holed_torus.png)
+
+- Plot 
+$$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(\gamma(q,p))}$$
+* corners at rational directions
+* smoothness at irrational directions
+
+# Robert Hines' perimeter formula
 
 
 - [An infinite product](https://arxiv.org/pdf/2001.05557v3) on the Teichmüller space of the once-punctured torus
-$$\prod_{\gamma}\left(\frac{e^{l(\gamma)}+1}{e^{l(\gamma)}-1}\right)^{2h}=\exp\left(\frac{l_1+l_2+l_3}{2}\right),$$
-- the product is over all simple closed geodesics 
+$$\prod_{\gamma\, scg}\left(\frac{e^{l(\gamma)}+1}{e^{l(\gamma)}-1}\right)^{2h}=\exp\left(\frac{l_1+l_2+l_3}{2}\right),$$
 - $l(\gamma)$ is the length of the geodesic, 
-- $l_i (t_i)$ are the lengths (traces) of any triple of simple geodesics $\{\gamma_i\}$ intersecting at a single point. 
+- $l_1,l_2,l_3$ are the lengths of any triple of simple geodesics $\{\gamma_i\}$ **intersecting at a single point.** 
 - The exponent $h=h(\gamma;\{\gamma_i\})$ is a positive integer "height" 
+
+# 
+
+## Analysis of (the derivative of) F
+
+- $F$ is a continuous extension of
+
+
+$$(q,p) \in \mathbb{Z}^2,\,  \frac{\ell(\gamma(q,p))}{p} = \frac{\|(q,p)\|_s}{p}$$
+
+- "projection of the graph of the "inverse" of the norm ball
+coordinates
+- 
+
+
