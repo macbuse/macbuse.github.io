@@ -207,8 +207,8 @@ $\mathbb{Q}\cup \infty \rightarrow$ Markoff numbers
 
 $p/q \mapsto m_{p,q}$
 
-- $SL(2, \mathbb{Z})$ action on $\mathbb{Q}\cup \infty$ 
-- $SL(2, \mathbb{Z})$ action on Markoff numbers/triples ?
+- $PSL(2, \mathbb{Z})$ action on $\mathbb{Q}\cup \infty$ 
+- $PSL(2, \mathbb{Z})$ action on Markoff numbers/triples ?
 - [Vieta jumping](https://en.wikipedia.org/wiki/Vieta_jumping)
 
 
