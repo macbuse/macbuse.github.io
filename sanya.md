@@ -149,15 +149,16 @@ $\mathbb{Q}\cup \infty \rightarrow \text{Markoff numbers},\,\, p/q \mapsto m_{p,
 
 ![w:800](./lines.png)
 
-# Labeling Markoff numbers
+# Labeling Markoff numbers $m_{p/q}$
 <!-- _transition: cube -->
 ## A tale of three trees
 
 
-* Markoff number = $m_{p/q}$
 * Farey "tree" of coprime integers $p,q$
 * Markoff tree of solutions to the cubic
 * Bass-Serre of a free product 
+    * $\simeq$ automorphisms of the Markoff cubic
+    * $\simeq$ automorphisms of the fundamental group of the punctured torus
 
 $PSL(2,\mathbb{Z}) \simeq \mathbb{Z}/2 * \mathbb{Z}/3$
 
@@ -206,8 +207,8 @@ $\mathbb{Q}\cup \infty \rightarrow$ Markoff numbers
 
 $p/q \mapsto m_{p,q}$
 
-- $SL(2, \mathbb{Z})$ action on $\mathbb{Q}\cup \infty$ 
-- $SL(2, \mathbb{Z})$ action on Markoff numbers/triples ?
+- $PSL(2, \mathbb{Z})$ action on $\mathbb{Q}\cup \infty$ 
+- $PSL(2, \mathbb{Z})$ action on Markoff numbers/triples ?
 - [Vieta jumping](https://en.wikipedia.org/wiki/Vieta_jumping)
 
 
@@ -223,9 +224,13 @@ $$x^2 - (3yz)x  + (y^2 + z^2) = 0.$$
 ## Automorphisms
 $$x^2 + y^2 + z^2 - 3x y z = 0.$$
 
-- Vieta flips
-- (cyclic) permutations of $x,y,z$
-- action of $\mathbb{Z}/2 * \mathbb{Z}/3 \simeq PSL(2,\mathbb{Z})$ 
+|||
+|-|-|
+|$\mathbb{Z}/2$|Vieta flips $x\mapsto yz -x$|
+|$\mathbb{Z}/3$|(cyclic) permutations of $x,y,z$|
+
+
+$\Rightarrow$ action of $\mathbb{Z}/2 * \mathbb{Z}/3 \simeq PSL(2,\mathbb{Z})$ 
 
 #
 <!-- _transition: glow -->
@@ -239,20 +244,21 @@ number}\,\,m_{p/q}$
 - $(1:1) \mapsto  1/1 \mapsto m_{1/1} = 2 = z$ 
 - actions = projective on left and by autos on right
 
-# 
-### Tree structure
+#
 
-comes from Bass-Serre tree of
- $PSL(2,\mathbb{Z})$ 
 
-<!-- ![w:500px](./Markoff_tree_full.svg) -->
-![bg left 100%](./Markoff_tree_full.svg)
+$$m_{p/q} = \frac23 \cosh\left(\frac{\ell_{\gamma_p}}{2} \right) = \frac23 \cosh(\| (q,p) \|_s)$$
 
+- $\gamma_{p/q}$ is the  simple closed geodesic on the punctured torus 
+- $\gamma_{p/q}$ is in the homology class $(q,p) \in
+H_1(.,\mathbb{Z})\simeq \mathbb{Z}^2$
+ - $\| (q,p) \|_s$ is the stable norm of the homology class $(q,p)$
 
 #
 <!-- _transition: cube -->
-## Uniqueness conjecture
+### Tree structure
 
+- **Restatement of Uniqueness conjecture**
 * The largest integer in a triple determines the two other numbers.
 * The multiplicity of any number in the complementary regions to the tree is at most **6**
 
@@ -260,7 +266,7 @@ comes from Bass-Serre tree of
 
 #
 <!-- _transition: slide -->
-## Modern theory: H. Cohn 
+## Geometric theory: H. Cohn 
 
 Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 
@@ -324,7 +330,7 @@ can be identified with the Teichmueller space of the punctured torus.
 
 $N(t) := \text{number of Markoff numbers} \leq t$
 
-**Theorem** $N(t) = C (\log(3t))^2 + O(\log t)$
+- **Theorem** $N(t) = C (\log(3t))^2 + O(\log t)$
 
 - Zagier (1982) [On the Number of Markoff Numbers Below a Given Bound.](https://www.ams.org/journals/mcom/1982-39-160/S0025-5718-1982-0669663-7/S0025-5718-1982-0669663-7.pdf) 
 - Greg McShane, Igor Rivin (1995) [A norm on homology of surfaces and counting simple geodesics](https://arxiv.org/abs/math/0005222)
@@ -448,22 +454,21 @@ $\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$
 
 #
 <!-- _transition: cube -->
-##
+## Conjecture 
 
 ![w:1100](./schiffler.png)
 
-* [Gaster](https://arxiv.org/abs/2107.13499)
+- [Lee, Li, Rabideau, Schiffler 2022](https://arxiv.org/pdf/2010.13010.pdf)
+- [Gaster's solution 2021](https://arxiv.org/abs/2107.13499)
 
-[source](https://arxiv.org/pdf/2010.13010.pdf)
+<!-- # -->
+<!-- <!-1- _transition: fade -1-> -->
+<!-- [On the ordering of the Markoff numbers](https://arxiv.org/abs/2010.13010) -->
+<!-- Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler -->
 
-#
-<!-- _transition: fade -->
-[On the ordering of the Markoff numbers](https://arxiv.org/abs/2010.13010)
-Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler
-
-The proof uses a connection to cluster algebras. It was observed
-in [P, BBH] that the Markoff numbers can be obtained from the cluster variables in the cluster
-algebra of the once-punctured torus by specializing the initial cluster variables to 1. Moreover, the clusters in the cluster algebra then specialize to the Markoff triples. On the other hand, the cluster variables can be computed by a combinatorial formula given as a summation over the perfect matchings of a so-called snake graph.
+<!-- The proof uses a connection to cluster algebras. It was observed -->
+<!-- in [P, BBH] that the Markoff numbers can be obtained from the cluster variables in the cluster -->
+<!-- algebra of the once-punctured torus by specializing the initial cluster variables to 1. Moreover, the clusters in the cluster algebra then specialize to the Markoff triples. On the other hand, the cluster variables can be computed by a combinatorial formula given as a summation over the perfect matchings of a so-called snake graph. -->
 
 #
 ### How do you draw the norm ball?
@@ -477,20 +482,32 @@ $$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(
 
 #
 
+![bg left 90%](./exterior_angles.png)
+
+### Gauss-Bonnet
+
+For a polygon in the Euclidean plane
+$$\sum_{i=1}^n (\pi - \alpha_i)  + \sum_{i=1}^n \int_{C_i} k_g \, ds = 2\pi$$
+
+- $\alpha_i$ interior angles
+- $k_g$ geodesic curvature of the edges 
+
+
+#
+
 
 ![bg left 90%](./family_norms.png)
 
 Norm balls for different (singular) metrics on the punctured torus.
 
-$\kappa = a^2 + b^2 + c^2 - abc$
+$\kappa = x^2 + y^2 + z^2 - xyz$
 
 
-| $\kappa$ | $\alpha\beta\alpha^{-1}\beta^{-1}$| monodromy |
+| $\kappa$ | $\rho(aba^{-1}b^{-1})$| monodromy |
 | --- | --- | --- |
-|  <0  | boundary  | hyperbolic  |
+|  <0  | geodesic boundary  | hyperbolic  |
 |  =0  | puncture  | parabolic  |
 |  >0  | cone point  | elliptic  |
-
 
 
 
@@ -498,7 +515,7 @@ $\kappa = a^2 + b^2 + c^2 - abc$
 
 ### How do you draw the norm ball?
 
-![bg left 80%](./holed_torus.png)
+![bg left 80%](./family_norms.png)
 
 - Plot 
 $$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(\gamma(q,p))}$$
@@ -508,11 +525,12 @@ $$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(
 # Robert Hines' perimeter formula
 
 
-- [An infinite product](https://arxiv.org/pdf/2001.05557v3) on the Teichmüller space of the once-punctured torus
+- [An infinite product](https://arxiv.org/pdf/2001.05557v3) on the Teichmüller space of the once-punctured torus where $h$is a positive integer "height" 
 $$\prod_{\gamma\, scg}\left(\frac{e^{l(\gamma)}+1}{e^{l(\gamma)}-1}\right)^{2h}=\exp\left(\frac{l_1+l_2+l_3}{2}\right),$$
 - $l(\gamma)$ is the length of the geodesic, 
 - $l_1,l_2,l_3$ are the lengths of any triple of simple geodesics $\{\gamma_i\}$ **intersecting at a single point.** 
-- The exponent $h=h(\gamma;\{\gamma_i\})$ is a positive integer "height" 
+- $h=h(\gamma_{p,q};\{\gamma_i\}) = \max\{|p|, |q|, |p − q|\}$
+**it's a norm!!!!**
 
 # 
 
@@ -523,8 +541,8 @@ $$\prod_{\gamma\, scg}\left(\frac{e^{l(\gamma)}+1}{e^{l(\gamma)}-1}\right)^{2h}=
 
 $$(q,p) \in \mathbb{Z}^2,\,  \frac{\ell(\gamma(q,p))}{p} = \frac{\|(q,p)\|_s}{p}$$
 
-- "projection of the graph of the "inverse" of the norm ball
+- projection of the graph of the "inverse" of the norm ball
 coordinates
-- 
+- Fock and Goncharov. **Dual Teichmuller and lamination spaces.** Handbook of Teichmuller theory. Vol. I
 
 

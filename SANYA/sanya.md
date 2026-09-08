@@ -401,7 +401,13 @@ $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 <!-- _transition: cube -->
 ## Unit ball
 
-![w:500](./holed_torus.png)
+- $\alpha,\beta$ are a pair of shortest closed geodesics on the
+modular torus.
+- the homology class of 
+    - $\alpha$ is $(1,0)$ 
+    - $\beta$ is $(0,1)$
+
+![bg left 90%](./labelled_norm.png)
 
 #
 <!-- _transition: fade -->
@@ -417,9 +423,8 @@ $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 ## Why log ?
 $N(t) = C (\log(3t)^2 + O(\log t)$
 
-- $m_{p/q} = \frac13 tr \hat{\rho}( \gamma_{p/q})$
-- $= \frac23 \cosh\left(\frac{\ell_{\gamma_p}}{2} \right)$
-- $= \frac23 \cosh(\| (q,p) \|_s)$
+<!-- - $m_{p/q} = \frac13 tr \hat{\rho}( \gamma_{p/q})$ -->
+ $$m_{p/q} = \frac23 \cosh\left(\frac{\ell_{\gamma_p}}{2} \right)= \frac23 \cosh(\| (q,p) \|_s)$$
 - **important** $t ↦ \frac23 \cosh(t)$ monotone increasing on $[0,\infty[$
 
 
@@ -473,7 +478,7 @@ $\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$
 #
 ### How do you draw the norm ball?
 
-![bg left 80%](./holed_torus.png)
+![bg left 80%](./labelled_norm.png)
 
 - Plot 
 $$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(\gamma(q,p))}$$
@@ -491,6 +496,18 @@ $$\sum_{i=1}^n (\pi - \alpha_i)  + \sum_{i=1}^n \int_{C_i} k_g \, ds = 2\pi$$
 
 - $\alpha_i$ interior angles
 - $k_g$ geodesic curvature of the edges 
+
+
+#
+
+### Gauss-Bonnet
+
+$$\sum_{i=1}^n (\pi - \alpha_i)  + \sum_{i=1}^n \int_{C_i} k_g \, ds = 2\pi$$
+
+- For the norm ball:
+    - zero curvature at irrational directions $\int k_g \, ds = 0$
+    -  corners at rational directions, identity
+$$\Rightarrow \sum_{(q,p) \text{coprime}} (\pi - \alpha_(q,p))  = 2\pi$$
 
 
 #
@@ -515,7 +532,7 @@ $\kappa = x^2 + y^2 + z^2 - xyz$
 
 ### How do you draw the norm ball?
 
-![bg left 80%](./family_norms.png)
+![bg left 80%](./labelled_norm.png)
 
 - Plot 
 $$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(\gamma(q,p))}$$

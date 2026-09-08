@@ -33,7 +33,7 @@ Mostly visiting China as I have a  special talent visa (R-visa valid 2026-2036) 
 
 - 24/9 - 25/9 [Géométrie hyperbolique et surfaces](https://ghs-2026.sciencesconf.org/) Institut Fourier, Grenoble 
 - 6/9 - 11/9 [Analysis, Geometry, Randomness](https://tsimf.tsinghua.edu.cn/info/1588/1880.htm), TSIMF, Sanya [talk slides](./SANYA/sanya.html)
-- 31/8 - 5/9 [Remarkable developments in the geometry of surfaces](https://shijiazhuang2024.sciencesconf.org/) Hebei Normal University, Shijiazhuang 
+- 31/8 - 5/9 [Remarkable developments in the geometry of surfaces](./(EN) Conference Booklet-version0826.pdf)
 - 3/4 - 3/5 Invited professor [USTC](https://en.ustc.edu.cn/) Hefei, Anhui, China
 - 3/4 - 10/4 [Teichmuller Theory and Beyond](https://shinpeibaba.com/Teichmueller2026/main.php) USTC, Hefei, Anhui, China
 
