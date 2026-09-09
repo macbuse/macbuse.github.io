@@ -466,14 +466,6 @@ $\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$
 - [Lee, Li, Rabideau, Schiffler 2022](https://arxiv.org/pdf/2010.13010.pdf)
 - [Gaster's solution 2021](https://arxiv.org/abs/2107.13499)
 
-<!-- # -->
-<!-- <!-1- _transition: fade -1-> -->
-<!-- [On the ordering of the Markoff numbers](https://arxiv.org/abs/2010.13010) -->
-<!-- Kyungyong Lee, Li Li, Michelle Rabideau, Ralf Schiffler -->
-
-<!-- The proof uses a connection to cluster algebras. It was observed -->
-<!-- in [P, BBH] that the Markoff numbers can be obtained from the cluster variables in the cluster -->
-<!-- algebra of the once-punctured torus by specializing the initial cluster variables to 1. Moreover, the clusters in the cluster algebra then specialize to the Markoff triples. On the other hand, the cluster variables can be computed by a combinatorial formula given as a summation over the perfect matchings of a so-called snake graph. -->
 
 #
 ### How do you draw the norm ball?
@@ -482,12 +474,35 @@ $\|(q ,p  ) \|_s < \|(q + i ,p -i ) \|_s$
 
 - Plot 
 $$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(\gamma(q,p))}$$
-* corners at rational directions
-* smoothness at irrational directions
+
+#
+
+![width:700](./torus_rotation_norm.png)
+
+Klempnauer and Schröder: **“The stable norm on the 2-torus at
+irrational directions”.**  Nonlinearity: 30.3 (2017)
+
+
+#
+![width:800](./slit_torus_norm.png)
+- **On the stable norm of slit tori and the Farey sequence** 
+Pablo Montealegre.  arXiv: 2310.05570 
+
+#
+### How do you draw the norm ball?
+
+![bg left 80%](./labelled_norm.png)
+
+- Plot 
+$$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(\gamma(q,p))}$$
+- corners at rational directions
+- smoothness at irrational directions
+
 
 #
 
 ![bg left 90%](./exterior_angles.png)
+
 
 ### Gauss-Bonnet
 
@@ -536,8 +551,8 @@ $\kappa = x^2 + y^2 + z^2 - xyz$
 
 - Plot 
 $$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(\gamma(q,p))}$$
-* corners at rational directions
-* smoothness at irrational directions
+- corners at rational directions
+- smoothness at irrational directions
 
 # Robert Hines' perimeter formula
 

@@ -384,6 +384,7 @@ it's  basically the same
 
 ### 2026
 
+* [Sanya 9/9](./SANYA/sanya.md)
 * [Hefei 9/4](./HEFEI/hefei.html)
 
 ---
