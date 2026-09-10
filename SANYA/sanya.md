@@ -47,10 +47,11 @@ style: |
 -->
 
 # Stable norm (old&new)
+TSIMF 10/11/26
 <!-- _transition: glow -->
-Greg Mc Shane
- Institut Fourier
- **USTC, Hefei**
+- Greg Mc Shane
+ - Institut Fourier
+ - **USTC, Hefei**
 
 
 
@@ -568,9 +569,10 @@ $$
 
 ## Igor Rivin
 
-- Great Mathematician
 - Thesis with Thurston
 - Worked on Mathematica
+- Great Mathematician [(regius professor St.
+Andrews)](https://www.google.com/search?sca_esv=1f9121a7cdf920c7&sxsrf=APpeQnvXKc_D09GaoTMF6usDDgHSFlrkbQ:1789023265410&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nrnv9E2M7LBl24a2kei5MIEjAy2_cot-HLfCGu1PoOYwgQebsqCb-oe7X8sTixrSrA8IwOPrWzMWbMEewlMIk9TOCTIgf1Nf63cqBKfdapshSecSJHZlTKWjqs3FgIQ34NGfrLQ&q=igor+rivin&sa=X&ved=2ahUKEwjP3uqBt-OWAxVt9LsIHafhGBoQtKgLegQIFxAB&biw=1133&bih=543&dpr=1.63)
 * **Banned** from the ENS Lyon
 * **Banned** from the IHES
 * Tried to get a job by buying Gromov a dog
@@ -603,12 +605,11 @@ $$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(
 # Robert Hines' perimeter formula
 
 
-- [An infinite product](https://arxiv.org/pdf/2001.05557v3) on the Teichmüller space of the once-punctured torus where $h$is a positive integer "height" 
+- [An infinite product](https://arxiv.org/pdf/2001.05557v3) on the Teichmüller space of the once-punctured torus where $h$is a positive integer **"height"** 
 $$\prod_{\gamma\, scg}\left(\frac{e^{l(\gamma)}+1}{e^{l(\gamma)}-1}\right)^{2h}=\exp\left(\frac{l_1+l_2+l_3}{2}\right),$$
 - $l(\gamma)$ is the length of the geodesic, 
 - $l_1,l_2,l_3$ are the lengths of any triple of simple geodesics $\{\gamma_i\}$ **intersecting at a single point.** 
-- $h=h(\gamma_{p,q};\{\gamma_i\}) = \max\{|p|, |q|, |p − q|\}$
-**it's a norm!!!!**
+- $h=h(\gamma_{p,q};\{\gamma_i\}) = \max\{|p|, |q|, |p − q|\}$ **it's a norm!!!!**
 
 # 
 
@@ -624,7 +625,6 @@ coordinates
 - Fock and Goncharov. **Dual Teichmuller and lamination spaces.** Handbook of Teichmuller theory. Vol. I
 
 
-"confirming" Rivin's intuition
 
 #
 
@@ -681,12 +681,16 @@ coordinates
 ## Igor Rivin
 
 In an appendix Hines gives a variation of his argument and reproves
-"confirming" Rivin's intuition
 $$\sum \frac{1}{1 + e^{\ell(\gamma)}} = \frac{1}{2}$$
+"confirming" Rivin's intuition
 
-- me: sure it's complicated but I can probably integrate out some of
-  the variables
+- me: sure it's complicated but I can probably ....
 - Igor : yeah, but you'll probably get the same identity back
+
+
+#
+
+![width:800](./thatsallfolks.png)
 
 
 
