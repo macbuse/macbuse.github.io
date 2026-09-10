@@ -50,8 +50,8 @@ style: |
 TSIMF 10/11/26
 <!-- _transition: glow -->
 - Greg Mc Shane
- - Institut Fourier
- - **USTC, Hefei**
+     - Institut Fourier
+     - **USTC, Hefei**
 
 
 
