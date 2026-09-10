@@ -58,7 +58,7 @@ Greg Mc Shane
 
 <!-- _transition: cube -->
 - slides : google **greg mcshane github**
-- click on **sanya**
+- click on **talk slides**
 
 #
 <!-- _transition: slide -->
@@ -105,14 +105,15 @@ The largest integer in a triple determines the two other numbers.
 <!-- _transition: cube -->
 ### Partial results
 
-m = Markoff number
+m = biggest Markoff number determines the two other numbers.
 
-* Jack Button for [m prime](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292)
-* Baragar [m, 3m - 2, 3m + 2 prime](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88B0E426FFCBEA8B3A345C1074B8CC59/S0008439500018828a.pdf/on-the-unicity-conjecture-for-markoff-numbers.pdf)
-* Zhang [An elementary proof...](https://arxiv.org/abs/math/0606283)
-* Lang, Tan [A simple proof....](https://arxiv.org/abs/math/0508443)
-* [ Bugeaud, Reutenauer, Siksek](https://core.ac.uk/download/pdf/82088222.pdf)
-* Conclusion too hard!!!
+- Jack Button for [m or 2m  prime](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292)
+- Baragar [m, 3m - 2, 3m + 2 prime](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88B0E426FFCBEA8B3A345C1074B8CC59/S0008439500018828a.pdf/on-the-unicity-conjecture-for-markoff-numbers.pdf)
+- Zhang [An elementary proof...](https://arxiv.org/abs/math/0606283)
+- Lang, Tan [A simple proof....](https://arxiv.org/abs/math/0508443)
+- [ Bugeaud, Reutenauer, Siksek](https://core.ac.uk/download/pdf/82088222.pdf) 
+    - (intersections of Fibonacci, Pell numbers Hefei April)
+- Conclusion too hard!!!
 
 # Martin Aigner
 <!-- _transition: wipe -->
@@ -120,8 +121,7 @@ m = Markoff number
 ![bg left](./Martin_Aigner.jpg)
 
 -  [Proofs from THE BOOK](https://en.wikipedia.org/wiki/Proofs_from_THE_BOOK#:~:text=Proofs%20from%20THE%20BOOK%20is,proof%20of%20each%20mathematical%20theorem)
-* [Convexity and Aigner's Conjectures](https://arxiv.org/abs/2101.03316)
-* Prove his conjectures with one figure?
+- [Convexity and Aigner's Conjectures](https://arxiv.org/abs/2101.03316)
 
 
 #
@@ -129,10 +129,10 @@ m = Markoff number
 ### Aigner's monotonicity conjectures
 
 - Markoff’s theorem and 100 years of the uniqueness conjecture. A mathematical journey from irrational numbers to perfect matchings.  2013.  
-* M. Rabideau, R. Schiffler,
-Continued fractions and orderings on the Markoff numbers,
-Advances in Mathematics Vol 370,  2020. [published](https://www.sciencedirect.com/science/article/abs/pii/S0001870820302577)
-* C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markoff numbers: fixed numerator, denominator, and sum conjectures. [published](https://www.sciencedirect.com/science/article/abs/pii/S0196885821000658)
+    - M. Rabideau, R. Schiffler,
+    Continued fractions and orderings on the Markoff numbers,
+    Advances in Mathematics Vol 370,  2020. [published](https://www.sciencedirect.com/science/article/abs/pii/S0001870820302577)
+    - C Lagisquet and E. Pelantová and S. Tavenas and L. Vuillon, On the Markoff numbers: fixed numerator, denominator, and sum conjectures. [published](https://www.sciencedirect.com/science/article/abs/pii/S0196885821000658)
 
 
 #
@@ -154,11 +154,11 @@ $\mathbb{Q}\cup \infty \rightarrow \text{Markoff numbers},\,\, p/q \mapsto m_{p,
 ## A tale of three trees
 
 
-* Farey "tree" of coprime integers $p,q$
-* Markoff tree of solutions to the cubic
-* Bass-Serre of a free product 
-    * $\simeq$ automorphisms of the Markoff cubic
-    * $\simeq$ automorphisms of the fundamental group of the punctured torus
+- Farey "tree" of coprime integers $p,q$
+- Markoff tree of solutions to the cubic
+- Bass-Serre of a free product 
+    - $\simeq$ automorphisms of the Markoff cubic
+    - $\simeq$ automorphisms of the fundamental group of the punctured torus
 
 $PSL(2,\mathbb{Z}) \simeq \mathbb{Z}/2 * \mathbb{Z}/3$
 
@@ -212,11 +212,10 @@ $p/q \mapsto m_{p,q}$
 - [Vieta jumping](https://en.wikipedia.org/wiki/Vieta_jumping)
 
 
-$$x^2 - (3yz)x  + (y^2 + z^2) = 0.$$
-
-* quadratic in $x$,  two roots $x^\pm$
-* Vieta formula $x^+ + x^- = 3yz$ 
-<!-- * involution $(x^-,y,z) \mapsto (x^+, y,z) = (3yz - x^-, z,y)$ -->
+- $x^2 - (3yz)x  + (y^2 + z^2) = 0.$
+    - quadratic in $x$,  two roots $x^\pm$
+    - Vieta formula $x^+ + x^- = 3yz$ 
+    <!-- * involution $(x^-,y,z) \mapsto (x^+, y,z) = (3yz - x^-, z,y)$ -->
 
 
 #
@@ -226,7 +225,7 @@ $$x^2 + y^2 + z^2 - 3x y z = 0.$$
 
 |||
 |-|-|
-|$\mathbb{Z}/2$|Vieta flips $x\mapsto yz -x$|
+|$\mathbb{Z}/2$|Vieta jumping/ flips $x\mapsto yz -x$|
 |$\mathbb{Z}/3$|(cyclic) permutations of $x,y,z$|
 
 
@@ -245,16 +244,6 @@ number}\,\,m_{p/q}$
 - actions = projective on left and by autos on right
 
 #
-
-
-$$m_{p/q} = \frac23 \cosh\left(\frac{\ell_{\gamma_p}}{2} \right) = \frac23 \cosh(\| (q,p) \|_s)$$
-
-- $\gamma_{p/q}$ is the  simple closed geodesic on the punctured torus 
-- $\gamma_{p/q}$ is in the homology class $(q,p) \in
-H_1(.,\mathbb{Z})\simeq \mathbb{Z}^2$
- - $\| (q,p) \|_s$ is the stable norm of the homology class $(q,p)$
-
-#
 <!-- _transition: cube -->
 ### Tree structure
 
@@ -264,6 +253,19 @@ H_1(.,\mathbb{Z})\simeq \mathbb{Z}^2$
 
 ![bg left 100%](./Markoff_tree_full.svg)
 
+
+
+#
+
+## Geometry of Aigner's conjectures
+
+$$m_{p/q} = \frac23 \cosh\left(\frac{\ell_{\gamma_p}}{2} \right) = \frac23 \cosh(\| (q,p) \|_s)$$
+
+- $\gamma_{p/q}$ is the  simple closed geodesic on the punctured torus 
+- $\gamma_{p/q}$ is in the homology class $(q,p) \in
+H_1(.,\mathbb{Z})\simeq \mathbb{Z}^2$
+ - $\| (q,p) \|_s$ is the stable norm of the homology class $(q,p)$
+
 #
 <!-- _transition: slide -->
 ## Geometric theory: H. Cohn 
@@ -271,7 +273,7 @@ H_1(.,\mathbb{Z})\simeq \mathbb{Z}^2$
 Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 
 - modular torus = quotient of upper half plane $\mathbb{H}$ by  commutator subgroup of $\Gamma'< \text{PSL}(2, \mathbb{Z})$, acting by Mobius transformations
-*  relates Markoff numbers to lengths of simple closed geodesics
+*  (essentially) relates Markoff numbers to lengths of simple closed geodesics
 
 #
 <!-- _transition: cube -->
@@ -288,11 +290,11 @@ Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
  modular torus = $\mathbb{H}/\Gamma'$ 
 
 - $\Gamma'\simeq \mathbb{Z}*\mathbb{Z} \simeq$ fundamental group of the torus.
-* any hyperbolic torus = $\mathbb{H}/ \rho(\mathbb{Z}*\mathbb{Z})$, 
-* $\rho:\mathbb{Z}*\mathbb{Z}\rightarrow\text{PSL}(2, \mathbb{R})$ discrete faithful representation
-* lifts to $\hat{\rho}:\mathbb{Z}*\mathbb{Z}\rightarrow\text{SL}(2, \mathbb{R})$ 
-* $a,b$ generators of $\mathbb{Z}*\mathbb{Z}$
-* **Definition** *character map* $\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
+- any hyperbolic torus = $\mathbb{H}/ \rho(\mathbb{Z}*\mathbb{Z})$, 
+- $\rho:\mathbb{Z}*\mathbb{Z}\rightarrow\text{PSL}(2, \mathbb{R})$ discrete faithful representation
+- lifts to $\hat{\rho}:\mathbb{Z}*\mathbb{Z}\rightarrow\text{SL}(2, \mathbb{R})$ 
+- $a,b$ generators of $\mathbb{Z}*\mathbb{Z}$
+    - **Definition:** *character map* $\chi : \rho \mapsto ( tr \hat{\rho}(a),  tr \hat{\rho}(b),  tr \hat{\rho}(ab) )$
 
 
 
@@ -371,9 +373,9 @@ Let $c$ be an essential closed curve $\ell_c$ its length.
 
 $\gamma \in H^1(T,\mathbb{Z}), \, \| \gamma \| := \inf_{ c \in \gamma} \ell_c/2$
 
-- convexity/triangle inequality
-* any pair of curves in linearly independent homology classes intersect
-* a curve with self intersections is never a minimizer
+-  any pair of curves in linearly independent homology classes intersect $\Rightarrow$
+    - a curve with self intersections is never a minimizer
+    - convexity/triangle inequality
 
 #
 
@@ -414,9 +416,10 @@ modular torus.
 ### Unit ball and counting
 
  $\sharp \{ \gamma \in \mathbb{Z}^2,\, \| \gamma \| \leq t \} \sim \text{area unit ball}\times t^2$ 
-* $\sharp \{ \gamma \text{ primitive},\, \| \gamma \| \leq t \} \sim \frac{6}{\pi^2}\text{area unit ball}\times t^2$ 
-* the area of the unit ball depends on the hyperbolic structure
-* with Rivin we studied it, but now it's called the Mirzakhani function :(
+- $\sharp \{ \gamma \text{ primitive},\, \| \gamma \| \leq t \} \sim \frac{6}{\pi^2}\text{area unit ball}\times t^2$ 
+- $6/\pi^2$ is the probability that 2 random integers are coprime.
+- the area of the unit ball depends on the hyperbolic structure
+- with Rivin we studied it, but now it's called the Mirzakhani function :(
 
 #
 <!-- _transition: cube -->
