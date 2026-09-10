@@ -522,8 +522,7 @@ $$\sum_{i=1}^n (\pi - \alpha_i)  + \sum_{i=1}^n \int_{C_i} k_g \, ds = 2\pi$$
 - For the norm ball:
     - zero curvature at irrational directions $\int k_g \, ds = 0$
     -  corners at rational directions, identity
-$$\Rightarrow \sum_{(q,p) \text{coprime}} (\pi - \alpha_(q,p))  = 2\pi$$
-
+$$\Rightarrow \sum_{(q,p) \text{coprime}} (\pi - \alpha_{q,p})  = 2\pi$$
 
 #
 
@@ -540,6 +539,48 @@ $\kappa = x^2 + y^2 + z^2 - xyz$
 |  <0  | geodesic boundary  | hyperbolic  |
 |  =0  | puncture  | parabolic  |
 |  >0  | cone point  | elliptic  |
+
+
+
+#
+
+## Calculating the angles
+
+- $\alpha_{q,p} = \alpha_{q,p}^+ + \alpha_{q,p}^-$
+    - $\tan(\alpha_{q,p}^+),\,\tan( \alpha_{q,p}^-)$ slopes of support lines to the norm ball
+- pick $p',q'$ so that $pq' - qp'= 1$ 
+- consider $\gamma_n$ in the homology class $(nq + q', np + p')$
+$$\tan(\alpha_{q,p}^+) = \lim_{n\to \infty}
+\frac{\ell(\gamma_{q,p})(np + p') - \ell_{\gamma_n}p'}
+{\ell(\gamma_{q,p})(nq + q'') - \ell_{\gamma_n}q'}
+$$
+$$
+=
+\frac{p(f(\ell(\gamma_{q,p}) + \tau(\gamma_{q,p})) + p'\ell(\gamma_{q,p})}{q(f(\ell(\gamma_{q,p}) + \tau(\gamma_{q,p})) + q' \ell(\gamma_{q,p})}$$
+#
+
+![bg left 90%](./igor.png)
+
+## Igor Rivin
+
+- Great Mathematician
+- Thesis with Thurston
+- Worked on Mathematica
+* Banned from the ENS Lyon
+* Banned from the IHES
+* Tried to get a job by buying Gromov a dog
+
+
+#
+
+![bg left 90%](./igor.png)
+
+## Igor Rivin
+
+- me: sure it's complicated but I can probably integrate out some of
+  the variables
+- Igor : yeah, but you'll probably get the same identity back
+$$\sum \frac{1}{1 + e^{\ell(\gamma)}} = \frac{1}{2}$$
 
 
 
@@ -576,5 +617,71 @@ $$(q,p) \in \mathbb{Z}^2,\,  \frac{\ell(\gamma(q,p))}{p} = \frac{\|(q,p)\|_s}{p}
 - projection of the graph of the "inverse" of the norm ball
 coordinates
 - Fock and Goncharov. **Dual Teichmuller and lamination spaces.** Handbook of Teichmuller theory. Vol. I
+
+
+"confirming" Rivin's intuition
+
+#
+
+![bg left 90%](./igor.png)
+
+## Igor Rivin
+
+- me: sure it's complicated but I can probably integrate out some of
+  the variables
+- Igor : yeah, but you'll probably get the same identity back
+$$\sum \frac{1}{1 + e^{\ell(\gamma)}} = \frac{1}{2}$$
+
+
+
+# 
+
+### How do you draw the norm ball?
+
+![bg left 80%](./labelled_norm.png)
+
+- Plot 
+$$(q,p) \in \mathbb{Z}^2,\, \frac{(q,p)}{ \| (q,p) \|_s}  = \frac{(q,p)}{  \ell(\gamma(q,p))}$$
+- corners at rational directions
+- smoothness at irrational directions
+
+# Robert Hines' perimeter formula
+
+
+- [An infinite product](https://arxiv.org/pdf/2001.05557v3) on the Teichmüller space of the once-punctured torus where $h$is a positive integer "height" 
+$$\prod_{\gamma\, scg}\left(\frac{e^{l(\gamma)}+1}{e^{l(\gamma)}-1}\right)^{2h}=\exp\left(\frac{l_1+l_2+l_3}{2}\right),$$
+- $l(\gamma)$ is the length of the geodesic, 
+- $l_1,l_2,l_3$ are the lengths of any triple of simple geodesics $\{\gamma_i\}$ **intersecting at a single point.** 
+- $h=h(\gamma_{p,q};\{\gamma_i\}) = \max\{|p|, |q|, |p − q|\}$
+**it's a norm!!!!**
+
+# 
+
+## Analysis of (the derivative of) F
+
+- $F$ is a continuous extension of
+
+
+$$(q,p) \in \mathbb{Z}^2,\,  \frac{\ell(\gamma(q,p))}{p} = \frac{\|(q,p)\|_s}{p}$$
+
+- projection of the graph of the "inverse" of the norm ball
+coordinates
+- Fock and Goncharov. **Dual Teichmuller and lamination spaces.** Handbook of Teichmuller theory. Vol. I
+
+#
+
+
+![bg left 90%](./igor.png)
+
+## Igor Rivin
+
+In an appendix Hines gives a variation of his argument and reproves
+"confirming" Rivin's intuition
+$$\sum \frac{1}{1 + e^{\ell(\gamma)}} = \frac{1}{2}$$
+
+- me: sure it's complicated but I can probably integrate out some of
+  the variables
+- Igor : yeah, but you'll probably get the same identity back
+
 
 
