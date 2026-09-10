@@ -569,8 +569,8 @@ $$
 - Great Mathematician
 - Thesis with Thurston
 - Worked on Mathematica
-* Banned from the ENS Lyon
-* Banned from the IHES
+* **Banned** from the ENS Lyon
+* **Banned** from the IHES
 * Tried to get a job by buying Gromov a dog
 
 
@@ -580,9 +580,9 @@ $$
 
 ## Igor Rivin
 
-- me: sure it's complicated but I can probably integrate out some of
+- **me:** sure it's complicated but I can probably integrate out some of
   the variables
-- Igor : yeah, but you'll probably get the same identity back
+- **Igor:**yeah, but you'll probably get the same identity back
 $$\sum \frac{1}{1 + e^{\ell(\gamma)}} = \frac{1}{2}$$
 
 
