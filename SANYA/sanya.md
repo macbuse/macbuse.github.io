@@ -245,11 +245,13 @@ number}\,\,m_{p/q}$
 
 #
 <!-- _transition: cube -->
-### Tree structure
 
-- **Restatement of Uniqueness conjecture**
-* The largest integer in a triple determines the two other numbers.
-* The multiplicity of any number in the complementary regions to the tree is at most **6**
+- **Uniqueness conjecture**
+- The largest integer in a triple determines the two other numbers.
+- The multiplicity of any number in the complementary regions to the tree is at most **6**
+
+[M., Parlier 2007](https://arxiv.org/abs/math/0701835):  $x=y=z$
+$x^2 + y^2 + z^2 - xyz = \kappa <0$
 
 ![bg left 100%](./Markoff_tree_full.svg)
 
@@ -279,8 +281,8 @@ Approach to Markoff’s Minimal Forms Through Modular Functions (1955)
 <!-- _transition: cube -->
 ![bg left 50%](./ptorusx.svg)
 
-* modular torus = quotient of upper half plane $\mathbb{H}$ by  commutator subgroup of $\Gamma'< \text{PSL}(2, \mathbb{Z})$
-* obtained from a pair of ideal triangles by identification
+- modular torus = quotient of upper half plane $\mathbb{H}$ by  commutator subgroup of $\Gamma'< \text{PSL}(2, \mathbb{Z})$
+- obtained from a pair of ideal triangles by identification
 <!-- * elliptic involution swaps triangles fixes midpoint of diagonal -->
 
 #
@@ -582,7 +584,7 @@ $$
 
 - **me:** sure it's complicated but I can probably integrate out some of
   the variables
-- **Igor:**yeah, but you'll probably get the same identity back
+- **Igor:** yeah, but you'll probably get the same identity back
 $$\sum \frac{1}{1 + e^{\ell(\gamma)}} = \frac{1}{2}$$
 
 
