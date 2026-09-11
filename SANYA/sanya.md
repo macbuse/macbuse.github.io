@@ -108,7 +108,8 @@ The largest integer in a triple determines the two other numbers.
 
 m = biggest Markoff number determines the two other numbers.
 
-- Jack Button for [m or 2m  prime](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292)
+- Jack Button for [m=p or 2p for p  prime](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292)
+- Jack Button pour [m ou 2m premier](https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/S0024610798006292)
 - Baragar [m, 3m - 2, 3m + 2 prime](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/88B0E426FFCBEA8B3A345C1074B8CC59/S0008439500018828a.pdf/on-the-unicity-conjecture-for-markoff-numbers.pdf)
 - Zhang [An elementary proof...](https://arxiv.org/abs/math/0606283)
 - Lang, Tan [A simple proof....](https://arxiv.org/abs/math/0508443)
