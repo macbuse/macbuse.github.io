@@ -155,14 +155,15 @@ papers](https://collectif-maths-sciences.fr/author/melanie-guenais/) from the **
 
 - [web page for class](./MAT102/index.md)
 
-- CeB03
-    - First class: 8/9
-        - Mondays 13h30 D104
-        - Friday 9h30 D101
-- SPI03
-    - First class: 10/9
-        - Wednesdays 8h D004
-        - Fridays 13h30 E208
+- CeB-1 : 
+    - mardi 9h45-11h15 **D103**
+    - mercredi 15h15-16h45 **B220**
+    - jeudi 8h-9h30
+- SPI-3 : 
+    - mercredi 8h-9h30 **D004**
+    - vendredi 13h30-16h45 **E208**
+
+
 
 ---
 

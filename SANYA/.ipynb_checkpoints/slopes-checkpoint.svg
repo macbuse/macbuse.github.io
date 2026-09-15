@@ -27,7 +27,7 @@
      inkscape:cx="650.77438"
      inkscape:cy="582.32143"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1133"
@@ -58,14 +58,10 @@
        sodipodi:nodetypes="cccc" />
     <path
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#d40000;fill-opacity:1;stroke:none;stroke-width:0.264578px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
-       d="M 215.60589,192.53753 170.80077,89.595122 173.14229,185.33091 Z"
+       d="M 171.8138,190.82482 170.80077,89.595122 215.60589,192.53753 Z"
        id="path993"
        sodipodi:nodetypes="cccc" />
   </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Layer 3" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"

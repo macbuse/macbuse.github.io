@@ -2,11 +2,14 @@
 
 - SPI-3 : 
     - mercredi 8h-9h30 **D004**
-    - vendredi 13h30-16h45
+    - vendredi 13h30-16h45 **E208**
 - CeB-1 : 
     - mardi 9h45-11h15 **D103**
-    - mercredi 15h15-16h45 
+    - mercredi 15h15-16h45 **B220**
     - jeudi 8h-9h30
+
+[all MAT102 on ADE](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp?data=51278da58f6a6c7ad5fcd549aa2f4a9c5fc9f765254a1f35e198e0ac6910cd01e6905451e647d13923a7a7e673969331b6c0633c5a036f6d04966f2f451e7ee10ecd4ca072d75bbdea65bd043c56acfad7302406a71d9088ef97fa8cda27f5b76e2d7e6106df4e6f8ad09c4b1bda353526916715aef37a40bb9c13b779d4a56518ae6b75a06f790a4131e65176cfdc03,1)
+
 
 ---
 
@@ -280,10 +283,10 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 
 
 
-<!-- - exo 8 -->
-<!-- <!-1-     - [cercle trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique) -1-> -->
-<!-- - [8.2 solution modèle](./sol_1_8_2.html) -->
-<!-- - [Solutions chatGPT](./exo1.8.md) -->
+- exo 8
+    - [cercle trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique)
+- [8.2 solution modèle](./sol_1_8_2.html)
+- [Solutions chatGPT](./exo1.8.md)
 
 
 <!-- <!-1- --- -1-> -->
@@ -291,19 +294,19 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 <!-- ![cercle trigonométrique](./Unit_circle_angles_color.svg) -->
 
 
-<!-- - exo 9 -->
+- exo 9
 
 
-<!-- | Nombre complexe   | Partie réelle | Partie imaginaire | Module       | Argument (θ) | -->
-<!-- |-------------------|---------------|-------------------|--------------|--------------| -->
-<!-- | 1 + i             | 1             | 1                 | √2           | π/4          | -->
-<!-- | 2 - 2i            | 2             | -2                | 2√2          | -π/4         | -->
-<!-- | √3 + i            | √3            | 1                 | 2            | π/6          | -->
-<!-- | -i                | 0             | -1                | 1            | -π/2         | -->
-<!-- | -1 + i√3          | -1            | √3                | 2            | 2π/3         | -->
-<!-- | 1/(-1 + i)        | -1/2          | -1/2              | 1/√2         | -3π/4        | -->
-<!-- | -5                | -5            | 0                 | 5            | π            | -->
-<!-- | a + ia            | a             | a                 | |a|√2        | π/4 (a>0), -3π/4 (a<0) | -->
+| Nombre complexe   | Partie réelle | Partie imaginaire | Module       | Argument (θ) |
+|-------------------|---------------|-------------------|--------------|--------------|
+| 1 + i             | 1             | 1                 | √2           | π/4          |
+| 2 - 2i            | 2             | -2                | 2√2          | -π/4         |
+| √3 + i            | √3            | 1                 | 2            | π/6          |
+| -i                | 0             | -1                | 1            | -π/2         |
+| -1 + i√3          | -1            | √3                | 2            | 2π/3         |
+| 1/(-1 + i)        | -1/2          | -1/2              | 1/√2         | -3π/4        |
+| -5                | -5            | 0                 | 5            | π            |
+| a + ia            | a             | a                 | |a|√2        | π/4 (a>0), -3π/4 (a<0) |
 
 
 
