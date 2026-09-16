@@ -273,6 +273,9 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 ### Vocabulaire :
 
 
+$z = a + ib,\, i^2 = -1$
+
+
 - Partie réelle, partie imaginaire, module, argument
     - représentation sur le plan complexe
 - forme algébrique,  forme exponentielle
@@ -280,7 +283,10 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 
 ##### Exemples de calculs
 
+
+- $(1+i)+(1-i) = 2$
 - $(1+i)^2 = 1 + 2i + i^2 = 1 + 2i - 1 = 2i$
+- $(1+i)(1-i) = 1 - i^2 = 2 = |1+i|^2 = |1-i|^2$
 - $\frac{1+i}{1-i} = \frac{(1+i)(1+i)}{(1-i)(1+i)} =
 \frac{(1+i)^2}{1-i^2} = \frac{2i}{2} = i$
 
