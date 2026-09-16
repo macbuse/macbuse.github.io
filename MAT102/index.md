@@ -47,6 +47,13 @@
 1. Fonctions 
 1. Intégrales 
 
+## 4 Controles
+
+- CC1 sur les nombres complexes
+- Debut novembre : Partiel sur nbres cplexs + sommes et produits
+- CC2 sur géométrie 
+- Fin decembre : examen terminale sur tout le cours
+
 
 ### Sujets d'examens et partiels
 
@@ -237,22 +244,47 @@ Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique 
 
 ## [F1](./Fiche1-complexes.pdf)
 
-<!-- - Recherche sur les complexes [ensemble de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia) -->
-- Permettent de résoudre des [équations
-quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
-    - [Formule quadratique](https://fr.wikipedia.org/wiki/Formule_quadratique)
-
-
 ### Evaluation : 
-- [quick test debut octobre](./quick_test.pdf)
 
----
+ [quick test debut octobre](./quick_test.pdf)
+
+----
 
 **Pour la prochaine séance preparer** : Exo 8, 9
 
 <!-- **Preparer** --> 
 <!-- Exo 19 m) n) o) -->
 <!-- Exo 20 i) j) -->
+
+---
+
+<!-- - Recherche sur les complexes [ensemble de Julia](https://fr.wikipedia.org/wiki/Ensemble_de_Julia) -->
+
+- Les nombres complexes $\mathbb{C}$ permettent de résoudre toutes les [équations
+quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
+    - [Formule quadratique](https://fr.wikipedia.org/wiki/Formule_quadratique)
+
+    - $ax^2 + bx + c = 0 \implies x^\pm = \frac{-b \pm \Delta}{2a}$
+    - $\Delta = b^2 - 4ac$
+
+
+---
+
+### Vocabulaire :
+
+
+- Partie réelle, partie imaginaire, module, argument
+    - représentation sur le plan complexe
+- forme algébrique,  forme exponentielle
+- operations : addition, multiplication,  conjugaison, division
+
+##### Exemples de calculs
+
+- $(1+i)^2 = 1 + 2i + i^2 = 1 + 2i - 1 = 2i$
+- $\frac{1+i}{1-i} = \frac{(1+i)(1+i)}{(1-i)(1+i)} =
+\frac{(1+i)^2}{1-i^2} = \frac{2i}{2} = i$
+
+
 
 ---
 
@@ -289,9 +321,9 @@ quadratiques](https://fr.wikipedia.org/wiki/%C3%89quation_du_second_degr%C3%A9)
 - [Solutions chatGPT](./exo1.8.md)
 
 
-<!-- <!-1- --- -1-> -->
+---
 
-<!-- ![cercle trigonométrique](./Unit_circle_angles_color.svg) -->
+![cercle trigonométrique](./Unit_circle_angles_color.svg)
 
 
 - exo 9
