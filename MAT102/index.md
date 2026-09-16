@@ -349,20 +349,20 @@ $z = a + ib,\, i^2 = -1$
 
 
 
-<!-- --- -->
+---
 
-<!-- - exo 10 -->
-<!--     - [10.b](https://www.wolframalpha.com/input?i=simplify+%282-i%29%5E2) -->
-<!--     - [10.d](https://www.wolframalpha.com/input?i=simplify+%281-+i%29%282%2Bi%29) -->
-<!--     - [10.f](https://www.wolframalpha.com/input?i=simplify+%281-3i%29%285-2i%29) -->
-<!--     - [10.g](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%282-3i%29) -->
-<!--     - [10.h](https://www.wolframalpha.com/input?i=simplify+%283%2Bi%29%5E3) -->
-<!--     - [10.h solution complète](./sol_1_10_h.html) -->
-<!--     - [10.k solution ](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%2B%282-3i%29%5E2) -->
-<!--     - [10.l solution complète](./sol_1_10_l.html) -->
+- exo 10
+    - [10.b](https://www.wolframalpha.com/input?i=simplify+%282-i%29%5E2)
+    - [10.d](https://www.wolframalpha.com/input?i=simplify+%281-+i%29%282%2Bi%29)
+    - [10.f](https://www.wolframalpha.com/input?i=simplify+%281-3i%29%285-2i%29)
+    - [10.g](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%282-3i%29)
+    - [10.h](https://www.wolframalpha.com/input?i=simplify+%283%2Bi%29%5E3)
+    - [10.h solution complète](./sol_1_10_h.html)
+    - [10.k solution ](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%2B%282-3i%29%5E2)
+    - [10.l solution complète](./sol_1_10_l.html)
 
-<!-- - exo 12 -->
-<!--     - [12.2](./sol_1_12_3.html) -->
+- exo 12
+    - [12.3](./sol_1_12_3.html)
 
 
 <!-- <!-1- - exo  24 -1-> -->
