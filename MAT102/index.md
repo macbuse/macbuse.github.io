@@ -107,7 +107,7 @@ Obtenir une correction avec Chatgpt :
 Feuille 1 : [complexes](./Fiche1-complexes.pdf)
 Exo 33. 1
 
-Résolution de l'équation $Z^2 = 1 + i$ via deux méthodes : forme algébrique et forme exponentielle.
+Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébrique et forme exponentielle.
 
 
 - [Solution WolframAlpha](https://www.wolframalpha.com/input/?i=solve+z%5E2+%3D+1+%2B+i)
