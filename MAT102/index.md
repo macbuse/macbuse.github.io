@@ -361,6 +361,8 @@ $z = a + ib,\, i^2 = -1$
     - [10.k solution ](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%2B%282-3i%29%5E2)
     - [10.l solution complète](./sol_1_10_l.html)
 
+- exo 7.2 [solution](./sol_1_7_2.html)
+
 - exo 12
     - [12.3](./sol_1_12_3.html)
 
@@ -369,14 +371,14 @@ $z = a + ib,\, i^2 = -1$
 <!-- <!-1- - [solutions a,c,e](./sol_1_24_ace.md) -1-> -->
 
 
-<!-- - exo 13 -->
-<!--     - a) médiatrice -->
-<!--     - b) cercle -->
-<!--     - c) disque -->
-<!--     - d) médiatrice -->
-<!--     - 13.e ![fig](./1_13e.png) -->
+- exo 13
+    - a) médiatrice
+    - b) cercle
+    - c) disque
+    - d) médiatrice
+    - 13.e ![fig](./1_13e.png)
 
-<!-- [13 sols a) f)](/sol_1_13_af.html) -->
+[13 sols a) f)](/sol_1_13_af.html)
 
 <!-- --- -->
 
