@@ -326,6 +326,8 @@ $z = a + ib,\, i^2 = -1$
 - [8.2 solution modèle](./sol_1_8_2.html)
 - [Solutions chatGPT](./exo1.8.md)
 
+![8.2](./exo_8.2.png)
+
 
 ---
 
@@ -360,6 +362,16 @@ $z = a + ib,\, i^2 = -1$
     - [10.h solution complète](./sol_1_10_h.html)
     - [10.k solution ](https://www.wolframalpha.com/input?i=simplify+%282%2B3i%29%5E2%2B%282-3i%29%5E2)
     - [10.l solution complète](./sol_1_10_l.html)
+
+---
+
+### Vocabulaire
+
+- distance/module
+- cercle, disque, anneau
+- droite, mediatrice
+
+---
 
 - exo 7.2 [solution](./sol_1_7_2.html)
 

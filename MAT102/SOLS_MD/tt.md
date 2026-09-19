@@ -1,164 +1,54 @@
-Excellent ! Je vais calculer les primitives en utilisant la méthode de la **décomposition en éléments simples** (D.E.S.) pour les intégrales de fonctions rationnelles.
+## Solutions — Exercice 13, a) et f)
+
+### a) $|z-3|=|z-1+i|$
+
+Interprétation géométrique : les points $M(x,y)$ tels que la distance à $A(3,0)$ est égale à la distance à $B(1,-1)$. La locus est la **médiatrice** du segment $AB$.
+
+Soit $z=x+iy$. Égalité des distances au carré :
+$$
+(x-3)^2+y^2=(x-1)^2+(y+1)^2.
+$$
+Développons et simplifions :
+$$
+x^2-6x+9+y^2=x^2-2x+1+y^2+2y+1
+$$
+$$
+-6x+9=-2x+2+2y
+$$
+$$
+-4x+7=2y
+$$
+$$
+y=-2x+\tfrac{7}{2}.
+$$
+
+### Réponse (a)
+La locus est la droite d'équation
+$$
+\boxed{y=-2x+\tfrac{7}{2}},
+$$
+c'est la médiatrice de $[AB]$ (passe par le milieu $M(2,-\tfrac12)$ et a pente $-2$).
 
 ---
 
-## a) Calcul de $\int \frac{dx}{x(x+1)}$
+### f) 
 
-1.  **Décomposition en éléments simples (D.E.S.) :**
-    Nous cherchons $A$ et $B$ tels que :
-    $$\frac{1}{x(x+1)} = \frac{A}{x} + \frac{B}{x+1}$$
-    En multipliant par $x(x+1)$, on obtient :
-    $$1 = A(x+1) + Bx$$
-    * Pour $x=0$ : $1 = A(1) \implies A = 1$
-    * Pour $x=-1$ : $1 = B(-1) \implies B = -1$
-    D'où :
-    $$\frac{1}{x(x+1)} = \frac{1}{x} - \frac{1}{x+1}$$
+$$-\dfrac{\pi}{3}\le\arg(z)\le\dfrac{\pi}{2} \text{et} 2\le|z|<3$$
 
-2.  **Intégration :**
-    $$\int \frac{dx}{x(x+1)} = \int \left( \frac{1}{x} - \frac{1}{x+1} \right) dx$$
-    $$= \int \frac{1}{x} dx - \int \frac{1}{x+1} dx$$
-    $$= \ln|x| - \ln|x+1| + C$$
-    En utilisant la propriété des logarithmes ($\ln a - \ln b = \ln \frac{a}{b}$) :
-    $$\int \frac{dx}{x(x+1)} = \ln\left|\frac{x}{x+1}\right| + C$$
+Interprétation géométrique : en coordonnées polaires $z=r e^{i\theta}$, la condition s'écrit
+$$
+2\le r<3,\qquad -\tfrac{\pi}{3}\le\theta\le\tfrac{\pi}{2}.
+$$
 
----
+### Description de l'ensemble
+C'est un **secteur annulaire** (une portion d'anneau) centré en l'origine :
+- les rayons angulaires sont $\theta=-\tfrac{\pi}{3}$ et $\theta=\tfrac{\pi}{2}$ (ces deux rayons sont **inclus** puisque les inégalités sur $\arg$ sont non strictes),
+- la **cercle intérieur** de rayon $2$ est **inclus** ($r=2$),
+- la **cercle extérieur** de rayon $3$ est **exclu** ($r<3$).
 
-## b) Calcul de $\int \frac{dt}{(t+2)(t+3)}$
+Autrement dit,
+$$
+\boxed{\{\,z\in\mathbb C:\ 2\le|z|<3,\ -\tfrac{\pi}{3}\le\arg(z)\le\tfrac{\pi}{2}\,\}},
+$$
+une portion d'anneau délimitée par deux rayons et deux arcs (l'arc intérieur inclus, l'arc extérieur exclu).
 
-1.  **D.E.S. :**
-    Nous cherchons $A$ et $B$ tels que :
-    $$\frac{1}{(t+2)(t+3)} = \frac{A}{t+2} + \frac{B}{t+3}$$
-    En multipliant par $(t+2)(t+3)$ :
-    $$1 = A(t+3) + B(t+2)$$
-    * Pour $t=-2$ : $1 = A(-2+3) \implies A = 1$
-    * Pour $t=-3$ : $1 = B(-3+2) \implies 1 = -B \implies B = -1$
-    D'où :
-    $$\frac{1}{(t+2)(t+3)} = \frac{1}{t+2} - \frac{1}{t+3}$$
-
-2.  **Intégration :**
-    $$\int \frac{dt}{(t+2)(t+3)} = \int \left( \frac{1}{t+2} - \frac{1}{t+3} \right) dt$$
-    $$= \ln|t+2| - \ln|t+3| + C$$
-    $$\int \frac{dt}{(t+2)(t+3)} = \ln\left|\frac{t+2}{t+3}\right| + C$$
-
----
-
-## c) Calcul de $\int \frac{ds}{s^2-1}$
-
-1.  **Factorisation et D.E.S. :**
-    Nous factorisons le dénominateur : $s^2-1 = (s-1)(s+1)$.
-    Nous cherchons $A$ et $B$ tels que :
-    $$\frac{1}{s^2-1} = \frac{A}{s-1} + \frac{B}{s+1}$$
-    En multipliant par $s^2-1$ :
-    $$1 = A(s+1) + B(s-1)$$
-    * Pour $s=1$ : $1 = A(1+1) \implies 1 = 2A \implies A = \frac{1}{2}$
-    * Pour $s=-1$ : $1 = B(-1-1) \implies 1 = -2B \implies B = -\frac{1}{2}$
-    D'où :
-    $$\frac{1}{s^2-1} = \frac{1/2}{s-1} - \frac{1/2}{s+1} = \frac{1}{2} \left( \frac{1}{s-1} - \frac{1}{s+1} \right)$$
-
-2.  **Intégration :**
-    $$\int \frac{ds}{s^2-1} = \frac{1}{2} \int \left( \frac{1}{s-1} - \frac{1}{s+1} \right) ds$$
-    $$= \frac{1}{2} \left( \ln|s-1| - \ln|s+1| \right) + C$$
-    $$\int \frac{ds}{s^2-1} = \frac{1}{2} \ln\left|\frac{s-1}{s+1}\right| + C$$
-Parfait. Je continue les calculs pour les exercices **d)** et **e)**, toujours en utilisant la **décomposition en éléments simples**.
-
----
-
-## d) Calcul de $\int \frac{dx}{x^2-3x+2}$
-
-1.  **Factorisation du dénominateur :**
-    Nous trouvons les racines de $x^2-3x+2=0$ : $(x-1)(x-2)$.
-    $$\int \frac{dx}{(x-1)(x-2)}$$
-
-2.  **Décomposition en éléments simples (D.E.S.) :**
-    Nous cherchons $A$ et $B$ tels que :
-    $$\frac{1}{(x-1)(x-2)} = \frac{A}{x-1} + \frac{B}{x-2}$$
-    En multipliant par $(x-1)(x-2)$ : $1 = A(x-2) + B(x-1)$.
-    * Pour $x=1$ : $1 = A(1-2) \implies A = -1$
-    * Pour $x=2$ : $1 = B(2-1) \implies B = 1$
-    D'où :
-    $$\frac{1}{x^2-3x+2} = \frac{-1}{x-1} + \frac{1}{x-2} = \frac{1}{x-2} - \frac{1}{x-1}$$
-
-3.  **Intégration :**
-    $$\int \frac{dx}{x^2-3x+2} = \int \left( \frac{1}{x-2} - \frac{1}{x-1} \right) dx$$
-    $$= \ln|x-2| - \ln|x-1| + C$$
-    $$\int \frac{dx}{x^2-3x+2} = \ln\left|\frac{x-2}{x-1}\right| + C$$
-
----
-
-## e) Calcul de $\int \frac{dx}{x^2-5x+6}$
-
-1.  **Factorisation du dénominateur :**
-    Nous trouvons les racines de $x^2-5x+6=0$ : $(x-2)(x-3)$.
-    $$\int \frac{dx}{(x-2)(x-3)}$$
-
-2.  **D.E.S. :**
-    Nous cherchons $A$ et $B$ tels que :
-    $$\frac{1}{(x-2)(x-3)} = \frac{A}{x-2} + \frac{B}{x-3}$$
-    En multipliant par $(x-2)(x-3)$ : $1 = A(x-3) + B(x-2)$.
-    * Pour $x=2$ : $1 = A(2-3) \implies A = -1$
-    * Pour $x=3$ : $1 = B(3-2) \implies B = 1$
-    D'où :
-    $$\frac{1}{x^2-5x+6} = \frac{-1}{x-2} + \frac{1}{x-3} = \frac{1}{x-3} - \frac{1}{x-2}$$
-
-3.  **Intégration :**
-    $$\int \frac{dx}{x^2-5x+6} = \int \left( \frac{1}{x-3} - \frac{1}{x-2} \right) dx$$
-    $$= \ln|x-3| - \ln|x-2| + C$$
-    $$\int \frac{dx}{x^2-5x+6} = \ln\left|\frac{x-3}{x-2}\right| + C$$
-
----
-
-Je continue avec les exercices **f)**, **g)** et **h)**.
-
----
-
-## f) Calcul de $\int \frac{dy}{y^2+4y+4}$
-
-1.  **Factorisation du dénominateur :**
-    Le dénominateur est un carré parfait : $y^2+4y+4 = (y+2)^2$.
-    $$\int \frac{dy}{(y+2)^2}$$
-
-2.  **Intégration par substitution :**
-    Nous posons $u = y+2$, donc $du = dy$.
-    $$\int \frac{du}{u^2} = \int u^{-2} du$$
-    $$= \frac{u^{-1}}{-1} + C = -\frac{1}{u} + C$$
-
-3.  **Retour à la variable $y$ :**
-    $$-\frac{1}{y+2} + C$$
-    $$\int \frac{dy}{y^2+4y+4} = -\frac{1}{y+2} + C$$
-
----
-
-## g) Calcul de $\int \frac{du}{u^2-2u+1}$
-
-1.  **Factorisation du dénominateur :**
-    Le dénominateur est un carré parfait : $u^2-2u+1 = (u-1)^2$.
-    $$\int \frac{du}{(u-1)^2}$$
-
-2.  **Intégration par substitution :**
-    Nous posons $v = u-1$, donc $dv = du$.
-    $$\int \frac{dv}{v^2} = \int v^{-2} dv$$
-    $$= \frac{v^{-1}}{-1} + C = -\frac{1}{v} + C$$
-
-3.  **Retour à la variable $u$ :**
-    $$-\frac{1}{u-1} + C$$
-    $$\int \frac{du}{u^2-2u+1} = -\frac{1}{u-1} + C$$
-
----
-
-## h) Calcul de $\int \frac{x-3}{x^2-6x+9}dx$
-
-1.  **Factorisation et simplification :**
-    Le dénominateur est un carré parfait : $x^2-6x+9 = (x-3)^2$.
-    L'intégrale devient :
-    $$\int \frac{x-3}{(x-3)^2} dx$$
-    Pour $x \neq 3$, nous pouvons simplifier la fraction :
-    $$\int \frac{1}{x-3} dx$$
-
-2.  **Intégration :**
-    C'est une primitive de la forme $\int \frac{u'}{u}$, avec $u=x-3$ et $u'=1$.
-    $$\int \frac{1}{x-3} dx = \ln|x-3| + C$$
-    $$\int \frac{x-3}{x^2-6x+9}dx = \ln|x-3| + C$$
-
----
-
-J'ai maintenant calculé toutes les primitives demandées dans l'Exercice 11.
