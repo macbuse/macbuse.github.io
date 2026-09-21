@@ -323,6 +323,7 @@ $z = a + ib,\, i^2 = -1$
 
 - exo 8
     - [cercle trigonométrique](https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique)
+![cercle trigonométrique](./Unit_circle_angles_color.svg)
 - [8.2 solution modèle](./sol_1_8_2.html)
 - [Solutions chatGPT](./exo1.8.md)
 
@@ -331,7 +332,6 @@ $z = a + ib,\, i^2 = -1$
 
 ---
 
-![cercle trigonométrique](./Unit_circle_angles_color.svg)
 
 
 - exo 9
@@ -389,18 +389,19 @@ $z = a + ib,\, i^2 = -1$
     - c) disque
     - d) médiatrice
     - 13.e ![fig](./1_13e.png)
+    - 13.f ![fig](./1_13f.png)
 
 [13 sols a) f)](/sol_1_13_af.html)
 
-<!-- --- -->
+---
 
-<!-- - exo 17 -->
-<!--     - [solution a](./sol_1_17_a.html) -->
-<!--     - [solution b](./sol_17_b.html) -->
+- exo 17
+    - [solution a](./sol_1_17_a.html)
+    - [solution b](./sol_17_b.html)
 
 
-<!-- - exo 19 -->
-<!--     - [solution a)..e)](./sol_1_19.pdf) -->
+- exo 19
+    - [solution a)..e)](./sol_1_19.pdf)
 
 <!-- --- -->
 
