@@ -399,6 +399,10 @@ $z = a + ib,\, i^2 = -1$
     - [solution a](./sol_1_17_a.html)
     - [solution b](./sol_17_b.html)
 
+- exo 18
+
+![ss](./ex18_complex_plane.png)
+
 
 - exo 19
     - [indication](./sol_1_19.html)
