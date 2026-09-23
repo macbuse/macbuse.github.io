@@ -384,14 +384,14 @@ $z = a + ib,\, i^2 = -1$
 
 
 - exo 13
-    - a) médiatrice
+    - a) médiatrice : y = -2x + 7/2
     - b) cercle
     - c) disque
-    - d) médiatrice
+    - d) médiatrice : x = 4
     - 13.e ![fig](./1_13e.png)
-    - 13.f ![fig](./1_13f.png)
+    - 13.f ![fig](./1_13f_intersection.png)
 
-[13 sols a) f)](/sol_1_13_af.html)
+[13 sols a) f)](./sol_1_13_a.html)
 
 ---
 
@@ -401,7 +401,7 @@ $z = a + ib,\, i^2 = -1$
 
 
 - exo 19
-    - [solution a)..e)](./sol_1_19.pdf)
+    - [indication](./sol_1_19.html)
 
 <!-- --- -->
 
