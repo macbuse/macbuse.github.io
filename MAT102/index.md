@@ -400,22 +400,28 @@ $z = a + ib,\, i^2 = -1$
     - [solution b](./sol_17_b.html)
 
 - exo 18
-
 ![ss](./ex18_complex_plane.png)
 
 
 - exo 19
     - [indication](./sol_1_19.html)
 
-<!-- --- -->
+---
 
-<!-- - exo 21 -->
-<!--     - [solution d)](./sol_1_21_d.html) -->
+- exo 20
+![ss](./ex20_complex_plane.png)
 
-<!-- - exo 23 -->
-<!--     - [discriminants](./sol_1_23_disc.html) -->
-<!--     - [solutions](./sol_1_23_all.html) -->
-<!--     - [solution c)](./sol_1_23_c.html) -->
+---
+
+- exo 21
+    - [solution d)](./sol_1_21_d.html)
+
+---
+
+- exo 23
+    - [discriminants](./sol_1_23_disc.html)
+    - [solutions](./sol_1_23_all.html)
+    - [solution c)](./sol_1_23_c.html)
 
 <!-- <!-1- <!-2- ### exos avec commentaires -2-> -1-> -->
 
