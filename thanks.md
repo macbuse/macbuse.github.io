@@ -6,14 +6,17 @@ I'm a very bad example to my children:
     - I do everything you shouldn't 
     - but I do do it with a smile.
 
+Don't I Gerard?
+
 # Thanks 
 
 
-- First, Gerard  without whom none of us would be here, and I certainly wouldn't. He's taught me many things and drunk a lot of my whisky whilst doing it. I should also thank the other organizers Pierre and Pierre for their work in making this happen and for a very nice dinner last night.
+- So let me begin by thanking Gerard,  without whom none of us would be here today, and I certainly wouldn't. He's taught me many wise things and drunk a lot of my whisky whilst doing it. I should also thank the other organizers Pierre and Pierre for their work in making this happen and for a very nice dinner last night.
 - let me thank the speakers for all the carefully prepared
-presentations and for saying nice things about yours truly. 
+presentations and for saying nice things about my work.
 - let me thank everyone for coming, it's wonderful to see you all. 
-- a special thanks to l'equipe de topologie de Toulouse: Michel, Michael, Joan, Cyrile, Sylvain
+- a special thanks to l'equipe de topologie de Toulouse: 
+    - Michel, Michael, Joan, Cyrile, Sylvain
 
 I've known you all for many,many years and  I thank you for all the memories from Toulouse, Barcelona, Paris, Marseille and many other places.  I am grateful to having the chance to meet each of you and to have shared many meals, drinks and some mathematics with you over the years.
 - I thank the colleagues and friends Grenoblois who have supported me over the years: 
@@ -28,7 +31,7 @@ I've known you all for many,many years and  I thank you for all the memories fro
 ## France etc.
 
 I've been in France for more than 30 years and I'm grateful to the french mathematical community in general: 
-- I was a post-doc in Warwick with Otal and Paulin
+- I was a post-doc in Warwick where I met Otal and Paulin
 - I was a post-doc in Lyon with Otal and Ghys
 - I was a maitre de conference in Toulouse with Boileau and Levitt
 - I became a professor here with Besson and Gallot
@@ -37,7 +40,7 @@ I suppose I have been lucky to have known all these great french mathematicians.
 
 But as you can see and certainly hear I'm not very french and remain ambiguous about my nationality. Many of my friends nowdays are Chinese and Japanese now, one of them who couldn't celebrate with me sent me a touching message:
 
-**Happy your 60th birthday!** <br>
+**Happy 60th birthday!** <br>
 **Welcome to your golden years.**
 
 
