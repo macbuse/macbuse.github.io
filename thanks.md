@@ -21,7 +21,7 @@ presentations and for saying nice things about my work.
 I've known you all for many,many years and  I thank you for all the memories from Toulouse, Barcelona, Paris, Marseille and many other places.  I am grateful to having the chance to meet each of you and to have shared many meals, drinks and some mathematics with you over the years.
 - I thank the colleagues and friends Grenoblois who have supported me over the years: 
     - Alexei Marin who fed me when I arrived in Grenoble and taught me a great deal of classic math.
-    - Hervé Pajot for help and advice
+    - Hervé Pajot, Erwann Lanneau for help and advice
     - Louis and Vlad for their friendship during hard times
     - Roland, who stood in for me while I was celebrating in
     China
