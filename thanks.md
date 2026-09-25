@@ -31,8 +31,8 @@ I've known you all for many,many years and  I thank you for all the memories fro
 ## France etc.
 
 I've been in France for more than 30 years and I'm grateful to the french mathematical community in general: 
-- I was a post-doc in Warwick where I met Otal and Paulin
-- I was a post-doc in Lyon with Otal and Ghys
+- I was a post-doc in Warwick where I met Otal and Paulin in 1983
+- I was a post-doc in Lyon with Ghys and Zeghib
 - I was a maitre de conference in Toulouse with Boileau and Levitt
 - I became a professor here with Besson and Gallot
 
