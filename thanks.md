@@ -26,6 +26,7 @@ I've known you all for many,many years and  I thank you for all the memories fro
     - Roland, who stood in for me while I was celebrating in
     China
 
+
 ---
 
 ## France etc.
@@ -38,10 +39,11 @@ I've been in France for more than 30 years and I'm grateful to the french mathem
 
 I suppose I have been lucky to have known all these great french mathematicians. 
 
-But as you can see and certainly hear I'm not very french and remain ambiguous about my nationality. Many of my friends nowdays are Chinese and Japanese now, one of them who couldn't celebrate with me sent me a touching message:
+But as you can see and certainly hear I'm not very french and remain ambiguous about my nationality. Many of my friends nowdays are Chinese and Japanese, one of them who couldn't celebrate with me sent me a touching message:
 
 **Happy 60th birthday!** <br>
 **Welcome to your golden years.**
 
 
-So let me finish my birthday tour on that note, and thank you all for coming and for your friendship. Let's go eat and drink and celebrate together.
+- So let me finish my **60th birthday tour** on that note, and thank you all for coming and for your friendship. 
+- Let's go eat and drink and celebrate together.
