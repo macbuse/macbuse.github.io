@@ -451,9 +451,11 @@ $z = a + ib,\, i^2 = -1$
 
 <!-- <!-1- <!-2- **1.3.2 Résolution d’une équation du second degré dans C** -2-> -1-> -->
 
-<!-- <!-1- - [23 a](https://www.wolframalpha.com/input?i=solve+z%5E2+%2B+%281+%E2%88%92+5i%29z+%2B+2i+%E2%88%92+6+%3D+0) -1-> -->
-<!-- <!-1- - [23 b](https://www.wolframalpha.com/input?i=solve++z%5E2+%E2%88%92+%283+%2B+4i%29z+%2B+7i+%E2%88%92+1+%3D) -1-> -->
-<!-- <!-1- - [23 c](https://www.wolframalpha.com/input?i=solve++2z%5E2+%2B+%285+%2B+i%29z+%2B+2+%2B+2i+%3D+0) -1-> -->
+---
+
+- [23 a](https://www.wolframalpha.com/input?i=solve+z%5E2+%2B+%281+%E2%88%92+5i%29z+%2B+2i+%E2%88%92+6+%3D+0)
+- [23 b](https://www.wolframalpha.com/input?i=solve++z%5E2+%E2%88%92+%283+%2B+4i%29z+%2B+7i+%E2%88%92+1+%3D)
+- [23 c](https://www.wolframalpha.com/input?i=solve++2z%5E2+%2B+%285+%2B+i%29z+%2B+2+%2B+2i+%3D+0)
 
 
 
