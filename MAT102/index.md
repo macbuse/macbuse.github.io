@@ -453,9 +453,19 @@ $z = a + ib,\, i^2 = -1$
 
 ---
 
+Check with WolframAlpha :
+
 - [23 a](https://www.wolframalpha.com/input?i=solve+z%5E2+%2B+%281+%E2%88%92+5i%29z+%2B+2i+%E2%88%92+6+%3D+0)
 - [23 b](https://www.wolframalpha.com/input?i=solve++z%5E2+%E2%88%92+%283+%2B+4i%29z+%2B+7i+%E2%88%92+1+%3D)
 - [23 c](https://www.wolframalpha.com/input?i=solve++2z%5E2+%2B+%285+%2B+i%29z+%2B+2+%2B+2i+%3D+0)
+---
 
+**Exo 32**
+
+| Equation | Discriminant (Δ) | Square Root (δ) | First Root (z₁) | Second Root (z₂) |
+| --- | --- | --- | --- | --- |
+| **a)** z² - (3 + 2i)z + 5 + 5i = 0 | -15 - 8i | ±(1 - 4i) | 2 - i | 1 + 3i |
+| **b)** z² + (2 - i)z - 13 + 11i = 0 | 55 - 48i | ±(8 - 3i) | 3 - i | -5 + 2i |
+| **c)** z² + (3 - 3i)z - 5i = 0 | 2i | ±(1 + i) | -1 + 2i | -2 + i |
 
 
