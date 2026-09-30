@@ -235,7 +235,7 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 - [quick test 2023](./qt2.pdf)
 
 - **Contenu**
-    - Notations: ∑, ∏
+    - Notations: ∑, ∏,n!
         - log(∏) = exp(∑) 
     - [Progression arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique)
     - [Progression géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique)
