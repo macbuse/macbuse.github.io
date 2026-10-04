@@ -1,12 +1,17 @@
 # MAT 102
 
+**IMPORTANT : CC1 semaine du 5/10**
+
 - SPI-3 : 
     - mercredi 8h-9h30 **D004**
     - vendredi 13h30-16h45 **E208**
+    - **CC1 vendredi 9/10**
+
 - CeB-1 : 
     - mardi 9h45-11h15 **D103**
     - mercredi 15h15-16h45 **B220**
     - jeudi 8h-9h30
+    - **CC1 vendredi 9/10**
 
 [all MAT102 on ADE](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp?data=51278da58f6a6c7ad5fcd549aa2f4a9c5fc9f765254a1f35e198e0ac6910cd01e6905451e647d13923a7a7e673969331b6c0633c5a036f6d04966f2f451e7ee10ecd4ca072d75bbdea65bd043c56acfad7302406a71d9088ef97fa8cda27f5b76e2d7e6106df4e6f8ad09c4b1bda353526916715aef37a40bb9c13b779d4a56518ae6b75a06f790a4131e65176cfdc03,1)
 
