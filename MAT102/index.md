@@ -258,6 +258,7 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
     - [Factorielle](https://fr.wikipedia.org/wiki/Factorielle)
     - [Somme telescopique](https://fr.wikipedia.org/wiki/Somme_t%C3%A9lescopique)
 
+- [modeles de solutions](./sol_model_2_14.md)
 - [exo 14](./sol_2_14.html)
 - [exo 15](./sol_2_15.html)
 
