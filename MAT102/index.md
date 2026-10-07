@@ -20,7 +20,7 @@
     - mardi 9h45-11h15 **D103**
     - mercredi 15h15-16h45 **B220**
     - jeudi 8h-9h30
-    - **CC1 vendredi 9/10**
+    - **CC1 mardi 6/10 (annulé)**
 
 [all MAT102 on ADE](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp?data=51278da58f6a6c7ad5fcd549aa2f4a9c5fc9f765254a1f35e198e0ac6910cd01e6905451e647d13923a7a7e673969331b6c0633c5a036f6d04966f2f451e7ee10ecd4ca072d75bbdea65bd043c56acfad7302406a71d9088ef97fa8cda27f5b76e2d7e6106df4e6f8ad09c4b1bda353526916715aef37a40bb9c13b779d4a56518ae6b75a06f790a4131e65176cfdc03,1)
 
@@ -257,6 +257,9 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
     - [Série géométrique](https://fr.wikipedia.org/wiki/S%C3%A9rie_g%C3%A9om%C3%A9trique)
     - [Factorielle](https://fr.wikipedia.org/wiki/Factorielle)
     - [Somme telescopique](https://fr.wikipedia.org/wiki/Somme_t%C3%A9lescopique)
+
+- [exo 14](./sol_2_14.html)
+- [exo 15](./sol_2_15.html)
 
 ---
 ---
