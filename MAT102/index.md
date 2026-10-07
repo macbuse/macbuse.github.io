@@ -1,5 +1,14 @@
 # MAT 102
 
+
+**DLST bloqué 7/10/2026**
+
+- SPI : 
+    - preparer la revision 1ere page [feuille 2](./Fiche2-sommes-produits.pdf) 
+    - on a un TD de rattrapage demain 9h45 salle E206
+    **(regarder sur ADE)**
+    - lire le [poly](./polyMAT102-main.pdf) pages 13-17
+
 **IMPORTANT : CC1 semaine du 5/10**
 
 - SPI-3 : 
@@ -241,6 +250,7 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 
 - **Contenu**
     - Notations: ∑, ∏,n!
+        - n! = nx(n-1)!
         - log(∏) = exp(∑) 
     - [Progression arithmétique](https://fr.wikipedia.org/wiki/Suite_arithm%C3%A9tique)
     - [Progression géométrique](https://fr.wikipedia.org/wiki/Suite_g%C3%A9om%C3%A9trique)
