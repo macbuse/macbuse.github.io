@@ -261,6 +261,8 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 - [modeles de solutions](./sol_model_2_14.md)
 - [exo 14](./sol_2_14.html)
 - [exo 15](./sol_2_15.html)
+
+![binomial](./binomial_theorem.png)
 - [exo 17](./sol_2_15.html)
 
 ---
