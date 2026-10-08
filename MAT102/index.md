@@ -1,6 +1,20 @@
 # MAT 102
 
 
+### Les infos 
+<!-- (exemples de 2025) -->
+
+**IMPORTANT : CC1 semaine du 5/10**
+#### CeB-1
+ - **CC1 mardi 6/10 (annulé)**
+ - CC1 jeudi 8/10  [correction](./q1_2026_CB.pdf)
+
+#### SPI-3
+
+- **CC1 vendredi 9/10**
+
+---
+
 **DLST bloqué 7/10/2026**
 
 - SPI : 
@@ -9,35 +23,21 @@
     **(regarder sur ADE)**
     - lire le [poly](./polyMAT102-main.pdf) pages 13-17
 
-**IMPORTANT : CC1 semaine du 5/10**
+---
+---
 
 - SPI-3 : 
     - mercredi 8h-9h30 **D004**
     - vendredi 13h30-16h45 **E208**
-    - **CC1 vendredi 9/10**
 
 - CeB-1 : 
     - mardi 9h45-11h15 **D103**
     - mercredi 15h15-16h45 **B220**
     - jeudi 8h-9h30
-    - **CC1 mardi 6/10 (annulé)**
+        - **CC1 mardi 6/10 (annulé)**
+        - CC1 jeudi 8/10  [correction](./q1_2026_CB.pdf)
 
 [all MAT102 on ADE](https://ade-uga-ro-vs.grenet.fr/direct/index.jsp?data=51278da58f6a6c7ad5fcd549aa2f4a9c5fc9f765254a1f35e198e0ac6910cd01e6905451e647d13923a7a7e673969331b6c0633c5a036f6d04966f2f451e7ee10ecd4ca072d75bbdea65bd043c56acfad7302406a71d9088ef97fa8cda27f5b76e2d7e6106df4e6f8ad09c4b1bda353526916715aef37a40bb9c13b779d4a56518ae6b75a06f790a4131e65176cfdc03,1)
-
-
----
-
-
-### Les infos (exemples de 2025)
-- changements de salle 
-    - 12/12/2025 : SPI03 D002
-    - 25/09/2025 : CeB03 D101
-- dates de CCs
-    - Quick test 1 : 03/10/2025
-    - Quick test 2 : 21/11/2025
-
-
-
 
 
 ---
@@ -272,15 +272,11 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 
 ### Evaluation : 
 
- [quick test debut octobre](./quick_test.pdf)
+ - [quick test debut octobre](./quick_test.pdf)
+    - [Correction CB](./q1_2026_CB.pdf)
 
 ----
 
-**Pour la prochaine séance preparer** : Exo 8, 9
-
-<!-- **Preparer** --> 
-<!-- Exo 19 m) n) o) -->
-<!-- Exo 20 i) j) -->
 
 ---
 

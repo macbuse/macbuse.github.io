@@ -1,0 +1,149 @@
+\documentclass[13pt]{extarticle}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+\usepackage{amssymb,amsmath}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\noindent
+\large{Nom Prénom : GOOGLE GEMINI}
+\begin{center}
+\Large{Quick Test 1 :} 6/10/2026 \\
+\end{center}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Exo 1 : Mettre les expressions suivantes sous forme
+algébrique }
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item \(\dfrac{3+2i}{1-i}\)
+\begin{framed}
+\begin{align*}
+\dfrac{3+2i}{1-i} &= \dfrac{(3+2i)(1+i)}{1^2 + (-1)^2} \\
+&= \dfrac{3 + 3i + 2i - 2}{2} \\
+&= \dfrac{1 + 5i}{2} = \frac{1}{2}(1 + 5i)
+\end{align*}
+\end{framed}
+
+\item \((1-2i)^2 + \mathrm{Im}\, \overline{2-i}\)
+\begin{framed}
+\begin{align*}
+(1-2i)^2 + \mathrm{Im}(\overline{2-i}) &= (1 - 4i - 4) + \mathrm{Im}(2+i) \\
+&= -3 - 4i + 1 \\
+&= -2 - 4i
+\end{align*}
+\end{framed}
+
+\item \(4 \times \left( \dfrac{3 + 5i}{\overline{7-2i}} \right)\)
+\begin{framed}
+\begin{align*}
+4 \times \left( \dfrac{3+5i}{7+2i} \right) &= 4 \times \dfrac{(3+5i)(7-2i)}{7^2 + 2^2} \\
+&= 4 \times \dfrac{21 - 6i + 35i + 10}{49 + 4} \\
+&= 4 \times \dfrac{31 + 29i}{53} = \dfrac{124 + 116i}{53}
+\end{align*}
+\end{framed}
+
+\item \(\dfrac{a+2i}{2-ai} \quad \text{pour } a \in \mathbb{R}\)
+\begin{framed}
+\begin{align*}
+\dfrac{a+2i}{2-ai} &= \dfrac{(a+2i)(2+ai)}{2^2 + a^2} \\
+&= \dfrac{2a + a^2 i + 4i - 2a}{4 + a^2} \\
+&= \dfrac{(a^2+4)i}{4 + a^2} = i
+\end{align*}
+\end{framed}
+\end{enumerate}
+
+\subsection{Exo 2 : Mettre les expressions suivantes sous forme
+exponentielle }
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item \(Z = (1-i)^4\)
+\begin{framed}
+\begin{align*}
+1-i &= \sqrt{2}e^{-i\pi/4} \\
+Z &= \left(\sqrt{2}e^{-i\pi/4}\right)^4 \\
+&= 4e^{-i\pi} = -4 = 4e^{i\pi}
+\end{align*}
+\end{framed}
+
+\item \(Z = \dfrac{1 + i\sqrt{3}}{\sqrt{3} - i}\)
+\begin{framed}
+\begin{align*}
+1+i\sqrt{3} &= 2e^{i\pi/3} \quad \text{et} \quad \sqrt{3}-i = 2e^{-i\pi/6} \\
+Z &= \dfrac{2e^{i\pi/3}}{2e^{-i\pi/6}} \\
+&= e^{i\left(\frac{\pi}{3} - \left(-\frac{\pi}{6}\right)\right)} = e^{i\pi/2} = i
+\end{align*}
+\end{framed}
+
+\item \(Z = \dfrac{\exp(i\frac{\pi}{3}) \times \exp(-i\frac{\pi}{6})}{\exp(i\frac{\pi}{2})}\)
+\begin{framed}
+\begin{align*}
+Z &= \exp\left(i\left(\frac{\pi}{3} - \frac{\pi}{6} - \frac{\pi}{2}\right)\right) \\
+&= \exp\left(i\left(-\frac{\pi}{3}\right)\right) \\
+&= \cos\left(\frac{\pi}{3}\right) - i\sin\left(\frac{\pi}{3}\right) = \frac{1}{2} - i\frac{\sqrt{3}}{2}
+\end{align*}
+\end{framed}
+
+\item \(Z = \dfrac{\left( \exp(i\frac{\pi}{4}) \right)^4}{\left( \exp(-i\frac{\pi}{3}) \right)^3}\)
+\begin{framed}
+\begin{align*}
+Z &= \dfrac{\exp(i\pi)}{\exp(-i\pi)} \\
+&= \dfrac{-1}{-1} = 1 = e^{i0}
+\end{align*}
+\end{framed}
+\end{enumerate}
+
+\subsection{Exo 3 :  Résoudre les équations :}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item \(X^2 - 6X + 10 = 0\)
+\begin{framed}
+\begin{align*}
+\Delta &= (-6)^2 - 4(1)(10) = 36 - 40 = -4 = (2i)^2 \\
+X &= \dfrac{6 \pm 2i}{2} = 3 \pm i \\
+S &= \{3+i, \, 3-i\}
+\end{align*}
+\end{framed}
+
+\item \(\text{Résoudre à la fois : } X^2 = -3 + 4i \quad \text{et}
+	\quad X^2 = -3 - 4i \)
+\begin{framed}
+Pour $X^2 = -3+4i$, posons $X = x+iy$ :
+\begin{align*}
+\begin{cases}
+x^2 - y^2 = -3 \\
+2xy = 4 \implies xy = 2 \\
+x^2 + y^2 = \sqrt{(-3)^2 + 4^2} = 5
+\end{cases}
+\end{align*}
+En combinant $x^2-y^2=-3$ et $x^2+y^2=5$, on obtient $2x^2 = 2 \implies x = \pm 1$, d'où les solutions $1+2i$ et $-1-2i$. \\
+Pour $X^2 = -3-4i$, les solutions sont les conjuguées : $1-2i$ et $-1+2i$.
+\end{framed}
+
+\item $X^2 - 2(1+i)X + 2i = 0 $
+\begin{framed}
+\begin{align*}
+\Delta &= [-2(1+i)]^2 - 4(1)(2i) \\
+&= 4(1 + 2i - 1) - 8i \\
+&= 8i - 8i = 0
+\end{align*}
+Racine double :
+\begin{align*}
+X &= \dfrac{2(1+i)}{2} = 1+i \\
+S &= \{1+i\}
+\end{align*}
+\end{framed}
+
+\end{enumerate}
+
+\end{document}
+
