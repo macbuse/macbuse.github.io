@@ -11,7 +11,7 @@
 
 #### SPI-3
 
-- **CC1 vendredi 9/10**
+- **CC1 vendredi 9/10** [correction](./q1_2026_CB.pdf)
 
 ---
 
