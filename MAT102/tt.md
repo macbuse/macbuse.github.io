@@ -1,24 +1,147 @@
-## Exercice 17
+## Exo 18
 
-Basé sur la formule du binôme de Newton :
+---
+
+### a) $\displaystyle\prod_{k=1}^{20} e^{ik\pi/3}$
+
+* **Somme des exposants :**
+
+$$\prod_{k=1}^{20} e^{ik\pi/3} = \exp\left( \frac{i\pi}{3} \sum_{k=1}^{20} k \right)$$
 
 
-$$(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{n-k} y^k$$
+* **Calcul de la somme :**
 
-| **Somme ($\sum$)** | **$a \cdot \binom{n}{k} x^{n-k} y^k$** | **$a, x, y$** | **Réponse finale** |
-| --- | --- | --- | --- |
-| . | . | . | . |
-| **a)** $\sum_{k=0}^{n} \binom{n}{k} 2^k 3^{n-k}$<br> | $\sum \binom{n}{k} 3^{n-k} 2^k$ | $a = 1, \, x = 3, \, y = 2$ | $5^n$ |
-| **b)** $\sum_{k=0}^{n} \binom{n}{k} 2^k \left(\frac{1}{2}\right)^{n-k}$<br> | $\sum \binom{n}{k} \left(\frac{1}{2}\right)^{n-k} 2^k$ | $a = 1, \, x = \frac{1}{2}, \, y = 2$ | $\left(\frac{5}{2}\right)^n$ |
-| **c)** $\sum_{k=0}^{n} \binom{n}{k} 3^{k+1} 5^{n-k}$<br> | $\sum 3 \cdot \binom{n}{k} 5^{n-k} 3^k$ | $a = 3, \, x = 5, \, y = 3$ | $3 \cdot 8^n$ |
-| . | . | . | . |
-| **d)** $\sum_{k=0}^{n} \binom{n}{k} 2^{k+1} 3^{2n-k}$<br> | $\sum 2 \cdot \binom{n}{k} (3^2)^{n-k} 2^k$ | $a = 2, \, x = 9, \, y = 2$ | $2 \cdot 11^n$ |
-| **e)** $\sum_{k=0}^{n} \binom{n}{k} 2^k$<br> | $\sum \binom{n}{k} 1^{n-k} 2^k$ | $a = 1, \, x = 1, \, y = 2$ | $3^n$ |
-| **f)** $\sum_{k=0}^{n} \binom{n}{k} 4^k 3^{n-k}$<br> | $\sum \binom{n}{k} 3^{n-k} 4^k$ | $a = 1, \, x = 3, \, y = 4$ | $7^n$ |
-| **g)** $\sum_{k=0}^{n} \binom{n}{k} \frac{5^k}{2^{n-k}}$<br> | $\sum \binom{n}{k} \left(\frac{1}{2}\right)^{n-k} 5^k$ | $a = 1, \, x = \frac{1}{2}, \, y = 5$ | $\left(\frac{11}{2}\right)^n$ |
-| . | . | . | . |
-| **h)** $\sum_{k=0}^{n} \binom{n}{k} 3^{2k-n}$<br> | $\sum \frac{1}{3^n} \binom{n}{k} 1^{n-k} (9^k)$ | $a = \frac{1}{3^n}, \, x = 1, \, y = 9$ | $\left(\frac{10}{3}\right)^n$ |
-| . | . | . | . |
-| **i)** $\sum_{k=1}^{n} \binom{n}{k} 5^k 3^{n-k}$<br> | *Somme de $k=1$ à $n$* *(Retirer le terme $k=0$)* | $x = 3, \, y = 5$ | $8^n - 3^n$ |
-| . | . | . | . |
-| **j)** $\sum_{k=0}^{n-1} \binom{n}{k} 3^k 4^{n-k}$<br> | *Somme de $0$ à $n-1$* *(Retirer le terme $k=n$)* | $x = 4, \, y = 3$ | $7^n - 3^n$ |
+$$\sum_{k=1}^{20} k = \frac{20 \times 21}{2} = 210$$
+
+
+* **Évaluation :**
+
+$$\exp\left( \frac{i\pi}{3} \times 210 \right) = \exp(i \times 70\pi) = e^{i(35 \times 2\pi)} = 1$$
+
+
+
+---
+
+### b) $\displaystyle\prod_{p=1}^{7} 2e^{ip\pi/8}$
+
+* **Séparation du produit :**
+
+$$\prod_{p=1}^{7} 2e^{ip\pi/8} = \left(\prod_{p=1}^{7} 2\right) \times \exp\left( \frac{i\pi}{8} \sum_{p=1}^{7} p \right)$$
+
+
+* **Calcul des parties :**
+* Produit de la constante : $2^7 = 128$
+* Somme des exposants : $\sum_{p=1}^{7} p = \frac{7 \times 8}{2} = 28$
+
+
+* **Évaluation :**
+
+$$128 \times \exp\left( \frac{i\pi}{8} \times 28 \right) = 128 \times \exp\left( \frac{7i\pi}{2} \right) = 128 \times e^{i(3\pi + \pi/2)} = 128 \times (-i) = -128i$$
+
+
+
+---
+
+### c) $\displaystyle\prod_{k=1}^{6} (1+i)^k$
+
+* **Somme des exposants :**
+
+$$\prod_{k=1}^{6} (1+i)^k = (1+i)^{\sum_{k=1}^{6} k} = (1+i)^{21}$$
+
+
+* **Forme polaire de $(1+i)$ :**
+
+$$1+i = \sqrt{2} e^{i\pi/4}$$
+
+
+* **Évaluation :**
+
+$$(1+i)^{21} = \left(\sqrt{2} e^{i\pi/4}\right)^{21} = 2^{21/2} \exp\left( \frac{21i\pi}{4} \right)$$
+
+
+$$\frac{21\pi}{4} = 5\pi + \frac{\pi}{4} \implies \exp\left( \frac{21i\pi}{4} \right) = e^{i\pi} e^{i\pi/4} = -1 \times \frac{\sqrt{2}+i\sqrt{2}}{2}$$
+
+
+
+Résultat : $-1024\sqrt{2} \, e^{i\pi/4} = -1024(1+i) = -1024 - 1024i$
+
+---
+
+### d) $\displaystyle\sum_{l=0}^{7} \left(-2 + \sqrt{2}e^{i\pi/4}\right)^l$
+
+* **Simplification de la base ($q$) :**
+
+$$\sqrt{2}e^{i\pi/4} = \sqrt{2}\left(\frac{\sqrt{2}}{2} + i\frac{\sqrt{2}}{2}\right) = 1 + i$$
+
+
+$$q = -2 + (1+i) = -1 + i$$
+
+
+* **Somme d'une suite géométrique :**
+
+$$\sum_{l=0}^{7} q^l = \frac{1 - q^8}{1 - q}$$
+
+
+* **Calcul de $q^8$ :**
+On écrit $q = -1 + i = \sqrt{2}e^{i3\pi/4}$.
+
+$$q^8 = \left(\sqrt{2}e^{i3\pi/4}\right)^8 = 2^4 e^{i6\pi} = 16 \times 1 = 16$$
+
+
+* **Évaluation :**
+
+$$\frac{1 - 16}{1 - (-1 + i)} = \frac{-15}{2 - i} = \frac{-15(2 + i)}{2^2 + (-1)^2} = \frac{-30 - 15i}{5} = -6 - 3i$$
+
+
+
+---
+
+### e) $\displaystyle\sum_{k=0}^{7} \left(\sqrt{2}e^{i\pi/4}\right)^k$
+
+* **Identification de la base ($q$) :**
+
+$$q = \sqrt{2}e^{i\pi/4} = 1 + i$$
+
+
+* **Somme d'une suite géométrique :**
+
+$$\sum_{k=0}^{7} q^k = \frac{1 - q^8}{1 - q}$$
+
+
+* **Calcul de $q^8$ :**
+
+$$q = \sqrt{2}e^{i\pi/4} \implies q^8 = \left(\sqrt{2}\right)^8 e^{i2\pi} = 16 \times 1 = 16$$
+
+
+* **Évaluation :**
+
+$$\frac{1 - 16}{1 - (1 + i)} = \frac{-15}{-i} = \frac{15}{i} = -15i$$
+
+
+
+---
+
+### f) $\displaystyle\sum_{m=0}^{12} \left(-1 + e^{i\pi/3}\right)^m$
+
+* **Simplification de la base ($q$) :**
+
+$$e^{i\pi/3} = \frac{1}{2} + i\frac{\sqrt{3}}{2}$$
+
+
+$$q = -1 + \left(\frac{1}{2} + i\frac{\sqrt{3}}{2}\right) = -\frac{1}{2} + i\frac{\sqrt{3}}{2} = e^{i2\pi/3}$$
+
+
+* **Somme d'une suite géométrique :**
+
+$$\sum_{m=0}^{12} q^m = \frac{1 - q^{13}}{1 - q}$$
+
+
+* **Calcul de $q^{13}$ :**
+
+$$q^{13} = \left(e^{i2\pi/3}\right)^{13} = \exp\left( \frac{26i\pi}{3} \right) = \exp\left( 8i\pi + \frac{2i\pi}{3} \right) = e^{i2\pi/3} = q$$
+
+
+* **Évaluation :**
+Puisque $q^{13} = q$, le numérateur est $1 - q$, ce qui se simplifie avec le dénominateur (en supposant $q \neq 1$) :
+
+$$\frac{1 - q}{1 - q} = 1$$
