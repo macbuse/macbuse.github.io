@@ -11,7 +11,7 @@ title: Home
 
 ### CV
 
--  [french](./CV/CV2026.PDF)
+-  [french](./CV2026.pdf)
 - [english](./CV/CV_british.pdf)
 
 ---
