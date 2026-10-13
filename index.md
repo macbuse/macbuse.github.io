@@ -27,6 +27,9 @@ title: Home
 
 ## What I'm doing....
 
+
+Reading [this](https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/?fbclid=IwY2xjawU6sjxleHRuA2FlbQIxMQBwZG9mBXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR6en00w15Di7G4Rm4p8A1dPoCnSIq9nuuU6eWrvoVCkr61o7ePRpdJ80y00lg_aem_xM7g82_JQ3SZhtq0svtH5A) and wondering what to do with my Claude license.
+
 Mostly visiting China as I have a  special talent visa (R-visa valid 2026-2036) issued to high-level foreign professionals and individuals with skills **urgently needed**.
 
 ### 60th Birthday Tour 2026
