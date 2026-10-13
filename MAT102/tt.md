@@ -1,147 +1,97 @@
-## Exo 18
+Voici les solutions étape par étape pour chaque expression de l'**Exercice 16** :
 
 ---
 
-### a) $\displaystyle\prod_{k=1}^{20} e^{ik\pi/3}$
+### a) $\displaystyle\sum_{p=1}^{n} (1 + 2ip)$
 
-* **Somme des exposants :**
+* **Séparation de la somme :**
 
-$$\prod_{k=1}^{20} e^{ik\pi/3} = \exp\left( \frac{i\pi}{3} \sum_{k=1}^{20} k \right)$$
-
-
-* **Calcul de la somme :**
-
-$$\sum_{k=1}^{20} k = \frac{20 \times 21}{2} = 210$$
-
-
-* **Évaluation :**
-
-$$\exp\left( \frac{i\pi}{3} \times 210 \right) = \exp(i \times 70\pi) = e^{i(35 \times 2\pi)} = 1$$
+$$\sum_{p=1}^{n} 1 + 2i \sum_{p=1}^{n} p$$
 
 
 
----
+* **Calcul des sommes usuelles :**
 
-### b) $\displaystyle\prod_{p=1}^{7} 2e^{ip\pi/8}$
-
-* **Séparation du produit :**
-
-$$\prod_{p=1}^{7} 2e^{ip\pi/8} = \left(\prod_{p=1}^{7} 2\right) \times \exp\left( \frac{i\pi}{8} \sum_{p=1}^{7} p \right)$$
+$$\sum_{p=1}^{n} 1 = n \quad \text{et} \quad \sum_{p=1}^{n} p = \frac{n(n+1)}{2}$$
 
 
-* **Calcul des parties :**
-* Produit de la constante : $2^7 = 128$
-* Somme des exposants : $\sum_{p=1}^{7} p = \frac{7 \times 8}{2} = 28$
 
+* **Résultat sous forme algébrique :**
 
-* **Évaluation :**
+$$n + 2i \left(\frac{n(n+1)}{2}\right) = n + i\,n(n+1) = n + (n^2 + n)i$$
 
-$$128 \times \exp\left( \frac{i\pi}{8} \times 28 \right) = 128 \times \exp\left( \frac{7i\pi}{2} \right) = 128 \times e^{i(3\pi + \pi/2)} = 128 \times (-i) = -128i$$
 
 
 
 ---
 
-### c) $\displaystyle\prod_{k=1}^{6} (1+i)^k$
+### b) $\displaystyle\sum_{k=1}^{10} (2 + ik)$
 
-* **Somme des exposants :**
+* **Séparation de la somme :**
 
-$$\prod_{k=1}^{6} (1+i)^k = (1+i)^{\sum_{k=1}^{6} k} = (1+i)^{21}$$
-
-
-* **Forme polaire de $(1+i)$ :**
-
-$$1+i = \sqrt{2} e^{i\pi/4}$$
-
-
-* **Évaluation :**
-
-$$(1+i)^{21} = \left(\sqrt{2} e^{i\pi/4}\right)^{21} = 2^{21/2} \exp\left( \frac{21i\pi}{4} \right)$$
-
-
-$$\frac{21\pi}{4} = 5\pi + \frac{\pi}{4} \implies \exp\left( \frac{21i\pi}{4} \right) = e^{i\pi} e^{i\pi/4} = -1 \times \frac{\sqrt{2}+i\sqrt{2}}{2}$$
+$$\sum_{k=1}^{10} 2 + i \sum_{k=1}^{10} k$$
 
 
 
-Résultat : $-1024\sqrt{2} \, e^{i\pi/4} = -1024(1+i) = -1024 - 1024i$
+* **Calcul des sommes :**
 
----
-
-### d) $\displaystyle\sum_{l=0}^{7} \left(-2 + \sqrt{2}e^{i\pi/4}\right)^l$
-
-* **Simplification de la base ($q$) :**
-
-$$\sqrt{2}e^{i\pi/4} = \sqrt{2}\left(\frac{\sqrt{2}}{2} + i\frac{\sqrt{2}}{2}\right) = 1 + i$$
+$$\sum_{k=1}^{10} 2 = 2 \times 10 = 20 \quad \text{et} \quad \sum_{k=1}^{10} k = \frac{10 \times 11}{2} = 55$$
 
 
-$$q = -2 + (1+i) = -1 + i$$
 
+* **Résultat sous forme algébrique :**
 
-* **Somme d'une suite géométrique :**
+$$20 + 55i$$
 
-$$\sum_{l=0}^{7} q^l = \frac{1 - q^8}{1 - q}$$
-
-
-* **Calcul de $q^8$ :**
-On écrit $q = -1 + i = \sqrt{2}e^{i3\pi/4}$.
-
-$$q^8 = \left(\sqrt{2}e^{i3\pi/4}\right)^8 = 2^4 e^{i6\pi} = 16 \times 1 = 16$$
-
-
-* **Évaluation :**
-
-$$\frac{1 - 16}{1 - (-1 + i)} = \frac{-15}{2 - i} = \frac{-15(2 + i)}{2^2 + (-1)^2} = \frac{-30 - 15i}{5} = -6 - 3i$$
 
 
 
 ---
 
-### e) $\displaystyle\sum_{k=0}^{7} \left(\sqrt{2}e^{i\pi/4}\right)^k$
+### c) $\displaystyle\sum_{l=1}^{n} \frac{5l}{2+i}$
 
-* **Identification de la base ($q$) :**
+* **Factorisation des termes indépendants de $l$ et rationalisation du dénominateur :**
 
-$$q = \sqrt{2}e^{i\pi/4} = 1 + i$$
-
-
-* **Somme d'une suite géométrique :**
-
-$$\sum_{k=0}^{7} q^k = \frac{1 - q^8}{1 - q}$$
+$$\frac{5}{2+i} = \frac{5(2-i)}{2^2 + 1^2} = \frac{5(2-i)}{5} = 2 - i$$
 
 
-* **Calcul de $q^8$ :**
 
-$$q = \sqrt{2}e^{i\pi/4} \implies q^8 = \left(\sqrt{2}\right)^8 e^{i2\pi} = 16 \times 1 = 16$$
+* **Application à la somme :**
+
+$$(2 - i) \sum_{l=1}^{n} 5l \quad \text{ou plus simplement} \quad (2 - i) \times \frac{5n(n+1)}{2}$$
 
 
-* **Évaluation :**
 
-$$\frac{1 - 16}{1 - (1 + i)} = \frac{-15}{-i} = \frac{15}{i} = -15i$$
+* **Résultat sous forme algébrique :**
+
+$$\frac{5n(n+1)}{2}(2 - i) = 5n(n+1) - \frac{5n(n+1)}{2}i$$
+
 
 
 
 ---
 
-### f) $\displaystyle\sum_{m=0}^{12} \left(-1 + e^{i\pi/3}\right)^m$
+### d) $\displaystyle\sum_{n=1}^{p} \frac{n+i}{1+i}$
 
-* **Simplification de la base ($q$) :**
+* **Rationalisation du dénominateur et séparation de la somme :**
 
-$$e^{i\pi/3} = \frac{1}{2} + i\frac{\sqrt{3}}{2}$$
-
-
-$$q = -1 + \left(\frac{1}{2} + i\frac{\sqrt{3}}{2}\right) = -\frac{1}{2} + i\frac{\sqrt{3}}{2} = e^{i2\pi/3}$$
+$$\frac{1}{1+i} = \frac{1-i}{1^2 + 1^2} = \frac{1-i}{2}$$
 
 
-* **Somme d'une suite géométrique :**
 
-$$\sum_{m=0}^{12} q^m = \frac{1 - q^{13}}{1 - q}$$
+* **Réécriture de l'expression :**
 
-
-* **Calcul de $q^{13}$ :**
-
-$$q^{13} = \left(e^{i2\pi/3}\right)^{13} = \exp\left( \frac{26i\pi}{3} \right) = \exp\left( 8i\pi + \frac{2i\pi}{3} \right) = e^{i2\pi/3} = q$$
+$$\sum_{n=1}^{p} \frac{(n+i)(1-i)}{2} = \sum_{n=1}^{p} \frac{n - ni + i - i^2}{2} = \sum_{n=1}^{p} \frac{(n+1) + (1-n)i}{2}$$
 
 
-* **Évaluation :**
-Puisque $q^{13} = q$, le numérateur est $1 - q$, ce qui se simplifie avec le dénominateur (en supposant $q \neq 1$) :
 
-$$\frac{1 - q}{1 - q} = 1$$
+* **Calcul des sommes pour $n$ de $1$ à $p$ :**
+* Partie réelle : $\frac{1}{2} \left( \sum_{n=1}^{p} n + \sum_{n=1}^{p} 1 \right) = \frac{1}{2} \left( \frac{p(p+1)}{2} + p \right) = \frac{p(p+3)}{4}$
+
+* Partie imaginaire : $\frac{1}{2} \left( \sum_{n=1}^{p} 1 - \sum_{n=1}^{p} n \right) = \frac{1}{2} \left( p - \frac{p(p+1)}{2} \right) = \frac{p(1-p)}{4}$
+
+
+
+* **Résultat sous forme algébrique :**
+
+$$\frac{p(p+3)}{4} + \frac{p(1-p)}{4}i$$
