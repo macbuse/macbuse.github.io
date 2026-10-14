@@ -8,6 +8,7 @@
 #### CeB-1
  - **CC1 mardi 6/10 (annulé)**
  - CC1 jeudi 8/10  [correction](./q1_2026_CB.pdf)
+ - CC1 mercredi 14/10  [correction](./q1_2026_bis.pdf)
 
 #### SPI-3
 
