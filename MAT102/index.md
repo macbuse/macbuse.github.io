@@ -62,7 +62,7 @@
 1. Fonctions 
 1. Intégrales 
 
-## 4 Controles
+##  Controles
 
 - CC1 sur les nombres complexes
 - Debut novembre : Partiel sur nbres cplexs + sommes et produits
@@ -460,6 +460,10 @@ Check with WolframAlpha :
 - [23 b](https://www.wolframalpha.com/input?i=solve++z%5E2+%E2%88%92+%283+%2B+4i%29z+%2B+7i+%E2%88%92+1+%3D)
 - [23 c](https://www.wolframalpha.com/input?i=solve++2z%5E2+%2B+%285+%2B+i%29z+%2B+2+%2B+2i+%3D+0)
 ---
+
+
+
+[**Exo 29** correction](./sol_1_29.html)
 
 **Exo 32**
 

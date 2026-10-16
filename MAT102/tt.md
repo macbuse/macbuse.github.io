@@ -1,97 +1,163 @@
-Voici les solutions étape par étape pour chaque expression de l'**Exercice 16** :
+Voici les solutions détaillées pour mettre chaque nombre complexe sous forme exponentielle $r e^{i\theta}$ (avec $r > 0$).
 
 ---
 
-### a) $\displaystyle\sum_{p=1}^{n} (1 + 2ip)$
+## Première ligne
 
-* **Séparation de la somme :**
+### 1. $(e^{i\frac{3\pi}{4}})^3$
 
-$$\sum_{p=1}^{n} 1 + 2i \sum_{p=1}^{n} p$$
+* **Règle :** $(e^{i\theta})^n = e^{in\theta}$
 
+* **Calcul :**
 
-
-* **Calcul des sommes usuelles :**
-
-$$\sum_{p=1}^{n} 1 = n \quad \text{et} \quad \sum_{p=1}^{n} p = \frac{n(n+1)}{2}$$
+$$(e^{i\frac{3\pi}{4}})^3 = e^{i \cdot 3 \cdot \frac{3\pi}{4}} = e^{i\frac{9\pi}{4}}$$
 
 
+* **Forme canonique (modulo $2\pi$) :** $\frac{9\pi}{4} = 2\pi + \frac{\pi}{4}$
 
-* **Résultat sous forme algébrique :**
-
-$$n + 2i \left(\frac{n(n+1)}{2}\right) = n + i\,n(n+1) = n + (n^2 + n)i$$
-
+$$e^{i\frac{9\pi}{4}} = e^{i\frac{\pi}{4}}$$
 
 
 
 ---
 
-### b) $\displaystyle\sum_{k=1}^{10} (2 + ik)$
+### 2. $(2e^{-i\frac{\pi}{6}})^{-3}$
 
-* **Séparation de la somme :**
+* **Règle :** $(a \cdot b)^n = a^n \cdot b^n$
 
-$$\sum_{k=1}^{10} 2 + i \sum_{k=1}^{10} k$$
+* **Calcul :**
 
-
-
-* **Calcul des sommes :**
-
-$$\sum_{k=1}^{10} 2 = 2 \times 10 = 20 \quad \text{et} \quad \sum_{k=1}^{10} k = \frac{10 \times 11}{2} = 55$$
-
-
-
-* **Résultat sous forme algébrique :**
-
-$$20 + 55i$$
-
+$$(2e^{-i\frac{\pi}{6}})^{-3} = 2^{-3} \cdot e^{-i\frac{\pi}{6} \cdot (-3)} = \frac{1}{8} e^{i\frac{3\pi}{6}} = \frac{1}{8} e^{i\frac{\pi}{2}}$$
 
 
 
 ---
 
-### c) $\displaystyle\sum_{l=1}^{n} \frac{5l}{2+i}$
+### 3. $\frac{e^{i\frac{\pi}{3}}}{(e^{i\frac{\pi}{8}})^2}$
 
-* **Factorisation des termes indépendants de $l$ et rationalisation du dénominateur :**
+* **Calcul du dénominateur :** $(e^{i\frac{\pi}{8}})^2 = e^{i\frac{2\pi}{8}} = e^{i\frac{\pi}{4}}$
 
-$$\frac{5}{2+i} = \frac{5(2-i)}{2^2 + 1^2} = \frac{5(2-i)}{5} = 2 - i$$
+* **Règle de division :** $\frac{e^{ia}}{e^{ib}} = e^{i(a-b)}$
+* **Calcul :**
 
-
-
-* **Application à la somme :**
-
-$$(2 - i) \sum_{l=1}^{n} 5l \quad \text{ou plus simplement} \quad (2 - i) \times \frac{5n(n+1)}{2}$$
-
-
-
-* **Résultat sous forme algébrique :**
-
-$$\frac{5n(n+1)}{2}(2 - i) = 5n(n+1) - \frac{5n(n+1)}{2}i$$
-
+$$\frac{e^{i\frac{\pi}{3}}}{e^{i\frac{\pi}{4}}} = e^{i(\frac{\pi}{3} - \frac{\pi}{4})} = e^{i\frac{4\pi - 3\pi}{12}} = e^{i\frac{\pi}{12}}$$
 
 
 
 ---
 
-### d) $\displaystyle\sum_{n=1}^{p} \frac{n+i}{1+i}$
+### 4. $(e^{i\frac{\pi}{3}})^3 (e^{i\frac{\pi}{2}})^3$
 
-* **Rationalisation du dénominateur et séparation de la somme :**
+* **Calcul des puissances :**
+* $(e^{i\frac{\pi}{3}})^3 = e^{i\pi}$
 
-$$\frac{1}{1+i} = \frac{1-i}{1^2 + 1^2} = \frac{1-i}{2}$$
-
-
-
-* **Réécriture de l'expression :**
-
-$$\sum_{n=1}^{p} \frac{(n+i)(1-i)}{2} = \sum_{n=1}^{p} \frac{n - ni + i - i^2}{2} = \sum_{n=1}^{p} \frac{(n+1) + (1-n)i}{2}$$
+* $(e^{i\frac{\pi}{2}})^3 = e^{i\frac{3\pi}{2}}$
 
 
 
-* **Calcul des sommes pour $n$ de $1$ à $p$ :**
-* Partie réelle : $\frac{1}{2} \left( \sum_{n=1}^{p} n + \sum_{n=1}^{p} 1 \right) = \frac{1}{2} \left( \frac{p(p+1)}{2} + p \right) = \frac{p(p+3)}{4}$
+* **Produit :**
 
-* Partie imaginaire : $\frac{1}{2} \left( \sum_{n=1}^{p} 1 - \sum_{n=1}^{p} n \right) = \frac{1}{2} \left( p - \frac{p(p+1)}{2} \right) = \frac{p(1-p)}{4}$
-
+$$e^{i\pi} \cdot e^{i\frac{3\pi}{2}} = e^{i(\pi + \frac{3\pi}{2})} = e^{i\frac{5\pi}{2}} = e^{i\frac{\pi}{2}}$$
 
 
-* **Résultat sous forme algébrique :**
 
-$$\frac{p(p+3)}{4} + \frac{p(1-p)}{4}i$$
+---
+
+### 5. $(e^{-i\frac{\pi}{4}})^6 (e^{i\frac{\pi}{2}})^6$
+
+* **Méthode directe (regroupement des termes) :**
+
+$$\left( e^{-i\frac{\pi}{4}} \cdot e^{i\frac{\pi}{2}} \right)^6 = \left( e^{i(-\frac{\pi}{4} + \frac{\pi}{2})} \right)^6 = \left( e^{i\frac{\pi}{4}} \right)^6 = e^{i\frac{6\pi}{4}} = e^{i\frac{3\pi}{2}}$$
+
+
+
+---
+
+### 6. $(\overline{3e^{i\frac{\pi}{3}}})^2$
+
+* **Règle du conjugué :** $\overline{r e^{i\theta}} = r e^{-i\theta}$
+* **Calcul :**
+* Conjugué : $\overline{3e^{i\frac{\pi}{3}}} = 3e^{-i\frac{\pi}{3}}$
+* Élévation au carré : $(3e^{-i\frac{\pi}{3}})^2 = 3^2 e^{-i\frac{2\pi}{3}} = 9 e^{-i\frac{2\pi}{3}}$ (ou $9 e^{i\frac{4\pi}{3}}$)
+
+
+
+---
+
+## Seconde ligne
+
+### 7. $\overline{(2e^{i\frac{3\pi}{4}})^{-2}}$
+
+* **Calcul de l'intérieur :**
+
+$$(2e^{i\frac{3\pi}{4}})^{-2} = 2^{-2} e^{-i\frac{6\pi}{4}} = \frac{1}{4} e^{-i\frac{3\pi}{2}} = \frac{1}{4} e^{i\frac{\pi}{2}}$$
+
+
+* **Conjugué :**
+
+$$\overline{\frac{1}{4} e^{i\frac{\pi}{2}}} = \frac{1}{4} e^{-i\frac{\pi}{2}}$$
+
+
+
+---
+
+### 8. $\left(\frac{e^{i\frac{\pi}{3}}}{2e^{i\frac{\pi}{6}}}\right)^{-2}$
+
+* **Simplification du quotient intérieur :**
+
+$$\frac{e^{i\frac{\pi}{3}}}{2e^{i\frac{\pi}{6}}} = \frac{1}{2} e^{i(\frac{\pi}{3} - \frac{\pi}{6})} = \frac{1}{2} e^{i\frac{\pi}{6}}$$
+
+
+* **Puissance $-2$ :**
+
+$$\left(\frac{1}{2} e^{i\frac{\pi}{6}}\right)^{-2} = (1/2)^{-2} \cdot e^{-i\frac{2\pi}{6}} = 2^2 e^{-i\frac{\pi}{3}} = 4 e^{-i\frac{\pi}{3}}$$
+
+
+
+---
+
+### 9. $\frac{(e^{i\frac{\pi}{3}})^5}{(e^{i\frac{2\pi}{3}})^7 (e^{-i\frac{\pi}{3}})^4}$
+
+* **Numerateur :** $e^{i\frac{5\pi}{3}}$
+
+* **Dénominateur :** $e^{i\frac{14\pi}{3}} \cdot e^{-i\frac{4\pi}{3}} = e^{i\frac{10\pi}{3}}$
+
+* **Quotient :**
+
+$$\frac{e^{i\frac{5\pi}{3}}}{e^{i\frac{10\pi}{3}}} = e^{i(\frac{5\pi}{3} - \frac{10\pi}{3})} = e^{-i\frac{5\pi}{3}} = e^{i\frac{\pi}{3}}$$
+
+
+
+---
+
+### 10. $(2e^{i\frac{\pi}{3}})^{-3} (\sqrt{2}e^{i\frac{\pi}{6}})^4$
+
+* **Premier terme :** $(2e^{i\frac{\pi}{3}})^{-3} = 2^{-3} e^{-i\pi} = \frac{1}{8} e^{-i\pi}$
+
+* **Second terme :** $(\sqrt{2}e^{i\frac{\pi}{6}})^4 = (\sqrt{2})^4 e^{i\frac{4\pi}{6}} = 4 e^{i\frac{2\pi}{3}}$
+
+* **Produit :**
+
+$$\frac{1}{8} \cdot 4 \cdot e^{i(-\pi + \frac{2\pi}{3})} = \frac{1}{2} e^{-i\frac{\pi}{3}}$$
+
+
+
+---
+
+### 11. $\frac{(i e^{i\frac{\pi}{3}})^6}{(-e^{i\frac{2\pi}{3}})^{-2}}$
+
+* **Numerateur :**
+* Comme $i = e^{i\frac{\pi}{2}}$, on a $i e^{i\frac{\pi}{3}} = e^{i(\frac{\pi}{2} + \frac{\pi}{3})} = e^{i\frac{5\pi}{6}}$
+
+* $(e^{i\frac{5\pi}{6}})^6 = e^{i5\pi} = e^{i\pi} = -1$
+
+
+
+* **Dénominateur :**
+* $(-e^{i\frac{2\pi}{3}})^{-2} = (-1)^{-2} \cdot (e^{i\frac{2\pi}{3}})^{-2} = 1 \cdot e^{-i\frac{4\pi}{3}}$
+
+
+
+* **Quotient :**
+
+$$\frac{e^{i5\pi}}{e^{-i\frac{4\pi}{3}}} = e^{i(5\pi + \frac{4\pi}{3})} = e^{i\frac{19\pi}{3}} = e^{i(6\pi + \frac{\pi}{3})} = e^{i\frac{\pi}{3}}$$
