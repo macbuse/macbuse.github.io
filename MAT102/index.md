@@ -216,9 +216,9 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 
 <!-- --- -->
 
-<!-- ## [F3](./Fiche3-geometrie.pdf) -->
+## [F3](./Fiche3-geometrie.pdf)
 
-<!-- <!-1- **Preparer pour 12/10** exos 7 et 9 -1-> -->
+**Preparer pour demain le 4/11** exos 1,2,3,4
 
 <!-- * [exo 16](./sol_3_16.html) -->
 <!-- * [exos 17 & 18](./sol_3_17.html) -->
