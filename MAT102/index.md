@@ -218,7 +218,24 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 
 ## [F3](./Fiche3-geometrie.pdf)
 
+- vecteurs, 
+    - addition
+    - produit avec un scalaire
+    - produit scalaire
+    - norme
+- droite, vecteur directeur
+- plan, vecteur normal
+- intersection 
+    - droite-droite
+    - droite-plan
+    - plan-plan
+- determinants
+    - produit vectoriel
+    - aire d'un triangle
+
 **Preparer pour demain le 4/11** exos 1,2,3,4
+
+[solutions revision](sol_3_r.html)
 
 <!-- * [exo 16](./sol_3_16.html) -->
 <!-- * [exos 17 & 18](./sol_3_17.html) -->

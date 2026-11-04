@@ -1,105 +1,177 @@
+**Exercices 1, 2 et 3**.
 
 ---
 
-### **Décomposition en éléments simples**
-
-On cherche $\alpha$ et $\beta$ tels que pour tout $a \in \mathbb{R}^*$ et $k \notin \{0, -a\}$ :
-
-$$\frac{1}{k(k+a)} = \frac{\alpha}{k} + \frac{\beta}{k+a}$$
-
-Voici la résolution rédigée selon votre méthode (en multipliant par le dénominateur puis en utilisant les valeurs particulières $k = 0$ et $k = -a$) :
-
----
-
-### **Calcul de $\alpha$ et $\beta$**
-
-On cherche $\alpha$ et $\beta$ tels que pour tout $a \in \mathbb{R}^*$ et $k \notin \{0, -a\}$ :
-
-$$\frac{1}{k(k+a)} = \frac{\alpha}{k} + \frac{\beta}{k+a}$$
+## **Exercice 1. Résoudre les systèmes d'équations**
 
 
 
-En multipliant l'égalité par le dénominateur commun $k(k+a)$, on obtient une égalité polynomiale vraie pour tout $k \in \mathbb{R}$ :
-
-$$1 = \alpha(k+a) + \beta k$$
-
-Pour déterminer $\alpha$ et $\beta$, on évalue cette égalité pour des valeurs particulières de $k$ :
-
-* **Pour $k = 0$ :**
-
-$$1 = \alpha(0 + a) + \beta(0) \implies 1 = \alpha a \implies \alpha = \frac{1}{a}$$
-
-
-* **Pour $k = -a$ :**
-
-$$1 = \alpha(-a + a) + \beta(-a) \implies 1 = -\beta a \implies \beta = -\frac{1}{a}$$
+### **a)** $\begin{cases} 3x + 4y = 1 \quad &(L_1) \\ 2x + 3y = -5 \quad &(L_2) \end{cases}$
 
 
 
-On retrouve bien la décomposition générale pour tout $a \neq 0$ :
+On élimine $x$ en effectuant $2L_1 - 3L_2$ :
 
-$$\frac{1}{k(k+a)} = \frac{1}{a} \left( \frac{1}{k} - \frac{1}{k+a} \right)$$
+
+$$2(3x + 4y) - 3(2x + 3y) = 2(1) - 3(-5)$$
+
+$$8y - 9y = 2 + 15 \implies -y = 17 \implies y = -17$$
+
+On substitue $y = -17$ dans $L_1$ :
+
+
+$$3x + 4(-17) = 1 \implies 3x - 68 = 1 \implies 3x = 69 \implies x = 23$$
+
+**Solution :** $(x, y) = (23, -17)$
 
 ---
 
-### **a)** $\sum_{k=1}^{n} \frac{1}{k(k+1)}$
+### **b)** $\begin{cases} x + y = 5 \quad &(L_1) \\ x - y = 3 \quad &(L_2) \end{cases}$
 
 
 
-Ici $a = 1$. La décomposition s'écrit :
+* **Addition ($L_1 + L_2$) :** $2x = 8 \implies x = 4$
+* **Soustraction ($L_1 - L_2$) :** $2y = 2 \implies y = 1$
 
-$$\frac{1}{k(k+1)} = \frac{1}{k} - \frac{1}{k+1}$$
-
-La somme est télescopique :
-
-$$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \sum_{k=1}^{n} \left( \frac{1}{k} - \frac{1}{k+1} \right) = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \dots + \left(\frac{1}{n} - \frac{1}{n+1}\right)$$
-
-Tous les termes s'annulent deux à deux sauf le premier et le dernier :
-
-$$\sum_{k=1}^{n} \frac{1}{k(k+1)} = 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
+**Solution :** $(x, y) = (4, 1)$
 
 ---
 
-### **b)** $\sum_{k=1}^{n} \frac{1}{k(k+2)}$
+### **c)** $\begin{cases} 2x - 3y = 1 \quad &(L_1) \\ x - 4y = 2 \quad &(L_2) \end{cases}$
 
 
 
-Ici $a = 2$. La décomposition s'écrit :
+De $L_2$, on tire $x = 4y + 2$. On substitue dans $L_1$ :
 
-$$\frac{1}{k(k+2)} = \frac{1}{2} \left( \frac{1}{k} - \frac{1}{k+2} \right)$$
 
-En développant la somme télescopique :
+$$2(4y + 2) - 3y = 1 \implies 8y + 4 - 3y = 1 \implies 5y = -3 \implies y = -\frac{3}{5}$$
 
-$$\sum_{k=1}^{n} \frac{1}{k(k+2)} = \frac{1}{2} \left[ \sum_{k=1}^{n} \frac{1}{k} - \sum_{k=1}^{n} \frac{1}{k+2} \right]$$
+D'où :
 
-Par décalage d'indice dans la seconde somme ($j = k+2$) :
 
-$$\sum_{k=1}^{n} \frac{1}{k+2} = \sum_{j=3}^{n+2} \frac{1}{j}$$
+$$x = 4\left(-\frac{3}{5}\right) + 2 = -\frac{12}{5} + \frac{10}{5} = -\frac{2}{5}$$
 
-Il reste les deux premiers termes de la première somme et les deux derniers de la seconde :
-
-$$\sum_{k=1}^{n} \frac{1}{k(k+2)} = \frac{1}{2} \left( 1 + \frac{1}{2} - \frac{1}{n+1} - \frac{1}{n+2} \right) = \frac{1}{2} \left( \frac{3}{2} - \frac{2n+3}{(n+1)(n+2)} \right) = \frac{3}{4} - \frac{2n+3}{2(n+1)(n+2)}$$
-
-Forme factorisée unique :
-
-$$\sum_{k=1}^{n} \frac{1}{k(k+2)} = \frac{n(3n+5)}{4(n+1)(n+2)}$$
+**Solution :** $(x, y) = \left(-\frac{2}{5}, -\frac{3}{5}\right)$
 
 ---
 
-### **c)** $\sum_{k=2}^{n} \frac{1}{k^2 - 1}$
+## **Exercice 2. Tracer les droites dans le plan $\mathbb{R}^2$**
 
 
 
-En factorisant le dénominateur : $k^2 - 1 = (k-1)(k+1)$.
+Pour tracer chaque droite, il suffit de déterminer deux points distincts :
 
-Effectuons le changement d'indice $j = k-1$ (donc $k = j+1$) :
+* **a)** $y = 3x - 1$
 
-$$\sum_{k=2}^{n} \frac{1}{(k-1)(k+1)} = \sum_{j=1}^{n-1} \frac{1}{j(j+2)}$$
 
-C'est exactement la somme du **b)** calculée au rang $n-1$ :
+* Pour $x = 0 \implies y = -1 \implies (0, -1)$
+* Pour $x = 1 \implies y = 2 \implies (1, 2)$
 
-$$\sum_{k=2}^{n} \frac{1}{k^2 - 1} = \frac{1}{2} \left( \frac{3}{2} - \frac{1}{n} - \frac{1}{n+1} \right)$$
 
-Sous forme réduite :
+* **b)** $y = -2x + 3$
 
-$$\sum_{k=2}^{n} \frac{1}{k^2 - 1} = \frac{3}{4} - \frac{2n+1}{2n(n+1)} = \frac{(n-1)(3n+2)}{4n(n+1)}$$
+
+* Pour $x = 0 \implies y = 3 \implies (0, 3)$
+* Pour $x = 2 \implies y = -1 \implies (2, -1)$
+
+
+* **c)** $x = 2y + 1 \iff y = \frac{1}{2}x - \frac{1}{2}$
+
+
+* Pour $y = 0 \implies x = 1 \implies (1, 0)$
+* Pour $y = 1 \implies x = 3 \implies (3, 1)$
+
+
+* **d)** $-3x + 2y - 1 = 0 \iff y = \frac{3}{2}x + \frac{1}{2}$
+
+
+* Pour $x = -1 \implies y = -1 \implies (-1, -1)$
+* Pour $x = 1 \implies y = 2 \implies (1, 2)$
+
+
+* **e)** $y + 2 = 0 \iff y = -2$
+
+
+* Droite horizontale passant par $(0, -2)$.
+
+
+* **f)** $2x - 1 = 0 \iff x = \frac{1}{2}$
+
+
+* Droite verticale passant par $\left(\frac{1}{2}, 0\right)$.
+
+
+* **g)** Parameterization $(x, y) = (2t + 1, 3t - 1), \; t \in \mathbb{R}$
+
+
+* Pour $t = 0 \implies (1, -1)$
+* Pour $t = 1 \implies (3, 2)$
+* *(Équation cartésienne : $3x - 2y - 5 = 0 \iff y = \frac{3}{2}x - \frac{5}{2}$)*
+
+
+* **h)** Parameterization $(x, y) = (-s + 2, 2s - 1), \; s \in \mathbb{R}$
+
+
+* Pour $s = 0 \implies (2, -1)$
+* Pour $s = 1 \implies (1, 1)$
+* *(Équation cartésienne : $2x + y - 3 = 0 \iff y = -2x + 3$)*
+
+
+
+---
+
+## **Exercice 3. Déterminer une équation de la droite $\mathcal{D}$ passant par $A$ et $B$**
+
+
+
+### **a)** $A(2, 1)$ et $B(0, 1)$
+
+
+
+Les ordonnées sont identiques ($y_A = y_B = 1$).
+
+
+$$\mathcal{D} : y = 1$$
+
+---
+
+### **b)** $A(-3, 1)$ et $B(0, 1)$
+
+
+
+Les ordonnées sont également identiques ($y_A = y_B = 1$).
+
+
+$$\mathcal{D} : y = 1$$
+
+---
+
+### **c)** $A(-1, 3)$ et $B(2, -1)$
+
+
+
+Le coefficient directeur (pente) $m$ vaut :
+
+
+$$m = \frac{y_B - y_A}{x_B - x_A} = \frac{-1 - 3}{2 - (-1)} = -\frac{4}{3}$$
+
+En utilisant le point $B(2, -1)$ dans l'équation $y - y_B = m(x - x_B)$ :
+
+
+$$y - (-1) = -\frac{4}{3}(x - 2) \implies y + 1 = -\frac{4}{3}x + \frac{8}{3} \implies y = -\frac{4}{3}x + \frac{5}{3}$$
+
+Under cartesian form:
+
+
+$$\mathcal{D} : 4x + 3y - 5 = 0$$
+
+---
+
+### **d)** $A(-2, 1)$ et $B(-2, 4)$
+
+
+
+Les abscisses sont identiques ($x_A = x_B = -2$). La droite est verticale.
+
+
+$$\mathcal{D} : x = -2$$
