@@ -1,163 +1,105 @@
-Voici les solutions détaillées pour mettre chaque nombre complexe sous forme exponentielle $r e^{i\theta}$ (avec $r > 0$).
 
 ---
 
-## Première ligne
+### **Décomposition en éléments simples**
 
-### 1. $(e^{i\frac{3\pi}{4}})^3$
+On cherche $\alpha$ et $\beta$ tels que pour tout $a \in \mathbb{R}^*$ et $k \notin \{0, -a\}$ :
 
-* **Règle :** $(e^{i\theta})^n = e^{in\theta}$
+$$\frac{1}{k(k+a)} = \frac{\alpha}{k} + \frac{\beta}{k+a}$$
 
-* **Calcul :**
-
-$$(e^{i\frac{3\pi}{4}})^3 = e^{i \cdot 3 \cdot \frac{3\pi}{4}} = e^{i\frac{9\pi}{4}}$$
-
-
-* **Forme canonique (modulo $2\pi$) :** $\frac{9\pi}{4} = 2\pi + \frac{\pi}{4}$
-
-$$e^{i\frac{9\pi}{4}} = e^{i\frac{\pi}{4}}$$
-
-
+Voici la résolution rédigée selon votre méthode (en multipliant par le dénominateur puis en utilisant les valeurs particulières $k = 0$ et $k = -a$) :
 
 ---
 
-### 2. $(2e^{-i\frac{\pi}{6}})^{-3}$
+### **Calcul de $\alpha$ et $\beta$**
 
-* **Règle :** $(a \cdot b)^n = a^n \cdot b^n$
+On cherche $\alpha$ et $\beta$ tels que pour tout $a \in \mathbb{R}^*$ et $k \notin \{0, -a\}$ :
 
-* **Calcul :**
-
-$$(2e^{-i\frac{\pi}{6}})^{-3} = 2^{-3} \cdot e^{-i\frac{\pi}{6} \cdot (-3)} = \frac{1}{8} e^{i\frac{3\pi}{6}} = \frac{1}{8} e^{i\frac{\pi}{2}}$$
+$$\frac{1}{k(k+a)} = \frac{\alpha}{k} + \frac{\beta}{k+a}$$
 
 
 
----
+En multipliant l'égalité par le dénominateur commun $k(k+a)$, on obtient une égalité polynomiale vraie pour tout $k \in \mathbb{R}$ :
 
-### 3. $\frac{e^{i\frac{\pi}{3}}}{(e^{i\frac{\pi}{8}})^2}$
+$$1 = \alpha(k+a) + \beta k$$
 
-* **Calcul du dénominateur :** $(e^{i\frac{\pi}{8}})^2 = e^{i\frac{2\pi}{8}} = e^{i\frac{\pi}{4}}$
+Pour déterminer $\alpha$ et $\beta$, on évalue cette égalité pour des valeurs particulières de $k$ :
 
-* **Règle de division :** $\frac{e^{ia}}{e^{ib}} = e^{i(a-b)}$
-* **Calcul :**
+* **Pour $k = 0$ :**
 
-$$\frac{e^{i\frac{\pi}{3}}}{e^{i\frac{\pi}{4}}} = e^{i(\frac{\pi}{3} - \frac{\pi}{4})} = e^{i\frac{4\pi - 3\pi}{12}} = e^{i\frac{\pi}{12}}$$
-
+$$1 = \alpha(0 + a) + \beta(0) \implies 1 = \alpha a \implies \alpha = \frac{1}{a}$$
 
 
----
+* **Pour $k = -a$ :**
 
-### 4. $(e^{i\frac{\pi}{3}})^3 (e^{i\frac{\pi}{2}})^3$
-
-* **Calcul des puissances :**
-* $(e^{i\frac{\pi}{3}})^3 = e^{i\pi}$
-
-* $(e^{i\frac{\pi}{2}})^3 = e^{i\frac{3\pi}{2}}$
+$$1 = \alpha(-a + a) + \beta(-a) \implies 1 = -\beta a \implies \beta = -\frac{1}{a}$$
 
 
 
-* **Produit :**
+On retrouve bien la décomposition générale pour tout $a \neq 0$ :
 
-$$e^{i\pi} \cdot e^{i\frac{3\pi}{2}} = e^{i(\pi + \frac{3\pi}{2})} = e^{i\frac{5\pi}{2}} = e^{i\frac{\pi}{2}}$$
-
-
+$$\frac{1}{k(k+a)} = \frac{1}{a} \left( \frac{1}{k} - \frac{1}{k+a} \right)$$
 
 ---
 
-### 5. $(e^{-i\frac{\pi}{4}})^6 (e^{i\frac{\pi}{2}})^6$
-
-* **Méthode directe (regroupement des termes) :**
-
-$$\left( e^{-i\frac{\pi}{4}} \cdot e^{i\frac{\pi}{2}} \right)^6 = \left( e^{i(-\frac{\pi}{4} + \frac{\pi}{2})} \right)^6 = \left( e^{i\frac{\pi}{4}} \right)^6 = e^{i\frac{6\pi}{4}} = e^{i\frac{3\pi}{2}}$$
+### **a)** $\sum_{k=1}^{n} \frac{1}{k(k+1)}$
 
 
 
----
+Ici $a = 1$. La décomposition s'écrit :
 
-### 6. $(\overline{3e^{i\frac{\pi}{3}}})^2$
+$$\frac{1}{k(k+1)} = \frac{1}{k} - \frac{1}{k+1}$$
 
-* **Règle du conjugué :** $\overline{r e^{i\theta}} = r e^{-i\theta}$
-* **Calcul :**
-* Conjugué : $\overline{3e^{i\frac{\pi}{3}}} = 3e^{-i\frac{\pi}{3}}$
-* Élévation au carré : $(3e^{-i\frac{\pi}{3}})^2 = 3^2 e^{-i\frac{2\pi}{3}} = 9 e^{-i\frac{2\pi}{3}}$ (ou $9 e^{i\frac{4\pi}{3}}$)
+La somme est télescopique :
 
+$$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \sum_{k=1}^{n} \left( \frac{1}{k} - \frac{1}{k+1} \right) = \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \dots + \left(\frac{1}{n} - \frac{1}{n+1}\right)$$
 
+Tous les termes s'annulent deux à deux sauf le premier et le dernier :
+
+$$\sum_{k=1}^{n} \frac{1}{k(k+1)} = 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
 
 ---
 
-## Seconde ligne
-
-### 7. $\overline{(2e^{i\frac{3\pi}{4}})^{-2}}$
-
-* **Calcul de l'intérieur :**
-
-$$(2e^{i\frac{3\pi}{4}})^{-2} = 2^{-2} e^{-i\frac{6\pi}{4}} = \frac{1}{4} e^{-i\frac{3\pi}{2}} = \frac{1}{4} e^{i\frac{\pi}{2}}$$
-
-
-* **Conjugué :**
-
-$$\overline{\frac{1}{4} e^{i\frac{\pi}{2}}} = \frac{1}{4} e^{-i\frac{\pi}{2}}$$
+### **b)** $\sum_{k=1}^{n} \frac{1}{k(k+2)}$
 
 
 
----
+Ici $a = 2$. La décomposition s'écrit :
 
-### 8. $\left(\frac{e^{i\frac{\pi}{3}}}{2e^{i\frac{\pi}{6}}}\right)^{-2}$
+$$\frac{1}{k(k+2)} = \frac{1}{2} \left( \frac{1}{k} - \frac{1}{k+2} \right)$$
 
-* **Simplification du quotient intérieur :**
+En développant la somme télescopique :
 
-$$\frac{e^{i\frac{\pi}{3}}}{2e^{i\frac{\pi}{6}}} = \frac{1}{2} e^{i(\frac{\pi}{3} - \frac{\pi}{6})} = \frac{1}{2} e^{i\frac{\pi}{6}}$$
+$$\sum_{k=1}^{n} \frac{1}{k(k+2)} = \frac{1}{2} \left[ \sum_{k=1}^{n} \frac{1}{k} - \sum_{k=1}^{n} \frac{1}{k+2} \right]$$
 
+Par décalage d'indice dans la seconde somme ($j = k+2$) :
 
-* **Puissance $-2$ :**
+$$\sum_{k=1}^{n} \frac{1}{k+2} = \sum_{j=3}^{n+2} \frac{1}{j}$$
 
-$$\left(\frac{1}{2} e^{i\frac{\pi}{6}}\right)^{-2} = (1/2)^{-2} \cdot e^{-i\frac{2\pi}{6}} = 2^2 e^{-i\frac{\pi}{3}} = 4 e^{-i\frac{\pi}{3}}$$
+Il reste les deux premiers termes de la première somme et les deux derniers de la seconde :
 
+$$\sum_{k=1}^{n} \frac{1}{k(k+2)} = \frac{1}{2} \left( 1 + \frac{1}{2} - \frac{1}{n+1} - \frac{1}{n+2} \right) = \frac{1}{2} \left( \frac{3}{2} - \frac{2n+3}{(n+1)(n+2)} \right) = \frac{3}{4} - \frac{2n+3}{2(n+1)(n+2)}$$
 
+Forme factorisée unique :
+
+$$\sum_{k=1}^{n} \frac{1}{k(k+2)} = \frac{n(3n+5)}{4(n+1)(n+2)}$$
 
 ---
 
-### 9. $\frac{(e^{i\frac{\pi}{3}})^5}{(e^{i\frac{2\pi}{3}})^7 (e^{-i\frac{\pi}{3}})^4}$
-
-* **Numerateur :** $e^{i\frac{5\pi}{3}}$
-
-* **Dénominateur :** $e^{i\frac{14\pi}{3}} \cdot e^{-i\frac{4\pi}{3}} = e^{i\frac{10\pi}{3}}$
-
-* **Quotient :**
-
-$$\frac{e^{i\frac{5\pi}{3}}}{e^{i\frac{10\pi}{3}}} = e^{i(\frac{5\pi}{3} - \frac{10\pi}{3})} = e^{-i\frac{5\pi}{3}} = e^{i\frac{\pi}{3}}$$
+### **c)** $\sum_{k=2}^{n} \frac{1}{k^2 - 1}$
 
 
 
----
+En factorisant le dénominateur : $k^2 - 1 = (k-1)(k+1)$.
 
-### 10. $(2e^{i\frac{\pi}{3}})^{-3} (\sqrt{2}e^{i\frac{\pi}{6}})^4$
+Effectuons le changement d'indice $j = k-1$ (donc $k = j+1$) :
 
-* **Premier terme :** $(2e^{i\frac{\pi}{3}})^{-3} = 2^{-3} e^{-i\pi} = \frac{1}{8} e^{-i\pi}$
+$$\sum_{k=2}^{n} \frac{1}{(k-1)(k+1)} = \sum_{j=1}^{n-1} \frac{1}{j(j+2)}$$
 
-* **Second terme :** $(\sqrt{2}e^{i\frac{\pi}{6}})^4 = (\sqrt{2})^4 e^{i\frac{4\pi}{6}} = 4 e^{i\frac{2\pi}{3}}$
+C'est exactement la somme du **b)** calculée au rang $n-1$ :
 
-* **Produit :**
+$$\sum_{k=2}^{n} \frac{1}{k^2 - 1} = \frac{1}{2} \left( \frac{3}{2} - \frac{1}{n} - \frac{1}{n+1} \right)$$
 
-$$\frac{1}{8} \cdot 4 \cdot e^{i(-\pi + \frac{2\pi}{3})} = \frac{1}{2} e^{-i\frac{\pi}{3}}$$
+Sous forme réduite :
 
-
-
----
-
-### 11. $\frac{(i e^{i\frac{\pi}{3}})^6}{(-e^{i\frac{2\pi}{3}})^{-2}}$
-
-* **Numerateur :**
-* Comme $i = e^{i\frac{\pi}{2}}$, on a $i e^{i\frac{\pi}{3}} = e^{i(\frac{\pi}{2} + \frac{\pi}{3})} = e^{i\frac{5\pi}{6}}$
-
-* $(e^{i\frac{5\pi}{6}})^6 = e^{i5\pi} = e^{i\pi} = -1$
-
-
-
-* **Dénominateur :**
-* $(-e^{i\frac{2\pi}{3}})^{-2} = (-1)^{-2} \cdot (e^{i\frac{2\pi}{3}})^{-2} = 1 \cdot e^{-i\frac{4\pi}{3}}$
-
-
-
-* **Quotient :**
-
-$$\frac{e^{i5\pi}}{e^{-i\frac{4\pi}{3}}} = e^{i(5\pi + \frac{4\pi}{3})} = e^{i\frac{19\pi}{3}} = e^{i(6\pi + \frac{\pi}{3})} = e^{i\frac{\pi}{3}}$$
+$$\sum_{k=2}^{n} \frac{1}{k^2 - 1} = \frac{3}{4} - \frac{2n+1}{2n(n+1)} = \frac{(n-1)(3n+2)}{4n(n+1)}$$

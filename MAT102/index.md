@@ -272,6 +272,8 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 
 - [exo 18](./sol_2_18.html)
 
+- [exo 19](./sol_2_19.html)
+
 ---
 ---
 
