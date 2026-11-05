@@ -239,21 +239,30 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 
 [exos 7,9](./sol_3_7+9.html)
 
+---
+
+**Exo 10**
+
 ![exo 10](./ex10_triangles.png)
+
+---
+
+**Exo 13**
+
+L'aire A est donnée par la formule de
+[Pick](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Pick) :
+
+**A = I + B/2 - 1**
+où :
+
+* **I** est le nombre de points du quadrillage situés strictement à l'intérieur du triangle.
+* **B** est le nombre de points du quadrillage situés sur les côtés ou les sommets du triangle.
 
 ![exo 13](./ex13_triangles.png)
 
 ---
-L'aire A est donnée par la formule de
-[Pick](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Pick) :
 
-A = I + B/2 - 1
 
-où :
-
-* I est le nombre de points du quadrillage situés strictement à l'intérieur du triangle.
-* B est le nombre de points du quadrillage situés sur les côtés ou les sommets du triangle.
----
 
 <!-- * [exo 16](./sol_3_16.html) -->
 <!-- * [exos 17 & 18](./sol_3_17.html) -->
