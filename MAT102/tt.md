@@ -1,177 +1,86 @@
-**Exercices 1, 2 et 3**.
 
 ---
 
-## **Exercice 1. Résoudre les systèmes d'équations**
+## **Exercice 7. Orthogonalité des vecteurs**
 
 
 
-### **a)** $\begin{cases} 3x + 4y = 1 \quad &(L_1) \\ 2x + 3y = -5 \quad &(L_2) \end{cases}$
+Deux vecteurs $\vec{u}$ et $\vec{v}$ sont orthogonaux si et seulement si leur produit scalaire est nul : $\vec{u} \cdot \vec{v} = 0$.
+
+### **a)** $\vec{u} = (t - 1, 2t - 3)$, $\vec{v} = (3, -1)$
 
 
 
-On élimine $x$ en effectuant $2L_1 - 3L_2$ :
+$$\vec{u} \cdot \vec{v} = 3(t - 1) - 1(2t - 3) = 3t - 3 - 2t + 3 = t$$
 
-
-$$2(3x + 4y) - 3(2x + 3y) = 2(1) - 3(-5)$$
-
-$$8y - 9y = 2 + 15 \implies -y = 17 \implies y = -17$$
-
-On substitue $y = -17$ dans $L_1$ :
-
-
-$$3x + 4(-17) = 1 \implies 3x - 68 = 1 \implies 3x = 69 \implies x = 23$$
-
-**Solution :** $(x, y) = (23, -17)$
+$$\vec{u} \cdot \vec{v} = 0 \iff t = 0$$
 
 ---
 
-### **b)** $\begin{cases} x + y = 5 \quad &(L_1) \\ x - y = 3 \quad &(L_2) \end{cases}$
+### **b)** $\vec{u} = (3t, 2 + t, -t)$, $\vec{v} = (1, 1, 2)$
 
 
 
-* **Addition ($L_1 + L_2$) :** $2x = 8 \implies x = 4$
-* **Soustraction ($L_1 - L_2$) :** $2y = 2 \implies y = 1$
+$$\vec{u} \cdot \vec{v} = 1(3t) + 1(2 + t) + 2(-t) = 3t + 2 + t - 2t = 2t + 2$$
 
-**Solution :** $(x, y) = (4, 1)$
-
----
-
-### **c)** $\begin{cases} 2x - 3y = 1 \quad &(L_1) \\ x - 4y = 2 \quad &(L_2) \end{cases}$
-
-
-
-De $L_2$, on tire $x = 4y + 2$. On substitue dans $L_1$ :
-
-
-$$2(4y + 2) - 3y = 1 \implies 8y + 4 - 3y = 1 \implies 5y = -3 \implies y = -\frac{3}{5}$$
-
-D'où :
-
-
-$$x = 4\left(-\frac{3}{5}\right) + 2 = -\frac{12}{5} + \frac{10}{5} = -\frac{2}{5}$$
-
-**Solution :** $(x, y) = \left(-\frac{2}{5}, -\frac{3}{5}\right)$
+$$\vec{u} \cdot \vec{v} = 0 \iff 2t + 2 = 0 \iff t = -1$$
 
 ---
 
-## **Exercice 2. Tracer les droites dans le plan $\mathbb{R}^2$**
+### **c)** $\vec{u} = (t - 1, 2t, 2)$, $\vec{v} = (1, 2, -1)$
 
 
 
-Pour tracer chaque droite, il suffit de déterminer deux points distincts :
+$$\vec{u} \cdot \vec{v} = 1(t - 1) + 2(2t) - 1(2) = t - 1 + 4t - 2 = 5t - 3$$
 
-* **a)** $y = 3x - 1$
-
-
-* Pour $x = 0 \implies y = -1 \implies (0, -1)$
-* Pour $x = 1 \implies y = 2 \implies (1, 2)$
-
-
-* **b)** $y = -2x + 3$
-
-
-* Pour $x = 0 \implies y = 3 \implies (0, 3)$
-* Pour $x = 2 \implies y = -1 \implies (2, -1)$
-
-
-* **c)** $x = 2y + 1 \iff y = \frac{1}{2}x - \frac{1}{2}$
-
-
-* Pour $y = 0 \implies x = 1 \implies (1, 0)$
-* Pour $y = 1 \implies x = 3 \implies (3, 1)$
-
-
-* **d)** $-3x + 2y - 1 = 0 \iff y = \frac{3}{2}x + \frac{1}{2}$
-
-
-* Pour $x = -1 \implies y = -1 \implies (-1, -1)$
-* Pour $x = 1 \implies y = 2 \implies (1, 2)$
-
-
-* **e)** $y + 2 = 0 \iff y = -2$
-
-
-* Droite horizontale passant par $(0, -2)$.
-
-
-* **f)** $2x - 1 = 0 \iff x = \frac{1}{2}$
-
-
-* Droite verticale passant par $\left(\frac{1}{2}, 0\right)$.
-
-
-* **g)** Parameterization $(x, y) = (2t + 1, 3t - 1), \; t \in \mathbb{R}$
-
-
-* Pour $t = 0 \implies (1, -1)$
-* Pour $t = 1 \implies (3, 2)$
-* *(Équation cartésienne : $3x - 2y - 5 = 0 \iff y = \frac{3}{2}x - \frac{5}{2}$)*
-
-
-* **h)** Parameterization $(x, y) = (-s + 2, 2s - 1), \; s \in \mathbb{R}$
-
-
-* Pour $s = 0 \implies (2, -1)$
-* Pour $s = 1 \implies (1, 1)$
-* *(Équation cartésienne : $2x + y - 3 = 0 \iff y = -2x + 3$)*
-
-
+$$\vec{u} \cdot \vec{v} = 0 \iff 5t - 3 = 0 \iff t = \frac{3}{5}$$
 
 ---
 
-## **Exercice 3. Déterminer une équation de la droite $\mathcal{D}$ passant par $A$ et $B$**
+### **d)** $\vec{u} = (t^2 + 1, 2t, t^2 - 1)$, $\vec{v} = (t^2, -t, 1)$
 
 
 
-### **a)** $A(2, 1)$ et $B(0, 1)$
+$$\vec{u} \cdot \vec{v} = t^2(t^2 + 1) - t(2t) + 1(t^2 - 1) = t^4 + t^2 - 2t^2 + t^2 - 1 = t^4 - 1$$
 
+$$\vec{u} \cdot \vec{v} = 0 \iff t^4 - 1 = 0 \iff (t^2 - 1)(t^2 + 1) = 0$$
 
+Comme $t^2 + 1 > 0$ pour tout $t \in \mathbb{R}$, l'équation équivaut à $t^2 - 1 = 0$, soit :
 
-Les ordonnées sont identiques ($y_A = y_B = 1$).
-
-
-$$\mathcal{D} : y = 1$$
-
----
-
-### **b)** $A(-3, 1)$ et $B(0, 1)$
-
-
-
-Les ordonnées sont également identiques ($y_A = y_B = 1$).
-
-
-$$\mathcal{D} : y = 1$$
+$$t = 1 \quad \text{ou} \quad t = -1$$
 
 ---
 
-### **c)** $A(-1, 3)$ et $B(2, -1)$
+## **Exercice 9. Colinéarité des vecteurs**
 
 
 
-Le coefficient directeur (pente) $m$ vaut :
+Deux vecteurs $(x, y)$ et $(x', y')$ dans $\mathbb{R}^2$ sont colinéaires si et seulement si leur déterminant est nul : $xy' - x'y = 0$.
+
+### **a)** $\vec{u} = (1 - t, 2 + t)$, $\vec{v} = (3, 4)$
 
 
-$$m = \frac{y_B - y_A}{x_B - x_A} = \frac{-1 - 3}{2 - (-1)} = -\frac{4}{3}$$
 
-En utilisant le point $B(2, -1)$ dans l'équation $y - y_B = m(x - x_B)$ :
+$$\det(\vec{u}, \vec{v}) = 4(1 - t) - 3(2 + t) = 4 - 4t - 6 - 3t = -7t - 2$$
 
-
-$$y - (-1) = -\frac{4}{3}(x - 2) \implies y + 1 = -\frac{4}{3}x + \frac{8}{3} \implies y = -\frac{4}{3}x + \frac{5}{3}$$
-
-Under cartesian form:
-
-
-$$\mathcal{D} : 4x + 3y - 5 = 0$$
+$$\det(\vec{u}, \vec{v}) = 0 \iff -7t - 2 = 0 \iff t = -\frac{2}{7}$$
 
 ---
 
-### **d)** $A(-2, 1)$ et $B(-2, 4)$
+### **b)** $\vec{u} = (5t, 6)$, $\vec{v} = (6t, 7)$
 
 
 
-Les abscisses sont identiques ($x_A = x_B = -2$). La droite est verticale.
+$$\det(\vec{u}, \vec{v}) = 7(5t) - 6(6t) = 35t - 36t = -t$$
+
+$$\det(\vec{u}, \vec{v}) = 0 \iff t = 0$$
+
+---
+
+### **c)** $\vec{u} = (2, 1)$, $\vec{v} = (3 - t, 2 - t)$
 
 
-$$\mathcal{D} : x = -2$$
+
+$$\det(\vec{u}, \vec{v}) = 2(2 - t) - 1(3 - t) = 4 - 2t - 3 + t = 1 - t$$
+
+$$\det(\vec{u}, \vec{v}) = 0 \iff 1 - t = 0 \iff t = 1$$

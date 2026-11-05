@@ -237,6 +237,8 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 
 [solutions revision](sol_3_r.html)
 
+[exos 7,9](./sol_3_7+9.html)
+
 <!-- * [exo 16](./sol_3_16.html) -->
 <!-- * [exos 17 & 18](./sol_3_17.html) -->
 <!-- * [exo 19](./sol_3_19.html) --> 
