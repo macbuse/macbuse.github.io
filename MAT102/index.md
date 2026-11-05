@@ -241,6 +241,8 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 
 ![exo 10](./ex10_triangles.png)
 
+![exo 13](./ex13_triangles.png)
+
 <!-- * [exo 16](./sol_3_16.html) -->
 <!-- * [exos 17 & 18](./sol_3_17.html) -->
 <!-- * [exo 19](./sol_3_19.html) --> 
