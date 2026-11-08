@@ -1,86 +1,24 @@
+## Exercice 17
 
----
-
-## **Exercice 7. Orthogonalité des vecteurs**
-
+Basé sur la formule du binôme de Newton :
 
 
-Deux vecteurs $\vec{u}$ et $\vec{v}$ sont orthogonaux si et seulement si leur produit scalaire est nul : $\vec{u} \cdot \vec{v} = 0$.
+$$(x + y)^n = \sum_{k=0}^{n} \binom{n}{k} x^{n-k} y^k$$
 
-### **a)** $\vec{u} = (t - 1, 2t - 3)$, $\vec{v} = (3, -1)$
-
-
-
-$$\vec{u} \cdot \vec{v} = 3(t - 1) - 1(2t - 3) = 3t - 3 - 2t + 3 = t$$
-
-$$\vec{u} \cdot \vec{v} = 0 \iff t = 0$$
-
----
-
-### **b)** $\vec{u} = (3t, 2 + t, -t)$, $\vec{v} = (1, 1, 2)$
-
-
-
-$$\vec{u} \cdot \vec{v} = 1(3t) + 1(2 + t) + 2(-t) = 3t + 2 + t - 2t = 2t + 2$$
-
-$$\vec{u} \cdot \vec{v} = 0 \iff 2t + 2 = 0 \iff t = -1$$
-
----
-
-### **c)** $\vec{u} = (t - 1, 2t, 2)$, $\vec{v} = (1, 2, -1)$
-
-
-
-$$\vec{u} \cdot \vec{v} = 1(t - 1) + 2(2t) - 1(2) = t - 1 + 4t - 2 = 5t - 3$$
-
-$$\vec{u} \cdot \vec{v} = 0 \iff 5t - 3 = 0 \iff t = \frac{3}{5}$$
-
----
-
-### **d)** $\vec{u} = (t^2 + 1, 2t, t^2 - 1)$, $\vec{v} = (t^2, -t, 1)$
-
-
-
-$$\vec{u} \cdot \vec{v} = t^2(t^2 + 1) - t(2t) + 1(t^2 - 1) = t^4 + t^2 - 2t^2 + t^2 - 1 = t^4 - 1$$
-
-$$\vec{u} \cdot \vec{v} = 0 \iff t^4 - 1 = 0 \iff (t^2 - 1)(t^2 + 1) = 0$$
-
-Comme $t^2 + 1 > 0$ pour tout $t \in \mathbb{R}$, l'équation équivaut à $t^2 - 1 = 0$, soit :
-
-$$t = 1 \quad \text{ou} \quad t = -1$$
-
----
-
-## **Exercice 9. Colinéarité des vecteurs**
-
-
-
-Deux vecteurs $(x, y)$ et $(x', y')$ dans $\mathbb{R}^2$ sont colinéaires si et seulement si leur déterminant est nul : $xy' - x'y = 0$.
-
-### **a)** $\vec{u} = (1 - t, 2 + t)$, $\vec{v} = (3, 4)$
-
-
-
-$$\det(\vec{u}, \vec{v}) = 4(1 - t) - 3(2 + t) = 4 - 4t - 6 - 3t = -7t - 2$$
-
-$$\det(\vec{u}, \vec{v}) = 0 \iff -7t - 2 = 0 \iff t = -\frac{2}{7}$$
-
----
-
-### **b)** $\vec{u} = (5t, 6)$, $\vec{v} = (6t, 7)$
-
-
-
-$$\det(\vec{u}, \vec{v}) = 7(5t) - 6(6t) = 35t - 36t = -t$$
-
-$$\det(\vec{u}, \vec{v}) = 0 \iff t = 0$$
-
----
-
-### **c)** $\vec{u} = (2, 1)$, $\vec{v} = (3 - t, 2 - t)$
-
-
-
-$$\det(\vec{u}, \vec{v}) = 2(2 - t) - 1(3 - t) = 4 - 2t - 3 + t = 1 - t$$
-
-$$\det(\vec{u}, \vec{v}) = 0 \iff 1 - t = 0 \iff t = 1$$
+| **Somme ($\sum$)** | **$a \cdot \binom{n}{k} x^{n-k} y^k$** | **$a, x, y$** | **Réponse finale** |
+| --- | --- | --- | --- |
+| . | . | . | . |
+| **a)** $\sum_{k=0}^{n} \binom{n}{k} 2^k 3^{n-k}$<br> | $\sum \binom{n}{k} 3^{n-k} 2^k$ | $a = 1, \, x = 3, \, y = 2$ | $5^n$ |
+| **b)** $\sum_{k=0}^{n} \binom{n}{k} 2^k \left(\frac{1}{2}\right)^{n-k}$<br> | $\sum \binom{n}{k} \left(\frac{1}{2}\right)^{n-k} 2^k$ | $a = 1, \, x = \frac{1}{2}, \, y = 2$ | $\left(\frac{5}{2}\right)^n$ |
+| **c)** $\sum_{k=0}^{n} \binom{n}{k} 3^{k+1} 5^{n-k}$<br> | $\sum 3 \cdot \binom{n}{k} 5^{n-k} 3^k$ | $a = 3, \, x = 5, \, y = 3$ | $3 \cdot 8^n$ |
+| . | . | . | . |
+| **d)** $\sum_{k=0}^{n} \binom{n}{k} (2 \cdot 3^n) 2^{k} 3^{n-k}$<br> | $\sum 2 \cdot \binom{n}{k} (3^2)^{n-k} 2^k$ | $a = 2 \cdot 3^n, \, x = 3, \, y = 2$ | $2 \cdot 15^n$ |
+| **e)** $\sum_{k=0}^{n} \binom{n}{k} 2^k$<br> | $\sum \binom{n}{k} 1^{n-k} 2^k$ | $a = 1, \, x = 1, \, y = 2$ | $3^n$ |
+| **f)** $\sum_{k=0}^{n} \binom{n}{k} 4^k 3^{n-k}$<br> | $\sum \binom{n}{k} 3^{n-k} 4^k$ | $a = 1, \, x = 3, \, y = 4$ | $7^n$ |
+| **g)** $\sum_{k=0}^{n} \binom{n}{k} \frac{5^k}{2^{n-k}}$<br> | $\sum \binom{n}{k} \left(\frac{1}{2}\right)^{n-k} 5^k$ | $a = 1, \, x = \frac{1}{2}, \, y = 5$ | $\left(\frac{11}{2}\right)^n$ |
+| . | . | . | . |
+| **h)** $\sum_{k=0}^{n} \binom{n}{k} 3^{2k-n}$<br> | $\sum \frac{1}{3^n} \binom{n}{k} 1^{n-k} (9^k)$ | $a = \frac{1}{3^n}, \, x = 1, \, y = 9$ | $\left(\frac{10}{3}\right)^n$ |
+| . | . | . | . |
+| **i)** $\sum_{k=1}^{n} \binom{n}{k} 5^k 3^{n-k}$<br> | *Somme de $k=1$ à $n$* *(Retirer le terme $k=0$)* | $x = 3, \, y = 5$ | $8^n - 3^n$ |
+| . | . | . | . |
+| **j)** $\sum_{k=0}^{n-1} \binom{n}{k} 3^k 4^{n-k}$<br> | *Somme de $0$ à $n-1$* *(Retirer le terme $k=n$)* | $x = 4, \, y = 3$ | $7^n - 3^n$ |
