@@ -233,6 +233,8 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
     - produit vectoriel
     - aire d'un triangle
 
+---
+
 **Preparer pour demain le 4/11** exos 1,2,3,4
 
 [solutions revision](sol_3_r.html)
@@ -262,11 +264,14 @@ où :
 
 ---
 
-**Exo 11 & 12**
+**Exo 11 & 12 & 15**
 
-[exos 11+12](./sol_3_11+12.html)
+- [exos 11+12](./sol_3_11+12.html)
+- [exo 15](./sol_3_15.md)
 
 ---
+
+
 
 
 

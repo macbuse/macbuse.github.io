@@ -1,157 +1,134 @@
 
 ---
 
-## Exercice 11
-
-Trois vecteurs $\vec{u}, \vec{v}, \vec{w}$ sont coplanaires si et seulement si le déterminant de la matrice formée par leurs coordonnées est nul (produit mixte nul).
-
-### a) $\vec{u} = (1,2,3)$, $\vec{v} = (-1,3,4)$, $\vec{w} = (1,0,2)$
+### a) $\vec{u} = (1, 0, 0)$, $\vec{v} = (0, 0, -1)$
 
 
 
-Calculons le déterminant par développement selon la troisième ligne (qui contient un zéro) :
+* **Calcul du produit vectoriel :**
 
-$$\det(\vec{u}, \vec{v}, \vec{w}) = \begin{vmatrix} 1 & -1 & 1 \\ 2 & 3 & 0 \\ 3 & 4 & 2 \end{vmatrix}$$
-
-Développement par rapport à la 3ᵉ colonne (ou 3ᵉ ligne) :
+$$\vec{u} \wedge \vec{v} = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ 1 & 0 & 0 \\ 0 & 0 & -1 \end{vmatrix} = \vec{i}(0 \cdot (-1) - 0 \cdot 0) - \vec{j}(1 \cdot (-1) - 0 \cdot 0) + \vec{k}(1 \cdot 0 - 0 \cdot 0) = (0, 1, 0)$$
 
 
-$$\begin{aligned} \det = 1 \cdot \begin{vmatrix} 2 & 3 \\ 3 & 4 \end{vmatrix} + 2 \cdot \begin{vmatrix} 1 & -1 \\ 2 & 3 \end{vmatrix} &= 1 \cdot (8 - 9) + 2 \cdot (3 - (-2)) \\ &= -1 + 2(5) = 9 \neq 0 \end{aligned}$$
+* **Vérification de l'orthogonalité :**
+* $\vec{u} \cdot (\vec{u} \wedge \vec{v}) = 1(0) + 0(1) + 0(0) = 0$ $\checkmark$
+* $\vec{v} \cdot (\vec{u} \wedge \vec{v}) = 0(0) + 0(1) + (-1)(0) = 0$ $\checkmark$
 
-Les 3 vecteurs **ne sont pas coplanaires**.
+
 
 ---
 
-### b) $\vec{u} = (1,-1,1)$, $\vec{v} = (2,2,1)$, $\vec{w} = (0,-4,1)$
+### b) $\vec{u} = (1, 0, 0)$, $\vec{v} = (1, 1, 1)$
 
 
 
-$$\det(\vec{u}, \vec{v}, \vec{w}) = \begin{vmatrix} 1 & 2 & 0 \\ -1 & 2 & -4 \\ 1 & 1 & 1 \end{vmatrix}$$
+* **Calcul du produit vectoriel :**
 
-Développement par rapport à la première ligne :
+$$\vec{u} \wedge \vec{v} = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ 1 & 0 & 0 \\ 1 & 1 & 1 \end{vmatrix} = (0 - 0)\vec{i} - (1 - 0)\vec{j} + (1 - 0)\vec{k} = (0, -1, 1)$$
 
 
-$$\begin{aligned} \det = 1 \cdot \begin{vmatrix} 2 & -4 \\ 1 & 1 \end{vmatrix} - 2 \cdot \begin{vmatrix} -1 & -4 \\ 1 & 1 \end{vmatrix} &= 1 \cdot (2 - (-4)) - 2 \cdot (-1 - (-4)) \\ &= 6 - 2(3) = 0 \end{aligned}$$
+* **Vérification de l'orthogonalité :**
+* $\vec{u} \cdot (\vec{u} \wedge \vec{v}) = 1(0) + 0(-1) + 0(1) = 0$ $\checkmark$
+* $\vec{v} \cdot (\vec{u} \wedge \vec{v}) = 1(0) + 1(-1) + 1(1) = 0$ $\checkmark$
 
-Le déterminant étant nul, les 3 vecteurs **sont coplanaires**.
+
 
 ---
 
-## Exercice 12
+### c) $\vec{u} = (2, 3, 1)$, $\vec{v} = (1, 2, 1)$
 
-### a) Matrice identité
 
 
+* **Calcul du produit vectoriel :**
 
-$$\begin{vmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{vmatrix} = 1$$
+$$\vec{u} \wedge \vec{v} = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ 2 & 3 & 1 \\ 1 & 2 & 1 \end{vmatrix} = (3 - 2)\vec{i} - (2 - 1)\vec{j} + (4 - 3)\vec{k} = (1, -1, 1)$$
 
-### b) Matrice triangulaire inférieure
 
+* **Vérification de l'orthogonalité :**
+* $\vec{u} \cdot (\vec{u} \wedge \vec{v}) = 2(1) + 3(-1) + 1(1) = 2 - 3 + 1 = 0$ $\checkmark$
+* $\vec{v} \cdot (\vec{u} \wedge \vec{v}) = 1(1) + 2(-1) + 1(1) = 1 - 2 + 1 = 0$ $\checkmark$
 
 
-Le déterminant d'une matrice triangulaire est le produit des éléments diagonaux :
 
+---
 
-$$\begin{vmatrix} a & 0 & 0 \\ 6 & b & 0 \\ 7 & 1 & c \end{vmatrix} = a \cdot b \cdot c = abc$$
+### d) $\vec{u} = (1, 1, 1)$, $\vec{v} = (-3, 2, 1)$
 
-### c) Matrice triangulaire supérieure
 
 
+* **Calcul du produit vectoriel :**
 
-$$\begin{vmatrix} 1 & x & y \\ 0 & 2 & z \\ 0 & 0 & 3 \end{vmatrix} = 1 \cdot 2 \cdot 3 = 6$$
+$$\vec{u} \wedge \vec{v} = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ 1 & 1 & 1 \\ -3 & 2 & 1 \end{vmatrix} = (1 - 2)\vec{i} - (1 - (-3))\vec{j} + (2 - (-3))\vec{k} = (-1, -4, 5)$$
 
-### d)
 
+* **Vérification de l'orthogonalité :**
+* $\vec{u} \cdot (\vec{u} \wedge \vec{v}) = 1(-1) + 1(-4) + 1(5) = -1 - 4 + 5 = 0$ $\checkmark$
+* $\vec{v} \cdot (\vec{u} \wedge \vec{v}) = -3(-1) + 2(-4) + 1(5) = 3 - 8 + 5 = 0$ $\checkmark$
 
 
-Développement selon la première colonne :
 
+---
 
-$$\begin{vmatrix} a & 0 & 5 \\ 0 & 0 & c \\ 0 & b & 0 \end{vmatrix} = a \cdot \begin{vmatrix} 0 & c \\ b & 0 \end{vmatrix} = a(0 - bc) = -abc$$
+### e) $\vec{u} = (1, 0, 1)$, $\vec{v} = (x, 0, -1)$
 
-### e)
 
 
+* **Calcul du produit vectoriel :**
 
-Développement selon la troisième ligne :
+$$\vec{u} \wedge \vec{v} = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ 1 & 0 & 1 \\ x & 0 & -1 \end{vmatrix} = (0 - 0)\vec{i} - (-1 - x)\vec{j} + (0 - 0)\vec{k} = (0, x + 1, 0)$$
 
 
-$$\begin{vmatrix} 0 & b & 7 \\ 11 & 0 & c \\ a & 0 & 0 \end{vmatrix} = a \cdot \begin{vmatrix} b & 7 \\ 0 & c \end{vmatrix} = a(bc - 0) = abc$$
+* **Vérification de l'orthogonalité :**
+* $\vec{u} \cdot (\vec{u} \wedge \vec{v}) = 1(0) + 0(x+1) + 1(0) = 0$ $\checkmark$
+* $\vec{v} \cdot (\vec{u} \wedge \vec{v}) = x(0) + 0(x+1) + (-1)(0) = 0$ $\checkmark$
 
-### f)
 
 
+---
 
-Développement selon la première colonne :
+### f) $\vec{u} = (\cos\alpha, -\sin\alpha, 0)$, $\vec{v} = (\sin\alpha, \cos\alpha, 0)$
 
 
-$$\begin{vmatrix} 1 & 6 & 7 \\ 0 & \cos\beta & -\sin\beta \\ 0 & \sin\beta & \cos\beta \end{vmatrix} = 1 \cdot \begin{vmatrix} \cos\beta & -\sin\beta \\ \sin\beta & \cos\beta \end{vmatrix} = \cos^2\beta - (-\sin^2\beta) = \cos^2\beta + \sin^2\beta = 1$$
 
-### g)
+* **Calcul du produit vectoriel :**
 
+$$\vec{u} \wedge \vec{v} = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ \cos\alpha & -\sin\alpha & 0 \\ \sin\alpha & \cos\alpha & 0 \end{vmatrix} = (0)\vec{i} - (0)\vec{j} + (\cos^2\alpha - (-\sin^2\alpha))\vec{k} = (0, 0, 1)$$
 
 
-Développement selon la première ligne :
+* **Vérification de l'orthogonalité :**
+* $\vec{u} \cdot (\vec{u} \wedge \vec{v}) = \cos\alpha(0) - \sin\alpha(0) + 0(1) = 0$ $\checkmark$
+* $\vec{v} \cdot (\vec{u} \wedge \vec{v}) = \sin\alpha(0) + \cos\alpha(0) + 0(1) = 0$ $\checkmark$
 
 
-$$\begin{vmatrix} 1 & 0 & 0 \\ 6 & 9 & 2 \\ 4 & -1 & 0 \end{vmatrix} = 1 \cdot \begin{vmatrix} 9 & 2 \\ -1 & 0 \end{vmatrix} = 0 - (-2) = 2$$
 
-### h)
+---
 
+### g) $\vec{u} = (3, 2, -1)$, $\vec{v} = (2, 1, z)$
 
 
-$$\begin{vmatrix} 2 & -1 & 3 \\ -1 & 1 & 3 \\ -2 & 1 & 1 \end{vmatrix}$$
 
-Règle de Sarrus (ou développement $L_1$) :
+* **Calcul du produit vectoriel :**
 
+$$\vec{u} \wedge \vec{v} = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ 3 & 2 & -1 \\ 2 & 1 & z \end{vmatrix} = (2z - (-1))\vec{i} - (3z - (-2))\vec{j} + (3 - 4)\vec{k} = (2z + 1, -(3z + 2), -1)$$
 
-$$2(1 - 3) - (-1)(-1 - (-6)) + 3(-1 - (-2)) = 2(-2) + 1(5) + 3(1) = -4 + 5 + 3 = 4$$
 
-### i)
+* **Vérification de l'orthogonalité :**
+* $\vec{u} \cdot (\vec{u} \wedge \vec{v}) = 3(2z+1) + 2(-(3z+2)) - 1(-1) = 6z + 3 - 6z - 4 + 1 = 0$ $\checkmark$
+* $\vec{v} \cdot (\vec{u} \wedge \vec{v}) = 2(2z+1) + 1(-(3z+2)) + z(-1) = 4z + 2 - 3z - 2 - z = 0$ $\checkmark$
 
 
 
-Remarquons que la ligne 3 est le double de la ligne 2 ($L_3 = 2 L_2$) : $(2, 4, 6) = 2(1, 2, 3)$.
+---
 
+### h) $\vec{u} = (1, 2, 2)$, $\vec{v} = (3, 1, 1)$
 
-$$\begin{vmatrix} i & j & k \\ 1 & 2 & 3 \\ 2 & 4 & 6 \end{vmatrix} = 0$$
 
-### j)
 
+* **Calcul du produit vectoriel :**
 
+$$\vec{u} \wedge \vec{v} = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ 1 & 2 & 2 \\ 3 & 1 & 1 \end{vmatrix} = (2 - 2)\vec{i} - (1 - 6)\vec{j} + (1 - 6)\vec{k} = (0, 5, -5)$$
 
-Calcul du produit vectoriel $(1,3,2) \wedge (2,1,4)$ via le déterminant formel :
 
-
-$$\begin{aligned} \begin{vmatrix} i & j & k \\ 1 & 3 & 2 \\ 2 & 1 & 4 \end{vmatrix} &= i(12 - 2) - j(4 - 4) + k(1 - 6) \\ &= 10i + 0j - 5k = 10i - 5k \quad \text{ou } (10, 0, -5) \end{aligned}$$
-
-### k)
-
-
-$$\begin{aligned} \begin{vmatrix} i & j & k \\ 1 & 0 & 1 \\ 0 & 2 & 3 \end{vmatrix} &= i(0 - 2) - j(3 - 0) + k(2 - 0) \\ &= -2i - 3j + 2k \quad \text{ou } (-2, -3, 2) \end{aligned}$$
-
-### l) Déterminant $4 \times 4$
-
-
-
-$$D = \begin{vmatrix} 1 & -1 & 0 & 1 \\ 0 & -1 & 0 & 2 \\ 3 & -2 & 2 & 1 \\ 1 & 4 & 2 & 1 \end{vmatrix}$$
-
-Opération sur les lignes pour faire apparaître un zéro : $L_4 \leftarrow L_4 - L_3$
-
-
-$$D = \begin{vmatrix} 1 & -1 & 0 & 1 \\ 0 & -1 & 0 & 2 \\ 3 & -2 & 2 & 1 \\ -2 & 6 & 0 & 0 \end{vmatrix}$$
-
-Développement par rapport à la 3ᵉ colonne (qui contient trois 0) :
-
-
-$$D = 2 \cdot (-1)^{3+3} \begin{vmatrix} 1 & -1 & 1 \\ 0 & -1 & 2 \\ -2 & 6 & 0 \end{vmatrix}$$
-
-Calcul du sous-déterminant $3 \times 3$ (développement par rapport à la 1ʳᵉ colonne) :
-
-
-$$\begin{aligned} \begin{vmatrix} 1 & -1 & 1 \\ 0 & -1 & 2 \\ -2 & 6 & 0 \end{vmatrix} &= 1 \cdot (0 - 12) - 2 \cdot (-2 - (-1)) \\ &= -12 - 2(-1) = -12 + 2 = -10 \end{aligned}$$
-
-D'où :
-
-
-$$D = 2 \times (-10) = -20$$
+* **Vérification de l'orthogonalité :**
+* $\vec{u} \cdot (\vec{u} \wedge \vec{v}) = 1(0) + 2(5) + 2(-5) = 10 - 10 = 0$ $\checkmark$
+* $\vec{v} \cdot (\vec{u} \wedge \vec{v}) = 3(0) + 1(5) + 1(-5) = 5 - 5 = 0$ $\checkmark$
