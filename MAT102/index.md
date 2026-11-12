@@ -271,11 +271,10 @@ où :
 
 ---
 
+* [exo 16](./sol_3_16.html)
 
+---
 
-
-
-<!-- * [exo 16](./sol_3_16.html) -->
 <!-- * [exos 17 & 18](./sol_3_17.html) -->
 <!-- * [exo 19](./sol_3_19.html) --> 
 <!-- * [exo 19.1](./sol_3_19_bis.html) en minimisant la distance -->
