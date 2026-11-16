@@ -275,9 +275,9 @@ où :
 
 ---
 
-<!-- * [exos 17 & 18](./sol_3_17.html) -->
-<!-- * [exo 19](./sol_3_19.html) --> 
-<!-- * [exo 19.1](./sol_3_19_bis.html) en minimisant la distance -->
+* [exos 17 & 18](./sol_3_17.html)
+* [exo 19](./sol_3_19.html) 
+* [exo 19.1](./sol_3_19_bis.html) en minimisant la distance
 <!-- * [exo 20](./sol_3_20.html) --> 
 <!-- * [exos 21, 22](./sol_3_21.html) -->
 <!-- * [exos 23](./sol_3_23.html) -->
