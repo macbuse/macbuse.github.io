@@ -93,14 +93,20 @@ relate it to the properties of the Birman Series set discusssed in
 \section{Introduction}
 
 
+In previous work with Sergiescu \cite{vlad} we gave a geometric proof of:
 
 
-
-\begin{thm}[Fermat]\label{main}
+\begin{thm}[Fermat]\label{fermat}
 Let $p$ be a prime then the equation
-$$x^2 + y^2 = p $$
+$$a^2 + b^2 = p $$
 has a solution in integers  iff  $p=2$ or $p-1$ is a multiple of $4$.
 \end{thm}
+
+So such a prime can be represented as a sum of squares and the
+representation is \textit{primitive} that is the integers $a,b$ must
+be coprime.
+
+\subsection{Markoff numbers}
 
 
 A \textit{Markoff triple} is a  solution $(X,Y,Z)$  in positive integers to
@@ -131,33 +137,94 @@ if $p$ is an odd prime.
 % Although we were not successful in this we think our Theorem \ref{main} is of some interest in its own right.
 
 Lang and  Tan give a short, elementary proof of this
-in \cite{Mong} and say that there method extends to the case
+in \cite{mong} and say that there method extends to the case
 $m=5p^k$.
-In fact every Markoff number can be written properly as a sum of squares, that is there are coprime positive integers such that $$m = a^2 + b^2.$$
-We will give a geometric account of these representations as sums of squares and use it to extend the results of Baragar, Button, Lang and Tan. 
-Our proof is summarised in Figure \ref{fig: Ford circles} and Figure \ref{fig: rotated balls}
 
-\begin{thm} 
+Subsequently Aigner extended these results to a much larger class of
+numbers:
+ 
+  \begin{thm}[Aigner]
+  Let $m$ be a Markoff number of the form 
+  $$m =Np^k$$
+  where $p$ is an odd prime and $N \leq 10^{35}$ is another Markoff number. Then $m$ is unique.
+  \end{thm}
+ 
+In fact every Markoff number can be written as a primitive  sum of
+squares, that is just as for the primes in Fermat's theorem above there are coprime positive integers such that $$m = a^2 + b^2.$$
+We will give a geometric account of such representations as
+primitive sums of
+squares and use it to extend the results of Baragar, Button, Lang
+and Tan, and Aigner's theorem. 
+Our proof of Mong and Tan's $5p^k$ result is summarised in Figure \ref{fig: Ford circles} and Figure \ref{fig: rotated balls}
 
-	\begin{enumerate} 
+ \begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{./rotate_1+2i_.png}
+    \caption{Visualising Lang and Tan's $5p$ claim. The blue
+	    horoballs are project to the  cusp region of area 4and the red
+    ones their image under $z \mapsto (\frac15(3 - 4i))^2\cdot z$. Note that there are 2 purple discs tangent at $2/1$ and
+    $1/2$.
+}
+\label{fig: rotated balls}
+\end{figure}
+
+\newpage
+
+\begin{thm} \label{thm: rotating 5}
+	In the Figure \ref{fig: rotated balls}
+the blue balls project to the cusp region of area $4$
+on the modular once punctured torus.
+The red balls are the image of the blue balls under
+the map 
+$$ z\mapsto \frac{1}{25}( 1+2i)^4\cdot z.$$
+	\begin{enumerate}  
 		\item The red and the blue horoballs
-
 "cover" the unit circle as viewed from the discs center $0$.
 		\item There is exactly one pair of visible purple circles (red blue exactly overlap.
 \end{enumerate} 
 
+
 \end{thm}
 
-   \begin{figure}[hb]
- \begin{center}
-	 \includegraphics[scale=.5]{./zoom_rotate_2+1i_.png	}
- \end{center}
- \caption{Visualisation of the neighporhood of $1/2$}
- \label{fig: zoom 1/2}
- \end{figure}
+Diameter joining $a/b$ to $-b/a$ is the lift of an arc of
+$\lambda$-length $m = a^2 + b^2$ if and only if it crosses only the
+two blue discs tangent to the unit disc at it's endpoints. Now factoring over the Gaussian integers
+\begin{equation*}
+	m = |a + ib |^2 = |(1\pm 2i)(a' + ib'|^2
+\end{equation*}
+
+What the picture shows is that only one of the choices $1\pm 2i$ corresponds to the lift of an simple arc.
+
+\subsection{Simultaneously changing sum of square representations}
+The basis of the proof is that
+one obtains different sum of squares representations of an integer
+$m= a^2 + b^2$ by
+replacing some factor of $w$ of $a+ib$ by it's conjugate and that
+this is equivalent to multiplying $a+ib$ by 
+$$\frac{\bar{w}}{w} = \frac{\bar{w}^2}{|w|^2}.$$ 
+This allows us to \textbf{simultaneously replace}
+by the conjugate in all the admissible Markoff  number representations by multiplication and visualise the result.
+
+
+
+Much of the difficulty of proving the covering property arises
+because certain red and blue horoballs coincide this can be seen in
+Figures  \ref{fig: rotated balls} and \ref{fig: nbd 1/2}. 
+
+ \begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{./zoom_rotate_2+1i_.png}
+    \caption{A neighborhood of $1/2$ it's easy to see that there
+    are only finitely many cases to check to show the claim in
+Theorem \ref{thm: rotating 5} }
+    \label{fig: nbd 1/2}
+\end{figure}
+
+
 \subsection{Sums of squares}
 
-For first few Markoff numbers we have the following representations as sums of squares:
+For the first few Markoff numbers (all of which are Fibonacci
+numbesr with the exception of $29$) we have the following representations as sums of squares:
 
 \begin{center}
 \begin{tabular}{c|c}
@@ -172,22 +239,25 @@ $89$ & $5^2 + 8^2$ \\
 \end{tabular}
 \end{center}
 
- \begin{figure}[ht]
-    \centering
-    \includegraphics[width=1\textwidth]{./ford_circles.png}
-    \caption{ Blue discs are horoballs tangent to the unit
-    circle to the images of rationals under the Cayley transformation. The projection to the modular torus is exactly Haas's cusp region - disjoint from every simple geodesic but meets evern non simple closed geodesic. 
-If the tangency point $p/q$ is \textit{visible from $O$},  that is the radius from $0$ to $p/q$ crosses just one blue disc,  then $p^2 + q^2$ is a Markoff number.}
+ % \begin{figure}[ht]
+ %    \centering
+ %    \includegraphics[width=1\textwidth]{./ford_circles.png}
+ %    \caption{ Blue discs are horoballs tangent to the unit
+ %    circle to the images of rationals under the Cayley
+ %    transformation. The projection to the modular torus is
+ %    exactly the cusp region of area $4$ which is disjoint from
+ %    every simple geodesic but meets every non simple closed geodesic. 
+% If the tangency point $p/q$ is \textit{visible from $O$},  that is the radius from $0$ to $p/q$ crosses just one blue disc,  then $p^2 + q^2$ is a Markoff number.}
 
-\label{fig: Ford circles}
-\end{figure}
+% \label{fig: Ford circles}
+% \end{figure}
 
 We note in passing that odd index Fibonacci numbers are Markoff
 numbers and these too are seen to be sums of squares since for any integer $n \geq 1$ we have the identity:
 $$F_{2n+1} = F_n^2 + F_{2n+1}^2.$$
-For example, Theorem \ref{button} is a consequence of the
+Theorem \ref{button} is a consequence of the
 fact that for any prime power $p^k$ there are at most 8 distinct
-ways of writing it as a sum of squares. In fact it we shall see that
+ways of writing it as a primitive sum of squares. In fact it we shall see that
 it is more natural and more useful to think of a sum os squares as
 being the norm of a Gaussian integer. For example $5$ is the norm of the eight complex numbers:
 $\pm 1 + \pm 2i$ and $\pm 2 + \pm i$
@@ -210,20 +280,7 @@ to the unit circle via the restriction of the Cayley transformation:
 \end{equation*}
 
 
- \begin{figure}[ht]
-    \centering
-    \includegraphics[width=1\textwidth]{./rotate_1+2i_.png}
-    \caption{Visualising Lang and Tan's $5p$ claim. The blue
-	    horoballs are project to Haas's cusp region and the red
-    ones their image under $z \mapsto (\frac15(3 - 4i))^2\cdot
-    z$. Note that there are 2 purple discs tangent at $2/1$ and
-    $1/2$.
-}
-\label{fig: rotated balls}
-\end{figure}
-
-
-\subsection{Lengths, $\lambda$-lengths} 
+\subsection{Lengths}
 
 Let's briefly outline why Markoff numbers are sums of squares.
 H. Cohn showed that Markoff numbers are related to the 
@@ -245,8 +302,8 @@ H. Cohn showed that Markoff numbers are related to the
  $\gamma^*$ and $\frac{2}{3} \cosh \left( \frac{\ell_\gamma}{2}\right)$
  coincide.
 
- \subsection{Elliptic involution and sums of squares} It so happens that every once punctured torus admits an
- automorphism the \textit{elliptic involution} which admits exactly
+ \section{Elliptic involution and sums of squares} It so happens that every once punctured torus admits an
+ automorphism the \textit{elliptic involution} which has exactly
  three fixed points, the \textit{Weierstrass points}.
  For the modular torus these are the projection
  under the covering $\mathbb{H} \to \mathbb{H}/\Gamma$ of the orbit of $i$ under the full modular group.
@@ -271,7 +328,7 @@ H. Cohn showed that Markoff numbers are related to the
  The first part of Theorem \ref{button} follows immediately: if
  $m=p^k$ then it is unique. By the above argument $m$ admits a
  primitive representation $c^2 + d^2$ with $c,d$ coprime integers
- and this is the only possible representation up to permutin and
+ and this is the only possible representation up to permutation and
  sign change if $m$ is a prime power.
 The latter is true because if $p > 2$ then it is congruent to $1$
 mod 4 and so splits over $\ZZ[i]$ ie $p = (x + iy)(x - iy$ for some
@@ -283,8 +340,8 @@ changes:
 We can count the arcs of $\lambda$-length $m$ passing through a
 Weierstrass point as follows. WLOG we suppose that the Weierstrass
 point is the projection of $i$ to the modular torus. An
-arc$\gamma^*$  passing through  invariant under the elliptic
-involution has lifts to a geodesic in $\HH$
+arc$\gamma^*$  passing through the Weierstrass point is  invariant under the elliptic
+involution and so lifts to a geodesic in $\HH$
 with rational endpoints $\frac{a}{b}$ and $-\frac{b}{a}$.
 The $\lambda$ length of $\gamma^*$ is:
 
@@ -311,16 +368,6 @@ Recall that a *cusp region* in a surface is a subset that is isometric to $\{z \
 
 Starting from these observations one sees that, though the Birman--Series set has a very complicated structure in a generic open subset of the surface, in a sufficiently small cusp region this set has a quite simple description. We show here that the infinitesimal Birman--Series set has an analogous structure. 
 
-   \begin{figure}[ht]
- \begin{center}
-	 \includegraphics[scale=.5]{big_gap.png}
- \end{center}
- \caption{Horocycles based at rationals with small denominator, the pair of geodesics $\gamma^pm$ bounding the
-	 biggest gap in blue.
-These geodesics are asymptotic to
-a pair of geodesics in black which project to one of the three shortest geodesics on the modular torus.}
- \label{fig: biggest gap}
- \end{figure}
 
 \subsection{Constructing gaps}
 
@@ -346,6 +393,16 @@ denoted $\gamma^+$ and $\gamma^-$, both passing through $\omega$ and
 spiralling toward $\gamma'$ (see Figure~\ref{fig: biggest gap}).
 
 
+   \begin{figure}[ht]
+ \begin{center}
+	 \includegraphics[scale=.5]{big_gap.png}
+ \end{center}
+ \caption{Horocycles based at rationals with small denominator, the pair of geodesics $\gamma^pm$ bounding the
+	 biggest gap in blue.
+These geodesics are asymptotic to
+a pair of geodesics in black which project to one of the three shortest geodesics on the modular torus.}
+ \label{fig: biggest gap}
+ \end{figure}
 
 \begin{lem}\label{gaps exist}
 The geodesics $\gamma^+, \gamma^-$ defined above are tangent to the frontier of, but never enter, the cusp region of area $4$.
@@ -357,23 +414,11 @@ We give a proof for $\gamma^+$; $\gamma^-$ goes through similarly. Using a Dehn 
 
 
 
-
-   \begin{figure}[ht]
- \begin{center}
- \includegraphics[scale=.5]{big_gap.png} 
- \end{center}
- \caption{The biggest gap}
- \label{big gap}
- \end{figure}
-
-
-
-
 \section{Markoff numbers and geodesics}
 
 A \textit{Markoff triple} is a  solution $(X,Y,Z)$  in positive integers to
  the \textit{Markoff cubic}
- \begin{equation}\label{m cubic}
+ \begin{equation}
  X^2 + Y^2 + Z^2 - 3XYZ = 0.
  \end{equation}
  A \textit{Markoff number} is an integer in a Markoff triple.
@@ -652,75 +697,9 @@ A \textit{Markoff triple} is a  solution $(X,Y,Z)$  in positive integers to
  $$2p^k = |(1+i) (a + ib) |^2 =  (a-b)^2 + (a+b)^2,$$ 
  so that the result follows in this case too.
 
-
-
  \hfill $\Box$
 
 
-Finally we show that a result of Zhang \ref{zhang2} 
-can be treated in exactly the same manner:
-
-  \begin{thm}
- Let $m$ be a Markoff number such that $3m -2$
- is either a prime power or twice a prime power
- then $m$ is unique.
- \end{thm}
- 
- \proof Consider the Markoff cubic
- $$X^2 + Y^2 + Z^2 - 3XYZ = 0.$$
- If we consider it as a quadratic in $Z$ we see that it has two solutions $Z^\pm$
- which satisfy (one of) the Vieta relations 
- $$ Z^+ + Z^- = 3XY.$$
- So that if $Z^-$ is a Markoff number then $Z^+ = 3XY- Z^-$ is also.
-
- 
- 
-
-
- 
- 
-
-
-
- 
-
-
-
-
-\subsection{Organisation and Remarks}
-
-
-
-
-
-
-whereas in our proof the sum of squares decomposition\index{sum of
-squares} arises
-directly as the  result of a geometric construction. As such, the
-motivation for our work is to show that the finite sets involved in
-the proof can be chosen to be both natural and have a geometric
-interpretation. For example, in Section 2 we give a proof of Theorem
-\ref{triv} using a group generated by 
-
-
-$$ \begin{array}{lll} x
-&\mapsto& -x \\ x &\mapsto& 1/x \end{array} $$
-
-and in the proof of Theorem \ref{main} our group is generated by 
-
-$$
-\begin{array}{lll} z &\mapsto& -\bar{z} \\ z &\mapsto& 1/\bar{z}
-\end{array}. $$
-
-
-
-\subsubsection{Burnside's lemma and signatures}
- The astute reader will surely realise that Burnside's lemma is not essential to our argument
- and that one can achieve the same reduction by considering the signature
- of the permutations associated to the  involutions we consider. 
- This approach is closer to the parity arguments in Heath-Brown \cite{heath}.
-% In fact the first author set this as an  undergraduate exam question some years ago.
- 
  \subsubsection{Farey tessellation, $\lambda$-lengths}
 
  Much of our inspiration for this approach comes from  endless
@@ -778,74 +757,7 @@ In fact Lemma \ref{action} can be proved
  and applying Bézout's Theorem.
  
  
- \subsubsection{References}
-Almost all  of the material in Sections 3 and 4 
-can be found in Serre's book \cite{serre} and the reader
-should not need any other references to understand 
-this paper if they are already familiar with  Burnside's lemma.
  
-
-\subsection{Thanks}
-
-The first author thanks Louis Funar and the second author for  many
-useful conversations over the years concerning this subject. He would
-also like to thank Xu Binbin for reading early drafts of the
-manuscript.
-
-
-\section{Burnside's Lemma} \label{burnside}
-
-We give a proof of Theorem \ref{triv} using Burnside's Lemma.
-Recall that if $G$ is  a group acting on a finite set $X$ then
-Burnside's lemma says
-
-\begin{equation}\label{class formula}
-|G| |X/G| = \sum_{g} |X^g| 
-\end{equation}  
-
-where, as usual, 
- $X^g$ denotes the set of fixed points of the element $g$ 
- and $X/G$  the orbit space.
-
-
-Let $p \neq 2$,  $X = \fp^*$ and $G$ be the group generated by the two involutions
-\begin{eqnarray*}
-x & \mapsto -x \\
-x & \mapsto 1/x.
-\end{eqnarray*}
-The group  $G$ has exactly four elements namely:
-\begin{itemize}
-\item the trivial element which has  $p-1$ fixed points
-\item $x\mapsto -x$ which has no fixed points 
-\item  $x\mapsto 1/x$ has exactly two fixed points namely $1$ and $-1$.
-\item  $g:x \mapsto -1/x$ is the remaining element, and the theorem is equivalent to the existence of a fixed point for it.
-\end{itemize}
-Since $\fp$ is a an integral domain the equation $x^2 = -1$ has at
-most two solutions. If there is a solution $\alpha$ then $-\alpha$
-is also a solution and these are distinct unless $p=2$ which we have
-excluded above so
-$|X^g| = \sharp \{x^2 = -1, \, x\in \fp^* \}$
-is either $0$ or $2$.
-Now for our choice of $X$ and $G$ equation (\ref{burnside}) yields
-\begin{equation}
-4 |X/G|   = (p-1) + 2 + |X^g|.
-\end{equation}  
-The LHS is always divisible by $4$ so the  RHS is too and
-hence
-$$ |X^g| = \left\{  \begin{array}{ll}
-0 & (p-1) =  2 \mod 4 \\
-2 & (p-1) =  0 \mod 4. \\
-\end{array}
-\right.
-$$
-This proves Theorem \ref{triv}.
-
-\subsection*{Note}
-As was noted in the introduction one can obtain the same conclusion 
-by calculating the signature of $x\mapsto -1/x$ 
-using the fact that it is  the composition of
-$x \mapsto -x$ and $x \mapsto 1/x$.
-
 
 \section{Reciprocals of sums of squares and arcs}
 
@@ -1020,73 +932,6 @@ is on one of the lines of the family in the statement.
 \hfill $\Box$
 
 
-\subsection{Relation with square roots of $-1$}
-
-As we saw in the proof of Theorem \ref{triv}
-under the hypothesis of that $p$ is a prime
-and $p-1$ is a multiple of $4$
-there is $\bar{m} \in \fp$ such that $\bar{m}^2 = -1$.
-In fact the real part of 
-$\frac{ai +b}{ci+d }$ is related to the square
-this $\bar{m}$ in a simple way which,
-although we will not need it later,
-we explain now.
-Begin by writing
-$$
- \frac{ai +b}{ci+d }
-= \frac{m}{p} + \frac{i}{p}
-$$
-then 
-$$
-\frac{m^2 + 1}{p^2}   
-% = \left (\frac{m}{p} + \frac{i}{p}\right)
-% \overline{\left (\frac{m}{p} + \frac{i}{p}\right)}
-= \left( \frac{ai +b}{ci+d }\right) 
-\overline{\left( \frac{ai +b}{ci+d }\right)}
-= \frac{a^2 +b^2}{c^2+d^2 }
-$$
- now since $p = c^2 + d^2$ one has:
- \begin{eqnarray}
- m^2 + 1
-=  p(a^2 + b^2).
-\end{eqnarray}
-Thus $m$ determines a square root of $-1$ in $\fp$. 
-
-\section{Composite integers}
-
-It is well known that the set of integers $n$ 
-which can be written as a sum of squares 
-$c^2 + d^2$ with $c,d$ coprime is (almost) closed under
-multiplication:
-if $p,q$ are sums of squares and at least one is odd then the
-product is also a sum of squares. 
-For example one has
-$$50 = 5^2 \times 2 = | (1+2i)^2 (1+i) |^2 = |  -7 + i |^2 = 7^2 + 1^2 $$
-and
-$$65 = 5 \times 13 = | (1+2i)(2+3 i) |^2 = |  -4 + 7i |^2 = 7^2 + 4^2.$$
-but of course 
-$$ 20 = 2 \times 10= |(1 + i)(1+ 3i)|^2 = | -2 + 4i |^2 = 2^2 + 4^2.$$
-
-Despite this multiplication by $2$ seems to have a nice geometric interpretation
-in the spirit of our analysis of arcs but multiplication by $5$
-does not seem to have one.
-Let $p$ be a prime such that $p-1$ is a multiple of $4$
-and $m$ a square root of $-1$ then 
-$\frac{m}{p} + \frac{i}{p}$
-is a point of the $\g2$-orbit of $i$.
-The semi circle joining $\frac{m-1}{p}$ to  $\frac{m+1}{p}$
-has $\lambda$-length $2p$
-and passes through 
-$\frac{m}{p} + \frac{i}{p}$.
-So by Lemma \ref{squares} $2p$ is a sum of squares.
-
-It seems difficult to prove that $65$ is a sum of squares directly
-using our approach with Burnside's lemma and considering  the set
-$X$ of arcs of $\lambda$-length $65$. Naively applying Burnside's
-lemma yields:
-
-$$4 |X/G|   = \phi(65)+  |\{ x, x^2 = 1 \}| + |\{ x, x^2 = -1 \}| = 48 + 4 +  |\{ x, x^2 = -1 \}|.$$
-
 \subsubsection{The Ptolemy Identity and multiplicativity}
 
 
@@ -1150,14 +995,6 @@ which represents $p^2$ as a sum of squares.
 Note that this fails for $2$ as the initial arc joins $-1$ to $1$
 and so is invariant under $z \mapsto \bar{z}$.
 
-\section{Concluding remarks}
-
-We have given a geometric treatment of Fermat's theorem
-using the automorphisms of the surface
-$\xx$ and Penner's $\lambda$-lengths. In another work we will study
-the relation between the quadratic form $x^2 +xy + y^2$ and $\xx$.
-
-
 
 
 %  \begin{figure}[ht]
@@ -1211,14 +1048,13 @@ the relation between the quadratic form $x^2 +xy + y^2$ and $\xx$.
 
 \thebibliography{99}
 
-% \bibitem{aigner}
-% M. Aigner
-% \textit{Markov's Theorem and 100 Years of the Uniqueness Conjecture}, Springer( 2013)
+\bibitem{aigner}
+M Aigner
+\textit{Markov's Theorem and 100 Years of the Uniqueness Conjecture}, Springer( 2013)
 
 \bibitem{aigner2}
 Aigner M., Ziegler G.M.  
 \textit{Representing numbers as sums of two squares.} In: Proofs from THE BOOK. Springer, Berlin, Heidelberg. (2010)
-
 
 
 \bibitem{elsholtz}
@@ -1227,10 +1063,10 @@ Elsholtz C.A
  In: Chudnovsky D., Chudnovsky G. (eds) Additive Number Theory. Springer, New York, NY.
  (2010) 
 
-\bibitem{felikson}
-\textit{Ptolemy Relation and Friends,}
-Anna Felikson,
-preprint arXiv:2302.06379
+% \bibitem{felikson}
+% \textit{Ptolemy Relation and Friends,}
+% Anna Felikson,
+% preprint arXiv:2302.06379
 
 \bibitem{ford}
 Lester R Ford,
@@ -1255,6 +1091,12 @@ R. C. Penner,
 \textit{The decorated Teichmueller space of punctured surfaces}, 
 Communications in Mathematical Physics 113 (1987), 299–339.
 
+\bibitem{thesis}
+G. McShane,
+\textit{Simple geodesics and a series constant over Teichmuller space} Invent. Math. (1998)
+
+\bibitem{vlad}
+McShane, G., Sergiescu, V. (2025). Geometry of Fermat’s Sum of Squares. In: Funar, L., Papadopoulos, A. (eds) Essays on Topology. Springer, Cham. 
 
 \bibitem{north}
 Northshield, Sam. 
@@ -1284,10 +1126,10 @@ D. Zagier,
  \textit{A one-sentence proof that every prime p = 1 (mod 4) is a sum of two squares}, 
  American Mathematical Monthly, 97 (2): 144
  
- % \bibitem{zhang}
- % Ycdot zhang,
- % \textit{ An elementary proof of uniqueness of Markoff numbers}
- % preprint, arXiv:math.NT/0606283
+ \bibitem{zhang}
+ Ycdot zhang,
+ \textit{ An elementary proof of uniqueness of Markoff numbers}
+ preprint, arXiv:math.NT/0606283
  
   % \bibitem{zhang2}
   %  Ycdot zhang,
@@ -1297,11 +1139,13 @@ D. Zagier,
 
 
 
-%\bibitem{mcp}
-%Greg McShane, Hugo Parlier,
-%Multiplicities of simple closed geodesics and hypersurfaces in Teichmüller space,
-%Geom. Topol.
-%Volume 12, Number 4 (2008), 1883-1919.
+\bibitem{mcp}
+Greg McShane, Hugo Parlier,
+Multiplicities of simple closed geodesics and hypersurfaces in Teichmüller space,
+Geom. Topol.
+Volume 12, Number 4 (2008), 1883-1919.
+
+
 %
 %\bibitem{mcr}
 %Greg McShane, Igor Rivin
@@ -1328,19 +1172,6 @@ D. Zagier,
 %L. Guillop\'e, Laurent(F-GREN-F)
 %Sur la distribution des longueurs des g\'eod\'esiques ferm\'ees d'une surface compacte \`a bord totalement g\'eod\'esique. 
 %Duke Math. J. 53 (1986), no. 3, 827-848. 
-
-%\bibitem{MC}
-%C. L. Mallows and J. M. C. Clark. 
-%{\it Linear-intercept distributions do not characterize plane sets}
-% Journal of Applied Probability, 7(1):240-244, 1970.
-% 
-% \bibitem{Masai-McShane}
-% Masai, Hidetoshi and Greg McShane,
-% ``On systoles and ortho spectrum rigidity'', preprint.
-% \bibitem{MMc}
-% Masai, Hidetoshi, and Greg McShane. "Equidecomposability, volume formulae and ortho spectra." Algebraic \& Geometric Topology 13.6 (2013): 3135-3152.
- 
-
 
 
 \end{document}
