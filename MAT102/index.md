@@ -292,14 +292,13 @@ où :
 
 ### Annales
 
-<!-- - [quick test géométrie 2022](./qt3.pdf) -->
-<!-- - [quick test géométrie avec  correction  2024](./qt2_2024.pdf) -->
-<!-- - [quick test géométrie CB 2025](./cb_qt2_2025.pdf) -->
-<!--     - [correction](./cb_CC2_corr.html) -->
-<!-- - [quick test géométrie SPI  2025](./spi_qt2_2025.pdf) -->
-<!--     - [correction](./corr_spi_CC2_2025.html) -->
+- [quick test géométrie 2022](./qt3.pdf)
+- [quick test géométrie avec  correction  2024](./qt2_2024.pdf)
+- [quick test géométrie CB 2025](./cb_qt2_2025.pdf)
+    - [correction](./cb_CC2_corr.html)
+- [quick test géométrie SPI  2025](./spi_qt2_2025.pdf)
+    - [correction](./corr_spi_CC2_2025.html)
 
-<!-- --- -->
 
 ---
 ---
