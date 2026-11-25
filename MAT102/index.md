@@ -189,17 +189,25 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 
 
 
-<!-- ## [F4](./Fiche4-fonctions.pdf) -->
+## [F4](./Fiche4-fonctions.pdf)
 
 <!-- à faire pour le 28/11/2025 **12,13** -->
 
-<!-- - [exo 7&8](./sol_4_6.html) -->
-<!-- - [exo 9](./sol_4_9.html) -->
+- [exo 7&8](./sol_4_6.html)
+- [exo 9](./sol_4_9.html)
 <!-- - [exo 11](./sol_4_11.html) -->
 <!-- - [exo 14](./sol_4_14.html) -->
 <!-- - [exo 17&18](./sol_4_17.html) -->
 
-<!-- **Etude de fonctions** -->
+**Etude de fonctions**
+
+- domaine de définition
+- continuité
+    - limites
+- dérivabilité
+    - table de variation
+- limites en +/- infinity
+    - asymptotes
 
 <!-- - [exo 27](./sol_4_27.html) -->
 <!--     - [graph](https://www.wolframalpha.com/input?i=plot+%5Cfrac%7Be%5Ex+-+1%7D%7Be%5Ex+%2B+1%7D+from+-10+to+10) -->
