@@ -195,7 +195,7 @@ Résolution de l'équation \(Z^2 = 1 + i\) via deux méthodes : forme algébriqu
 
 - [exo 7&8](./sol_4_6.html)
 - [exo 9](./sol_4_9.html)
-<!-- - [exo 11](./sol_4_11.html) -->
+- [exo 11](./sol_4_11.html)
 <!-- - [exo 14](./sol_4_14.html) -->
 <!-- - [exo 17&18](./sol_4_17.html) -->
 
